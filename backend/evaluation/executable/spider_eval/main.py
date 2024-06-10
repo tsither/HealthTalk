@@ -125,6 +125,6 @@ if __name__ == "__main__":
 #   [table file]       table.json file which includes foreign key info of each database
   
 
-# python evaluation.py --gold /Users/mymac/LLM/Personal-Medical-Assistant/backend/evaluation/executable/spider_eval/eval_txts/meta-llama/Meta-Llama-3-70B-Instruct_gold_200.txt --pred /Users/mymac/LLM/Personal-Medical-Assistant/backend/evaluation/executable/spider_eval/eval_txts/meta-llama/Meta-Llama-3-70B-Instruct_pred_200.txt --etype "all"  --db /Users/mymac/LLM/spider/test_database --table /Users/mymac/LLM/spider/evaluation_examples/examples/tables.json
 
+# python /Users/mymac/LLM/spider/evaluation.py --gold /Users/mymac/LLM/Personal-Medical-Assistant/backend/evaluation/executable/spider_eval/eval_txts/mistralai/Mistral-7B-Instruct-v0.1_gold_200.txt --pred /Users/mymac/LLM/Personal-Medical-Assistant/backend/evaluation/executable/spider_eval/eval_txts/mistralai/Mistral-7B-Instruct-v0.1_pred_200.txt --etype "all"  --db /Users/mymac/LLM/spider/test_database --table /Users/mymac/LLM/spider/evaluation_examples/examples/tables.json
 
