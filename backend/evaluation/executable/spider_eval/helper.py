@@ -182,7 +182,7 @@ def write_to_txt(elements, filename, pred):
     Write elements in list to text file (if pred file then include count)
 
     """
-    if pred:
+    if pred:            #if running a predictions txt, add integer at the end
         with open(filename, 'w') as file:
             count = 0
             for element in elements:
