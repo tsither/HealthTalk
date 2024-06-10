@@ -31,7 +31,7 @@ Spider Dataset: https://github.com/taoyds/spider
 
 Mistralai and llama3 70B are the best performers on 200 queries out of the box (no fine-tuning or training)
 
-Count: (number of queries organized by difficult - true for all runs except phi3 model)
+Count: (number of queries organized by difficultly - true for all runs except phi3 model)
 - easy --> 52
 - medium --> 102
 - hard --> 30
