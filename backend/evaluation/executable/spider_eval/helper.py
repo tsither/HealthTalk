@@ -129,7 +129,7 @@ def generate_query(schema, template, llm, question, ollama):
         prompt = template.format(schema=schema,question=question)       #format template to include all necessary information (schema, question)
         sql_query = llm.chat_completion(prompt, question)               #generates sql sql_query
 
-        return sql_query
+    return sql_query
 
 
 def clean_pred_txt(prediction_txt_file):

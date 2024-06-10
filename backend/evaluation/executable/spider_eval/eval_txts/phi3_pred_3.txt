@@ -1,0 +1,4 @@
+ SELECT "Title" FROM Cartoon ORDER BY "Title";
+  SELECT "Title" FROM "Cartoon" ORDER BY "Title";
+  SELECT * FROM Cartoon WHERE Directed_by = 'Ben Jones';
+

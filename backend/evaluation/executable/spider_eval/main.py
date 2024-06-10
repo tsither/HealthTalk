@@ -4,8 +4,6 @@ Description: This file takes an LLM and generates a chain to predict SQL queries
 Author: Ted Sither
 Date: 2024-06-08
 """
-
-
 from langchain_community.llms import Ollama
 from datasets import load_dataset
 import os
@@ -22,10 +20,10 @@ ANYSCALE_API_KEY= os.getenv("ANYSCALE_API_KEY").strip()
 #3 Choose llm 
 
 #1 Choose whether or not to use LLM from ollama
-OLLAMA = False          
+OLLAMA = True          
 
 #2 Choose number of queries you want to evaluate
-NUMBER_OF_QUERIES = 200
+NUMBER_OF_QUERIES = 3
 
 if OLLAMA:
 
