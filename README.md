@@ -23,3 +23,5 @@ Edit file to modify specific details like:
 
 Important: 
     This file only creates queries formatted to be evaluated. Formal evaluation is done using the Spider dataset functionality in their 'evaluation.py' module. Therefore, it is necessary to download Spider dataset repository from github to run the evaluation.  
+
+Spider Dataset: https://github.com/taoyds/spider
