@@ -64,11 +64,11 @@ all - 0.285
 
 Meta-Llama-3-8B-Instruct: (200 queries) 
 
-Execution Accuracy:
-easy - 0.481 
-medium - 0.196  
-hard - 0.133
-extra -  0.000
+Execution Accuracy
+- easy --> 0.481 
+- medium > 0.196  
+- hard - 0.133
+- extra -  0.000
 all - 0.245  
 
 *****************************************************
