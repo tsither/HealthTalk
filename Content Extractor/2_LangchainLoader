@@ -1,1 +1,56 @@
+import os
+from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain_community.document_loaders.csv_loader import CSVLoader
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.embeddings import AnyscaleEmbeddings
+from langchain_chroma import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from pinecone import Pinecone, ServerlessSpec
+import pandas as pd 
 
+
+import torch
+import tensorflow
+import flax
+
+# Set API keys | Embedding Model & Vector Storage 
+os.environ["ANYSCALE_API_KEY"] = ""
+os.environ["PINECONE_API_KEY"] = ""
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+# Load PDF
+pdf_loader = PyMuPDFLoader('Sample_Blood.pdf')
+Blood_reports = pdf_loader.load()
+
+# Text splitting 
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
+pdf_doc = text_splitter.split_documents(Blood_reports)
+
+# Create embeddings | Anyscale impklementation
+api_key = os.getenv("ANYSCALE_API_KEY")
+
+embeddings = AnyscaleEmbeddings(
+    anyscale_api_key=api_key, model="thenlper/gte-large"
+)
+
+### STILL NOT FULLY WORKING at present commented out 
+
+# Storage | Exploring pinecone vs. chroma implementations 
+#db = Chroma.from_documents(pdf_doc, embeddings)
+'''
+
+pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
+
+index_name = "lmms1"
+
+if index_name not in pc.list_indexes().names():
+    pc.create_index(
+        name="lmms1",
+        dimension=1536, 
+        metric="cosine", 
+        spec=ServerlessSpec(
+            cloud="aws", 
+            region="us-east-1"
+        ) 
+    ) '''
