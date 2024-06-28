@@ -1,7 +1,7 @@
-from utils import read_image, save_image, show_image, get_image_files
+from utils_preprocessing import read_image, save_image, show_image, get_image_files
 from preprocessing import Binarization, SkewCorrection, NoiseRemoval
-from ocr import TesseractOCR
-from postprocessing import GrammarCorrection, ResultExtraction, LLMProcessor
+# from ocr import TesseractOCR
+# from postprocessing import GrammarCorrection, ResultExtraction, LLMProcessor
 
 def test_configuration(image_path, preprocess_methods, ocr_method, postprocess_methods):
     image = read_image(image_path)
@@ -27,19 +27,19 @@ def main():
         
         image_file = read_image(image_file)
         
-        binarization = Binarization()
-        correct = binarization.basic(image_file)
+        correct = Binarization().basic(image_file)
+        show_image(correct)
 
-        skew_correction = SkewCorrection()
-        correct = skew_correction.boxes(correct)
+        # skew_correction = SkewCorrection()
+        # correct = skew_correction.boxes(correct)
 
-        noise_removal = NoiseRemoval()
+        # noise_removal = NoiseRemoval()
         #show_image(noise_removal.unsharp_filter(correct))
 
-        tesseract = TesseractOCR()
-        text_tesseract = tesseract.process(correct)
-        print("Tesseract OCR:")
-        print(text_tesseract)
+        #tesseract = TesseractOCR()
+        # text_tesseract = tesseract.process(correct)
+        # print("Tesseract OCR:")
+        # print(text_tesseract)
         
         print("-" * 50)
 
