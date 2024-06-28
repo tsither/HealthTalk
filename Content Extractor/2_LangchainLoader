@@ -1,4 +1,8 @@
 
+'''This code sets up a retrieval-augmented generation system using Anyscale's LLM and Pinecone for document retrieval, 
+making it suitable for querying and generating responses based on the uploaded dataset.
+'''
+
 ### STEP 1 : Set up your environment 
 
 import os
@@ -10,26 +14,26 @@ import pandas as pd
 
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import PyMuPDFLoader
-from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.embeddings import AnyscaleEmbeddings
 from langchain_chroma import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from pinecone import Pinecone, ServerlessSpec
 from langchain_community.vectorstores import Pinecone as PineconeStore 
-
+from langchain_community.chat_models import ChatAnyscale
+from langchain.chains import create_retrieval_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.prompts import ChatPromptTemplate
 
 # Set API keys | Embedding Model & Vector Storage 
 os.environ["ANYSCALE_API_KEY"] = ""
 os.environ["PINECONE_API_KEY"] = ""
-
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 ### STEP 2 : Store knowledge in Pinecone 
 
 ## 2.1 Load your data [pdf]
-#pdf_loader = PyMuPDFLoader('Sample_Blood.pdf')
-pdf_loader = PyMuPDFLoader('')
+pdf_loader = PyMuPDFLoader('Sample_Blood.pdf')
 Blood_reports = pdf_loader.load()
 
 ## 2.2 Text splitting [Based on chunks]
@@ -47,11 +51,11 @@ embeddings = AnyscaleEmbeddings(
 
 pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
 
-index_name = "llms2"
+index_name = "PP"
 
 if index_name not in pc.list_indexes().names():
     pc.create_index(
-        name="lmms1",
+        name="PP",
         dimension=1024, 
         metric="cosine", 
         spec=ServerlessSpec(
@@ -63,9 +67,8 @@ if index_name not in pc.list_indexes().names():
 ## 2.5 Embed each chunk and upsert the embeddings into a distinct namespace
 # Namespaces let you partition records within an index
 
-namespace = "LMMS2"
-
-docsearch = PineconeStore.from_documents(
+namespace = "PP1"
+pineconeVector = PineconeStore.from_documents(
     documents=pdf_doc,
     index_name=index_name,
     embedding=embeddings, 
@@ -74,35 +77,45 @@ docsearch = PineconeStore.from_documents(
 
 time.sleep(1)
 
-## 2.6 Use Pinecone’s list and query operations to look at one of the records
-
-index = pc.Index(index_name)
-
-for ids in index.list(namespace=namespace):
-    query = index.query(
-        id=ids[0], 
-        namespace=namespace, 
-        top_k=1,
-        include_values=True,
-        include_metadata=True
-    )
-    print(query)
 
 ### Step 3 : Use the Chatbot 
 
-## 3.1 Initialize a LangChain object 
-# This object is for chatting with the gpt-3.5-turbo LLM and for including relevant context from Pinecone
+## 3.1 Initialize the language model with Anyscale
+llm = ChatAnyscale(anyscale_api_key=os.getenv('ANYSCALE_API_KEY'), model = 'thenlper/gte-large')
 
+# Initialize the Pinecone retriever
+retriever = pineconeVector.as_retriever()
+docs = retriever.invoke("what did he say about ketanji brown jackson")
 
-## 3.2 Define a few questions about the specific Namespace  
-# These questions require specific, private knowledge of the product, which the LLM does not have by default.
+# Define the system prompt | system prompt to instruct the language model on how to use the context to answer the question.
+system_prompt = (
+    "Use the given context to answer the question. "
+    "If you don't know the answer, say you don't know. "
+    "Use three sentences maximum and keep the answer concise. "
+    "Context: {context}"
+)
 
-## 3.3 Send query1 to the LLM twice
-# First with relevant knowledge from Pincone and then without any additional knowledge
+# Create the prompt template | prompt template that combines the system instructions and the human input.
+prompt = ChatPromptTemplate.from_messages(
+    [
+        ("system", system_prompt),
+        ("human", "{input}"),
+    ]
+)
+# Create the question-answer chain | creates a chain that combines documents (retrieved context) and generates an answer using the language model
+question_answer_chain = create_stuff_documents_chain(llm, prompt)
 
-## 3.4 Now repeat the process with query2
+# Create the retrieval chain | chain integrates the retriever (for fetching relevant documents) and the question-answer chain
+chain = create_retrieval_chain(retriever, question_answer_chain)
 
+# Query1 input
+query =  "What is the hemoglobin count of Yash?"
+#query2 = "What type of information is provided in this document?"
 
-# Check: The first response should provide very accurate response, matching closely the information in the WonderVector5000 document, while the second response sounds convincing but is generic and inaccurate.
+# Invoke the chain with the query
+response = chain.invoke({"input": query})
+
+# Print the response
+print(response)
 
 
