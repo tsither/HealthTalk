@@ -32,8 +32,8 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
 # Set up API keys | Anyscale & Pinecone  
-os.environ["ANYSCALE_API_KEY"] = "esecret_rmi8b5f6k8futu4q4gfqcrrgrs"
-os.environ["PINECONE_API_KEY"] = "94a7874f-aa9e-43d8-86e1-43a86e2a4c31"
+os.environ["ANYSCALE_API_KEY"] = ""
+os.environ["PINECONE_API_KEY"] = ""
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 ### STEP 2 : Store knowledge in Pinecone 
