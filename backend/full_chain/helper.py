@@ -104,7 +104,7 @@ def generate_response(llm, query, template, question, db):
 
     executed_query = run_query(query, db=db)    #execute query on database
 
-    print(f"\nExecuted query: {executed_query}\n")
+    # print(f"\nExecuted query: {executed_query}\n")
 
     formatted_template = template.format(question=question, query=query, executed_query=executed_query)     #format template to include new information
 
