@@ -346,12 +346,12 @@ class NoiseRemoval:
 
 
 def main():
-    binarization_methods = ["basic", "otsu", "adaptive_mean",
-                            "adaptive_gaussian", "yannihorne", "niblack"]
-    skew_correction_methods = [
-        "boxes", "hough_transform", "moments", "topline", "scanline"]
+    binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+
+    skew_correction_methods = ["boxes", "hough_transform", "moments", "topline", "scanline"]
+
     noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter",
-                             "laplacian_filter", "frequency_filter", "crimmins_speckle_removal", "unsharp_filter"]
+                            "laplacian_filter", "frequency_filter", "crimmins_speckle_removal", "unsharp_filter"]
 
     # Generate all possible configurations
     configurations = [

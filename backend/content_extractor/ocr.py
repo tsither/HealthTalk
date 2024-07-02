@@ -85,13 +85,16 @@ def main():
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
         "KerasOCR": KerasOCR.process,
-        "EasyOCR": EasyOCR.process,
-        "PaddleOCR": PaddlePaddle.process,
-        "docTR": docTR.process
     }
+
+    """
+    "EasyOCR": EasyOCR.process,
+    "PaddleOCR": PaddlePaddle.process,
+    "docTR": docTR.process
+    """
     
     # Define the directory containing image files
-    image_files = get_image_files("./data/images/ocr")
+    image_files = get_image_files("./results/images/preprocessed")
     processed_dir = "./results/txt/extracted/"
     log_file_path = os.path.join(processed_dir, "ocr_results_log.txt")
     
@@ -103,6 +106,8 @@ def main():
             
             for method_name, method in ocr_methods.items():
                 output = method(image_path)
+                print(f"Method: {method_name}")
+                print(f"Output: {str(output)}")
                 log_file.write(f"File: {image_file} - Config: {method_name} - [{output}]\n")
                 
             log_file.write("-" * 50 + "\n")

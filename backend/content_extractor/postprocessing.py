@@ -1,38 +1,111 @@
 import re
-from ollama import Client
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+from utils_postprocessing import parse_ocr_results
+import json
 
-class GrammarCorrection:
-    @staticmethod
-    def basic_rules(text):
-        # Implement basic grammar correction rules
-        pass
 
-class ResultExtraction:
-    @staticmethod
-    def regex(text):
-        # Implement regex-based result extraction
-        pass
+class AnyScaleLLM():
+    def __init__(self, model_name, api_key, base_url="https://api.endpoints.anyscale.com/v1"):
+        self.base_url = base_url
+        self.api_key = api_key
+        self.model_name = model_name
 
-class LLMProcessor:
-    client = Client()
-    
-    @staticmethod
-    def extract_and_structure(text, model="llama2"):
-        prompt = f"""
-        Extract the following information from the given text of a blood test result:
-        - Date
-        - Glucose level
-        - Magnesium level
-        - Vitamin D level
-        - Any other test results present
+    def chat_completion(self, prompt, question):
 
-        Format the output as a CSV string with headers.
+        client = OpenAI(
+            base_url=self.base_url,
+            api_key=self.api_key
+        )
 
-        Text:
-        {text}
-        """
+        chat_completion = client.chat.completions.create(
+            model=self.model_name,
+            messages=[{"role": "system", "content": prompt},
+                      {"role": "user", "content": question}],
+            temperature=0.1
+
+        )
+
+        response = chat_completion.choices[0].message.content
+
+        return response
+
+    def extract_test_results(self, ocr_text):
+        # TODO: Remove
+        ocr_text = """
+        Blood Test Results
+        Date: 2023-07-15
+        Patient: John Doe
         
-        response = LLMProcessor.client.generate(model=model, prompt=prompt)
-        return response['response']
+        Glucose: 95 mg/dL (Reference: 70-100 mg/dL)
+        Cholesterol: 180 mg/dL (Reference: <200 mg/dL)
+        Hemoglobin: 14.5 g/dL (Reference: 13.5-17.5 g/dL)
+        """
 
-# Add more postprocessing classes as needed
+        prompt = """
+        You are an expert in analyzing blood test results. Given the following text extracted from a blood test report, 
+        please extract and structure the following information:
+        - Date of the test
+        - Patient information (if available)
+        - Test results, including:
+            - Test name
+            - Result value
+            - Unit of measurement
+            - Reference range (if available)
+        
+        Format the output as a JSON object. If a piece of information is not available, use null for its value. JUST GIVE THE JSON. DO NOT MAKE ANY OTHER COMMENT.
+        """
+
+        response = self.chat_completion(prompt, ocr_text)
+
+        return response
+
+    def read_txt_file(self, file_path):
+        ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
+
+        for key, value in ocr_results.items():
+            structured_results = self.extract_test_results(
+                ocr_results[key]["Input"])
+            ocr_results[key]["Output"] = structured_results
+
+        return ocr_results
+
+
+def main():
+    load_dotenv('./postprocessing_venv/key.env')  # Load the .env file
+
+    ANYSCALE_API_KEY = os.getenv('API_KEY')  # Access the API key
+    models = {
+        "meta-llama/Meta-Llama-3-8B-Instruct": "Llama37B",
+        "mistralai/Mistral-7B-Instruct-v0.1": "Mistral7B",
+        "google/gemma-7b-it": "Gemma7B"
+    }
+
+    for key, model in models.items():
+        print(f"Testing model: {model}")
+        llm = AnyScaleLLM(model_name=key, api_key=ANYSCALE_API_KEY)
+        output = llm.read_txt_file(
+            "./results/txt/extracted/ocr_results_log.txt")
+
+        for key, value in output.items():
+            print(f"Processing file {key}")
+            filename = os.path.splitext(os.path.basename(key))[0]
+            config_name = output[key]["Config"]
+
+            pathfile = f"{filename}_{config_name}_{model}"
+            file_name_json = f"./results/txt/extracted/{pathfile}.json"
+            with open(file_name_json, 'w', encoding='utf-8') as f:
+                try:
+                    json_object = json.loads(output[key]["Output"])
+                except Exception as e:
+                    print(f"ERROR: {e}")
+                    answer = str(output[key]["Output"])
+                    print(f"Original answer: {answer}")
+                    continue
+                json.dump(json_object, f, ensure_ascii=False, indent=4)
+                print(f"Results saved in: {file_name_json}\n")
+
+
+if __name__ == "__main__":
+    main()
