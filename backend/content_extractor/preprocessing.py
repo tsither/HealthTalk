@@ -365,7 +365,7 @@ def main():
         for bin_method, skew_method, noise_method in itertools.product(binarization_methods, skew_correction_methods, noise_removal_methods)
     ]
 
-    image_files = get_image_files("./data/images/skew")
+    image_files = get_image_files("./data/images/")
     processed_dir = "./results/images/preprocessed/"
     log_file_path = os.path.join(processed_dir, "processing_log.txt")
 
