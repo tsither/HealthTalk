@@ -85,18 +85,18 @@ def main():
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
         "KerasOCR": KerasOCR.process,
+        "EasyOCR": EasyOCR.process,
+        "PaddleOCR": PaddlePaddle.process,
+        "docTR": docTR.process
     }
 
-    """
-    "EasyOCR": EasyOCR.process,
-    "PaddleOCR": PaddlePaddle.process,
-    "docTR": docTR.process
-    """
     
     # Define the directory containing image files
-    image_files = get_image_files("./results/images/preprocessed")
+    image_files = get_image_files("./results/images/preprocessed/")
     processed_dir = "./results/txt/extracted/"
     log_file_path = os.path.join(processed_dir, "ocr_results_log.txt")
+
+    os.makedirs(processed_dir, exist_ok=True)
     
     with open(log_file_path, 'w') as log_file:
         for image_file in image_files:

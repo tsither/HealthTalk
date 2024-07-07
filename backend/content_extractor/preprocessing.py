@@ -2,6 +2,7 @@ from utils_preprocessing import read_image, save_image, show_image, get_image_fi
 from skimage.filters import threshold_niblack
 import numpy as np
 import math
+import time
 import os
 import itertools
 import cv2
@@ -380,17 +381,25 @@ def main():
                 processed_image = image
                 techniques = []
                 for step, method in config["preprocess"]:
+                    start = time.time()
                     processed_image = getattr(step, method)(processed_image)
                     techniques.append(f"{step.__name__}.{method}")
+                    end = time.time()
+
+                time_elapsed = end - start
+                #time_elapsed = float(time_elapsed*1000)
 
                 filepath = os.path.join(
-                    processed_dir, f"{image_file.stem}_config{idx}{image_file.suffix}")
+                    processed_dir, f"{image_file.stem}_config{idx}.tiff")
                 save_image(processed_image, filepath)
                 log_file.write(
-                    f"{image_file.name} - Config {idx}: {', '.join(techniques)}\n")
+                    f"{image_file.name} - Time needed: {time_elapsed} Config {idx}: {', '.join(techniques)}\n")
+                log_file.flush()
                 print(f"Saved processed image to: {filepath}")
+                print(f"Time nedded: {round(time_elapsed, 5)}")
                 print(f"Logged processing details for Config {idx}: {', '.join(techniques)}")
                 print("-" * 50)
+                
 
     print(f"Processing log saved to: {log_file_path}")
 
