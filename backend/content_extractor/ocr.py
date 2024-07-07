@@ -3,6 +3,8 @@ from paddleocr import PaddleOCR
 from doctr.io import DocumentFile
 from doctr.models import ocr_predictor
 from PIL import Image
+import torch
+import time
 import pytesseract
 import keras_ocr
 import easyocr
@@ -20,6 +22,7 @@ class TesseractOCR:
 class KerasOCR:
     @staticmethod
     def process(image):
+        torch.cuda.empty_cache()
         pipeline = keras_ocr.pipeline.Pipeline()
         read_image = keras_ocr.tools.read(image)
         prediction_groups = pipeline.recognize([read_image])
@@ -40,7 +43,8 @@ class KerasOCR:
 class EasyOCR:
     @staticmethod
     def process(image):
-        reader = easyocr.Reader(['en'], gpu=False)
+        torch.cuda.empty_cache()
+        reader = easyocr.Reader(['en'], gpu=True)
         result = reader.readtext(image)
         output = [j for _, j, _ in result]
         return " ".join(output)
@@ -51,7 +55,7 @@ class PaddlePaddle:
     def process(image):
         # need to run only once to download and load model into memory
         ocr = PaddleOCR(use_angle_cls=True, lang='en',
-                     use_gpu=False, show_log=False)
+                     use_gpu=True, show_log=False)
         result = ocr.ocr(image, cls=True, det=True, rec=True)
         output = [j[1][0] for i in result for j in i]
         return " ".join(output)
@@ -101,17 +105,33 @@ def main():
     with open(log_file_path, 'w') as log_file:
         for image_file in image_files:
             image_path = os.path.join(os.getcwd(), image_file)
-            #log_file.write(f"Processing file: {image_file}\n")
             print(f"Processing file: {image_file}")
             
             for method_name, method in ocr_methods.items():
-                output = method(image_path)
+                start = time.time()
+                try:
+                    output = method(image_path)
+                except ValueError as ve:
+                    if "unable to read file" in str(ve):
+                        print(f'COMMON ERROR: {ve}')
+                except Exception as e:
+                    if "CUDA out of memory" in str(e):
+                        print(f'COMMON ERROR: {e}')
+                    elif "can not handle images with 32-bit samples" in str(e):
+                        print(f'COMMON ERROR: {e}')
+                    else:
+                        print(f'NEW ERROR: {e}')
+
+                end = time.time()
+                time_elapsed = end - start
                 print(f"Method: {method_name}")
+                print(f"Time nedded: {round(time_elapsed, 5)}")
                 print(f"Output: {str(output)}")
-                log_file.write(f"File: {image_file} - Config: {method_name} - [{output}]\n")
+                log_file.write(f"File: {image_file} - Time needed: {time_elapsed} - Config: {method_name} - [{output}]\n")
+                log_file.flush()
                 
-            log_file.write("-" * 50 + "\n")
             print(f"Logged results for: {image_file}\n")
+            print("-" * 50)
     
     print(f"Processing log saved to: {log_file_path}")
 

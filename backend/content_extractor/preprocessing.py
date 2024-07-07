@@ -314,13 +314,13 @@ class NoiseRemoval:
         for _ in range(2):
             for i in range(1, image.shape[0] - 1):
                 for j in range(1, image.shape[1] - 1):
-                    # current_iteration += 1
-                    # if current_iteration == total_iterations // 4:
-                    #     print("25%")
-                    # elif current_iteration == total_iterations // 2:
-                    #     print("50%")
-                    # elif current_iteration == 3 * (total_iterations // 4):
-                    #     print("75%")
+                    current_iteration += 1
+                    if current_iteration == total_iterations // 4:
+                        print("Loading: 25%")
+                    elif current_iteration == total_iterations // 2:
+                        print("Loading: 50%")
+                    elif current_iteration == 3 * (total_iterations // 4):
+                        print("Loading: 75%")
 
                     current_pixel = output[i, j]
                     neighbors = [output[i-1, j], output[i+1, j],
@@ -329,7 +329,7 @@ class NoiseRemoval:
                     if abs(current_pixel - med) > abs(current_pixel - np.mean(neighbors)):
                         output[i, j] = med
 
-        # print("100%")
+        print("Loading: 100%")
         return output.astype(np.uint8)
 
     @staticmethod
@@ -368,7 +368,7 @@ def main():
 
     image_files = get_image_files("./data/images/")
     processed_dir = "./results/images/preprocessed/"
-    log_file_path = os.path.join(processed_dir, "processing_log.txt")
+    log_file_path = os.path.join(processed_dir, "preprocessing_log.txt")
 
     os.makedirs(processed_dir, exist_ok=True)
 
@@ -393,7 +393,7 @@ def main():
                     processed_dir, f"{image_file.stem}_config{idx}.tiff")
                 save_image(processed_image, filepath)
                 log_file.write(
-                    f"{image_file.name} - Time needed: {time_elapsed} Config {idx}: {', '.join(techniques)}\n")
+                    f"{image_file.name} - Time needed: {time_elapsed} - Config {idx}: {', '.join(techniques)}\n")
                 log_file.flush()
                 print(f"Saved processed image to: {filepath}")
                 print(f"Time nedded: {round(time_elapsed, 5)}")

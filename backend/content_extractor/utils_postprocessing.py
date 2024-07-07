@@ -6,15 +6,14 @@ def parse_ocr_results(file_path):
         content = file.read()
 
     # Regular expression to match each entry
-    pattern = r'File: (.*?) - Config: (.*?) - \[(.*?)\]'
+    pattern = r'File: (.*?) - Time needed: (.*?) - Config: (.*?) - \[(.*?)\]'
     
     # Find all matches
     matches = re.findall(pattern, content, re.DOTALL)
 
     # Organize the results
     results = defaultdict(dict)
-    for file_path, config, text in matches:
-        # Clean up the text (remove extra whitespace and newlines)
+    for file_path, time, config, text in matches:
         clean_text = ' '.join(text.split())
         results[file_path]["Config"] = config
         results[file_path]["Input"] = clean_text

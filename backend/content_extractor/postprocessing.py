@@ -1,5 +1,6 @@
 import re
 import os
+import time
 from dotenv import load_dotenv
 from openai import OpenAI
 from utils_postprocessing import parse_ocr_results
@@ -24,7 +25,6 @@ class AnyScaleLLM():
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": question}],
             temperature=0.1
-
         )
 
         response = chat_completion.choices[0].message.content
@@ -32,20 +32,10 @@ class AnyScaleLLM():
         return response
 
     def extract_test_results(self, ocr_text):
-        # TODO: Remove
-        ocr_text = """
-        Blood Test Results
-        Date: 2023-07-15
-        Patient: John Doe
-        
-        Glucose: 95 mg/dL (Reference: 70-100 mg/dL)
-        Cholesterol: 180 mg/dL (Reference: <200 mg/dL)
-        Hemoglobin: 14.5 g/dL (Reference: 13.5-17.5 g/dL)
-        """
-
         prompt = """
-        You are an expert in analyzing blood test results. Given the following text extracted from a blood test report, 
-        please extract and structure the following information:
+        CONTEXT: You are an expert in analyzing blood test results in a laboratory. Your work is extremely important and will be used in a life or death situation.  
+
+        TASK: Given the following text extracted from a blood test report, please extract and structure the following information:
         - Date of the test
         - Patient information (if available)
         - Test results, including:
@@ -53,10 +43,10 @@ class AnyScaleLLM():
             - Result value
             - Unit of measurement
             - Reference range (if available)
-        
-        Format the output as a JSON object. If a piece of information is not available, use null for its value. JUST GIVE THE JSON. DO NOT MAKE ANY OTHER COMMENT.
-        """
+        Format the output as a JSON object. If a piece of information is not available, use null for its value.
 
+        IMPORTANT: Just return the JSON object. Do not make any further comment. Otherwise, the patient will die.
+        """
         response = self.chat_completion(prompt, ocr_text)
 
         return response
@@ -65,8 +55,7 @@ class AnyScaleLLM():
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
 
         for key, value in ocr_results.items():
-            structured_results = self.extract_test_results(
-                ocr_results[key]["Input"])
+            structured_results = self.extract_test_results(ocr_results[key]["Input"])
             ocr_results[key]["Output"] = structured_results
 
         return ocr_results
