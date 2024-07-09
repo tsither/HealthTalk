@@ -1,0 +1,47 @@
+{
+    "date_of_test": null,
+    "patient_information": {
+        "patient_id": "0912345678 0123456789",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 27.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 37,
+            "unit_of_measurement": "%",
+            "reference_range": "Borderline"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 150000,
+            "unit_of_measurement": "per unit",
+            "reference_range": null
+        }
+    ]
+}
