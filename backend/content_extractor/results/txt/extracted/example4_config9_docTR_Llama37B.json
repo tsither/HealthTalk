@@ -1,75 +1,37 @@
 {
-    "date_of_test": null,
-    "patient_info": null,
+    "date_of_test": "05/22",
+    "patient_information": {
+        "name": "Patel",
+        "age": 52,
+        "sex": "Male"
+    },
     "test_results": [
         {
-            "test_name": "A Le A",
+            "test_name": "Blood High",
+            "result_value": 14.0,
+            "unit_of_measurement": "M",
+            "reference_range": "32.5 - 27"
+        },
+        {
+            "test_name": "Hb",
+            "result_value": 13.6,
+            "unit_of_measurement": "000 (Hb)",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
             "result_value": null,
             "unit_of_measurement": null,
             "reference_range": null
         },
         {
-            "test_name": "so - a - A C C pord C RE PO",
+            "test_name": "Vol Cell COUNT",
             "result_value": null,
             "unit_of_measurement": null,
             "reference_range": null
         },
         {
-            "test_name": "cr sae d J / cO D",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "f A 1SO 3 SE t so a 4 oo Aob 4 e AO RNh S Decn DV o 0P 5 AN 1",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "o o deS / se Der / ofo & Do de ofo S ofo ofo ojo olo ofo S Ses A ot sre d à oi",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "Reh a Ser 1 d aed ao 6ot 6 Sro n Ren ven 30 Rao oo sd - Ro sto SRe AtO Ne",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "se do eoc Do Do O Se eo S Ree vee 40 d cet s 60 20 MRE d",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "Sr 00 - - 6f f Ef D80 1 RC Voo A Ce 8",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "s % o pase * Ere S RN o 1 Vo apet Se Der S / of / Srs Rer / a 1 NrO",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "4 008O 6 n5 - 1 OA A 200 o E y Ao 4 Ce so",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "6 Cec X dS oS MO RON MO MrO lo lis 1 6E V Co V 3 RA SA",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "<o / 1 A / A 3 V h K Den S",
+            "test_name": "Collection",
             "result_value": null,
             "unit_of_measurement": null,
             "reference_range": null

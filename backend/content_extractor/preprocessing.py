@@ -6,6 +6,7 @@ import time
 import os
 import itertools
 import cv2
+from pdf2image import convert_from_path
 
 
 class Binarization:
@@ -120,8 +121,12 @@ class SkewCorrection:
             lines = cv2.HoughLinesP(
                 edges, 1, np.pi/180, 100, minLineLength=10, maxLineGap=250)
             angle = 0.0
-            nb_lines = len(lines)
 
+            try:
+                nb_lines = len(lines)
+            except TypeError as e:
+                print(f"COMMON ERROR: {e}")
+            
             for line in lines:
                 angle += math.atan2(line[0][3]*1.0 - line[0]
                                     [1]*1.0, line[0][2]*1.0 - line[0][0]*1.0)
@@ -133,7 +138,12 @@ class SkewCorrection:
         (h, w) = image.shape[:2]
         center = (w // 2, h // 2)
 
-        M = cv2.getRotationMatrix2D(center, compute_skew(image), 1.0)
+        try:
+            M = cv2.getRotationMatrix2D(center, compute_skew(image), 1.0)
+        except Exception as e:
+            print(f"NEW ERROR: {e}")
+            return image
+            
         # Adjust the bounding box size to fit the entire rotated image
         cos = np.abs(M[0, 0])
         sin = np.abs(M[0, 1])
@@ -374,12 +384,18 @@ def main():
 
     with open(log_file_path, 'w') as log_file:
         for image_file in image_files:
+            if "pdf" in str(image_file):
+                # TODO: FIX
+                continue
+
             print(f"Processing: {image_file.name}")
             image = read_image(image_file)
 
             for idx, config in enumerate(configurations):
+
                 processed_image = image
                 techniques = []
+
                 for step, method in config["preprocess"]:
                     start = time.time()
                     processed_image = getattr(step, method)(processed_image)
@@ -387,7 +403,6 @@ def main():
                     end = time.time()
 
                 time_elapsed = end - start
-                #time_elapsed = float(time_elapsed*1000)
 
                 filepath = os.path.join(
                     processed_dir, f"{image_file.stem}_config{idx}.tiff")
@@ -402,9 +417,6 @@ def main():
                 
 
     print(f"Processing log saved to: {log_file_path}")
-
-    print(f"Processing log saved to: {log_file_path}")
-
 
 if __name__ == "__main__":
     main()

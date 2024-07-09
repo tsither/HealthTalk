@@ -18,12 +18,14 @@ def show_image(image):
     plt.show()
 
 def get_image_files(directory):
-    SUPPORTED_FORMATS = ['.png', '.jpg', '.jpeg', '.webp', '.tiff', '.bmp']
+    SUPPORTED_FORMATS = ['.png', '.jpg', '.jpeg', '.webp', '.tiff', '.bmp', '.pdf']
     image_files = []
     for file in Path(directory).iterdir():
         if file.is_file() and file.suffix.lower() in SUPPORTED_FORMATS:
             image_files.append(file)
-    return image_files
+
+    output = sorted(image_files)
+    return output
 
 @staticmethod
 def is_grayscale(image):
@@ -33,4 +35,5 @@ def is_grayscale(image):
 def to_grayscale(image):
     if not is_grayscale(image):
         return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    
     return image

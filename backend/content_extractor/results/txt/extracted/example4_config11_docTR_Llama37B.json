@@ -1,66 +1,23 @@
 {
-    "date_of_test": null,
-    "patient_information": null,
+    "date_of_test": "02 Dec, 202X",
+    "patient_information": {
+        "name": "Yash Patel",
+        "age": "52",
+        "sex": null,
+        "address": "MUMBAI 0 thology Lab 03 3 At."
+    },
     "test_results": [
         {
-            "test_name": "RE PP",
-            "result_value": "30",
-            "unit_of_measurement": "Rao",
-            "reference_range": null
-        },
-        {
-            "test_name": "AtO Ne",
-            "result_value": "135",
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "MRE d",
-            "result_value": "60",
-            "unit_of_measurement": "20",
-            "reference_range": null
-        },
-        {
-            "test_name": "Ser 00",
-            "result_value": "6",
-            "unit_of_measurement": "Ef",
-            "reference_range": null
-        },
-        {
-            "test_name": "D80",
-            "result_value": "0080",
-            "unit_of_measurement": null,
-            "reference_range": null
-        },
-        {
-            "test_name": "R Voo A Ce",
-            "result_value": "6",
-            "unit_of_measurement": "n3",
-            "reference_range": null
-        },
-        {
-            "test_name": "Or A Cec",
-            "result_value": "1",
-            "unit_of_measurement": "%",
-            "reference_range": null
-        },
-        {
-            "test_name": "MrO RON BS",
+            "test_name": "Count WBC",
             "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
+            "unit_of_measurement": "mcV",
+            "reference_range": "13.0 - 45"
         },
         {
-            "test_name": "MO roo lis",
-            "result_value": "1",
-            "unit_of_measurement": "6E",
-            "reference_range": null
-        },
-        {
-            "test_name": "Co U 3 Fai",
-            "result_value": "SA",
+            "test_name": "Blbod High",
+            "result_value": 14.0,
             "unit_of_measurement": null,
-            "reference_range": null
+            "reference_range": "11.6 - 0001"
         }
     ]
 }

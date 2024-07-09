@@ -1,66 +1,22 @@
 {
-    "dateOfTest": "03-AN-1",
-    "patientInformation": null,
-    "testResults": [
+    "date_of_test": null,
+    "patient_info": {
+        "name": "Patel",
+        "age": "52",
+        "sex": "M"
+    },
+    "test_results": [
         {
-            "testName": "RE PPO",
-            "resultValue": "40",
-            "unitOfMeasurement": null,
-            "referenceRange": null
+            "test_name": "Hb",
+            "result_value": 13.6,
+            "unit_of_measurement": null,
+            "reference_range": "11.6 - 1000"
         },
         {
-            "testName": "Sr n Ren ven",
-            "resultValue": "30",
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "Ra0 e -O ONh",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "DeC 5 1 R Voo",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "MO RON BS",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "Fai SA 5",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "A Ce 6 n3 8",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "Or A y Cec oS",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "RN o 1 Vo apet",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
-        },
-        {
-            "testName": "Mro X 4 280",
-            "resultValue": null,
-            "unitOfMeasurement": null,
-            "referenceRange": null
+            "test_name": "MCV",
+            "result_value": 328,
+            "unit_of_measurement": null,
+            "reference_range": null
         }
     ]
 }

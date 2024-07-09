@@ -1,59 +1,95 @@
 {
-    "date_of_test": "02 Dec, 202X",
+    "date_of_test": "02 Dec, 202x",
     "patient_information": {
         "name": "Yash M. Patel",
         "age": 21,
         "sex": "Male",
-        "pid": 555
+        "address": "125, Shivam Bungalow, S G Road,"
     },
     "test_results": [
         {
             "test_name": "Hemoglobin (Hb)",
             "result_value": 12.5,
             "unit_of_measurement": "g/dL",
-            "reference_range": "13.0-17.0"
+            "reference_range": "13.0-17.0 g/dL"
         },
         {
             "test_name": "Total RBC count",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5 - 5.5 mill/cumm"
         },
         {
             "test_name": "Packed Cell Volume (PCV)",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50 %"
         },
         {
             "test_name": "Mean Corpuscular Volume (MCV)",
             "result_value": 87.75,
             "unit_of_measurement": "fL",
-            "reference_range": null
+            "reference_range": "83 - 101 fL"
         },
         {
-            "test_name": "WBC COUNT",
-            "result_value": null,
-            "unit_of_measurement": null,
-            "reference_range": null
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27 - 32 pg"
         },
         {
-            "test_name": "Differential WBC COUNT",
-            "result_value": {
-                "Neutrophils": 57.5,
-                "Lymphocytes": 27.2,
-                "Eosinophils": 32.8,
-                "Monocytes": 13.6,
-                "Basophils": 1
-            },
+            "test_name": "Calculated MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5 - 34.5 g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
             "unit_of_measurement": "%",
-            "reference_range": null
+            "reference_range": "11.6 - 14.0 %"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 9000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-11000 cumm"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "50 - 62 %"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": "20 - 40 %"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": "00 - 06 %"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": "00 - 10 %"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": "00 - 02 %"
         },
         {
             "test_name": "Platelet Count",
-            "result_value": 9000,
-            "unit_of_measurement": "cum",
-            "reference_range": "4000-11000"
+            "result_value": null,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000 cumm"
         }
     ]
 }
