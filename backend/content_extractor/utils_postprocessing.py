@@ -10,16 +10,14 @@ def parse_ocr_results(file_path):
     
     # Find all matches
     matches = re.findall(pattern, content, re.DOTALL)
+    print(len(matches))
 
-    # Organize the results
+    idx = 0
     results = defaultdict(dict)
-    for file_path, time, config, text in matches:
-        
-        if "docTR" in str(config):
-            continue
 
+    for file_path, time, config, text in matches:
         clean_text = ' '.join(text.split())
-        results[file_path]["Config"] = config
-        results[file_path]["Input"] = clean_text
+        results[idx] = {'filepath': str(file_path), 'config': str(config), 'text': str(clean_text)}
+        idx += 1
     
     return results

@@ -48,24 +48,19 @@ class AnyScaleLLM():
 
         EXAMPLE:
         {
-        "Date": "14.15.2019",
+        "Date": "XX.XX.XXX",
         "patient_information": {
-            "patient_id": 12d,
-            "patient_name": "Max Mustermann",
-            "patient_sex": "Male",
-            "patient_age": 18
+            "patient_id": [FILL],
+            "patient_name": "[FILL]",
+            "patient_sex": "[FILL]",
+            "patient_age": [FILL]
             },
         "test_results": [
             {
-                "test_name": "Hemoglobin",
-                "result_value": 5.8,
-                "unit_of_measurement": "g/dL",
-                "reference_range": "1.0 - 10.0"
-            },{
-            "test_name": "RBC count",
-            "result_value": 2.5,
-            "unit_of_measurement": "mill/cumm",
-            "reference_range": "2.0 - 7.5"
+                "test_name": "[FILL]",
+                "result_value": [FILL],
+                "unit_of_measurement": "[FILL]",
+                "reference_range": "[FILL]"
             }
             ]
         }
@@ -80,10 +75,9 @@ class AnyScaleLLM():
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
 
         for key, value in ocr_results.items():
-            config = ocr_results[key]["Config"]
-            print(f"Prompting {key} with module {config}:")
+            print(f"Prompting extracted text from {value['filepath']} using module {value['config']}:")
             start = time.time()
-            structured_results = self.extract_test_results(ocr_results[key]["Input"])
+            structured_results = self.extract_test_results(value['text'])
             ocr_results[key]["Output"] = structured_results
             end = time.time()
             time_elapsed = end - start
@@ -97,8 +91,8 @@ def main():
 
     ANYSCALE_API_KEY = os.getenv('API_KEY')  # Access the API key
     models = {
-        # "meta-llama/Meta-Llama-3-8B-Instruct": "Llama37B",
-        # "mistralai/Mistral-7B-Instruct-v0.1": "Mistral7B",
+        "meta-llama/Meta-Llama-3-8B-Instruct": "Llama37B",
+        "mistralai/Mistral-7B-Instruct-v0.1": "Mistral7B",
         "google/gemma-7b-it": "Gemma7B"
     }
 
@@ -109,10 +103,9 @@ def main():
             "./results/txt/extracted/ocr_results_log.txt")        
 
         for key, value in output.items():
-            print(f"Processing result from {key}")
-            filename = os.path.splitext(os.path.basename(key))[0]
-            config_name = output[key]["Config"]
-
+            print(f"Processing result from {value['filepath']} to json object")
+            filename = os.path.splitext(os.path.basename(value['filepath']))[0]
+            config_name = value["config"]
             pathfile = f"{filename}_{config_name}_{model}"
             file_name_json = f"./results/txt/extracted/{pathfile}.json"
             with open(file_name_json, 'w', encoding='utf-8') as f:
@@ -131,6 +124,7 @@ def main():
 
                 json.dump(json_object, f, ensure_ascii=False, indent=4)
                 print(f"Results saved in: {file_name_json}\n")
+                print("-" * 50)
 
 
 if __name__ == "__main__":
