@@ -43,8 +43,33 @@ class AnyScaleLLM():
             - Result value
             - Unit of measurement
             - Reference range (if available)
+
         Format the output as a JSON object. If a piece of information is not available, use null for its value.
 
+        EXAMPLE:
+        {
+        "Date": "14.15.2019",
+        "patient_information": {
+            "patient_id": 12d,
+            "patient_name": "Max Mustermann",
+            "patient_sex": "Male",
+            "patient_age": 18
+            },
+        "test_results": [
+            {
+                "test_name": "Hemoglobin",
+                "result_value": 5.8,
+                "unit_of_measurement": "g/dL",
+                "reference_range": "1.0 - 10.0"
+            },{
+            "test_name": "RBC count",
+            "result_value": 2.5,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "2.0 - 7.5"
+            }
+            ]
+        }
+        
         IMPORTANT: Just return the JSON object. Do not make any further comment. Otherwise, the patient will die.
         """
         response = self.chat_completion(prompt, ocr_text)
@@ -72,8 +97,8 @@ def main():
 
     ANYSCALE_API_KEY = os.getenv('API_KEY')  # Access the API key
     models = {
-        "meta-llama/Meta-Llama-3-8B-Instruct": "Llama37B",
-        "mistralai/Mistral-7B-Instruct-v0.1": "Mistral7B",
+        # "meta-llama/Meta-Llama-3-8B-Instruct": "Llama37B",
+        # "mistralai/Mistral-7B-Instruct-v0.1": "Mistral7B",
         "google/gemma-7b-it": "Gemma7B"
     }
 
@@ -93,11 +118,17 @@ def main():
             with open(file_name_json, 'w', encoding='utf-8') as f:
                 try:
                     json_object = json.loads(output[key]["Output"])
+                except ValueError as e:
+                    print(f"ERROR: {e}")
+                    answer = str(output[key]["Output"])
+                    print(f"Original answer: {answer}")
+                    continue
                 except Exception as e:
                     print(f"ERROR: {e}")
                     answer = str(output[key]["Output"])
                     print(f"Original answer: {answer}")
                     continue
+
                 json.dump(json_object, f, ensure_ascii=False, indent=4)
                 print(f"Results saved in: {file_name_json}\n")
 
