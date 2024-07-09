@@ -14,8 +14,12 @@ def parse_ocr_results(file_path):
     # Organize the results
     results = defaultdict(dict)
     for file_path, time, config, text in matches:
+        
+        if "docTR" in str(config):
+            continue
+
         clean_text = ' '.join(text.split())
         results[file_path]["Config"] = config
         results[file_path]["Input"] = clean_text
-
-    return dict(results)
+    
+    return results

@@ -55,8 +55,14 @@ class AnyScaleLLM():
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
 
         for key, value in ocr_results.items():
+            config = ocr_results[key]["Config"]
+            print(f"Prompting {key} with module {config}:")
+            start = time.time()
             structured_results = self.extract_test_results(ocr_results[key]["Input"])
             ocr_results[key]["Output"] = structured_results
+            end = time.time()
+            time_elapsed = end - start
+            print(f"Time nedded: {round(time_elapsed, 5)}")
 
         return ocr_results
 
@@ -75,10 +81,10 @@ def main():
         print(f"Testing model: {model}")
         llm = AnyScaleLLM(model_name=key, api_key=ANYSCALE_API_KEY)
         output = llm.read_txt_file(
-            "./results/txt/extracted/ocr_results_log.txt")
+            "./results/txt/extracted/ocr_results_log.txt")        
 
         for key, value in output.items():
-            print(f"Processing file {key}")
+            print(f"Processing result from {key}")
             filename = os.path.splitext(os.path.basename(key))[0]
             config_name = output[key]["Config"]
 
