@@ -1,0 +1,63 @@
+body {
+    font-family: "Bookman Old Style", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/static/ui/images/page1-background.png');
+    background-size: 100% 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    margin: 50px 0 10px;
+    font-size: 24px; /* Reduced font size */
+    line-height: 0.7; /* Reduced line height */
+}
+p {
+    margin: 5px 0 7px;
+    font-size: 16px; /* Reduced font size */
+    line-height: 0.7; /* Reduced line height */
+}
+a {
+    margin: 5px 0 7px; /* Reduced top margin */
+    font-size: 16px; /* Optional: Adjust font size if needed */
+    line-height: 0.7; /* Reduced line height */
+}
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.chat-messages {
+    height: 270px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.chat-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.chat-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: Bisque;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 8px 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: "Bookman Old Style", sans-serif;
+}

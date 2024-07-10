@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PregPal - Home</title>
+    <link rel="stylesheet" href="{% static 'ui/css/home.css' %}">
+</head>
+<body>
+    <div class="background-image"></div>
+    <header>
+        <h1>Welcome to PregPal</h1>
+    </header>
+    <div class="container">
+        <div class="box">
+            <a href="#{% url 'page1' %}">
+                <img src="{% static 'ui/images/button1.jpg'%}" alt="Your data">
+            </a>
+            <div class="overlay">
+                <a href="{% url 'page1' %}">Your Data</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#upload-reports">
+                <img src="{% static 'ui/images/button2.jpg'%}" alt="Upload Reports">
+            </a>
+            <div class="overlay">
+                <a href="#upload-reports">Upload Reports</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="{% url 'page3' %}">
+                <img src="{% static 'ui/images/button3.jpg'%}" alt="Chat With Us">
+            </a>
+            <div class="overlay">
+                 <a href="{% url 'page3' %}">Chat with Us</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

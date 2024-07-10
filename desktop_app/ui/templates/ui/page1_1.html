@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ui/css/page1_1.css' %}">
+</head>
+<body>
+    <h1>User Information</h1>
+    {% if user_info %}
+        <p>Full Name: {{ user_info.full_name }}</p>
+        <p>Birth Date: {{ user_info.birth_date }}</p>
+        <p>Phone Number: {{ user_info.phone_number }}</p>
+    {% else %}
+        <p>No user found with first name 'Belen'.</p>
+    {% endif %}
+
+    {% if error %}
+        <p>Error: {{ error }}</p>
+    {% endif %}
+
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>

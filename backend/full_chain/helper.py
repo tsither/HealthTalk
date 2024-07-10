@@ -30,6 +30,8 @@ Condition 3: The query MUST be on a single line only (newline character \\n is p
 
 IMPORTANT: Make sure to get the table names exactly correct (e.g. artist and NOT artists)
 
+
+
 SQL Query:
 """
 ################################################################################################
