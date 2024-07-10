@@ -98,6 +98,42 @@ def page1_view(request):
         return render(request, 'ui/page1_1.html', {'error': 'Error fetching user information'})
 
 def page2_view(request):
+
+    '''
+    Hana: you need to do the following:
+
+    1. Install all requirements under:
+    Personal-Medical-Assistant/backend/content_extractor/requirements/extraction_venv_requirements.txt
+    
+    2. Run the following script:
+    Personal-Medical-Assistant/backend/content_extractor/extraction.py
+
+    It works like this: "extraction.py -f path/to/image.png" <- here comes the filepath from your html (OJO: I changed the accepted files as follows: accept=".pdf,.png,.jpg,.webp" )
+
+    3. A json file will be saved in the same directory as your imported file
+
+    4. Then read the json file and create a prompt to the LLM to create a SQL based on the info to update our database
+
+    5. Print the output of the LLM. Do not focus on updating the database.
+    
+    Comment: I talked with Ted and there is no real reason to focus on updating the database just now.
+    Its just enough if we show the json and the possible query. The updating is gonna be messy, so do
+    not try it.
+    
+    For the prompting, you can consider this:
+
+    a) Prompt the LLM with my gold standard (json) and Teds gold standard (SQL query) as an example.
+    He said it should work like that. I sent you his gold standard on telegram. Mine is under:
+    Personal-Medical-Assistant/backend/content_extractor/data/json/example3_goldstandard.json 
+    According to him, it should be able to do a correct guess.
+
+    b) Do a properly parsing of the json to the SQL query. This seems like a lot of work.
+
+    Comment: Ill leave my phone on, so you can call me. Im going to sleep now (its 00:20).
+
+    See ya!
+    '''
+
     return render(request, 'ui/page2.html')
 
 def page3_view(request):
