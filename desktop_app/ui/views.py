@@ -164,6 +164,9 @@ def page3_view(request):
 
     return render(request, 'ui/page3_2.html')
 
+def page3_3(request):
+    return render(request, 'ui/page3_3.html')  
+
 # def page3_view(request):
 #     if request.method == "POST":
 #         try:
