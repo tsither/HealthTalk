@@ -160,9 +160,72 @@ def json_to_sql(data):
 
     # Prepare the prompt for the LLM
     prompt = f"""
-    Given the following JSON data, generate an SQL query to update this data from a database. 
-    Assume the table name is 'medical_reports'.
-    The query should select all fields and include appropriate WHERE clauses based on the JSON data.
+    CONTEXT: You are an expert interpreter of json files to sql queries that will update a database. Your work is extremely important and will be used in a life or death situation.
+    TASK: Given the information of a json file, generate a SQL query to update the database based on the information given in the json file.
+    EXAMPLE OF THE JSON YOU WILL RECEIVE:
+    {{
+    "Date": "21.05.1995",
+    "patient_information": {{
+    "patient_id": "12",
+    "patient_name": "Max Mustermann",
+    "patient_sex": "Female",
+    "patient_age": "21"
+    }},
+    "test_results": [
+    {{
+    "test_name": "Hemoglobin (Hb)",
+    "result_value": "12.5",
+    "unit_of_measurement": "g/dl",
+    "reference_range": "13.0-17.0 g/dL"
+    }},
+    {{
+    "test_name": "Mean Corpuscular Volume (MCV)",
+    "result_value": "87.75",
+    "unit_of_measurement": "fL",
+    "reference_range": "83-101 fL"
+    }}
+    ]
+    }}
+    EXAMPLE OF THE SQL QUERY THAT SHOULD BE YOUR OUTPUT:
+    INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+    ) VALUES (
+    '02.12.202X',
+    'Hemoglobin',
+    12.5,
+    'g/dL',
+    '13.0 - 17.0',
+    1,
+    1,
+    1
+    );
+    INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+    ) VALUES (
+    '02.12.202X',
+    'Mean Corpuscular Volume (MCV)',
+    '87.75',
+    'fL',
+    '83 - 101',
+    1,
+    1,
+    1
+    );
+    IMPORTANT: Just return the SQL query. Do not make any further comment. Otherwise, the patient will die.
     """
 
     llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
