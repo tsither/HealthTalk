@@ -33,6 +33,7 @@ logger.addHandler(handler)
 # current_dir = Path(__file__).resolve().parent
 # db_path = current_dir / "DB_query" / "med_assist.db"
 
+# TODO: Get DB dynamicallly
 DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/desktop_app/med_assist.db") 
 #DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
 
@@ -107,7 +108,6 @@ def process_reports(request):
     '''
     This part takes the file and runs it through the script. It also get the result as string (but its a json)
     '''
-
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
         
@@ -118,7 +118,7 @@ def process_reports(request):
 
         # Run the external Python script
         result = subprocess.run(
-            # TODO: Change the filepath to your case
+            # TODO: Change the filepath to your case or dynamically
             ['python3', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
              '-f', temp_file.name],
             capture_output=True,
@@ -133,8 +133,7 @@ def process_reports(request):
 
         try:
             json_output = json.loads(result.stdout)
-            # Delete the temporary file
-            os.unlink(temp_file.name)
+            os.unlink(temp_file.name)  # Delete the temporary file
             return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
         except json.JSONDecodeError:
             print("Script did not return valid JSON. Please try again.")
@@ -249,6 +248,7 @@ def page3_view(request):
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
+            # TODO: Get DB dynamicallly
             if not test_db_connection("sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/desktop_app/med_assist.db"):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
 
