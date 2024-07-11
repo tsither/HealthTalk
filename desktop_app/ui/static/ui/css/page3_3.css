@@ -1,0 +1,95 @@
+body {
+    font-family: "Bookman Old Style", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: url('/static/ui/images/page1-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0.9rem; /* Adjust the base font size */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5); /* Make container transparent */
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 700px;
+    margin-left: 10%; /* Move the text to the right */
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 1.3rem; /* Adjusted font size */
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.1rem; /* Adjusted font size */
+}
+
+h3 {
+    margin-top: 8px;
+    font-size: 0.95rem; /* Adjusted font size */
+}
+
+p {
+    margin: 5px 0;
+    font-size: 0.9rem; /* Adjusted font size */
+    line-height: 1.2; /* Adjusted line height */
+}
+
+a {
+    margin: 5px 0;
+    font-size: 0.9rem; /* Adjusted font size */
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 5px 0 5px 20px;
+    font-size: 0.9rem; /* Adjusted font size */
+    line-height: 1.2; /* Adjusted line height */
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        width: 95%;
+        margin-left: 5%; /* Adjusted margin for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    p,
+    a,
+    ul {
+        font-size: 0.8rem;
+    }
+}
