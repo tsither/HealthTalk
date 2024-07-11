@@ -179,7 +179,7 @@ def main():
 
     # print('Preprocessing file')
 
-    image = conservative_filter(moments(adaptive_gaussian(image)))
+    image = moments(adaptive_gaussian(image))
 
     # print('Extracting file')
     text = process(image)

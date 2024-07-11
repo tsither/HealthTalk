@@ -17,6 +17,26 @@
             <input type="file" id="file" name="file" accept=".pdf,.png,.jpg,.webp" required>
             <button type="submit">Upload</button>
         </form>
+
+        {% if output %}
+            <h2>Output:</h2>
+            <pre>{{ output|pprint }}</pre>
+            <form action="{% url 'convert_to_sql' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="json_data" value="{{ output|stringformat:'s' }}">
+                <button type="submit">Convert to SQL Query</button>
+            </form>
+        {% endif %}
+
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+
+        {% if sql_query %}
+            <h2>SQL Query:</h2>
+            <pre>{{ sql_query }}</pre>
+        {% endif %}
+        
     </div>
 </body>
 </html>

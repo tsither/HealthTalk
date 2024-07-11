@@ -33,14 +33,14 @@ logger.addHandler(handler)
 # current_dir = Path(__file__).resolve().parent
 # db_path = current_dir / "DB_query" / "med_assist.db"
 
-#DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
-DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
+DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/desktop_app/med_assist.db") 
+#DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
 
 ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
 # print(f"ANYSCALE_API_KEY:{ANYSCALE_API_KEY}")
-# MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
-MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
+MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
+#MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
 # DB = SQLDatabase.from_uri("sqlite:///Users/mymac/Downloads/desktop_app/ui/DB_query/med_assist.db")
 
 #Test database connection
@@ -133,63 +133,49 @@ def process_reports(request):
 
         try:
             json_output = json.loads(result.stdout)
+            # Delete the temporary file
+            os.unlink(temp_file.name)
+            return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
         except json.JSONDecodeError:
             print("Script did not return valid JSON. Please try again.")
-            return render(request, 'ui/page2_1.html')
-        
-        # Delete the temporary file
-        os.unlink(temp_file.name)
+            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})
 
-        return HttpResponseRedirect(reverse('upload_success'))
+    return HttpResponseRedirect(reverse('upload_success'))
+
+def convert_to_sql(request):
+    json_data = request.POST.get('json_data')
+    if json_data:
+        try:
+            data = json.loads(json_data)
+            # Here, implement your logic to convert JSON to SQL
+            # This is a placeholder function - you'll need to replace it with your actual conversion logic
+            sql_query = json_to_sql(data)
+            return render(request, 'ui/page2_1.html', {'output': data, 'sql_query': sql_query})
+        except json.JSONDecodeError:
+            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON data"})
+    return render(request, 'ui/page2_1.html', {'error': "No JSON data provided"})
+
+def json_to_sql(data):
+    json_output = json.dumps(data, indent=4)
+
+    # Prepare the prompt for the LLM
+    prompt = f"""
+    Given the following JSON data, generate an SQL query to update this data from a database. 
+    Assume the table name is 'medical_reports'.
+    The query should select all fields and include appropriate WHERE clauses based on the JSON data.
+    """
+
+    llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
+    logger.debug("AnyScaleLLM instantiated successfully.")
+
+    answer = llm.chat_completion(prompt, str(json_output))
+    return str(answer)
+
 
 def upload_success(request):
-    '''
-    Here, if the upload is sucessfull, we should do the prompting to the LLM
-    '''
     return render(request, 'ui/page2_1.html')
 
 def page2_view(request):
-    '''
-    Hana, before you start, consider the following:
-
-    0. I changed three files of yours: views.py, urls.py and ui/page2_1.html. In views I added functions
-    to get the file and then process it. In urls, I just added to more urls, so the functions have a place.
-    In the html I added some file suffixes.
-
-    Now, for it to work, you'll need the following as well:
-
-    1. Install all module requirements under:
-    Personal-Medical-Assistant/backend/content_extractor/requirements/extraction_venv_requirements.txt
-    
-    2. Check your DB filepath and environment path to get the API (lines 36 to 40 of this script)
-
-    3. Check process_reports() in this script. It takes the file and then process it through my script. 
-    As a result, we receive a json as string.
-
-    4. Check upload_success() in this script. That function should do the prompting and printing.
-
-    TODOS:
-    a) In upload_success() call an LLM so that it creates a SQL query
-    b) In general, it'd be nice to print the json and the sql query, so that people can see it.
-    Again, do not focus on updating the database. Let's just show the results of the json and the SQL.
-    That's the impressive part of this part of the project.
-
-    COMMENT: I talked with Ted and there is no real reason to focus on updating the database just now.
-    Its just enough if we show the json and the possible query. The updating is gonna be messy, so do
-    not try it.
-    
-    For the prompting, you can consider this:
-    
-    a) Prompt the LLM with my gold standard (json) and Teds gold standard (SQL query) as an example.
-    He said it should be enough like that. I sent you his gold standard on telegram. Mine is under:
-    Personal-Medical-Assistant/backend/content_extractor/data/json/example3_goldstandard.json 
-    According to him, it should be able to do a correct guess.
-
-    b) Do a properly parsing of the json to the SQL query. This seems like a lot of work.
-
-    See ya!
-    '''
-
     return render(request, 'ui/page2_1.html')
 
 def page3_view(request):
@@ -200,7 +186,7 @@ def page3_view(request):
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
-            if not test_db_connection("sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db"):
+            if not test_db_connection("sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/desktop_app/med_assist.db"):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
 
             logger.debug(f"Instantiating AnyScaleLLM with model_name={MODEL} and api_key={ANYSCALE_API_KEY}")
