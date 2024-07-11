@@ -191,11 +191,12 @@ def main():
         try:
             json_object = json.loads(answer)
         except ValueError as e:
+            answer = extract_test_results(text)
             # print(f'ERROR: {e}')
             continue
         break
 
-    print(json_object)
+    print(json.dumps(json_object, indent=4))
 
     # # Create output JSON file path
     # input_dir = os.path.dirname(file_path)

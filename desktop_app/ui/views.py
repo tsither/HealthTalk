@@ -33,8 +33,8 @@ logger.addHandler(handler)
 # current_dir = Path(__file__).resolve().parent
 # db_path = current_dir / "DB_query" / "med_assist.db"
 
-DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
-#DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
+#DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
+DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
 
 ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
