@@ -7,4 +7,7 @@ urlpatterns = [
     path('page2/', views.page2_view, name='page2'),
     path('page3/', views.page3_view, name='page3'),
     path('page3_3/', views.page3_3, name='page3_3'),
+    # path('chatbot/', views.chatbot_view, name='chatbot'),
+    path('page2/process', views.process_reports, name='process_reports'),
+    path('page2/success', views.upload_success, name='upload_success'),
 ]

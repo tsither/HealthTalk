@@ -14,7 +14,10 @@ from django.db import connection
 from django.contrib.sessions.models import Session
 from django.utils import timezone
 from pathlib import Path
-
+from django.http import HttpResponseRedirect
+from django.urls import reverse
+import tempfile
+import subprocess
 
 
 # Set up logging
@@ -29,9 +32,12 @@ logger.addHandler(handler)
 
 # current_dir = Path(__file__).resolve().parent
 # db_path = current_dir / "DB_query" / "med_assist.db"
-DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
-print(DB)
+
+DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
+#DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
+
 ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
+
 # print(f"ANYSCALE_API_KEY:{ANYSCALE_API_KEY}")
 # MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
@@ -97,44 +103,94 @@ def page1_view(request):
         logger.error(f"Error fetching user information: {e}")
         return render(request, 'ui/page1_1.html', {'error': 'Error fetching user information'})
 
-def page2_view(request):
-
+def process_reports(request):
     '''
-    Hana: you need to do the following:
+    This part takes the file and runs it through the script. It also get the result as string (but its a json)
+    '''
 
-    1. Install all requirements under:
+    if request.FILES.get('file'):
+        uploaded_file = request.FILES['file']
+        
+        # Create a temporary file
+        with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(uploaded_file.name)[1]) as temp_file:
+            for chunk in uploaded_file.chunks():
+                temp_file.write(chunk)
+
+        # Run the external Python script
+        result = subprocess.run(
+            # TODO: Change the filepath to your case
+            ['python3', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
+             '-f', temp_file.name],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+            
+        # Get the output of the script
+        output = result.stdout
+
+        print(output)
+
+        try:
+            json_output = json.loads(result.stdout)
+        except json.JSONDecodeError:
+            print("Script did not return valid JSON. Please try again.")
+            return render(request, 'ui/page2_1.html')
+        
+        # Delete the temporary file
+        os.unlink(temp_file.name)
+
+        return HttpResponseRedirect(reverse('upload_success'))
+
+def upload_success(request):
+    '''
+    Here, if the upload is sucessfull, we should do the prompting to the LLM
+    '''
+    return render(request, 'ui/page2_1.html')
+
+def page2_view(request):
+    '''
+    Hana, before you start, consider the following:
+
+    0. I changed three files of yours: views.py, urls.py and ui/page2_1.html. In views I added functions
+    to get the file and then process it. In urls, I just added to more urls, so the functions have a place.
+    In the html I added some file suffixes.
+
+    Now, for it to work, you'll need the following as well:
+
+    1. Install all module requirements under:
     Personal-Medical-Assistant/backend/content_extractor/requirements/extraction_venv_requirements.txt
     
-    2. Run the following script:
-    Personal-Medical-Assistant/backend/content_extractor/extraction.py
+    2. Check your DB filepath and environment path to get the API (lines 36 to 40 of this script)
 
-    It works like this: "extraction.py -f path/to/image.png" <- here comes the filepath from your html (OJO: I changed the accepted files as follows: accept=".pdf,.png,.jpg,.webp" )
+    3. Check process_reports() in this script. It takes the file and then process it through my script. 
+    As a result, we receive a json as string.
 
-    3. A json file will be saved in the same directory as your imported file
+    4. Check upload_success() in this script. That function should do the prompting and printing.
 
-    4. Then read the json file and create a prompt to the LLM to create a SQL based on the info to update our database
+    TODOS:
+    a) In upload_success() call an LLM so that it creates a SQL query
+    b) In general, it'd be nice to print the json and the sql query, so that people can see it.
+    Again, do not focus on updating the database. Let's just show the results of the json and the SQL.
+    That's the impressive part of this part of the project.
 
-    5. Print the output of the LLM. Do not focus on updating the database.
-    
-    Comment: I talked with Ted and there is no real reason to focus on updating the database just now.
+    COMMENT: I talked with Ted and there is no real reason to focus on updating the database just now.
     Its just enough if we show the json and the possible query. The updating is gonna be messy, so do
     not try it.
     
     For the prompting, you can consider this:
-
+    
     a) Prompt the LLM with my gold standard (json) and Teds gold standard (SQL query) as an example.
-    He said it should work like that. I sent you his gold standard on telegram. Mine is under:
+    He said it should be enough like that. I sent you his gold standard on telegram. Mine is under:
     Personal-Medical-Assistant/backend/content_extractor/data/json/example3_goldstandard.json 
     According to him, it should be able to do a correct guess.
 
     b) Do a properly parsing of the json to the SQL query. This seems like a lot of work.
 
-    Comment: Ill leave my phone on, so you can call me. Im going to sleep now (its 00:20).
-
     See ya!
     '''
 
-    return render(request, 'ui/page2.html')
+    return render(request, 'ui/page2_1.html')
 
 def page3_view(request):
     if request.method == "POST":
