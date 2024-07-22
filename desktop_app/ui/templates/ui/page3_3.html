@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DB Tips</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ui/css/page3_3.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>DB TIPS</h1>
+        <a href="{% url 'page3' %}">Back to Chat</a>
+        <p>Database tables: USER, REPORTS, REPORT TYPE, APPOINTMENTS, DOCTORS, DOCTOR SPECIALIZATION, HOSPITALS, MEDICINE, DIAGNOSIS</p>
+
+        <h2>Tips for chatting with database</h2>
+        <ul>
+            <li>Use column and table names where possible:
+                <ul>
+                    <li>What is the last name of user Belen?</li>
+                    <li>When user Belen was born?</li>
+                </ul>
+            </li>
+            <li>Ask detailed questions explicitly naming the objects:
+                <ul>
+                    <li>What is the date of Belen’s last blood report?</li>
+                    <li>What is the value of Hemoglobin in blood report dated 2024-06-11?</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Content query examples</h2>
+        <h3>Questions about blood reports:</h3>
+        <ul>
+            <li>What is the date of Belen's last blood report?</li>
+            <li>What is the value of Hemoglobin in the user's last blood report?</li>
+        </ul>
+
+        <h3>Questions about hospital appointments:</h3>
+        <ul>
+            <li>When Belen went to an appointment at the 1st hospital?</li>
+            <li>Who was the doctor for Belen's appointment at the 1st hospital?</li>
+        </ul>
+
+        <h3>Questions about hospitals:</h3>
+        <ul>
+            <li>How many doctors work in the 1st hospital?</li>
+            <li>Who works in the 3rd hospital?</li>
+        </ul>
+
+        <h3>Questions about medicine and diagnosis:</h3>
+        <ul>
+            <li>What the user needs to take when he has a cold?</li>
+            <li>How many times the user needs to take Paracetamol when he has a cold?</li>
+        </ul>
+    </div>
+</body>
+</html>

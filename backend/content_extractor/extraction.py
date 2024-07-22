@@ -63,16 +63,16 @@ def main():
         padded = np.pad(image, pad_size, mode='edge')
         result = np.zeros_like(image)
 
-        total_iterations = padded.shape[0] - 2 * pad_size
-        quarter = total_iterations // 4
+        # total_iterations = padded.shape[0] - 2 * pad_size
+        # quarter = total_iterations // 4
 
         for i in range(pad_size, padded.shape[0] - pad_size):
-            if i == pad_size + quarter:
-                print("Loading: 25%")
-            elif i == pad_size + 2 * quarter:
-                print("Loading: 50%")
-            elif i == pad_size + 3 * quarter:
-                print("Loading: 75%")
+            # if i == pad_size + quarter:
+            #     print("Loading: 25%")
+            # elif i == pad_size + 2 * quarter:
+            #     print("Loading: 50%")
+            # elif i == pad_size + 3 * quarter:
+            #     print("Loading: 75%")
             for j in range(pad_size, padded.shape[1] - pad_size):
                 region = padded[i - pad_size:i + pad_size +
                                 1, j - pad_size:j + pad_size + 1]
@@ -96,11 +96,11 @@ def main():
     @staticmethod
     def chat_completion(prompt, question):
 
-        load_dotenv('./extraction_venv/key.env')
+        ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
         client = OpenAI(
             base_url="https://api.endpoints.anyscale.com/v1",
-            api_key=str(os.getenv('API_KEY'))
+            api_key=ANYSCALE_API_KEY
         )
 
         chat_completion = client.chat.completions.create(
@@ -168,6 +168,7 @@ def main():
     # Add the -f/--file argument
     parser.add_argument('-f', '--file', type=str, required=True, help='Path to the input file')
 
+
     # Parse the arguments
     args = parser.parse_args()
 
@@ -176,37 +177,38 @@ def main():
 
     image = read_image(str(file_path))
 
-    print('Preprocessing file')
+    # print('Preprocessing file')
 
     image = conservative_filter(moments(adaptive_gaussian(image)))
 
-    print('Extracting file')
+    # print('Extracting file')
     text = process(image)
 
-    print('Extracting results')
+    # print('Extracting results')
     answer = extract_test_results(text)
 
     while True:
         try:
             json_object = json.loads(answer)
         except ValueError as e:
-            print(f'ERROR: {e}')
+            answer = extract_test_results(text)
+            # print(f'ERROR: {e}')
             continue
         break
 
-    print(json_object)
+    print(json.dumps(json_object, indent=4))
 
-    # Create output JSON file path
-    input_dir = os.path.dirname(file_path)
-    input_filename = os.path.splitext(os.path.basename(file_path))[0]
-    output_json_path = os.path.join(input_dir, f"{input_filename}.json")
+    # # Create output JSON file path
+    # input_dir = os.path.dirname(file_path)
+    # input_filename = os.path.splitext(os.path.basename(file_path))[0]
+    # output_json_path = os.path.join(input_dir, f"{input_filename}.json")
 
-    # Save the data as JSON
-    with open(output_json_path, 'w') as json_file:
-        json.dump(json_object, json_file, indent=4)
+    # # Save the data as JSON
+    # with open(output_json_path, 'w') as json_file:
+    #     json.dump(json_object, json_file, indent=4)
 
-    print(f"Input file processed: {file_path}")
-    print(f"Output JSON saved: {output_json_path}")
+    # print(f"Input file processed: {file_path}")
+    # print(f"Output JSON saved: {output_json_path}")
 
 
 

@@ -14,7 +14,7 @@
         <form action="{% url 'process_reports'%}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <label for="file">Choose file to upload:</label>
-            <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.txt" required>
+            <input type="file" id="file" name="file" accept=".pdf,.png,.jpg,.webp" required>
             <button type="submit">Upload</button>
         </form>
     </div>
