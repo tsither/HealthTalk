@@ -1,0 +1,259 @@
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Hemoglobin',
+    12.5,
+    'g/dL',
+    '13.0 - 17.0',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'RBC count',
+    5.2,
+    'mill/cumm',
+    '4.5 - 5.5',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Packed Cell Volume (PCV)',
+    '57.5',
+    '%',
+    '40 - 50',
+    1,
+    1,
+    1
+);
+s
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Mean Corpuscular Volume (MCV)',
+    '87.75',
+    'fL',
+    '83 - 101',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'MCH',
+    '27.2',
+    'pg',
+    '27 - 32',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'MCHC',
+    '32.8',
+    'g/dL',
+    '32.5 - 34.5',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'RDW',
+    '13.6',
+    '%',
+    '11.6 - 14.0',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'WBC Count',
+    '9000',
+    'cumm',
+    '4000 - 11000',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Neutrophils',
+    '60',
+    '%',
+    '50 - 62',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Lymphocytes',
+    '31',
+    '%',
+    '20 - 40',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Eosinophils',
+    '1',
+    '%',
+    '00 - 06',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Monocytes',
+    '7',
+    '%',
+    '00 - 10',
+    1,
+    1,
+    1
+);
+
+INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+) VALUES (
+    '02.12.202X',
+    'Basophils',
+    '1',
+    '%',
+    '00 - 02',
+    1,
+    1,
+    1
+);

@@ -14,7 +14,8 @@ from django.db import connection
 from django.contrib.sessions.models import Session
 from django.utils import timezone
 from pathlib import Path
-
+from guardrails import Guard
+from guardrails.hub import NSFWText
 
 
 # Set up logging
@@ -33,9 +34,15 @@ DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_ass
 print(DB)
 ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 # print(f"ANYSCALE_API_KEY:{ANYSCALE_API_KEY}")
-# MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
-MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
+MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
+# MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
 # DB = SQLDatabase.from_uri("sqlite:///Users/mymac/Downloads/desktop_app/ui/DB_query/med_assist.db")
+
+
+guard_NSFW = Guard().use(
+    NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
+)
+
 
 #Test database connection
 def test_db_connection(db_uri):
@@ -104,12 +111,15 @@ def page3_view(request):
     if request.method == "POST":
         try:
             data = json.loads(request.body)
-            question = data.get("question", "")
+            question = data.get("question", "") 
+
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
             if not test_db_connection("sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db"):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
+            
+            guard_NSFW.validate(question) #NSFW guardrail
 
             logger.debug(f"Instantiating AnyScaleLLM with model_name={MODEL} and api_key={ANYSCALE_API_KEY}")
             llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
@@ -124,7 +134,8 @@ def page3_view(request):
             return JsonResponse({"response": response})
         except Exception as e:
             logger.error(f"Error processing request: {e}")
-            return JsonResponse({"error": "Internal server error"}, status=500)
+            error_message = str(e)
+            return JsonResponse({"error": error_message}, status=500)
 
     return render(request, 'ui/page3_2.html')
 
