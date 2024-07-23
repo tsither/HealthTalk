@@ -34,7 +34,7 @@ logger.addHandler(handler)
 # db_path = current_dir / "DB_query" / "med_assist.db"
 
 #DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
-DB = SQLDatabase.from_uri(f"sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db")
+DB = SQLDatabase.from_uri("sqlite:////Users/hanamcmahon-cole/Documents/Sqlite/med_assist.db")
 
 ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
@@ -119,7 +119,7 @@ def process_reports(request):
         # Run the external Python script
         result = subprocess.run(
             # TODO: Change the filepath to your case
-            ['python3', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
+            ['python3', '/Users/hanamcmahon-cole/Documents/Medical_assistant/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
              '-f', temp_file.name],
             capture_output=True,
             text=True,
@@ -148,7 +148,7 @@ def upload_success(request):
     '''
     return render(request, 'ui/page2_1.html')
 
-def page2_view(request):
+def page2_1view(request):
     '''
     Hana, before you start, consider the following:
 
@@ -191,6 +191,9 @@ def page2_view(request):
     '''
 
     return render(request, 'ui/page2_1.html')
+
+def page2_2view(request):
+    return render(request, 'ui/page2_2.html')
 
 def page3_view(request):
     if request.method == "POST":
