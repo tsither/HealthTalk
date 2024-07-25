@@ -229,6 +229,7 @@ def json_to_sql(data):
     logger.debug("AnyScaleLLM instantiated successfully.")
 
     answer = llm.chat_completion(prompt, str(json_output))
+    print(answer)
     return str(answer)
 
 def upload_success(request):
