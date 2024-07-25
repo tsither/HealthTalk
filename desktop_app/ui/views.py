@@ -33,14 +33,15 @@ logger.addHandler(handler)
 # current_dir = Path(__file__).resolve().parent
 # db_path = current_dir / "DB_query" / "med_assist.db"
 
-#DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
-DB = SQLDatabase.from_uri("sqlite:////Users/hanamcmahon-cole/Documents/Sqlite/med_assist.db")
+# TODO: Do this dinamically
+DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
+#DB = SQLDatabase.from_uri("sqlite:////Users/hanamcmahon-cole/Documents/Sqlite/med_assist.db")
 
 ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
 # print(f"ANYSCALE_API_KEY:{ANYSCALE_API_KEY}")
-# MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
-MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
+MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
+#MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
 # DB = SQLDatabase.from_uri("sqlite:///Users/mymac/Downloads/desktop_app/ui/DB_query/med_assist.db")
 
 #Test database connection
@@ -107,7 +108,6 @@ def process_reports(request):
     '''
     This part takes the file and runs it through the script. It also get the result as string (but its a json)
     '''
-
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
         
@@ -118,8 +118,8 @@ def process_reports(request):
 
         # Run the external Python script
         result = subprocess.run(
-            # TODO: Change the filepath to your case
-            ['python3', '/Users/hanamcmahon-cole/Documents/Medical_assistant/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
+            # TODO: Make this dynamic
+            ['python3', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
              '-f', temp_file.name],
             capture_output=True,
             text=True,
@@ -133,14 +133,103 @@ def process_reports(request):
 
         try:
             json_output = json.loads(result.stdout)
+            os.unlink(temp_file.name)  # Delete the temporary file
+            return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
         except json.JSONDecodeError:
             print("Script did not return valid JSON. Please try again.")
-            return render(request, 'ui/page2_1.html')
-        
-        # Delete the temporary file
-        os.unlink(temp_file.name)
+            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})
 
-        return HttpResponseRedirect(reverse('upload_success'))
+    return HttpResponseRedirect(reverse('upload_success'))
+
+def convert_to_sql(request):
+    json_data = request.POST.get('json_data')
+    if json_data:
+        try:
+            data = json.loads(json_data)
+            sql_query = json_to_sql(data)
+            return render(request, 'ui/page2_1.html', {'output': data, 'sql_query': sql_query})
+        except json.JSONDecodeError:
+            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON data"})
+    return render(request, 'ui/page2_1.html', {'error': "No JSON data provided"})
+
+def json_to_sql(data):
+    json_output = json.dumps(data, indent=4)
+
+    # Prepare the prompt for the LLM
+    prompt = f"""
+    CONTEXT: You are an expert interpreter of json files to sql queries that will update a database. Your work is extremely important and will be used in a life or death situation.
+    TASK: Given the information of a json file, generate a SQL query to update the database based on the information given in the json file.
+    EXAMPLE OF THE JSON YOU WILL RECEIVE:
+    {{
+    "Date": "21.05.1995",
+    "patient_information": {{
+    "patient_id": "12",
+    "patient_name": "Max Mustermann",
+    "patient_sex": "Female",
+    "patient_age": "21"
+    }},
+    "test_results": [
+    {{
+    "test_name": "Hemoglobin (Hb)",
+    "result_value": "12.5",
+    "unit_of_measurement": "g/dl",
+    "reference_range": "13.0-17.0 g/dL"
+    }},
+    {{
+    "test_name": "Mean Corpuscular Volume (MCV)",
+    "result_value": "87.75",
+    "unit_of_measurement": "fL",
+    "reference_range": "83-101 fL"
+    }}
+    ]
+    }}
+    EXAMPLE OF THE SQL QUERY THAT SHOULD BE YOUR OUTPUT:
+    INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+    ) VALUES (
+    '02.12.202X',
+    'Hemoglobin',
+    12.5,
+    'g/dL',
+    '13.0 - 17.0',
+    1,
+    1,
+    1
+    );
+    INSERT INTO reports (
+    report_date,
+    test_name,
+    test_result,
+    test_units,
+    test_reference_range,
+    report_type_id,
+    user_id,
+    hospital_id
+    ) VALUES (
+    '02.12.202X',
+    'Mean Corpuscular Volume (MCV)',
+    '87.75',
+    'fL',
+    '83 - 101',
+    1,
+    1,
+    1
+    );
+    IMPORTANT: Just return the SQL query. Do not make any further comment. Otherwise, the patient will die.
+    """
+
+    llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
+    logger.debug("AnyScaleLLM instantiated successfully.")
+
+    answer = llm.chat_completion(prompt, str(json_output))
+    return str(answer)
 
 def upload_success(request):
     '''
