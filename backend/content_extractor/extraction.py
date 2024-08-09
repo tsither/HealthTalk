@@ -7,6 +7,10 @@ import os
 import json
 import argparse
 
+import json
+from octoai.client import OctoAI
+from octoai.text_gen import ChatMessage
+
 def main():
     @staticmethod
     def read_image(path):
@@ -63,16 +67,7 @@ def main():
         padded = np.pad(image, pad_size, mode='edge')
         result = np.zeros_like(image)
 
-        # total_iterations = padded.shape[0] - 2 * pad_size
-        # quarter = total_iterations // 4
-
         for i in range(pad_size, padded.shape[0] - pad_size):
-            # if i == pad_size + quarter:
-            #     print("Loading: 25%")
-            # elif i == pad_size + 2 * quarter:
-            #     print("Loading: 50%")
-            # elif i == pad_size + 3 * quarter:
-            #     print("Loading: 75%")
             for j in range(pad_size, padded.shape[1] - pad_size):
                 region = padded[i - pad_size:i + pad_size +
                                 1, j - pad_size:j + pad_size + 1]
@@ -96,21 +91,35 @@ def main():
     @staticmethod
     def chat_completion(prompt, question):
 
-        ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
+        # ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
-        client = OpenAI(
-            base_url="https://api.endpoints.anyscale.com/v1",
-            api_key=ANYSCALE_API_KEY
+        # client = OpenAI(
+        #     base_url="https://api.endpoints.anyscale.com/v1",
+        #     api_key=ANYSCALE_API_KEY
+        # )
+
+        # chat_completion = client.chat.completions.create(
+        #     model='meta-llama/Meta-Llama-3-8B-Instruct',
+        #     messages=[{"role": "system", "content": prompt},
+        #               {"role": "user", "content": question}],
+        #     temperature=0.1
+        # )
+
+        client = OctoAI()
+        completion = client.text_gen.create_chat_completion(
+        model="meta-llama-3-8b-instruct",
+        messages=[
+            ChatMessage(
+                role="system",
+                content=prompt,
+            ),
+            ChatMessage(role="user", content=question),
+        ],
+        temperature=0.1,
+        max_tokens=8192-len(prompt),
         )
 
-        chat_completion = client.chat.completions.create(
-            model='meta-llama/Meta-Llama-3-8B-Instruct',
-            messages=[{"role": "system", "content": prompt},
-                      {"role": "user", "content": question}],
-            temperature=0.1
-        )
-
-        response = chat_completion.choices[0].message.content
+        response = completion.choices[0].message.content
 
         return response
 
@@ -164,27 +173,14 @@ def main():
     
     # Create the parser
     parser = argparse.ArgumentParser(description="Process a file")
-
-    # Add the -f/--file argument
     parser.add_argument('-f', '--file', type=str, required=True, help='Path to the input file')
-
-
-    # Parse the arguments
     args = parser.parse_args()
-
-    # Access the file path
     file_path = args.file
 
     image = read_image(str(file_path))
-
-    # print('Preprocessing file')
-
-    image = conservative_filter(moments(adaptive_gaussian(image)))
-
-    # print('Extracting file')
+    image = moments(adaptive_gaussian(image)) # faster, but original is line 164
+    # image = conservative_filter(moments(adaptive_gaussian(image)))
     text = process(image)
-
-    # print('Extracting results')
     answer = extract_test_results(text)
 
     while True:
@@ -197,21 +193,6 @@ def main():
         break
 
     print(json.dumps(json_object, indent=4))
-
-    # # Create output JSON file path
-    # input_dir = os.path.dirname(file_path)
-    # input_filename = os.path.splitext(os.path.basename(file_path))[0]
-    # output_json_path = os.path.join(input_dir, f"{input_filename}.json")
-
-    # # Save the data as JSON
-    # with open(output_json_path, 'w') as json_file:
-    #     json.dump(json_object, json_file, indent=4)
-
-    # print(f"Input file processed: {file_path}")
-    # print(f"Output JSON saved: {output_json_path}")
-
-
-
 
 if __name__ == "__main__":    
     main()
