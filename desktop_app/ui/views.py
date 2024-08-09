@@ -19,6 +19,9 @@ from django.urls import reverse
 import tempfile
 import subprocess
 
+from octoai.client import OctoAI
+from octoai.text_gen import ChatMessage
+
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -225,12 +228,31 @@ def json_to_sql(data):
     IMPORTANT: Just return the SQL query. Do not make any further comment. Otherwise, the patient will die.
     """
 
-    llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
-    logger.debug("AnyScaleLLM instantiated successfully.")
+    # llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
+    # logger.debug("AnyScaleLLM instantiated successfully.")
 
-    answer = llm.chat_completion(prompt, str(json_output))
-    print(answer)
-    return str(answer)
+    # answer = llm.chat_completion(prompt, str(json_output))
+    # print(answer)
+
+    # TODO: Create new OctoAI class as line 231
+    client = OctoAI()
+    completion = client.text_gen.create_chat_completion(
+        model="meta-llama-3-8b-instruct",
+        messages=[
+            ChatMessage(
+                role="system",
+                content=prompt,
+            ),
+            ChatMessage(role="user", content=str(json_output)),
+        ],
+        temperature=0.1,
+        max_tokens=8192-len(prompt),
+    )
+
+    response = completion.choices[0].message.content
+    print(response)
+
+    return str(response)
 
 def upload_success(request):
     '''

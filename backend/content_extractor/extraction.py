@@ -7,6 +7,10 @@ import os
 import json
 import argparse
 
+import json
+from octoai.client import OctoAI
+from octoai.text_gen import ChatMessage
+
 def main():
     @staticmethod
     def read_image(path):
@@ -87,21 +91,35 @@ def main():
     @staticmethod
     def chat_completion(prompt, question):
 
-        ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
+        # ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
 
-        client = OpenAI(
-            base_url="https://api.endpoints.anyscale.com/v1",
-            api_key=ANYSCALE_API_KEY
+        # client = OpenAI(
+        #     base_url="https://api.endpoints.anyscale.com/v1",
+        #     api_key=ANYSCALE_API_KEY
+        # )
+
+        # chat_completion = client.chat.completions.create(
+        #     model='meta-llama/Meta-Llama-3-8B-Instruct',
+        #     messages=[{"role": "system", "content": prompt},
+        #               {"role": "user", "content": question}],
+        #     temperature=0.1
+        # )
+
+        client = OctoAI()
+        completion = client.text_gen.create_chat_completion(
+        model="meta-llama-3-8b-instruct",
+        messages=[
+            ChatMessage(
+                role="system",
+                content=prompt,
+            ),
+            ChatMessage(role="user", content=question),
+        ],
+        temperature=0.1,
+        max_tokens=8192-len(prompt),
         )
 
-        chat_completion = client.chat.completions.create(
-            model='meta-llama/Meta-Llama-3-8B-Instruct',
-            messages=[{"role": "system", "content": prompt},
-                      {"role": "user", "content": question}],
-            temperature=0.1
-        )
-
-        response = chat_completion.choices[0].message.content
+        response = completion.choices[0].message.content
 
         return response
 
