@@ -20,7 +20,7 @@ result <- data %>%
   group_by(Config, OCR_module, LLM_model) %>%
   summarise(across(c(Accuracy, Precision, Recall, F1_Score), ~harmonic_mean(.[. != 0])), .groups = "drop")
 
-result %>% arrange(desc(F1_Score))
+top10 <- result %>% arrange(desc(F1_Score))
 result %>% arrange(desc(Accuracy))
 
 
