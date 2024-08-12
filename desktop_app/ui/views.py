@@ -48,9 +48,9 @@ MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 # DB = SQLDatabase.from_uri("sqlite:///Users/mymac/Downloads/desktop_app/ui/DB_query/med_assist.db")
 
 
-guard_NSFW = Guard().use(
-    NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
-)
+# guard_NSFW = Guard().use(
+#     NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
+# )
 
 
 #Test database connection
