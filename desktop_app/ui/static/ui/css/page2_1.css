@@ -52,3 +52,32 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+}
+.button-green, .button-red, .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.button-green {
+    background-color: green;
+}
+
+.button-red {
+    background-color: red;
+}
+
+.home-button {
+    background-color: #FF9800;
+}

@@ -5,14 +5,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Successful Upload </title>
-    <link rel="stylesheet" href="{% static 'ui/css/page2_1.css' %}">
+    <title>Check In: Is this information correct? </title>
+    <link rel="stylesheet" href="{% static 'ui/css/page2_2.css' %}">
 </head>
 <body>
     <div class="container">
-        <a href="{% url 'home' %}">Back to Home</a>
-        <h1>Successful Upload</h1>
+        {% if output %}
+            <h2>Quick Check: Does the following table match your report?</h2>
+            {{output|safe }}
+            <form action="{% url 'convert_to_sql' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="json_data" value="{{ json_output|stringformat:'s' }}">
+                <div class="button-container">
+                    <a href="{% url 'convert_to_sql' %}" class="button-green">Yes! Please add this to my data.</a>
+                    <a href="{% url 'process_reports' %}" class="button-red">No, please reprocess this report.</a>
+                    <a href="{% url 'home' %}" class="home-button">Back to Home</a>
+                </div>
+            </form>
+        {% endif %}
+
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+
+        {% if sql_query %}
+            <h2>SQL Query:</h2>
+            <pre>{{ sql_query }}</pre>
+        {% endif %}
     </div> 
 </body>
-
-</html>

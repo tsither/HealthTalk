@@ -6,7 +6,7 @@ from .models import User
 from langchain_community.utilities.sql_database import SQLDatabase
 import sqlalchemy
 from .DB_query.helper import generate_query, generate_response, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT
-from .DB_query.AnyScaleLLM import AnyScaleLLM
+#from .DB_query.AnyScaleLLM import AnyScaleLLM
 import logging
 from django.shortcuts import render, redirect
 from django.core.files.storage import FileSystemStorage
@@ -16,6 +16,7 @@ from django.utils import timezone
 from pathlib import Path
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+from json2html import *
 import tempfile
 import subprocess
 
@@ -131,7 +132,7 @@ def process_reports(request):
             # ['python', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
             #  '-f', temp_file.name],
             ['python', '/Users/hanamcmahon-cole/Documents/Medical_assistant/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
-              '-f', temp_file.name],
+             '-f', temp_file.name],
             capture_output=True,
             text=True,
             check=True
@@ -144,8 +145,11 @@ def process_reports(request):
 
         try:
             json_output = json.loads(result.stdout)
+            html_output = json2html.convert(json = json_output)
             os.unlink(temp_file.name)  # Delete the temporary file
-            return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
+            #todo: also transfer json output for sql update 
+            return render(request, 'ui/page2_2.html', {'output': html_output})
+            #return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
         except json.JSONDecodeError:
             print("Script did not return valid JSON. Please try again.")
             return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})
