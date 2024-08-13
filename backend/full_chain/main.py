@@ -13,7 +13,7 @@ from AnyScaleLLM import AnyScaleLLM
 from guardrails import Guard
 from guardrails.hub import NSFWText
 
-from topic_guardrail import check_user_input, CHECK_USER_PROMPT
+# from topic_guardrail import check_user_input, CHECK_USER_PROMPT
 
 # Use the Guard with the validator
 guard_NSFW = Guard().use(

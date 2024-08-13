@@ -50,13 +50,22 @@
                 })
                 .then(response => response.json())
                 .then(data => {
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
                     const botMessage = document.createElement('div');
                     botMessage.textContent = 'Bot: ' + data.response;
                     chatMessages.appendChild(botMessage);
                 })
                 .catch(error => {
                     console.error('Error:', error);
+
+                    const errorMessage = document.createElement('div');
+                    errorMessage.textContent = 'Error: ' + error.message;
+                    errorMessage.style.color = 'red';
+                    chatMessages.appendChild(errorMessage);
                 });
+                
             }
         }
 
