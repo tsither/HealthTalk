@@ -6,7 +6,7 @@ from .models import User
 from langchain_community.utilities.sql_database import SQLDatabase
 import sqlalchemy
 from .DB_query.helper import generate_query, generate_response, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT
-from .DB_query.AnyScaleLLM import AnyScaleLLM
+from .DB_query.LLMs import LLM_Chatbot
 import logging
 from django.shortcuts import render, redirect
 from django.core.files.storage import FileSystemStorage
@@ -18,7 +18,8 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 import tempfile
 import subprocess
-
+from guardrails import Guard
+from guardrails.hub import NSFWText
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
 
@@ -32,25 +33,21 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
+#Dynamic pathing to database
+current_dir = Path(__file__).resolve().parent
+db_path = current_dir / "DB_query" / "med_assist.db"
+db_uri = f"sqlite:////{db_path}"
 
-# current_dir = Path(__file__).resolve().parent
-# db_path = current_dir / "DB_query" / "med_assist.db"
+DB = SQLDatabase.from_uri(db_uri)
 
-# TODO: Do this dinamically
-# DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
-DB = SQLDatabase.from_uri("sqlite:////Users/hanamcmahon-cole/Documents/Sqlite/med_assist.db")
+OCTOAI_API_KEY = os.getenv("OCTOAI_KEY")
 
-ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
-
-# print(f"ANYSCALE_API_KEY:{ANYSCALE_API_KEY}")
-MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
-#MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
-# DB = SQLDatabase.from_uri("sqlite:///Users/mymac/Downloads/desktop_app/ui/DB_query/med_assist.db")
+MODEL = "meta-llama-3-8b-instruct"
 
 
-# guard_NSFW = Guard().use(
-#     NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
-# )
+guard_NSFW = Guard().use(
+    NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
+)
 
 
 #Test database connection
@@ -136,7 +133,6 @@ def process_reports(request):
             text=True,
             check=True
         )
-            
         # Get the output of the script
         output = result.stdout
 
@@ -324,13 +320,13 @@ def page3_view(request):
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
-            if not test_db_connection("sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db"):
+            if not test_db_connection("sqlite:////Users/mymac/LLM/Personal-Medical-Assistant/desktop_app/database/med_assist.db"):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
             
             guard_NSFW.validate(question) #NSFW guardrail
 
-            logger.debug(f"Instantiating AnyScaleLLM with model_name={MODEL} and api_key={ANYSCALE_API_KEY}")
-            llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
+            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key={OCTOAI_API_KEY}")
+            llm = LLM_Chatbot(model_name=MODEL, api_key=OCTOAI_API_KEY)
             logger.debug("AnyScaleLLM instantiated successfully.")
             query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)
             response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
