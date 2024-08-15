@@ -1,0 +1,427 @@
+{
+    "sqlite_sequence": [
+        {
+            "name": "diagnosis",
+            "seq": 7
+        },
+        {
+            "name": "USER",
+            "seq": 2
+        },
+        {
+            "name": "hospitals",
+            "seq": 4
+        },
+        {
+            "name": "reports",
+            "seq": 8
+        },
+        {
+            "name": "doctors",
+            "seq": 4
+        },
+        {
+            "name": "appointments",
+            "seq": 12
+        },
+        {
+            "name": "medicine",
+            "seq": 7
+        }
+    ],
+    "hospitals": [
+        {
+            "hospital_id": 1,
+            "hospital_name": "Cedars-Sinai Medical Center",
+            "address_line": "8700 Beverly Blvd, Los Angeles, CA 90048",
+            "phone_number": "8457289"
+        },
+        {
+            "hospital_id": 2,
+            "hospital_name": "NYU Langone",
+            "address_line": "150 55th St, Brooklyn, NY 11220",
+            "phone_number": "8447239"
+        },
+        {
+            "hospital_id": 3,
+            "hospital_name": "Kindred Hospital Chicago North",
+            "address_line": "2544 W Montrose Ave, Chicago, IL 60618",
+            "phone_number": "8375621"
+        },
+        {
+            "hospital_id": 4,
+            "hospital_name": "HCA Florida Mercy Hospital",
+            "address_line": "3663 S Miami Ave, Miami, FL 33133",
+            "phone_number": "8269413"
+        }
+    ],
+    "diagnosis": [
+        {
+            "diagnosis_id": 1,
+            "diagnosis_name": "Cold",
+            "recommendations": "Take Paracetamol"
+        },
+        {
+            "diagnosis_id": 2,
+            "diagnosis_name": "Gastritis",
+            "recommendations": "Take ibuprofen"
+        },
+        {
+            "diagnosis_id": 3,
+            "diagnosis_name": "Migraine",
+            "recommendations": "Take rest and ibuprofen"
+        },
+        {
+            "diagnosis_id": 4,
+            "diagnosis_name": "Hypertension",
+            "recommendations": "Reduce salt intake and exercise regularly"
+        },
+        {
+            "diagnosis_id": 5,
+            "diagnosis_name": "Diabetes",
+            "recommendations": "Monitor blood sugar levels and follow a diabetic diet"
+        },
+        {
+            "diagnosis_id": 6,
+            "diagnosis_name": "Flu",
+            "recommendations": "Stay hydrated and take antiviral medication"
+        },
+        {
+            "diagnosis_id": 7,
+            "diagnosis_name": "Allergy",
+            "recommendations": "Avoid allergens and take antihistamines"
+        }
+    ],
+    "reports": [
+        {
+            "report_id": 1,
+            "report_date": "2024-04-01",
+            "test_name": "Hemoglobin",
+            "test_result": 19.0,
+            "test_units": "g/dL",
+            "test_reference_range": "13.0-17.0",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 2,
+            "report_date": "2024-04-01",
+            "test_name": "Neutrophils",
+            "test_result": 60.0,
+            "test_units": "%",
+            "test_reference_range": "50-62",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 3,
+            "report_date": "2024-04-02",
+            "test_name": "Cholesterol",
+            "test_result": 180.0,
+            "test_units": "mg/dL",
+            "test_reference_range": "Less than 200",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 2,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 4,
+            "report_date": "2024-04-02",
+            "test_name": "Glucose",
+            "test_result": 110.0,
+            "test_units": "mg/dL",
+            "test_reference_range": "70-100",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 2,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 5,
+            "report_date": "2024-04-03",
+            "test_name": "Hemoglobin A1c",
+            "test_result": 5.5,
+            "test_units": "%",
+            "test_reference_range": "4.0-5.6",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 3,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 6,
+            "report_date": "2024-04-03",
+            "test_name": "Platelets",
+            "test_result": 250000.0,
+            "test_units": "cells/\u00b5L",
+            "test_reference_range": "150000-400000",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 3,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 7,
+            "report_date": "2024-04-04",
+            "test_name": "Bilirubin",
+            "test_result": 1.0,
+            "test_units": "mg/dL",
+            "test_reference_range": "0.1-1.2",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 4,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 8,
+            "report_date": "2024-04-04",
+            "test_name": "Creatinine",
+            "test_result": 0.8,
+            "test_units": "mg/dL",
+            "test_reference_range": "0.6-1.2",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 4,
+            "interpretation": "Normal"
+        }
+    ],
+    "appointments": [
+        {
+            "appointment_id": 1,
+            "appointment_date": "2024-04-22",
+            "payment_total": 60.0,
+            "user_id": 1,
+            "hospital_id": 1,
+            "doctor_id": 1
+        },
+        {
+            "appointment_id": 2,
+            "appointment_date": "2024-04-30",
+            "payment_total": 60.0,
+            "user_id": 1,
+            "hospital_id": 1,
+            "doctor_id": 1
+        },
+        {
+            "appointment_id": 5,
+            "appointment_date": "2024-05-15",
+            "payment_total": 70.0,
+            "user_id": 1,
+            "hospital_id": 3,
+            "doctor_id": 3
+        },
+        {
+            "appointment_id": 6,
+            "appointment_date": "2024-05-20",
+            "payment_total": 70.0,
+            "user_id": 1,
+            "hospital_id": 3,
+            "doctor_id": 3
+        },
+        {
+            "appointment_id": 9,
+            "appointment_date": "2024-06-05",
+            "payment_total": 75.0,
+            "user_id": 1,
+            "hospital_id": 1,
+            "doctor_id": 1
+        },
+        {
+            "appointment_id": 11,
+            "appointment_date": "2024-06-15",
+            "payment_total": 70.0,
+            "user_id": 1,
+            "hospital_id": 3,
+            "doctor_id": 3
+        }
+    ],
+    "diagnosis_by_doctor": [
+        {
+            "doctor_id": 1,
+            "diagnosis_id": 1
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 2
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 3
+        },
+        {
+            "doctor_id": 3,
+            "diagnosis_id": 4
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 5
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 6
+        },
+        {
+            "doctor_id": 1,
+            "diagnosis_id": 7
+        }
+    ],
+    "medicine_by_diagnosis": [
+        {
+            "medicine_id": 2,
+            "diagnosis_id": 1
+        },
+        {
+            "medicine_id": 3,
+            "diagnosis_id": 2
+        },
+        {
+            "medicine_id": 3,
+            "diagnosis_id": 3
+        },
+        {
+            "medicine_id": 5,
+            "diagnosis_id": 4
+        },
+        {
+            "medicine_id": 4,
+            "diagnosis_id": 5
+        },
+        {
+            "medicine_id": 7,
+            "diagnosis_id": 6
+        },
+        {
+            "medicine_id": 6,
+            "diagnosis_id": 7
+        }
+    ],
+    "report_type": [
+        {
+            "report_type_id": 1,
+            "report_type_name": "Blood report"
+        },
+        {
+            "report_type_id": 2,
+            "report_type_name": "Urinalysis"
+        }
+    ],
+    "USER": [
+        {
+            "user_id": 1,
+            "first_name": "Belen",
+            "last_name": "Tavares",
+            "gender": "F",
+            "birth_date": "1990-12-01",
+            "phone_number": "56892487"
+        },
+        {
+            "user_id": 2,
+            "first_name": "John",
+            "last_name": "Doe",
+            "gender": "M",
+            "birth_date": "1985-05-15",
+            "phone_number": "12345678"
+        }
+    ],
+    "doctor_specialization": [
+        {
+            "specialization_id": 1,
+            "specialization_name": "Therapist"
+        },
+        {
+            "specialization_id": 2,
+            "specialization_name": "Cardiologist"
+        },
+        {
+            "specialization_id": 3,
+            "specialization_name": "Pediatrician"
+        }
+    ],
+    "doctors": [
+        {
+            "doctor_id": 1,
+            "first_name": "John",
+            "last_name": "Doe",
+            "phone_number": "8374972",
+            "email": "johndoe@gmail.com",
+            "specialization_id": 1,
+            "hospital_id": 1
+        },
+        {
+            "doctor_id": 2,
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "phone_number": "8888888",
+            "email": "janedoe@gmail.com",
+            "specialization_id": 1,
+            "hospital_id": 2
+        },
+        {
+            "doctor_id": 3,
+            "first_name": "Michael",
+            "last_name": "Smith",
+            "phone_number": "7654321",
+            "email": "michaelsmith@gmail.com",
+            "specialization_id": 2,
+            "hospital_id": 3
+        },
+        {
+            "doctor_id": 4,
+            "first_name": "Maria",
+            "last_name": "Garcia",
+            "phone_number": "9876543",
+            "email": "mariagarcia@gmail.com",
+            "specialization_id": 3,
+            "hospital_id": 4
+        }
+    ],
+    "medicine": [
+        {
+            "medicine_id": 1,
+            "medicine_name": "Aspirin",
+            "dosage": 500,
+            "daily_frequency": 1
+        },
+        {
+            "medicine_id": 2,
+            "medicine_name": "Paracetamol",
+            "dosage": 500,
+            "daily_frequency": 2
+        },
+        {
+            "medicine_id": 3,
+            "medicine_name": "Ibuprofen",
+            "dosage": 200,
+            "daily_frequency": 3
+        },
+        {
+            "medicine_id": 4,
+            "medicine_name": "Metformin",
+            "dosage": 500,
+            "daily_frequency": 2
+        },
+        {
+            "medicine_id": 5,
+            "medicine_name": "Lisinopril",
+            "dosage": 10,
+            "daily_frequency": 1
+        },
+        {
+            "medicine_id": 6,
+            "medicine_name": "Cetirizine",
+            "dosage": 10,
+            "daily_frequency": 1
+        },
+        {
+            "medicine_id": 7,
+            "medicine_name": "Oseltamivir",
+            "dosage": 75,
+            "daily_frequency": 2
+        }
+    ]
+}
