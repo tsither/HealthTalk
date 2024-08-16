@@ -5,8 +5,8 @@ import json
 from .models import User
 from langchain_community.utilities.sql_database import SQLDatabase
 import sqlalchemy
-from .DB_query.helper import generate_query, generate_response, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT
-from .DB_query.LLMs import LLM_Chatbot
+from .DB_query.helper import generate_query, generate_response, generate_RAG_query, read_json_file, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT, RAG_CONTEXT
+from .DB_query.LLMs import langdock_LLM_Chatbot
 import logging
 from django.shortcuts import render, redirect
 from django.core.files.storage import FileSystemStorage
@@ -23,8 +23,8 @@ from guardrails.hub import NSFWText
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
 
-
-# Set up logging
+#######################################
+########### Set up logging ############
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 handler = logging.StreamHandler()
@@ -32,19 +32,43 @@ handler.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
+#######################################
 
-#Dynamic pathing to database
+
+####################################################
+########### Dynamic pathing to database ############    #sql generation method
 current_dir = Path(__file__).resolve().parent
 db_path = current_dir / "DB_query" / "med_assist.db"
 db_uri = f"sqlite:////{db_path}"
 
 DB = SQLDatabase.from_uri(db_uri)
+####################################################
 
-OCTOAI_API_KEY = os.getenv("OCTOAI_KEY")
+##########################################
+########### RAG json database ############
+USER_DATA = read_json_file("/DB_query/med_assist.json")
+##########################################
 
-MODEL = "meta-llama-3-8b-instruct"
+#models, keys
+octoai_api_key = os.getenv("OCTOAI_KEY")
+langdock_api_key = os.getenv("langdock_api_key")
+langdock_base_url = os.getenv("langdock_base_url")
+
+model_gpt = "gpt-4o"
+model_llama = "meta-llama-3-8b-instruct"
 
 
+#######################################################################
+########### #CHANGE HERE FOR DIFFERENT KEYS + query method ############
+API_KEY = langdock_api_key
+BASE_URL = langdock_base_url
+MODEL = model_gpt
+sql_query_gen_method = False            #True: generate SQL queries to access database info (sqlite3)
+                                        #False: converts database to json file, queries database using RAG methods (NO SQL QUERY GENERATION)
+#############################################################
+
+
+#guardrails
 guard_NSFW = Guard().use(
     NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
 )
@@ -114,6 +138,11 @@ def process_reports(request):
     '''
     This part takes the file and runs it through the script. It also get the result as string (but its a json)
     '''
+    PMA_path = Path.cwd()
+
+    extraction_path = PMA_path / "backend" / "content_extractor" / "extraction.py"
+
+
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
         
@@ -124,10 +153,7 @@ def process_reports(request):
 
         # Run the external Python script
         result = subprocess.run(
-            # TODO: Make this dynamic
-            # ['python', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
-            #  '-f', temp_file.name],
-            ['python', '/Users/hanamcmahon-cole/Documents/Medical_assistant/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
+            ['python', extraction_path,     #Made this dynamic :)
               '-f', temp_file.name],
             capture_output=True,
             text=True,
@@ -320,19 +346,24 @@ def page3_view(request):
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
-            if not test_db_connection("sqlite:////Users/mymac/LLM/Personal-Medical-Assistant/desktop_app/database/med_assist.db"):
+            if not test_db_connection(db_uri=db_uri):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
             
             guard_NSFW.validate(question) #NSFW guardrail
 
-            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key={OCTOAI_API_KEY}")
-            llm = LLM_Chatbot(model_name=MODEL, api_key=OCTOAI_API_KEY)
-            logger.debug("AnyScaleLLM instantiated successfully.")
-            query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)
-            response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
+            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key={API_KEY}")
+            llm = langdock_LLM_Chatbot(model_name=MODEL, api_key=API_KEY, base_url=BASE_URL, context=RAG_CONTEXT)
+            logger.debug("LLM instantiated successfully.")
 
+            #choose method of database query
+            if sql_query_gen_method:
+                query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)                                #modified for RAG 
+                response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
+                            #modified for RAG 
+            else:
+                response = generate_RAG_query(llm=llm, template=RAG_CONTEXT, user_data=USER_DATA ,question=question)
             logger.debug(f"User question: {question}")
-            logger.debug(f"Generated query: {query}")
+            # logger.debug(f"Generated query: {query}")         #modified for RAG 
             logger.debug(f"LLM response: {response}")
 
             return JsonResponse({"response": response})
