@@ -24,51 +24,104 @@
     </div>
 
     <script>
-        function sendMessage(event) {
-            // Prevent default only for keydown events (i.e., pressing Enter)
-            if (event && event.type === 'keydown') {
-                event.preventDefault();
-            }
+        // function sendMessage(event) {
+        //     // Prevent default only for keydown events (i.e., pressing Enter)
+        //     if (event && event.type === 'keydown') {
+        //         event.preventDefault();
+        //     }
 
-            const userInput = document.getElementById('user-input');
-            const message = userInput.value.trim();
-            userInput.value = '';
+        //     const userInput = document.getElementById('user-input');
+        //     const message = userInput.value.trim();
+        //     userInput.value = '';
 
-            if (message) {
-                const chatMessages = document.getElementById('chat-messages');
-                const userMessage = document.createElement('div');
-                userMessage.textContent = 'You: ' + message;
-                chatMessages.appendChild(userMessage);
+        //     if (message) {
+        //         const chatMessages = document.getElementById('chat-messages');
+        //         const userMessage = document.createElement('div');
+        //         userMessage.textContent = 'You: ' + message;
+        //         chatMessages.appendChild(userMessage);
 
-                fetch("{% url 'page3' %}", {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRFToken': '{{ csrf_token }}',
-                    },
-                    body: JSON.stringify({ question: message })
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.error) {
-                        throw new Error(data.error);
-                    }
-                    const botMessage = document.createElement('div');
-                    botMessage.textContent = 'Bot: ' + data.response;
-                    chatMessages.appendChild(botMessage);
-                })
-                .catch(error => {
-                    console.error('Error:', error);
+        //         fetch("{% url 'page3' %}", {
+        //             method: 'POST',
+        //             headers: {
+        //                 'Content-Type': 'application/json',
+        //                 'X-CSRFToken': '{{ csrf_token }}',
+        //             },
+        //             body: JSON.stringify({ question: message })
+        //         })
+        //         .then(response => response.json())
+        //         .then(data => {
+        //             if (data.error) {
+        //                 throw new Error(data.error);
+        //             }
+        //             const botMessage = document.createElement('div');
+        //             botMessage.textContent = 'Bot: ' + data.response;
+        //             chatMessages.appendChild(botMessage);
+        //         })
+        //         .catch(error => {
+        //             console.error('Error:', error);
 
-                    const errorMessage = document.createElement('div');
-                    errorMessage.textContent = 'Error: ' + error.message;
-                    errorMessage.style.color = 'red';
-                    chatMessages.appendChild(errorMessage);
-                });
+        //             const errorMessage = document.createElement('div');
+        //             errorMessage.textContent = 'Error: ' + error.message;
+        //             errorMessage.style.color = 'red';
+        //             chatMessages.appendChild(errorMessage);
+        //         });
                 
-            }
-        }
+        //     }
+        // }
+        function sendMessage(event) {
+    if (event && event.type === 'keydown') {
+        event.preventDefault();
+    }
 
+    const userInput = document.getElementById('user-input');
+    const message = userInput.value.trim();
+    userInput.value = '';
+
+    if (message) {
+        const chatMessages = document.getElementById('chat-messages');
+        const userMessage = document.createElement('div');
+        userMessage.className = 'user-message';
+        userMessage.textContent = 'You: ' + message;
+        chatMessages.appendChild(userMessage);
+
+        fetch("{% url 'page3' %}", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}',
+            },
+            body: JSON.stringify({ question: message })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                throw new Error(data.error);
+            }
+            const botMessage = document.createElement('div');
+            botMessage.className = 'bot-message';
+            botMessage.innerHTML = formatBotResponse(data.response);
+            chatMessages.appendChild(botMessage);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            const errorMessage = document.createElement('div');
+            errorMessage.textContent = 'Error: ' + error.message;
+            errorMessage.style.color = 'red';
+            chatMessages.appendChild(errorMessage);
+        });
+    }
+}
+
+function formatBotResponse(response) {
+    // Bold text between double asterisks
+    response = response.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    
+    // Convert newlines to <br> tags
+    response = response.replace(/\n/g, '<br>');
+    
+    return 'Bot: ' + response;
+}
     </script>
 </body>
 </html>

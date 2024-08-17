@@ -367,28 +367,16 @@ def page3_view(request):
             # logger.debug(f"Generated query: {query}")         #modified for RAG 
             logger.debug(f"LLM response: {response}")
 
-            # response = response.replace('\n', '<br>')           #replace for formatting in chatbot
-
             return JsonResponse({"response": response})
         except Exception as e:
             logger.error(f"Error processing request: {e}")
             error_message = str(e)
             return JsonResponse({"error": error_message}, status=500)
 
-
     return render(request, 'ui/page3_2.html')
 
 def page3_3(request):
     return render(request, 'ui/page3_3.html')  
-
-
-
-
-
-
-
-
-
 
 # def page3_view(request):
 #     if request.method == "POST":
