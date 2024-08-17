@@ -1,6 +1,6 @@
 {% load static %}
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,4 +23,35 @@
 
     <a href="{% url 'home' %}">Back to Home</a>
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+</head>
+<body>
+
+    <h1>User Information</h1>
+
+    {% if user_info %}
+        <p><strong>User ID:</strong> {{ user_info.user_id }}</p>
+        <p><strong>Full Name:</strong> {{ user_info.full_name }}</p>
+        <p><strong>Gender:</strong> {{ user_info.gender }}</p>
+        <p><strong>Birth Date:</strong> {{ user_info.birth_date }}</p>
+        <!-- Uncomment the following line if you decide to include email -->
+        <!-- <p><strong>Email:</strong> {{ user_info.email }}</p> -->
+        <p><strong>Phone Number:</strong> {{ user_info.phone_number }}</p>
+    {% else %}
+        <p>No user information found.</p>
+    {% endif %}
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+</body>
 </html>
+

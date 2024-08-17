@@ -112,8 +112,9 @@ def page1_view(request):
                 logger.error("Table 'User' does not exist in the database.")
                 return render(request, 'ui/page1_1.html', {'error': "Table 'User' does not exist in the database."})
 
+        print("TEST")
         # Fetch user info from the database using Django ORM
-        user = User.objects.filter(first_name='Belen').first()
+        user = User.objects.filter(user_id=1).first()
 
         if user:
             user_info = {
@@ -127,7 +128,7 @@ def page1_view(request):
             logger.info(f"Fetched user information: {user_info}")
         else:
             user_info = None
-            logger.warning("No user found with first name 'Belen'.")
+            logger.warning("No user found with user_id '1'.")
 
         return render(request, 'ui/page1_1.html', {'user_info': user_info})
 

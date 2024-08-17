@@ -9,6 +9,8 @@ Notes: Current implementation only works with models from Anyscale AI api
 """
 
 import json
+from datetime import datetime, timezone
+
 
 ################################################################################################
 ################################################################################################
@@ -65,11 +67,23 @@ Answer the users question to the best of your ability, ensuring to ONLY respond 
 User question: {question}
 User medical data: {user_data}
 
+Current date: {current_date}
+
 """
 
 ################################################################################################
 ################################################################################################
 
+def get_current_time():
+    # Get current time in UTC
+    utc_time = datetime.now(timezone.utc)
+    
+    # Format the date and time in European style
+    # %d/%m/%Y for day/month/year
+    # %H:%M:%S for 24-hour time
+    formatted_time = utc_time.strftime("%d/%m/%Y %H:%M:%S")
+    
+    return formatted_time
  
 def get_schema(db):
     """
@@ -144,8 +158,8 @@ def generate_RAG_query(llm, template, user_data, question):
     Returns:
     out (str): LLM response
     """
-
-    prompt = template.format(question=question, user_data=user_data)       #format template to include all necessary information (schema, question)
+    current_date = get_current_time()
+    prompt = template.format(question=question, user_data=user_data, current_date=current_date)       #format template to include all necessary information (schema, question)
     answer = llm.chat_completion(prompt, question)         #generates sql query
 
     return answer
