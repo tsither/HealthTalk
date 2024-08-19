@@ -31,6 +31,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Info</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ui/css/page1_1.css' %}">
 </head>
 <body>
 
@@ -51,6 +52,8 @@
     {% if error %}
         <p style="color: red;">{{ error }}</p>
     {% endif %}
+
+    <a href="{% url 'home' %}">Back to Home</a>
 
 </body>
 </html>
