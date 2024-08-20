@@ -19,6 +19,10 @@ from django.urls import reverse
 from json2html import *
 import tempfile
 import subprocess
+from django.contrib.auth.decorators import login_required
+from .forms import ProfileForm
+from django.contrib.auth.views import LoginView
+
 
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
@@ -53,6 +57,75 @@ MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 #     NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
 # )
 
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.forms import AuthenticationForm
+
+def home_view(request):
+    return render(request, 'ui/home.html')
+
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.models import User
+from .forms import UserForm, ProfileForm
+
+def login_view(request):
+    if request.method == 'POST':
+        form = AuthenticationForm(request, data=request.POST) #AuthenticationForm: This form automatically checks the username and password fields.
+        if form.is_valid():
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password')
+            # Check if the user exists in the database
+            user = authenticate(username=username, password=password) #authenticate(): This function verifies the credentials against the SQLite database.
+            if user is not None:
+                login(request, user) #login(): If authentication is successful, this function logs in the user and sets up the session.
+                return redirect('home')  # Redirect to the home page after login
+            else:
+                # If the user doesn't exist or wrong credentials
+                form.add_error(None, "Invalid username or password.")
+    else:
+        form = AuthenticationForm()
+    return render(request, 'ui/login.html', {'form': form})
+
+from django.shortcuts import render, redirect
+from .forms import UserForm, ProfileForm
+from .models import Profile
+from django.db import IntegrityError
+
+def register(request):
+    if request.method == 'POST':
+        user_form = UserForm(request.POST)
+        profile_form = ProfileForm(request.POST)
+        
+        if user_form.is_valid() and profile_form.is_valid():
+            try:
+                user = user_form.save(commit=False)
+                user.set_password(user.password)
+                user.save()
+                
+                # Check if the user already has a profile
+                if not Profile.objects.filter(user=user).exists():
+                    profile = profile_form.save(commit=False)
+                    profile.user = user
+                    profile.save()
+                else:
+                    # Handle the case where the user already has a profile
+                    print("Profile already exists for this user.")
+                
+                return redirect('login')  # Redirect to login page after successful registration
+            except IntegrityError:
+                # Handle the exception if there's a unique constraint violation
+                user_form.add_error(None, "A profile for this user already exists.")
+        else:
+            print("User Form Errors:", user_form.errors)
+            print("Profile Form Errors:", profile_form.errors)
+    else:
+        user_form = UserForm()
+        profile_form = ProfileForm()
+    
+    return render(request, 'ui/register.html', {'user_form': user_form, 'profile_form': profile_form})
+
 
 #Test database connection
 def test_db_connection(db_uri):
@@ -70,8 +143,6 @@ def test_db_connection(db_uri):
         logger.error(f"Database connection failed: {e}")
         return False
 
-def home(request):
-    return render(request, 'ui/home.html')
 
 def page1_view(request):
     try:
@@ -155,6 +226,23 @@ def process_reports(request):
             return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})
 
     return HttpResponseRedirect(reverse('upload_success'))
+
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import json
+
+@csrf_exempt  # Allows POST requests without CSRF token for this example; handle with caution
+def update_table(request):
+    if request.method == 'POST':
+        updated_data = json.loads(request.body)
+        # Process the updated data (e.g., save to the database)
+        # Example: Save updated data to your model or perform some logic
+        print(updated_data)
+
+        # Respond back to the client
+        return JsonResponse({'status': 'success', 'data': updated_data})
+
+    return JsonResponse({'status': 'error', 'message': 'Invalid request'}, status=400)
 
 def convert_to_sql(request):
     json_data = request.POST.get('json_data')
@@ -354,6 +442,18 @@ def page3_view(request):
 def page3_3(request):
     return render(request, 'ui/page3_3.html')  
 
+
+
+'''
+def profile_setup(request):
+    if request.method == 'POST':
+        form = ProfileForm(request.POST, request.FILES, instance=request.user.profile)
+        if form.is_valid():
+            form.save()
+            return redirect('home')
+    else:
+        form = ProfileForm(instance=request.user.profile)
+    return render(request, 'profile_setup.html', {'form': form})'''
 # def page3_view(request):
 #     if request.method == "POST":
 #         try:

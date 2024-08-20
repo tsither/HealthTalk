@@ -6,31 +6,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check In: Is this information correct? </title>
-    <link rel="stylesheet" href="{% static 'ui/css/page2_2.css' %}">
+    <link rel="stylesheet" href="{% static 'ui/css/general.css' %}">
 </head>
 <body>
     <div class="container">
-        {% if output %}
-            <h2>Quick Check: Does the following table match your report?</h2>
-            {{output|safe }}
-            <form action="{% url 'convert_to_sql' %}" method="post">
-                {% csrf_token %}
-                <input type="hidden" name="json_data" value="{{ json_output|stringformat:'s' }}">
-                <div class="button-container">
-                    <a href="{% url 'convert_to_sql' %}" class="button-green">Yes! Please add this to my data.</a>
-                    <a href="{% url 'process_reports' %}" class="button-red">No, please reprocess this report.</a>
-                    <a href="{% url 'home' %}" class="home-button">Back to Home</a>
-                </div>
-            </form>
-        {% endif %}
+    {% if output %}
+        <h2>Quick Check: Does the following table match your report?</h2>
 
-        {% if error %}
-            <p class="error">{{ error }}</p>
-        {% endif %}
+        <!-- Render the editable table -->
+        <table id="editable-table">
+            {{ output|safe }}
+        </table>
 
-        {% if sql_query %}
-            <h2>SQL Query:</h2>
-            <pre>{{ sql_query }}</pre>
-        {% endif %}
-    </div> 
-</body>
+        <form id="editable-table-form" action="{% url 'convert_to_sql' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="json_data" id="json_data">
+            <div class="button-container">
+                <!-- Changed 'a' tags to 'button' tags to submit the form -->
+                <button type="button" class="green-button" onclick="submitTable()">Yes! Please add this to my data.</button>
+                <button type="button" class="red-button" onclick="window.location.href='{% url 'process_reports' %}'">No, please reprocess this report.</button>
+                <button type="button" class="home-button" onclick="window.location.href='{% url 'home' %}'">Back to Home</button>
+            </div>
+        </form>
+    {% endif %}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Make each table cell editable
+    const table = document.getElementById('editable-table');
+    const cells = table.querySelectorAll('td');
+    
+    cells.forEach(cell => {
+        cell.setAttribute('contenteditable', 'true');
+    });
+});
+
+function submitTable() {
+    const table = document.getElementById('editable-table');
+    const rows = table.querySelectorAll('tbody tr');
+    let data = [];
+
+    rows.forEach(row => {
+        let rowData = {};
+        row.querySelectorAll('td').forEach((cell, index) => {
+            const key = table.querySelector('thead th:nth-child(' + (index + 1) + ')').innerText;
+            rowData[key] = cell.innerText;
+        });
+        data.push(rowData);
+    });
+
+    // Set the JSON data to hidden input field
+    document.getElementById('json_data').value = JSON.stringify(data);
+    
+    // Submit the form
+    document.getElementById('editable-table-form').submit();
+}
+</script>
