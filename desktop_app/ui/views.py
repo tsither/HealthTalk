@@ -5,7 +5,7 @@ import json
 from .models import User
 from langchain_community.utilities.sql_database import SQLDatabase
 import sqlalchemy
-from .DB_query.helper import generate_query, generate_response, generate_RAG_query, read_json_file, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT, RAG_CONTEXT
+from .DB_query.helper import generate_query, generate_response, generate_RAG_query, read_json_file, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT, RAG_CONTEXT, HELPFUL_PROMPT
 from .DB_query.LLMs import langdock_LLM_Chatbot, OCTOAI_LLM_Chatbot
 import logging
 from django.shortcuts import render, redirect
@@ -346,33 +346,58 @@ def page3_view(request):
     if request.method == "POST":
         try:
             data = json.loads(request.body)
-            question = data.get("question", "") 
+            question = data.get("question", "").strip()
 
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
             if not test_db_connection(db_uri=db_uri):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
-            
-            guard_NSFW.validate(question) #NSFW guardrail
 
-            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key={API_KEY}")
-            # llm = langdock_LLM_Chatbot(model_name=MODEL, api_key=API_KEY, base_url=BASE_URL, context=RAG_CONTEXT)
             llm = OCTOAI_LLM_Chatbot(model_name=MODEL, api_key=API_KEY)
+            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key=API_KEY")
+
+            # Guardrails validation
+            try:
+                guard_NSFW.validate(question)
+            except Exception as guardrails_error:
+
+                try:
+                    question = "What questions can I ask?"
+                    llm_response = llm.chat_completion(prompt=HELPFUL_PROMPT, question=question)
+
+                    if not llm_response:
+                        llm_response = "No specific guidance is available at the moment."
+
+                    # Server-side logging
+                    response_data = {
+                        "error": f"Guardrails validation failed: {guardrails_error}",
+                        "details": f"Medical assistant guidance: {llm_response}"
+                    }
+
+                    logger.debug(f"Response data being sent: {response_data}")
+
+                    response_json = json.dumps(response_data)
+
+                    return HttpResponse(response_json, content_type="application/json", status=400)
+
+                except Exception as llm_error:
+                    logger.error(f"LLM failed to generate response: {llm_error}")
+                    return JsonResponse({
+                        "response": "An error occurred while processing your request. Please try again later.",
+                        "error": f"Guardrails validation failed: {guardrails_error}. LLM error: {llm_error}"
+                    }, status=400)
+
             logger.debug("LLM instantiated successfully.")
 
-            #choose method of database query
             if sql_query_gen_method:
-                query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)                                #modified for RAG 
+                query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)
                 response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
-                            #modified for RAG 
             else:
-                response = generate_RAG_query(llm=llm, template=RAG_CONTEXT, user_data=USER_DATA ,question=question)
-            logger.debug(f"User question: {question}")
-            # logger.debug(f"Generated query: {query}")         #modified for RAG 
-            logger.debug(f"LLM response: {response}")
+                response = generate_RAG_query(llm=llm, template=RAG_CONTEXT, user_data=USER_DATA, question=question)
 
             return JsonResponse({"response": response})
+
         except Exception as e:
             logger.error(f"Error processing request: {e}")
             error_message = str(e)
