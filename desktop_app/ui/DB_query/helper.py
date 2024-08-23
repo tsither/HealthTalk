@@ -74,6 +74,24 @@ Current date: {current_date}
 ################################################################################################
 ################################################################################################
 
+HELPFUL_PROMPT = """
+                The database contains information such as:
+                - Your blood reports and lab results
+                - Hospitals you visited and details of the doctors you have visited
+                - Medications you are prescribed
+                - My diagnosis
+
+                You can ask questions like:
+                - What are the latest results from my blood tests?
+                - Which hospitals have I visited in the last year?
+                - Can you summarize my recent blood reports results?
+                - When was my hemoglobin low?
+
+                Feel free to ask questions, but only related to your health history stored in the database.
+            """
+################################################################################################
+################################################################################################
+
 def get_current_time():
     # Get current time in UTC
     utc_time = datetime.now(timezone.utc)
