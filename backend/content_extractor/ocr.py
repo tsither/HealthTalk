@@ -104,6 +104,7 @@ def main():
     
     with open(log_file_path, 'w') as log_file:
         for image_file in image_files:
+            print(image_file)
             image_path = os.path.join(os.getcwd(), image_file)
             print(f"Processing file: {image_file}")
             
@@ -127,7 +128,7 @@ def main():
                 print(f"Method: {method_name}")
                 print(f"Time nedded: {round(time_elapsed, 5)}")
                 print(f"Output: {str(output)}")
-                log_file.write(f"File: {image_file} - Time needed: {time_elapsed} - Config: {method_name} - [{output}]\n")
+                log_file.write(f"File: /{image_file} - OCR: {method_name} - Time needed: {time_elapsed} - [{output}]\n")
                 log_file.flush()
                 
             print(f"Logged results for: {image_file}\n")

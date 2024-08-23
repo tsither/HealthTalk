@@ -6,7 +6,7 @@ import time
 import os
 import itertools
 import cv2
-from pdf2image import convert_from_path
+# from pdf2image import convert_from_path
 
 
 class Binarization:
@@ -357,11 +357,11 @@ class NoiseRemoval:
 
 
 def main():
-    binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    binarization_methods = [None, "basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
 
-    skew_correction_methods = ["boxes", "hough_transform", "moments", "topline", "scanline"]
+    skew_correction_methods = [None, "boxes", "hough_transform", "moments", "topline", "scanline"]
 
-    noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter",
+    noise_removal_methods = [None, "mean_filter", "gaussian_filter", "median_filter", "conservative_filter",
                             "laplacian_filter", "frequency_filter", "crimmins_speckle_removal", "unsharp_filter"]
 
     # Generate all possible configurations
@@ -379,41 +379,63 @@ def main():
     image_files = get_image_files("./data/images/")
     processed_dir = "./results/images/preprocessed/"
     log_file_path = os.path.join(processed_dir, "preprocessing_log.txt")
+    list_config = os.path.join(processed_dir, "list_config.txt")
 
     os.makedirs(processed_dir, exist_ok=True)
 
-    with open(log_file_path, 'w') as log_file:
-        for image_file in image_files:
-            if "pdf" in str(image_file):
-                # TODO: FIX
-                continue
+    with open(list_config, 'w') as list_config:
+        with open(log_file_path, 'w') as log_file:
+            for image_file in image_files:
+                if "pdf" in str(image_file):
+                    # TODO: FIX
+                    continue
 
-            print(f"Processing: {image_file.name}")
-            image = read_image(image_file)
+                print(f"Processing: {image_file.name}")
+                image = read_image(image_file)
 
-            for idx, config in enumerate(configurations):
+                for idx, config in enumerate(configurations):                    
 
-                processed_image = image
-                techniques = []
+                    processed_image = image
+                    techniques = []
 
-                for step, method in config["preprocess"]:
                     start = time.time()
-                    processed_image = getattr(step, method)(processed_image)
-                    techniques.append(f"{step.__name__}.{method}")
+
+                    for step, method in config["preprocess"]:
+
+                        if method == None:
+                            continue
+
+                        try:
+                            processed_image = getattr(step, method)(processed_image)  
+                        except (ValueError, cv2.error) as e:
+                            print(e)
+                            continue
+
+                        techniques.append(f"{step.__name__}.{method}")
+
+                    if techniques == []:
+                        if idx == 0:
+                            techniques.append("Baseline")
+                        else:
+                            continue                        
+                    
                     end = time.time()
 
-                time_elapsed = end - start
+                    time_elapsed = end - start
 
-                filepath = os.path.join(
-                    processed_dir, f"{image_file.stem}_config{idx}.tiff")
-                save_image(processed_image, filepath)
-                log_file.write(
-                    f"{image_file.name} - Time needed: {time_elapsed} - Config {idx}: {', '.join(techniques)}\n")
-                log_file.flush()
-                print(f"Saved processed image to: {filepath}")
-                print(f"Time nedded: {round(time_elapsed, 5)}")
-                print(f"Logged processing details for Config {idx}: {', '.join(techniques)}")
-                print("-" * 50)
+                    filepath = os.path.join(
+                        processed_dir, f"{image_file.stem}_config{idx}.tiff")
+                    save_image(processed_image, filepath)
+                    filepath = filepath.replace("./", "/")
+                    log_file.write(f"File: {filepath} - Time needed: {time_elapsed} - Config {idx}: {', '.join(techniques)}\n")
+                    log_file.flush()
+                    list_config.write(f"Config {idx}: {', '.join(techniques)}\n")
+                    list_config.flush()
+                    print(f"Saved processed image to: {filepath}")
+                    print(f"Time nedded: {round(time_elapsed, 5)}")
+                    print(f"Logged config details for Config {idx}")
+                    print(f"Logged processing details for Config {idx}: {', '.join(techniques)}")
+                    print("-" * 50)
                 
 
     print(f"Processing log saved to: {log_file_path}")

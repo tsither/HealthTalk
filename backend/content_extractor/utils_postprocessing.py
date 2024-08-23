@@ -10,7 +10,6 @@ def parse_ocr_results(file_path):
     
     # Find all matches
     matches = re.findall(pattern, content, re.DOTALL)
-    print(len(matches))
 
     idx = 0
     results = defaultdict(dict)
