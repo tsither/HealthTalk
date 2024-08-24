@@ -76,7 +76,7 @@ class TogetherAI():
         for key, value in ocr_results.items():
             file_path_str = str(value['filepath'])
             file_path_str = "/" + file_path_str
-            print(f"Prompting extracted text from {value['filepath']} using module {value['config']}")
+            print(f"Prompting extracted text from {value['filepath']} using module {value['ocr']}")
             start = time.time()
             structured_results = self.extract_test_results(value['text'])
             ocr_results[key]["Output"] = structured_results
@@ -84,7 +84,7 @@ class TogetherAI():
             time_elapsed = end - start
 
             with open(self.log_filepath, 'a+') as log_file_path:
-                log_file_path.write(f"File: {file_path_str} - OCR: {value['config']} - LLM: {model} - Time needed: {time_elapsed} \n")
+                log_file_path.write(f"File: {file_path_str} - OCR: {value['ocr']} - LLM: {model} - Time needed: {time_elapsed} \n")
                 log_file_path.flush()
 
         return ocr_results
@@ -112,7 +112,7 @@ def main():
         for key, value in output.items():
             print(f"Processing result from {value['filepath']} to json object")
             filename = os.path.splitext(os.path.basename(value['filepath']))[0]
-            config_name = value["config"]
+            config_name = value["ocr"]
             pathfile = f"{filename}_{config_name}_{model}"
             file_name_json = f"./results/txt/extracted/{pathfile}.json"
             with open(file_name_json, 'w', encoding='utf-8') as f:

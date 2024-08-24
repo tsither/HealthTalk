@@ -6,7 +6,7 @@ def parse_ocr_results(file_path):
         content = file.read()
 
     # Regular expression to match each entry
-    pattern = r'File: (.*?) - Time needed: (.*?) - Config: (.*?) - \[(.*?)\]'
+    pattern = r'File: (.*?) - OCR: (.*?) - Time needed: (.*?) - \[(.*?)\]'
     
     # Find all matches
     matches = re.findall(pattern, content, re.DOTALL)
@@ -14,9 +14,9 @@ def parse_ocr_results(file_path):
     idx = 0
     results = defaultdict(dict)
 
-    for file_path, time, config, text in matches:
+    for file_path, ocr, time, text in matches:
         clean_text = ' '.join(text.split())
-        results[idx] = {'filepath': str(file_path), 'config': str(config), 'text': str(clean_text)}
+        results[idx] = {'filepath': str(file_path), 'ocr': str(ocr), 'text': str(clean_text)}
         idx += 1
     
     return results
