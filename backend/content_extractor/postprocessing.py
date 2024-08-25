@@ -96,7 +96,7 @@ def main():
     load_dotenv('./postprocessing_venv/key.env')  # Load the .env file
     TOGETHER_API_KEY = os.environ.get('API_KEY')  # Access the API key
     models = {
-        "meta-llama/Meta-Llama-3-8B-Instruct-Lite": "Llama8B",
+#        "meta-llama/Meta-Llama-3-8B-Instruct-Lite": "Llama8B",
         "mistralai/Mistral-7B-Instruct-v0.3": "Mistral7B",
         "google/gemma-2-9b-it": "Gemma9B",
         "Qwen/Qwen1.5-7B" : "Qwen7B"
@@ -115,6 +115,10 @@ def main():
             config_name = value["ocr"]
             pathfile = f"{filename}_{config_name}_{model}"
             file_name_json = f"./results/txt/extracted/{pathfile}.json"
+
+            if "Output" not in value:
+                continue
+
             with open(file_name_json, 'w', encoding='utf-8') as f:
                 try:
                     json_object = json.loads(output[key]["Output"])
