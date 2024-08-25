@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    margin: 45px 0 7px; 
+    margin: 35px 0 7px; 
     font-size: 24px; 
     line-height: 0.7; 
 }
@@ -37,7 +37,7 @@ a {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 8px;
     background-color: transparent;
 }
 
@@ -67,4 +67,25 @@ a {
     letter-spacing: 2px;
     font-size: 16px;
     font-family: "Bookman Old Style", sans-serif;
+}
+
+.spinner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50px;   
+    height: 50px;  
+    margin-left: -25px; 
+    margin-top: -25px; 
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 5px solid #000; 
+    animation: spin 1s linear infinite;
+    display: none; 
+    z-index: 1000; 
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

@@ -5,8 +5,8 @@ import json
 from .models import User
 from langchain_community.utilities.sql_database import SQLDatabase
 import sqlalchemy
-from .DB_query.helper import generate_query, generate_response, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT
-from .DB_query.AnyScaleLLM import AnyScaleLLM
+from .DB_query.helper import generate_query, generate_response, generate_RAG_query, read_json_file, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT, RAG_CONTEXT, HELPFUL_PROMPT
+from .DB_query.LLMs import langdock_LLM_Chatbot, OCTOAI_LLM_Chatbot
 import logging
 from django.shortcuts import render, redirect
 from django.core.files.storage import FileSystemStorage
@@ -18,12 +18,13 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 import tempfile
 import subprocess
-
+from guardrails import Guard
+from guardrails.hub import NSFWText
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
 
-
-# Set up logging
+#######################################
+########### Set up logging ############
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 handler = logging.StreamHandler()
@@ -31,26 +32,50 @@ handler.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
+#######################################
 
 
-# current_dir = Path(__file__).resolve().parent
-# db_path = current_dir / "DB_query" / "med_assist.db"
+####################################################
+########### Dynamic pathing to database ############    #sql generation method
+current_dir = Path(__file__).resolve().parent
+db_path = current_dir / "DB_query" / "med_assist.db"
+db_uri = f"sqlite:////{db_path}"
 
-# TODO: Do this dinamically
-# DB = SQLDatabase.from_uri(f"sqlite:///////home/leonnico/Documents/UP/Personal-Medical-Assistant/med_assist.db") 
-DB = SQLDatabase.from_uri("sqlite:////Users/hanamcmahon-cole/Documents/Sqlite/med_assist.db")
+DB = SQLDatabase.from_uri(db_uri)
+####################################################
 
-ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
+##########################################
+########### RAG json database ############
+user_data_json_path = current_dir / "DB_query" / "med_assist.json"
+USER_DATA = read_json_file(user_data_json_path)
+##########################################
 
-# print(f"ANYSCALE_API_KEY:{ANYSCALE_API_KEY}")
-MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
-#MODEL = "mistralai/Mistral-7B-Instruct-v0.1:Ted:iGZ9Hwf"
-# DB = SQLDatabase.from_uri("sqlite:///Users/mymac/Downloads/desktop_app/ui/DB_query/med_assist.db")
+#models, keys
+# octoai_api_key = os.getenv("OCTOAI_KEY")
+octoai_api_key = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkMjMzOTQ5In0.eyJzdWIiOiI0Y2JlMjY3OC0xMDc5LTRjNjItODc0NC1iNzdiZWJhNjA0N2QiLCJ0eXBlIjoidXNlckFjY2Vzc1Rva2VuIiwidGVuYW50SWQiOiI0Y2JmY2YxZC02ODRmLTRlMmEtOGY5Yi0xNjQyNzdkNjk3Y2UiLCJ1c2VySWQiOiIwNjdjOGFmNi00ODRhLTRmYmMtYmU2Yy0xNDY1NTczMTdkZjkiLCJhcHBsaWNhdGlvbklkIjoiYTkyNmZlYmQtMjFlYS00ODdiLTg1ZjUtMzQ5NDA5N2VjODMzIiwicm9sZXMiOlsiRkVUQ0gtUk9MRVMtQlktQVBJIl0sInBlcm1pc3Npb25zIjpbIkZFVENILVBFUk1JU1NJT05TLUJZLUFQSSJdLCJhdWQiOiIzZDIzMzk0OS1hMmZiLTRhYjAtYjdlYy00NmY2MjU1YzUxMGUiLCJpc3MiOiJodHRwczovL2lkZW50aXR5Lm9jdG8uYWkiLCJpYXQiOjE3MjMyMDMzNDl9.hJPH3PwYhh1Kw3Y8wEN_mjCKnMA01ArX4ThKErRbg-I--Fr4L4SFW5dGfibvVfXIiqpLX6Mn3ghEdwkidyw8inhrxc2i2E9j1_tqi7ffXZ9u58BTgHWP89FpfAbxkJzLHmo9vwPDxhkzfBt2ployEyXexP9QXGUIKgxH7LJlyIEFm1CRPrZKa1DRZhyFuAP64wjFMm98_vEYexORUJdtdw3qw9GxJLRmsOe6XidH-Yd37rKX8y0HEhkemCULPPPtW8ZMHE__QOekP6_4Iaah0ZAJUk491SddjnVfNGppHGNAIhAbYY4HrOQqEPbuP70su8-VzAMf5QVFo-WCLWQA8A"
+langdock_api_key = os.getenv("langdock_api_key")
+langdock_base_url = os.getenv("langdock_base_url")
+
+model_gpt = "gpt-4o"
+model_llama = "meta-llama-3-8b-instruct"
 
 
-# guard_NSFW = Guard().use(
-#     NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
-# )
+#######################################################################
+########### #CHANGE HERE FOR DIFFERENT KEYS + query method ############
+# API_KEY = langdock_api_key
+API_KEY = octoai_api_key
+BASE_URL = langdock_base_url
+# MODEL = model_gpt
+MODEL = model_llama
+sql_query_gen_method = False            #True: generate SQL queries to access database info (sqlite3)
+                                        #False: converts database to json file, queries database using RAG methods (NO SQL QUERY GENERATION)
+#############################################################
+
+
+#guardrails
+guard_NSFW = Guard().use(
+    NSFWText, threshold=0.8, validation_method="sentence", on_fail="exception"
+)
 
 
 #Test database connection
@@ -90,8 +115,9 @@ def page1_view(request):
                 logger.error("Table 'User' does not exist in the database.")
                 return render(request, 'ui/page1_1.html', {'error': "Table 'User' does not exist in the database."})
 
+        print("TEST")
         # Fetch user info from the database using Django ORM
-        user = User.objects.filter(first_name='Belen').first()
+        user = User.objects.filter(user_id=1).first()
 
         if user:
             user_info = {
@@ -105,7 +131,7 @@ def page1_view(request):
             logger.info(f"Fetched user information: {user_info}")
         else:
             user_info = None
-            logger.warning("No user found with first name 'Belen'.")
+            logger.warning("No user found with user_id '1'.")
 
         return render(request, 'ui/page1_1.html', {'user_info': user_info})
 
@@ -117,6 +143,11 @@ def process_reports(request):
     '''
     This part takes the file and runs it through the script. It also get the result as string (but its a json)
     '''
+    PMA_path = Path.cwd()
+
+    extraction_path = PMA_path / "backend" / "content_extractor" / "extraction.py"
+
+
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
         
@@ -127,16 +158,12 @@ def process_reports(request):
 
         # Run the external Python script
         result = subprocess.run(
-            # TODO: Make this dynamic
-            # ['python', '/home/leonnico/Documents/UP/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
-            #  '-f', temp_file.name],
-            ['python', '/Users/hanamcmahon-cole/Documents/Medical_assistant/Personal-Medical-Assistant/backend/content_extractor/extraction.py', 
+            ['python', extraction_path,     #Made this dynamic :)
               '-f', temp_file.name],
             capture_output=True,
             text=True,
             check=True
         )
-            
         # Get the output of the script
         output = result.stdout
 
@@ -319,27 +346,58 @@ def page3_view(request):
     if request.method == "POST":
         try:
             data = json.loads(request.body)
-            question = data.get("question", "") 
+            question = data.get("question", "").strip()
 
             if not question:
                 return JsonResponse({"error": "No question provided"}, status=400)
 
-            if not test_db_connection("sqlite:////Users/mymac/Downloads/desktop_app/med_assist.db"):
+            if not test_db_connection(db_uri=db_uri):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
-            
-            guard_NSFW.validate(question) #NSFW guardrail
 
-            logger.debug(f"Instantiating AnyScaleLLM with model_name={MODEL} and api_key={ANYSCALE_API_KEY}")
-            llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
-            logger.debug("AnyScaleLLM instantiated successfully.")
-            query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)
-            response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
+            llm = OCTOAI_LLM_Chatbot(model_name=MODEL, api_key=API_KEY)
+            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key=API_KEY")
 
-            logger.debug(f"User question: {question}")
-            logger.debug(f"Generated query: {query}")
-            logger.debug(f"LLM response: {response}")
+            # Guardrails validation
+            try:
+                guard_NSFW.validate(question)
+            except Exception as guardrails_error:
+
+                try:
+                    question = "What questions can I ask?"
+                    llm_response = llm.chat_completion(prompt=HELPFUL_PROMPT, question=question)
+
+                    if not llm_response:
+                        llm_response = "No specific guidance is available at the moment."
+
+                    # Server-side logging
+                    response_data = {
+                        "error": f"Guardrails validation failed: {guardrails_error}",
+                        "details": f"Medical assistant guidance: {llm_response}"
+                    }
+
+                    logger.debug(f"Response data being sent: {response_data}")
+
+                    response_json = json.dumps(response_data)
+
+                    return HttpResponse(response_json, content_type="application/json", status=400)
+
+                except Exception as llm_error:
+                    logger.error(f"LLM failed to generate response: {llm_error}")
+                    return JsonResponse({
+                        "response": "An error occurred while processing your request. Please try again later.",
+                        "error": f"Guardrails validation failed: {guardrails_error}. LLM error: {llm_error}"
+                    }, status=400)
+
+            logger.debug("LLM instantiated successfully.")
+
+            if sql_query_gen_method:
+                query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)
+                response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
+            else:
+                response = generate_RAG_query(llm=llm, template=RAG_CONTEXT, user_data=USER_DATA, question=question)
 
             return JsonResponse({"response": response})
+
         except Exception as e:
             logger.error(f"Error processing request: {e}")
             error_message = str(e)

@@ -19,13 +19,22 @@
             <!-- Chat messages will be displayed here -->
         </div>
         <input type="text" id="user-input" class="chat-input" placeholder="Type your message..."
-       onkeydown="if(event.key === 'Enter') sendMessage(event)">
+               onkeydown="if(event.key === 'Enter') sendMessage(event)">
         <button onclick="sendMessage(null)" class="chat-submit">SEND</button>
     </div>
 
+    <div id="spinner" class="spinner" style="display: none;"></div>
+
     <script>
+        function showSpinner() {
+            document.getElementById('spinner').style.display = 'block';
+        }
+
+        function hideSpinner() {
+            document.getElementById('spinner').style.display = 'none';
+        }
+
         function sendMessage(event) {
-            // Prevent default only for keydown events (i.e., pressing Enter)
             if (event && event.type === 'keydown') {
                 event.preventDefault();
             }
@@ -37,8 +46,11 @@
             if (message) {
                 const chatMessages = document.getElementById('chat-messages');
                 const userMessage = document.createElement('div');
+                userMessage.className = 'user-message';
                 userMessage.textContent = 'You: ' + message;
                 chatMessages.appendChild(userMessage);
+
+                showSpinner();
 
                 fetch("{% url 'page3' %}", {
                     method: 'POST',
@@ -48,27 +60,89 @@
                     },
                     body: JSON.stringify({ question: message })
                 })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.error) {
-                        throw new Error(data.error);
+                .then(response => {
+                    // Check if the HTTP response is successful
+                    if (!response.ok) {
+                        return response.json().then(errorData => {
+                            // Extract error and details if available
+                            const errorMessage = errorData.error || 'Unknown error';
+                            const errorDetails = errorData.details || 'No additional details available';
+                            throw new Error(`Server Error: ${errorMessage}|Details: ${errorDetails}`);
+                        });
                     }
-                    const botMessage = document.createElement('div');
-                    botMessage.textContent = 'Bot: ' + data.response;
-                    chatMessages.appendChild(botMessage);
+                    // Parse JSON data
+                    return response.json();
                 })
-                .catch(error => {
-                    console.error('Error:', error);
+                .then(data => {
+                    hideSpinner();
 
-                    const errorMessage = document.createElement('div');
-                    errorMessage.textContent = 'Error: ' + error.message;
-                    errorMessage.style.color = 'red';
-                    chatMessages.appendChild(errorMessage);
+                    // Display the error if present
+                    if (data.error) {
+                        const errorList = document.createElement('ul');
+
+                        const errorItem1 = document.createElement('li');
+                        errorItem1.textContent = `Error: ${data.error}`;
+                        errorItem1.style.color = 'red'; // First item color
+                        errorList.appendChild(errorItem1);
+
+                        if (data.details) {
+                            const errorItem2 = document.createElement('li');
+                            errorItem2.textContent = `Details: ${data.details}`;
+                            errorItem2.style.color = 'blue'; // Second item color
+                            errorList.appendChild(errorItem2);
+                        }
+
+                        chatMessages.appendChild(errorList);
+                    }
+
+                    if (data.response) {
+                        const botMessage = document.createElement('div');
+                        botMessage.className = 'bot-message';
+                        botMessage.innerHTML = formatBotResponse(data.response);
+                        chatMessages.appendChild(botMessage);
+                        chatMessages.scrollTop = chatMessages.scrollHeight;
+                    }
+                })
+
+                .catch(error => {
+                    hideSpinner();
+
+                    console.error('Error caught:', error);
+
+                    const errorList = document.createElement('ul');
+
+                    const errorMessageParts = error.message.split('|');
+
+                    errorMessageParts.forEach((part, index) => {
+                        const errorItem = document.createElement('li');
+                        errorItem.textContent = part.trim(); // Ensure no leading/trailing spaces
+
+                        if (index === 0) {
+                            errorItem.style.color = 'red';
+                        } else if (index === 1) {
+                            errorItem.style.color = 'blue';
+                        } else {
+                            errorItem.style.color = 'black';
+                        }
+
+                        errorList.appendChild(errorItem);
+                    });
+
+                    chatMessages.appendChild(errorList);
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
                 });
-                
             }
         }
 
+        function formatBotResponse(response) {
+            // Bold text between double asterisks
+            response = response.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+            // Convert newlines to <br> tags
+            response = response.replace(/\n/g, '<br>');
+
+            return 'Bot: ' + response;
+        }
     </script>
 </body>
 </html>

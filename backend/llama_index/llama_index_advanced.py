@@ -33,6 +33,6 @@ def export_db_to_json(db_path, json_path):
     print(f"Database exported to JSON format at: {json_path}")
 
 # Usage
-db_path = '/Users/mymac/LLM/Personal-Medical-Assistant/backend/llama_index/med_assist.db'
-json_path = '/Users/mymac/LLM/Personal-Medical-Assistant/backend/llama_index/output_file.json'
+db_path = '/Users/mymac/LLM/Personal-Medical-Assistant/desktop_app/ui/DB_query/med_assist.db'
+json_path = '/Users/mymac/LLM/Personal-Medical-Assistant/backend/full_chain/med_assist.json'
 export_db_to_json(db_path, json_path)
