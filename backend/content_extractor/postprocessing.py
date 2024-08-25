@@ -66,7 +66,15 @@ class TogetherAI():
         
         IMPORTANT: Just return the code of the JSON object. Do not make any further comment and do not add "json" before the object. Otherwise, the patient will die.
         """
-        response = self.chat_completion(prompt, ocr_text)
+        exit = False
+        while exit == False:
+            try:
+                response = self.chat_completion(prompt, ocr_text)
+                exit = True
+            except Exception as e:
+                print(e)
+                time.sleep(5)
+                continue
 
         return response
 
