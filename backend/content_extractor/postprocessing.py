@@ -70,6 +70,7 @@ class TogetherAI():
         while exit == False:
             try:
                 response = self.chat_completion(prompt, ocr_text)
+                time.sleep(2)
                 exit = True
             except Exception as e:
                 print(e)

@@ -18,5 +18,12 @@ source "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessin
 python3 -u /data/Personal-Medical-Assistant/backend/content_extractor/postprocessing.py > ./logs/postprocessing.out
 deactivate
 
+echo "Evaluating!"
+
+source "/data/Personal-Medical-Assistant/backend/content_extractor/evaluate_venv/bin/activate"
+python3 -u /data/Personal-Medical-Assistant/backend/content_extractor/evaluate.py > ./logs/evaluation.out
+deactivate
+
+
 echo "Testing done!"
 
