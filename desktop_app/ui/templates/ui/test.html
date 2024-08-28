@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td[contenteditable="true"] {
+            border: 1px solid #ccc;
+            padding: 5px;
+            cursor: text;
+        }
+
+        td[contenteditable="true"]:focus {
+            outline: none;
+            border: 2px solid blue;
+        }
+    </style>
+    <title>Editable User Table</title>
+</head>
+<body>
+    <table id="editableTable" border="1">
+        <thead>
+            <tr id="tableHeaders">
+                <!-- Headers will be dynamically added here -->
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Safely parse the JSON data passed from the Django view
+        const jsonData = JSON.parse('{{ users_json|escapejs }}');
+        
+        const tableHeaders = document.getElementById('tableHeaders');
+        const tableBody = document.getElementById('tableBody');
+    
+        // Generate table headers based on keys of the first JSON object
+        if (jsonData.length > 0) {
+            const keys = Object.keys(jsonData[0]);
+            keys.forEach(key => {
+                const th = document.createElement('th');
+                th.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+                tableHeaders.appendChild(th);
+            });
+        }
+    
+        // Generate table body
+        jsonData.forEach((item) => {
+            const row = document.createElement('tr');
+    
+            for (const key in item) {
+                if (item.hasOwnProperty(key)) {
+                    const cell = document.createElement('td');
+                    cell.textContent = item[key];
+                    cell.setAttribute('contenteditable', 'true');
+                    row.appendChild(cell);
+                }
+            }
+    
+            tableBody.appendChild(row);
+        });
+    
+        document.querySelector('#editableTable').addEventListener('input', (event) => {
+            const cell = event.target;
+            const rowIndex = cell.parentElement.rowIndex;
+            const colIndex = cell.cellIndex;
+            console.log(`Row: ${rowIndex}, Column: ${colIndex}, New Value: ${cell.textContent}`);
+            // Here you can send an AJAX request to save the data if needed
+        });
+    </script>    
+</body>
+</html>
