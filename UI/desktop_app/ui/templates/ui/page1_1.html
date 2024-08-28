@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information</title>
+</head>
+<body>
+    <h1>User Information</h1>
+    {% if user_info %}
+        <p>Username: {{ user_info.username }}</p>
+        <p>Email: {{ user_info.email }}</p>
+    {% else %}
+        <p>No user found with first name 'Belen'.</p>
+    {% endif %}
+
+    {% if error %}
+        <p>Error: {{ error }}</p>
+    {% endif %}
+</body>
+</html>
