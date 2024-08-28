@@ -6,37 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload Reports</title>
-    <link rel="stylesheet" href="{% static 'ui/css/page2_1.css' %}">
+    <link rel="stylesheet" href="{% static 'ui/css/general.css' %}">
 </head>
 <body>
-    <div class="container">
-        <a href="{% url 'home' %}">Back to Home</a>
-        <h1>Upload Reports</h1>
-        <form action="{% url 'process_reports'%}" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            <label for="file">Choose file to upload:</label>
-            <input type="file" id="file" name="file" accept=".png,.jpg,.webp" required>
-            <button type="submit">Upload</button>
-        </form>
-
-        {% if output %}
-            <h2>Output:</h2>
-            <pre>{{ output|pprint }}</pre>
-            <form action="{% url 'convert_to_sql' %}" method="post">
+        <h1>Upload Your Blood Report</h1>
+        <div class="upload-box">
+            <h5>At this time, our application only accepts blood reports. Please do not upload other report types.</h5>
+            <br>
+            <form action="{% url 'process_reports'%}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
-                <input type="hidden" name="json_data" value="{{ output|stringformat:'s' }}">
-                <button type="submit">Convert to SQL Query</button>
+                <label for="file">Choose file to upload:</label>
+                <input type="file" id="file" name="file" accept=".png,.jpg,.webp" required>
+                <button type="submit" class = "white-button" > Upload</button>
             </form>
-        {% endif %}
-
-        {% if error %}
-            <p class="error">{{ error }}</p>
-        {% endif %}
-
-        {% if sql_query %}
-            <h2>SQL Query:</h2>
-            <pre>{{ sql_query }}</pre>
-        {% endif %}
-    </div> 
+        </div> 
+        <br>
+        <div class="button-container">
+            <a href="{% url 'home' %}" class="home-button">Back to Home</a>
+        </div>
 </body>
 </html>

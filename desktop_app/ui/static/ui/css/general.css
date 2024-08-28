@@ -1,0 +1,149 @@
+/* || GENERAL STYLES */
+body {
+    font-family: "Bookman Old Style", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/static/ui/images/page1-background.png');
+    background-size: 100% 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: white;
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 10px; /* Adds space between buttons */
+}
+/* Home Button */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FF9800; /* Orange */
+}
+
+.home-button:hover {
+    background-color: #FFC107;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Green Button */
+.green-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #4CAF50; /* Green */
+}
+
+.green-button:hover {
+    background-color: #45A049;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Red Button */
+.red-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #F44336; /* Red */
+}
+
+.red-button:hover {
+    background-color: #E53935;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* White Button */
+.white-button {
+    display: inline-block;
+    padding: 10px 20px; /* Smaller padding for smaller size */
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FFFFFF; /* White */
+    border: 2px solid #000000; /* Adding a border for visibility */
+}
+
+.white-button:hover {
+    background-color: #F0F0F0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.upload-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box h5 {
+    margin-bottom: 20px;
+}
+
+.upload-box form {
+    margin-bottom: 20px;
+}

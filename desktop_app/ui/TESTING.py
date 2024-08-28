@@ -15,4 +15,5 @@ def get_current_time():
     
     return formatted_time
 
-print(get_current_time())
+# print(get_current_time())
+
