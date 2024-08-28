@@ -14,7 +14,7 @@ from django.db import connection
 from django.contrib.sessions.models import Session
 from django.utils import timezone
 from pathlib import Path
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 import tempfile
 import subprocess
