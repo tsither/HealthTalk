@@ -1,0 +1,30 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ui/css/general.css' %}">
+</head>
+<body>
+    <div class="container">
+    <h2>Complete Your Profile</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            <label for="{{ form.username.id_for_label }}">{{ user_form.username.label }}</label>
+            {{user_form.username }}
+        </div>
+        <br>
+        <div>
+            <label for="{{ form.password.id_for_label }}">{{ user_form.password.label }}</label>
+            {{ user_form.password }}
+        </div>
+        {{ profile_form.as_p }}
+        <div class="button-container">
+            <button type="submit"class=green-button >Save Profile</button>
+            <a href="{% url 'login' %}" class=white-button > Login</a>
+        </div>
+    </form>
+    </div> 
+</body>
