@@ -140,60 +140,12 @@ def page1_view(request):
         logger.error(f"Error fetching user information: {e}")
         return render(request, 'ui/page1_1.html', {'error': 'Error fetching user information'})
         
-def user_table(request):
-   
-    '''
-    This part takes the file and runs it through the script. It also get the result as string (but its a json)
-    '''
-    PMA_path = Path.cwd()
-
-    extraction_path = PMA_path / "backend" / "content_extractor" / "extraction.py"
-
-
-    if request.FILES.get('file'):
-        uploaded_file = request.FILES['file']
-        
-        # Create a temporary file
-        with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(uploaded_file.name)[1]) as temp_file:
-            for chunk in uploaded_file.chunks():
-                temp_file.write(chunk)
-
-        # Run the external Python script
-        result = subprocess.run(
-            ['python', extraction_path,     #Made this dynamic :)
-              '-f', temp_file.name],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        #  Get the output of the script
-        output = result.stdout
-
-        print(output)
-
-        try:
-            json_output = json.loads(result.stdout)
-            html_output = json2html.convert(json = json_output)
-            os.unlink(temp_file.name)  # Delete the temporary file
-            #todo: also transfer json output for sql update 
-            return render(request, 'ui/page2_2.html', {'output': html_output})
-            #return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
-        except json.JSONDecodeError:
-            print("Script did not return valid JSON. Please try again.")
-            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})
-
-    return HttpResponseRedirect(reverse('upload_success'))
-
-
-
 def process_reports(request):
     '''
-    This part takes the file and runs it through the script. It also get the result as string (but its a json)
+    This part takes the file and runs it through the script. It also gets the result as a string (but it's JSON).
     '''
     PMA_path = Path.cwd()
-
     extraction_path = PMA_path / "backend" / "content_extractor" / "extraction.py"
-
 
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
@@ -205,24 +157,22 @@ def process_reports(request):
 
         # Run the external Python script
         result = subprocess.run(
-            ['python', extraction_path,     #Made this dynamic :)
-              '-f', temp_file.name],
+            ['python', extraction_path, '-f', temp_file.name],
             capture_output=True,
             text=True,
             check=True
         )
-        #  Get the output of the script
+
+        # Get the output of the script
         output = result.stdout
 
         print(output)
 
         try:
             json_output = json.loads(result.stdout)
-            html_output = json2html.convert(json = json_output)
             os.unlink(temp_file.name)  # Delete the temporary file
-            #todo: also transfer json output for sql update 
-            return render(request, 'ui/page2_2.html', {'output': html_output})
-            #return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
+            # Pass JSON data to the template for rendering
+            return render(request, 'ui/page2_2.html', {'json_output': json.dumps(json_output)})
         except json.JSONDecodeError:
             print("Script did not return valid JSON. Please try again.")
             return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})

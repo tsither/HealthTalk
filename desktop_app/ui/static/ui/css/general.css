@@ -8,10 +8,23 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    position: relative; /* Ensure body is positioned relative for absolute positioning of pseudo-element */
+    overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url('/static/ui/images/page1-background.png');
-    background-size: 100% 100vh;
+    background-size: cover; /* Ensures the background image covers the entire element */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    opacity: 0.5; /* 50% opacity */
+    z-index: -1; /* Send the pseudo-element behind the content */
 }
 
 .container {
@@ -21,6 +34,60 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
+.home-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 10px; /* Adjust the spacing between the buttons */
+}
+
+.box {
+    position: relative;
+    flex: 1 1 30%; /* Grow and shrink equally, with a base size of 30% */
+    margin: 10px;
+    max-width: 300px; /* Optional: Limit the maximum size of each box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+.overlay a {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
 
 h1 {
     margin-bottom: 20px;
@@ -146,4 +213,21 @@ input[type="file"] {
 
 .upload-box form {
     margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+td[contenteditable="true"] {
+    background-color: #f9f9f9;
+}
+td[contenteditable="true"]:focus {
+    outline: 2px solid #5b9bd5;
 }
