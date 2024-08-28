@@ -35,7 +35,7 @@ class TogetherAI():
         CONTEXT: You are an expert in analyzing blood test results in a laboratory. Your work is extremely important and will be used in a life or death situation.  
 
         TASK: Given the following text extracted from a blood test report, please extract and structure the following information:
-        - Date of the test
+        - Date of the test (if available)
         - Patient information (if available)
         - Test results, including:
             - Test name
