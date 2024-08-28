@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="{% static 'ui/css/general.css' %}">
 </head>
 <body>
+    <div class="container">
         <h1>Upload Your Blood Report</h1>
         <div class="upload-box">
             <h5>At this time, our application only accepts blood reports. Please do not upload other report types.</h5>
-            <br>
             <form action="{% url 'process_reports'%}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <label for="file">Choose file to upload:</label>
                 <input type="file" id="file" name="file" accept=".png,.jpg,.webp" required>
                 <button type="submit" class = "white-button" > Upload</button>
             </form>
-        </div> 
+        </div>
         <br>
         <div class="button-container">
             <a href="{% url 'home' %}" class="home-button">Back to Home</a>
         </div>
+    </div> 
 </body>
 </html>
