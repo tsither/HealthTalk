@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7.1-10.3 g/dL"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mL/min/1.73 m^2",
+            "reference_range": "60-120 mL/min/1.73 m^2"
+        }
+    ]
+}

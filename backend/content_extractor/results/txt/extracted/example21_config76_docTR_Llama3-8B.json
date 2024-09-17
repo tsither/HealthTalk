@@ -1,0 +1,47 @@
+{
+    "Date": "2023-09-29",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "INR",
+            "result_value": 10,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "PT",
+            "result_value": 20,
+            "unit_of_measurement": "seconds",
+            "reference_range": "10-14 seconds"
+        },
+        {
+            "test_name": "aPTT",
+            "result_value": 30,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "LDH",
+            "result_value": 180,
+            "unit_of_measurement": "U/L",
+            "reference_range": ""
+        },
+        {
+            "test_name": "AST",
+            "result_value": 40,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-37 U/L"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": ""
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "12500",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.5-11.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": "72",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "12800",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "3.5-10.5 x 10^9 cells/L"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

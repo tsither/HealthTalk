@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[4.0-8.0]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[14.0-16.5]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57,
+            "unit_of_measurement": "fL",
+            "reference_range": "[32.0-36.0]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 10,
+            "unit_of_measurement": null,
+            "reference_range": "[3.5-12.5]"
+        },
+        {
+            "test_name": "Differential",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "count": 70
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "count": 20
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "count": 5
+                },
+                {
+                    "cell_type": "Basophils",
+                    "count": 1
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

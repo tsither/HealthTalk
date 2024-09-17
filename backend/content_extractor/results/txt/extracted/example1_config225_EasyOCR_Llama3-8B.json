@@ -1,0 +1,83 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Sungalows S G Rond",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": "Normal: 130-170 giil lovt RBC count (not available)"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "52",
+            "unit_of_measurement": "% TST",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal: 12.5-15.5 g/dL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "37.75%",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 34-44%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "31.2 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "Normal: 27-32 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "33.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "11%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "60.00x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "Normal: 3.5-12.0x10^9/L"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "46%",
+                "Lymphocytes": "31%",
+                "Eosinophils": "6%",
+                "Monocytes": "0%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "300.00x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "Normal: 150-450x10^9/L"
+        }
+    ]
+}

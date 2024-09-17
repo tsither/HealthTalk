@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Na",
+            "result_value": 142.0,
+            "unit_of_measurement": "%",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "K",
+            "result_value": 4.3,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cl",
+            "result_value": 101.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "95-110"
+        },
+        {
+            "test_name": "^3%",
+            "result_value": 36.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "o 3%",
+            "result_value": 5.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15"
+        }
+    ]
+}

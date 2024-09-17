@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel, Instant",
+        "patient_sex": "Male",
+        "patient_age": "121"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1000",
+            "unit_of_measurement": "per cubic millimeter (mm3)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Critic",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": "7",
+            "unit_of_measurement": "cubic micrometers (fl)",
+            "reference_range": "[14-18]"
+        },
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": "15.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

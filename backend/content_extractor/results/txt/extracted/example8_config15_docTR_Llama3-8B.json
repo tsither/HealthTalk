@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 20,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodium (Na+)",
+            "result_value": 139,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "Potassium (K+)",
+            "result_value": 3.8,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "3.5-5.0"
+        },
+        {
+            "test_name": "Chloride (Cl-)",
+            "result_value": 102,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Carbon Dioxide (CO2)",
+            "result_value": 23,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 8.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

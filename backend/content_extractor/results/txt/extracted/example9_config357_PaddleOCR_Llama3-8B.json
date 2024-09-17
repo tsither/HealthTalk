@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8500.0,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "4e+03 - 10e+03"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4850000.0,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "3.5e+06 - 5.5e+06"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 235000.0,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "1.8e+05 - 3.4e+05"
+        }
+    ]
+}

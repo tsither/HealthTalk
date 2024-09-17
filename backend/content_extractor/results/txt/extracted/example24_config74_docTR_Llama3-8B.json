@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 9.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4-11 x10^3/μL"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 5.2,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4-5.8 x10^12/L"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 14.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.3,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36 %"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 210,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        },
+        {
+            "test_name": "PT (Sec)",
+            "result_value": 12.3,
+            "unit_of_measurement": "seconds",
+            "reference_range": "11-13 seconds"
+        },
+        {
+            "test_name": "PTT (Sec)",
+            "result_value": 35.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "26-38 seconds"
+        },
+        {
+            "test_name": "ESR (mm/Hr)",
+            "result_value": 20,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0-10 mm/hr"
+        }
+    ]
+}

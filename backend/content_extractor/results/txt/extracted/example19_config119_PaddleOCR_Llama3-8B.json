@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "MCee",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCH)",
+            "result_value": 32.5,
+            "unit_of_measurement": null,
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 4.0,
+            "unit_of_measurement": "Million/ul",
+            "reference_range": "4.32 - 5.72"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 7.75,
+            "unit_of_measurement": "Thousand/ul",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Neut 40-70, Lymph 20-40, Eos 1-5, Monocytes 5-10"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 107,
+            "unit_of_measurement": "Thousand/ul",
+            "reference_range": "150-400"
+        }
+    ]
+}

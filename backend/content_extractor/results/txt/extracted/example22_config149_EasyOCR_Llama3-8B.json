@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 12
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Ale (HbA1c)",
+            "result_value": 5.55,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 31.0,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5220000000.0,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": 10,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0-10 mm/hr"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7500000000.0,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 375000000000.0,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

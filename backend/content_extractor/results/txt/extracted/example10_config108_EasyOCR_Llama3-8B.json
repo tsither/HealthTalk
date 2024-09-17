@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": "Whole blood",
+            "reference_range": "[9-17] for adults, [7.5-16] for children, [8-17] for newborns"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 10.8,
+            "unit_of_measurement": null,
+            "reference_range": "[9-11.5] for adults"
+        }
+    ]
+}

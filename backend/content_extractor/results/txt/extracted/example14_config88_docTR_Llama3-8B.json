@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 5,
+            "unit_of_measurement": "D",
+            "reference_range": "7"
+        },
+        {
+            "test_name": "a",
+            "result_value": 5,
+            "unit_of_measurement": "8",
+            "reference_range": "N"
+        },
+        {
+            "test_name": "E",
+            "result_value": 9,
+            "unit_of_measurement": "N",
+            "reference_range": "a"
+        },
+        {
+            "test_name": "a",
+            "result_value": 5,
+            "unit_of_measurement": "S",
+            "reference_range": "8"
+        },
+        {
+            "test_name": "g",
+            "result_value": 3,
+            "unit_of_measurement": "E",
+            "reference_range": "&"
+        }
+    ]
+}

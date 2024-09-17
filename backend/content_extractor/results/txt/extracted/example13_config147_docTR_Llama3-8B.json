@@ -1,0 +1,35 @@
+{
+    "Date": "03.05.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "12500",
+            "unit_of_measurement": "/ microliter",
+            "reference_range": "4000-11000 / microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "5.02",
+            "unit_of_measurement": "Million/cubic millimeter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "35",
+            "unit_of_measurement": "%",
+            "reference_range": "40-54 %"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "16895373",
+            "unit_of_measurement": "/ cubic millimeter",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": null,
+            "reference_range": "13.0-17.0 Unit"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5",
+            "unit_of_measurement": null,
+            "reference_range": "Low 40-50"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "87.75",
+            "unit_of_measurement": "Unit",
+            "reference_range": "12.5 Packed Cell Volume (PCV) Low 13.0-17.0 Unit"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "27.2",
+            "unit_of_measurement": "/dL",
+            "reference_range": "High 40-50 WBC COUNT mill/cumm Total WBC count"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "32.8",
+            "unit_of_measurement": null,
+            "reference_range": "83-101 DIFFERENTIAL WBC COUNT 13.6 27 - 32 Neutrophils % Lymphocytes"
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": "9000",
+            "unit_of_measurement": null,
+            "reference_range": "Neutrophils % Lymphocytes 32.5 - 34.5 fL 9000 holo Eosinophils"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "11.6",
+            "unit_of_measurement": null,
+            "reference_range": "- 14.0 pg Monocytes Basophils"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "60",
+            "unit_of_measurement": "%",
+            "reference_range": "7P/6 4000-11000"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "31",
+            "unit_of_measurement": null,
+            "reference_range": "PLATELET COUNT % 1 Platelet Count"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "%",
+            "reference_range": "7 50-62 cumm 20-40"
+        }
+    ]
+}

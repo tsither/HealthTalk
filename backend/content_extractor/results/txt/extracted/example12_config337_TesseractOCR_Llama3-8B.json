@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RED BLOOD CELL COUNT",
+            "result_value": 4.52,
+            "unit_of_measurement": "MILLION PER MICROLITER",
+            "reference_range": "MALE: 4.32-5.72, FEMALE: 3.92-5.08"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.7,
+            "unit_of_measurement": "GRAMS PER DECILITER",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 27.3,
+            "unit_of_measurement": "PICOGRAMS PER CELL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "22.02.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-14 g/dL"
+        },
+        {
+            "test_name": "Blood Glucose Test",
+            "result_value": 120.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

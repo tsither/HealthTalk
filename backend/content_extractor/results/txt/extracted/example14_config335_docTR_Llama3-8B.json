@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Coota",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Type",
+            "result_value": "AB",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.8,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.9,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4-11"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 180,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

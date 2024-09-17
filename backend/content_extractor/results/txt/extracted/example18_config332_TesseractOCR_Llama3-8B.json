@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Globulins",
+            "result_value": 25.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "20-40 g/dL"
+        },
+        {
+            "test_name": "Calcium",
+            "result_value": 10.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.6-10.3 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15 g/dL"
+        }
+    ]
+}

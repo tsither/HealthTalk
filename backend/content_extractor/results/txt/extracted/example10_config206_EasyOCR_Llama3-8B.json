@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Logy Accurate",
+        "patient_sex": "Male",
+        "patient_age": "71"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": "900",
+            "unit_of_measurement": "x 10^3 per microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte count",
+            "result_value": "1700",
+            "unit_of_measurement": "per microL",
+            "reference_range": "0.5-2.5% (absolute count), 50-150x10^9/L (relative count)"
+        },
+        {
+            "test_name": "Platelet distribution width",
+            "result_value": "51",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean platelet volume",
+            "result_value": "9.5",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

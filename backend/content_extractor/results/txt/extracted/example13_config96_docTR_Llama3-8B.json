@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 3.0,
+            "unit_of_measurement": "%",
+            "reference_range": "t% ^ t%"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "^ t% ^"
+        },
+        {
+            "test_name": "Urea Nitrogen",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "na% ^ t%"
+        },
+        {
+            "test_name": "pH",
+            "result_value": 3.0,
+            "unit_of_measurement": "~ a%",
+            "reference_range": "A %"
+        }
+    ]
+}

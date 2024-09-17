@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": 4.23,
+            "unit_of_measurement": "Million/°C",
+            "reference_range": "4.32-5.72 Million/°C"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 7.01,
+            "unit_of_measurement": "Thousand/°C",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 14.38,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 36.7,
+            "unit_of_measurement": "°Ccm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1.08,
+            "unit_of_measurement": "Lakhs/°C",
+            "reference_range": "1.50-3.50 Lakhs/°C"
+        }
+    ]
+}

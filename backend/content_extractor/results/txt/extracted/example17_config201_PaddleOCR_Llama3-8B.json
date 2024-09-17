@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Sample Collection",
+            "result_value": "10",
+            "unit_of_measurement": "0",
+            "reference_range": "Borderline"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": "140",
+            "unit_of_measurement": "mg/dL (cumm)",
+            "reference_range": "09 7P/6 83. - 5.5"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": "13.0",
+            "unit_of_measurement": "- 17.0 COUNT M07 S'LS es Ref.",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": "4.5",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": " - 5.5"
+        }
+    ]
+}

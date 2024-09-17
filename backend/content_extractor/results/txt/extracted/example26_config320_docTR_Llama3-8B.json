@@ -1,0 +1,47 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Electrolytes",
+            "result_value": {
+                "Sodium": 135,
+                "Potassium": 4.5
+            },
+            "unit_of_measurement": "mmol/L",
+            "reference_range": {
+                "Sodium": "135-145 mmol/L",
+                "Potassium": "3.5-5.0 mmol/L"
+            }
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": {
+                "ALT": 20,
+                "AST": 25
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "ALT": "10-40 U/L",
+                "AST": "10-40 U/L"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "Dec 20, 2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4000,
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 11.66,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.8-17.2]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "million cells/ microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 27,
+            "unit_of_measurement": "fL",
+            "reference_range": "[79-101]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 45.3,
+            "unit_of_measurement": "thousand cells/ microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": 32.8,
+                "Lymphocytes": 40,
+                "Eosinophils": 10.1,
+                "Monocytes": 27,
+                "Basophils": 3.25
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 14166,
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": "[150-400] thousand cells/ microliter"
+        }
+    ]
+}

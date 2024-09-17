@@ -1,0 +1,41 @@
+{
+    "Date": "202X 05:00 PM",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel 105",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": "16600",
+            "unit_of_measurement": "count",
+            "reference_range": "4.5 - 13.0"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": "5000000",
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 15.5"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": ".10",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

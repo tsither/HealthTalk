@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Type (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV COUNT",
+            "result_value": 52,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 27.2,
+            "unit_of_measurement": null,
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 328,
+            "unit_of_measurement": "hils",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CK-MB",
+            "result_value": 2.5,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Troponin I",
+            "result_value": 0.7,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "< 0.4"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 24,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "LDH",
+            "result_value": 141,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "CK-MB Mass",
+            "result_value": 2.3,
+            "unit_of_measurement": "% of total CKMB",
+            "reference_range": "0-4%"
+        },
+        {
+            "test_name": "LD1",
+            "result_value": 69,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        }
+    ]
+}

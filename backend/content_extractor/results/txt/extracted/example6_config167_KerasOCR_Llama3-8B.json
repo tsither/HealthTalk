@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Tungalows",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "millions/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "IPCV (Imature PVC)",
+            "result_value": 0.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 34.25,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 10000,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count (Absolute)",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "count": 8000
+                },
+                {
+                    "type": "Lymphocytes",
+                    "count": 1500
+                },
+                {
+                    "type": "Eosinophils",
+                    "count": 100
+                },
+                {
+                    "type": "Monocytes",
+                    "count": 200
+                },
+                {
+                    "type": "Basophils",
+                    "count": 50
+                }
+            ],
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        }
+    ]
+}

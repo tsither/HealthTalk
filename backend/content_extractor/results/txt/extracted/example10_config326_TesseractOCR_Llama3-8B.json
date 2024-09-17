@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 221000,
+            "unit_of_measurement": "per microliter (x10^3/ul)",
+            "reference_range": "150,400"
+        },
+        {
+            "test_name": "MEAN PLATELET VOLUME (MPV)",
+            "result_value": 11.9,
+            "unit_of_measurement": "fL",
+            "reference_range": "9-13"
+        },
+        {
+            "test_name": "PLATELET DISTRIBUTION WIDTH (PDW)",
+            "result_value": 15.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

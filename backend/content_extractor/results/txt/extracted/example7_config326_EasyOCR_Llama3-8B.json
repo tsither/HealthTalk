@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yesh Patel",
+        "patient_sex": "Himold (assuming 'him' is a typo and 'him' refers to male, but this is not clear)",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count with Differential",
+            "result_value": "Red cell count: 4.41 M/cmm",
+            "unit_of_measurement": "M/cmm (assuming 'M/cmm' is a typo and it's actually 'M/ul', but I'll leave it as is)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time with International Normalized Ratio",
+            "result_value": "PT: 12.5 sec, INR: 1.2",
+            "unit_of_measurement": "sec (assuming 'sec' is a typo and it's actually 's', but I'll leave it as is)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time",
+            "result_value": "aPTT: 25.6 sec",
+            "unit_of_measurement": "sec (assuming 'sec' is a typo and it's actually 's', but I'll leave it as is)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fibrinogen Assay",
+            "result_value": "Fibrinogen: 250 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-400 mg/dL"
+        }
+    ]
+}

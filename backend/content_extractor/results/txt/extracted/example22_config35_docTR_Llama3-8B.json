@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "MANTNIC",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood po",
+            "result_value": 12.5,
+            "unit_of_measurement": "A0-50",
+            "reference_range": "101"
+        },
+        {
+            "test_name": "RBC Total RBC Count",
+            "result_value": 4725000,
+            "unit_of_measurement": null,
+            "reference_range": "4.32-5.72 (X10^12/L)"
+        },
+        {
+            "test_name": "PCV (Hct) (%)",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "MCH (fl)",
+            "result_value": 27.2,
+            "unit_of_measurement": "fl",
+            "reference_range": "27-32 fl"
+        },
+        {
+            "test_name": "MCHC (g/dL)",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5-35 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 87250,
+            "unit_of_measurement": null,
+            "reference_range": "150000-450000/µL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 15000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4000-11000/µL"
+        }
+    ]
+}

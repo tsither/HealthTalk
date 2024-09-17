@@ -1,0 +1,29 @@
+{
+    "Date": "11.12.2022",
+    "patient_information": {
+        "patient_id": "PT-001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.5,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4-11 /ul"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 25,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "6-24 mg/dl"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "70-110 mg/dl"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 1X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result",
+            "result_value": "Hemoglobin: 125 g/dL, Low; RBC count total: 5.4 x 10^12 cells/mcL; Packed cell volume (PCV): 55%, High; Mean corpuscular volume (MCV): 87.75 fL; Mean corpuscular hemoglobin (MCH): 32 pg; Red cell distribution width (RDW): 15.6%",
+            "unit_of_measurement": null,
+            "reference_range": "Hemoglobin: 135-170 g/dL, RBC count total: 4.0-5.2 x 10^12 cells/mcL, Packed cell volume (PCV): 37-48%, Mean corpuscular volume (MCV): 80-96 fL, Mean corpuscular hemoglobin (MCH): 27-32 pg"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000 cells/mcL, Borderline; Platelet count: 410000 /µL Fully",
+            "unit_of_measurement": null,
+            "reference_range": "100000-300000 cells/mcL"
+        },
+        {
+            "test_name": "Differential WBC Count (S0s)",
+            "result_value": "62 Neutrophils, 20 Lymphocytes, 10 Monocytes",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

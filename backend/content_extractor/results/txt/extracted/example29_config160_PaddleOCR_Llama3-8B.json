@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "27-107"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 32.8,
+            "unit_of_measurement": null,
+            "reference_range": "27.2 Low"
+        },
+        {
+            "test_name": "Platelet (PLT)",
+            "result_value": 9000,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000 High"
+        }
+    ]
+}

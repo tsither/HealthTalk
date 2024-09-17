@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Total Count",
+            "result_value": 4500000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 78,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 28,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14,
+            "unit_of_measurement": "%",
+            "reference_range": "11-14.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 2.15,
+            "unit_of_measurement": "lakh/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Total Count",
+            "result_value": 15900,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

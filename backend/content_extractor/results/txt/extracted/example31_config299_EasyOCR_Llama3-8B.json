@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Complete Metronidazole",
+            "result_value": 0.125,
+            "unit_of_measurement": "mg/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Reticulocyte Count",
+            "result_value": 1.21,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5,17]"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.89,
+            "unit_of_measurement": "millions/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "20-02-2023",
+    "patient_information": {
+        "patient_id": "PT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-15.2"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 20.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-24"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.3"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WHITE BLOOD CELL COUNT",
+            "result_value": 8500.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4000-11000 cells/uL"
+        },
+        {
+            "test_name": "RED BLOOD CELL COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 250000.0,
+            "unit_of_measurement": "platelets/uL",
+            "reference_range": "150000-400000 platelets/uL"
+        },
+        {
+            "test_name": "CREATININE LEVEL",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

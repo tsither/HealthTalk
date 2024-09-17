@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "N Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Total count",
+            "result_value": 17200,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Total count",
+            "result_value": 5.15,
+            "unit_of_measurement": "million cells/uL",
+            "reference_range": "4.32 - 5.72"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 142.0,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 330000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "150000 - 300000"
+        },
+        {
+            "test_name": "ESR (Erythrocyte Sedimentation Rate)",
+            "result_value": 10.0,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        }
+    ]
+}

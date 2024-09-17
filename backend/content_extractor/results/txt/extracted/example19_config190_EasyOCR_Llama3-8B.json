@@ -1,0 +1,35 @@
+{
+    "Date": "08.09.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-15 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "350000 cells/uL",
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "150-450 x10^9 cells/uL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

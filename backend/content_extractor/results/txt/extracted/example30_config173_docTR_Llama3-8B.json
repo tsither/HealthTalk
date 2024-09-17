@@ -1,0 +1,35 @@
+{
+    "Date": "2021-08-16",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count",
+            "result_value": 21000000000.0,
+            "unit_of_measurement": "cells/mL",
+            "reference_range": "4-10 x 10^12 cells/mL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 9000.0,
+            "unit_of_measurement": "cells/mL",
+            "reference_range": "4,500-11,000 cells/mL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 850000.0,
+            "unit_of_measurement": "cells/mL",
+            "reference_range": "150,000-450,000 cells/mL"
+        }
+    ]
+}

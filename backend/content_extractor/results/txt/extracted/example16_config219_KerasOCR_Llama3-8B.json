@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "35 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": "10000-4000"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "5108",
+            "unit_of_measurement": "per microliter",
+            "reference_range": "5000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": "150000",
+            "unit_of_measurement": null,
+            "reference_range": "450000-560000"
+        },
+        {
+            "test_name": "Hemoglobin (HGB) count",
+            "result_value": "140",
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "135-170"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.2",
+            "unit_of_measurement": "picograms",
+            "reference_range": "26-31"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80",
+            "unit_of_measurement": "fliters",
+            "reference_range": "70-90"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "300000",
+            "unit_of_measurement": null,
+            "reference_range": "150000-400000"
+        }
+    ]
+}

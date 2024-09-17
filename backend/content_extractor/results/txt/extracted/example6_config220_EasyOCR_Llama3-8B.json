@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Drlogy Pathology Lab",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "High (Normal: 115-150)"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "51",
+            "unit_of_measurement": "T/l",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "55",
+            "unit_of_measurement": "millicu mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "10000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "60%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "31%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "6%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "10%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "0.2%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "110000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "Borderline"
+        }
+    ]
+}

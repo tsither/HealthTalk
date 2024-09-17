@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": 5,
+            "unit_of_measurement": "8/8",
+            "reference_range": "1.0-9.0"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 5,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5-11.0"
+        }
+    ]
+}

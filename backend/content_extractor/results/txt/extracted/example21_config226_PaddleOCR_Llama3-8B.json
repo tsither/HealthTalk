@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec.202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 47.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 12500000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4000,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0-17.0"
+        }
+    ]
+}

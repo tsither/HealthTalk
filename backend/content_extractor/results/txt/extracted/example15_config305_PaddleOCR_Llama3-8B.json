@@ -1,0 +1,29 @@
+{
+    "Date": "01.12.2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count Test",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-15 g/dL"
+        },
+        {
+            "test_name": "Creatinine Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Glucose Test",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        }
+    ]
+}

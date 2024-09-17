@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 125,
+        "patient_name": "Blond Male",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 4500000,
+            "unit_of_measurement": "cells per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Hbocsre",
+            "result_value": 328,
+            "unit_of_measurement": "%",
+            "reference_range": "80-100%"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 300000,
+            "unit_of_measurement": "cells per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7000,
+            "unit_of_measurement": "cells per microliter",
+            "reference_range": "4000-10000 cells per microliter"
+        }
+    ]
+}

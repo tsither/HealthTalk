@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (g/L)",
+            "result_value": 117.0,
+            "unit_of_measurement": "g/L",
+            "reference_range": "120-150 g/L"
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38-50 %"
+        },
+        {
+            "test_name": "Red cell count (10^12/uL)",
+            "result_value": 4.2,
+            "unit_of_measurement": "10^12/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cells (10^9/L)",
+            "result_value": 8.3,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets (10^9/L)",
+            "result_value": 210,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        },
+        {
+            "test_name": "Mean corpuscular volume (fL)",
+            "result_value": 93.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": 76.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": 21.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils (%)",
+            "result_value": 3.5,
+            "unit_of_measurement": "%",
+            "reference_range": "1-4 %"
+        }
+    ]
+}

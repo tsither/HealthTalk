@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "d-dimer",
+            "result_value": 0.5,
+            "unit_of_measurement": "%",
+            "reference_range": "<0.8"
+        },
+        {
+            "test_name": "albumin",
+            "result_value": 3.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Erythrocyte Count",
+            "result_value": 4.32,
+            "unit_of_measurement": "millions/mm^3",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 7.1,
+            "unit_of_measurement": "thousands/μL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 5.8,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Lactate Dehydrogenase (LD)",
+            "result_value": 220,
+            "unit_of_measurement": "U/L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "International Normalized Ratio (INR)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

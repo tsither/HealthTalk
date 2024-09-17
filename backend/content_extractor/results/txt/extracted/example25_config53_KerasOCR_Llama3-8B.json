@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Na+",
+            "result_value": 136,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[135, 145]"
+        },
+        {
+            "test_name": "K+",
+            "result_value": 3.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cl-",
+            "result_value": 98,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[95, 105]"
+        },
+        {
+            "test_name": "HCO3-",
+            "result_value": 22,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.35,
+            "unit_of_measurement": null,
+            "reference_range": "[7.35, 7.45]"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-16.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39,
+            "unit_of_measurement": "%",
+            "reference_range": "41-50"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4-11"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.9,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "3.9-5.1"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration",
+            "result_value": 33,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34-36"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 65,
+            "unit_of_measurement": "%",
+            "reference_range": "45-75"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 28.5,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 2.5,
+            "unit_of_measurement": "%",
+            "reference_range": "0-4"
+        }
+    ]
+}

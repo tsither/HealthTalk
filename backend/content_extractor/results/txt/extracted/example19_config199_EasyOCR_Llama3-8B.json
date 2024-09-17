@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "5"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": "140",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low: 6, High: 140, Borderline: 130-139"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "5.00",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Index (HGI)",
+            "result_value": "90.0",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "55",
+            "unit_of_measurement": "fL",
+            "reference_range": "Normal: 80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "28.00",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.5",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 11.6-14.2"
+        },
+        {
+            "test_name": "Differential White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

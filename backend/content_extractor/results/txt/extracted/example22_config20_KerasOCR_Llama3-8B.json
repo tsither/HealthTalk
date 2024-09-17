@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Hiren Patel Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.55,
+            "unit_of_measurement": "Ñ0^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.15,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.25,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count (Automated)",
+            "result_value": 3.15,
+            "unit_of_measurement": "Ñ0^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count (Differential)",
+            "result_value": {
+                "neutrophils": 41,
+                "lymphocytes": 50,
+                "eosinophils": 0.2,
+                "monocytes": 0.5,
+                "basophils": 0
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (Automated)",
+            "result_value": 300000000.0,
+            "unit_of_measurement": "Ñ0^9/L",
+            "reference_range": null
+        }
+    ]
+}

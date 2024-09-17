@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Potasio",
+            "result_value": 3.27,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "3.7-5.0"
+        },
+        {
+            "test_name": "Sodio",
+            "result_value": 140,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.2"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 14300,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

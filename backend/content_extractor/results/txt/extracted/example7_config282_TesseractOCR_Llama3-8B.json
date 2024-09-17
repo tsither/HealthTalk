@@ -1,0 +1,23 @@
+{
+    "Date": "20-01-2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.3,
+            "unit_of_measurement": "Million cells per uL",
+            "reference_range": "4-5 Million cells per uL"
+        }
+    ]
+}

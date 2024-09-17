@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 9.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "Total Count (TC)",
+            "result_value": 4.1,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 0.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.3 - 14.5%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 30.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 41000000.0,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count: Neutrophils (NEUTRO)",
+            "result_value": 30.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count: Lymphocytes (LYMPH)",
+            "result_value": 60.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

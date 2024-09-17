@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "count",
+            "reference_range": "32-37"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "Low WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 9000,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 52,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Reference Range",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "27-32.5"
+        }
+    ]
+}

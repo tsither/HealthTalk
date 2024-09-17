@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glycated Hemoglobin (HbA1c)",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6.5"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-200"
+        },
+        {
+            "test_name": "High-Density Lipoprotein (HDL)",
+            "result_value": 40,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "30-80"
+        },
+        {
+            "test_name": "Low-Density Lipoprotein (LDL)",
+            "result_value": 160,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-100"
+        }
+    ]
+}

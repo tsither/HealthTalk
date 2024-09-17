@@ -1,0 +1,53 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Erythrocyte count",
+            "result_value": 4.5,
+            "unit_of_measurement": "Millions per Microliter (10^12/L)",
+            "reference_range": "3.9-5.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15.2,
+            "unit_of_measurement": "Grams per Deciliter",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 44.3,
+            "unit_of_measurement": "%",
+            "reference_range": "39.0-48.0"
+        },
+        {
+            "test_name": "White blood cell count (WBC)",
+            "result_value": 8.6,
+            "unit_of_measurement": "Thousand per Microliter",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Red blood cell count (RBC)",
+            "result_value": 4.9,
+            "unit_of_measurement": "Millions per Microliter (10^12/L)",
+            "reference_range": "3.9-5.0"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": 85.1,
+            "unit_of_measurement": "Femtoliters",
+            "reference_range": "80.0-100.0"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 202,
+            "unit_of_measurement": "Thousand per Microliter",
+            "reference_range": "150.0-450.0"
+        }
+    ]
+}

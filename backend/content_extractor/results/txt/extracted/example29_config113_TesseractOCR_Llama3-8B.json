@@ -1,0 +1,29 @@
+{
+    "Date": "02.03.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.8,
+            "unit_of_measurement": "k/μL",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 250.0,
+            "unit_of_measurement": "k/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

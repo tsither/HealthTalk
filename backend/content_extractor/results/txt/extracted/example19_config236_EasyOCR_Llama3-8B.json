@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 101,
+            "unit_of_measurement": "b3/gidl count rbc count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 81775,
+            "unit_of_measurement": "345 indices pcv mcvy olume blood cumm s olume 140 cell 212 j packed 116 uscular corpi 3228 mean 1000 coglales goool 130 mch colenaigd l ba mchc",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 3254,
+            "unit_of_measurement": "mch colenaigd l ba mchc 50 9000 a0 20 rdw 06 count 00 countt wbc jd count",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 1000,
+            "unit_of_measurement": "coglales goool 130 mch colenaigd l ba mchc 50 9000 a0 20 rdw 06 count 00 countt wbc jd count",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 500,
+            "unit_of_measurement": "a0 20 rdw 06 count 00 countt wbc jd count",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 9000,
+            "unit_of_measurement": "rdw 06 count 00 countt wbc jd count",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 57521,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count (Total)",
+            "result_value": 15000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 10000,
+                "Lymphocytes": 5000,
+                "Eosinophils": 3000,
+                "Monocytes": 4000,
+                "Basophils": 200
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

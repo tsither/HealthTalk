@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Dr. Logy OS accurate yash too age smart sex y s7 pid pathology vision patel years male caring",
+        "patient_sex": "Male",
+        "patient_age": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 4.25,
+            "unit_of_measurement": "million cells per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 13.28,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 29.5,
+            "unit_of_measurement": "picograms per cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 30.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7.91,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 65.75,
+                "Lymphocytes": 23.55,
+                "Eosinophils": 1.3,
+                "Basophils": 0.03
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 170.16,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "low": 13.0,
+                    "high": 17.0,
+                    "unit": "g/dL"
+                },
+                "RBC COUNT Total RBC count": {
+                    "low": 4.5,
+                    "high": 5.5,
+                    "unit": "mill/cumm"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "low": 40,
+                    "high": 50,
+                    "unit": "%"
+                },
+                "Mean Corpuscular Volume (McV)": {
+                    "low": 80,
+                    "high": 101,
+                    "unit": "f"
+                },
+                "MCH": {
+                    "low": 27,
+                    "high": 32,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "low": 32.5,
+                    "high": 34.5,
+                    "unit": "g/dL"
+                },
+                "RDW": {
+                    "low": 11.6,
+                    "high": 14.0,
+                    "unit": "%"
+                },
+                "WBC COUNT Total wbc count": {
+                    "low": 4000,
+                    "high": 11000,
+                    "unit": "j. I cumm"
+                },
+                "Neutrophils": {
+                    "low": 50,
+                    "high": 62,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "low": 31,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "low": 0.6,
+                    "high": 1.0,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "low": 7.0,
+                    "high": 10.0,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "low": 0.2,
+                    "high": 1.0,
+                    "unit": "%"
+                }
+            }
+        }
+    ]
+}

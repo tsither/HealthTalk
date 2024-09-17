@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BLOOD COUNT",
+            "result_value": 4500,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "400000-1000000"
+        },
+        {
+            "test_name": "ALKALINE PHOSPHATASE",
+            "result_value": 130,
+            "unit_of_measurement": "U/L",
+            "reference_range": "39-174"
+        },
+        {
+            "test_name": "ASPARTATE AMINOTRANSFERASE (AST)",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40"
+        }
+    ]
+}

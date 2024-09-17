@@ -1,0 +1,47 @@
+{
+    "Date": "Dec. 2",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood urea (BU)",
+            "result_value": 12.5,
+            "unit_of_measurement": "A0-50",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine (Cr)",
+            "result_value": 1.25,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.2"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV / Hematocrit (Hct))",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.32,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.25,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

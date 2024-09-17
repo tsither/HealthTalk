@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[13.0 - 17.0]"
+        },
+        {
+            "test_name": "PCV COUNT",
+            "result_value": 52,
+            "unit_of_measurement": null,
+            "reference_range": "[13.6]"
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": 9000,
+            "unit_of_measurement": null,
+            "reference_range": "[4.5 - ]"
+        }
+    ]
+}

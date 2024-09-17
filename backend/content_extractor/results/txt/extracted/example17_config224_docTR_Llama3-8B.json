@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CEA",
+            "result_value": 10.9,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "<2.4"
+        },
+        {
+            "test_name": "CA 125",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "CRP",
+            "result_value": 1,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<0.8"
+        }
+    ]
+}

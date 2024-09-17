@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 3,
+            "unit_of_measurement": "%",
+            "reference_range": "0 - 5%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 2,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin A1c (Glycated Hemoglobin)",
+            "result_value": 8,
+            "unit_of_measurement": "%",
+            "reference_range": "4 - 6%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.3,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 76,
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 100 fL"
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": 10.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 15.1,
+            "unit_of_measurement": "%",
+            "reference_range": "11.3 - 14.9%"
+        }
+    ]
+}

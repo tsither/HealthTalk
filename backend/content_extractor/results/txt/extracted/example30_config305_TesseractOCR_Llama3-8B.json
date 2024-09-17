@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": "4-11 thousand cells per microliter"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": "150-450 thousand cells per microliter"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "milligrams per deciliter",
+            "reference_range": "70-140 milligrams per deciliter"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "Date": "2023-05-06",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": null,
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC count",
+            "result_value": 689578,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Blood)",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "28-32 pg/cell"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "14-16%"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 87.75,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "2x Differential WBC COUNT",
+            "result_value": [
+                {
+                    "cell_type": "Polymorphs",
+                    "percentage": 27.2,
+                    "range": "4.5- 5.5"
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "percentage": 32.8,
+                    "range": null
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "percentage": 13.6,
+                    "range": null
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "percentage": 7,
+                    "range": null
+                },
+                {
+                    "cell_type": "Basophils",
+                    "percentage": 0.9,
+                    "range": "0.5 - 1.5"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 60000,
+            "unit_of_measurement": "per microliter (µL)",
+            "reference_range": "150000 - 300000"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "9.00",
+            "unit_of_measurement": "Whole blood",
+            "reference_range": "Normal: 7-14, Increased: may indicate essential thrombocythemia or reactive thrombocytosis"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": "11.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "Normal adults: 9-13, Children: 7-12, Newborns: 10-14"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1.75 x 10^5",
+            "unit_of_measurement": "/ul",
+            "reference_range": "Normal adults: 15-50 x 10^9, Children: 18-50 x 10^9, Newborns: 25-150 x 10^9"
+        }
+    ]
+}

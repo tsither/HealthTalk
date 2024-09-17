@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.7-15.3"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.2,
+            "unit_of_measurement": "Millions/cu mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "77-92"
+        }
+    ]
+}

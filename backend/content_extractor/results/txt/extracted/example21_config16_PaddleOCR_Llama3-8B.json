@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "X.XXXX",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "Old"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3110000000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "< 107000 /microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5200000000000.0,
+            "unit_of_measurement": "/liter",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7750000000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "34.5 - 32.5 %"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 27200000000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        }
+    ]
+}

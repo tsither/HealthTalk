@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec 20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "High (40-50%)"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "45.7 M/μL",
+            "unit_of_measurement": "M/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "55%",
+            "unit_of_measurement": "%",
+            "reference_range": "High"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "9000 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "{\"Neutrophils\": 60%, \"Lymphocytes\": 31%, \"Eosinophils\": 0%, \"Monocytes\": 10%, \"Basophils\": 2%}",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

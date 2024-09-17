@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Potassium (K+)",
+            "result_value": 3.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0"
+        },
+        {
+            "test_name": "Serum Sodium (Na+)",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "Blood Urea",
+            "result_value": 2.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine (elevated)",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.2"
+        }
+    ]
+}

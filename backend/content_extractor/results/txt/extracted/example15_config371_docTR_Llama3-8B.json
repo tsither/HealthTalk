@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "D-dimer",
+            "result_value": 4.5,
+            "unit_of_measurement": "mcg/mL",
+            "reference_range": "0 - 250 mcg/mL"
+        },
+        {
+            "test_name": "INR",
+            "result_value": 1.26,
+            "unit_of_measurement": null,
+            "reference_range": "0.9-1.2"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 250000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000 - 450,000 /µL"
+        }
+    ]
+}

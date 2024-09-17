@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Raier",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Mb)",
+            "result_value": 4.0,
+            "unit_of_measurement": "Million per cubic millimeter (mb)",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "Thousand per cubic millimeter (t/mm3)",
+            "reference_range": null
+        },
+        {
+            "test_name": "FCOUNT RURENE",
+            "result_value": 1500,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "Grams per deciliter (g/dl)",
+            "reference_range": "[13.0, 17.0]"
+        },
+        {
+            "test_name": "MCV (Mean Cell Volume)",
+            "result_value": 80.3,
+            "unit_of_measurement": "Femtoliters per red cell (fl/cell)",
+            "reference_range": "[76.0, 100.0]"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.5,
+            "unit_of_measurement": "Picograms per red cell (pg/cell)",
+            "reference_range": "[26.0, 31.0]"
+        }
+    ]
+}

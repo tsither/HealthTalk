@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Corpuscular)",
+            "result_value": 4550000.0,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "[3.90-5.10]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.00-17.70]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "[28.40-31.60]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[32.20-36.00]"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[12.30-14.50]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 325000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[1.80-4.10]"
+        },
+        {
+            "test_name": "WBC Count (White Blood Cell)",
+            "result_value": 9750.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[3.60-11.40]"
+        }
+    ]
+}

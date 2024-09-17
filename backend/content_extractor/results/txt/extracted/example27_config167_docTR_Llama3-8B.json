@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39.9,
+            "unit_of_measurement": "%",
+            "reference_range": "37.7-48.3"
+        },
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "k/μL",
+            "reference_range": "4.0-10.5"
+        },
+        {
+            "test_name": "Erythrocyte Count",
+            "result_value": 4.38,
+            "unit_of_measurement": "M/μL",
+            "reference_range": "3.90-5.10"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "77.0-91.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 26.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "24.0-31.0"
+        },
+        {
+            "test_name": "Red Cell Distribution Width",
+            "result_value": 14.8,
+            "unit_of_measurement": "%",
+            "reference_range": "12.5-15.5"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID: 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "results": [
+                {
+                    "parameter": "Hemoglobin Hemoglobin (Hb)",
+                    "result_value": 12.5,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "parameter": "RBC COUNT Total RBC count",
+                    "result_value": 5.2,
+                    "unit_of_measurement": "mill/cumm",
+                    "reference_range": "4.5-5.5"
+                },
+                {
+                    "parameter": "Packed Cell Volume (PCV)",
+                    "result_value": 57.5,
+                    "unit_of_measurement": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "parameter": "Mean Corpuscular Volume (MCV)",
+                    "result_value": 87.75,
+                    "unit_of_measurement": "fL",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "MCH",
+                    "result_value": 27.2,
+                    "unit_of_measurement": "pg",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Calculated MCHC",
+                    "result_value": 32.8,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "32.5-34.5"
+                },
+                {
+                    "parameter": "RDW",
+                    "result_value": 13.6,
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Total WBC count",
+                    "result_value": 9000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "4000-11000"
+                },
+                {
+                    "parameter": "Neutrophils",
+                    "result_value": 60,
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Lymphocytes",
+                    "result_value": 31,
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Eosinophils",
+                    "result_value": 1,
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Monocytes",
+                    "result_value": 7,
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Basophils",
+                    "result_value": 1,
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "parameter": "Platelet Count",
+                    "result_value": 150000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": null
+                }
+            ]
+        }
+    ]
+}

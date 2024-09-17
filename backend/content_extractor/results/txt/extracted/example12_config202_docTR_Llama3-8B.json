@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "B1000",
+            "unit_of_measurement": "Hiren",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "45.35",
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "29.8",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "76.2",
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100 fl"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "812",
+            "unit_of_measurement": "Count/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Globulin",
+            "result_value": 25.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "21-33 g/dL"
+        },
+        {
+            "test_name": "Protein Total",
+            "result_value": 6.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6-8.3 g/dL"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 4.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.5 g/dL"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SGOT",
+            "result_value": "3",
+            "unit_of_measurement": "u/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "SGPT",
+            "result_value": "6",
+            "unit_of_measurement": "u/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT/GPT Ratio",
+            "result_value": "1:2",
+            "unit_of_measurement": "",
+            "reference_range": "0.5-2"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8100.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5-11.0e+03"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 320000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "1.8-4.6e+05"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "% Saturation of Hemoglobin",
+            "result_value": 92.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 78.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-99"
+        }
+    ]
+}

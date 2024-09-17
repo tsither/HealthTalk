@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Reference values not available"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal: 135-170 g/dL"
+        },
+        {
+            "test_name": "RBC Count (Tokal)",
+            "result_value": 52,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 575,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.26,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential",
+            "result_value": {
+                "Neutrophils": 62.0,
+                "Lymphocytes": 31.0,
+                "Monocytes": 6.0,
+                "Eosinophils": 1.0,
+                "Basophils": 0.2
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1500000,
+            "unit_of_measurement": " cells/μL",
+            "reference_range": "Normal: 150,000-450,000 cells/μL"
+        }
+    ]
+}

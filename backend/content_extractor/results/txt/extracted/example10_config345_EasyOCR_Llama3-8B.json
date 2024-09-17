@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "M1 Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 5.3,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4-10 x10^12/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.52,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "3.9-5.2 x10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 89.1,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": 19.6,
+            "unit_of_measurement": "%",
+            "reference_range": "10.2-16.5%"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "01.01.2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 32
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose Level Test",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin A1c Test",
+            "result_value": 6.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5-5.9%"
+        },
+        {
+            "test_name": "Creatinine Level Test",
+            "result_value": 1.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

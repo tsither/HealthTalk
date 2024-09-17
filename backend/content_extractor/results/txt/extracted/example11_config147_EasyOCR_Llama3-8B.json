@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "11"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.23,
+            "unit_of_measurement": "Million per Microliter",
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 52,
+            "unit_of_measurement": null,
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 27,
+            "unit_of_measurement": null,
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 0.5,
+            "unit_of_measurement": null,
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 17.5,
+            "unit_of_measurement": "Thousand per Microliter",
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 75,
+                "Lymphocytes": 50,
+                "Eosinophils": 6,
+                "Monocytes": 85,
+                "Basophils": 1
+            },
+            "unit_of_measurement": null,
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.5,
+            "unit_of_measurement": "Lakh per Microliter",
+            "reference_range": "Not Available"
+        }
+    ]
+}

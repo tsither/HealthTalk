@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "t (Total protein)",
+            "result_value": 6.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.4 - 8.3"
+        },
+        {
+            "test_name": "a l (Albumin)",
+            "result_value": 4.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5 - 5.0"
+        },
+        {
+            "test_name": "g * (Globulin)",
+            "result_value": 2.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "d (Alkaline phosphatase)",
+            "result_value": 11.6,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30 - 80"
+        },
+        {
+            "test_name": "a l d (ALP, liver)",
+            "result_value": 4.0,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "b * (ASAT)",
+            "result_value": 41,
+            "unit_of_measurement": "U/L",
+            "reference_range": "15 - 45"
+        },
+        {
+            "test_name": "c +4 (ALP, bone)",
+            "result_value": 13.0,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "r4s (Gamma-glutamyl transferase)",
+            "result_value": 4.5,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10 - 50"
+        }
+    ]
+}

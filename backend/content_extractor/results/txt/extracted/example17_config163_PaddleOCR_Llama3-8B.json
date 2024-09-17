@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Payal Shah (MD)",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0 - 18.0"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 34.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 90.0,
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": null
+        }
+    ]
+}

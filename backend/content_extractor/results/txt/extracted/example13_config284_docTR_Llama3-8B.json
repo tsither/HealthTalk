@@ -1,0 +1,23 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "P12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6-17.2"
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": 120,
+            "unit_of_measurement": "mOsm/kg/H2O",
+            "reference_range": "70-130"
+        }
+    ]
+}

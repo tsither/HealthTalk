@@ -1,0 +1,29 @@
+{
+    "Date": "11/22/2022",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-16.0 g/dL"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 20.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6.0-24.0 mg/dL"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        }
+    ]
+}

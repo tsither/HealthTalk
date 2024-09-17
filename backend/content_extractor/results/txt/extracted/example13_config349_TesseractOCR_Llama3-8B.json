@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": null,
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[M]: 14.0 - 18.0 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.8,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[NQ]: 4.5 - 11.0 x10^9/L"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 220,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[M]: 150.0 - 450.0 x10^9/L"
+        },
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "result_value": 12.1,
+            "unit_of_measurement": "seconds",
+            "reference_range": "[M]: 11.3 - 14.5 seconds"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (aPTT)",
+            "result_value": 31.0,
+            "unit_of_measurement": "seconds",
+            "reference_range": "[M]: 24.9 - 36.2 seconds"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 52,
+            "unit_of_measurement": "MILLION/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": "45-55%"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 32.57,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.6%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 9.0,
+            "unit_of_measurement": "THOUSAND/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 60,
+                "Segmented Neutrophils (2)": 40,
+                "Lymphocytes": 31,
+                "Eosinophils": 0.6,
+                "Monocytes": 10,
+                "Basophils": 0
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.0,
+            "unit_of_measurement": "LAKH/μL",
+            "reference_range": "1.50-5.50 LAKH/μL"
+        }
+    ]
+}

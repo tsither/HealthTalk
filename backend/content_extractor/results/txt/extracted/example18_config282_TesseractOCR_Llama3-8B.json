@@ -1,0 +1,29 @@
+{
+    "Date": "02.03.2023",
+    "patient_information": {
+        "patient_id": "PAT123",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 6.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4.7-6.4"
+        },
+        {
+            "test_name": "Calcium",
+            "result_value": 9.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.5-10.3"
+        }
+    ]
+}

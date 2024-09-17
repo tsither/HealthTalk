@@ -1,0 +1,82 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 1234567890,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count",
+            "result_value": 140,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 115,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-150 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 30.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 15000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "count": 5000
+                },
+                {
+                    "type": "Lymphocytes",
+                    "count": 2000
+                },
+                {
+                    "type": "Eosinophils",
+                    "count": 1000
+                },
+                {
+                    "type": "Monocytes",
+                    "count": 15000
+                }
+            ],
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

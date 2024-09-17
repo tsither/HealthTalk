@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5150000.0,
+            "unit_of_measurement": null,
+            "reference_range": "4.32e6 - 5.72e6"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 89.7,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 29.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.6,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "32-36"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 310000.0,
+            "unit_of_measurement": null,
+            "reference_range": "1.50e5 - 4.50e5"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 0.7,
+                "Lymphocytes": 0.2,
+                "Monocytes": 0.05,
+                "Eosinophils": 0.01,
+                "Basophils": 0.0
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

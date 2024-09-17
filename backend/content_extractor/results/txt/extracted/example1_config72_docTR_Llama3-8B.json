@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb) RBC COUNT Total RBC count BLOOD INDICES Packed Cell Volume Mean Calculated Corpuscular MCH Calculated MCHC Calculated RDW WBC COUNT Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils PLATELET Platelet Count",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5 g/dL",
+                "RBC COUNT Total RBC count BLOOD INDICES Packed Cell Volume Mean Calculated Corpuscular MCH Calculated MCHC Calculated RDW WBC COUNT Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils PLATELET Platelet Count": "9000",
+                "WBC COUNT Total WBC count": "60 cumm",
+                "PLATELET Platelet Count": "31 %",
+                "Neutrophils": "7 %",
+                "Lymphocytes": "1 %",
+                "Eosinophils": "1 %",
+                "Basophils": "00-02 %"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT Total RBC count BLOOD INDICES Packed Cell Volume Mean Calculated Corpuscular MCH Calculated MCHC Calculated RDW WBC COUNT Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils PLATELET Platelet Count": "mill/cumm",
+                "WBC COUNT Total WBC count": "cumm",
+                "PLATELET Platelet Count": "%",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC COUNT Total RBC count BLOOD INDICES Packed Cell Volume Mean Calculated Corpuscular MCH Calculated MCHC Calculated RDW WBC COUNT Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils PLATELET Platelet Count": "40-50 mill/cumm",
+                "WBC COUNT Total WBC count": "4000-11000 cumm",
+                "PLATELET Platelet Count": "150000 - 410000",
+                "Neutrophils": "20-40 %",
+                "Lymphocytes": "50-62 %",
+                "Eosinophils": "00-06 %",
+                "Basophils": "00-10%"
+            }
+        }
+    ]
+}

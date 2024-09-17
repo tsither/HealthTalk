@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "9.75",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32-5.72 x 10^12/L"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "0.45",
+            "unit_of_measurement": "",
+            "reference_range": "0.37-0.48"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "30.1",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27.5-31.3 pg/cell"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.00",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "1.50-4.50 x 10^9/L"
+        }
+    ]
+}

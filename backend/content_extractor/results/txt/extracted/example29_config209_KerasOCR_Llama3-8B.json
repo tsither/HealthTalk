@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "52",
+            "unit_of_measurement": "454 55 count mL/wmcumm blood indices cell PCV high",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "50",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "32",
+            "unit_of_measurement": "pg/cu mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "28",
+            "unit_of_measurement": "pg/cu mm",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "11%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (Neutrophils)",
+            "result_value": "80%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "/μL",
+            "reference_range": "150,000 - 410,000"
+        }
+    ]
+}

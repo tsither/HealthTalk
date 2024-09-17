@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.00-5.50"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 31,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80.3,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 11.33,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.50-10.50"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.1,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

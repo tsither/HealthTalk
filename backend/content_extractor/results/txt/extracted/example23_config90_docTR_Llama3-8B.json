@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "eGFR",
+            "result_value": 74.6,
+            "unit_of_measurement": "mL/min/1.73m²",
+            "reference_range": "60-120"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 4.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.5"
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 1.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-35"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 30,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-45"
+        }
+    ]
+}

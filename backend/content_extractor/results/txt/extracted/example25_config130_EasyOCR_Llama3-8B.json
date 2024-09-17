@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "F.G.M",
+        "patient_sex": null,
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 100,
+            "unit_of_measurement": "/fL",
+            "reference_range": "80-150"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 7000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrofis",
+            "result_value": 5000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "1500-8000"
+        },
+        {
+            "test_name": "Linfocitos",
+            "result_value": 1000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinofis",
+            "result_value": 10,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

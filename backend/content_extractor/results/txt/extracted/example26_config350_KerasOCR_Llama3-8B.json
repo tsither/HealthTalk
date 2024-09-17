@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 111,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 238,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "125-220"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 11270,
+            "unit_of_measurement": "/uL",
+            "reference_range": "3500-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4490000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 282000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

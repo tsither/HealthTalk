@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test Report",
+            "result_value": 1200.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "800-1800"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10.2,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        }
+    ]
+}

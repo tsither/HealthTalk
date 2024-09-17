@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel, Yash I : 6 is Years",
+        "patient_sex": null,
+        "patient_age": 32.5
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.0 - 5.5 x10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "78-98 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 28.0,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 210000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "1.5 - 3.5 x10^5/ul"
+        }
+    ]
+}

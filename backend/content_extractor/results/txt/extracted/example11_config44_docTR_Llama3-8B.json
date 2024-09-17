@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 4.31,
+            "unit_of_measurement": "Million / cubic millimeter",
+            "reference_range": "3.90-5.10"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 9.45,
+            "unit_of_measurement": "Thousand / cubic millimeter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Ho)",
+            "result_value": 13.65,
+            "unit_of_measurement": "Grams / deciliter",
+            "reference_range": "12.00-16.00"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80.25,
+            "unit_of_measurement": "Cubic micrometers",
+            "reference_range": "68.00-100.00"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.5,
+            "unit_of_measurement": "Picograms",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 200000.0,
+            "unit_of_measurement": "Thousand / cubic millimeter",
+            "reference_range": "1.50-3.00"
+        }
+    ]
+}

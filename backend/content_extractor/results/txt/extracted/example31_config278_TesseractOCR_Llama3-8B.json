@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7000.0,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5100000.0,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "3800000-5200000"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 150.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "130-180"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel MAAN Sample Collected At: &. 0123456789 | 0912345678",
+        "sex": "Male",
+        "age": "21 Year"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "results": [
+                {
+                    "parameter": "HEMOGLOBIN",
+                    "result_value": 12.5,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "parameter": "RBC COUNT",
+                    "result_value": 5.2,
+                    "unit_of_measurement": "mill/cumm",
+                    "reference_range": "45-55"
+                },
+                {
+                    "parameter": "PACKED CELL VOLUME (PCV)",
+                    "result_value": 57.5,
+                    "unit_of_measurement": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "parameter": "MEAN CORPUSCULAR VOLUME (MCV)",
+                    "result_value": 87.75,
+                    "unit_of_measurement": "fl",
+                    "reference_range": "83-101"
+                },
+                {
+                    "parameter": "COOKSIND MCH",
+                    "result_value": 27.2,
+                    "unit_of_measurement": "pg",
+                    "reference_range": "27-32"
+                },
+                {
+                    "parameter": "MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION (MCHC)",
+                    "result_value": 32.8,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "32.5 -34.5"
+                },
+                {
+                    "parameter": "RED BLOOD CELL DISTRIBUTION WIDTH (RDW)",
+                    "result_value": 13.6,
+                    "unit_of_measurement": "%",
+                    "reference_range": "11.6-14.0"
+                },
+                {
+                    "parameter": "WHITE BLOOD CELL COUNT (WBC COUNT)",
+                    "result_value": 4000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "4000-11000"
+                },
+                {
+                    "parameter": "DIFFERENTIAL WBC COUNT",
+                    "sub_results": [
+                        {
+                            "type": "NEUTROPHILS",
+                            "result_value": 60,
+                            "unit_of_measurement": "%",
+                            "reference_range": "70-82"
+                        },
+                        {
+                            "type": "LYMPHOCYTES",
+                            "result_value": 31,
+                            "unit_of_measurement": "%",
+                            "reference_range": "20-40"
+                        },
+                        {
+                            "type": "EOSINOPHILS",
+                            "result_value": 1,
+                            "unit_of_measurement": "%",
+                            "reference_range": "0 - 6"
+                        },
+                        {
+                            "type": "MONOCYTES",
+                            "result_value": 7,
+                            "unit_of_measurement": "%",
+                            "reference_range": "5-10"
+                        },
+                        {
+                            "type": "BASOPHILS",
+                            "result_value": 1,
+                            "unit_of_measurement": "%",
+                            "reference_range": "0 - 2"
+                        }
+                    ]
+                },
+                {
+                    "parameter": "PLATELET COUNT",
+                    "result_value": 150000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "150000 - 410000"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test Name 1",
+            "result_value": 45.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "Test Name 2",
+            "result_value": 23.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Test Name 3",
+            "result_value": 12.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "80-180 mg/dL"
+        }
+    ]
+}

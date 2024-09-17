@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 1200,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "800-1800 cells/ul"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 1.5,
+            "unit_of_measurement": "g/24hr",
+            "reference_range": "0.8-2.0 g/24hr"
+        }
+    ]
+}

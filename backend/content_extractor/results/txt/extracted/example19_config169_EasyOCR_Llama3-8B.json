@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "25"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125",
+            "unit_of_measurement": "x10^3 cells/ul",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "9000",
+            "unit_of_measurement": "pg/ml",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "300",
+            "unit_of_measurement": "x10^12 cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Concentration (MCH)",
+            "result_value": "150000",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "8175",
+            "unit_of_measurement": "x10^9 cells/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "55",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": "[FILL]",
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

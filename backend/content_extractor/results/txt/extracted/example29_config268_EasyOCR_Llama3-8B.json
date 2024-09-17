@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "11"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Reference value: not provided",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal range: 14.0-17.0 g/dL"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 4.58,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "Reference value: not provided"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 7.5,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal range: 37-48%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "Reference value: not provided"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 32.7,
+            "unit_of_measurement": "fl",
+            "reference_range": "Normal range: 80-96 fL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "Reference value: not provided"
+        }
+    ]
+}

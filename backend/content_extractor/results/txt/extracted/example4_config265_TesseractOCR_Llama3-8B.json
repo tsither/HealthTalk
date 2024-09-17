@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 12.6,
+            "unit_of_measurement": "thousand/ul",
+            "reference_range": "(4-10)"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "(150-400)"
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time",
+            "result_value": 28.1,
+            "unit_of_measurement": "seconds",
+            "reference_range": "(25-35)"
+        },
+        {
+            "test_name": "Lipase",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "(70-110)"
+        }
+    ]
+}

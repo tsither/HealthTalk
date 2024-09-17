@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 105,
+            "unit_of_measurement": null,
+            "reference_range": "100-400"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": null,
+            "reference_range": "14.0-16.5"
+        },
+        {
+            "test_name": "Red Cell Count (RCC)",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 28.5,
+            "unit_of_measurement": null,
+            "reference_range": "26.0-31.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80.2,
+            "unit_of_measurement": null,
+            "reference_range": "76.0-100.0"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 12.8,
+            "unit_of_measurement": null,
+            "reference_range": "11.3-14.5"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 5000,
+            "unit_of_measurement": null,
+            "reference_range": "4000-10000"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 70,
+                "Lymphocytes": 20,
+                "Monocytes": 5
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

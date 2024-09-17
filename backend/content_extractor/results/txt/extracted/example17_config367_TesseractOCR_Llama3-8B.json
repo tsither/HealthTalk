@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.2,
+            "unit_of_measurement": "k/μL",
+            "reference_range": "4-10 k/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250.0,
+            "unit_of_measurement": "k/μL",
+            "reference_range": "150-450 k/μL"
+        }
+    ]
+}

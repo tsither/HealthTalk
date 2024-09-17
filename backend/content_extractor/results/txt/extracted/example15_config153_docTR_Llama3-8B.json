@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 8.8,
+            "unit_of_measurement": "%",
+            "reference_range": "45-75%"
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": 20,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "0-20 mm/h"
+        }
+    ]
+}

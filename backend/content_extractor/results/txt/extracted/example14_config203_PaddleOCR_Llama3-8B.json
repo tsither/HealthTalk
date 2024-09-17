@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Normocytic Normochromic",
+            "result_value": "Normal & Adequate in Number",
+            "unit_of_measurement": null,
+            "reference_range": "2x Normal"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.3-5.7 x 10^12/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": "39.3-48.8%"
+        }
+    ]
+}

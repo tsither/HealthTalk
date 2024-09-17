@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345675",
+        "patient_name": "DrLogyPathiAbdLoyg",
+        "patient_sex": "Male",
+        "patient_age": "70s"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.53,
+            "unit_of_measurement": "Million per microliter (µl)",
+            "reference_range": "4.32-5.72 Million/µl"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.2,
+            "unit_of_measurement": "Grams per deciliter (g/dl)",
+            "reference_range": "13.8-17.0 g/dl"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000000.0,
+            "unit_of_measurement": "Cells per microliter (µl)",
+            "reference_range": "1.5-3.5 x10^9/µl"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7.75,
+            "unit_of_measurement": "Thousand per cubic millimeter (mm^3)",
+            "reference_range": "4.5-11.0 x10^3/mm^3"
+        },
+        {
+            "test_name": "Differential",
+            "result_value": {
+                "Neutrophils": 53,
+                "Lymphocytes": 27,
+                "Monocytes": 5,
+                "Eosinophils": 1,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": "Not available"
+        }
+    ]
+}

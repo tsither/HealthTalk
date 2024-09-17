@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "^ a%",
+            "result_value": "a%",
+            "unit_of_measurement": "t%",
+            "reference_range": "% c%"
+        },
+        {
+            "test_name": "~ a%",
+            "result_value": "A %",
+            "unit_of_measurement": "% %",
+            "reference_range": ") % )"
+        },
+        {
+            "test_name": "^ a%",
+            "result_value": "a%",
+            "unit_of_measurement": "% A ",
+            "reference_range": "t% A n%"
+        },
+        {
+            "test_name": "~ a%",
+            "result_value": "3 ~",
+            "unit_of_measurement": "a%",
+            "reference_range": "3 ~"
+        }
+    ]
+}

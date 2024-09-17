@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 34.5
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 4.5,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "4.0 - 5.6 million cells/mcL"
+        },
+        {
+            "test_name": "HCT (PCV)",
+            "result_value": 45.05,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 OV",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.2",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_values": [
+                {
+                    "index_name": "Packed Cell Volume (PCV)",
+                    "value": "57.5",
+                    "unit_of_measurement": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "index_name": "Mean Corpuscular Volume (MCV)",
+                    "value": "87.75",
+                    "unit_of_measurement": "fL",
+                    "reference_range": "83-101"
+                },
+                {
+                    "index_name": "Mean Corpuscular Hemoglobin (MCH)",
+                    "value": "27.2",
+                    "unit_of_measurement": "pg",
+                    "reference_range": "27-32"
+                },
+                {
+                    "index_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+                    "value": "32.8",
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "32.5 - 34.5"
+                }
+            ]
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "4000",
+            "unit_of_measurement": "/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_values": [
+                {
+                    "cell_type": "Neutrophils",
+                    "percentage": "60"
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "percentage": "31"
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "percentage": "1"
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "percentage": "7"
+                },
+                {
+                    "cell_type": "Basophils",
+                    "percentage": "1"
+                }
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "150000",
+            "unit_of_measurement": "/cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

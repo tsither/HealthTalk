@@ -1,0 +1,53 @@
+{
+    "Date": "09/11",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "11 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "Ref: 140-170 g/L (females), 135-175 g/L (males)"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.50 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "Ref: 4.32-5.72 x 10^12/L"
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin",
+            "result_value": "29.5 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "Ref: 27.5-31.8 pg/cell"
+        },
+        {
+            "test_name": "Packed Cell Volume",
+            "result_value": "0.41",
+            "unit_of_measurement": "",
+            "reference_range": "Ref: 0.37-0.48"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "12.30 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "Ref: 4.5-11.0 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 73%, Lymphocytes: 18%, Monocytes: 7%",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.25 x 10^5/L",
+            "unit_of_measurement": "x 10^5/L",
+            "reference_range": "Ref: 1.50-4.70 x 10^5/L"
+        }
+    ]
+}

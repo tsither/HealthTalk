@@ -1,0 +1,29 @@
+{
+    "Date": "2022-02-22",
+    "patient_information": {
+        "patient_id": "PAT1234",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "3.8-5.2"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.8,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "3.5-10.5"
+        }
+    ]
+}

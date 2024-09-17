@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4,000-11,000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5200000000000.0,
+            "unit_of_measurement": "/liter",
+            "reference_range": "4.32e+12 - 5.72e+12"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 150,
+            "unit_of_measurement": "grams/deciliter",
+            "reference_range": "130-170"
+        }
+    ]
+}

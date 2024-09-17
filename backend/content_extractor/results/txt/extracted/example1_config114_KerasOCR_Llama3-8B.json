@@ -1,0 +1,29 @@
+{
+    "Date": "09/01/2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "12.0-15.5 g/dL"
+        },
+        {
+            "test_name": "Kidney Function",
+            "result_value": 90,
+            "unit_of_measurement": "%",
+            "reference_range": "80-120%"
+        }
+    ]
+}

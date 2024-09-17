@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "100 [fL]",
+            "unit_of_measurement": "[fL]",
+            "reference_range": "80"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocytes",
+            "result_value": "7000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "1500",
+            "unit_of_measurement": null,
+            "reference_range": "4000-10000"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "500",
+            "unit_of_measurement": null,
+            "reference_range": "200-900"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "0",
+            "unit_of_measurement": null,
+            "reference_range": "1-400"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "100",
+            "unit_of_measurement": null,
+            "reference_range": "1-200"
+        }
+    ]
+}

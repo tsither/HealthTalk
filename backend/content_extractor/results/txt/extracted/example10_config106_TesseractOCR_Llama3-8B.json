@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GOT",
+            "result_value": 35.0,
+            "unit_of_measurement": "units/mL",
+            "reference_range": "9-55"
+        },
+        {
+            "test_name": "SGOT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ALKP",
+            "result_value": 72.0,
+            "unit_of_measurement": "IU/L",
+            "reference_range": "40-150"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 21.0,
+            "unit_of_measurement": "units/mL",
+            "reference_range": "8-20"
+        }
+    ]
+}

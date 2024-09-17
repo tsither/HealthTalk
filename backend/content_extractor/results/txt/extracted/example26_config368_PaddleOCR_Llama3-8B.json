@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 4.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.5,10]"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 7.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[4.2,6.4]"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10 - 14.0"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "90",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "40.0",
+            "unit_of_measurement": "%",
+            "reference_range": "37 - 48"
+        },
+        {
+            "test_name": "RBC count (#)",
+            "result_value": "4.5",
+            "unit_of_measurement": "M/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (#)",
+            "result_value": "13.6",
+            "unit_of_measurement": "K/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count (#)",
+            "result_value": "27.2",
+            "unit_of_measurement": "K/μL",
+            "reference_range": "15 - 32"
+        }
+    ]
+}

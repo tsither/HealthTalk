@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "ALT (GPT)",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 1,
+            "unit_of_measurement": null,
+            "reference_range": "0.2-1.2"
+        },
+        {
+            "test_name": "RBC (PCV)",
+            "result_value": 4.32,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 15000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "1.5-3.0"
+        },
+        {
+            "test_name": "WBC count (Total)",
+            "result_value": 7500,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": null
+        }
+    ]
+}

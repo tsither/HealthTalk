@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation",
+            "result_value": "Hemoglobin: 125 g/dL, Low; RBC count: 5.2 million/cumm, High; PCV: 55%, High; MCV: 87.75 fL, Normal; MCH: 27 pg, Normal; MCHC: 32% / 35.4 g/dL, Normal; RDW: 13.6% / 14.1 fL, High",
+            "unit_of_measurement": "g/dL, million/cumm, %, fL, pg, % / g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": "Neutrophils: 60% / 62.00; Lymphocytes: 31% / 40.00; Eosinophils: 1.00% / 0.06; Monocytes: 10% / 0.00; Basophils: 1.00% / 0.02",
+            "unit_of_measurement": "% / %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "50,000 / 410,000",
+            "unit_of_measurement": "/ cmm",
+            "reference_range": null
+        }
+    ]
+}

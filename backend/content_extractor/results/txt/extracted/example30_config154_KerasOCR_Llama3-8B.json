@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash",
+        "patient_sex": "Male",
+        "patient_age": "7 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal (13.5-17.5 g/dL)"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.25",
+            "unit_of_measurement": "× 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "31.5",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "Normal (27-31 pg/cell)"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.1",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.5",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal (11-14.5 %)"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "4.0",
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "55%",
+                "Lymphocytes": "35%",
+                "Eosinophils": "3.5%",
+                "Basophils": "1.75%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "130",
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": "Normal (150-450 × 10^9/L)"
+        }
+    ]
+}

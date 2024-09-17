@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 2500000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[150,000-500,000]"
+        },
+        {
+            "test_name": "ERYTHROCYTE COUNT",
+            "result_value": 4000000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WHITE BLOOD CELL COUNT",
+            "result_value": 10000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[4,000-11,000]"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Albumin",
+            "result_value": 3.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.0 g/dL"
+        },
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": 98,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-120 U/L"
+        },
+        {
+            "test_name": "Aspartate Aminotransferase",
+            "result_value": 22,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40 U/L"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        }
+    ]
+}

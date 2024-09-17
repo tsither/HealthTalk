@@ -1,0 +1,29 @@
+{
+    "Date": "01.01.2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "135.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120-160 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "8.2",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4-11 x10^3/uL"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": "12.5",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-18 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "Dec 7, 2014",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "15-170 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "5.4",
+            "unit_of_measurement": "MCM",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "50%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "82.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": "27 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "28-32 pg/cell"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "32.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "410,000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count (Differential)",
+            "result_value": "80% Neutrophils, 10% Lymphocytes, 6% Eosinophils, 0.2% Monocytes, 0.2% Basophils",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

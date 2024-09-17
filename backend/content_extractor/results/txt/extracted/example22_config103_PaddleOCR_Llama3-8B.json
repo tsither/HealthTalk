@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "14.0 - 32.8"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "2.0 - 5.5"
+        }
+    ]
+}

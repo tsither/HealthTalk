@@ -1,0 +1,41 @@
+{
+    "Date": "202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5000,
+            "unit_of_measurement": null,
+            "reference_range": "4000-10000"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "120-150 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 35,
+            "unit_of_measurement": null,
+            "reference_range": "28-32 pg/cell"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": "3.9-5.0 x 10^12/L"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10000,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000/cmm"
+        }
+    ]
+}

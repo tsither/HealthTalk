@@ -1,0 +1,23 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose Test",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Creatinine Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

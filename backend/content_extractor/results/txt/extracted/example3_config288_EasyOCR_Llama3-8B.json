@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.5-16.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 88.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.8,
+            "unit_of_measurement": "x10^3 cells/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 250.0,
+            "unit_of_measurement": "x10^3 cells/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

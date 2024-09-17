@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel, R. J.",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 170,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 105,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FEMALE: 12.1-15.1 g/dL, MALE: 14.3-17.2 g/dL]"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": "[FEMALE: 37-48%, MALE: 40-54%]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 41000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "150000-450000 cells/uL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

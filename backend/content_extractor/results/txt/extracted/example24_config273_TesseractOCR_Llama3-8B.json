@@ -1,0 +1,29 @@
+{
+    "Date": "2022-02-16",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.5,
+            "unit_of_measurement": "thousand cells per microliter (k/μL)",
+            "reference_range": "4-10 k/μL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "million cells per microliter (M/μL)",
+            "reference_range": "4.32-5.72 M/μL"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 18,
+            "unit_of_measurement": "milligrams per deciliter (mg/dL)",
+            "reference_range": "6-24 mg/dL"
+        }
+    ]
+}

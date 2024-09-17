@@ -1,0 +1,35 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": "LWA12345",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.3",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.5-15.1"
+        },
+        {
+            "test_name": "Glucose (Blood Sugar)",
+            "result_value": "110",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": "1.3",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": "22.5",
+            "unit_of_measurement": "U/L",
+            "reference_range": "15-50"
+        }
+    ]
+}

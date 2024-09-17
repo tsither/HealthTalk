@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec 20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "millions per microliter",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.0,
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 28.0,
+            "unit_of_measurement": "picograms",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 32.0,
+            "unit_of_measurement": "grams per centimeter cubed",
+            "reference_range": "31-35"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 80.0,
+            "unit_of_measurement": "fliters",
+            "reference_range": "76-96"
+        }
+    ]
+}

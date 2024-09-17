@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Hiren Patel Shah",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC Count (RBC)",
+            "result_value": "3.51 x 10^12",
+            "unit_of_measurement": "cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": "13.1 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "85.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.0%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "28.5 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "3.75 x 10^5 cells/L",
+            "unit_of_measurement": "cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (WBC Dif)",
+            "result_value": "18.000 Neutrophils, 2.000 Lymphocytes, 0.050 Eosinophils, 1.500 Basophils",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC Tot)",
+            "result_value": "6.000 cells/L",
+            "unit_of_measurement": "cells/L",
+            "reference_range": "4-10"
+        }
+    ]
+}

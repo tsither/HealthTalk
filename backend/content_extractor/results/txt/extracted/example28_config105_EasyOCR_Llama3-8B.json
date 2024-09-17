@@ -1,0 +1,29 @@
+{
+    "Date": "20-05-2022",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose Test",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 13.5g/dL, Hematocrit: 39.5%, White Blood Cell Count: 7.8x10^9/L",
+            "unit_of_measurement": "g/dL, % , x10^9/L",
+            "reference_range": "Normal CBC values"
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": "Creatinine: 1.2mg/dL, Urea: 30mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal KFT values"
+        }
+    ]
+}

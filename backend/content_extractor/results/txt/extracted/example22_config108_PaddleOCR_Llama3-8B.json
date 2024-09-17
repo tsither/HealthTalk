@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": "52 years"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (CBC)",
+            "result_value": 11.6,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": "4.5 - 13.0 thousand cells per microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.0,
+            "unit_of_measurement": "million cells per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.0,
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "14.0 - 17.5 grams per deciliter"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 36,
+            "unit_of_measurement": "picoliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 1002,
+            "unit_of_measurement": "picograms",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) or Hematocrit",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

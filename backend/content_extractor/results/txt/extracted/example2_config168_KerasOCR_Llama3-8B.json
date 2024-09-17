@@ -1,0 +1,29 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose (Blood)",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Creatinine (Serum)",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Urea Nitrogen (Blood)",
+            "result_value": 12,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-18 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4,500-11,000"
+        },
+        {
+            "test_name": "Hemoglobin (Total)",
+            "result_value": 14.5,
+            "unit_of_measurement": "grams/deciliter",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 27.0,
+            "unit_of_measurement": "/picogram",
+            "reference_range": "26.0-31.0"
+        }
+    ]
+}

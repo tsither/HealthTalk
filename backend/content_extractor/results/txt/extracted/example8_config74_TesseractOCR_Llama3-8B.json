@@ -1,0 +1,23 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "primary_range": "13.5-17.5 g/dL",
+                "gender_specific_ranges": {
+                    "male": "13.5-17.5 g/dL",
+                    "female": "12.0-15.5 g/dL"
+                }
+            }
+        }
+    ]
+}

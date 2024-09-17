@@ -1,0 +1,52 @@
+{
+    "Date": "2023-12-05",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 13.0,
+            "unit_of_measurement": "pg",
+            "reference_range": "17.0 pg - 13.0 pg"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "5.5 g/dL - 4.5 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 87.75,
+            "unit_of_measurement": "4000-11000",
+            "reference_range": "27.2 - 62 (PCV)"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 50,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 31,
+            "unit_of_measurement": "MCH",
+            "reference_range": "60 - 150000"
+        },
+        {
+            "test_name": "Red Cell Distribution Width",
+            "result_value": 13.6,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

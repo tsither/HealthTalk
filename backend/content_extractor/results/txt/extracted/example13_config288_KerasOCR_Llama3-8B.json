@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-15 g/dL"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 0.8,
+            "unit_of_measurement": "mL/min/1.73 m^2",
+            "reference_range": "0.6-1.2 mL/min/1.73 m^2"
+        },
+        {
+            "test_name": "Liver Function Test (ALT)",
+            "result_value": 25,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40 U/L"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test Name from Report",
+            "result_value": 123.45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: 70-140 mg/dL"
+        },
+        {
+            "test_name": "Test Name from Report",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Test Name from Report",
+            "result_value": 76.23,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: 70-140 mg/dL"
+        }
+    ]
+}

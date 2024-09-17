@@ -25,29 +25,33 @@ def preprocess_data(gold_data, eval_data):
     if not patient_info_key or not test_results_key:
         print(f"Warning: Could not find matching keys for patient information or test results.")
         return None
-    
-    # Check patient information
-    if eval_data[patient_info_key] is None:
-        for key in gold_data['patient_information']:
-            gold_value = str(gold_data['patient_information'][key]).lower()
-            results.append({
-                'field': key,
-                'correct': False,
-                'gold_value': gold_value,
-                'eval_value': "null"
-            })
-    else:
-        for key in gold_data['patient_information']:
-            matching_key = find_matching_key(key, eval_data[patient_info_key])
-            if matching_key:
+
+    if "patient_information" in gold_data:
+        # Check patient information
+        if eval_data[patient_info_key] is None:
+            # Handles case none was found
+            for key in gold_data['patient_information']:
                 gold_value = str(gold_data['patient_information'][key]).lower()
-                eval_value = str(eval_data['patient_information'][matching_key]).lower()
                 results.append({
                     'field': key,
-                    'correct': gold_value == eval_value,
+                    'correct': False,
                     'gold_value': gold_value,
-                    'eval_value': eval_value
+                    'eval_value': "null"
                 })
+        else:
+            for key in gold_data['patient_information']:
+                matching_key = find_matching_key(key, eval_data[patient_info_key])
+                if matching_key:
+                    gold_value = str(gold_data['patient_information'][key]).lower()
+                    eval_value = str(eval_data['patient_information'][matching_key]).lower()
+                    results.append({
+                        'field': key,
+                        'correct': gold_value == eval_value,
+                        'gold_value': gold_value,
+                        'eval_value': eval_value
+                    })
+    else:
+        print("No patient data in the example!")
 
     # Check test results
     if eval_data[test_results_key] is None:
@@ -61,7 +65,6 @@ def preprocess_data(gold_data, eval_data):
             })
     else:
         for gold_test in gold_data['test_results']:
-            
             matching_test = None
             for eval_test in eval_data[test_results_key]:
 
@@ -70,9 +73,17 @@ def preprocess_data(gold_data, eval_data):
                         continue
 
                 test_name_key = find_matching_key('test_name', eval_test)
-                
+
+                if test_name_key == None:
+                    # Handles cases where no test name (and results) is found
+                    # TODO: add an amonestacion
+                    continue
+
                 if eval_test[test_name_key] == None:
                     eval_test[test_name_key] = "NA"
+
+                if isinstance(eval_test[test_name_key], int):
+                    eval_test[test_name_key] = str(eval_test[test_name_key])
 
                 if fuzz.ratio(gold_test['test_name'].lower(), eval_test[test_name_key].lower()) >= 80:
                     matching_test = eval_test
@@ -92,6 +103,8 @@ def preprocess_data(gold_data, eval_data):
                             'eval_value': eval_value
                         }
                 results.append(test_result)
+
+                # TODO: If no test_name found in eval, but in gold -> amonestar
 
     return results
 
@@ -124,6 +137,7 @@ def process_gold_standards(gold_standard_dir):
     gold_standard_path = Path(gold_standard_dir)
     
     for file_path in gold_standard_path.glob('*_goldstandard.json'):
+        # print(file_path)
         stem = file_path.stem.split('_')[0]  # Get the part before '_goldstandard'
         gold_data = load_json_file(str(file_path))
         gold_standards[stem] = gold_data

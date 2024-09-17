@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 71,
+            "unit_of_measurement": null,
+            "reference_range": "(% not available)"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 92.3,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Red Cell Distribution Width",
+            "result_value": 13.4,
+            "unit_of_measurement": "%",
+            "reference_range": "(% not available)"
+        }
+    ]
+}

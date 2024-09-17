@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin by complete type (OBIN)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "45",
+            "unit_of_measurement": "× 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "55",
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential count of WBC",
+            "result_value": "52 Neutrophils, 8 Foil cells, 50 Lymphocytes, 5 Eosinophils, 0.3 Basophils",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "11000",
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

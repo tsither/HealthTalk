@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091234s5678",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "male",
+        "patient_age": "30"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 52,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "135-170"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.05,
+            "unit_of_measurement": "×10^12/L",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 32.54,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 28.4,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.0,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300000.0,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": "1.50-4.50"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6000000000.0,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": "4.00-11.00"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 3100000000.0,
+            "unit_of_measurement": "%",
+            "reference_range": "45-70"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 500000000.0,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        }
+    ]
+}

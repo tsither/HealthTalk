@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatine Kinase",
+            "result_value": 12345.6789,
+            "unit_of_measurement": "U/L",
+            "reference_range": "35-195 U/L"
+        },
+        {
+            "test_name": "Lactate Dehydrogenase",
+            "result_value": 9876.5432,
+            "unit_of_measurement": "U/L",
+            "reference_range": "45-80 U/L"
+        },
+        {
+            "test_name": "Aspartate Aminotransferase",
+            "result_value": 1234.5678,
+            "unit_of_measurement": "U/L",
+            "reference_range": "15-40 U/L"
+        },
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": 9876.5432,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-90 U/L"
+        }
+    ]
+}

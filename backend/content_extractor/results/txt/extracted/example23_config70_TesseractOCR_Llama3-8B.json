@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "120",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": "1.5",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Electrolytes",
+            "result_value": "Na: 135, K: 4.5",
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "Na: 135-145 mEq/L, K: 3.5-5.0 mEq/L"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "09/01/2022",
+    "patient_information": {
+        "patient_id": "PT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-15 g/dL"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.5 mg/dL"
+        }
+    ]
+}

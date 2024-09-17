@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel Yash Me",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "RBC Count Total RBC",
+            "result_value": "4.57 x 10^12 / μL",
+            "unit_of_measurement": "/ μL",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "WBC Count Total WBC",
+            "result_value": "9.000 x 10^3 / μL",
+            "unit_of_measurement": "/ μL",
+            "reference_range": "Within Normal Limits"
+        }
+    ]
+}

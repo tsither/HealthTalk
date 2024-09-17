@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Narendra Nvesre",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-150 (High), 120-140 (Normal)"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 5555,
+            "unit_of_measurement": "count/μL",
+            "reference_range": "4500-10500 (Normal)"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 212000,
+            "unit_of_measurement": "count/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yachmpatel",
+        "patient_sex": "M",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Accurate Blood Count (RBC) - Male Adult Reference range: 4.32-5.72 x 10^12 cells/L",
+            "result_value": 4.7,
+            "unit_of_measurement": "x 10^12 cells/L",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC) - Male Adult Reference range: 3.50-9.90 x 10^9 cells/L",
+            "result_value": 7.1,
+            "unit_of_measurement": "x 10^9 cells/L",
+            "reference_range": "3.50-9.90"
+        },
+        {
+            "test_name": "Platelet Count - Male Adult Reference range: 150-450 x 10^9 cells/L",
+            "result_value": 251,
+            "unit_of_measurement": "x 10^9 cells/L",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Blood pH - Male Adult Reference range: 7.35-7.45 pH units",
+            "result_value": 7.3,
+            "unit_of_measurement": "pH units",
+            "reference_range": "7.35-7.45"
+        }
+    ]
+}

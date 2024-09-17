@@ -1,0 +1,81 @@
+{
+    "Date": "02 Dec, 2K",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb) RBC COUNT",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "test_sub_results": [
+                {
+                    "sub_test_name": "Packed Cell Volume (PCV)",
+                    "sub_result_value": 40,
+                    "sub_unit_of_measurement": null,
+                    "sub_reference_range": "50 - 62"
+                },
+                {
+                    "sub_test_name": "Mean Corpuscular Volume (MCV)",
+                    "sub_result_value": 32.5,
+                    "sub_unit_of_measurement": "mill/cumm",
+                    "sub_reference_range": "32.5-34.5"
+                }
+            ]
+        },
+        {
+            "test_name": "wBC COUNT Total WBC count DIFFERENTIAL",
+            "test_sub_results": [
+                {
+                    "sub_test_name": "Neutrophils",
+                    "sub_result_value": 27,
+                    "sub_unit_of_measurement": null,
+                    "sub_reference_range": "20 - 40"
+                },
+                {
+                    "sub_test_name": "Lymphocytes",
+                    "sub_result_value": 32.5,
+                    "sub_unit_of_measurement": null,
+                    "sub_reference_range": "27-32"
+                },
+                {
+                    "sub_test_name": "Eosinophils",
+                    "sub_result_value": 11.6,
+                    "sub_unit_of_measurement": null,
+                    "sub_reference_range": "00 - 06"
+                },
+                {
+                    "sub_test_name": "Monocytes",
+                    "sub_result_value": 11.6,
+                    "sub_unit_of_measurement": null,
+                    "sub_reference_range": "00-10"
+                },
+                {
+                    "sub_test_name": "Basophils",
+                    "sub_result_value": 0.2,
+                    "sub_unit_of_measurement": null,
+                    "sub_reference_range": "00 - 02"
+                }
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 450000,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        }
+    ]
+}

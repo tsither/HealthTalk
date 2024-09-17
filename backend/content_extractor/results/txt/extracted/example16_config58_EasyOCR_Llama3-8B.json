@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Bungalow",
+        "patient_sex": "Male",
+        "patient_age": "50"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": "10.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "4.50 x 10^12/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.32-5.72 x 10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.5 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "78 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "13.10 x 10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4-10 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.75 x 10^5/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "1.50-4.50 x 10^5/L"
+        }
+    ]
+}

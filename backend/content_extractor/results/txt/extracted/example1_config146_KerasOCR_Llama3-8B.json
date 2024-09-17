@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 125,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Primary)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.1,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 0.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 29.7,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 15.5,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count of Neutrophils, Lymphocytes, Eosinophils, Monocytes and Basophils",
+            "result_value": "Neutrophils: 30%, Lymphocytes: 60%, Eosinophils: 5%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Automated Platelet Count",
+            "result_value": 2.7,
+            "unit_of_measurement": "lakh/cumm",
+            "reference_range": "1.5-3.0"
+        }
+    ]
+}

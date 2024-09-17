@@ -1,0 +1,29 @@
+{
+    "Date": "09/04/2024",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20"
+        },
+        {
+            "test_name": "Globulin",
+            "result_value": 2.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "2.5-3.5"
+        }
+    ]
+}

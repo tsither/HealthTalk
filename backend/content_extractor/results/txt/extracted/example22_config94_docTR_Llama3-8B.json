@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Vimal Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 30,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.7-14.6%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1.75,
+            "unit_of_measurement": "lakh/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 13.5,
+            "unit_of_measurement": "thousand/cmm",
+            "reference_range": null
+        }
+    ]
+}

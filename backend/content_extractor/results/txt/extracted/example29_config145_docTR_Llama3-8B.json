@@ -1,0 +1,59 @@
+{
+    "Date": "Dec 2",
+    "patient_information": {
+        "patient_id": "PID: 555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood RBC COUNT (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "Packed Cell Mean Volume (PCV)",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "13.0",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "17.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": "High"
+        },
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": "32.8",
+            "unit_of_measurement": "count/μL",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Neutrophil COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet PLATELET COUNT",
+            "result_value": "7",
+            "unit_of_measurement": "count/μL",
+            "reference_range": "50-62"
+        }
+    ]
+}

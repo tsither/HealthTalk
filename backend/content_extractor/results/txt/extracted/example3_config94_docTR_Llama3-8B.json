@@ -1,0 +1,41 @@
+{
+    "Date": "2024-12-17",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.5,
+            "unit_of_measurement": null,
+            "reference_range": "120-150"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 90,
+            "unit_of_measurement": null,
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/ul",
+            "reference_range": "3.9-5.0"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 41.2,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.5,
+            "unit_of_measurement": "thousand/ul",
+            "reference_range": "4.5-11.0"
+        }
+    ]
+}

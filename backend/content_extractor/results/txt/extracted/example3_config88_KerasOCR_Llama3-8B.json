@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "S X X Y G S",
+        "patient_name": null,
+        "patient_sex": "M/F",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.0-5.6 x10^12/L"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80,
+            "unit_of_measurement": "fl",
+            "reference_range": "70-100 fl"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 30.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.2,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1500000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "150000-400000 /mm^3"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-11000 /mm^3"
+        }
+    ]
+}

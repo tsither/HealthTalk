@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 10000/μL, RBC: 4500000/μL, HGB: 155g/L, MCV: 80fL",
+            "unit_of_measurement": "/μL, /μL, g/L, fL",
+            "reference_range": "WBC: 4000-11000/μL, RBC: 4200000-5500000/μL, HGB: 120-180g/L, MCV: 80-100fL"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": "4500000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4200000-5500000/μL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "155g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "120-180g/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": "80fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100fL"
+        }
+    ]
+}

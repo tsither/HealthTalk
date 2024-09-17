@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 3.45,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[not available]"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 98000000000.0,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4-11] x 10^9/uL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5000000000000.0,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4.32-5.72] x 10^12/uL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[14.3-17.6]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[33-36]"
+        }
+    ]
+}

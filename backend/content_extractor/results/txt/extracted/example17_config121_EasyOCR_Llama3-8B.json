@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Dr. Logypathlabadrlogy",
+        "patient_sex": "Male",
+        "patient_age": "555"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "50000",
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "90",
+            "unit_of_measurement": "%",
+            "reference_range": "35-50%"
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_value": "9000",
+            "unit_of_measurement": "count/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": "50",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "300",
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cells)",
+            "result_value": "10000",
+            "unit_of_measurement": "count/mm3",
+            "reference_range": null
+        }
+    ]
+}

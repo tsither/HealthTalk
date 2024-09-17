@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "105",
+        "patient_name": "Dr. Yash Visions Complex, M Instant Patel, 21 Years, Male",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin by Type (Complete)",
+            "result_value": "12",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "45",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Blood Count (T.B.C.)",
+            "result_value": "212",
+            "unit_of_measurement": "WBC x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "140000",
+            "unit_of_measurement": "per microL",
+            "reference_range": "[150-400] x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count of W.B.C.",
+            "result_value": {
+                "Neutrophils": "52%",
+                "Eosinophils": "5%",
+                "Basophils": "0%",
+                "Lymphocytes": "40%",
+                "Monocytes": "3%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

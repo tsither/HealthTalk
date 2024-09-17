@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "M1",
+        "patient_name": "Yesh Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count (FBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.9,
+            "unit_of_measurement": "fl",
+            "reference_range": "10-14"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11-14"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 8900000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Erythrocyte Count",
+            "result_value": 4930000000000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "3.90-5.10"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 134.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.2,
+            "unit_of_measurement": "%",
+            "reference_range": "37.7-48.8"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80.6,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-96.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 234000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "1.50-4.50"
+        }
+    ]
+}

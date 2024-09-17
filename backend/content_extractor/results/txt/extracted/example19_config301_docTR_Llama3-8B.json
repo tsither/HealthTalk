@@ -1,0 +1,47 @@
+{
+    "Date": "04/04/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[G] 13.5-16.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 350000.0,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": "[F] 1.5-4.0 × 10^11/L"
+        },
+        {
+            "test_name": "Creatinine (Cr)",
+            "result_value": 174,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": "[M] <130 μmol/L"
+        },
+        {
+            "test_name": "C-Reactive Protein (CRP)",
+            "result_value": 4.5,
+            "unit_of_measurement": "mg/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lactate Dehydrogenase (LDH)",
+            "result_value": 690,
+            "unit_of_measurement": "U/L",
+            "reference_range": "[M] <245 U/L"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "P-555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1700000,
+            "unit_of_measurement": "per microliter (µL)",
+            "reference_range": "150000 to 450000 per microliter (µL)"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 10.7,
+            "unit_of_measurement": "femtoliters (fl)",
+            "reference_range": null
+        }
+    ]
+}

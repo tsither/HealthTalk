@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 5.3,
+            "unit_of_measurement": "t/dL",
+            "reference_range": "[0.8, 1.7]"
+        },
+        {
+            "test_name": "Bun Test",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[6, 20]"
+        },
+        {
+            "test_name": null,
+            "result_value": 1250000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[35000, 1100000]"
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[80, 180]"
+        }
+    ]
+}

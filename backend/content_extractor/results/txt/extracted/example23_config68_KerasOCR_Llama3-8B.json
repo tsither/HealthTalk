@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "D R LOGYS",
+        "patient_sex": "Male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 10.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5000000000000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[4.32-5.72] x 10^12 cells/µL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.3,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 13.7,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[4-10] x 10^9 cells/µL"
+        },
+        {
+            "test_name": "Differential White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 300000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[1.50-4.70] x 10^5 cells/µL"
+        }
+    ]
+}

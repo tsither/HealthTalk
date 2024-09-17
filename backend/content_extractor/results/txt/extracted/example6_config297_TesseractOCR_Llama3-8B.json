@@ -1,0 +1,29 @@
+{
+    "Date": "02.03.2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.3-10.5 g/dL"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Liver Function Tests: Alkaline Phosphatase",
+            "result_value": 55,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-120 U/L"
+        }
+    ]
+}

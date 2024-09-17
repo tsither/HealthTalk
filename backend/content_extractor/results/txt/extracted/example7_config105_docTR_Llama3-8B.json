@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 123.456,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 5000.123,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 12.3456,
+            "unit_of_measurement": "seconds",
+            "reference_range": "10-14 seconds"
+        }
+    ]
+}

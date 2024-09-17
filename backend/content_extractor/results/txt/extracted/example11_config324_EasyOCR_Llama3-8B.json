@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567699",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count ( Complete)",
+            "result_value": "10.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.4-17.6"
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "12.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0-18.0"
+        },
+        {
+            "test_name": "Haematocrit (Hct)",
+            "result_value": "38.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "40.3-54.3%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "6.8x10^9/L",
+            "unit_of_measurement": "Cells/uL",
+            "reference_range": "4.5-11.0x10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.71x10^12/L",
+            "unit_of_measurement": "Cells/uL",
+            "reference_range": "3.90-5.30x10^12/L"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "204x10^9/L",
+            "unit_of_measurement": "Cells/uL",
+            "reference_range": "150-450x10^9/L"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel, Vision M. - Dr.",
+        "patient_sex": "Male",
+        "patient_age": "108"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.0 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "3.90 M/cmm",
+            "unit_of_measurement": "M/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "94 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "31.6 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDC (RDW)",
+            "result_value": "14.7%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "2.51 Lakh/ Cu.mm",
+            "unit_of_measurement": "Lakh/Cu.mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "7,075 Cells/cu.mm",
+            "unit_of_measurement": "Cells/cu.mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "74%",
+                "Lymphocytes": "19%",
+                "Monocytes": "6%",
+                "Eosinophils": "1%",
+                "Basophils": "< 1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

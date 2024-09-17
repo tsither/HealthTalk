@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "Age 9"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.00",
+            "unit_of_measurement": "MILLION /MICROLITER",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "WHITE BLOOD CELL COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "THOUSAND/ CUBIC MILLIMETER",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "32",
+            "unit_of_measurement": "THOUSAND/ CUBIC MICROLITER",
+            "reference_range": "150-320"
+        }
+    ]
+}

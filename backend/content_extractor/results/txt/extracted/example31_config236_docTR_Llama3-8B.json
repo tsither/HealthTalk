@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40.50-48.00"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.32,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "x10^9 cells/microliter",
+            "reference_range": "4-11 x10^9 cells/microliter"
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "50-70%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "per microliter",
+            "reference_range": null
+        }
+    ]
+}

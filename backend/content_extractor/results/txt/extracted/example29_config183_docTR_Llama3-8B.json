@@ -1,0 +1,59 @@
+{
+    "Date": "04-03-2023",
+    "patient_information": {
+        "patient_id": "012456783",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count Report (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "(g/dL) tienoglooun",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.0-5.2 x 10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL High ROW",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "x 10^9/L Total COUNTS WBC",
+            "reference_range": "3.5-7.2 x 10^9/L"
+        },
+        {
+            "test_name": "Neutrophil Count (NEUT)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "55-70%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "0-06 x 10^9/L",
+            "reference_range": null
+        }
+    ]
+}

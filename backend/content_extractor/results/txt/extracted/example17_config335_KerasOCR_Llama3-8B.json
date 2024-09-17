@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "millions/μL",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 16.3,
+            "unit_of_measurement": "grams/dL",
+            "reference_range": "14-18"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "150000-300000"
+        }
+    ]
+}

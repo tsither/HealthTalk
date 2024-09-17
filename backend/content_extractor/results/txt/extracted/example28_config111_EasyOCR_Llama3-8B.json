@@ -1,0 +1,41 @@
+{
+    "Date": "07/01/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 39.3,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.1,
+            "unit_of_measurement": "Million/mm^3",
+            "reference_range": "4-5 Million/mm^3"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.74,
+            "unit_of_measurement": "Thousand/mm^3",
+            "reference_range": "3.5-10.5 Thousand/mm^3"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 173,
+            "unit_of_measurement": "Thousand/mm^3",
+            "reference_range": "150-450 Thousand/mm^3"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 170,
+            "unit_of_measurement": "count/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 52,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "11-14"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 32,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 35.45,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 4.06,
+            "unit_of_measurement": "thousand/ul",
+            "reference_range": "3,500-11,000"
+        },
+        {
+            "test_name": "Differential Count (Neutrophils)",
+            "result_value": 4100,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count (Lymphocytes)",
+            "result_value": 1500,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "thousand/ul",
+            "reference_range": "1.5-400"
+        }
+    ]
+}

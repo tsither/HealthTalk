@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Hiren Risc Blood Shah",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 125,
+            "unit_of_measurement": "L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 3.15,
+            "unit_of_measurement": "MCHC",
+            "reference_range": "32-36"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 11.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 51,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11-14.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 115000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": 13600,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 3280,
+                "Lymphocytes": 6300,
+                "Eosinophils": 1000,
+                "Monocytes": 9000,
+                "Basophils": 700
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

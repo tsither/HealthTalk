@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 1550,
+            "unit_of_measurement": "Whole Blood",
+            "reference_range": "Normal: 13-170x, Abnormal: <11 or >170x"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 900,
+            "unit_of_measurement": null,
+            "reference_range": "Normal: 150-450 x 10^9/L ( adults), 120-360 x 10^9/L (children)"
+        }
+    ]
+}

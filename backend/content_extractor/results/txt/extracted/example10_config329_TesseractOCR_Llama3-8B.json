@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red Cell Count: 4.58 M/cmm, Hemoglobin: 14.2 g/dL, Hematocrit: 42.1%",
+            "unit_of_measurement": "M/cmm, g/dL, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Chemistry Profile",
+            "result_value": "Glucose: 99 mg/dL, Creatinine: 0.9 mg/dL, Urea: 12 mg/dL",
+            "unit_of_measurement": "mg/dL, mg/dL, mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 24 IU/L, AST: 20 IU/L, Alkaline Phosphatase: 85 IU/L",
+            "unit_of_measurement": "IU/L, IU/L, IU/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": "Sodium: 138 mEq/L, Potassium: 4.2 mEq/L, Chloride: 100 mEq/L",
+            "unit_of_measurement": "mEq/L, mEq/L, mEq/L",
+            "reference_range": null
+        }
+    ]
+}

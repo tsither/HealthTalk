@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 14.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "11-14 seconds"
+        },
+        {
+            "test_name": "Partial Thromboplastin Time",
+            "result_value": 32.1,
+            "unit_of_measurement": "seconds",
+            "reference_range": "23-36 seconds"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 180000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "150,000 - 450,000 cells/ul"
+        }
+    ]
+}

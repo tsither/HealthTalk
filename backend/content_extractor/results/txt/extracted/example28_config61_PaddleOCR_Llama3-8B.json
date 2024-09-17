@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Fibrinogen",
+            "result_value": 5.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(200-400)"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(13.8-17.2)"
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": 15.9,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "(4-11)"
+        },
+        {
+            "test_name": "Erythrocytes",
+            "result_value": 5.0,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 31.1,
+            "unit_of_measurement": "%",
+            "reference_range": "(34-44)"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(34-36)"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 89.1,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

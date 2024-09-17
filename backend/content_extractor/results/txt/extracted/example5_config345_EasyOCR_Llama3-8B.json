@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel Gooolles",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "RBC 4.65, Hb 14.1g/dL, Hct 42.3%, MCV 89fL, MCH 30pg, MCHC 33.5g/dL",
+            "unit_of_measurement": "fL, g/dL, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "300000",
+            "unit_of_measurement": "platelets/uL",
+            "reference_range": "150000-400000"
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "15.2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

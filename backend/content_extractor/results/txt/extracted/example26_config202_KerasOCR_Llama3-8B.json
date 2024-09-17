@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "ACO (Albumin/Creatinine Ratio)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/g",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "LDL (Low-Density Lipoprotein) Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-100 mg/dL"
+        },
+        {
+            "test_name": "PLAQUETAS (Platelets)",
+            "result_value": 31.1,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "LEUCOCITOS (White Blood Cells)",
+            "result_value": null,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "INR (International Normalized Ratio)",
+            "result_value": 1.12,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

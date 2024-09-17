@@ -1,0 +1,47 @@
+{
+    "Date": "May 11",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PO2",
+            "result_value": 95,
+            "unit_of_measurement": "%",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "PCO2",
+            "result_value": 35,
+            "unit_of_measurement": "mmHg",
+            "reference_range": null
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.45,
+            "unit_of_measurement": null,
+            "reference_range": "7.35-7.45"
+        },
+        {
+            "test_name": "K+",
+            "result_value": 4.13,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.1"
+        },
+        {
+            "test_name": "Na+",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "Ca++",
+            "result_value": 9.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

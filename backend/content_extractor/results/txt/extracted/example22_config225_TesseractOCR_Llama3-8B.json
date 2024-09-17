@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) 12.5 g/db, RBC COUNT 5.2 mill/cumm, Packed Cell Volume (PCV) $7.5%, Mean Corpuscular Volume (MCV) 87.75 fl, MCH 27.2 pg, MCHC 32.8 g/dL, Total WBC count -3 Pe Sos, Neutrophils 60% Lymphocytes 31% Eosinophils 1% Monocytes 7% Basophils 1%",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/db",
+                "RBC COUNT": "4.5-5.5 mill/cumm",
+                "Packed Cell Volume (PCV)": "40-50%",
+                "Mean Corpuscular Volume (MCV)": null,
+                "MCH": null,
+                "MCHC": null,
+                "Total WBC count": null,
+                "Neutrophils": "50-62% Lymphocytes",
+                "Eosinophils": "-06%",
+                "Monocytes": "7-10%",
+                "Basophils": null
+            }
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "150000 cumm",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

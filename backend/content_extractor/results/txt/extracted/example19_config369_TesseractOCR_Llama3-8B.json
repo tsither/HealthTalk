@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GOT",
+            "result_value": 34.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "9-52 mg/dL"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 32,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 19,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.9-1.5 mg/dL"
+        }
+    ]
+}

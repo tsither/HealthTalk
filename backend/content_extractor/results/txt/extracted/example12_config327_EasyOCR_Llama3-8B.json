@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "Million per Microliter (x10^12/L)",
+            "reference_range": "4.3 - 5.7 Million per Microliter"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.0,
+            "unit_of_measurement": "Thousand per Microliter (x10^9/L)",
+            "reference_range": "4.3 - 11.2 Thousand per Microliter"
+        },
+        {
+            "test_name": "Haemoglobin",
+            "result_value": 14.8,
+            "unit_of_measurement": "Grams per Decilitre (g/dL)",
+            "reference_range": "13.5 - 17.0 Grams per Decilitre"
+        }
+    ]
+}

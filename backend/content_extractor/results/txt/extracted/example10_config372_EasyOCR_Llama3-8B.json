@@ -1,0 +1,29 @@
+{
+    "Date": "20.12.2022",
+    "patient_information": {
+        "patient_id": "DR-101",
+        "patient_name": "Patel Yash T1",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": 1500000,
+            "unit_of_measurement": "per microliter (µL)",
+            "reference_range": "150,000 to 450,000"
+        },
+        {
+            "test_name": "Prothrombin time",
+            "result_value": 12.5,
+            "unit_of_measurement": "seconds (s)",
+            "reference_range": "10.0 to 14.0"
+        },
+        {
+            "test_name": "Activated partial thromboplastin time",
+            "result_value": 30.2,
+            "unit_of_measurement": "seconds (s)",
+            "reference_range": "25.0 to 35.0"
+        }
+    ]
+}

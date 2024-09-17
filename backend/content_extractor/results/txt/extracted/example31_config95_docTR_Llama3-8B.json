@@ -1,0 +1,35 @@
+{
+    "Date": "02Dec, 20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "4.5-55 g/dl"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 32.8,
+            "unit_of_measurement": "milcumm count",
+            "reference_range": "83-101 milcumm count"
+        },
+        {
+            "test_name": "% WBC",
+            "result_value": 73.6,
+            "unit_of_measurement": "% WWBC fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 7,
+            "unit_of_measurement": "Count 20-40 cumm tetpcomen",
+            "reference_range": "50-62 Count"
+        }
+    ]
+}

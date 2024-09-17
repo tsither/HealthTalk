@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "RBC count": "4.5",
+                "unit_of_measurement": null,
+                "reference_range": "4.32-5.72"
+            },
+            "unit_of_measurement": null,
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "Packed Cell Volume",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "34-44"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration",
+            "result_value": 30.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Cell Count",
+            "result_value": 17000,
+            "unit_of_measurement": "/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 70,
+                "Lymphocytes": 20,
+                "Eosinophils": 5,
+                "Monocytes": 3,
+                "Basophils": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 500000,
+            "unit_of_measurement": "/microL",
+            "reference_range": null
+        }
+    ]
+}

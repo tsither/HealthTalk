@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 5.8,
+            "unit_of_measurement": "% dL",
+            "reference_range": "13.7-17.4"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 2.3,
+            "unit_of_measurement": "%",
+            "reference_range": "39.3-48.8"
+        },
+        {
+            "test_name": "Leukocyte count",
+            "result_value": null,
+            "unit_of_measurement": "E U H a",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume",
+            "result_value": 1.2,
+            "unit_of_measurement": "dL",
+            "reference_range": "80-100"
+        }
+    ]
+}

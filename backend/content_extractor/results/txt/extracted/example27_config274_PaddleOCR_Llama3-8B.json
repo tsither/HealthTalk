@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 45000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.3-10.8 x 10^12 cells/L"
+        },
+        {
+            "test_name": "Red Cell Distribution Width",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "13.7-14.6%"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10000,
+            "unit_of_measurement": "per cubic millimeter (cell)",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5000000,
+            "unit_of_measurement": "per liter (red cell mass/liquor volume ratio)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "per cubic millimeter (platelets)",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

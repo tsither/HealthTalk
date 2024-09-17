@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Osmolality",
+            "result_value": 125,
+            "unit_of_measurement": "mOsm/kg H2O",
+            "reference_range": "220-380"
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.3,
+            "unit_of_measurement": "pH units",
+            "reference_range": "7.35-7.45"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 10,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 21,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.9"
+        }
+    ]
+}

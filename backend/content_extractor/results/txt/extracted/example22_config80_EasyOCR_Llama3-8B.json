@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC Count": 4.55,
+                "PCV/ Hct": null,
+                "MCH": 31.5,
+                "MCHC": 34.3,
+                "RDW": 14.1,
+                "Platelet Count": 175000000.0
+            },
+            "unit_of_measurement": {
+                "RBC Count": "million/mcL",
+                "PCV/ Hct": null,
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "Platelet Count": "cells/mm^3"
+            },
+            "reference_range": {
+                "RBC Count": "4.32-5.72 million/mcL",
+                "PCV/ Hct": null,
+                "MCH": "27.5-31 pg",
+                "MCHC": "34-36 g/dL",
+                "RDW": "11.1-14.5%",
+                "Platelet Count": "150e+09 cells/mm^3"
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15.01,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "Giga/Liter",
+            "reference_range": "3.5 - 11.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "145",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "Tera/Liter",
+            "reference_range": "3.9 - 5.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": "80",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

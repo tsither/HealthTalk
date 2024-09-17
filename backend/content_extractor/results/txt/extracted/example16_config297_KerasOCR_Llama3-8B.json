@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "2"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 128,
+            "unit_of_measurement": "g/L",
+            "reference_range": "120-150"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 155,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 41000,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 16000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 83,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

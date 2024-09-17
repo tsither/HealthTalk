@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Dr. Yash Caring Visions",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.57,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "28-32 pg/cell"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 62.2,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 345,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 17.0,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count Neutrophils",
+            "result_value": 55,
+            "unit_of_measurement": "%",
+            "reference_range": "45-70%"
+        },
+        {
+            "test_name": "Differential Count Lymphocytes",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        }
+    ]
+}

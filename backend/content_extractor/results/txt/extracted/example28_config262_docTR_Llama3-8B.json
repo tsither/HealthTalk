@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 1.23,
+            "unit_of_measurement": "aL",
+            "reference_range": "7.0-13.9"
+        },
+        {
+            "test_name": "Bilirubin, Total",
+            "result_value": 8.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2 mg/dL"
+        },
+        {
+            "test_name": "Calcium",
+            "result_value": 11,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.6-10.3 mg/dL"
+        },
+        {
+            "test_name": null,
+            "result_value": 2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": 1.12,
+            "unit_of_measurement": "KAU/L",
+            "reference_range": "39-117 U/L"
+        }
+    ]
+}

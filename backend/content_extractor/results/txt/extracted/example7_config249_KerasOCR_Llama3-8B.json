@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.9-15.1"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8200.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4.5e+3 - 10.5e+3"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": 25.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-21"
+        }
+    ]
+}

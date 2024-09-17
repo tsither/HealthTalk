@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WNL",
+            "result_value": 0.6,
+            "unit_of_measurement": "%",
+            "reference_range": "70-90"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11"
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": 20,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "50-150"
+        }
+    ]
+}

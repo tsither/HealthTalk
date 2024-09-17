@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash",
+        "patient_sex": "Male",
+        "patient_age": "28 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cell)",
+            "result_value": 4.57,
+            "unit_of_measurement": "Million/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 45.7,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": 9.75,
+            "unit_of_measurement": "Thousand/mm^3",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Differential Count - Neutrophils",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.31,
+            "unit_of_measurement": "Lakhs/mm^3",
+            "reference_range": "1.50-3.50"
+        }
+    ]
+}

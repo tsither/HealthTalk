@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "83 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": 151,
+            "unit_of_measurement": "WBC x10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.6,
+            "unit_of_measurement": "million/mm^3",
+            "reference_range": "4.32-5.72 million/mm^3"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "ESR",
+            "result_value": 20,
+            "unit_of_measurement": "mm/hour",
+            "reference_range": null
+        }
+    ]
+}

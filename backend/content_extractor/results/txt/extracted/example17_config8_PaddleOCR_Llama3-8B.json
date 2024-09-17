@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Haemoglobin (Hb)",
+            "result_value": "11.6 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": "4.35 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "3.90-4.70 x 10^12/L"
+        },
+        {
+            "test_name": "Haematocrit (Hct)",
+            "result_value": "35.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "34-44%"
+        },
+        {
+            "test_name": "Mean Corpuscular Haemoglobin (MCH)",
+            "result_value": "27.2 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "26-32 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "78.9 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "70-94 fL"
+        }
+    ]
+}

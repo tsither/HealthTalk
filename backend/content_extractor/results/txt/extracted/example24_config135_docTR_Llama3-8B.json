@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "pH",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Calcium",
+            "result_value": 9.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.5-10.3"
+        },
+        {
+            "test_name": "Phosphate",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Magnesium",
+            "result_value": 1.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "1.6-2.5"
+        }
+    ]
+}

@@ -1,1 +1,47 @@
-Preprocessing!
+Postprocessing!
+Traceback (most recent call last):
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing.py", line 165, in <module>
+    main()
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing.py", line 127, in main
+    output = llm.read_txt_file(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing.py", line 98, in read_txt_file
+    structured_results = self.extract_test_results(value['text'])
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing.py", line 79, in extract_test_results
+    response = self.chat_completion(prompt, ocr_text)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing.py", line 33, in chat_completion
+    response = ollama.chat(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/ollama/_client.py", line 236, in chat
+    return self._request_stream(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/ollama/_client.py", line 99, in _request_stream
+    return self._stream(*args, **kwargs) if stream else self._request(*args, **kwargs).json()
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/ollama/_client.py", line 70, in _request
+    response = self._client.request(method, url, **kwargs)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpx/_client.py", line 837, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpx/_client.py", line 926, in send
+    response = self._send_handling_auth(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpx/_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpx/_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpx/_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
+    data = self._network_stream.read(
+  File "/data/Personal-Medical-Assistant/backend/content_extractor/postprocessing_venv/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 126, in read
+    return self._sock.recv(max_bytes)
+KeyboardInterrupt

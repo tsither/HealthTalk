@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[4-11] x10^9/L"
+        },
+        {
+            "test_name": "NEUTROS",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "LYMPHOS",
+            "result_value": 73.3,
+            "unit_of_measurement": "%",
+            "reference_range": "[20-80]%"
+        },
+        {
+            "test_name": "MONOS",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "EOSINOPHILS",
+            "result_value": 1.3,
+            "unit_of_measurement": "%",
+            "reference_range": "[1-5]%"
+        },
+        {
+            "test_name": "BASOPHILS",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 230,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<=200"
+        },
+        {
+            "test_name": "High-Density Lipoprotein (HDL)",
+            "result_value": 40,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ">60"
+        },
+        {
+            "test_name": "Low-Density Lipoprotein (LDL)",
+            "result_value": 160,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<=100"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<=150"
+        }
+    ]
+}

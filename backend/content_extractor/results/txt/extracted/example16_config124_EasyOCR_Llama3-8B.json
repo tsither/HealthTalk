@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "P00123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Ref: [not available]"
+        },
+        {
+            "test_name": "RBC Type",
+            "result_value": "Complex",
+            "unit_of_measurement": null,
+            "reference_range": "[not available]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "25",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "Ref: 27-31 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "66",
+            "unit_of_measurement": "fl",
+            "reference_range": "Ref: 80-96 fl"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[not available]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "Ref: 150,000 - 450,000 /µL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[not available]"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 130, Lymphocytes: 170, Eosinophils: 328, Monocytes: 455, Basophils: 5",
+            "unit_of_measurement": null,
+            "reference_range": "[not available]"
+        }
+    ]
+}

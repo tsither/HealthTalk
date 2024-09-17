@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "55 0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.51 M/cumm",
+            "unit_of_measurement": "M/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "0.45",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.5 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "15.68 x 10^9 cells/cumm",
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "13.6%",
+                "Lymphocytes": "27.2%",
+                "Eosinophils": "0.9%",
+                "Monocytes": "3.5%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1.46 x 10^5 cells/cumm",
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        }
+    ]
+}

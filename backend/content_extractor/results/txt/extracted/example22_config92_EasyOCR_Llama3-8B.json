@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 101,
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 12.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8 - 17.2 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 27.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 3.8,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32 - 5.72 x 10^12/L"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Indices",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 36.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 15.1,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4 - 11 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count of WBC",
+            "result_value": {
+                "Neutrophils": 70.3,
+                "Lymphocytes": 20.2,
+                "Eosinophils": 1,
+                "Monocytes": 8.5,
+                "Basophils": 0.2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.51,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "1.5 - 4.0 x 10^9/L"
+        }
+    ]
+}

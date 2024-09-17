@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "C-reactive protein",
+            "result_value": 5.7,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0-1]"
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 230000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[150000-300000]"
+        }
+    ]
+}

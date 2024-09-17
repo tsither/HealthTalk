@@ -1,0 +1,41 @@
+{
+    "Date": "2023-05-00",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "Years 55"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "5.25",
+            "unit_of_measurement": "10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": "88",
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "32.5",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Differential Count",
+            "result_value": "328",
+            "unit_of_measurement": "%",
+            "reference_range": "45-70"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "9000",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

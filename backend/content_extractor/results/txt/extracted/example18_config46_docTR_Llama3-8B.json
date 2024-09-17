@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "BM4ARTI PatgOr",
+        "patient_sex": "MALE",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "millions per microliter (x10^12/L)",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7.08,
+            "unit_of_measurement": "thousand cells per cubic millimeter (x10^9/L)",
+            "reference_range": "3.50-10.50"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.28,
+            "unit_of_measurement": "grams per deciliter (g/dL)",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.8,
+            "unit_of_measurement": "picograms per red blood cell (pg/RBC)",
+            "reference_range": "27.5-31.5"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 37.6,
+            "unit_of_measurement": "femto liters (fl)",
+            "reference_range": "80-96"
+        }
+    ]
+}

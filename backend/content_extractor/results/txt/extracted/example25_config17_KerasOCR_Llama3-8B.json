@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.0,
+            "unit_of_measurement": "x10^3 cells/μL",
+            "reference_range": "4.5-11.0 x10^3 cells/μL"
+        },
+        {
+            "test_name": "Serum Potassium",
+            "result_value": 6.0,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "3.5-5.0 mEq/L"
+        }
+    ]
+}

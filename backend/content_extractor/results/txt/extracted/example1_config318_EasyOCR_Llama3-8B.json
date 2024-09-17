@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 8.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6"
+        },
+        {
+            "test_name": "Lipid Profile - Total Cholesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-200"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "03/07/2024",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "M",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.2,
+            "unit_of_measurement": null,
+            "reference_range": "(4.32-5.72) x 10^12 cells/L"
+        },
+        {
+            "test_name": "Total Erythrocyte COUNT",
+            "result_value": 512,
+            "unit_of_measurement": null,
+            "reference_range": "(3.90-4.70) x 10^12 cells/L"
+        },
+        {
+            "test_name": "RBC Index",
+            "result_value": 0.96,
+            "unit_of_measurement": null,
+            "reference_range": "0.90-1.00"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "(27.5-32.5) pg/cell"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80,
+            "unit_of_measurement": "fl/L",
+            "reference_range": "(70-96) fl/L"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "<14.5%"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

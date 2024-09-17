@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555 BH",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC COUNT": 45,
+                "Packed Cell Volume (PCV)": 47.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "Reticulated RBC": 13.6,
+                "WBC COUNT": 9000,
+                "Differential WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31.07,
+                    "Eosinophils": 1,
+                    "Monocytes": 7,
+                    "Basophils": 1
+                },
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "RBC COUNT": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dk",
+                "Reticulated RBC": "%",
+                "WBC COUNT": "cumm",
+                "Differential WBC COUNT": null,
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dl",
+                "RBC COUNT": "45-55 mill/cumm",
+                "Packed Cell Volume (PCV)": "40-50 %",
+                "Mean Corpuscular Volume (MCV)": "83-101 fl",
+                "MCH": "27-32 pg",
+                "MCHC": "32.5- 34.5 g/dk",
+                "Reticulated RBC": "11.6-14.0 %",
+                "WBC COUNT": "4000-11000 cumm",
+                "Differential WBC COUNT": null,
+                "Platelet Count": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

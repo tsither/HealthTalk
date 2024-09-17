@@ -1,0 +1,47 @@
+{
+    "Date": "31.10.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Basophil Count",
+            "result_value": 0,
+            "unit_of_measurement": "%",
+            "reference_range": "0-1"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": "WBC Rated on Heel",
+            "result_value": 3000,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Hemoglobin)",
+            "result_value": 12.3456789,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0-16.5"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 400000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "150-350"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": 15.5,
+            "unit_of_measurement": "%",
+            "reference_range": "13-17%"
+        },
+        {
+            "test_name": "HEMATOCRIT",
+            "result_value": 44.22,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMLULA CORP",
+            "result_value": 4.74,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte count",
+            "result_value": 5400000.0,
+            "unit_of_measurement": "/μL",
+            "reference_range": "4.32-5.72 x 10^12 cells/L"
+        },
+        {
+            "test_name": "Leukocyte count",
+            "result_value": 7440000000.0,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Serum urea",
+            "result_value": 22.4,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "2-7 mg/dL"
+        },
+        {
+            "test_name": "Glucose (random)",
+            "result_value": 110,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        }
+    ]
+}

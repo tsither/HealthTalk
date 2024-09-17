@@ -1,0 +1,53 @@
+{
+    "Date": "091",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation",
+            "result_value": "125",
+            "unit_of_measurement": "low (13g/dL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "52",
+            "unit_of_measurement": "es 55%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32",
+            "unit_of_measurement": "mL",
+            "reference_range": "275-32"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "13",
+            "unit_of_measurement": "pg",
+            "reference_range": "325.4-28.5"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "34.3-35.7"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13.26",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "count",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 689578,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": 50000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 2,
+            "unit_of_measurement": "% fL",
+            "reference_range": "0 - 1"
+        },
+        {
+            "test_name": "Segmented Neutrophils (N%)",
+            "result_value": 83,
+            "unit_of_measurement": "%",
+            "reference_range": "50 - 70"
+        },
+        {
+            "test_name": "Lymphocytes (L%)",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "20 - 40"
+        },
+        {
+            "test_name": "Eosinophils (%)",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": "0 - 5"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "adriogy",
+        "patient_sex": "male",
+        "patient_age": "so"
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": 123456789,
+            "unit_of_measurement": "thousand per microliter",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "mean platelet volume (MPV)",
+            "result_value": 757,
+            "unit_of_measurement": "fliters",
+            "reference_range": "7.5-11.1"
+        },
+        {
+            "test_name": "plateletcrit",
+            "result_value": "15%",
+            "unit_of_measurement": "%",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "Bleeding time",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

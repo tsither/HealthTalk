@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Basoph (MD)",
+            "result_value": 180,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "1600"
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": null,
+            "unit_of_measurement": "/dL",
+            "reference_range": "13.0 - 15.5"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "14.0 - 16.0"
+        }
+    ]
+}

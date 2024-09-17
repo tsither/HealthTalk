@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Sample Collection",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "MCHi (Mean Corpuscular Hemoglobin)",
+            "result_value": 29.7,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 33.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "31-37 g/dL"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 79.3,
+            "unit_of_measurement": "fL",
+            "reference_range": "76-96 fL"
+        },
+        {
+            "test_name": "RBC Count (Red Blood Cell Count)",
+            "result_value": 4.53,
+            "unit_of_measurement": "MIL/L",
+            "reference_range": "3.90-5.10 MIL/L"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0 g/dL"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.2,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.8 %"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBj)",
+            "result_value": 5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "gender": "male",
+                "low": 135,
+                "high": 175
+            },
+            "interpretation": "Low hemoglobin level may indicate iron deficiency anemia, blood loss, or other underlying conditions such as bone disorders that produce excess red cells."
+        }
+    ]
+}

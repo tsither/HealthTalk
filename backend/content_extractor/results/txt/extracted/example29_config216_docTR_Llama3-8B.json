@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CRP",
+            "result_value": 136,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-1 mg/dL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBS",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-120 mg/dL"
+        },
+        {
+            "test_name": "PROTA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT",
+            "result_value": 4142,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40 U/L"
+        },
+        {
+            "test_name": "SOL",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "BILIRUBIN",
+            "result_value": 2.5,
+            "unit_of_measurement": "%",
+            "reference_range": "0-1%"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "09/12/2024",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32-5.72 x 10^12/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.1,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "28.5-32.5 pg/cell"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        }
+    ]
+}

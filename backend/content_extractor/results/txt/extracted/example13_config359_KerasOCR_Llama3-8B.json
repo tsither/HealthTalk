@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8800,
+            "unit_of_measurement": "/µL",
+            "reference_range": "3500-10900 /µL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration",
+            "result_value": 34.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.3-36.2 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 210000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000-450000 /µL"
+        }
+    ]
+}

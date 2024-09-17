@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "SORAT",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 4.9,
+            "unit_of_measurement": "x10^3/ul",
+            "reference_range": "4-11 x10^3/ul"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.51,
+            "unit_of_measurement": "x10^12/l",
+            "reference_range": "4.32-5.72 x10^12/l"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.7,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.8-17.2 g/dl"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 71,
+            "unit_of_measurement": "fl",
+            "reference_range": "70-96 fl"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 25.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 2.94,
+            "unit_of_measurement": "%",
+            "reference_range": "45-75 %"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 0.65,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40 %"
+        }
+    ]
+}

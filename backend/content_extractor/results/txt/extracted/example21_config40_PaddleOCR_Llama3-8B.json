@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID : 1p/6 . 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "150000",
+            "unit_of_measurement": "X 10^9",
+            "reference_range": "09 - 410000"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4500-11000",
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000 /µL "
+        },
+        {
+            "test_name": "MCV (MEAN CORPUSCULAR VOLUME)",
+            "result_value": "80",
+            "unit_of_measurement": "fl",
+            "reference_range": "32.5- 34.5 fl"
+        },
+        {
+            "test_name": "MCH (MEAN CORPUSCULAR HEMOGLOBIN)",
+            "result_value": "28-22",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "28-32 pg/cell"
+        }
+    ]
+}

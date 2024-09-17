@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "Creatinine Level",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "0.6-1.2"
+        }
+    ]
+}

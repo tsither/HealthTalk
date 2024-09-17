@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LDH",
+            "result_value": 645,
+            "unit_of_measurement": "U/L",
+            "reference_range": "240-460"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 38,
+            "unit_of_measurement": "U/L",
+            "reference_range": "15-30"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 28,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-40"
+        },
+        {
+            "test_name": "ALP",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "GGT",
+            "result_value": 18,
+            "unit_of_measurement": "U/L",
+            "reference_range": "5-50"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": 7.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.2-8.3"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.1"
+        }
+    ]
+}

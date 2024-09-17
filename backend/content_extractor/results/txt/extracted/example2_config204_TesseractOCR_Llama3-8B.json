@@ -1,0 +1,29 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": "PAT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.0-15.0"
+        },
+        {
+            "test_name": "Glucose Test",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mL/min/1.73 m^2",
+            "reference_range": "60-120"
+        }
+    ]
+}

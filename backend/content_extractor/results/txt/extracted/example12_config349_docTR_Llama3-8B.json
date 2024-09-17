@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567890",
+        "patient_name": "Patels L.",
+        "patient_sex": "M",
+        "patient_age": "00"
+    },
+    "test_results": [
+        {
+            "test_name": "COMPLETE BLOOD CELL COUNT",
+            "result_value": 4500,
+            "unit_of_measurement": "per microL",
+            "reference_range": "4500-110000"
+        },
+        {
+            "test_name": "NEUTROPHILS",
+            "result_value": 3500,
+            "unit_of_measurement": "%",
+            "reference_range": "45-75"
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": 1500,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": "MONOCYTES",
+            "result_value": 100,
+            "unit_of_measurement": "%",
+            "reference_range": "5-10"
+        },
+        {
+            "test_name": "EOSINOPHILS",
+            "result_value": 200,
+            "unit_of_measurement": "%",
+            "reference_range": "1-4"
+        }
+    ]
+}

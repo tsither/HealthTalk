@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Drlogy. Cooiliation",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test 1",
+            "result_value": "20",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[10, 30]"
+        },
+        {
+            "test_name": "Test 2",
+            "result_value": "120",
+            "unit_of_measurement": "%",
+            "reference_range": "[90, 150]"
+        }
+    ]
+}

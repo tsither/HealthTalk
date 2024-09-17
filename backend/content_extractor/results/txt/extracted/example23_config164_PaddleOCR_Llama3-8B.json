@@ -1,0 +1,41 @@
+{
+    "Date": "09/12/2023",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea",
+            "result_value": 34.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "06/10 - 47/4"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": 3.4,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "03/5 - 05/0"
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": 140,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 7.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

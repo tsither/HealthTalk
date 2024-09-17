@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Hemoglobin: 12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Reference range: 13.5-16.5 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": " Platelets: 250,000/ul",
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": "MPV: 9.5 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "Reference range: 7-11.5 fL"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "28"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.9,
+            "unit_of_measurement": "Million cells/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 32.5,
+            "unit_of_measurement": "picograms",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 81.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 170000,
+            "unit_of_measurement": "cells/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 12500,
+            "unit_of_measurement": "cells/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": [
+                {
+                    "Neutrophils": 75
+                },
+                {
+                    "Lymphocytes": 20
+                },
+                {
+                    "Eosinophils": 1
+                },
+                {
+                    "Monocytes": 4
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

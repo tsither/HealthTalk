@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "E. I. D",
+        "patient_sex": "M",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose (Blood)",
+            "result_value": 88,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Creatinine (SMA)",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "BUN (Blood)",
+            "result_value": 25,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20 mg/dL"
+        },
+        {
+            "test_name": "Calcium (Ionized)",
+            "result_value": 9.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.4-10.3 mg/dL"
+        },
+        {
+            "test_name": "Magnesium (Serum)",
+            "result_value": 1.5,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "1.5-2.6 mEq/L"
+        },
+        {
+            "test_name": "Anion Gap (Blood)",
+            "result_value": 15,
+            "unit_of_measurement": null,
+            "reference_range": "-8 to +12 mEq/L"
+        }
+    ]
+}

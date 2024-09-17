@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "10.5 g/dL",
+                "RBC count": "5.15 million cells/uL",
+                "PCV": "54.75%",
+                "MCV": "27.75 fL",
+                "MCH": "32 pg/cell",
+                "MCHC": "34.51 g/dL",
+                "RDW": "13.6%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin": "14-18 g/dL",
+                "RBC count": "4.32-5.72 million cells/uL",
+                "PCV": "37-49%",
+                "MCV": "80-100 fL",
+                "MCH": "27-31 pg/cell",
+                "MCHC": "32-35 g/dL",
+                "RDW": "11.5-14.5%"
+            }
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": "62%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "6%",
+                "Monocytes": "10%",
+                "Basophils": "2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "5.00 lakh cells/uL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": {
+                "Normal": "1.50-4.50 lakh cells/uL"
+            }
+        }
+    ]
+}

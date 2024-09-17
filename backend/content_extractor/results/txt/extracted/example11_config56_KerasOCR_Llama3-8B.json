@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01 23456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low RBC count (<4.5)"
+        },
+        {
+            "test_name": "Total RBC",
+            "result_value": "45.1",
+            "unit_of_measurement": "Million/μm^3",
+            "reference_range": "High (40-50)"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "High"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCH",
+            "result_value": "32.2",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13.1%",
+            "unit_of_measurement": "%",
+            "reference_range": "High (14-16)"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "9000",
+            "unit_of_measurement": "/cu.mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differentiated WBC Count Neutrophils",
+            "result_value": "60%",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal (50-62)"
+        },
+        {
+            "test_name": "Differentiated WBC Count Lymphocytes",
+            "result_value": "31%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "0%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "10%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "1%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "/cu.mm",
+            "reference_range": null
+        }
+    ]
+}

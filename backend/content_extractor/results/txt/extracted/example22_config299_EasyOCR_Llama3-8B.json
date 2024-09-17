@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "RBC: 4.35, WBC: 7.5, Platelet: 220, Hemoglobin: 13.2, MCV: 82, MCH: 28.6, MCHC: 34.9",
+            "unit_of_measurement": "x10^12/L, x10^9/L, x10^9/L, g/dL, fL, pg, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": "Na+: 145, K+: 4.1, Ca2+: 8.5, Glucose: 90, Creatinine: 0.9, BUN: 10",
+            "unit_of_measurement": "mmol/L, mmol/L, mg/dL, mg/dL, mg/dL, mg/dL",
+            "reference_range": null
+        }
+    ]
+}

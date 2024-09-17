@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "170",
+            "unit_of_measurement": "milli/t",
+            "reference_range": "Not available"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": "37",
+            "unit_of_measurement": null,
+            "reference_range": "Reference range not provided"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "10,000",
+            "unit_of_measurement": "/microliter",
+            "reference_range": "Not available"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "31.5",
+            "unit_of_measurement": "picograms",
+            "reference_range": "Not available"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "cubic micrometers",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW) count",
+            "result_value": "14%",
+            "unit_of_measurement": null,
+            "reference_range": "Not available"
+        }
+    ]
+}

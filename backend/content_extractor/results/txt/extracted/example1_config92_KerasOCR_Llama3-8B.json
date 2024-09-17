@@ -1,0 +1,63 @@
+{
+    "Date": "09/11/2011",
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "9.1",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-15 g/dL (low)"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "80",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "30.5",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-35 g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "1.9",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "12,400",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "70%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "5%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "34,500",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        }
+    ]
+}

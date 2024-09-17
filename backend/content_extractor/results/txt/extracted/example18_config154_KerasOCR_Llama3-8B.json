@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Smart",
+        "patient_sex": "Male",
+        "patient_age": 11
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 4.57,
+            "unit_of_measurement": "million/mm^3",
+            "reference_range": "4-5 million/mm^3"
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": 12.08,
+            "unit_of_measurement": "thousand/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 90000,
+            "unit_of_measurement": "per mm^3",
+            "reference_range": null
+        }
+    ]
+}

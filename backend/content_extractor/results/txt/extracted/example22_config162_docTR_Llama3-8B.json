@@ -1,0 +1,29 @@
+{
+    "Date": "19.09.2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "10,000",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4,300-11,000"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "120",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99"
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

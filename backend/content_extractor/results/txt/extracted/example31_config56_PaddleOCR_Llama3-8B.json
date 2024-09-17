@@ -1,0 +1,47 @@
+{
+    "Date": "12 Dec 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "12.5 count",
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "80 fL",
+            "unit_of_measurement": null,
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "28 pg",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": "34-40"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.0%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "2.5 x 10^11/L",
+            "unit_of_measurement": null,
+            "reference_range": "150-450 x 10^9/L"
+        }
+    ]
+}

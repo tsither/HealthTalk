@@ -1,0 +1,23 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": "4-11 thousand cells per microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million cells per microliter",
+            "reference_range": "4.32-5.72 million cells per microliter"
+        }
+    ]
+}

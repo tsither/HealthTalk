@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 140,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (Total)",
+            "result_value": 7200,
+            "unit_of_measurement": "/microL",
+            "reference_range": "3,500-11,000"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 230,
+            "unit_of_measurement": "/microL",
+            "reference_range": "150,000-450,000"
+        },
+        {
+            "test_name": "Prothrombin Time (PT) - INR",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (APTT)",
+            "result_value": 40,
+            "unit_of_measurement": "seconds",
+            "reference_range": "25-35"
+        },
+        {
+            "test_name": "Bleeding Time",
+            "result_value": 60,
+            "unit_of_measurement": "seconds",
+            "reference_range": "2-7"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LEUKOCYTE COUNT",
+            "result_value": 9.0,
+            "unit_of_measurement": "x10^3/ul",
+            "reference_range": "[4-11] x10^3/ul"
+        },
+        {
+            "test_name": "ERYTHROCYTE COUNT",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^12/l",
+            "reference_range": "[3.9-5.2] x10^12/l"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 207.0,
+            "unit_of_measurement": "x10^9/l",
+            "reference_range": "[150-450] x10^9/l"
+        },
+        {
+            "test_name": "GLUCOSE",
+            "result_value": 6.5,
+            "unit_of_measurement": "mmol/l",
+            "reference_range": "[3.9-6.1] mmol/l"
+        },
+        {
+            "test_name": "BILIRUBIN (TOTAL)",
+            "result_value": 20.2,
+            "unit_of_measurement": "umol/l",
+            "reference_range": "[0-21] umol/l"
+        },
+        {
+            "test_name": "LACTATE DEHYDROGENASE (LDH)",
+            "result_value": 55.5,
+            "unit_of_measurement": "u/l",
+            "reference_range": "[0-225] u/l"
+        },
+        {
+            "test_name": "ALanine Aminotransferase (ALT)",
+            "result_value": 30.2,
+            "unit_of_measurement": "u/l",
+            "reference_range": "[0-40] u/l"
+        },
+        {
+            "test_name": "Aspartate Aminotransferase (AST)",
+            "result_value": 50.5,
+            "unit_of_measurement": "u/l",
+            "reference_range": "[0-35] u/l"
+        },
+        {
+            "test_name": "CREATININE",
+            "result_value": 102.0,
+            "unit_of_measurement": "umol/l",
+            "reference_range": "[50-120] umol/l"
+        }
+    ]
+}

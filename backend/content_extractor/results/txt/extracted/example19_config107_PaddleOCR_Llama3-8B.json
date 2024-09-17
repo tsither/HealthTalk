@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "40-87.75% (Low)"
+        },
+        {
+            "test_name": "Differential WBC Counts",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "MCH: 27.2, MCV: 87.75",
+            "unit_of_measurement": "cunut + Reference Value",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0 g/dL"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 12.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "10.0-14.0 seconds"
+        },
+        {
+            "test_name": "Partial Thromboplastin Time",
+            "result_value": 30.1,
+            "unit_of_measurement": "seconds",
+            "reference_range": "25.0-35.0 seconds"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": "4.5-11.0 thousand cells per microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.1,
+            "unit_of_measurement": "million cells per microliter",
+            "reference_range": "4.32-5.72 million cells per microliter"
+        }
+    ]
+}

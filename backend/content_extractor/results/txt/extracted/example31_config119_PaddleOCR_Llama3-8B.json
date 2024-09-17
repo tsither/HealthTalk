@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "4000-11.6-11000",
+            "unit_of_measurement": null,
+            "reference_range": "4.5-17.5"
+        },
+        {
+            "test_name": "Red Blood Cell (RCC) count",
+            "result_value": "32.5",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "68",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.3-15.7"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "34.5",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "2022-01-01",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "/microL",
+            "reference_range": "4,500-11,000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "/microL",
+            "reference_range": "150,000-450,000"
+        },
+        {
+            "test_name": "Blood Urea",
+            "result_value": 20,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-24"
+        }
+    ]
+}

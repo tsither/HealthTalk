@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "150000 - 410000 (Low: <150000, High: >410000)"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "32.5",
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5 (x10^12/L), Reference range not available"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6-140 g/dL (Low: < 11.6, High: >140)"
+        },
+        {
+            "test_name": "PCV count",
+            "result_value": "32.8",
+            "unit_of_measurement": null,
+            "reference_range": "40-50% (Low: < 40%, High: >50%)"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "90 - 00 01 - 00 00 - 02",
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 410000 (Low: <150000, High: >410000)"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "7.75",
+            "unit_of_measurement": null,
+            "reference_range": "4-10 x 10^9/L (Low: < 4, High: > 10)"
+        }
+    ]
+}

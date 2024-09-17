@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "PATel",
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "8.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "3.21",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "52",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.5",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "15.5",
+            "unit_of_measurement": "%",
+            "reference_range": "14.5-17.5"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "25.2",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 13.6, Lymphocytes: 5.2, Eosinophils: 3.25, Monocytes: 11.64, Basophils: 0.35"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "4.04",
+            "unit_of_measurement": "x 10^5/L",
+            "reference_range": null
+        }
+    ]
+}

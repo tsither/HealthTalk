@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLUCOSE",
+            "result_value": 110,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70, 140]"
+        },
+        {
+            "test_name": "CHOLESTEROL",
+            "result_value": 240,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[125, 200]"
+        },
+        {
+            "test_name": "TRIGLYCERIDES",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[50, 150]"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "150000-90",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "55 Years of age"
+    },
+    "test_results": [
+        {
+            "test_name": "Haemoglobin (Hb)",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "-17.0 to 13.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 34.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4000000000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "3.7 to 5.0 E+12 cells/microL"
+        }
+    ]
+}

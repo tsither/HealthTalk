@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.0 g/dL"
+        },
+        {
+            "test_name": "PCV (Hematocrit)",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.9 million/μL",
+            "unit_of_measurement": "million/μL",
+            "reference_range": "3.90-5.20 million/μL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.8 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.57 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "12.1%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3,000,000/μL",
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": "1.50-2.70 lakh/μL"
+        }
+    ]
+}

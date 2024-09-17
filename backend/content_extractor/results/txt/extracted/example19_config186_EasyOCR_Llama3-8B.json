@@ -1,0 +1,29 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.2,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11 x10^3/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 220,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450 x10^3/μL"
+        }
+    ]
+}

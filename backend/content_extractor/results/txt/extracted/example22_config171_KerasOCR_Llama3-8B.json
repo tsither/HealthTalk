@@ -1,0 +1,76 @@
+{
+    "Date": "12/02/2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "170",
+            "unit_of_measurement": "hbj",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": "55",
+            "unit_of_measurement": "tshs",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "50",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "27.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "32",
+            "unit_of_measurement": "pg",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13.16",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "4000",
+            "unit_of_measurement": "/μL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": "50%",
+                "Lymphocytes": "40%",
+                "Eosinophils": "2%",
+                "Basophils": "0.2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "Sooo",
+            "unit_of_measurement": "/μL",
+            "reference_range": "Normal"
+        }
+    ]
+}

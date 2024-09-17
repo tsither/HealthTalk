@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": 123.45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 6000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate",
+            "result_value": 45,
+            "unit_of_measurement": "mm/h",
+            "reference_range": null
+        }
+    ]
+}

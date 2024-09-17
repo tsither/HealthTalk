@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Colin Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Blood Test",
+            "result_value": "3.5",
+            "unit_of_measurement": "Million Cells per Microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hirenc Count",
+            "result_value": "51",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Cell Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "Million Cells per Microliter",
+            "reference_range": "4-6 Million Cells per Microliter"
+        }
+    ]
+}

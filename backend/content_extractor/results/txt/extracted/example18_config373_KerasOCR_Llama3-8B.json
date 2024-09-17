@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-200"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 40,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40-60"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-100"
+        },
+        {
+            "test_name": "Blood Glucose (Fasting)",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        }
+    ]
+}

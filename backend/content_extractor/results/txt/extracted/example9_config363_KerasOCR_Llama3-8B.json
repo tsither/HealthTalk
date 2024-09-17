@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Cell Count",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.3,
+            "unit_of_measurement": "M/L",
+            "reference_range": "3.9-5.6 M/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 92,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        }
+    ]
+}

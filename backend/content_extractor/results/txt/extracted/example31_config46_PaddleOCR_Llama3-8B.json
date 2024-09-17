@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "SMART Age",
+        "patient_sex": null,
+        "patient_age": "555"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.8,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH Count",
+            "result_value": 40.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 1800000000000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

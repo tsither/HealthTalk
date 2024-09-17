@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Sodium",
+            "result_value": 142,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Chloride",
+            "result_value": 110,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "96-106"
+        },
+        {
+            "test_name": "CO2 (Carbon Dioxide)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 100,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        }
+    ]
+}

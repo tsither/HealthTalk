@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 2.0,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 7.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(0.5-1.2)"
+        },
+        {
+            "test_name": "Bilirubin",
+            "result_value": 2.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0.3, 1.9]"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 2.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calcium",
+            "result_value": 0.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(8.5-10.3)"
+        }
+    ]
+}

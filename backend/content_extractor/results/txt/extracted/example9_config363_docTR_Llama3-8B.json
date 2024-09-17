@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": "0.00",
+            "unit_of_measurement": "%",
+            "reference_range": "- "
+        },
+        {
+            "test_name": "INR",
+            "result_value": "1.20",
+            "unit_of_measurement": "",
+            "reference_range": "0.9-1.2"
+        },
+        {
+            "test_name": "PTT",
+            "result_value": "31.00",
+            "unit_of_measurement": "s",
+            "reference_range": "23-37 "
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "8.20",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11"
+        }
+    ]
+}

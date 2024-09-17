@@ -1,0 +1,72 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "date_of_birth": null,
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb): 12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": "5.2",
+            "unit_of_measurement": "mil/umm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "46-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "",
+            "reference_range": "63-101"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.2",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) COUNT",
+            "result_value": "1000",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": "Neutrophils: 60, Lymphocytes: 20-49%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "150,000 - 410,000"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4520000.0,
+            "unit_of_measurement": "/μL",
+            "reference_range": "3.90-5.10e6 /μL"
+        },
+        {
+            "test_name": "HCT (Hematocrit)",
+            "result_value": 0.42,
+            "unit_of_measurement": "",
+            "reference_range": "0.37-0.50"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 31.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "76-96 fL"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.4%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000.0,
+            "unit_of_measurement": "/μL",
+            "reference_range": "1.50e5-3.50e5 /μL"
+        },
+        {
+            "test_name": "WBC Count (White Blood Cell Count)",
+            "result_value": 6000.0,
+            "unit_of_measurement": "/μL",
+            "reference_range": "3.50e3-10.50e3 /μL"
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": 74,
+            "unit_of_measurement": "%",
+            "reference_range": "45-75%"
+        },
+        {
+            "test_name": "Monocytes (%)",
+            "result_value": 6,
+            "unit_of_measurement": "%",
+            "reference_range": "5-12%"
+        }
+    ]
+}

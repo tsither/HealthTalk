@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec 2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "10.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.25 x 10^12/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.3-5.7 x 10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "0.45",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "15.2 x 10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4-10 x 10^9/L"
+        },
+        {
+            "test_name": "Differential White Blood Cell Count",
+            "result_value": "81% Neutrophils, 12% Lymphocytes, 6% Eosinophils, 1% Monocytes, 0% Basophils",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "2.52 x 10^5/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "1.50-4.00 x 10^5/μL"
+        }
+    ]
+}

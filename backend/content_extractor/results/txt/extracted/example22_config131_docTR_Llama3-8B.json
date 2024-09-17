@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count (Hb)",
+            "result_value": 5.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "40-50 p9"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "325-345"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "116-140"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 13.6,
+            "unit_of_measurement": "fl",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 0.9,
+            "unit_of_measurement": "%",
+            "reference_range": "00-10"
+        },
+        {
+            "test_name": "White Blood Cell count",
+            "result_value": 60,
+            "unit_of_measurement": "fl",
+            "reference_range": "31 00-02 cumm"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        }
+    ]
+}

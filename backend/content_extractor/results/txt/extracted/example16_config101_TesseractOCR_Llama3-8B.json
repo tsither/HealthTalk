@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4500-11500"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "platelets/μL",
+            "reference_range": "150000-400000"
+        },
+        {
+            "test_name": "Liver Function Test (Bilirubin)",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.5"
+        }
+    ]
+}

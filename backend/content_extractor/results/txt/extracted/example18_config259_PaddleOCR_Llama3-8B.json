@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 006",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Payal Patel",
+        "patient_sex": "Female",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb (Investigation C)",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 15.5"
+        },
+        {
+            "test_name": "MCv",
+            "result_value": 13.6,
+            "unit_of_measurement": null,
+            "reference_range": "Ref. 13.0 - 14.0"
+        },
+        {
+            "test_name": "MCHS counter count U L W8C COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "Gr.",
+            "reference_range": null
+        }
+    ]
+}

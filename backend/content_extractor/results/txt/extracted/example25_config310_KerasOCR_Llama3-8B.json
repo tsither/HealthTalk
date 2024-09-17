@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BLOOD TEST",
+            "result_value": 25.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "20-40 mg/dL"
+        },
+        {
+            "test_name": "HEMATOCRIT",
+            "result_value": 0.45,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "/μL",
+            "reference_range": "150000-450000/μL"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14-18 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 75.11,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 251000.0,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 12.6,
+            "unit_of_measurement": "seconds",
+            "reference_range": null
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time",
+            "result_value": 31.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": null
+        }
+    ]
+}

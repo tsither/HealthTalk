@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "Cells/μL",
+            "reference_range": "150,000 - 450,000"
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": 7.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "7 - 11"
+        },
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": 14.5,
+            "unit_of_measurement": "Percent",
+            "reference_range": "10-15"
+        }
+    ]
+}

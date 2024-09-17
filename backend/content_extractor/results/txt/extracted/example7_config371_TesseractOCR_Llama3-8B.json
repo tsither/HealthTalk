@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red Cell Count: 4.57, White Cell Count: 7.5, Hemoglobin: 14.2 g/dL",
+            "unit_of_measurement": "g/dL, cells/uL",
+            "reference_range": "Male: 4.40-5.00 M/cmm, Female: 4.10-4.70 M/cmm"
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": "Sodium: 142 mmol/L, Potassium: 3.9 mEq/L, Chloride: 99 mmol/L",
+            "unit_of_measurement": "mmol/L, mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": "Calcium: 10.5 mg/dL, Phosphate: 4.0 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.6-10.3 mg/dL"
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "AST: 18 U/L, ALT: 14 U/L, Alkaline Phosphatase: 60 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        }
+    ]
+}

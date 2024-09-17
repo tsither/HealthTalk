@@ -1,0 +1,35 @@
+{
+    "Date": "09/12/2019",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 8275,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "4.32-5.72 x 10^12 cells/l"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 272,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 15000,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "31-35 pg/cell"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

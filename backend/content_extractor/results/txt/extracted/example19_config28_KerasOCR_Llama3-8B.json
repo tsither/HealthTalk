@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "30"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin HB",
+            "result_value": "12.54",
+            "unit_of_measurement": null,
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "31.8",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "78.75",
+            "unit_of_measurement": "fl",
+            "reference_range": "80-96 fl"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.52",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17.5",
+            "unit_of_measurement": null,
+            "reference_range": "4-10 x 10^3/ul"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1.75",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

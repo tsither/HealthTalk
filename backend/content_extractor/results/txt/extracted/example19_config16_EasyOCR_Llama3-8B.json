@@ -1,0 +1,65 @@
+{
+    "Date": "2023-05-01",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel, Yash Smart",
+        "patient_sex": "Male",
+        "patient_age": 57
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.25,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[M] - 14.5 to 18.1, [F] - 12.8 to 16.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.69,
+            "unit_of_measurement": "Million/μL",
+            "reference_range": "[M] - 4.32 to 5.72, [F] - 3.90 to 5.00"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 88,
+            "unit_of_measurement": "fL",
+            "reference_range": "[M] - 80 to 96, [F] - 80 to 94"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 31.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "[M] - 28 to 32, [F] - 27 to 30"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.02,
+            "unit_of_measurement": "Lacs/μL",
+            "reference_range": "> 1.5 Lacs"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 15.75,
+            "unit_of_measurement": "Thousand/μL",
+            "reference_range": "[M] - 4.5 to 10.5, [F] - 3.8 to 9.8"
+        },
+        {
+            "test_name": "Differential Count - Neutrophils",
+            "result_value": 79,
+            "unit_of_measurement": "%",
+            "reference_range": "[M] - 45 to 75, [F] - 35 to 65"
+        },
+        {
+            "test_name": "Differential Count - Lymphocytes",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[M] - 20 to 40, [F] - 15 to 30"
+        },
+        {
+            "test_name": "Differential Count - Eosinophils",
+            "result_value": 4.7,
+            "unit_of_measurement": "%",
+            "reference_range": "< 5"
+        }
+    ]
+}

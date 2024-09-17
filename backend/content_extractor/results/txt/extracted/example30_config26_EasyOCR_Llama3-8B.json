@@ -1,0 +1,59 @@
+{
+    "Date": "31 Dec 2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "125"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.51,
+            "unit_of_measurement": "Million/µm^3",
+            "reference_range": "4.32-5.72 Million/µm^3"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 40.14,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.75,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 70.57,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 15.05,
+            "unit_of_measurement": "Thousand/µm^3",
+            "reference_range": "4-10 Thousand/µm^3"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 5.05,
+            "unit_of_measurement": "Lakhs/µm^3",
+            "reference_range": "1.50-4.10 Lakhs/µm^3"
+        }
+    ]
+}
