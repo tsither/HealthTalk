@@ -12,5 +12,5 @@ urlpatterns = [
     path('page3_3/', views.page3_3, name='page3_3'),
     # path('chatbot/', views.chatbot_view, name='chatbot'),
     path('convert_to_sql/', views.convert_to_sql, name='convert_to_sql'),
-   
 ]
+   

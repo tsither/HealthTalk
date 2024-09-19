@@ -14,7 +14,7 @@ from django.db import connection
 from django.contrib.sessions.models import Session
 from django.utils import timezone
 from pathlib import Path
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 import tempfile
 import subprocess
@@ -22,6 +22,7 @@ from guardrails import Guard
 from guardrails.hub import NSFWText
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
+import json2html
 
 #######################################
 ########### Set up logging ############
@@ -138,15 +139,13 @@ def page1_view(request):
     except Exception as e:
         logger.error(f"Error fetching user information: {e}")
         return render(request, 'ui/page1_1.html', {'error': 'Error fetching user information'})
-
+        
 def process_reports(request):
     '''
-    This part takes the file and runs it through the script. It also get the result as string (but its a json)
+    This part takes the file and runs it through the script. It also gets the result as a string (but it's JSON).
     '''
     PMA_path = Path.cwd()
-
     extraction_path = PMA_path / "backend" / "content_extractor" / "extraction.py"
-
 
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
@@ -158,12 +157,12 @@ def process_reports(request):
 
         # Run the external Python script
         result = subprocess.run(
-            ['python', extraction_path,     #Made this dynamic :)
-              '-f', temp_file.name],
+            ['python', extraction_path, '-f', temp_file.name],
             capture_output=True,
             text=True,
             check=True
         )
+
         # Get the output of the script
         output = result.stdout
 
@@ -172,7 +171,8 @@ def process_reports(request):
         try:
             json_output = json.loads(result.stdout)
             os.unlink(temp_file.name)  # Delete the temporary file
-            return render(request, 'ui/page2_1.html', {'output': json.dumps(json_output, indent=4)})
+            # Pass JSON data to the template for rendering
+            return render(request, 'ui/page2_2.html', {'json_output': json.dumps(json_output)})
         except json.JSONDecodeError:
             print("Script did not return valid JSON. Please try again.")
             return render(request, 'ui/page2_1.html', {'error': "Invalid JSON output"})
