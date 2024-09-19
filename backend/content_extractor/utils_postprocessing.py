@@ -1,5 +1,6 @@
 import re
 from collections import defaultdict
+from pathlib import Path
 
 def parse_ocr_results(file_path):
     with open(file_path, 'r') as file:
@@ -20,3 +21,13 @@ def parse_ocr_results(file_path):
         idx += 1
     
     return results
+
+def get_txt_files(directory):
+    SUPPORTED_FORMATS = ['.txt']
+    txt_files = []
+    for file in Path(directory).iterdir():
+        if file.is_file() and file.suffix.lower() in SUPPORTED_FORMATS:
+            txt_files.append(file)
+
+    output = sorted(txt_files)
+    return output

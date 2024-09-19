@@ -1,35 +1,17 @@
 import os
 import time
-from dotenv import load_dotenv
-from utils_postprocessing import parse_ocr_results
+from utils_postprocessing import parse_ocr_results, get_txt_files
 import json
 from together import Together
 import ollama
+from pathlib import Path
 
-class TogetherAI():
-    def __init__(self, model_name, api_key, log_filepath):
-        self.log_filepath = log_filepath
-        self.api_key = api_key
+class Ollama():
+    def __init__(self, model_name, log_filepath):
         self.model_name = model_name
+        self.log_filepath = log_filepath
 
     def chat_completion(self, prompt, question):
-
-        # client = Together(
-        #     api_key=self.api_key
-        # )
-
-        # chat_completion = client.chat.completions.create(
-        #     model=self.model_name,
-        #     messages=[{"role": "system", "content": prompt},
-        #               {"role": "user", "content": question}],
-        #     temperature=0.1,
-        #     top_p=0.2,
-        #     top_k=20
-        # )
-
-        # response = chat_completion.choices[0].message.content
-        # print(response)
-
         response = ollama.chat( 
             model=str(self.model_name), 
             messages=[{"role": "system", "content": prompt},
@@ -77,11 +59,11 @@ class TogetherAI():
         while exit == False:
             try:
                 response = self.chat_completion(prompt, ocr_text)
-                time.sleep(2)
+                # time.sleep(1)
                 exit = True
             except Exception as e:
                 print(e)
-                time.sleep(5)
+                time.sleep(1)
                 continue
 
         return response
@@ -108,56 +90,56 @@ class TogetherAI():
 
 
 def main():
-    load_dotenv('./postprocessing_venv/key.env')  # Load the .env file
-    TOGETHER_API_KEY = os.environ.get('API_KEY')  # Access the API key
     models = {
-        #   "llama3.1": "Llama3-8B",
-        #  "qwen2:7b": "Qwen2-7B",
-        # "phi3:14b": "Phi3-14B",
-        #  "gemma2" : "Gemma2-9B",
-         "mistral-nemo" : "Mistral-12B",
+        # "llama3.1": "Llama3-8B",
+        # "qwen2:7b": "Qwen2-7B",
+        #   "phi3:14b": "Phi3-14B",
+        # "gemma2:latest" : "Gemma2-9B",
+         "mistral-nemo:latest" : "Mistral-12B",
     }
 
-    for key, model in models.items():
-        log_file_path = os.path.join("./results/txt/extracted/", f"postprocessing_log_{model}.txt")
-        print(f"Testing model: {model}")
-        llm = TogetherAI(model_name=key, api_key=TOGETHER_API_KEY, log_filepath=log_file_path)
-        
-        output = llm.read_txt_file(
-            "./results/txt/extracted/ocr_results_log.txt", model)        
+    input_files = get_txt_files("./data/txt/")
 
-        for key, value in output.items():
-            print(f"Processing result from {value['filepath']} to json object")
-            filename = os.path.splitext(os.path.basename(value['filepath']))[0]
-            config_name = value["ocr"]
-            pathfile = f"{filename}_{config_name}_{model}"
-            file_name_json = f"./results/txt/extracted/{pathfile}.json"
+    for idx, val in enumerate(input_files):
+        for key, model in models.items():
+            log_file_path = os.path.join("./results/txt/extracted/", f"postprocessing_log_{model}_#{idx+1}.txt")
+            print(f"Testing model: {model} with {val}")
+            llm = Ollama(model_name=key, log_filepath=log_file_path)
+            
+            output = llm.read_txt_file(val, model)
 
-            if "Output" not in value:
-                continue
+            for key, value in output.items():
+                print(f"Processing result from {value['filepath']} to json object")
+                filename = os.path.splitext(os.path.basename(value['filepath']))[0]
+                config_name = value["ocr"]
+                pathfile = f"{filename}_{config_name}_{model}"
+                file_name_json = f"./results/txt/extracted/{pathfile}.json"
 
-            with open(file_name_json, 'w', encoding='utf-8') as f:
-                try:
-                    json_object = json.loads(output[key]["Output"])
-                except ValueError as e:
-                    print(f"COMMON ERROR (JSON object): {e}")
-                    answer = str(output[key]["Output"])
-                    print(f"Original answer: {answer}")
-                    continue
-                except Exception as e:
-                    print(f"NEW ERROR (JSON object): {e}")
-                    answer = str(output[key]["Output"])
-                    print(f"Original answer: {answer}")
+                if "Output" not in value:
                     continue
 
-                try:
-                    json.dump(json_object, f, ensure_ascii=False, indent=4)
-                except Exception as e:
-                    print(f"NEW ERROR (JSON dumping): {e}")
-                    continue
+                with open(file_name_json, 'w', encoding='utf-8') as f:
+                    try:
+                        json_object = json.loads(output[key]["Output"])
+                    except ValueError as e:
+                        print(f"COMMON ERROR (JSON object): {e}")
+                        answer = str(output[key]["Output"])
+                        print(f"Original answer: {answer}")
+                        continue
+                    except Exception as e:
+                        print(f"NEW ERROR (JSON object): {e}")
+                        answer = str(output[key]["Output"])
+                        print(f"Original answer: {answer}")
+                        continue
 
-                print(f"Results saved in: {file_name_json}\n")
-                print("-" * 50)
+                    try:
+                        json.dump(json_object, f, ensure_ascii=False, indent=4)
+                    except Exception as e:
+                        print(f"NEW ERROR (JSON dumping): {e}")
+                        continue
+
+                    print(f"Results saved in: {file_name_json}\n")
+                    print("-" * 50)
 
 
 if __name__ == "__main__":
