@@ -1,0 +1,23 @@
+{
+    "Date": "20/12/2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 167,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Under 130"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "For men: 14 to 18, for women: 12 to 16"
+        }
+    ]
+}

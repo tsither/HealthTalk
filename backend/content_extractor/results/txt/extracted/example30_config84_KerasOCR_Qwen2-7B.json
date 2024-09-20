@@ -1,0 +1,80 @@
+{
+    "Date": "09/12/2023",
+    "patient_information": {
+        "patient_id": "0123as6759",
+        "patient_name": "Patel Dhiraj",
+        "patient_sex": "male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "sub_test": "Hemoglobin",
+                    "value": "17.85 g/dL",
+                    "unit_of_measurement": "cumm millr gdy hemoglooin"
+                },
+                {
+                    "sub_test": "Red Blood Cells (RBC)",
+                    "value": "669578",
+                    "unit_of_measurement": "cell"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) - Detailed",
+            "result_value": [
+                {
+                    "sub_test": "Mean Corpuscular Volume (MCV)",
+                    "value": "81.75 pg",
+                    "unit_of_measurement": "corpuscular"
+                },
+                {
+                    "sub_test": "Mean Cell Hemoglobin Concentration (MCHC)",
+                    "value": "35%",
+                    "unit_of_measurement": "100o 4ooos"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": [
+                {
+                    "sub_test": "Neutrophils",
+                    "value": "669578",
+                    "unit_of_measurement": "count"
+                },
+                {
+                    "sub_test": "Lymphocytes",
+                    "value": "10000",
+                    "unit_of_measurement": ""
+                },
+                {
+                    "sub_test": "Eosinophils",
+                    "value": "5555",
+                    "unit_of_measurement": ""
+                },
+                {
+                    "sub_test": "Monocytes",
+                    "value": null,
+                    "unit_of_measurement": ""
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                {
+                    "sub_test": "Platelets",
+                    "value": "555500",
+                    "unit_of_measurement": "count"
+                }
+            ],
+            "reference_range": null
+        }
+    ]
+}

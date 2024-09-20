@@ -1,0 +1,23 @@
+{
+    "Date": "10.27.23",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.0,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: <6.5%"
+        },
+        {
+            "test_name": "Cholesterol Total",
+            "result_value": 200,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: <200 mg/dL"
+        }
+    ]
+}

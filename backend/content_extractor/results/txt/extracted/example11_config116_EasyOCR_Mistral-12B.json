@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "2123456789",
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 5.24,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 325.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "345-360"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "WBC Count (Total)",
+            "result_value": 9000,
+            "unit_of_measurement": "/cumm",
+            "reference_range": "4000-10000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "/cumm",
+            "reference_range": "150000-410000"
+        }
+    ]
+}

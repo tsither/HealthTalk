@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "125012345678",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (total)",
+            "result_value": 5.2,
+            "unit_of_measurement": "million cells/mm3",
+            "reference_range": "4.5 - 6.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Resuy Conn",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Investigation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[31-44]% [2.0-8.0]"
+        },
+        {
+            "test_name": "Neutrophils Reference Value",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[45-70]%"
+        }
+    ]
+}

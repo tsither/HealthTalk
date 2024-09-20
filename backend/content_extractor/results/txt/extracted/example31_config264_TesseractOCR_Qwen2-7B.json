@@ -1,0 +1,83 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": "Low",
+                    "range": "13.0-17.0 g/dL"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": "$.2 45-55",
+                    "range": "mill/cumm"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": "57.5",
+                    "range": "%"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": "87.75",
+                    "range": "fl"
+                },
+                {
+                    "name": "MCH",
+                    "value": "27.2",
+                    "range": "pg"
+                },
+                {
+                    "name": "MCHC",
+                    "value": "32.8",
+                    "range": "g/dL"
+                },
+                {
+                    "name": "WBC COUNT",
+                    "value": "7, 1, = ; = mS",
+                    "range": "#8 bt) 4000-11000! cumm"
+                },
+                {
+                    "name": "Neutrophils",
+                    "value": "60",
+                    "range": "%"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": "31",
+                    "range": "%"
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": "1",
+                    "range": "%"
+                },
+                {
+                    "name": "Monocytes",
+                    "value": "7",
+                    "range": "%"
+                },
+                {
+                    "name": "Basophlils",
+                    "value": "1",
+                    "range": "%"
+                },
+                {
+                    "name": "Platelet Count",
+                    "value": "150000",
+                    "range": "Bordorline 150000 - 410000 cumm"
+                }
+            ]
+        }
+    ]
+}

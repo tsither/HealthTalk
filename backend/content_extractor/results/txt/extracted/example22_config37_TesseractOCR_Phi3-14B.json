@@ -1,0 +1,53 @@
+{
+    "Date": "2021-07-05",
+    "patient_information": {
+        "patient_id": "ABCD1234",
+        "patient_name": "John Doe",
+        "patient_sex": "male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon A1c",
+            "result_value": "7.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[4-5.6%; 5.7-6.4%; >6.4%]"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "12,000/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[3500-10,000/uL]"
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": "420,000/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[150,000-400,000/uL]"
+        },
+        {
+            "test_name": "Lipid Profile - Total Cholesterol",
+            "result_value": "230 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[< 200 mg/dL]"
+        },
+        {
+            "test_name": "Lipid Profile - HDL Cholesterol",
+            "result_value": "45 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[> 60 mg/dL]"
+        },
+        {
+            "test_name": "Lipid Profile - LDL Cholesterol (Calculated)",
+            "result_value": "150 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[< 130 mg/dL]"
+        },
+        {
+            "test_name": "Lipid Profile - Triglycerides",
+            "result_value": "250 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[< 150 mg/dL]"
+        }
+    ]
+}

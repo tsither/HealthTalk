@@ -1,0 +1,31 @@
+{
+    "Date": "02.02.23",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": 4.5,
+                "Hemoglobin": 13.6,
+                "Platelet count": 27.2,
+                "WBC count": 7.5,
+                "Neutrophils": 60,
+                "Lymphocytes": 30,
+                "Eosinophils": 10
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "M/MCm",
+                "Hemoglobin": "g/dL",
+                "Platelet count": "/µL",
+                "WBC count": "x10^3/µL",
+                "%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

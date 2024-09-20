@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 170
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Complete",
+            "result_value": {
+                "Hemoglobin": 15.5,
+                "WBC": 8.4,
+                "Platelet Count": 210,
+                "ESR": "<5"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "WBC": "x10^3/uL",
+                "Platelet Count": "x10^3/uL",
+                "ESR": "mm/hr"
+            },
+            "reference_range": null
+        }
+    ]
+}

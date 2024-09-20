@@ -1,0 +1,38 @@
+{
+    "Date": "2023-03-15",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.5,
+            "unit_of_measurement": "%",
+            "reference_range": "5.0 - 6.0"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": [
+                180,
+                4.2,
+                130,
+                150
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mmol/L",
+                "mg/dL",
+                "mg/dL"
+            ],
+            "reference_range": [
+                "150 - 200",
+                "2.6 - 4.5",
+                "130 - 160",
+                "120 - 200"
+            ]
+        }
+    ]
+}

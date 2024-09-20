@@ -1,0 +1,52 @@
+{
+    "Date": "02 Dec XXXX",
+    "patient_information": {
+        "patient_id": "PID : Male",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": {
+                    "count": "4.5"
+                },
+                "MCV": {
+                    "fL": "89.5"
+                },
+                "WBC": {
+                    "count": "107"
+                },
+                "PLT": {
+                    "count": "2"
+                }
+            },
+            "unit_of_measurement": {
+                "RBC": "10^6/μL",
+                "MCV": "fL",
+                "WBC": "10^3/μL",
+                "PLT": "/μL"
+            },
+            "reference_range": {
+                "RBC": {
+                    "min": "4.0",
+                    "max": "5.2"
+                },
+                "MCV": {
+                    "min": "80",
+                    "max": "100"
+                },
+                "WBC": {
+                    "min": "4.0",
+                    "max": "11.6"
+                },
+                "PLT": {
+                    "min": "150",
+                    "max": "31"
+                }
+            }
+        }
+    ]
+}

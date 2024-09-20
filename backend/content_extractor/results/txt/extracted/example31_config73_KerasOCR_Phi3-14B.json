@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (by complete type)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC) - Packed Red Cells",
+            "result_value": 575,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC) - Total",
+            "result_value": 1308,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 45,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Droyatabos Logycorm",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": {
+                        "low": 13,
+                        "high": 17
+                    }
+                },
+                "rbc_count": {
+                    "value": 5.2,
+                    "unit": "million/µL"
+                },
+                "hct": {
+                    "value": 40,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 36,
+                        "high": 46
+                    }
+                },
+                "mcv": {
+                    "value": 87.75,
+                    "unit": "fL",
+                    "reference_range": {
+                        "low": 82,
+                        "high": 100
+                    }
+                },
+                "mch": {
+                    "value": 32.8,
+                    "unit": "pg",
+                    "reference_range": {
+                        "low": 27,
+                        "high": 31
+                    }
+                },
+                "rdw": {
+                    "value": 13.26,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 11.5,
+                        "high": 14
+                    }
+                }
+            },
+            "wbc_count": {
+                "value": 8000,
+                "unit": "cells/µL"
+            },
+            "differential_count": {
+                "neutrophils": {
+                    "value": 62,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 40,
+                        "high": 75
+                    }
+                },
+                "lymphocytes": {
+                    "value": 31,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 20,
+                        "high": 45
+                    }
+                },
+                "eosinophils": {
+                    "value": 6,
+                    "unit": "%"
+                },
+                "monocytes": {
+                    "value": 8,
+                    "unit": "%"
+                },
+                "basophils": {
+                    "value": 1
+                }
+            },
+            "platelet_count": {
+                "value": 300000,
+                "unit": "cells/µL",
+                "reference_range": {
+                    "low": 150000,
+                    "high": 400000
+                }
+            }
+        }
+    ]
+}

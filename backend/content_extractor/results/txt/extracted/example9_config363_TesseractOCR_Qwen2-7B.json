@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2K/uL, RBC: 4.8M/uL, HGB: 13.5g/dL",
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4.0-11.0 K/uL, RBC: 4.2-5.6 M/uL, HGB: 11.5-15.5 g/dL"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": "[FILL]",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

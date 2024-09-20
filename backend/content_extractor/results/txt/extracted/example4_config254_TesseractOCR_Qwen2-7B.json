@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.8 x10^3/μL, RBC: 4.9 x10^6/μL, HGB: 13.5 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": "Total Bilirubin: 0.7 mg/dL, Direct Bilirubin: 0.2 mg/dL, ALT: 35 U/L, AST: 18 U/L",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Thyroid Function Tests",
+            "result_value": "TSH: 4.9 mIU/L, T4: 0.95 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

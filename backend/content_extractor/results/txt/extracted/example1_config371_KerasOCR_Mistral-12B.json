@@ -1,0 +1,83 @@
+{
+    "Date": "20/11/2022",
+    "patient_information": {
+        "patient_id": "3456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 5.0,
+                "HGB": 13.5,
+                "PLT": 289
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 5.4
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 16
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "AST": 28,
+                "ALT": 35,
+                "ALP": 98,
+                "TP": 7.5,
+                "ALB": 4.1
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TP": "g/dL",
+                "ALB": "g/dL"
+            },
+            "reference_range": {
+                "AST": {
+                    "min": 5,
+                    "max": 34
+                },
+                "ALT": {
+                    "min": 7,
+                    "max": 30
+                },
+                "ALP": {
+                    "min": 45,
+                    "max": 129
+                },
+                "TP": {
+                    "min": 6.0,
+                    "max": 8.3
+                },
+                "ALB": {
+                    "min": 3.5,
+                    "max": 5.2
+                }
+            }
+        }
+    ]
+}

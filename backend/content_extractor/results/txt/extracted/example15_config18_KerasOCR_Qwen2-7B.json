@@ -1,0 +1,32 @@
+{
+    "Date": "02/dec/202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "sample_collection_time": "0281 PM"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (pdw)",
+            "result_value": 15.5,
+            "unit_of_measurement": "electrical 900 impedence",
+            "reference_range": {
+                "adults": {
+                    "normal_pdw_range": "90f 1700"
+                },
+                "children": {
+                    "normal_pdw_range": "75 13 50"
+                },
+                "newborns": {
+                    "normal_pdw_range": "990 17000"
+                }
+            },
+            "comments": [
+                "pdw is a measure of platelet anisocytosis",
+                "indicative of the volume unit volume of circulating of blood this platelets test is in useful a in distinguishing essential thrombocythemia reactive pdw increased thrombocytosis from pdw normall sthooou obenons interpretation pdw 00 interpretation 90 s lower than normal range may indicate iron b12 or deficiency bone marrow disorders"
+            ]
+        }
+    ]
+}

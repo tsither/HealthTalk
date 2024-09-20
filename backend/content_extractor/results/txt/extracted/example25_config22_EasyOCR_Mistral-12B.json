@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Leucocitos": {
+                    "value": 56,
+                    "unit": "100 /TL"
+                },
+                "Hemoglobina": {
+                    "value": 4.17,
+                    "unit": "g/dL"
+                },
+                "Hematocrito": {
+                    "value": 38,
+                    "unit": "gr/dL"
+                },
+                "V.C.M_": {
+                    "value": 12
+                },
+                "H.C.M_": {
+                    "value": 69
+                },
+                "R.D.W": {
+                    "value": 33
+                },
+                "C.H.C.M_": {
+                    "value": 23
+                },
+                "Plaquetas": {
+                    "value": 70
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

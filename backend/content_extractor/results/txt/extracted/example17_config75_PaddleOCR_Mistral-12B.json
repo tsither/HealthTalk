@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "MUMBAI",
+        "patient_sex": "Male",
+        "patient_age": "old"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": "32.8 - 45.0"
+        },
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0 - 11.0"
+        }
+    ]
+}

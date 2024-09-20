@@ -1,0 +1,71 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "patel complex years",
+        "patient_name": "Yash Patil",
+        "patient_sex": "male",
+        "patient_age": 57
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 108,
+            "unit_of_measurement": "y/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells (RBCs) Count",
+            "result_value": null,
+            "unit_of_measurement": "k/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 575,
+            "unit_of_measurement": "k/mcL",
+            "reference_range": [
+                1200,
+                6000
+            ]
+        },
+        {
+            "test_name": "Neutrophils Count",
+            "result_value": 272,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes Count",
+            "result_value": 170,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils Count",
+            "result_value": 400,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1012713,
+            "unit_of_measurement": "k/mcL",
+            "reference_range": [
+                140,
+                350
+            ]
+        }
+    ]
+}

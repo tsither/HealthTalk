@@ -1,0 +1,29 @@
+{
+    "Date": "Not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count (CBC)",
+            "result_value": 84000,
+            "unit_of_measurement": "1/mm3",
+            "reference_range": "547 - 639/10^3"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 78.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "82 - 97 fL"
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 1500,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        }
+    ]
+}

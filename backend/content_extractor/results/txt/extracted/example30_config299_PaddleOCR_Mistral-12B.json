@@ -1,0 +1,61 @@
+{
+    "Date": "xxX Catow, xx",
+    "patient_information": {
+        "patient_id": "L0123466789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 57.5,
+                "RBC": 43,
+                "HGB": 18.6,
+                "HCT": 27.2,
+                "MCH": 82.8,
+                "RDW": 0.6
+            },
+            "unit_of_measurement": {
+                "WBC": "#",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCH": "pg",
+                "RDW": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "low": 4500,
+                    "high": 11000
+                },
+                "RBC": {
+                    "low": 32.5,
+                    "high": 568
+                },
+                "HGB": {
+                    "low": 11.6,
+                    "high": 14.0
+                },
+                "HCT": {
+                    "low": 27,
+                    "high": 34.5
+                },
+                "MCH": {
+                    "low": null,
+                    "high": null
+                },
+                "RDW": {
+                    "low": null,
+                    "high": null
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 190000,
+            "unit_of_measurement": "10^3/µL"
+        }
+    ]
+}

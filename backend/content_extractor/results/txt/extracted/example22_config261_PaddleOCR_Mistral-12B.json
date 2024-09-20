@@ -1,0 +1,33 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": "6849228220",
+        "patient_name": "Yash M. Patel"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 13.5,
+                "Packed Cell Volume (PCV)": 27.2
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Packed Cell Volume (PCV)": "%"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0 - 17.0",
+                "Packed Cell Volume (PCV)": "45.5 - 49.5"
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.2,
+            "unit_of_measurement": "x10^3/uL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 273200
+        }
+    ]
+}

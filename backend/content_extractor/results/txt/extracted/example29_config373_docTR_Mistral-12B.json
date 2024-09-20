@@ -1,0 +1,32 @@
+{
+    "Date": "2022-03-15",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 12.3,
+                "PLT": 230,
+                "NEU%": 55,
+                "LYM%": 30,
+                "MONO%": 10,
+                "EO%": 5
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

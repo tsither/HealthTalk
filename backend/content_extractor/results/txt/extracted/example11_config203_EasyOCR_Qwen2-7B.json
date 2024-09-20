@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "130",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "refs 09t"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": "millions/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "170",
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC differential",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "cell_type": "neutrophils",
+                    "percentage": "156"
+                },
+                {
+                    "cell_type": "lymphocytes",
+                    "percentage": null
+                },
+                {
+                    "cell_type": "monocytes",
+                    "percentage": "good",
+                    "count": null,
+                    "value": null
+                },
+                {
+                    "cell_type": "eosinophils",
+                    "percentage": null,
+                    "count": null,
+                    "value": null
+                }
+            ]
+        }
+    ]
+}

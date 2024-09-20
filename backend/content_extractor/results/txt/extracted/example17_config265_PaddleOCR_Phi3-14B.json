@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 41000e"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 3.8,
+            "unit_of_measurement": null,
+            "reference_range": "3-5 e/microL"
+        },
+        {
+            "test_name": "Hemoglobin level",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6%"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "2.0 - 5.9 e12/L"
+        }
+    ]
+}

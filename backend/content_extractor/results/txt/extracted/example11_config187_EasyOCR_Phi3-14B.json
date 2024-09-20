@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "josoloy ssdart vsch coluli x pcal thicia hoan oatusienn al tbicann conine x lawlala 869s71 wiuocen yash m patel",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 139,
+                "RBC count": 4.5,
+                "total RBC count": 0.869,
+                "platelet count": "borderline"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": [
+                    "135-175 g/L"
+                ],
+                "RBC count": [
+                    [
+                        "4.20",
+                        "6.00"
+                    ]
+                ],
+                "total RBC count": [
+                    "1.30",
+                    "4.90x10^12/L"
+                ],
+                "platelet count": null
+            }
+        },
+        {
+            "test_name": "Differential WEC Count",
+            "result_value": [
+                {
+                    "neutrophils": 60
+                },
+                {
+                    "lymphocytes": 504
+                },
+                {
+                    "monocytes": 0.2
+                }
+            ],
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": {
+                "neutrophils": [
+                    [
+                        "40-60"
+                    ]
+                ],
+                "lymphocytes": [
+                    [
+                        "20-40"
+                    ]
+                ],
+                "monocytes": [
+                    [
+                        "1-8"
+                    ]
+                ]
+            }
+        }
+    ]
+}

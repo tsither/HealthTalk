@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": 4.0,
+            "unit_of_measurement": "690/mm3",
+            "reference_range": "120-100"
+        },
+        {
+            "test_e_name": null,
+            "result_value": 75.4,
+            "unit_of_measurement": "gL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 92,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 30.8,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 15.4,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

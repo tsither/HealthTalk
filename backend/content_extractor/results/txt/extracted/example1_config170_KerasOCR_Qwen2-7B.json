@@ -1,0 +1,53 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "loty",
+            "reference_range": "130 - 170 gidl"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": "55.55",
+            "unit_of_measurement": "count/milicumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "high so s0"
+        },
+        {
+            "test_name": "corpuscular volume index (mcv)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fl",
+            "reference_range": "83 - 101 fl"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": "328",
+            "unit_of_measurement": "gidl",
+            "reference_range": null
+        },
+        {
+            "test_name": "reticulocyte count",
+            "result_value": "1.4",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell (wbc) counts",
+            "result_value": "60",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

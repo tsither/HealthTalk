@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "B78946",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "135-200 mg/dL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 9.7,
+            "unit_of_measurement": "X10^3/μL",
+            "reference_range": "4.0-11.0 X10^3/μL"
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": 25,
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-60 U/L"
+        }
+    ]
+}

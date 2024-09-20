@@ -1,0 +1,101 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma VN: Fórmula Leucocitária Recuento",
+            "result_value": 4.96,
+            "unit_of_measurement": "Uuo/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Recuento de eosinófilos hematía por mm",
+            "result_valuenumber": 4960,
+            "unit_of_measurement": "Uuo/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematoquimia VN:",
+            "result_value": [
+                {
+                    "segmentados hemoglobina %": 14.8,
+                    "reference_range": "36-4"
+                },
+                {
+                    "hematocrito": 45
+                },
+                {
+                    "plaquetas / mm^3": 1380
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "segmentados hemoglobina %": "36-4"
+                },
+                {
+                    "hematocrito": "null",
+                    "reference_range": "null"
+                },
+                {
+                    "plaquetas / mm^3": "150-45"
+                }
+            ]
+        },
+        {
+            "test_name": "Monócitos VN: Leucocitos M!",
+            "result_value": 3.27,
+            "unit_of_measurement": "Uuo/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Von Willebrand Antigen (vWF)",
+            "result_value": [
+                160,
+                45
+            ],
+            "unit_of_measurement": [
+                "mg%"
+            ],
+            "reference_range": [
+                {
+                    "upper limit": "23 mg%"
+                },
+                {
+                    "lower limit": "160 mg%"
+                }
+            ]
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular hora",
+            "result_value": 7.39,
+            "unit_of_measurement": [
+                "gr"
+            ],
+            "reference_range": [
+                {
+                    "lower limit": "6"
+                },
+                {
+                    "upper limit": "8.2 gr"
+                }
+            ]
+        },
+        {
+            "test_name": "Pruebas enzimáticas",
+            "result_value": [
+                14,
+                5
+            ],
+            "unit_of_measurement": [
+                "U/I"
+            ],
+            "reference_range": null
+        }
+    ]
+}

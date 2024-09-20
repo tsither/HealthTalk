@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 125,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose (GLD)",
+            "result_value": "125",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "8.7 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": "15,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

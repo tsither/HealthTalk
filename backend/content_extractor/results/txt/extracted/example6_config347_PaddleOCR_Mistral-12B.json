@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "Ya3h Omplete",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "13.2",
+                "Hct": "40.5",
+                "MCV": "84.5",
+                "MCH": "27.6",
+                "MCHC": "32.7",
+                "RDW-CV": "13.2",
+                "RDW-SD": "42.6",
+                "PLT": "250,000",
+                " Neutrophils": "55%",
+                "Lymphocytes": "38%",
+                "Monocytes": "6%",
+                "Eosinophils": "1%",
+                "Basophils": "trace"
+            },
+            "unit_of_measurement": {
+                "WBC": "/µL",
+                "RBC": "/cells",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "fL",
+                "PLT": "/µL",
+                "%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

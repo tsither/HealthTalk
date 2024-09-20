@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Serie Roja",
+            "result_value": {
+                "Hematies": 4.75,
+                "Hemoglobina": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C,M.": 27.9
+            },
+            "unit_of_measurement": {
+                "Hematies": "%",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%"
+            },
+            "reference_range": {
+                "V.C.M.": "80.0 - 98.0"
+            }
+        },
+        {
+            "test_name": "Serie Plaquetar",
+            "result_value": {
+                "Plaquetas": 208,
+                "V.P.M.": 9.1,
+                "A.D.P.": 16.2
+            },
+            "unit_of_measurement": {
+                "Plaquetas": "10E3/pL",
+                "V.P.M.": "%",
+                "A.D.P.": "%"
+            },
+            "reference_range": {
+                "Plaquetas": "140 - 400"
+            }
+        },
+        {
+            "test_name": "Serie Blanca",
+            "result_value": {
+                "Leucocitos": 4.2
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10E3/μL"
+            },
+            "reference_range": null
+        }
+    ]
+}

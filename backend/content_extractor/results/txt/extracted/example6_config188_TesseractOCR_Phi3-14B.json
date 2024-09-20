@@ -1,0 +1,81 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5",
+                "Total RBC count §": "8.0",
+                "Mean Corpuscutar Volume (MCV) $": "75.75",
+                "Platelet Count Platelets count ¢": "140"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb) ": null,
+                "Total RBC count §": null,
+                "Mean Corpuscutar Volume (MCV) $": null,
+                "Platelet Count Platelets count ¢": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb) ": [
+                    "13.0-17.9 g/dL"
+                ],
+                "Total RBC count §": [
+                    "45-55 x 10^9/L"
+                ],
+                "Mean Corpuscutar Volume (MCV) $": null,
+                "Platelet Count Platelets count ¢": [
+                    "130-370 x 10^9/L"
+                ]
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Neutrophils ": "60"
+                },
+                {
+                    "Eosinophils ": "1"
+                },
+                {
+                    "Monocytes ": "7"
+                },
+                {
+                    "Basophils ": "1"
+                }
+            ],
+            "unit_of_measurement": {
+                "Neutrophils ": null,
+                "Eosinophils ": null,
+                "Monocytes ": null,
+                "Basophils ": null
+            },
+            "reference_range": [
+                {
+                    "Neutrophils ": [
+                        "40-75 %"
+                    ]
+                },
+                {
+                    "Eosinophils ": [
+                        "1-6 %"
+                    ]
+                },
+                {
+                    "Monocytes ": [
+                        "3-9 %"
+                    ]
+                },
+                {
+                    "Basophils ": null
+                }
+            ]
+        }
+    ]
+}

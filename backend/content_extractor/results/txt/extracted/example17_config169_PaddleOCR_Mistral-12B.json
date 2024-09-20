@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "M07",
+        "patient_name": null,
+        "patient_sex": "F",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": "15000",
+                "RBC": "4.1",
+                "HGB": "11.6",
+                "HCT": "34.5",
+                "PLT": "220"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": "million/mm^3",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "thousand/mm^3"
+            },
+            "reference_range": null
+        }
+    ]
+}

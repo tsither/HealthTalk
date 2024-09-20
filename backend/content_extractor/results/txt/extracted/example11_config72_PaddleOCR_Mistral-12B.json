@@ -1,0 +1,110 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "Age : 21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "status": "Low"
+                },
+                "Total RBC count": {
+                    "value": 5.2,
+                    "unit": "7p/6"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 4.5
+                },
+                "Mean Corpuscular Volume (McV)": {
+                    "value": 87.75,
+                    "status": "High"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit": "fL",
+                    "status": "Calculated"
+                },
+                "RDW": {
+                    "value": 32.8
+                },
+                "Total WBC count": {
+                    "value": 13.6,
+                    "unit": "7p/6"
+                },
+                "Neutrophils cumm": {
+                    "value": 9000
+                },
+                "Lymphocytes": {
+                    "value": 60
+                },
+                "Eosinophils": {
+                    "value": 31
+                },
+                "Monocytes": {
+                    "value": 1,
+                    "status": "%"
+                },
+                "Basophils": {
+                    "value": 7,
+                    "status": "%"
+                },
+                "Platelet Count %": {
+                    "value": 1
+                }
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "7p/6",
+                "Packed Cell Volume (PCV)": "mill/cumm",
+                "Mean Corpuscular Volume (McV)": "fL",
+                "MCH": "fL",
+                "RDW": "%",
+                "Total WBC count": "7p/6",
+                "Neutrophils cumm": "cumm",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count %": "%"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "value": 13.0,
+                    "status": "-",
+                    "unit": "17.0"
+                },
+                "Total RBC count": {
+                    "value": 4.5,
+                    "status": "-",
+                    "unit": "5.5"
+                },
+                "Mean Corpuscular Volume (McV)": {
+                    "value": 40,
+                    "status": "-",
+                    "unit": "50"
+                },
+                "MCH": {
+                    "value": 83,
+                    "status": "-",
+                    "unit": "101"
+                },
+                "RDW": {
+                    "value": 32.5,
+                    "status": "-",
+                    "unit": "34.5"
+                },
+                "Total WBC count": {
+                    "value": 11.6,
+                    "status": "-",
+                    "unit": "14.0"
+                }
+            }
+        }
+    ]
+}

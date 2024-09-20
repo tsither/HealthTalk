@@ -1,0 +1,46 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 69576,
+            "unit_of_measurement": "cumm",
+            "reference_range": [
+                "105-10",
+                "A"
+            ]
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 13.0,
+            "unit_of_measurement": "thousand/cumm"
+        },
+        {
+            "test_name": "RBC Differential - Neutrophils",
+            "result_value": 57.8
+        },
+        {
+            "test_name": "RBC Differential - Lymphocytes",
+            "result_value": 32.5
+        },
+        {
+            "test_name": "RBC Differential - Monocytes",
+            "result_value": 6.0
+        },
+        {
+            "test_name": "RBC Differential - Eosinophils",
+            "result_value": 27
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 150000,
+            "unit_of_measurement": "#"
+        }
+    ]
+}

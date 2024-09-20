@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID",
+        "patient_name": "THCAREI",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "HemogloBin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.7-6.1 x10^6/uL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 32.8,
+                "Platelet": 57.5
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Platelet": "/10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "Platelet": {
+                    "Low": 150000,
+                    "High": 410000
+                }
+            }
+        }
+    ]
+}

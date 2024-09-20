@@ -1,0 +1,30 @@
+{
+    "Date": "202x-12-05T15:05:11",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "02",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Mild Anemia"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Decreased, Low Corpuscular Volume Calculated PCV = 13%, Mean Corpuscular Volume (MCV) = 57.5 fL, Mean Corpuscular Hemoglobin Concentration (MCHC) = 45.5 g/dL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "40.50",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

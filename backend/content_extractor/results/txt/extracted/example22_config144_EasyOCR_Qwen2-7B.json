@@ -1,0 +1,48 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "170 1504 ni years",
+        "patient_blood_type": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC count": "3 o 525",
+                "RBC count": "170 1504 ni",
+                "Hemoglobin (f Hbl)": "860",
+                "MCV (Mean Corpuscular Volume)": "2172 h pcv cd rbc be",
+                "MPV (Mean Platelet Volume)": null,
+                "RDW (Red Cell Distribution Width)": null,
+                "Platelet count": "null"
+            },
+            "unit_of_measurement": {
+                "WBC count": "/mL",
+                "RBC count": "cells/microliter",
+                "Hemoglobin": "g/dL",
+                "MCV": "fL",
+                "MPV": null,
+                "RDW": "%",
+                "Platelet count": "/mL"
+            },
+            "reference_range": {
+                "WBC count": "[4000-11000] /mL",
+                "RBC count": "[3.5-5.5] cells/microliter",
+                "Hemoglobin": "[120-160] g/dL",
+                "MCV": "[78-98] fL",
+                "MPV": null,
+                "RDW": "[11.5-14.5]%",
+                "Platelet count": "[150-350] /mL"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "null",
+            "unit_of_measurement": "/mL",
+            "reference_range": "[150-350] /mL"
+        }
+    ]
+}

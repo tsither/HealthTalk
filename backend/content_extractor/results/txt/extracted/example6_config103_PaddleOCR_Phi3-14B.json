@@ -1,0 +1,49 @@
+{
+    "Date": "02.12.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "Hemoglobin (Hb)": 87.75,
+                "Total WBC count": null,
+                "RBC count": null,
+                "Platelet Count": null,
+                "Lymphocytes (DMLT, BMLC)": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": null,
+                "Total WBC count": "x10^9/L",
+                "RBC count": "mill/cumm",
+                "Platelet Count": "x10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": null,
+                "Total WBC count": "4.5-11.0 x10^9/L",
+                "RBC count": "3.8 - 5.2 mill/cumm",
+                "Platelet Count": "150 - 400 x10^9/L"
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

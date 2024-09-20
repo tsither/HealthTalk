@@ -1,0 +1,36 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02.31"
+    },
+    "test_results": [
+        {
+            "test_name": "RED BLOOD CELL (RBC) COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "/mill/cumm",
+            "reference_range": {
+                "low": [
+                    "Anemia - Iron deficiency",
+                    "chronic diseases",
+                    "Bleeding",
+                    "Trauma, ulcers, heavy menstruation",
+                    "Bone marrow disorders",
+                    "Sickle cell anemia"
+                ],
+                "high": [
+                    "Polycythemia",
+                    "Increased production of red blood cells",
+                    "Dehydration",
+                    "Concentration of red blood cells due to fluid loss",
+                    "Lung diseases",
+                    "Chronic obstructive pulmonary disease (COPD)",
+                    "Kidney disease"
+                ]
+            }
+        }
+    ]
+}

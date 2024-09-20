@@ -1,0 +1,24 @@
+{
+    "Date": "03:11 Ph! 02 Cec. 2x",
+    "patient_information": {
+        "patient_id": "QS 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "Sample_Collected_At": "125. Shivam Bungalow. § G Road. Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (HB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "Male": "13.5-17.5 g/dl",
+                "Female": "12.0-15.5 g/dl"
+            },
+            "Interpretation": [
+                "Low Levels | May indicate anemia or blood loss. Further testing may be necessary to determine the underlying cause."
+            ]
+        }
+    ]
+}

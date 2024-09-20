@@ -1,0 +1,65 @@
+{
+    "Date": "23456789 01",
+    "patient_information": {
+        "patient_id": "1234",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "89%",
+            "unit_of_measurement": "%",
+            "reference_range": "[0-17.0]"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "12.5 MCH",
+            "unit_of_measurement": "",
+            "reference_range": "[8-32]"
+        },
+        {
+            "test_name": "Total wBC DIFFERENTIAL WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "32.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "[45-55]"
+        },
+        {
+            "test_name": "Lymphocyies",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophls",
+            "result_value": "13.6%",
+            "unit_of_measurement": "%",
+            "reference_range": "[0-5]"
+        },
+        {
+            "test_name": "Monocyies",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[0-1]"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[150,000 - 410,000]"
+        }
+    ]
+}

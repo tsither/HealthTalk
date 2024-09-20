@@ -1,0 +1,23 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 5.8,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0 - 5.6%"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 7.2,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5 - 11.0"
+        }
+    ]
+}

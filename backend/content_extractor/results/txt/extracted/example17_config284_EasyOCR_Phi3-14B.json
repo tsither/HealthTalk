@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "oxygen saturation",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "[95-100]%"
+        },
+        {
+            "test_name": "hemoglobin level",
+            "result_value": null,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 7 202)",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah (PCV)",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET Co COUNT",
+            "result_value": 4000,
+            "unit_of_measurement": "/μL",
+            "reference_range": "[3.6-9.6] * 10^3/μL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 88,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[37-48]%"
+        },
+        {
+            "test_name": "HGB (g/dL)",
+            "result_value": 166,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12.0-15.0] g/dL"
+        }
+    ]
+}

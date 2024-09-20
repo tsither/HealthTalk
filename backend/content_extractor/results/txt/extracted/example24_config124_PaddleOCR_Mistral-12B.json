@@ -1,0 +1,27 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 79006,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Differential Count",
+            "result_value": {
+                "Neutrophils": 13.6,
+                "Lymphocytes": 87.75,
+                "Monocytes": 3.28
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

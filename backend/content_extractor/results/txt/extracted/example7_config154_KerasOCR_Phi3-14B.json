@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemogloe",
+            "result_value": 12.35,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[14-18 g/dL]"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 0.35,
+            "unit_of_measurement": "%",
+            "reference_range": "[39-52%]"
+        }
+    ]
+}

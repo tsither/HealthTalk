@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12.5, RBC count: 5.2",
+            "unit_of_measurement": "g/dL, Million per microliter",
+            "reference_range": "Hb: 13.0-17.0 g/dL, RBC: 4.0-6.0 million cells/mcL"
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "PCV: 4.5, McV: 57.5, MCH: 27.2 fL",
+            "unit_of_measurement": "mill/cumm, femtoliter (fL)",
+            "reference_range": "PCV: 38-50%, McV: 40-50 fl, MCH: 27-32 pg"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils: 60%, Lymphocytes: 31%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000 per microliter",
+            "unit_of_measurement": "per microliter (µL)",
+            "reference_range": "150,000-450,000 per µL"
+        }
+    ]
+}

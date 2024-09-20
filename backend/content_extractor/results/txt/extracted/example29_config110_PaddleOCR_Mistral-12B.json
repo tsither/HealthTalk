@@ -1,0 +1,29 @@
+{
+    "Date": "04.05.XXX",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million cells/mm3",
+            "reference_range": "4.0 - 6.1"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": "4000 - 11000"
+        },
+        {
+            "test_name": "HGB concentration",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

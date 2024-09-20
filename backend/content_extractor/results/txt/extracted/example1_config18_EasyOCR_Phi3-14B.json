@@ -1,0 +1,70 @@
+{
+    "Date": "Null",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "Null"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (Complete Blood Count - CBC)",
+            "result_value": {
+                "hemoglobin": 125,
+                "rbc count low": 13,
+                "total rbc count": 70,
+                "blood indices": 457.5,
+                "packed milicumm cell volume (pcv)": 57.5,
+                "mean corpuscular volume (mcV)": 87.75
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/L",
+                "rbc count low": "cells x10^9/L",
+                "total rbc count": "cells x10^12/L",
+                "blood indices": "Null",
+                "packed milicumm cell volume (pcv)": "percentage(%)",
+                "mean corpuscular volume (mcV)": "femtolitres(fL)"
+            },
+            "reference_range": {
+                "hemoglobin": "[Null]",
+                "rbc count low": "[Null]",
+                "total rbc count": "[Null]",
+                "blood indices": "[Null]",
+                "packed milicumm cell volume (pcv)": "[Null]",
+                "mean corpuscular volume (mcV)": "[Null]"
+            }
+        },
+        {
+            "test_name": "Blood Indices - GIDL",
+            "result_value": 52,
+            "unit_of_measurement": "g/dL",
+            "reference_eange": "[Null]"
+        },
+        {
+            "test_name": "WBC Differential Count - Drlogy",
+            "result_value": {
+                "neutrophils": 60,
+                "lymphocytes": 50,
+                "eosinophils": 20,
+                "monocytes": 1,
+                "basophils": 4
+            },
+            "unit_of_measurement": {
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%"
+            },
+            "reference_range": "[Null]"
+        },
+        {
+            "test_name": "Platelet Count - Oo",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

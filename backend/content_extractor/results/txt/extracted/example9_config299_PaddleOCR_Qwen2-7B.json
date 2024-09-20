@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "168 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-200 mg/dL"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": "92 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglon (Hb)": 12.5,
+                "Mean Corpuscular Volume (MCY)": 87.75,
+                "Lymphocytes%": null,
+                "Eosinophils%": null,
+                "Monocytes%": null,
+                "Basophils%": null,
+                "Platelet Count Bord cumm": 150000,
+                "Hematocrit (ROW)": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "Mean Corpuscular Volume (MCY)": "fL",
+                "Platelet Count Bord cumm": "Bord cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.g/dl",
+                "Mean Corpuscular Volume (MCY)": null,
+                "Platelet Count Bord cumm": null
+            }
+        }
+    ]
+}

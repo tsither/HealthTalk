@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 15000,
+            "unit_of_measurement": "I/µL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 268,
+            "unit_of_measurement": "I/µL",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0-47.0"
+        }
+    ]
+}

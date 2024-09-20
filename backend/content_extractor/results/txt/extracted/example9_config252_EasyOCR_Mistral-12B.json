@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456739",
+        "patient_name": "Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "5.55",
+            "unit_of_measurement": "T/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb concentration",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87.2",
+            "unit_of_measurement": "fL",
+            "reference_range": "76-96"
+        }
+    ]
+}

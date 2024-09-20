@@ -1,0 +1,75 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "rbc_count": {
+                    "value": 5.2,
+                    "unit": "million/uL"
+                },
+                "hct": {
+                    "value": 57.5,
+                    "status": "high"
+                },
+                "mcv": {
+                    "value": 87.75
+                },
+                "mch": {
+                    "value": 27.1
+                },
+                "mchc": {
+                    "value": 32.8
+                },
+                "wbc_count": {
+                    "value": 6000,
+                    "unit": "cells/uL"
+                },
+                "neutrophils": {
+                    "value": 60,
+                    "percent": 39
+                },
+                "lymphocytes": {
+                    "value": 31,
+                    "percent": 37
+                },
+                "eosinophils": {
+                    "value": 2,
+                    "percent": 0.5
+                },
+                "monocytes": {
+                    "value": 3,
+                    "percent": 0.6
+                },
+                "basophils": {
+                    "value": 4,
+                    "percent": 1
+                },
+                "platelet_count": {
+                    "value": 185000,
+                    "unit": "cells/uL"
+                }
+            },
+            "reference_range": null,
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "million/uL",
+                "hct": "%",
+                "mcv": "fL",
+                "mch": "pg",
+                "mchc": "g/dL",
+                "wbc_count": "cells/uL"
+            }
+        }
+    ]
+}

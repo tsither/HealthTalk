@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "Rogypatlaburliogm",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_address": "125 Shivam Bungalow S G Road, Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 9,
+            "unit_of_measurement": null,
+            "reference_range": "754 - 1357"
+        }
+    ],
+    "comments": "Patient's PDW result is below the normal range. This may indicate a possible iron deficiency or bone marrow disorders.",
+    "collected_by": [
+        "Dr Hiren Shah",
+        "Dr Payal Shah"
+    ],
+    "reported_by": [
+        {
+            "name": "Dr Vimal Shah",
+            "qualification": "DML T, MD"
+        },
+        {
+            "name": "Pathologist",
+            "specialty": "Mad Pathology Consulting Ltd."
+        }
+    ],
+    "sample_collection_notes": [
+        {
+            "note": "Sample collected at age 21 years.",
+            "collected_by": [
+                "Dr Hiren Shah"
+            ]
+        },
+        {
+            "note": "Registered on Mumbai registry no. 02-31.",
+            "registered_by": null
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Date": "02/11/2022",
+    "patient_information": {
+        "patient_id": "0123a6769",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Male": "135-175",
+                "Female": "120-155"
+            },
+            "interpretation": "Low, may indicate further investigation for underlying cause"
+        }
+    ]
+}

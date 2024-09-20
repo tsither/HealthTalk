@@ -1,0 +1,126 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": 234,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RECUENTO GLOBULAR",
+            "result_value": 4.96,
+            "unit_of_measurement": "000/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "EOSINOFILOS": 2,
+                "HEMATOCRITO": 44,
+                "HEMOGLOBINA%": 14.8,
+                "SEGMENTADOS": 57,
+                "LINFOCITOS": 36,
+                "PLAQUETAS/mm³": 138,
+                "MONOCITOS": 10,
+                "BASOFILOS": 8.7,
+                "VELOCIDAD DE SEDIMENTACION": 2
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "GLUCOSA",
+            "result_value": 87,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "COLESTEROL",
+            "result_value": 169,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "150 - 220"
+        },
+        {
+            "test_name": "HDL",
+            "result_value": 60,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "35-65"
+        },
+        {
+            "test_name": "LDL",
+            "result_value": "<40",
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "TRIGLICERIDOS",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "<150"
+        },
+        {
+            "test_name": "UREA",
+            "result_value": 49,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "<50"
+        },
+        {
+            "test_name": "Ac. URICO",
+            "result_value": 45,
+            "unit_of_measurement": null,
+            "reference_range": "3-7 (H) / 29-6 (M)"
+        },
+        {
+            "test_name": "HIERRO",
+            "result_value": 445,
+            "unit_of_measurement": "ng%",
+            "reference_range": "50 - 160"
+        },
+        {
+            "test_name": "CREATININA",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg%",
+            "reference_range": "0.5-1.2"
+        },
+        {
+            "test_name": "HOMOCISTEINA",
+            "result_value": 7.39,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "5.46-16.2"
+        },
+        {
+            "test_name": "PROTEINAS T",
+            "result_value": 1.5,
+            "unit_of_measurement": "gr%",
+            "reference_range": "62-82"
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS V.N.",
+            "result_value": {
+                "GoT": "<40",
+                "GPT": 43,
+                "GT": 45
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA V.N.",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 98,
+                "cg/L": 37,
+                "POTASIO": 402
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

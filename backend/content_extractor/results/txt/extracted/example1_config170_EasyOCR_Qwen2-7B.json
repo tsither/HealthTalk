@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash m",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "loty",
+            "reference_range": "130 to 170 gidl"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": 55.55,
+            "unit_of_measurement": "count milicumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "high so s0 x"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": 328,
+            "unit_of_measurement": "gidl",
+            "reference_range": null
+        }
+    ]
+}

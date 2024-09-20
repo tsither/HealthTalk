@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 0.5,
+            "unit_of_measurement": null,
+            "reference_range": "40-100 fo/cm^3"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.5-5.7 x10^6/uL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 32,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

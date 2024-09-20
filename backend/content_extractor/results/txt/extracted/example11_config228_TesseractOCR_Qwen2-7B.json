@@ -1,0 +1,136 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "Ry 0123456789",
+        "patient_name": "Shivam Bungalow, S$ G Road",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) 12.5 Low",
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "Total RBC count 5.2",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": [
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": "$7.5",
+                    "status": "High"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": "87.75",
+                    "status": "Normal"
+                },
+                {
+                    "name": "Carteret J MCH",
+                    "value": "27.2",
+                    "status": null
+                },
+                {
+                    "name": "MCHC",
+                    "value": "32.8",
+                    "status": null
+                },
+                {
+                    "name": "ROW",
+                    "value": "13.6",
+                    "status": null
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "range": "40-50"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "range": "83-101 fl."
+                },
+                {
+                    "name": "Carteret J MCH",
+                    "range": null
+                },
+                {
+                    "name": "MCHC",
+                    "range": "32.8 - 34.5 g/dL"
+                },
+                {
+                    "name": "ROW",
+                    "range": "11.6-140 %"
+                }
+            ]
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "Total wBC count! ot) goog ie",
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": [
+                {
+                    "name": "Neutrophils",
+                    "value": "60"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": "31 pote Me yy"
+                },
+                {
+                    "name": "Fosinophils",
+                    "value": "1"
+                },
+                {
+                    "name": "Monocyies",
+                    "value": "7 00-10 %"
+                },
+                {
+                    "name": "Basophils",
+                    "value": "1 00 - 02 %"
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Neutrophils",
+                    "range": "50-62, &"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "range": "20-40'''' %"
+                },
+                {
+                    "name": "Fosinophils",
+                    "range": null
+                },
+                {
+                    "name": "Monocyies",
+                    "range": null
+                },
+                {
+                    "name": "Basophils",
+                    "range": null
+                }
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "Platelet Count 380000 Borderline",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

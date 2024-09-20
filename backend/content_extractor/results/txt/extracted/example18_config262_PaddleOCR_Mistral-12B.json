@@ -1,0 +1,39 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "C 0123456789 | 0912345678 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "32.8",
+                "RBC": "4.6",
+                "HGB": "15.0",
+                "PLT": "230000"
+            },
+            "unit_of_measurement": "poo|8 Result per cumm F aP Unit mill/cumm",
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "3.9 - 5.7",
+                "HGB": "12.0 - 16.0",
+                "PLT": "150000 - 410000"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "58%",
+                "Lymphocytes": "32.8%",
+                "Monocytes": "6.5%",
+                "Eosinophils": "1.7%",
+                "Basophils": "0.8%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

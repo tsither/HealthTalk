@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 101,
+        "patient_name": "Painologist",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_eame": "Blood count - Complete",
+            "result_value": 555,
+            "unit_of_measurement": "Pid",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 70,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Platelets Count (TPC)",
+            "result_value": 136,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

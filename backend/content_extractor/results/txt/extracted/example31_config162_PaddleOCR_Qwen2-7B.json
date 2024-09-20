@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell count",
+            "result_value": 5.5,
+            "unit_of_measurement": "101",
+            "reference_range": "[13.0- 13.6]"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[12.5 | 0912345678]"
+        }
+    ]
+}

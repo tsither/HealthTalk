@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HCT": 36.0,
+                "HB": 11.98,
+                "MCV": 27.32,
+                "MCH": 43.37,
+                "%E": 37.0
+            },
+            "unit_of_measurement": {
+                "HCT": "%",
+                "HB": "g/dL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "%E": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de Sedimentacion",
+            "result_value": 2,
+            "unit_of_measurement": "hrs",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": 87,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Bilirubina Total",
+            "result_value": 1.69,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<2.0 mg/dL"
+        },
+        {
+            "test_name": "Rotinina",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodio",
+            "result_value": 141,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "135-145 mEq/L"
+        },
+        {
+            "test_name": "Cloro",
+            "result_value": 98,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "98-110 mEq/L"
+        },
+        {
+            "test_name": "Potasio",
+            "result_value": 4.2,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "3.7-5.3 mEq/L"
+        }
+    ]
+}

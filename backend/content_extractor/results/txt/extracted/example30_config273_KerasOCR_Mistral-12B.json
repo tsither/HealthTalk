@@ -1,0 +1,29 @@
+{
+    "Date": "21.12.2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "White Blood Cell (WBC) Count": 12.1,
+                "Red Blood Cell (RBC) Volume": 45,
+                "Hemoglobin (Hb)": 13,
+                "Platelet Count": 280,
+                "Erythrocyte Sedimentation Rate (ESR)": 18
+            },
+            "unit_of_measurement": {
+                "White Blood Cell (WBC) Count": "cells/mm³",
+                "Red Blood Cell (RBC) Volume": "%",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelet Count": "cells/mm³",
+                "Erythrocyte Sedimentation Rate (ESR)": "mm/hr"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "Date": "09/12/2023",
+    "patient_information": {
+        "patient_id": "0123466780",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 3.5,
+                "RBC": 4.6,
+                "Hb": 12.5,
+                "HCT": 38,
+                "MCV": 90,
+                "MCH": 27,
+                "MCHC": 30,
+                "PLT": 150000
+            },
+            "unit_of_measurement": {
+                "WBC": "G/L",
+                "RBC": "G/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "G/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0 G/L",
+                "RBC": "4.27 - 6.2 G/L",
+                "Hb": "11.6 - 14.0 g/dL",
+                "HCT": "37 - 47 %",
+                "MCV": "80 - 95 fL",
+                "MCH": "27 - 31 pg",
+                "MCHC": "30 - 36 g/dL",
+                "PLT": "150 - 450 G/L"
+            }
+        }
+    ]
+}

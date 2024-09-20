@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "unknown",
+        "patient_name": "unknown",
+        "patient_sex": "male",
+        "patient_age": [
+            55
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Thrombocytosis",
+            "result_value": 125,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "100-450 million/uL"
+        },
+        {
+            "test_name": "Plateletcrit PDW",
+            "result_value": 757,
+            "unit_of_measurement": "% of Platelets",
+            "reference_range": "12-20%"
+        },
+        {
+            "test_name": "Blood Group (O)",
+            "result_value": null,
+            "unit_of_measurement": "n/a",
+            "reference_range": "A+, A-, B+, B-, AB+, AB-, O+, O-"
+        }
+    ]
+}

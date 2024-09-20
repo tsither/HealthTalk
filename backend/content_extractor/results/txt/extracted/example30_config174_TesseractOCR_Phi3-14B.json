@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "hemoglobin": 12.5
+                },
+                {
+                    "total RBC count": 4.5
+                },
+                {
+                    "packed cell volume": 7.5
+                },
+                {
+                    "mean corpuscular volume": 87.75
+                },
+                {
+                    "mean corpuscular hemoglobin": 27.2
+                },
+                {
+                    "mean corpuscular hemoglobin concentration": 32.8
+                },
+                {
+                    "red blood cell count": 13.6
+                }
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "neutrophils": 50
+                },
+                {
+                    "lymphocytes": 30
+                },
+                {
+                    "eosinophils": 1.2
+                },
+                {
+                    "monocytes": 8.8
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                {
+                    "platelet count": 400000
+                }
+            ]
+        }
+    ],
+    "instruments": [
+        "Fully automated cell counter - Mindray ˈ300"
+    ],
+    "interpretation": "Further confirm for Anemia"
+}

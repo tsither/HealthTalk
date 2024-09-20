@@ -1,0 +1,73 @@
+{
+    "Date": "202X-12-02",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Caring Sex : 21",
+        "patient_sex": "Male",
+        "patient_age": "Years 555"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) BLOOD INDICES count",
+            "result_value": "689578",
+            "unit_of_measurement": "poolg",
+            "reference_range": "-"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": "12.5 e",
+            "unit_of_measurement": "(fL)",
+            "reference_range": "11.6 - 34.5"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "5.2 WBC Reference Value COUNT",
+            "unit_of_measurement": "-",
+            "reference_range": "-"
+        },
+        {
+            "test_name": "WBC DIFFERENTIAL COUNT",
+            "result_value": [
+                {
+                    "type": "Low Rep I on Neutr",
+                    "value": "27.2"
+                },
+                {
+                    "type": "Lymphc",
+                    "value": null
+                },
+                {
+                    "type": "Eosinophils",
+                    "value": null
+                },
+                {
+                    "type": "Monocytes",
+                    "value": "32.8"
+                },
+                {
+                    "type": "Basophils",
+                    "value": null
+                }
+            ],
+            "unit_of_measurement": "-",
+            "reference_range": []
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "83 - 7P/6 T COUNT",
+            "unit_of_measurement": "-",
+            "reference_range": [
+                {
+                    "min": "107",
+                    "max": null
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "-",
+            "reference_range": []
+        }
+    ]
+}

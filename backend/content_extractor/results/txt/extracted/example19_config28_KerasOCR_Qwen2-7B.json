@@ -1,0 +1,70 @@
+{
+    "Date": "0811",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "",
+        "patient_sex": "male",
+        "patient_age": "17"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Dre Count",
+            "result_value": "low",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (hb)",
+            "result_value": 116,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Indices",
+            "result_value": {
+                "total_volume": 328,
+                "volume_thoog": "lo"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells Count (wbc)",
+            "result_value": [
+                {
+                    "count": "150000"
+                },
+                {
+                    "borderline": "diff"
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (mcv)",
+            "result_value": 9000,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                {
+                    "count": "202x confirm fully"
+                },
+                {
+                    "dec ol instruments": ""
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

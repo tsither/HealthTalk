@@ -1,0 +1,29 @@
+{
+    "Date": "01/12/2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7.5, RBC: 5.0, HGB: 13.2, HCT: 39.8, MCHC: 36, PLT: 200, MPV: 8.6, RDW: 14",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 25, AST: 30, ALP: 75, TBIL: 0.6, DBIL: 0.1, GLB: 4.8, ALC: 0.9",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": "Cr: 0.75, BUN: 10, UNA: 32, UA: 486",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

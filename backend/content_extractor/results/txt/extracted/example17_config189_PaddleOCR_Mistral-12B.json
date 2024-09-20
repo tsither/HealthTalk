@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 13.6,
+                "Total WBC count": 32.8,
+                "Platelet count": "Low"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Total WBC count": "10^9/L",
+                "Platelet count": null
+            },
+            "reference_range": {
+                "Hemoglobin": "13.5-17.5 g/dL",
+                "Total WBC count": "4.5-11.0 10^9/L",
+                "Platelet count": "150,000 - 410,000"
+            }
+        }
+    ]
+}

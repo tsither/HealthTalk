@@ -1,0 +1,29 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "sample 0123456789",
+        "patient_name": "instant patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 689,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "packed cell volume",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "wbc count total",
+            "result_value": 45,
+            "unit_of_measurement": "Ku/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente Recently Informado",
+        "patient_sex": "Varon",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.0",
+                "Hemoglobina": "13.5",
+                "VCM": "80",
+                "MCV": "70",
+                "AMC": "22",
+                "Leucocitos": "10.2",
+                "Lymphocytes": "09 M"
+            },
+            "unit_of_measurement": {
+                "Hematies": "x10^6/uL",
+                "Hemoglobina": "g/dL",
+                "VCM": "FL",
+                "MCV": "FL",
+                "AMC": "g/dL",
+                "Leucocitos": "x10^3/uL",
+                "Lymphocytes": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

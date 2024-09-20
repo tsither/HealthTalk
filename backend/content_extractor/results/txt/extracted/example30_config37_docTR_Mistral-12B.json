@@ -1,0 +1,59 @@
+{
+    "Date": "Dec, 202X",
+    "patient_information": {
+        "patient_id": "OR216523",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "RBC_count": "4.56",
+                "Hb": "13.0",
+                "PCV": "37.8",
+                "MCH": "29.6",
+                "MCHC": "33.5",
+                "RDW": "13.6",
+                "Total_WBC_count": "9.0",
+                "Neutrophils": "60.0",
+                "Lymphocytes": "30.0",
+                "Monocytes": "7.0",
+                "Eosinophils": "2.0",
+                "Basophiles": "1.0",
+                "Platelet_count": "150000"
+            },
+            "unit_of_measurement": {
+                "RBC_count": "million/uL",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "Total_WBC_count": "thousand/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophiles": "%",
+                "Platelet_count": "thousand/uL"
+            },
+            "reference_range": {
+                "RBC_count": "4.5-6.0",
+                "Hb": "13.0-18.0",
+                "PCV": "42-52",
+                "MCH": "27-31",
+                "MCHC": "32-36",
+                "RDW": "11.5-14.5",
+                "Total_WBC_count": "4.0-11.0",
+                "Neutrophils": "40-75",
+                "Lymphocytes": "20-45",
+                "Monocytes": "3-8",
+                "Eosinophils": "1-4",
+                "Basophiles": "0-1",
+                "Platelet_count": "150-400"
+            }
+        }
+    ]
+}

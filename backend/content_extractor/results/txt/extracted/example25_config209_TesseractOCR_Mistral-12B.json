@@ -1,0 +1,22 @@
+{
+    "Date": "12.07.23",
+    "patient_information": {
+        "patient_id": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47%"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 9.6,
+            "unit_of_measurement": "×10^3/μL"
+        }
+    ]
+}

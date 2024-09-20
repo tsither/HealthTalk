@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1801170",
+        "patient_name": "Shah Shivam Smart",
+        "patient_sex": "Male",
+        "patient_age": 18
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 8.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 3.2,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC indices",
+            "result_value": {
+                "MCV": 87.75,
+                "MCH": 14,
+                "MCHC": 30,
+                "RDW-CV": 27.2,
+                "RDW-SD": 60
+            },
+            "unit_of_measurement": {
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "FL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 3.0,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 55,
+                "Lymphocytes": 45,
+                "Eosinophils": 0,
+                "Monocytes": 1,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": null
+        }
+    ]
+}

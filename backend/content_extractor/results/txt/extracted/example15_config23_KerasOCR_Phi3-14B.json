@@ -1,0 +1,21 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "adults": "9-17",
+                "children": "7.5-18",
+                "newborns": "16-24"
+            }
+        }
+    ]
+}

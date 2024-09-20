@@ -1,0 +1,82 @@
+{
+    "Date": "202X-12-02",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Mumbai at Bungalow",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 689578,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 45.1,
+            "unit_of_measurement": "%",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Low Corpuscular Calcuated PCV",
+            "result_value": 1308,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cellular Hemoglobin (MCH)",
+            "result_value": 27.659,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Blood Cells (WBC) Count",
+            "result_value": 4000,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Differential (WBC)",
+            "differential_values": [
+                {
+                    "neutrophils": 63.2
+                },
+                {
+                    "lymphocytes": 34.5
+                },
+                {
+                    "eosinophils": 1.8
+                },
+                {
+                    "monocytes": 0.5
+                }
+            ]
+        },
+        {
+            "test_name": "Glucose Level",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Bilirubin (TBIL)",
+            "result_value": 52.16,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": null
+        }
+    ]
+}

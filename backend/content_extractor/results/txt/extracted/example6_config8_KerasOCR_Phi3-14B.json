@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 456789,
+        "patient_name": "Foo Bar",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 54,
+            "unit_of_measurement": "cumm",
+            "reference_range": "3.9-5.7"
+        },
+        {
+            "test_name": "Hemoglobin HbA1C",
+            "result_value": 6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5200,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        }
+    ]
+}

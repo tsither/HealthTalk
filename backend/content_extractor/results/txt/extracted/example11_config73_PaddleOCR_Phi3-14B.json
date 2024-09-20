@@ -1,0 +1,50 @@
+{
+    "Date": "02.12.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "Blood HEMOGLOBIN Unit": "Hemoglobin (Hb) 12.5 Low"
+                },
+                {
+                    "RBC COUNT Total RBC count 5.2 g/dL BLOOD INDICES Packed Cell Volume (PCV) mill/cumm Mean Corpuscular Volume (McV) 57.5 High": "40-50"
+                },
+                {
+                    "Mean Corpuscular Hemoglobin (MCH) Calculated 27.2 fL": "27 - 32"
+                },
+                {
+                    "RDW WBC COUNT Total WBC count Percentage Basophils %": "10% - 6%"
+                }
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "%"
+            ],
+            "reference_range": [
+                "13.0-17.e",
+                "45-62"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                {
+                    "PLATELET COUNT Platelet Count %": "10% - 32%"
+                }
+            ],
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": [
+                "150000 - 410000"
+            ]
+        }
+    ]
+}

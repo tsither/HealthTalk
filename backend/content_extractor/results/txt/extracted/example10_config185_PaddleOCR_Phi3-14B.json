@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "(PDW) Platelet Distribution Width",
+            "result_value": 9.0,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Adults": "7.5 - 13.5%",
+                "Children": "8.0 - 17.o%",
+                "Newborns": "9.0 - 17.0%"
+            }
+        },
+        {
+            "test_name": "(Iron) Serum Iron Level",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "Lower than normal range": "< 30 mg/dL",
+                "Normal range": "50 - 160 mg/dL",
+                "Higher than normal range": ">160 mg/dL"
+            }
+        },
+        {
+            "test_name": "(Thrombocytopenia) Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": {
+                "Lower than normal range": "< 150 × 10^9/L",
+                "Normal range": "150 - 450 × 10^9/L",
+                "Higher than normal range": ">450 × 10^9/L"
+            }
+        },
+        {
+            "test_name": "(Vitamin B12) Vitamin B12 Level",
+            "result_value": null,
+            "unit_of_measurement": "pg/mL",
+            "reference_range": {
+                "Lower than normal range": "< 190 pg/mL",
+                "Normal range": "250 - 960 pg/mL",
+                "Higher than normal range": "> 960 pg/mL"
+            }
+        },
+        {
+            "test_name": "(Folate) Folate Level",
+            "result_value": null,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": {
+                "Lower than normal range": "< 2.7 ng/mL",
+                "Normal range": "3.0 - 17.0 ng/mL",
+                "Higher than normal range": "> 17.0 ng/mL"
+            }
+        },
+        {
+            "test_name": "(Hemoglobin) Hemoglobin Level",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Lower than normal range": "< 13.5 g/dL (men)",
+                "Normal range": "12.0 - 16.0 g/dL (women)",
+                "Higher than normal range": "> 18.0 g/dL"
+            }
+        }
+    ]
+}

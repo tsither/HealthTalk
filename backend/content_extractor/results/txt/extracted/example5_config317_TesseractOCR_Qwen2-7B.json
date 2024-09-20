@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 38
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit, Venous",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52"
+        },
+        {
+            "test_name": "Mean Platelet Volume, Platelet Distribution Width",
+            "result_value": 13.7,
+            "unit_of_measurement": "fl",
+            "reference_range": "10.5-14.5"
+        }
+    ]
+}

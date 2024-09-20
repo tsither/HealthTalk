@@ -1,0 +1,23 @@
+{
+    "Date": "20/10/2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 58
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count (FBC)",
+            "result_value": "WBC: 7.2, RBC: 4.8e+12/L, HGB: 13.6g/dL",
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4-10 K/uL, RBC: 4.5-5.5e+12/L, HGB: 12-16 g/dL"
+        },
+        {
+            "test_name": "Complete Metabolic Panel (CMP)",
+            "result_value": "Glucose: 83 mg/dL, Creatinine: 0.9 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": "Glucose: 70-100 mg/dL, Creatinine: 0.6-1.2 mg/dL"
+        }
+    ]
+}

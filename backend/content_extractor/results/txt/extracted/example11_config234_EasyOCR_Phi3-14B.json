@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "rcgiziored",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 130,
+            "unit_of_measurement": "g/L",
+            "reference_range": "150-160 g/L"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 4.7,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.5-5.9 x1e+12/L"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.65,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-96 fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.13,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

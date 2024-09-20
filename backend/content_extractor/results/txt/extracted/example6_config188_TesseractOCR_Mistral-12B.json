@@ -1,0 +1,63 @@
+{
+    "Date": "04.35 PM, 04 Nov",
+    "patient_information": {
+        "patient_id": "555 DEK",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "8.2",
+            "unit_of_measurement": "10^6 cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 37.5,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Total white cell count",
+            "result_value": 13.6,
+            "unit_of_measurement": "10^3/µl"
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": {
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 1
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 280000,
+            "unit_of_measurement": "per mm³"
+        }
+    ]
+}

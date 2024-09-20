@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel M.",
+        "patient_sex": "Male",
+        "patient_age": "17.0"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 55,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 325,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6-140"
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_value": 8725,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cells)",
+            "result_value": 460,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        }
+    ]
+}

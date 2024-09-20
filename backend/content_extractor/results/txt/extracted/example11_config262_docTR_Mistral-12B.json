@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Albumin",
+            "result_value": 3.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.4 - 5.0"
+        },
+        {
+            "test_name": "Serum Alanine Aminotransferase",
+            "result_value": 28,
+            "unit_of_measurement": "U/L",
+            "reference_range": "<55"
+        },
+        {
+            "test_name": "Serum Aspartate Aminotransferase",
+            "result_value": 30,
+            "unit_of_measurement": "U/L",
+            "reference_range": "<45"
+        }
+    ]
+}

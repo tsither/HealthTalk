@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 8.9,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.0-11.0"
+        },
+        {
+            "test_name": "Serum Electrolytes",
+            "result_value": 235,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80,
+        "patient_blood_type": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": null,
+            "unit_of_measurement": "mL",
+            "reference_range": [
+                "105",
+                "170"
+            ]
+        },
+        {
+            "test_name": "GDL count",
+            "result_value": 125,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "8775 cio hemogl",
+            "unit_of_measurement": "",
+            "reference_range": [
+                "normal"
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": [
+                "normal"
+            ]
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "mL",
+            "reference_range": [
+                "normal"
+            ]
+        }
+    ]
+}

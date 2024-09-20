@@ -1,0 +1,39 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555 PID",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HGB": {
+                    "value": "125",
+                    "unit": "g/dL"
+                },
+                "HCT": {
+                    "value": "37.0",
+                    "unit": "%"
+                },
+                "PLT": {
+                    "value": "27.2",
+                    "unit": "K/µL"
+                }
+            },
+            "reference_range": {
+                "HGB": [
+                    "13.5 - 18.5"
+                ],
+                "HCT": [
+                    "40 - 50"
+                ],
+                "PLT": [
+                    "150 - 450"
+                ]
+            }
+        }
+    ]
+}

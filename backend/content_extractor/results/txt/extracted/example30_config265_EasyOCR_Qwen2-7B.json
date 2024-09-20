@@ -1,0 +1,36 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "0122as6769",
+        "patient_name": "Yash Ma Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collected_sample_date": "d tsii pm"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC - Complete Blood Count Investigation",
+            "result_value": 125,
+            "unit_of_measurement": "lo",
+            "reference_range": "110-170"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": "40-90"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 81.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 136,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

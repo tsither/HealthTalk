@@ -1,0 +1,98 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Recuento de Hematíes",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": [
+                {
+                    "name": "Glucosa",
+                    "value": 169,
+                    "unit": "mg/dL"
+                },
+                {
+                    "name": "Hemoglobina",
+                    "value": 14.8,
+                    "unit": ""
+                },
+                {
+                    "name": "HDL-Colesterol",
+                    "value": null
+                },
+                {
+                    "name": "Trigliceridos",
+                    "value": null
+                },
+                {
+                    "name": "Urea",
+                    "value": 169,
+                    "unit": ""
+                },
+                {
+                    "name": "Creatinina",
+                    "value": 100,
+                    "unit": ""
+                },
+                {
+                    "name": "GOT",
+                    "value": null
+                },
+                {
+                    "name": "GPT",
+                    "value": null
+                }
+            ],
+            "reference_range": [
+                {
+                    "name": "Glucosa",
+                    "range": null
+                },
+                {
+                    "name": "Hemoglobina",
+                    "range": null
+                },
+                {
+                    "name": "HDL-Colesterol",
+                    "range": null
+                },
+                {
+                    "name": "Trigliceridos",
+                    "range": null
+                },
+                {
+                    "name": "Urea",
+                    "range": null
+                },
+                {
+                    "name": "Creatinina",
+                    "range": null
+                },
+                {
+                    "name": "GOT",
+                    "range": null
+                },
+                {
+                    "name": "GPT",
+                    "range": null
+                }
+            ]
+        }
+    ]
+}

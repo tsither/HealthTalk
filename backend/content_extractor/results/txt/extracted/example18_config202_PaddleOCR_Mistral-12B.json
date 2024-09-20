@@ -1,0 +1,30 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Hiren Patel",
+        "patient_sex": null,
+        "patient_age": 6
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 11.6,
+                "RBC": 32.5,
+                "HGB": 14.0,
+                "PLT": 34.5,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

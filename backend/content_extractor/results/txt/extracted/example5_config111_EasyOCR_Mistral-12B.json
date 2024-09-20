@@ -1,0 +1,29 @@
+{
+    "Date": "03 Dec 202X",
+    "patient_information": {
+        "patient_id": "125 Shivam Bungalow, S.G. Road, Mumbai",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 90,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "newborns": "75-13.5",
+                "adults": "<17",
+                "children": "<17"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 280,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "adults": "150-450"
+            }
+        }
+    ]
+}

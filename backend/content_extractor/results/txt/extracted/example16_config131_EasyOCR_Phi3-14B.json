@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 24
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": null,
+                "WBC": null,
+                "Hemoglobin": null,
+                "Platelets": null,
+                "Mean Corpuscular Volume (MCV)": null,
+                "MCHC": null,
+                "Red Cell Distribution Width (RDW)": null,
+                "White Blood Cells Differential Count": {
+                    "Neutrophils": null,
+                    "Lymphocytes": null,
+                    "Monocytes": null,
+                    "Eosinophils": null,
+                    "Basophils": null
+                }
+            },
+            "unit_of_measurement": {
+                "RBC": "/mcL",
+                "WBC": "/mcL",
+                "Hemoglobin": "g/dL",
+                "Platelets": "/microL"
+            },
+            "reference_range": null
+        }
+    ]
+}

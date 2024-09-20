@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "M",
+        "patient_age": 1
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 17.0,
+            "unit_of_measurement": "DrLogy",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 32.8,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 0.4,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

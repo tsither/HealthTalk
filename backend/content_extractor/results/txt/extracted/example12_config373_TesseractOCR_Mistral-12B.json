@@ -1,0 +1,101 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 15.2,
+                "HCT": 43,
+                "PLT": 250,
+                "MCV": 89,
+                "MCH": 27.3,
+                "MCHC": 30.6
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^3/µL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10
+                ],
+                "RBC": [
+                    4.4,
+                    6
+                ],
+                "HGB": [
+                    13.8,
+                    17.2
+                ],
+                "HCT": [
+                    41,
+                    51
+                ],
+                "PLT": [
+                    150,
+                    450
+                ],
+                "MCV": [
+                    80,
+                    100
+                ],
+                "MCH": [
+                    26,
+                    32
+                ],
+                "MCHC": [
+                    31,
+                    35
+                ]
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "AST": 25,
+                "ALT": 30,
+                "ALP": 90,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": [
+                    5,
+                    34
+                ],
+                "ALT": [
+                    7,
+                    52
+                ],
+                "ALP": [
+                    40,
+                    136
+                ],
+                "TBIL": [
+                    0.3,
+                    1
+                ]
+            }
+        }
+    ]
+}

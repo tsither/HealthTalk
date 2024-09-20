@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Platelet count": "40-50",
+                "Basophils": null,
+                "Monocytes": "150000 - 410000",
+                "Eosinophils": null,
+                "Lymphocytes": "20-00",
+                "Neutrophils": "90:00"
+            },
+            "unit_of_measurement": {
+                "Platelet count": "%",
+                "Basophils": "%",
+                "Monocytes": "%",
+                "Eosinophils": null,
+                "Lymphocytes": "%",
+                "Neutrophils": "%"
+            },
+            "reference_range": {
+                "Platelet count": "High 40-5e7/lf",
+                "Basophils": null,
+                "Monocytes": "21.8 - 39.4% of total WBCs",
+                "Eosinophils": null,
+                "Lymphocytes": "16.5-70% of total lymphoid cells",
+                "Neutrophils": "45-72% of total granulocytes"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_nme": "Hemoglobin (Hgb)",
+            "result_value": 17.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "40-110"
+        },
+        {
+            "test_nme": "Hematocrit (Hct)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "32-45"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC) / count",
+            "result_value": null,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 95,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_nme": "White Blood Cell Count (WBC) / count",
+            "result_value": 41000,
+            "unit_of_measurement": "uL",
+            "reference_range": "35-100"
+        },
+        {
+            "test_nme": "Platelet Count (PLT)",
+            "result_value": 278,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

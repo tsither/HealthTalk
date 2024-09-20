@@ -1,0 +1,53 @@
+{
+    "Date": "2022-03-15",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 5.0,
+                "Hb": 12.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    11.0
+                ],
+                "RBC": [
+                    4.4,
+                    6.2
+                ],
+                "Hb": [
+                    13.5,
+                    17.5
+                ],
+                "PLT": [
+                    150,
+                    450
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": [
+                70,
+                99
+            ]
+        }
+    ]
+}

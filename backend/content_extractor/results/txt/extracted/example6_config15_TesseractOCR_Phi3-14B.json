@@ -1,0 +1,31 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "HEMOGLOBIN: 12.5, RBC COUNT: 5.2, BLOOD INDICES PCV: 57.5, Mean Corpuscular Volume (MCV): 87.75, Calculated MCH: 27:2, Calculated MCHC: 32.8, Calculated RDW: 13.6",
+            "unit_of_measurement": "Low/High/Borderline",
+            "reference_range": {
+                "HEMOGLOBIN (Hb)": "13.0-17.0 g/dL Low",
+                "Total RBC count": "4.5-5.5 mill/cumm Low",
+                "Packed Cell Volume (PCV)": "40-50 % High",
+                "Mean Corpuscular Volume (MCV)": "83-101 fL Normal",
+                "Calculated MCH": "27 - 32 pg Normal",
+                "Calculated MCHC": "32.5 - 34.5 g/dL Normal",
+                "Calculated RDW": "11.6-14.0 % Normal"
+            }
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "150000 cumm",
+            "unit_of_measurement": null,
+            "reference_range": "Borderline 150000 - 410000 cumm"
+        }
+    ]
+}

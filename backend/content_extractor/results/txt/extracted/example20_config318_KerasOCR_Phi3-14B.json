@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglopsi",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "leukocyte count",
+            "result_value": 8.0,
+            "unit_of_measurement": "x10^9 / L",
+            "reference_range": "4-11 x10^9/L"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9 / L",
+            "reference_range": "150-450 x10^9/L"
+        },
+        {
+            "test_name": "neutrophils percentage",
+            "result_value": 62,
+            "unit_of_measurement": "%",
+            "reference_range": "40-70%"
+        },
+        {
+            "test_name": "lymphocytes percentage",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": "18-42%"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count",
+            "result_value": 80101,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total protein",
+            "result_value": 55,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bile duct obstruction",
+            "result_value": true,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

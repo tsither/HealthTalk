@@ -1,0 +1,32 @@
+{
+    "Date": "13/01/2017",
+    "patient_information": {
+        "patient_id": 52,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 86
+    },
+    "test_results": [
+        {
+            "test_name": "GDL count",
+            "result_value": 125,
+            "unit_of_measurement": "mL",
+            "reference_range": "105-130"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.7,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 27.2
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 300,
+            "unit_of_measurement": "/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

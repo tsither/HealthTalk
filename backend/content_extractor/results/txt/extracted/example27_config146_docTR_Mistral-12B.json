@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CRP",
+            "result_value": "<5",
+            "unit_of_measurement": "mg/L"
+        },
+        {
+            "test_name": "GLUCOSE",
+            "result_value": "98",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "TOTAL PROTEIN",
+            "result_value": "6.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.4-8.3"
+        },
+        {
+            "test_name": "ALBUMIN",
+            "result_value": "3.9",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.2"
+        }
+    ]
+}

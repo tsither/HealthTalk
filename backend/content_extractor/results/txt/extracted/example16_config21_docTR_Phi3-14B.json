@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 11,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 20
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "RBC": null,
+                "Hemoglobin (Hb)": null,
+                "Hematocrit (PCV)": 27.2,
+                "MCV": null,
+                "MCH": 13.6,
+                "MCHC": null,
+                "RDW-CV": null,
+                "WBC": {
+                    "total_count": 60,
+                    "neutrophils": null,
+                    "lymphocytes": null,
+                    "monocytes": null,
+                    "eosinophils": null,
+                    "basophils": null
+                },
+                "Platelets": 300
+            },
+            "unit_of_measurement": {
+                "RBC": "g/dL",
+                "Hemoglon (Hb)": "pg",
+                "Hematocrit (PCV)": "%",
+                "MCV": "fl",
+                "MCH": "pcmm",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "WBC": "/mm^3",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "RBC": null,
+                "Hemoglobin (Hb)": "g/dL",
+                "Hematocrit (PCV)": "%",
+                "MCV": "fl",
+                "MCH": "pcmm",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "WBC": "/mm^3",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelets": "10^9/L"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

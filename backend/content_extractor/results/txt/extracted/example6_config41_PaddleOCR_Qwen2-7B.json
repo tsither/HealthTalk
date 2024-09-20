@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5 - 5.5 g/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate",
+            "result_value": "11.6",
+            "unit_of_measurement": "%",
+            "reference_range": "0 - 20"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "wBc count",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 10.5,
+                    "unit": "g/dL"
+                },
+                "rbc_count": {
+                    "value": 4.5,
+                    "unit": "million cells/uL"
+                },
+                "pcv": {
+                    "value": 37.5,
+                    "unit": "%"
+                },
+                "mcv": {
+                    "value": 87.75,
+                    "unit": "fL"
+                },
+                "mch": {
+                    "value": 27.4,
+                    "unit": "pg"
+                },
+                "mchc": {
+                    "value": 32.51,
+                    "unit": "g/dL"
+                },
+                "rdw": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "total_wbc_count": {
+                    "value": 10000,
+                    "unit": "/uL"
+                },
+                "neutrophils": {
+                    "value": 50,
+                    "unit": "%"
+                },
+                "lymphocytes": {
+                    "value": 40,
+                    "unit": "%"
+                },
+                "eosinophils": {
+                    "value": 0,
+                    "unit": "%"
+                },
+                "monocytes": {
+                    "value": 2,
+                    "unit": "%"
+                },
+                "basophils": {
+                    "value": 5,
+                    "unit": "%"
+                },
+                "platelet_count": {
+                    "value": 300000,
+                    "unit": "/uL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

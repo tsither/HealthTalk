@@ -1,0 +1,29 @@
+{
+    "Date": "07/13/2021",
+    "patient_information": {
+        "patient_id": "AB123456C",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "13.0",
+            "unit_of_measurement": "x10^9/L",
+            "reference_eange": "4.5-11 x10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": "178 g/L",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "135-170 g/L"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "9.8 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x10^9/L"
+        }
+    ]
+}

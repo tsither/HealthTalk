@@ -1,0 +1,35 @@
+{
+    "Date": "02 DEC 20",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "PATEL YASH M",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT (Total)",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT (Total)",
+            "result_value": 6000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 300000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        }
+    ]
+}

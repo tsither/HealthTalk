@@ -1,0 +1,38 @@
+{
+    "Date": "04:35 P!t 02 Crc. 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Bungaloy, S G Road.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Total RBC count": 410000,
+                "WBC COUNT": 87.75,
+                "Platelet count": 27.2
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Total RBC count": "/uL",
+                "WBC COUNT": "/uL",
+                "Platelet count": "/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0- 17.0 g/dL",
+                "Total RBC count": "4.5 - 5.5 million/μL",
+                "WBC COUNT": "4000-10000 cells/μL",
+                "Platelet count": "150000-400000 platelets/μL"
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

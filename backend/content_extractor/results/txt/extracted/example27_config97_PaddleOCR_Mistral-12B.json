@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": "16.9 g/dL",
+                "Hematocrito": "48%",
+                "Hematócritos medios": "30%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "Glucosa": "169 mg/dL",
+                "Trigliceridos": "160 mg/dL",
+                "Colesterol total": "256 mg/dL",
+                "HDL": "43 mg/dL",
+                "LDL": "173 mg/dL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": {
+                "Creatinina": "0.6 mg/dL",
+                "Urea": "45 mg/dL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "Sodio": "141 mEq/L",
+                "Potasio": "3.7 - 5.4 mEq/L"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

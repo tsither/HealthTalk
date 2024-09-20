@@ -1,0 +1,33 @@
+{
+    "Date": "0123a56739",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "com drlogypathlabadrlogy com drlogy",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 1301170,
+            "unit_of_measurement": "cumm d op blood",
+            "reference_range": {
+                "count": {
+                    "min": 4.5,
+                    "max": 12
+                },
+                "hemoglobin": null,
+                "volume": {
+                    "min": null,
+                    "max": null
+                }
+            }
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

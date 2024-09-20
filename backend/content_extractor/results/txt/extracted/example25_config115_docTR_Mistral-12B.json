@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": 14.0,
+                "Hemoglobina": 12.0,
+                "HemoCrít": 35.0,
+                "VGM Hematíes": 89.0,
+                "VGM Leucocitos": 7.2
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10^3/µL",
+                "Hematies": "%",
+                "Hemoglobina": "g/dL",
+                "HemoCrít": "%",
+                "VGM Hematíes": "fL",
+                "VGM Leucocitos": "fl"
+            },
+            "reference_range": null
+        }
+    ]
+}

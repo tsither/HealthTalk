@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.0, RBC: 4.8, HGB: 13.2, HCT: 39%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 200, HDL: 50, LDL: 140, Triglycerides: 138",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "Fasting Glucose: 96 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal range is 70-100 mg/dL"
+        }
+    ]
+}

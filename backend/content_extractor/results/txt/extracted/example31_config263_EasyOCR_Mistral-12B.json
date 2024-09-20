@@ -1,0 +1,47 @@
+{
+    "Date": "07 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 52,
+            "unit_of_measurement": "millicumm",
+            "reference_range": "54-55"
+        },
+        {
+            "test_name": "HCT/PCT",
+            "result_value": 57.75,
+            "unit_of_measurement": "%",
+            "reference_range": "40-53"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 81.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.13,
+            "unit_of_measurement": "pg",
+            "reference_range": "26-34"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-9000"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 3270,
+                "hemoglobina": 13900,
+                "leucocitos": 6400,
+                "neutrofilos": 529,
+                "eosinofilos": 81,
+                "basofilos": 0
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dl",
+                "leucocitos": "x10^3/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": {
+                "glucosa": 92,
+                "colesterol": 56,
+                "trigliceridos": 87,
+                "urea": 16,
+                "creatinina": 0.8
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dl",
+                "colesterol": "mg/dl",
+                "trigliceridos": "mg/dl",
+                "urea": "mg/dl",
+                "creatinina": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas hepáticas",
+            "result_value": {
+                "bilirrubina total": 0.6,
+                "got": 37,
+                "gpt": 28
+            },
+            "unit_of_measurement": {
+                "bilirrubina total": "mg/dl",
+                "got": "U/L",
+                "gpt": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "sodio": 140,
+                "potasio": 3.8,
+                "cloro": 102,
+                "bicarbonato": 25
+            },
+            "unit_of_measurement": {
+                "sodio": "mEq/L",
+                "potasio": "mEq/L",
+                "cloro": "mEq/L",
+                "bicarbonato": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/μL (7P/6)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 40.875,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (McV)",
+            "result_value": 93.2,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 11600,
+            "unit_of_measurement": "/μL (7P/6)",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 290000,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

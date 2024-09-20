@@ -1,0 +1,135 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA V.N.",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "150 220 mg Yn"
+        },
+        {
+            "test_name": "HEMATOLRITO",
+            "result_value": null,
+            "unit_of_measurement": "por mn",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "HEMUGLOBINA",
+            "result_value": "4.960 000",
+            "unit_of_measurement": "",
+            "reference_range": "70 - 110 mg %"
+        },
+        {
+            "test_name": "PLAQUETAS",
+            "result_value": null,
+            "unit_of_measurement": "/mm'",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "LOSINOFILOS",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": [
+                {
+                    "test_name": "GLUCOSA",
+                    "result_value": 73,
+                    "unit_of_measurement": "mg %"
+                },
+                {
+                    "test_name": "COLESTEROL",
+                    "result_value": 169,
+                    "unit_of_measurement": "mg Yn"
+                },
+                {
+                    "test_name": "HDL",
+                    "result_value": null
+                },
+                {
+                    "test_name": "TRIGLICERIDOS",
+                    "result_value": null
+                },
+                {
+                    "test_name": "UREA",
+                    "result_value": null
+                },
+                {
+                    "test_name": "AC. URICO",
+                    "result_value": 62,
+                    "unit_of_measurement": "mg Yn"
+                },
+                {
+                    "test_name": "HIERRO",
+                    "result_value": 100,
+                    "unit_of_measurement": "U/1"
+                },
+                {
+                    "test_name": "CREATININA",
+                    "result_value": null
+                },
+                {
+                    "test_name": "HOMOCISTEINA",
+                    "result_value": null
+                },
+                {
+                    "test_name": "PROTEINAST",
+                    "result_value": null
+                }
+            ],
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": [
+                {
+                    "test_name": "GOT GPT",
+                    "result_value": 40,
+                    "unit_of_measurement": "U/1"
+                },
+                {
+                    "test_name": "GT",
+                    "result_value": null
+                },
+                {
+                    "test_name": "G",
+                    "result_value": null
+                }
+            ],
+            "reference_range": "135 - 145 mEq/L"
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": [
+                {
+                    "test_name": "SODIO",
+                    "result_value": 98,
+                    "unit_of_measurement": "mg Yn"
+                },
+                {
+                    "test_name": "CLORO",
+                    "result_value": null
+                },
+                {
+                    "test_name": "POTASIO",
+                    "result_value": null
+                }
+            ],
+            "reference_range": "[FILL]"
+        }
+    ]
+}

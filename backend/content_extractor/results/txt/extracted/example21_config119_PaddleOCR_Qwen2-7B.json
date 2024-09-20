@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Anemia Confirmation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 34.5,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[13.6 - 32.8]"
+        },
+        {
+            "test_name": "WBC Count Differential",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Ash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) 12.5, RBC count 5.2 mill/cumm, Packed Cell Volume (PCV) $7.5",
+            "unit_of_measurement": "g/dL for Hb and ml/cumm for RBC count",
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.e g/dL",
+                "RBC count": "45-55 mill/cumm"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils 60%, Lymphocytes cr D fal O€) Y 0 C648% Eosinophils 1 00 - 06 % Monocyies 7 00-10 % Basophils 1 00 - 02 &",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "15000 cumm",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150,000 - 410,000"
+        }
+    ]
+}

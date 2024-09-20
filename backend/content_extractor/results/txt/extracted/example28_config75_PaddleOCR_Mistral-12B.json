@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciene",
+        "patient_sex": null,
+        "patient_age": 6
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Hemaes Heogohra",
+            "result_value": {
+                "VCM": 14.3,
+                "LeUCOCAOS": 299,
+                "Hemoglobina": 102,
+                "Eritrocitos": 35.2,
+                "Placaets": 24
+            },
+            "unit_of_measurement": {
+                "VCM": "MM",
+                "LeUCOCAOS": "%",
+                "Hemoglobina": "g/dL",
+                "Eritrocitos": "mily/mL",
+                "Placaets": "mil/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "CRP",
+            "result_value": 65.0,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "0-10"
+        },
+        {
+            "test_name": "Proteina C Reactiva",
+            "result_value": 240.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HemoglobinaAc",
+            "result_value": 60.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "135-175"
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 240.0,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "GPReceptor 4",
+            "result_value": 5.0,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "100-200"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": 385.5,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": 0.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-1"
+        }
+    ]
+}

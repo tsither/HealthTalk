@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": "12.0",
+                    "unit": "g/dL"
+                },
+                "RBC count": {
+                    "value": "4.55",
+                    "unit": "mil/mm³"
+                },
+                "PCV": {
+                    "value": "57.5",
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": "87.75",
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": "27.2",
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": "32.8",
+                    "unit": "g/dL"
+                },
+                "RDW": {
+                    "value": "13.6",
+                    "unit": "%"
+                },
+                "Total WBC count": {
+                    "value": "7000",
+                    "unit": "/mm³"
+                },
+                "Neutrophils": {
+                    "value": "50-62%",
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": "20-50%",
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": "0-6%",
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": "0-10%",
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": "0-2%",
+                    "unit": "%"
+                },
+                "Platelet count": {
+                    "value": "30000",
+                    "unit": "/mm³"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

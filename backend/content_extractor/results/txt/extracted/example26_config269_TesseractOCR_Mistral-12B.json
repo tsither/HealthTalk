@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 86018,
+            "unit_of_measurement": "%",
+            "reference_range": "42.0 - 73.0"
+        },
+        {
+            "test_name": "NEUTROFILOS",
+            "result_value": 2.1,
+            "unit_of_measurement": "WEN",
+            "reference_range": null
+        },
+        {
+            "test_name": "LINFOCITOS",
+            "result_value": 303,
+            "unit_of_measurement": "%",
+            "reference_range": "20.0 - 68.0"
+        },
+        {
+            "test_name": "MONOCITOS",
+            "result_value": 78,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

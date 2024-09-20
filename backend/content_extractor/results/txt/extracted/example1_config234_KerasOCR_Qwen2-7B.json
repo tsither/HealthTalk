@@ -1,0 +1,68 @@
+{
+    "Date": "02/07",
+    "patient_information": {
+        "patient_id": "105",
+        "patient_name": "Yash ms patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": "normal",
+            "unit_of_measurement": "n/a",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb/HGB)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 17,
+                "high": 20
+            }
+        },
+        {
+            "test_name": "RBC count/Tot RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "x 10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV/Packed cell volume",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "high": 62,
+                "low": 40
+            }
+        },
+        {
+            "test_name": "MCH/ Mean corpuscular volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC/Mean corpuscular hemoglobin concentration (HCT)",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 31,
+                "high": 37
+            }
+        },
+        {
+            "test_name": "RDW/Red cell distribution width",
+            "result_value": 136,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count/White blood cells (WBC)",
+            "result_value": "normal",
+            "unit_of_measurement": "x 10^3/uL",
+            "reference_range": null
+        }
+    ]
+}

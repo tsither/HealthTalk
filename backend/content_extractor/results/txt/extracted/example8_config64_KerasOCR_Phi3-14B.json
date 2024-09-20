@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Osmolality",
+            "result_value": 285,
+            "unit_of_measurement": "mosm/kg H2O",
+            "reference_range": "[170-300] mosm/kg H2O"
+        },
+        {
+            "test_name": "Sodium (Na)",
+            "result_value": 145,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[136-145] mmol/L"
+        },
+        {
+            "test_name": "Chloride (Cl)",
+            "result_value": 102,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[98-107] mmol/L"
+        },
+        {
+            "test_name": "Potassium (K)",
+            "result_value": 4.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[3.5-5.0] mmol/L"
+        },
+        {
+            "test_name": "Bicarbonate (HCO3)",
+            "result_value": 24,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[22-29] mmol/L"
+        },
+        {
+            "test_name": "Urea nitrogen (BUN)",
+            "result_value": 18,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[7-20] mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0.6-1.2] mg/dL"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-130] mg/dL"
+        },
+        {
+            "test_name": "Calcium (Ca)",
+            "result_value": 9.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[8.6-10.2] mg/dL"
+        }
+    ]
+}

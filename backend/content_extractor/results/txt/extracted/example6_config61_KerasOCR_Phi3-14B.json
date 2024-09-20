@@ -1,0 +1,53 @@
+{
+    "Date": "02/12/202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 5 g/dL, RBC count total: 52 million/uL",
+            "unit_of_measurement": "g/dL, million/uL",
+            "reference_range": "13-17 g/dL, 4.5-5.5 million/uL"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "575%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "136%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50,000 platelets/uL",
+            "unit_of_measurement": "platelets/uL",
+            "reference_range": null
+        }
+    ]
+}

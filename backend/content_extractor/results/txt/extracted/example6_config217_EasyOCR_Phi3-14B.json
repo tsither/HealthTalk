@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "O251",
+        "patient_name": "Shah",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12 g/dL, RBC count: 5.2 trillion cells/mcL, Hematocrit: 37%, MCV: 89 fL",
+            "unit_of_measurement": "g/dL, trillion cells/mcL, %, fL",
+            "reference_range": {
+                "Hemoglobin": "14-18 g/dL (male)",
+                "RBC count": "4.5-6.0 trillion cells/mcL",
+                "Hematocrit": "39-49% (male)",
+                "MCV": "80-100 fL"
+            }
+        },
+        {
+            "test_name": "WBC differential count",
+            "result_value": "Neutrophils: 62%, Lymphocytes: 31%, Eosinophils: 5%, Monocytes: 10%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "40-70%",
+                "Lymphocytes": "20-40%",
+                "Eosinophils": "1-6%",
+                "Monocytes": "2-8%"
+            }
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150,000/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": "150,000-450,000/mcL"
+        }
+    ]
+}

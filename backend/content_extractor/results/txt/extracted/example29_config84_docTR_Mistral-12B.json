@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "I 0912345678",
+        "patient_name": "Patel X",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "RBC COUNT": 52,
+                "BLOOD INDICES": {
+                    "Volume (PCV)": 57.5,
+                    "Mean Corpuscular Hemoglobin (MCH)": 32.8,
+                    "Mean Corpuscular Volume (MCV)": 87.75,
+                    "Red Blood Cell Distribution Width (RDW)": null
+                },
+                "Total WBC count": 9000,
+                "Differential WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 7
+                },
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "mill/cumm",
+                "RBC COUNT": "fL",
+                "BLOOD INDICES": {
+                    "Volume (PCV)": "g/dL",
+                    "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                    "Mean Corpuscular Volume (MCV)": "cumm"
+                },
+                "Total WBC count": "cumm",
+                "Differential WBC COUNT": "%",
+                "Platelet Count": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0-17.0",
+                "RBC COUNT": "40-50",
+                "BLOOD INDICES": {
+                    "Volume (PCV)": "83-101",
+                    "Mean Corpuscular Hemoglobin (MCH)": "27-32 pg",
+                    "Mean Corpuscular Volume (MCV)": "11.6-14.0"
+                },
+                "Total WBC count": "50-62",
+                "Differential WBC COUNT": {
+                    "Neutrophils": "20-40",
+                    "Lymphocytes": "1-10",
+                    "Eosinophils": "7-8"
+                },
+                "Platelet Count": "150,000-450,000"
+            }
+        }
+    ]
+}

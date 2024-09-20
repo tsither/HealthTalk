@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 90,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": [
+                    90,
+                    170
+                ],
+                "children": [
+                    75,
+                    155
+                ]
+            },
+            "comments": "Low result may indicate iron deficiency or bone marrow disorders."
+        }
+    ]
+}

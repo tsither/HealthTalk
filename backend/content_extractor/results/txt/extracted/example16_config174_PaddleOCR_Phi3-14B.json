@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb) ": 12.5,
+                "Total RBC count ": 5.2,
+                "Packed Cell Volume (PCV) ": 57.5,
+                "Mean Corpuscular Volume (MCv)": 87.75,
+                "MCHC ": 32.8,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb) ": "g/dL",
+                "Total RBC count ": "mill/cumm",
+                "Packed Cell Volume (PCV) ": "%",
+                "Mean Corpuscular Volume (MCv)": "fL",
+                "MCHC ": "g/dL",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb) ": [
+                    13.0,
+                    17.0
+                ],
+                "Total RBC count ": [
+                    4.5,
+                    5.5
+                ],
+                "Packed Cell Volume (PCV) ": [
+                    40,
+                    50
+                ],
+                "Mean Corpuscular Volume (MCv)": null,
+                "MCHC ": [
+                    32.5,
+                    34.5
+                ],
+                "Platelet Count": [
+                    150000,
+                    410000
+                ]
+            }
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": {
+                "Neutrophils ": 60,
+                "Lymphocytes": null,
+                "Eosinophils": -10,
+                "Monocytes ": 13.6,
+                "Basophils ": 5
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils ": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes ": null,
+                "Basophils ": null
+            }
+        }
+    ]
+}

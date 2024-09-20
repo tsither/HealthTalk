@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01",
+        "patient_name": "Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "2.5",
+                "RBC": "4.5",
+                "PCV": "18.6"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": " cells/mm³",
+                "PCV": "%"
+            },
+            "reference_range": {
+                "WBC": null,
+                "RBC": null,
+                "PCV": "Hogh 40 - 50 %"
+            }
+        }
+    ]
+}

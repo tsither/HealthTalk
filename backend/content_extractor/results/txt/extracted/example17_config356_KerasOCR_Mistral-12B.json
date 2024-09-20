@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6500,
+                "Red Blood Cells": 4.7,
+                "Hemoglobin": 12.8,
+                "Platelets": 230000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cells/mm³",
+                "Red Blood Cells": "million/µL",
+                "Hemoglobin": "g/dL",
+                "Platelets": "thousand/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

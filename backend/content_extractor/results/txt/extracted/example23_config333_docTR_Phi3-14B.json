@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_eange": "38-52%"
+        },
+        {
+            "test_name": "Red blood cell count (RBC)",
+            "result_value": 4.7,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "[13-18] million/mcL"
+        },
+        {
+            "test_name": "White blood cell count (WBC)",
+            "result_value": 6.5,
+            "unit_of_measurement": "thousand/k",
+            "reference_range": "[4-10] thousand/k"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "gm/dL",
+            "reference_range": "[12-17] gm/dL"
+        }
+    ]
+}

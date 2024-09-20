@@ -1,0 +1,30 @@
+{
+    "Date": "02 Dec, 202%",
+    "patient_information": {
+        "patient_id": "KY 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": {
+                "HEMOGLOBIN": "12.5 g/dL",
+                "RBC COUNT": "5.2 mill/cumm",
+                "PCV": "7.5 %",
+                "MCV": "87.75 fl",
+                "MCH": "27.2 pg",
+                "MCHC": "32.8 g/dL",
+                "WBC COUNT": {
+                    "Neutrophils": "60%",
+                    "Lymphocytes": "31%",
+                    "Eosinophils": "1%",
+                    "Monocytes": "7%",
+                    "Basophils": "1%"
+                },
+                "PLATELET COUNT": "150000 cumm"
+            }
+        }
+    ]
+}

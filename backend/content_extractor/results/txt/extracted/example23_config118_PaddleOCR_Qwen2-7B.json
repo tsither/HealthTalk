@@ -1,0 +1,29 @@
+{
+    "Date": "Unknown",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "5.2"
+    },
+    "test_results": [
+        {
+            "test_name": "Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "Ref. - 17.0 4.5 - 5.5",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 39,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 83"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 71.6,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

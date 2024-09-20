@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": 150.0,
+                "Hematocrito": 42.8,
+                "V.C.M.": 97.0,
+                "H.C.M.": 32.9,
+                "C.H.C.M.": 0.8,
+                "R.D.W.": 15.1,
+                "Plaquetas": 230.0,
+                "VPM": 70.1
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C.M.": "gr/dL",
+                "C.H.C.M.": "%",
+                "R.D.W.": "%",
+                "Plaquetas": "10^3/IL",
+                "VPM": "rpm"
+            },
+            "reference_range": null
+        }
+    ]
+}

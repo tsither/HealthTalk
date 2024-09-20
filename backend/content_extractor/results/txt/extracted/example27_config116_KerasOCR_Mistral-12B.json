@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematocrito": 44,
+                "Hemoglobina": 12,
+                "Leucocitos": 70,
+                "Linfocitos": 30,
+                "Monocitos": 5,
+                "Eosinofilos": 2,
+                "Basofilos": 1,
+                "Placaquetas": 240
+            },
+            "unit_of_measurement": {
+                "Hematocrito": "%",
+                "Hemoglobina": "g/dL",
+                "Leucocitos": "10^3/µL",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Eosinofilos": "%",
+                "Basofilos": "%",
+                "Placaquetas": "10^3/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica Serum",
+            "result_value": {
+                "Glucosa": 78,
+                "Colesterol Total": 150,
+                "HDL": 60,
+                "LDL": 94,
+                "Trigliceridos": 160
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol Total": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "Trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Enzimaticas",
+            "result_value": {
+                "GOT": 40,
+                "GPT": 43,
+                "GT": 45
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GT": "U/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

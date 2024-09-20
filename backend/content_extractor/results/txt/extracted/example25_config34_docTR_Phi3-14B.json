@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "val.Ret",
+            "result_value": 10.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[4.0 - (12.0) gr/aL %]"
+        },
+        {
+            "test_name": "Unid",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": "[(69.0 - (127.0) EL pL %]"
+        },
+        {
+            "test_name": "AMA",
+            "result_value": 6.56,
+            "unit_of_measurement": null,
+            "reference_range": "[(4.1 - (7.0) L)"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": 2400,
+            "unit_of_measurement": "count Rercang Resui",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Patcces Blod MCH",
+            "result_value": 125,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": [
+                {
+                    "value": 8275,
+                    "type": "FCOUNT"
+                },
+                {
+                    "value": 12692,
+                    "type": "WBC"
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": [
+                {
+                    "value": 7800
+                },
+                {
+                    "value": 1269
+                }
+            ],
+            "unit_of_measurement": "% / Cells",
+            "reference_range": null
+        }
+    ]
+}

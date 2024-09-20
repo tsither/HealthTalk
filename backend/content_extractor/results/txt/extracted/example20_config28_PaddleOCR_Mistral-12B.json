@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Shivam Bungalow, S G Road",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "Total WBC count cumm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "5.2",
+            "unit_of_measurement": "Total RBC count mill/cumm",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": null,
+            "unit_of_measurement": "Hemoglobin (Hb)",
+            "reference_range": null
+        }
+    ]
+}

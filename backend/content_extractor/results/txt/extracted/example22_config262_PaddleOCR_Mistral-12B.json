@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.00 x10^3/uL",
+                "RBC": "5.20 x10^6/uL",
+                "Hb": "13.8 g/dL",
+                "HCT": "41.5%",
+                "MCV": "76 fL",
+                "MCH": "26.5 pg",
+                "MCHC": "34.9 g/dL",
+                "PLT": "270 x10^3/uL"
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^3/uL",
+                "RBC": "x10^6/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "x10^3/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0 x10^3/uL",
+                "RBC": "4.5 - 6.2 x10^6/uL",
+                "Hb": "13.0 - 17.0 g/dL",
+                "HCT": "40.0 - 50.0%",
+                "MCV": "80 - 100 fL",
+                "MCH": "27 - 33 pg",
+                "MCHC": "32 - 36 g/dL",
+                "PLT": "150 - 450 x10^3/uL"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "68%",
+                "Lymphocytes": "24%",
+                "Monocytes": "7%",
+                "Eosinophils": "0.5%",
+                "Basophils": "<1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "40 - 65%",
+                "Lymphocytes": "25 - 35%",
+                "Monocytes": "5 - 9%",
+                "Eosinophils": "<1%",
+                "Basophils": "<1%"
+            }
+        }
+    ]
+}

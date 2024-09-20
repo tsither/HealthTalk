@@ -1,0 +1,29 @@
+{
+    "Date": "202X-XX-XX",
+    "patient_information": {
+        "patient_id": "PIDXXXXX",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "5.05",
+            "unit_of_measurement": "10^6 cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "7.8",
+            "unit_of_measurement": "10^9 cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

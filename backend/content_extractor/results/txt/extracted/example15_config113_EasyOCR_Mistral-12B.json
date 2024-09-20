@@ -1,0 +1,21 @@
+{
+    "Date": "02 DEC 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "SHIVAM BUNGALOWS",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT AND PLATELET DISTRIBUTION WIDTH",
+            "result_value": 5,
+            "unit_of_measurement": "FL",
+            "reference_range": {
+                "ADULTS": ">17",
+                "CHILDREN": "75-154",
+                "NEWBORNS": "<9"
+            }
+        }
+    ]
+}

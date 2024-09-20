@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Carine",
+        "patient_sex": "Female",
+        "patient_age": 21,
+        "patient_address": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Mb)",
+            "result_value": 840001,
+            "unit_of_measurement": "count Blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV) (fL)",
+            "result_value": 75,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8775,
+            "unit_of_measurement": "count/dL",
+            "reference_range": {
+                "low": 40,
+                "high": 90
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 140,
+            "unit_of_measurement": "/μL",
+            "reference_range": {
+                "min": 150,
+                "max": 350
+            }
+        }
+    ]
+}

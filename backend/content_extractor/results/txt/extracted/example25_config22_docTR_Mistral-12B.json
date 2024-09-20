@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": 4170,
+                "Hemoglobina": 9.7,
+                "Hematocrito": 28.8,
+                "V.C.M.": 69.0,
+                "H.C.M.": 23.0,
+                "C.H.C.M.": 35.0,
+                "R.D.W.": 16.0,
+                "Plaquetas": 237
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10/L",
+                "Hematies": "1/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fl",
+                "H.C.M.": "g/dL",
+                "C.H.C.M.": "%",
+                "R.D.W.": "%",
+                "Plaquetas": "/L"
+            },
+            "reference_range": {
+                "Leucocitos": "(4.00, 10.80)",
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": "(35.0, 52.0)",
+                "V.C.M.": "(80.0, 100.0)",
+                "H.C.M.": "(25, 35)",
+                "C.H.C.M.": "(30.0, 36.0)",
+                "R.D.W.": "(10.0, 15.0)",
+                "Plaquetas": "(180, 450)"
+            }
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "Neutrofilos": 70.1,
+                "Linfocitos": 12.4,
+                "Monocitos": 3.1,
+                "Eosinofilos": 0.8,
+                "Basofilos": 0.2
+            },
+            "unit_of_measurement": {
+                "Neutrofilos": "%",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Eosinofilos": "%",
+                "Basofilos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

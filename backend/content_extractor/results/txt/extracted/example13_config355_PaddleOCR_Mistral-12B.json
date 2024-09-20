@@ -1,0 +1,23 @@
+{
+    "Date": "12.12.2012",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 66
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": 7.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.0-8.3"
+        }
+    ]
+}

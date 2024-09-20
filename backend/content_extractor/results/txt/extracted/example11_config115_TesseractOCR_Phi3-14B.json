@@ -1,0 +1,41 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "YashM. Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "HEMOGLOBIN: 12.5",
+                "RBC COUNT: 5.2",
+                "PCV: 57.5",
+                "MCV: 87.75",
+                "MCH: 27.2",
+                "WBC COUNT: 9000",
+                "PLATELET COUNT: 150000"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/eumm",
+                "%",
+                "fL",
+                "pg",
+                "cumm",
+                "cumm"
+            ],
+            "reference_range": [
+                "Hemoglobin (Hb): Low 13.0- 17.0 g/dL",
+                "Total RBC count: 45-55 mill/eumm",
+                "Packed Cell Volume (PCV): High 40-50 %",
+                "Mean Corpuscular Volume (MCV) = 83-101 fL",
+                "MCH: 27 - 32 pg",
+                "Total WBC count: 4000-11000 cumm",
+                "Platelet Count: 150000 - 410000 cumm"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "VN",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobin": "13.7 g/dL",
+                "hématocrito": "42%",
+                "leucocitos": "7,000/mm³",
+                "globulos_rojos": "4.96 millones/mm³"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica Sangre Completa",
+            "result_value": {
+                "glucosa": "100 mg/dL",
+                "colesterol_total": "220 mg/dL",
+                "hdl": "45 mg/dL",
+                "LDL": "<70 mg/dL",
+                "trigliceridos": "190 mg/dL",
+                "urea": "<40 mg/dL",
+                "creatinina": "<1.2 mg/dL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

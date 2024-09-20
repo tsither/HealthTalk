@@ -1,0 +1,53 @@
+{
+    "Date": "12.10.2021",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.89,
+            "unit_of_measurement": "mil/mm^3",
+            "reference_range": "4.40 - 6.10"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "41 - 53"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "78 - 98"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 26.0,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.5 - 34.5"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 8700,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4500 - 11000"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 264,
+            "unit_of_measurement": "k/mm^3",
+            "reference_range": "150 - 400"
+        }
+    ]
+}

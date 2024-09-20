@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123466739",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "4.3",
+                "HGB": "13.0",
+                "HCT": "37.5",
+                "PLT": "276"
+            },
+            "unit_of_measurement": {
+                "WBC": "#",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "k/µL"
+            },
+            "reference_range": {
+                "WBC": "4.3 - 10.9",
+                "HGB": "12.5 - 16.5",
+                "HCT": "37 - 47",
+                "PLT": "150 - 450"
+            }
+        }
+    ]
+}

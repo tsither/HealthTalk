@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 47.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[39.5-52.0]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 4700,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[3900-5800]"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 47.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[39.0-51.0]"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 1276,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[3400-10400]"
+        },
+        {
+            "test_name": "Differential White Blood Cell (WBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

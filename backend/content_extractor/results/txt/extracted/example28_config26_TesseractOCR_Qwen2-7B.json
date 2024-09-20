@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.5; RBC: 4.8; Hgb: 13.2; Hct: 0.40",
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4-11; RBC: 4.5-5.5; Hgb: 11.5-16; Hct: 0.39-0.48"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "Fasting Glu: 100 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

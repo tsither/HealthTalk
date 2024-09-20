@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Vimal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 52.0,
+            "unit_of_measurement": "ume (PCV)",
+            "reference_range": null
+        },
+        {
+            "test_name": "MOT",
+            "result_value": 689578,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "COUNT",
+            "result_value": 125.0,
+            "unit_of_measurement": "Collected At: By.",
+            "reference_range": null
+        },
+        {
+            "test_name": "Osmolality (Confirmation)",
+            "result_value": 34.0,
+            "unit_of_measurement": "s",
+            "reference_range": [
+                17.0,
+                8
+            ]
+        }
+    ]
+}

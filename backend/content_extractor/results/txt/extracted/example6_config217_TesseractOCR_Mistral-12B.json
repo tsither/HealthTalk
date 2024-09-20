@@ -1,0 +1,89 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": "0123456789 | 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.8,
+                    "unit": "g/dl",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2,
+                    "unit": "mill/cumm",
+                    "reference_range": "4.5-5.5"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": 7.5,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "name": "Mean Corpusculart Volume (MCV)",
+                    "value": 87.75,
+                    "unit": "fl",
+                    "reference_range": "83-101"
+                },
+                {
+                    "name": "MCH",
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": "27-32"
+                },
+                {
+                    "name": "MCHC",
+                    "value": 32.8,
+                    "unit": "g/dl"
+                },
+                {
+                    "name": "% RBC",
+                    "value": 13.6,
+                    "unit": "",
+                    "reference_range": "11.6-14.0"
+                },
+                {
+                    "name": "Total WBC count",
+                    "value": 9000,
+                    "unit": "wbc/cumm",
+                    "reference_range": "4000-11000"
+                },
+                {
+                    "name": "% Neutrophils",
+                    "value": 60
+                },
+                {
+                    "name": "% Lymphocytes",
+                    "value": 31
+                },
+                {
+                    "name": "% Eosinophils",
+                    "value": 1
+                },
+                {
+                    "name": "% Monocytes",
+                    "value": 7
+                },
+                {
+                    "name": "% Basophils",
+                    "value": 1
+                },
+                {
+                    "name": "Platelet Count",
+                    "value": 150000,
+                    "unit": "cumm",
+                    "reference_range": "150000 - 410000"
+                }
+            ]
+        }
+    ]
+}

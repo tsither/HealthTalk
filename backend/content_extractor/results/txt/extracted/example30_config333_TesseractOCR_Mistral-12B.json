@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "FECAL OCULT BLOOD TEST",
+            "result_value": false,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "COMPLETE BLOOD COUNT (CBC)",
+            "result_value": {
+                "WBC": 8.5,
+                "RBC": 4.72,
+                "HGB": 13.6,
+                "PLT": 269
+            },
+            "unit_of_measurement": {
+                "WBC": "thousand/uL",
+                "RBC": "million/uL",
+                "HGB": "g/dL",
+                "PLT": "thousand/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HOMOGLOBINA",
+            "result_value": 30.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "HEMOCOCITOS",
+            "result_value": 83.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATLETAS",
+            "result_value": 9.1,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "15-45"
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 7.5,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        }
+    ]
+}

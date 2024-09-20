@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 13.3,
+                "Hto": 47.0,
+                "V.C.M.": 83.0,
+                "M.C.M.": 27.0,
+                "C.H.C.M.": 33.0,
+                "A.D.E.": 16.0
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "Hto": "%",
+                "V.C.M.": "fL",
+                "M.C.M.": "fL",
+                "C.H.C.M.": "%",
+                "A.D.E.": "fL"
+            },
+            "reference_range": {
+                "Hb": null,
+                "Hto": null,
+                "V.C.M.": null,
+                "M.C.M.": null,
+                "C.H.C.M.": null,
+                "A.D.E.": null
+            }
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 200,
+            "unit_of_measurement": "10E3t/L",
+            "reference_range": {
+                "min": 140,
+                "max": 400
+            }
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie Blanca",
+            "result_value": {
+                "Neu": 65.0,
+                "Lin": 31.0,
+                "Mon": 2.8,
+                "Eos": 0.7,
+                "Bas": 1.2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

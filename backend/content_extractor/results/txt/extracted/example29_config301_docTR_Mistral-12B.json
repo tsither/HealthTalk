@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Lab 3 oenetinsentgie",
+        "patient_sex": "K M MBN OPR",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "WBC": 57.5,
+                "RBC": 410800,
+                "HGB": 1500,
+                "HCT": 41
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "HGB": "g/dL",
+                "HCT": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.5",
+                "RBC": "4.5-6.2",
+                "HGB": "13.0-17.0",
+                "HCT": "40-52%"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 27,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150,000-350,000"
+        }
+    ]
+}

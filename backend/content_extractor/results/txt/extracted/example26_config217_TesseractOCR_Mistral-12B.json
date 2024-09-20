@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "LICMOORAMA SERIE ROJA",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HOMOLOUS HEMOGLOBINA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "HOMOTOCO V.CM, H.CM, C.H.C At. AO.E.",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "SERIE PLAQUETAR PLAQUETAS",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "SERIE BLANCA LEUCOCITOS",
+            "result_value": [
+                {
+                    "cell_type": "1s",
+                    "value": 420,
+                    "range": "-73.0 i"
+                },
+                {
+                    "cell_type": "Aton",
+                    "value": 16.0,
+                    "range": "-45.0"
+                },
+                {
+                    "cell_type": "Eos",
+                    "value": 0.0,
+                    "range": "-12.0"
+                },
+                {
+                    "cell_type": "Bas",
+                    "value": null
+                },
+                {
+                    "cell_type": "Lympho",
+                    "value": 33.6,
+                    "range": "62 %"
+                },
+                {
+                    "cell_type": "Mon",
+                    "value": 24.0,
+                    "range": "-15.0"
+                },
+                {
+                    "cell_type": "Eos",
+                    "value": null
+                }
+            ],
+            "unit_of_measurement": "uL",
+            "reference_range": [
+                "160 - 279",
+                "33.6 - 83.1",
+                "1.0 - 5.0",
+                "420 uL"
+            ]
+        }
+    ]
+}

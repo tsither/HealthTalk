@@ -1,0 +1,21 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDWI)",
+            "result_value": 50,
+            "unit_of_measurement": "electrical",
+            "reference_range": {
+                "adults": "90-1700",
+                "children": "751-1315",
+                "newborns": "90-1700"
+            }
+        }
+    ]
+}

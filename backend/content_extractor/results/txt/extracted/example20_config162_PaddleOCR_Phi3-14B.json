@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shl",
+        "patient_sex": "Female",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "20-60 mg/dL"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "95-200 mg/dL"
+        },
+        {
+            "test_name": "LDL Cholesterol (Calculated)",
+            "result_value": 107,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

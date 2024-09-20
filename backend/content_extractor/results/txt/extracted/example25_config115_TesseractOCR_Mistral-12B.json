@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobin": 6.56,
+                "hematocrit": 4.47,
+                "MCV": 9.7,
+                "MCH": 28.8,
+                "MCHC": 329,
+                "RDW": null,
+                "Fagocytes": 70.1,
+                "Lymphocytes": 12.4,
+                "Monocytes": 13.7,
+                "Basophils": 0.7
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "hematocrit": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": null,
+                "Fagocytes": "%",
+                "Lymphocytes": "10^9/L",
+                "Monocytes": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "hematocrit": {
+                    "min": 37.5,
+                    "max": 47.0
+                },
+                "MCV": {
+                    "min": 80.0,
+                    "max": 100.0
+                },
+                "MCH": {
+                    "min": 27.0,
+                    "max": 33.0
+                },
+                "MCHC": {
+                    "min": 32.0,
+                    "max": 36.0
+                },
+                "RDW": null,
+                "Fagocytes": {
+                    "min": 40.0,
+                    "max": 60.0
+                },
+                "Lymphocytes": {
+                    "min": 1.5,
+                    "max": 4.0
+                },
+                "Monocytes": {
+                    "min": 2.0,
+                    "max": 8.0
+                },
+                "Basophils": {
+                    "min": 0.5,
+                    "max": 1.0
+                }
+            }
+        }
+    ]
+}

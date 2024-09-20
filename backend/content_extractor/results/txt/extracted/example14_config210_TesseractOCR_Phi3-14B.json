@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Doe",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HDL cholesterol",
+            "result_value": 71,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40-59 mg/dL"
+        },
+        {
+            "test_name": "LDL cholesterol (calculated)",
+            "result_value": 123,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

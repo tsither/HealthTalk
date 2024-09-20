@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": [
+            "0123456789"
+        ],
+        "patient_name": [
+            "Shah Bungalow Road"
+        ],
+        "patient_sex": [
+            "Male"
+        ],
+        "patient_age": [
+            null
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": 5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 4000,
+            "unit_of_measurement": "s (some unit)",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "HEMATOCRITO": 44.51,
+                "HERMOSPORN": 49.6,
+                "LEUCOCITOS/mm^3": 3.27,
+                "HICM": 29.8
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "NEUTROFILOS": 138.0,
+                "LINFOCITOS": 27.32,
+                "MONOCITOS": 19
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION CHCM",
+            "result_value": 33.6,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "V.N. BIOQUIMICA SERICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "TRIGLICERIDOS": 45,
+                "UREA": 19,
+                "AC.URICO": 4.5,
+                "HIERRO": 145,
+                "CREATININA": 0.6,
+                "HOMOCISTEINA": 7.39,
+                "PROTEINAST": 7.5
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg%",
+                "COLESTEROL": "mg%",
+                "TRIGLICERIDOS": "mg%",
+                "UREA": "mg%",
+                "AC.URICO": "mg%",
+                "HIERRO": "mg%",
+                "CREATININA": "mmol/L",
+                "HOMOCISTEINA": "gr%"
+            },
+            "reference_range": {
+                "GLUCOSA": "70-110",
+                "COLESTEROL": "60 hasta 140",
+                "TRIGLICERIDOS": "45 hasta 50",
+                "UREA": "8.3-25.6",
+                "AC.URICO": "4.5-8.2",
+                "HIERRO": "145",
+                "CREATININA": "5.46-16.2"
+            }
+        },
+        {
+            "test_name": "V.N. IONOGRAMA",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 86,
+                "POTASIO": 3.7
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "SODIO": "135-145mEq/L",
+                "CLORO": "98-110mEq/L",
+                "POTASIO": "3.7-5.4mEq/L"
+            }
+        }
+    ]
+}

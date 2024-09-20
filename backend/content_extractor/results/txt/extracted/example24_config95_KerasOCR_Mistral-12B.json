@@ -1,0 +1,29 @@
+{
+    "Date": "12.03.2022",
+    "patient_information": {
+        "patient_id": "007",
+        "patient_name": "James Bond",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": "WBC: 6.2, RBC: 5.1, Hb: 14.5, Hct: 43.0",
+            "unit_of_measurement": "10^9/L, 10^12/L, g/dL, %",
+            "reference_range": "WBC: 4-11, RBC: 4.4-6.2, Hb: 13.5-17.5, Hct: 41-53"
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": "ALT: 28, AST: 35, ALP: 90",
+            "unit_of_measurement": "U/L",
+            "reference_range": "ALT: 7-56, AST: 5-40, ALP: 45-125"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": "Cr: 85, BUN: 18",
+            "unit_of_measurement": "mg/dL, mg/dL",
+            "reference_range": "Cr: 70-135, BUN: 6-20"
+        }
+    ]
+}

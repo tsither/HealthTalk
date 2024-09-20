@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": "PID 555",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "0912345678",
+            "unit_of_measurement": "Total RBC count Result",
+            "reference_range": null
+        },
+        {
+            "test_name": "PACKED CELL VOLUME (PCV)",
+            "result_value": "12.5",
+            "unit_of_measurement": "MCH Reference Value MCHC",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "87.75",
+            "unit_of_measurement": ".2x 27.2 Unit C count",
+            "reference_range": null
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "EOSINOPHILS",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MONOCYTES",
+            "result_value": "83 - 101",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "BASOPHILS",
+            "result_value": "0006",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "11.6 - 14.0 - 34.5",
+            "unit_of_measurement": "mill/ Platelet Count",
+            "reference_range": "31 Instruments: Fully automated cell counter - Mindray 300"
+        }
+    ]
+}

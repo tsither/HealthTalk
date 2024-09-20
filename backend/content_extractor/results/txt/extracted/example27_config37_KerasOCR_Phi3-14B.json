@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemograma leucocitaria",
+            "result_value": 430,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "eosinofilos",
+            "result_value": 36,
+            "unit_of_measurement": "% of leukocytes",
+            "reference_range": null
+        },
+        {
+            "test_name": "linfocitos recuento",
+            "result_value": 19,
+            "unit_of_measurement": "% of leukocytes",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocitos mmi",
+            "result_value": 0.5,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "basofilos recuento",
+            "result_value": 1,
+            "unit_of_measurement": "% of leukocytes",
+            "reference_range": null
+        }
+    ]
+}

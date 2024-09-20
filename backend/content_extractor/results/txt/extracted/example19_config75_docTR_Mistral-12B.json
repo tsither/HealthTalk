@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Abe",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.75,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.3-5.8"
+        },
+        {
+            "test_name": "HCT (PVC)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 31,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "4.0-10.8"
+        }
+    ]
+}

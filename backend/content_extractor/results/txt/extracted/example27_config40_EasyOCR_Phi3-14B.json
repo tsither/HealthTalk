@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HB",
+            "result_value": 138.0,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "LDL",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": [
+                100,
+                250
+            ]
+        },
+        {
+            "test_name": "HDL-C",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": [
+                40,
+                60
+            ]
+        },
+        {
+            "test_name": "TG",
+            "result_valor": 12,
+            "unidad de medida": "mmol/l",
+            "referencia rango": [
+                5.4,
+                16.2
+            ]
+        },
+        {
+            "test_name": "glucosa nasta",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

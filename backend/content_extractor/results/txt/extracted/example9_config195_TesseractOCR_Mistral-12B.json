@@ -1,0 +1,101 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 5.1,
+                "Hb": 13.8,
+                "Hct": 42.3,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.2
+                },
+                "Hb": {
+                    "min": 13.0,
+                    "max": 18.0
+                },
+                "Hct": {
+                    "min": 37.0,
+                    "max": 52.0
+                },
+                "Platelets": {
+                    "min": 140,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Glucose": 98,
+                "Cholesterol": 192,
+                "Triglycerides": 135,
+                "HDL": 54,
+                "LDL": 107,
+                "BUN": 14.5,
+                "Creatinine": 0.9
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL"
+            },
+            "reference_range": {
+                "Glucose": {
+                    "min": 70,
+                    "max": 100
+                },
+                "Cholesterol": {
+                    "min": 130,
+                    "max": 200
+                },
+                "Triglycerides": {
+                    "min": 40,
+                    "max": 150
+                },
+                "HDL": {
+                    "min": 40,
+                    "max": null
+                },
+                "LDL": {
+                    "min": null,
+                    "max": 130
+                },
+                "BUN": {
+                    "min": 6.0,
+                    "max": 20.0
+                },
+                "Creatinine": {
+                    "min": 0.7,
+                    "max": 1.4
+                }
+            }
+        }
+    ]
+}

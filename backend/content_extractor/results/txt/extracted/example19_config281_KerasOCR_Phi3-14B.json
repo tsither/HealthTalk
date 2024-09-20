@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HIV 1/2 Antibody",
+            "result_value": "Negative",
+            "unit_of_measurement": "qualitative result",
+            "reference_range": null
+        },
+        {
+            "test_name": "CD4 Count",
+            "result_value": 160,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "[250-1500]"
+        },
+        {
+            "test_name": "Viral Load (HIV RNA)",
+            "result_value": "<40 copies/mL",
+            "unit_of_measurement": "copies/mL",
+            "reference_range": "[<200]"
+        }
+    ]
+}

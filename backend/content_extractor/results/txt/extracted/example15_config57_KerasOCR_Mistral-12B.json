@@ -1,0 +1,31 @@
+{
+    "Date": "02 DEC 2022",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "min": 9,
+                    "max": 17
+                },
+                "children": {
+                    "min": 75,
+                    "max": 13.5
+                },
+                "newborns": {
+                    "min": 9,
+                    "max": 17
+                }
+            },
+            "comments": "PDW is indicative of the volume of circulating platelets in a measure of blood and can be useful in distinguishing essential thrombocythemia vs reactive thrombocytosis."
+        }
+    ]
+}

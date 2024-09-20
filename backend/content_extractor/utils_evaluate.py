@@ -43,7 +43,8 @@ def preprocess_data(gold_data, eval_data):
                 matching_key = find_matching_key(key, eval_data[patient_info_key])
                 if matching_key:
                     gold_value = str(gold_data['patient_information'][key]).lower()
-                    eval_value = str(eval_data['patient_information'][matching_key]).lower()
+                    eval_value = str(eval_data[patient_info_key][matching_key]).lower()
+
                     results.append({
                         'field': key,
                         'correct': gold_value == eval_value,
@@ -84,6 +85,12 @@ def preprocess_data(gold_data, eval_data):
 
                 if isinstance(eval_test[test_name_key], int):
                     eval_test[test_name_key] = str(eval_test[test_name_key])
+
+                if isinstance(eval_test[test_name_key], list):
+                    if len(eval_test[test_name_key]) == 1:
+                        eval_test[test_name_key] = list(eval_test[test_name_key])[0]
+                    else:
+                        eval_test[test_name_key] = "NA"
 
                 if fuzz.ratio(gold_test['test_name'].lower(), eval_test[test_name_key].lower()) >= 80:
                     matching_test = eval_test

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Cholesterol (Total)",
+            "result_value": 209.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[150-240]"
+        },
+        {
+            "test_name": "HDL Cholesterol (High Density)",
+            "result_vee value": 63.7,
+            "unit of measurement": "mg/dL",
+            "reference range": "[25-40]"
+        },
+        {
+            "test_name": "LDL Cholesterol (Low Density)",
+            "result_value": 136.7,
+            "unit of measurement": "mg/dL",
+            "reference range": "[0-99]"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 54.8,
+            "unit of measurement": "mg/dL",
+            "reference range": "[0-129]"
+        }
+    ]
+}
