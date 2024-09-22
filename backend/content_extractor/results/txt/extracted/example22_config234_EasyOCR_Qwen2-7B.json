@@ -1,0 +1,36 @@
+{
+    "Date": "091231",
+    "patient_information": {
+        "patient_id": "s675",
+        "patient_name": "as6769",
+        "patient_sex": "male",
+        "patient_age": 55,
+        "patient_blood_type": "A+"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": "2100 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[3500-9500] cells/μL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "8.7 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12.6-16.0] g/dL for men; [11.5-15.0] g/dL for women"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "84.3 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-97] fL"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "26.1%",
+            "unit_of_measurement": "%",
+            "reference_range": "[31.5-34.5] %"
+        }
+    ]
+}

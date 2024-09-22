@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "10112345678",
+        "patient_name": "com drilogypathlabadrlogy",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hbj)",
+            "result_value": 3254,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "130-160"
+        },
+        {
+            "test_name": "Red Blood Cell Count (rbc)",
+            "result_value": 8775,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (mcv)",
+            "result_value": 90.0,
+            "unit_of_measurement": "femtoliter/cell",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Platelet Count (fon)",
+            "result_value": 254,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Differential (rdw)",
+            "result_value": 6.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

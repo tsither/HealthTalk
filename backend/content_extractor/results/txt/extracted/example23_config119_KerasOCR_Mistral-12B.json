@@ -1,0 +1,33 @@
+{
+    "Date": "130817",
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 14
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": {
+                    "count": "8.775",
+                    "unit_of_measurement": "10^9/L"
+                },
+                "RBC": {
+                    "count": "5.55",
+                    "unit_of_measurement": "10^12/L"
+                },
+                "HGB": {
+                    "result_value": "136",
+                    "unit_of_measurement": "g/L"
+                },
+                "PLT": {
+                    "result_value": "272",
+                    "unit_of_measurement": "10^9/L"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

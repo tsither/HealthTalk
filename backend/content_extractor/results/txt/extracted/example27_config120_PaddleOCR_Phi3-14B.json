@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 14.8,
+            "unit_of_measurement": "GT",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Recuento Globulares",
+            "result_value": 3.27,
+            "unit_of_measurement": "Ac.URICO UREA TRIGLICERIDOS COLESTEROL GLUCOSA COLÓN CACIAS POTASIO CLORO SODIO",
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas Enzimáticas LDL. HDI.",
+            "result_value": 7,
+            "unit_of_measurement": "mg%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Bioquímica Sérica Ionograma",
+            "result_value": [
+                138.0,
+                29.8
+            ],
+            "unit_of_measurement": [
+                "mEq/L",
+                "Eu/l"
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": 4.02,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "98-141"
+        }
+    ]
+}

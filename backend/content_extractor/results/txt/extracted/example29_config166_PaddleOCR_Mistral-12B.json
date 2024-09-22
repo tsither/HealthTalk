@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Obi",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": 4.5,
+                "Hb": 125,
+                "MCV": 12.5,
+                "HCT": 36,
+                "PLT": 328
+            },
+            "unit_of_measurement": {
+                "RBC count": "10^9/L",
+                "Hb": "g/dL",
+                "MCV": "fL",
+                "HCT": "%",
+                "PLT": "/L"
+            },
+            "reference_range": {
+                "RBC count": "3.5 - 5.5",
+                "Hb": "120 - 160",
+                "MCV": "80 - 100",
+                "HCT": "37 - 47",
+                "PLT": "150,000 - 400,000"
+            }
+        }
+    ]
+}

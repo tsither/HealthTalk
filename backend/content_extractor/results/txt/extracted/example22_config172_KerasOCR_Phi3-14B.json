@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin HbJ: 170 g/L",
+                "Total RBC count: 5.2 x10^12/L",
+                "Packed Cell Volume PVC: 57%",
+                "Mean Corpuscular Volume MCV: 87 fL",
+                "MCH (Mean Cell Hemoglobin): 24 pg"
+            ],
+            "unit_of_measurement": [
+                "g/L",
+                "x10^12/L",
+                "%",
+                "fL",
+                "pg"
+            ]
+        }
+    ]
+}

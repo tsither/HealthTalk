@@ -1,0 +1,23 @@
+{
+    "Date": "08.15.2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.6,
+            "unit_of_measurement": "million cells per microliter",
+            "reference_range": "3.8-10.8"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.7,
+            "unit_of_measurement": "grams/deciliter",
+            "reference_range": "12.4-15.9"
+        }
+    ]
+}

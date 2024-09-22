@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 120.0,
+            "unit_of_measurement": "g/L",
+            "reference_range": "13.3-18.0"
+        },
+        {
+            "test_name": "Hemocrito",
+            "result_value": 47.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "V.C.M.",
+            "result_value": 83.1,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 208.0,
+            "unit_of_measurement": "10^3/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 2.1,
+            "unit_of_measurement": "10^3/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "125",
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "52",
+            "unit_of_measurement": "Tst/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "21.2",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "328",
+            "unit_of_measurement": "g/L",
+            "reference_range": "325-360"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "139",
+            "unit_of_measurement": "%",
+            "reference_range": "11.8%-15%"
+        },
+        {
+            "test_name": "Platelet Count (Plt)",
+            "result_value": "207",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

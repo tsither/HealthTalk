@@ -1,0 +1,69 @@
+{
+    "Date": "2x dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "yash ma patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "low": 13.5,
+                "high": 17.0
+            }
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": 5.245,
+            "unit_of_measurement": "mil/cumm blood"
+        },
+        {
+            "test_name": "pcv",
+            "result_value": 57.5,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "mcv",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl"
+        },
+        {
+            "test_name": "mch",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "mchc",
+            "result_value": 128,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 15.6,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "total differential",
+            "result_value": {
+                "neutrophils": 80,
+                "lymphocytes": 8,
+                "eosinophils": 0.2,
+                "monocytes": 0.5,
+                "basophils": 0.1
+            }
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": "count",
+            "reference_range": {
+                "low": 150000,
+                "high": 410000
+            }
+        }
+    ]
+}

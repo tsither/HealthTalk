@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "PID": "555",
+                "blood mill/cumm": "Low",
+                "hemoglobin (Hb)": 83,
+                "RBC COUNT": "57.5"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "blood mill/cumm": "12.0-14.5",
+                "hemoglobin (Hb)": "38-56 gm/L",
+                "RBC COUNT": "17-19"
+            }
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": null,
+            "unit_of_measurement": "% fL",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "13.6%",
+            "unit_of_measurement": null,
+            "reference_range": "28-39%"
+        },
+        {
+            "test_name": "MCHIC %",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "20%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "83 cells/cumm",
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNTE",
+            "result_value": "10 cells/cumm",
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": null,
+            "unit_of_measurement": "Platelet count",
+            "reference_range": null
+        }
+    ]
+}

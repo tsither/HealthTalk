@@ -1,0 +1,35 @@
+{
+    "Date": "2x Dec",
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC Total": 6.5,
+                "RBC Total": 5.0,
+                "Hb": 15.0,
+                "HCT": 45.5,
+                "MCV": 83,
+                "MCH": 27.2,
+                "MCHC": 32,
+                "Platelet Count": 250
+            },
+            "unit_of_measurement": {
+                "WBC Total": "10^9/L",
+                "RBC Total": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

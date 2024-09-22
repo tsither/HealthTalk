@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "elevated gamma globulins",
+            "result_value": 5.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "decreased platelets (thrombocytopenia)",
+            "result_value": 6.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "elevated D-dimer",
+            "result_value": 2.0,
+            "unit_of_measurement": "ng/mL FEU",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "decreased sodium levels (hyponatremia)",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "elevated GGT enzymes",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

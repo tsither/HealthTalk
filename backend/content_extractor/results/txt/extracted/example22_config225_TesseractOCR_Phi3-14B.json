@@ -1,0 +1,52 @@
+{
+    "Date": "02.12.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Ak",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglon (Hb)": "12.5",
+                "Total RBC count": "5,2",
+                "Packed Cell Volume (PCV)": "7,5",
+                "Mean Corpuscular Volume (MCV)": "87,75",
+                "Cokudated | MCH": "27.2",
+                "MCHC": "32.8"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/db",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Cokudated | MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.e g/db",
+                "Total RBC count": "4,5 - 5,5 mill/cumm",
+                "Packed Cell Volume (PCV)": "40-50 %",
+                "Mean Corpuscular Volume (MCV)": "83-101 fl"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "60%",
+                "Lymphocytes": "29%",
+                "Eosinophils": "1%",
+                "Monocytes": "7%",
+                "Basophils": "1%"
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "WBCCOUNT -3 Pe Sos Total WBC count",
+            "result_value": 4000,
+            "reference_range": null
+        }
+    ]
+}

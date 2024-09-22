@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091235678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "HCT": 41.0,
+                "MCV": 90.0,
+                "MCH": 30.0,
+                "MCHC": 33.6,
+                "WBC": 8775,
+                "Neutrophils": 72.0,
+                "Lymphocytes": 18.0,
+                "Monocytes": 6.0,
+                "Eosinophils": 3.0,
+                "Basophils": 1.0,
+                "Platelets": 345000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "WBC": "cells/mm³",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelets": "cells/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

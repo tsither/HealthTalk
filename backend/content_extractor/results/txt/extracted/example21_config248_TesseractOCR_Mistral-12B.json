@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "0123456789 | 0912343678",
+        "patient_name": "Ss SS Samp I",
+        "patient_sex": null,
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.6 - 17.6"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 63,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 10000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

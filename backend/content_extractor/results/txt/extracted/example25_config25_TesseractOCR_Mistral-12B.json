@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitog": 6.56,
+                "Hematies": {
+                    "SET": true
+                },
+                "Hemoglobina": 9.7,
+                "Hematocrito": 28.8,
+                "V.C.M.": 69.0,
+                "H.C.M.": 23,
+                "C.H.c.M.": 33.8,
+                "R.D.w.": 17,
+                "Plaquetas": 329
+            },
+            "unit_of_measurement": {
+                "Leucocitog": "10^3/uL",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C.M.": "fL",
+                "C.H.c.M.": "%",
+                "R.D.w.": "fL",
+                "Plaquetas": "10^3/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Drak Formula Leucocitaria",
+            "result_value": {
+                "Neutrofilogs": 70.1,
+                "Linfocitos": 12.4,
+                "Monocitos": 13.7,
+                "Eosinofilog": 3.1,
+                "Basofilos": 0.7
+            },
+            "unit_of_measurement": {
+                "Neutrofilogs": "%",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Eosinofilog": "%",
+                "Basofilos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

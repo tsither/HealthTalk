@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Cortisol",
+            "result_value": 63,
+            "unit_of_measurement": "ng/dL",
+            "reference_range": "2.5-37"
+        }
+    ]
+}

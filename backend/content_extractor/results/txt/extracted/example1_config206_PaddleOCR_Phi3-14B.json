@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "null",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 12.5,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.7 - 6.1"
+        },
+        {
+            "test_name": "Blood Inoices Mean",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "WBC Count?",
+            "result_e value": 7.5,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "4.0 - 11.0"
+        },
+        {
+            "test_name": null,
+            "result_value": 87.75,
+            "unit_of_measurement": "millimeters/hpf",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "MCHC ROW",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Neutrophis": 32.8,
+                    "Lymphocytes": 40.5,
+                    "Eosinophils": 13.6,
+                    "Basophils": 0.75
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": [
+                {
+                    "Neutrophis": "40 - 60",
+                    "Lymphocytes": "20 - 40",
+                    "Eosinophils": "1 - 3",
+                    "Basophils": "0.5 - 1"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 60,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

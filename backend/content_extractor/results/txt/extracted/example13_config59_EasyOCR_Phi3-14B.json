@@ -1,0 +1,23 @@
+{
+    "Date": "02.12.202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Jesas Sesse",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb) Test",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13-17] in males [12-15] in females"
+        },
+        {
+            "test_name": "Hematocrit (HC) Test",
+            "result_value": 40.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-50]"
+        }
+    ]
+}

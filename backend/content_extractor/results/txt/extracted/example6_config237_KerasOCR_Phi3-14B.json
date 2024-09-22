@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567",
+        "patient_name": "Moilien Sungalow",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "address": "Shiyam Sungalow Street, Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 125",
+                "RBC count: 5.4",
+                "Packed Cell Volume (PCV): 57.5",
+                "Mean Corpuscular Volume (MCV) - x̄y (87.7, 93.1)",
+                "MCHC: 330 (saturation, reference range not provided)"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "million cells/µL",
+                "%",
+                "fL",
+                "g/dL"
+            ],
+            "reference_range": [
+                [
+                    "13.5-17.5 g/dL (male)",
+                    "4.5-6 million cells/µL",
+                    "38.8-50%",
+                    "80-96 fL",
+                    null
+                ]
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                "Neutrophils: 60",
+                "Lymphocytes: 31",
+                "Eosinophils: 40",
+                "Monocytes: 0.5",
+                "Basophils: 2.5"
+            ],
+            "unit_of_measurement": [
+                "%",
+                "%",
+                "%",
+                "%",
+                "%"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "185,000 (borderline)"
+        }
+    ]
+}

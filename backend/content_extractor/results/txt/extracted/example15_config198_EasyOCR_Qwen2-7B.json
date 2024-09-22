@@ -1,0 +1,25 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "pid",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "21 years",
+        "patient_heal": null,
+        "imcane": null
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": "1550",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[170-300] /uL"
+        },
+        {
+            "test_name": "plateletcrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

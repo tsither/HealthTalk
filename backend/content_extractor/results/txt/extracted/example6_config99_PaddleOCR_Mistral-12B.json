@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 87.75,
+                "Hemoglobin (Hb)": 12.5,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Reticulocyte Count": 0.6,
+                "Platelet Count": 27.2
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "/cumm",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Reticulocyte Count": "%",
+                "Platelet Count": "/cumm"
+            },
+            "reference_range": {
+                "Total WBC count": {
+                    "min": 4000,
+                    "max": 11000
+                },
+                "Hemoglobin (Hb)": {
+                    "min": 13.0,
+                    "max": 17.0
+                },
+                "Packed Cell Volume (PCV)": {
+                    "min": 32.5,
+                    "max": 34.5
+                },
+                "Reticulocyte Count": {
+                    "min": 40,
+                    "max": 50
+                },
+                "Platelet Count": {
+                    "min": 150000,
+                    "max": 410000
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": {
+                "Lymphocytes (DMLT, BMLT)": 32.8,
+                "Neutrophils": 13.6
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

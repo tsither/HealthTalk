@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.1,
+                "RBC": 4.5,
+                "Hb": 12.0,
+                "Hct": 39.0,
+                "MCV": 87.0,
+                "MCH": 27.8,
+                "MCHC": 32.0,
+                "RDW-CV": 15.4,
+                "PLT": 260
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/mm³",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "K/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 14,
+                "CREA": 0.9,
+                "NA": 139,
+                "K": 4.2,
+                "CO2": 25,
+                "CA": 9.2,
+                "TBIL": 0.8,
+                "DBIL": 0.2,
+                "IBIL": 0.6,
+                "ALT": 25,
+                "AST": 32,
+                "ALB": 4.1
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL",
+                "NA": "mmol/L",
+                "K": "mmol/L",
+                "CO2": "mmol/L",
+                "CA": "mmol/L",
+                "TBIL": "mg/dL",
+                "DBIL": "mg/dL",
+                "IBIL": "mg/dL",
+                "ALT": "U/L",
+                "AST": "U/L",
+                "ALB": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

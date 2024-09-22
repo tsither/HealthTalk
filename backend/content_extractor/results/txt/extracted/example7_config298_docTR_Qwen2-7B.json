@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "Jane Smith",
+        "patient_sex": "F",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "37-50"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 1.8,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "0.8-4"
+        }
+    ]
+}

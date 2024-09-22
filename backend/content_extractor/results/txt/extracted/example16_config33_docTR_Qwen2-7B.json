@@ -1,0 +1,41 @@
+{
+    "Date": "17/XX/XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Total",
+            "result_value": 8725,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "00-06"
+        },
+        {
+            "test_name": "RBC Total",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PCN",
+            "result_value": 272,
+            "unit_of_measurement": "%",
+            "reference_range": "00-102"
+        },
+        {
+            "test_name": "IMCT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb Volume",
+            "result_value": 328,
+            "unit_of_measurement": "fL",
+            "reference_range": "17.6-"
+        }
+    ]
+}

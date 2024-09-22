@@ -1,0 +1,39 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 13,
+                "Total RBC count": 5.2,
+                "WBC count": 60,
+                "Platelet count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "WBC count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "Total RBC count": {
+                    "Low": 4.5,
+                    "High": 5.5
+                },
+                "WBC count": {
+                    "Low": 40,
+                    "High": 50
+                }
+            }
+        }
+    ]
+}

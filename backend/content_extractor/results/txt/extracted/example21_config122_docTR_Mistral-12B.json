@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HBA1C",
+            "result_value": 5.7,
+            "unit_of_measurement": "%",
+            "reference_range": "<5.9%"
+        },
+        {
+            "test_name": "HbA2",
+            "result_value": 3.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "37-49%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 82,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.3,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 330,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

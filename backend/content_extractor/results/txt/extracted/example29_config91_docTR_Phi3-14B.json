@@ -1,0 +1,32 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT (Hb)",
+            "result_value": 83,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_valye": 101,
+            "unit_of_measuremnt": "count",
+            "reference_range": [
+                32.5,
+                345
+            ]
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

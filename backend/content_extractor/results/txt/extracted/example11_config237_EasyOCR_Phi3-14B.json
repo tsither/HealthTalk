@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Bungalowe",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "125 g/L",
+                "RBC count": "4.5 million/µL"
+            },
+            "unit_of_measurement": {
+                "hemoglonin": "g/dL",
+                "RBC count": "millions per microliter (cells/mcL)"
+            },
+            "reference_range": {
+                "hemoglobin": null,
+                "RBC count": null
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": {
+                "packed cell volume (PCV)": "40%",
+                "mean corpuscular hemoglobin concentration (MCHC)": "32 g/dL"
+            },
+            "unit_of_measurement": {
+                "packed cell volume (PCV)": "%",
+                "mean corpuscular hemoglobin concentration (MCHC)": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

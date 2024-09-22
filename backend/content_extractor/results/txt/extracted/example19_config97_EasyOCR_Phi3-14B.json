@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456739",
+        "patient_name": "Payal Urner",
+        "patient_sex": "Female",
+        "patient_age": null,
+        "patient_address": {
+            "street": null,
+            "city": "Mumbai",
+            "state": "Lra",
+            "country": null
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "106-158"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell Count)",
+            "result_value": 325,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 83.0,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 41.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 13.3,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Blood Cell count (RBC)",
+            "result_value": 498,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell count (WBC)",
+            "result_value": 7420,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 35.0,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "521398",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.5, RBC: 4.8, HGB: 13.9, HCT: 42.0",
+            "unit_of_measurement": "x10^9/L, x10^12/L, g/dL, %",
+            "reference_range": "WBC: 4-11, RBC: 4.0-5.5, HGB: 13-17, HCT: 40-50"
+        },
+        {
+            "test_name": "Sodium (Na)",
+            "result_value": "138 mmol/L",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "Potassium (K)",
+            "result_value": "4.0 mmol/L",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0 mmol/L"
+        },
+        {
+            "test_name": "Chloride (Cl)",
+            "result_value": "102 mmol/L",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "96-106 mmol/L"
+        },
+        {
+            "test_name": "Glucose (Glu)",
+            "result_value": "85 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

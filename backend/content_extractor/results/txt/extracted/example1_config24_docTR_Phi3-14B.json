@@ -1,0 +1,75 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "collected_at": "02 Dec, 2X on: 03:11 PM",
+        "reported_on": "02 Dec, 2X on: 04:35 PM"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 12.5,
+                "RBC_count": null,
+                "platelet_count": 300000,
+                "WBC_count": 60,
+                "neutrophils": null,
+                "lymphocytes": null,
+                "eosinophils": null,
+                "monocytes": null,
+                "basophils": null,
+                "RDW": null,
+                "MCV": 87.75,
+                "MCH": null,
+                "MCHC": null
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "RBC_count": "mill/cumm%",
+                "platelet_count": "cumm",
+                "WBC_count": "cells/microL",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%",
+                "RDW": null,
+                "MCV": "fL",
+                "MCH": "pg/cell",
+                "MCHC": "gHb/%HC"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0-17.# g/dL",
+                "RBC_count": "#-## mm3",
+                "platelet_count": "150,000-400,000 /microL"
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count BLOOD INDICES Packed Cell Volume (PCV) Mean Corpuscular Calculated MCH Calculated Calculated MCHC",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW WBC COUNT Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT Platelet Count Interpretation: Thanks for Reference Result Blood Mindray",
+            "result_value": 300,
+            "unit_of_measurement": "#/microL",
+            "reference_range": null
+        }
+    ]
+}

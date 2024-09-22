@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0012346678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Type": 13.0,
+                "Total Leukocytes": 57.5,
+                "RDW-CV": 14.0,
+                "Platelet Count": 323
+            },
+            "unit_of_measurement": {
+                "Type": null,
+                "Total Leukocytes": null,
+                "RDW-CV": null,
+                "Platelet Count": null
+            },
+            "reference_range": {
+                "Type": [
+                    4.5,
+                    10
+                ],
+                "Total Leukocytes": [
+                    "8.5",
+                    "10"
+                ],
+                "RDW-CV": [
+                    "12",
+                    "15"
+                ],
+                "Platelet Count": [
+                    "150000",
+                    "400000"
+                ]
+            }
+        },
+        {
+            "test_nale": null,
+            "result_value": 83.75,
+            "unit_of_measurement": null,
+            "reference_range": [
+                27,
+                32
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                4.5,
+                10
+            ]
+        }
+    ]
+}

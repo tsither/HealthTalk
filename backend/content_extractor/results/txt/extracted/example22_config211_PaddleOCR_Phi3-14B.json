@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 2e",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": "-"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cell Count",
+            "result_value": 27.2,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Cell Count",
+            "result_value": [
+                {
+                    "cell_type": "Leukocytes",
+                    "count": 13.6
+                },
+                {
+                    "cell_e type": "Eosinophils",
+                    "c ount": null
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "c otun e": null
+                },
+                {
+                    "cell_type": "Basophils",
+                    "count": null
+                }
+            ]
+        }
+    ]
+}

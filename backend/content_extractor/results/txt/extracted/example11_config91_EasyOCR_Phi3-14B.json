@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Oxygen Saturation (SpO2)",
+            "result_value": 95,
+            "unit_of_measurement": "%",
+            "reference_range": "94-100%"
+        },
+        {
+            "test_name": "Hemoglobin Level",
+            "result_value": 8.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 2.8,
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "4.7-6.1 x10^6/µL"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 28,
+            "unit_of_measurement": "%",
+            "reference_range": "45-52%"
+        }
+    ]
+}

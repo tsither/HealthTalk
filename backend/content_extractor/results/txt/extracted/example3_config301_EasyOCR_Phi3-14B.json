@@ -1,0 +1,29 @@
+{
+    "Date": "01.23.2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.6,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-11.0 x10^3/uL"
+        },
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4%-5.6%"
+        },
+        {
+            "test_name": "Low Density Lipoprotein (LDL)",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<100 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "24.05.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Lipase",
+            "result_value": 120,
+            "unit_of_measurement": "U/L",
+            "reference_range": "<67"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-105"
+        }
+    ]
+}

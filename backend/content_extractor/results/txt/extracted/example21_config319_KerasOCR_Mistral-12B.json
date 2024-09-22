@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "DR21938",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": "10.5",
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "4.8 - 10.8"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.6",
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.4 - 5.4"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "42.7%",
+            "unit_of_measurement": "%",
+            "reference_range": "40.7 - 50.3"
+        }
+    ]
+}

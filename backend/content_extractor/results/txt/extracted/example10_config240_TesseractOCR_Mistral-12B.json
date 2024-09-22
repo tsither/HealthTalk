@@ -1,0 +1,89 @@
+{
+    "Date": "05/12/2021",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.2,
+                "RBC": 4.8,
+                "Hb": 14.2,
+                "HCT": 45.3,
+                "MCV": 89.6,
+                "MCH": 29.7,
+                "MCHC": 33.2,
+                "RDW-CV": 13.5,
+                "Platelets": 250,
+                "MPV": 9.2
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "Platelets": "10^9/L",
+                "MPV": "fL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 6
+                },
+                "Hb": {
+                    "min": 12,
+                    "max": 18
+                },
+                "HCT": {
+                    "min": 37,
+                    "max": 47
+                },
+                "MCV": {
+                    "min": 75,
+                    "max": 99
+                },
+                "MCH": {
+                    "min": 26,
+                    "max": 32
+                },
+                "MCHC": {
+                    "min": 30,
+                    "max": 36
+                },
+                "RDW-CV": {
+                    "min": 11.5,
+                    "max": 14.5
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 450
+                },
+                "MPV": {
+                    "min": 7,
+                    "max": 12
+                }
+            }
+        },
+        {
+            "test_name": "Alanine Aminotransferase (ALT)",
+            "result_value": 35,
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "min": 0,
+                "max": 45
+            }
+        }
+    ]
+}

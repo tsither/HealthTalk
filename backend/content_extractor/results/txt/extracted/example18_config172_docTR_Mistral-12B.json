@@ -1,0 +1,120 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "682950E210",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.8,
+                "RBC": 4.5,
+                "HGB": 12.3,
+                "HCT": 39.0,
+                "MCV": 86,
+                "MCH": 27.0,
+                "MCHC": 31.3,
+                "PLT": 240,
+                "NEUT": 59.4,
+                "LYMPH": 29.6,
+                "MONO": 8.4,
+                "EOSIN": 2.3,
+                "BASO": null
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/µL",
+                "NEUT": "%",
+                "LYMPH": "%",
+                "MONO": "%",
+                "EOSIN": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.0,
+                    "max": 6.0
+                },
+                "HGB": {
+                    "min": 12.0,
+                    "max": 18.0
+                },
+                "HCT": {
+                    "min": 37.0,
+                    "max": 52.0
+                },
+                "MCV": {
+                    "min": 80,
+                    "max": 100
+                },
+                "MCH": {
+                    "min": 26,
+                    "max": 34
+                },
+                "MCHC": {
+                    "min": 32,
+                    "max": 36
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                },
+                "NEUT": {
+                    "min": 40,
+                    "max": 75
+                },
+                "LYMPH": {
+                    "min": 20,
+                    "max": 50
+                },
+                "MONO": {
+                    "min": 3,
+                    "max": 12
+                },
+                "EOSIN": {
+                    "min": 1,
+                    "max": 6
+                }
+            }
+        },
+        {
+            "test_name": "Iron Studies",
+            "result_value": {
+                "Fe": 85,
+                "TIBC": 304,
+                "Transferrin Saturation": 27.9
+            },
+            "unit_of_measurement": {
+                "Fe": "µg/dL",
+                "TIBC": "µg/dL",
+                "Transferrin Saturation": "%"
+            },
+            "reference_range": {
+                "Fe": {
+                    "min": 50,
+                    "max": 170
+                },
+                "TIBC": {
+                    "min": 240,
+                    "max": 450
+                },
+                "Transferrin Saturation": {
+                    "min": 20,
+                    "max": 50
+                }
+            }
+        }
+    ]
+}

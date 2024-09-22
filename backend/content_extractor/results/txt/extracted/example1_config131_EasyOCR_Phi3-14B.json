@@ -1,0 +1,133 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: low"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": [
+                52
+            ],
+            "unit_of_measurement": [
+                "millicumm"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_eolue": [
+                57.15
+            ],
+            "unit_of_measurement": [
+                "high"
+            ],
+            "reference_range": [
+                40,
+                54
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": [
+                87.75
+            ],
+            "unit_of_measurement": [
+                "fl"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": [
+                27.2
+            ],
+            "unit_of_measurement": [
+                "pg"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": [
+                4000
+            ],
+            "unit_of_measurement": [
+                "cumm"
+            ],
+            "reference_range": [
+                4500,
+                10000
+            ]
+        },
+        {
+            "test_name": "WBC differential count",
+            "result_value": {
+                "neutrophils": [
+                    62
+                ],
+                "lymphocytes": [
+                    39
+                ],
+                "monocytes": [
+                    1
+                ],
+                "eosinophils": [
+                    0
+                ],
+                "basophils": [
+                    0
+                ]
+            },
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": {
+                "neutrophils": [
+                    45,
+                    73
+                ],
+                "lymphocytes": [
+                    18,
+                    42
+                ],
+                "monocytes": [
+                    6,
+                    10
+                ],
+                "eosinophils": [
+                    0,
+                    4
+                ],
+                "basophils": [
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": [
+                50000
+            ],
+            "unit_of_measurement": [
+                "cumm"
+            ],
+            "reference_range": [
+                150000,
+                450000
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "04.05.23",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (qH)",
+            "result_value": 12.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.0 - 6.2 million cells/uL"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 17.0 g/dL"
+        }
+    ]
+}

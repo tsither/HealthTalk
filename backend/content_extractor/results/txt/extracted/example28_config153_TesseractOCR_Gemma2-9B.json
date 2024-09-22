@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "40.5",
+            "unit_of_measurement": "%",
+            "reference_range": "41-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "85",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": "12.8",
+            "unit_of_measurement": "%",
+            "reference_range": "11-14%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "7500",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4500-11000 /uL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "280,000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "150,000-450,000 /uL"
+        }
+    ]
+}

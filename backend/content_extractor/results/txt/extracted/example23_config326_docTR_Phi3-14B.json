@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 6.4,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 201,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[135-200]"
+        },
+        {
+            "test_name": "HDL Cholesterol (Good)",
+            "result_value": 41,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[>60]"
+        },
+        {
+            "test_name": "LDL Cholesterol (Bad)",
+            "result_value": 129,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[<130]"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 176,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[<150]"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Arterial Blood Gas Analysis",
+            "result_value": {
+                "pH": 7.4,
+                "PaCO2": 35,
+                "PaO2": 98,
+                "SaO2": 99,
+                "HCO3": 22
+            },
+            "unit_of_measurement": {
+                "pH": "",
+                "PaCO2": "mmHg",
+                "PaO2": "mmHg",
+                "SaO2": "%",
+                "HCO3": "mmol/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

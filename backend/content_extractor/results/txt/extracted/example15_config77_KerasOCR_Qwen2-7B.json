@@ -1,0 +1,21 @@
+{
+    "Date": "02/Dec/20xx",
+    "patient_information": {
+        "patient_id": "23456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Dils 2x Platelet Distribution PDW Width",
+            "result_value": "170",
+            "unit_of_measurement": "electrical impedence",
+            "reference_range": {
+                "adults": "170",
+                "children": "75-4.50",
+                "newborns": "<=1.0"
+            }
+        }
+    ]
+}

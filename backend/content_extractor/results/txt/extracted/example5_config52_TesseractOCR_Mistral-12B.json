@@ -1,0 +1,23 @@
+{
+    "Date": "27.05.23",
+    "patient_information": {
+        "patient_id": "TT421",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 6.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.8 - 7.2"
+        },
+        {
+            "test_name": "Lactate Dehydrogenase (LDH)",
+            "result_value": 450,
+            "unit_of_measurement": "U/L",
+            "reference_range": "100 - 300"
+        }
+    ]
+}

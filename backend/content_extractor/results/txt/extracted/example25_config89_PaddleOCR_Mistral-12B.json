@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": "12.5",
+                    "unit": "g/dL"
+                },
+                "Hematocrit (Hct)": {
+                    "value": "37.8",
+                    "unit": "%"
+                },
+                "Red Blood Cell Count (RBC)": {
+                    "value": "4.8",
+                    "unit": "million cells/mcL"
+                },
+                "White Blood Cell Count (WBC)": {
+                    "value": "6.2",
+                    "unit": "thousand cells/mcL"
+                },
+                "Platelet Count (PLT)": {
+                    "value": "250",
+                    "unit": "thousand/mcL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

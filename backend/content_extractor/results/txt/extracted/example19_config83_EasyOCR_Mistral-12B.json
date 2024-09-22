@@ -1,0 +1,47 @@
+{
+    "Date": "20123456789",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Shivam Smart",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 140,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "41-53%"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.50 million/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4.4-5.9"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "fl",
+            "reference_range": "76-96"
+        },
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": "5.2 K/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4.5-10.8"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "K/μL",
+            "reference_range": "150-400"
+        }
+    ]
+}

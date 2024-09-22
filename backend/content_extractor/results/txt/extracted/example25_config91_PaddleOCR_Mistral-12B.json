@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Glóbulos Rojos (RBC)": "5.1",
+                "Hemoglobina (Hb)": "13.2",
+                "Hematocrito (HCT)": "40.5",
+                "VGM de Hemoglobina (MCV)": "86.3",
+                "Hemoglobina en Hematocrito (MCH)": "27.8",
+                "Hemoglobina en Glóbulo Rojo (MCHC)": "32.1",
+                "Glóbulos Blancos (WBC)": "6.2",
+                "Placaetras (PLT)": "250"
+            },
+            "unit_of_measurement": {
+                "RBC": "x10^6/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "WBC": "x10^3/uL",
+                "PLT": "x10^3/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0121",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.0-11.0"
+        },
+        {
+            "test_name": "Red blood cell count (RBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.7-6.1"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 39,
+            "unit_of_measurement": "%",
+            "reference_range": "38.8-50.0"
+        },
+        {
+            "test_name": "White blood cell count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

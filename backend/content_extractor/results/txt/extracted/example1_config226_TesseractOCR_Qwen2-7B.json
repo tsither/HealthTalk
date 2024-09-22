@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02/31"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Normal range: Hemoglobin 13.0-17.0 g/dL; RBC count 45-55 mill/cumm; PCV 50%; MCV >27-32 pg; MCHC 32.5-345 g/dL; WBC count within normal range; Platelet Count 150000 - 410000",
+            "primary_sample_type": null,
+            "blood_hemoglobin": {
+                "result_value": 12.5,
+                "unit_of_measurement": "g/dL"
+            },
+            "total_rbc_count": {
+                "result_value": 5.2,
+                "unit_of_measurement": "mill/cumm"
+            },
+            "packed_cell_volume": {
+                "result_value": null,
+                "unit_of_measurement": "%"
+            },
+            "mean_corpuscular_volume": {
+                "result_value": 87.75,
+                "unit_of_measurement": "CO ‘101 ft C"
+            },
+            "saturated_mch": {
+                "result_value": 27.2,
+                "unit_of_measurement": "pg"
+            },
+            "mchc": {
+                "result_value": 32.8,
+                "unit_of_measurement": "g/dL"
+            },
+            "rbc_136": {
+                "result_value": null,
+                "unit_of_measurement": "momemmort"
+            },
+            "erythrocyte_count": {
+                "result_value": null,
+                "unit_of_measurement": ""
+            }
+        }
+    ]
+}

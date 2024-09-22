@@ -1,0 +1,71 @@
+{
+    "Date": "20XX-05-XX",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": {
+                    "value": 12.5,
+                    "unit": "10^9/L"
+                },
+                "Red Blood Cells": {
+                    "value": 4.5,
+                    "unit": "10^12/L"
+                },
+                "Hemoglobin (Hb)": {
+                    "value": 13.0,
+                    "unit": "g/dL"
+                },
+                "Platelets": {
+                    "value": 27.2,
+                    "unit": "10^9/L"
+                }
+            },
+            "reference_range": {
+                "White Blood Cells": {
+                    "min": 4.5,
+                    "max": 11.6
+                },
+                "Red Blood Cells": {
+                    "min": 3.8,
+                    "max": 5.7
+                },
+                "Hemoglobin (Hb)": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": {
+                "value": 83,
+                "unit": "fL"
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": {
+                "value": 32.8,
+                "unit": "%"
+            }
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": {
+                "value": 15.6,
+                "unit": "%"
+            }
+        }
+    ]
+}

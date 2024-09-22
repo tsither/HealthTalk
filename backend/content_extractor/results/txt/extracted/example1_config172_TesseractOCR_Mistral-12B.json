@@ -1,0 +1,59 @@
+{
+    "Date": "03/11",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 4.2,
+                "Packed Cell Volume (PCV)": 7.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RDW": 13.6,
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 1,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "MCH": "Pg",
+                "MCHC": "g/dl",
+                "RDW": "%",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "thousands/cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dl",
+                "Total RBC count": "45-55 mill/cumm",
+                "Packed Cell Volume (PCV)": "40%",
+                "Mean Corpuscular Volume (MCV)": "82-97 fl",
+                "MCH": "27 - 32 Pg",
+                "MCHC": "32.5 - 34.5 g/dl",
+                "RDW": "11.6-14.0%",
+                "Neutrophils": "50-76%",
+                "Lymphocytes": "24-49%",
+                "Eosinophils": "0-06%",
+                "Monocytes": "0-07%",
+                "Basophils": "0-01%",
+                "Platelet Count": "150000 - 410000"
+            }
+        }
+    ]
+}

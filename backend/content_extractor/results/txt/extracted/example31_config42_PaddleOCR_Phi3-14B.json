@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "",
+            "reference_range": "150000 - 410000 cumm"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_eval": 12.5,
+            "unit_of_measurement": "",
+            "reference_range": "30-40%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "6,500 - 10,000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "Date": "02/12/2XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": 57.5,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES Packed Cell Volume (PCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 83.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW WBC COUNT Total WBC count",
+            "result_value": 60.31,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": [
+                9000,
+                31,
+                1,
+                7,
+                1
+            ],
+            "unit_of_measurement": [
+                "cumm",
+                "%",
+                "%",
+                "%",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "plt/lf",
+            "reference_range": [
+                400000,
+                null
+            ]
+        }
+    ]
+}

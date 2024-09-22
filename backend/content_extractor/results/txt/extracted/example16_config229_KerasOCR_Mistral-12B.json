@@ -1,0 +1,47 @@
+{
+    "Date": "12 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.55,
+            "unit_of_measurement": "M/mm^3",
+            "reference_range": "4.4-6.2"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 0.5775,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 21.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 50000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "150,000 - 450,000"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 7 C COUNT BLOOD , 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "34"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 166000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4100,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[2000-9000]"
+        },
+        {
+            "test_name": "% Hemoglobin (HGB)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[13.0 - 17.0]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80 - 105]"
+        }
+    ]
+}

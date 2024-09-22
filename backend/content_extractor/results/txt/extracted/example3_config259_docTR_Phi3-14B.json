@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Os",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "(38.3 - 48.6)"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 470,
+            "unit_of_measurement": "/ul",
+            "reference_range": "(420 - 540)"
+        },
+        {
+            "test_name": "Hemoglo#B (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "(12 - 16)"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": "(80-95)"
+        }
+    ]
+}

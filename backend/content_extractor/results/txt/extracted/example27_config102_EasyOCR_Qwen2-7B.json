@@ -1,0 +1,145 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": 1,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "SEDIMENTACION",
+            "result_value": 46,
+            "unit_of_measurement": "j.",
+            "reference_range": ""
+        },
+        {
+            "test_name": "VELOCIDAD DE COAGULACION",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": [
+                {
+                    "name": "Hemoglobina",
+                    "value": 107,
+                    "unit": "g/L"
+                },
+                {
+                    "name": "Leucocitos",
+                    "value": 97,
+                    "unit": "mmiu"
+                },
+                {
+                    "name": "Eritroblastos",
+                    "value": null
+                },
+                {
+                    "name": "Hematocrito",
+                    "value": 12.8,
+                    "unit": "%"
+                },
+                {
+                    "name": "Platabstrasos",
+                    "value": null
+                },
+                {
+                    "name": "Fibrinogeno",
+                    "value": 140,
+                    "unit": "mg/dL"
+                },
+                {
+                    "name": "Urea",
+                    "value": 6,
+                    "unit": "mmol/L"
+                },
+                {
+                    "name": "Creatinina",
+                    "value": 17
+                },
+                {
+                    "name": "Sedimentacion",
+                    "value": null
+                }
+            ],
+            "reference_range": []
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA - ENZIMATICAS",
+            "result_value": [
+                {
+                    "name": "HGB",
+                    "value": 1467,
+                    "unit": "mU/l"
+                },
+                {
+                    "name": "ALT (GOT)",
+                    "value": null
+                },
+                {
+                    "name": "AST (GPT)",
+                    "value": null
+                },
+                {
+                    "name": "ALP",
+                    "value": null
+                },
+                {
+                    "name": "GTP",
+                    "value": 45
+                },
+                {
+                    "name": "LDH",
+                    "value": null
+                }
+            ],
+            "reference_range": []
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": [
+                {
+                    "name": "SODIO",
+                    "value": 141,
+                    "unit": "mEq/L"
+                },
+                {
+                    "name": "CLORO",
+                    "value": null
+                },
+                {
+                    "name": "KALIUM",
+                    "value": 4.02
+                }
+            ],
+            "reference_range": [
+                {
+                    "name": "SODIO",
+                    "range": [
+                        98,
+                        105
+                    ]
+                },
+                {
+                    "name": "CLORO",
+                    "range": [
+                        3.7,
+                        5
+                    ]
+                },
+                {
+                    "name": "KALIUM",
+                    "range": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": "12/05",
+    "patient_information": {
+        "patient_id": "0912645676",
+        "patient_name": "Yash",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "555 count",
+            "unit_of_measurement": "pid blood complete unit",
+            "reference_range": "[455, 600]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "55",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12.5, 16]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32 volume",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "81175",
+            "unit_of_measurement": "%",
+            "reference_range": "[36, 54]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "9ooo",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "50 count",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[4, 11]"
+        }
+    ]
+}

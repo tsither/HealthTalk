@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091231s675",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "hemoglobin": {
+                    "low": 12,
+                    "high": 16
+                },
+                "mchc": {
+                    "low": 300,
+                    "high": 400
+                },
+                "rdw": {
+                    "low": 12,
+                    "high": 15
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "thousands/mm^3",
+            "reference_range": {
+                "low": 100,
+                "high": 400
+            }
+        }
+    ]
+}

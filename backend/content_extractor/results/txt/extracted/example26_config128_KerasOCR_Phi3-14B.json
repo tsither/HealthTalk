@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_namae": "Hemoglobina",
+            "result_value": 120,
+            "unit_of_measurement": "g/L",
+            "reference_range": "90-133"
+        },
+        {
+            "test_name": "Glil",
+            "result_value": 470,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 360,
+            "unit_of_measurement": "mm^3/mcL",
+            "reference_range": "45-52"
+        }
+    ]
+}

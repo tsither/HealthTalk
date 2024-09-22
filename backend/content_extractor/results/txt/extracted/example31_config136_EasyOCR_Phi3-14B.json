@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5500,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4300-5200"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 for males"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8109,
+                "Hemoglobina": 14.3,
+                "VCM": 89,
+                "H.M.C.": 29,
+                "Leucicitos": {
+                    "Total": 102,
+                    "%": {
+                        "N": 68.1,
+                        "B": 5.1,
+                        "E": 17.4,
+                        "L": 2.4,
+                        "M": 7.1
+                    }
+                }
+            },
+            "unit_of_measurement": {
+                "Hematies": "X10^9/L",
+                "Hemoglobina": "g/dL",
+                "VCM": "fL",
+                "H.M.C.": "pg",
+                "Leucicitos": {
+                    "Total": "X10^6/uL",
+                    "%": "%"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioguímica básica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": {
+                    "Result": 1.15,
+                    "Range": "(0.70 - 1.10)"
+                },
+                "Colesterol": 220,
+                "Proteina": {
+                    "Result": 6.6,
+                    "Range": "(6.0-8.0)"
+                }
+            },
+            "unit_of_measurement": {
+                "Glucosa": "* mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": {
+                    "Result": "g/dL",
+                    "Range": "(6.0-8.0)"
+                }
+            },
+            "reference_range": {
+                "Glucosa": "(70.0-110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0"
+            }
+        },
+        {
+            "test_name": "Hierro",
+            "result_value": {
+                "Result": "+65",
+                "Range": "(55.0-135.0)"
+            },
+            "unit_of_measurement": "ug/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 20,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "(10.0-120.0)"
+        },
+        {
+            "test_name": "Hemoglogina A1c",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "(3.8- 5.5)"
+        },
+        {
+            "test_name": "GOT",
+            "result_value": {
+                "Result": 800,
+                "Range": "(5 - 32)"
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "GPT",
+            "result_value": {
+                "Result": 800,
+                "Range": "(7-33)"
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "GGT",
+            "result_value": {
+                "Result": 100,
+                "Range": "(10-41)"
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": 2.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(0.2 - 1)"
+        },
+        {
+            "test_name": "Bilirrubina directa (Esterificada)",
+            "result_value": {
+                "Result": 1.5,
+                "Range": "(0.05- 0.4)"
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fostatasa Alcalina",
+            "result_value": {
+                "Result": 50,
+                "Range": "(30 - 110)"
+            },
+            "unit_of_measurement": "A U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": {
+                "Result": 2.3,
+                "Range": "(3.40-4.80)"
+            },
+            "unit_of_measurement": "* g/dL",
+            "reference_range": null
+        }
+    ]
+}

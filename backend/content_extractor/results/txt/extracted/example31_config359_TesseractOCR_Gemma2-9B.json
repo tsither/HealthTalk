@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "39.0",
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.80",
+            "unit_of_measurement": "millions/µL",
+            "reference_range": "4.0-5.5 millions/µL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "81.2",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "25.0",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": "14.1",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "7.20",
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": "4.5-11.0 thousands/µL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "230",
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": "150-450 thousands/µL"
+        }
+    ]
+}

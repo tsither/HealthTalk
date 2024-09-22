@@ -1,0 +1,32 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "68.9578",
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) - RBC",
+            "result_value": "12.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "40-60 fL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC)",
+            "result_value": "57.5",
+            "unit_of_measurement": "/cum"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "83",
+            "unit_of_measurement": "g/dL"
+        }
+    ]
+}

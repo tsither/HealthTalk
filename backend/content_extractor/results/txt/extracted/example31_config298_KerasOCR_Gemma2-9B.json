@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 128,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red blood cells",
+            "result_value": 89,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cells",
+            "result_value": 72,
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 140,
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": null
+        }
+    ]
+}

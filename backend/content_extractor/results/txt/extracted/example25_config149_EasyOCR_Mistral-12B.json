@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemogram",
+            "result_value": {
+                "Hematocrit": 40.3,
+                "Hemoglobin": 12.7,
+                "Red Cell Count": 4.5,
+                "Mean Corpuscular Volume": 89
+            },
+            "unit_of_measurement": {
+                "Hematocrit": "%",
+                "Hemoglobin": "g/dL",
+                "Red Cell Count": "mil/mm³",
+                "Mean Corpuscular Volume": "fl"
+            },
+            "reference_range": {
+                "Hematocrit": {
+                    "min": 37,
+                    "max": 47
+                },
+                "Hemoglobin": {
+                    "min": 12,
+                    "max": 16
+                },
+                "Red Cell Count": {
+                    "min": 4.5,
+                    "max": 6
+                },
+                "Mean Corpuscular Volume": {
+                    "min": 80,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "test_name": "Leucocyte Formula",
+            "result_value": {
+                "Neutrophils": 62,
+                "Lymphocytes": 30,
+                "Eosinophils": 4,
+                "Basophils": 1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

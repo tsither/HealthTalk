@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "48 x 109",
+                "Hemoglobina": "14,3 g/dl",
+                "VCM sof H.M.c": 299,
+                "Leucicitos": "10,2 x 106"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteina": "66 g/dl",
+                "Hierro (+i)": "65 ng/dL",
+                "Ferritina": "20 µg/mL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dl",
+                "Hierro (+i)": "ng/dL",
+                "Ferritina": "µg/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina Aic",
+            "result_value": "4.5 %"
+        },
+        {
+            "test_name": "Got",
+            "result_value": "80 U/L"
+        },
+        {
+            "test_name": "GPT",
+            "result_value": "80 U/L"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": "100 U/L"
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": "28 mg/dL"
+        },
+        {
+            "test_name": "Bilirrubina directa (esterificada)",
+            "result_value": "1.5 mg/dL"
+        },
+        {
+            "test_name": "Fosfatasa alcalina",
+            "result_value": "SO U/L"
+        },
+        {
+            "test_name": "Albúmina",
+            "result_value": "23 g/dL"
+        }
+    ]
+}

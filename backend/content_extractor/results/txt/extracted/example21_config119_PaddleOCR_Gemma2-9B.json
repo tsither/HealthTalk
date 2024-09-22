@@ -1,0 +1,47 @@
+{
+    "Date": "02.Dec.202X",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "34.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "32.5 - 40."
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "400000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "13.6",
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Neutrophil (%)",
+            "result_value": "87.75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocyte (%)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

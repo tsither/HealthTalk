@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 148,
+            "unit_of_measurement": "g/L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 3.27,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Linfocitos",
+            "result_value": 36,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "7P/6",
+            "unit_of_measurement": null,
+            "reference_range": "13.0-17.e"
+        },
+        {
+            "test_name": "RBC COUNT % Total RBC count High 40-50 fL 57.5",
+            "result_value": "83 - 101",
+            "unit_of_measurement": null,
+            "reference_range": "27.2"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "27.8%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

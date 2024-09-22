@@ -1,0 +1,86 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "RBC_count": 57.5,
+                "PCV": 87.75,
+                "MCHC": 32.8,
+                "WBC_count": null,
+                "Neutrophils": 60,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": 11,
+                "Basophils": null,
+                "Platelet_count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "RBC_count": "mil/cumm",
+                "PCV": "%",
+                "MCHC": "pg",
+                "WBC_count": "cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet_count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "RBC_count": {
+                    "low": 4050,
+                    "high": null
+                },
+                "PCV": {
+                    "low": 27.2,
+                    "high": null
+                },
+                "MCHC": {
+                    "low": 11.6,
+                    "high": 14.0
+                },
+                "WBC_count": {
+                    "low": null,
+                    "high": null
+                },
+                "Neutrophils": {
+                    "low": null,
+                    "high": null
+                },
+                "Lymphocytes": {
+                    "low": null,
+                    "high": null
+                },
+                "Eosinophils": {
+                    "low": null,
+                    "high": null
+                },
+                "Monocytes": {
+                    "low": null,
+                    "high": null
+                },
+                "Basophils": {
+                    "low": null,
+                    "high": null
+                },
+                "Platelet_count": {
+                    "low": null,
+                    "high": null
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "5.55 x10^6/µL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "7.89 x10^3/uL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "256 x10^3/uL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        }
+    ]
+}

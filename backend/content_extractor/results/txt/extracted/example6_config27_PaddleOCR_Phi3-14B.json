@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglo cuid",
+            "result_value": 32.5,
+            "unit_of_measurement": null,
+            "reference_range": "10-14"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 57.5,
+            "unit_of_measurement": "x10^6/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 83,
+            "unit_of_measurement": "X109/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 27.2,
+            "unit_of_measurement": "x10^9/l",
+            "reference_range": null
+        }
+    ]
+}

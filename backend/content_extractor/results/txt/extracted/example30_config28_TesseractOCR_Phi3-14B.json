@@ -1,0 +1,87 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "4.30-5.68 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": "430-560 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "40-50%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "83.12 - 96.05 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.04 - 33.98 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": "27.04 - 33.98 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW wBC Count",
+            "result_value": "10.74 - 15.96 %",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "280-380 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential wBC Count",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "percentage": "20.0 - 85.0%"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "percentage": "10.0 - 34.9%"
+                },
+                {
+                    "type": "Eosinophils",
+                    "percentage": "20-70%"
+                },
+                {
+                    "type": "Monocytes",
+                    "percentage": "15-45%"
+                }
+            ],
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Platelet Count (Total)",
+            "result_value": "200 - 380 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

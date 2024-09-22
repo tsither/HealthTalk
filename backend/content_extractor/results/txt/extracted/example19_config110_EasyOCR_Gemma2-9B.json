@@ -1,0 +1,41 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "shah",
+        "patient_sex": "male",
+        "patient_age": "87"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "4.10e+06",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.10e+06 - 5.10e+06"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "10.8",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.00e+03 - 11.00e+03"
+        },
+        {
+            "test_name": "Plt count",
+            "result_value": "27.2",
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "15",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "40.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

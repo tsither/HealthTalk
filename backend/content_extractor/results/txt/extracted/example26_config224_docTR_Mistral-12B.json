@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "V.C.M": 93.1,
+                "H.CM": 27.0,
+                "C.H.C.M": 83.1,
+                "A.D.E": 4.75
+            },
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocrito",
+            "result_value": 13.3,
+            "unit_of_measurement": "p'al",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 120,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": {
+                "V.P.M": 30.5,
+                "AD.P": 83.1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": {
+                "Mon": 42.0,
+                "Eos": 73.0,
+                "Bas": 16.0,
+                "Lin": 45.0,
+                "Nu": 20
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

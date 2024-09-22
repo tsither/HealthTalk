@@ -1,0 +1,27 @@
+{
+    "Date": "55 Dec",
+    "patient_information": {
+        "patient_id": "0123456139",
+        "patient_name": "Patel Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 4.89,
+            "unit_of_measurement": "x10^6/µL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 6.89578,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4.5 - 11.0"
+        }
+    ]
+}

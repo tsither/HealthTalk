@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "poog",
+        "patient_sex": "Male",
+        "patient_age": 58,
+        "Investigation": "Primary"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dl"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": null,
+            "unit_of_measurement": "million cells/µL",
+            "reference_range": "4.7-6.1 million/microL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 87.75,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

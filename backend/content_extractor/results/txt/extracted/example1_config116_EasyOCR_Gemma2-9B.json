@@ -1,0 +1,71 @@
+{
+    "Date": "02.12.2023",
+    "patient_information": {
+        "patient_id": "01 23456789",
+        "patient_name": "patel yash m",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.21",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.51-5.5 million/µL"
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "345 idl"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13",
+            "unit_of_measurement": "%",
+            "reference_range": "6-11.6%"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "9000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-10000 cells/µL"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "60%",
+            "unit_of_measurement": "%",
+            "reference_range": "50-62%"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "50000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "410000-1000000 cells/µL"
+        }
+    ]
+}

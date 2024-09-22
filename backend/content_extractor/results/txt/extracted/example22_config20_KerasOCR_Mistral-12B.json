@@ -1,0 +1,48 @@
+{
+    "Date": "108 collected",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "shivam shah",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC": {
+                    "count": 6,
+                    "differential": {
+                        "Neutrophils": 41,
+                        "Lymphocytes": 50,
+                        "Eosinophils": 2,
+                        "Monocytes": 3,
+                        "Basophils": 0
+                    }
+                },
+                "RBC": {
+                    "count": 575,
+                    "Hb": 15.6,
+                    "Hct": 48,
+                    "MCH": 28.9,
+                    "MCV": 92.3,
+                    "RDW": 13.8
+                },
+                "Platelet": {
+                    "count": 300
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCH": "pg",
+                "MCV": "fL",
+                "RDW": "%",
+                "Platelet": "cells/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

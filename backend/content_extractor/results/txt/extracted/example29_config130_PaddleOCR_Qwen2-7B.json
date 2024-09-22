@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "Total",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "MCHeE",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 13.0,
+            "unit_of_measurement": "",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": "[4.5 - 5.5] [83-101]"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[32.8 Neutrophils 40 - 50] [13.6 Lymphocytes] [27 - 32] [27.5 Basophils]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "% (DMLT, BMLT)",
+            "reference_range": "[60] [11.6 - 14.0]"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 4000,
+            "unit_of_measurement": "Pg Instruments: Fll automated cell counter - Mindray",
+            "reference_range": null
+        }
+    ]
+}

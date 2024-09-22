@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 104,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": 55,
+            "unit_of_measurement": "x10^9/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": [
+                110,
+                200
+            ]
+        },
+        {
+            "test_name": "HDL cholesterol",
+            "result_value": 50.1,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "LDL cholesterol",
+            "result_value": 129.9,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": [
+                0,
+                130
+            ]
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": null,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": [
+                0,
+                250
+            ]
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 4.9,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": 4.8,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.0 - 5.5 million/mcL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6.2,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "4.0 - 11.0 thousand/mcL"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 265,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "150 - 450 thousand/mcL"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 13.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 41.8,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 52.0 %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.9,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 100.0 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 28.5,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0 - 31.0 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0 - 36.0 g/dL"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": 13.4,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "RDW-SD",
+            "result_value": 48.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "39.0 - 57.0 fL"
+        }
+    ]
+}

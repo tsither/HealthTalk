@@ -1,0 +1,116 @@
+{
+    "Date": "03/02",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Yash M",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collected_by": "Dr Hiren Shah"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count investigation",
+            "result_value": "CBCy",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "hemoglobin": {
+                    "min": 130,
+                    "max": 170,
+                    "units": "g/dL"
+                },
+                "rbc_count": {
+                    "min": null,
+                    "max": null,
+                    "units": "count/milicumm"
+                },
+                "blood_indices": [
+                    {
+                        "name": "ipcv",
+                        "min": null,
+                        "max": null,
+                        "units": "%"
+                    },
+                    {
+                        "name": "pcv",
+                        "min": 50,
+                        "max": 65,
+                        "units": "%"
+                    },
+                    {
+                        "name": "mcv",
+                        "min": 83,
+                        "max": 101,
+                        "units": "fl"
+                    },
+                    {
+                        "name": "mch",
+                        "min": 27,
+                        "max": 32,
+                        "units": "pg"
+                    },
+                    {
+                        "name": "mchc",
+                        "min": 325,
+                        "max": null,
+                        "units": "%"
+                    },
+                    {
+                        "name": "rdw",
+                        "min": 116,
+                        "max": null,
+                        "units": "%"
+                    }
+                ]
+            }
+        },
+        {
+            "test_name": "",
+            "result_value": "WBC counts",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "total_wbc_count": {
+                    "min": null,
+                    "max": null,
+                    "units": "cells/cumm"
+                },
+                "neutrophils": {
+                    "min": null,
+                    "max": null,
+                    "units": "%"
+                },
+                "lymphocytes": {
+                    "min": 10,
+                    "max": 45,
+                    "units": "%"
+                },
+                "eosinophils": {
+                    "min": null,
+                    "max": null,
+                    "units": "%"
+                },
+                "monocytes": {
+                    "min": null,
+                    "max": null,
+                    "units": "%"
+                },
+                "basophils": {
+                    "min": null,
+                    "max": null,
+                    "units": "%"
+                }
+            }
+        },
+        {
+            "test_name": "",
+            "result_value": "Platelet count",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "platelets": {
+                    "min": 150,
+                    "max": 450,
+                    "units": "cells/cumm"
+                }
+            }
+        }
+    ]
+}

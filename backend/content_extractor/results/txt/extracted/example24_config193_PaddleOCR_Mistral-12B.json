@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec 202x",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 105,
+                "RBC": 108,
+                "HGB": 150000,
+                "PLT": 273
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.4 - 6.1",
+                "HGB": "13.0 - 17.0",
+                "PLT": "150 - 450"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count (%)",
+            "result_value": {
+                "Neutrophils": 69,
+                "Lymphocytes": 21,
+                "Monocytes": 8,
+                "Eosinophils": 1
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 41,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 52.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 96,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 100.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0 - 32.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 18.0"
+        }
+    ]
+}

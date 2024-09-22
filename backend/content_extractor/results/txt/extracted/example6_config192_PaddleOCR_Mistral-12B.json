@@ -1,0 +1,56 @@
+{
+    "Date": "03:11",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": "5.7",
+                "Hemoglobin (Hb)": "13.6",
+                "Packed Cell Volume (PCV)": "45.5",
+                "WBC COUNT": "8.775",
+                "Neutrophils": "57.5",
+                "Lymphocytes": "32.8",
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "mill/cumm",
+                "Hemoglobin (Hb)": "g/dl",
+                "Packed Cell Volume (PCV)": "%",
+                "WBC COUNT": "10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            },
+            "reference_range": {
+                "Total RBC count": null,
+                "Hemoglobin (Hb)": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "Packed Cell Volume (PCV)": {
+                    "Low": 45.0,
+                    "High": 49.0
+                },
+                "WBC COUNT": {
+                    "Low": 4.5,
+                    "High": 11.0
+                },
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            }
+        }
+    ]
+}

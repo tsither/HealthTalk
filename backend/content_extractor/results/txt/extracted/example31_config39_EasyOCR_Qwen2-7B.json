@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "PID:555",
+        "patient_name": "Shivam Patil",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[Normal range]"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": "x 10^3/uL",
+            "reference_range": "[Normal range]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "",
+            "reference_range": "[Normal range]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[Normal range]"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "pH",
+            "result_value": 7.45,
+            "unit_of_measurement": "dimensionless",
+            "reference_eange": "[13.8 to 7.2]"
+        },
+        {
+            "test_name": "pCO2",
+            "result_value": 60,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "[45 to 31]"
+        },
+        {
+            "test_name": "HCO3-",
+            "result_value": 28,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

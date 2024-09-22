@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shah Vimal Dr.",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and RDW",
+            "result_value": {
+                "White Blood Cell Count": 10,
+                "Red Blood Cell Count": 4.52,
+                "Hemoglobin": 13.6,
+                "Hematocrit": 40.8,
+                "Mean Corpuscular Volume": 97.6,
+                "Mean Corpuscular Hgb Concentration": 32.8,
+                "Red Cell Distribution Width": 15.6,
+                "Platelet Count": 255
+            },
+            "unit_of_measurement": {
+                "White Blood Cell Count": "10^9/L",
+                "Red Blood Cell Count": "10^12/L",
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Mean Corpuscular Volume": "fL",
+                "Mean Corpuscular Hgb Concentration": "g/dL",
+                "Red Cell Distribution Width": "%",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

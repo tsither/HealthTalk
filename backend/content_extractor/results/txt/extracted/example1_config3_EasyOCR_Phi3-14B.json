@@ -1,0 +1,53 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 125 g/L",
+                "RBC count: 4.5 million cells/mcL",
+                "Packed Cell Volume (PCV): 37%",
+                "Mean Corpuscular Volume (MCV): 87 fL",
+                "Total White Blood Count (WBC): 60,000 /ul"
+            ],
+            "unit_of_measurement": [
+                "g/L",
+                "million cells/mcL",
+                "%",
+                "fL",
+                "/ul"
+            ],
+            "reference_range": [
+                "Male: 135-175 g/L",
+                "Adult male: 4.5-6 million cells/mcL",
+                "Men: 38.3-48.6%",
+                "Male: 80-96 fL",
+                "Adult male: 4,000-11,000 /ul"
+            ]
+        },
+        {
+            "test_name": "Differential White Blood Count (DWBC)",
+            "result_value": [
+                "Neutrophils: 50%",
+                "Lymphocytes: 30%",
+                "Eosinophils: 2%",
+                "Monocytes: 1%",
+                "Basophils: 7%"
+            ],
+            "unit_of_measurement": [
+                "%"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50,000/mcL",
+            "unit_e of_measurement": "/ul"
+        }
+    ]
+}

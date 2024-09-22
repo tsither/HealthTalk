@@ -1,0 +1,71 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "PATIENT_001",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13-17]"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "8000",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "Packed Cell Volume",
+            "result_value": "21.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[37-50]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "86 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "[82-94]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "31.7%",
+            "unit_of_measurement": "%",
+            "reference_range": "[30-36]"
+        },
+        {
+            "test_name": "Differential Count Neutrophils",
+            "result_value": "328 s/y",
+            "unit_of_measurement": "/y",
+            "reference_range": "[1.5-4]"
+        },
+        {
+            "test_name": "Lymphocytes Percentage",
+            "result_value": "176 s%",
+            "unit_of_measurement": "%",
+            "reference_range": "[20-50]"
+        },
+        {
+            "test_name": "Eosinophils Count",
+            "result_value": "105 /y",
+            "unit_of_measurement": "/y",
+            "reference_range": "[0-3]"
+        },
+        {
+            "test_name": "Monocytes Percentage",
+            "result_value": "6%",
+            "unit_of_measurement": "%",
+            "reference_range": "[2.5-11]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "325 /uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[150,000-400,000]"
+        }
+    ]
+}

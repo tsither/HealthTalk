@@ -1,0 +1,43 @@
+{
+    "Date": "03 Oct",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 87.75,
+                "RBC": 40.5,
+                "Hb": 13.6,
+                "Hct": 32.8,
+                "MCH": 13.6,
+                "MCV": 90.0,
+                "PLT": 27,
+                "Lymphocytes": 27,
+                "Neutrophils": 57.5,
+                "Eosinophils": 2,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCH": "pg",
+                "MCV": "fl",
+                "PLT": "10^9/L",
+                "Lymphocytes": "%",
+                "Neutrophils": "%",
+                "Eosinophils": "%",
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "reference_range": null
+        }
+    ]
+}

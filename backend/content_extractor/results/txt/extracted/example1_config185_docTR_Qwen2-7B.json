@@ -1,0 +1,35 @@
+{
+    "Date": "03/11",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Mb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "84-170 g/dL"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "5.2",
+            "unit_of_measurement": "/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "30-60%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 pg",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

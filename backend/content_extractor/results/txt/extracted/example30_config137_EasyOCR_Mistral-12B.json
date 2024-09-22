@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912645678",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC Total": 6.8,
+                "RBC Total": 5.0,
+                "HGB": 13.5,
+                "HCT": 42.0,
+                "MCV": 97.5,
+                "MCH": 27.0,
+                "MCHC": 32.0,
+                "RDW-CV": 14.0,
+                "PLT": 255,
+                "NEUT%": 60.0,
+                "LYMPH%": 30.0,
+                "EOSIN%": 0.0,
+                "MONO%": 10.0
+            },
+            "unit_of_measurement": {
+                "WBC Total": "x10^9/L",
+                "RBC Total": "x10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "x10^9/L",
+                "NEUT%": "%",
+                "LYMPH%": "%",
+                "EOSIN%": "%",
+                "MONO%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

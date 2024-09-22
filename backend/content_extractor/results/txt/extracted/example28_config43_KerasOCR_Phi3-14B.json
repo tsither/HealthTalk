@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 143,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cells (WBC)",
+            "result_value": 8900,
+            "unit_of_measurement": "/mm3",
+            "reference_eange": "4500-11000"
+        },
+        {
+            "test_name": "Red blood cell count (RBC)",
+            "result_value": 48,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV - Mean Cell Volume",
+            "result_value": 82,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

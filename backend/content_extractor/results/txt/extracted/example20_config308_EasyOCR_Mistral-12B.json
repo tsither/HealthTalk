@@ -1,0 +1,23 @@
+{
+    "Date": "02.03.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 6.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "4.2 - 7.8"
+        },
+        {
+            "test_name": "Urine Creatinine",
+            "result_value": 105,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": "62 - 135"
+        }
+    ]
+}

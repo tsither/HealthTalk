@@ -1,0 +1,116 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "unit_of_measurement": "g/dL",
+                    "result_value": 12.5,
+                    "reference_range": {
+                        "low": 13.0,
+                        "high": 17.0
+                    }
+                },
+                "RBC COUNT": {
+                    "unit_of_measurement": "mill/cumm",
+                    "result_value": 5.2,
+                    "reference_range": {
+                        "low": 40.0,
+                        "high": 50.0
+                    }
+                },
+                "BLOOD INDICES": {
+                    "PACKED CELL VOLUME (PCV)": {
+                        "unit_of_measurement": "%",
+                        "result_value": 57.5,
+                        "reference_range": {
+                            "low": 83.0,
+                            "high": 101.0
+                        }
+                    },
+                    "MEAN CORPUSCULAR HEMOGLOBIN (MCH)": {
+                        "unit_of_measurement": "pg",
+                        "result_value": 27.2,
+                        "reference_range": {
+                            "low": 32.5,
+                            "high": 34.5
+                        }
+                    },
+                    "MEAN CORPUSCULAR VOLUME (MCV)": {
+                        "unit_of_measurement": "%",
+                        "result_value": 87.75,
+                        "reference_range": {
+                            "low": 27.0,
+                            "high": 32.0
+                        }
+                    },
+                    "MEAN CORPORUCULAR HEWOGLOBIN CONCENTRATION (MCHC)": {
+                        "unit_of_measurement": "g/dL",
+                        "result_value": 13.6,
+                        "reference_range": null
+                    },
+                    "RED Blood Cell Distribution Width (RDW)": {
+                        "unit_of_measurement": "%",
+                        "result_value": null,
+                        "reference_range": {
+                            "low": 40.0,
+                            "high": 110.0
+                        }
+                    }
+                },
+                "WBC COUNT": {
+                    "unit_of_measurement": "cells/cumm",
+                    "result_value": 9000,
+                    "reference_range": {
+                        "low": 50.0,
+                        "high": 62.0
+                    }
+                },
+                "DIFFERENTIAL WBC COUNT": {
+                    "NEUTROPHILS": {
+                        "unit_of_measurement": "%",
+                        "result_value": 60.0,
+                        "reference_range": {
+                            "low": 20.0,
+                            "high": 40.0
+                        }
+                    },
+                    "LYMPHOCYTES": {
+                        "unit_of_measurement": "%",
+                        "result_value": null,
+                        "reference_range": null
+                    },
+                    "EOSINOPHILS": {
+                        "unit_of_measurement": "%",
+                        "result_value": null,
+                        "reference_range": null
+                    },
+                    "MONOCYTES": {
+                        "unit_of_measurement": "%",
+                        "result_value": null,
+                        "reference_range": null
+                    },
+                    "BASOPHILS": {
+                        "unit_of_measurement": "%",
+                        "result_value": 7.0,
+                        "reference_range": null
+                    }
+                },
+                "PLATELET COUNT": {
+                    "unit_of_measurement": "cells/cumm",
+                    "result_value": 150000,
+                    "reference_range": {
+                        "low": 410000.0
+                    }
+                }
+            }
+        }
+    ]
+}

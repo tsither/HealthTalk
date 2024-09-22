@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "White blood cells (WBC)": 10.2,
+                "Red blood cells (RBC)": 4.5,
+                "Hemoglobin (Hgb)": 13.8,
+                "Hematocrit (Hct)": 41.2,
+                "Platelets (PLT)": 250.0
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "Hgb": "g/dL",
+                "Hct": "%",
+                "PLT": "x10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0 x10^9/L",
+                "RBC": "4.0-5.5 x10^12/L",
+                "Hgb": "13.5-17.5 g/dL",
+                "Hct": "40.0-54.0 %",
+                "PLT": "150.0-450.0 x10^9/L"
+            }
+        }
+    ]
+}

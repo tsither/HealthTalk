@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_nareange": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_nareange": "38.8-50%"
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": 6.1,
+            "unit_of_measurement": "x10^9/L",
+            "reference_nareange": "4-11 x10^9/L"
+        }
+    ]
+}

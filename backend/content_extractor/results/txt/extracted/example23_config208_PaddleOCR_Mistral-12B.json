@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "SampleCollection",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Borderline",
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "12.5",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "pooa",
+            "reference_range": null
+        }
+    ]
+}

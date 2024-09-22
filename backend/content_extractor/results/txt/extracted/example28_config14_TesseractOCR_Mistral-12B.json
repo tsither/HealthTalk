@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 48,
+                "Hemoglobina": 14.3,
+                "HMC": 29,
+                "Leucicitos": 10.2
+            },
+            "unit_of_measurement": {
+                "Hematies": "x 10^9 fl",
+                "Hemoglobina": "g/dl",
+                "HMC": "pg",
+                "Leucicitos": "x 10^6 /l"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioguimica basica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": 1.1,
+                "Colesterol": 220,
+                "Proteina": 66,
+                "eritro (AHI)": 68,
+                "Ferritina": 20,
+                "Hemoglogina Ate 4S %": null,
+                "GoT": 800,
+                "GPT": 800,
+                "ect": 100,
+                "Bilirrubina total": 2.8,
+                "Bilirrubina directa (Este": 1.5,
+                "Fosfatasa Alcalina": 50,
+                "Albtmina": 2.3
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Creatinina": "mo/d",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "eritro (AHI)": "g/dL",
+                "Ferritina": "ng/mL",
+                "GoT": "U/L",
+                "GPT": "U/L",
+                "ect": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Bilirrubina directa (Este": "mg/dL",
+                "Fosfatasa Alcalina": "IU/L",
+                "Albtmina": "g/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0",
+                "Proteina": "(6.08.0)",
+                "eritro (AHI)": "(65.0 - 135.0)",
+                "Ferritina": "(40.0 - 120.0)",
+                "GoT": "(6-32)",
+                "GPT": "(7-33)",
+                "ect": "(20 - 41)",
+                "Bilirrubina total": "(0.2-4)",
+                "Bilirrubina directa (Este": "(0.05 - 0.4)",
+                "Fosfatasa Alcalina": "(30 - 410)",
+                "Albtmina": "(3.40 - 4.80)"
+            }
+        }
+    ]
+}

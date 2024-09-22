@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed CellVolume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                40,
+                50
+            ]
+        },
+        {
+            "test_name": "MCHC",
+            "result_eValue": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 40.5,
+            "unit_of_measurement": null,
+            "reference_range": [
+                38.1
+            ]
+        },
+        {
+            "test_name": "WBC Count c mill/cumm",
+            "result_value": 32.8,
+            "unit_of_measurement": "c mm/cumm",
+            "reference_range": [
+                6.0
+            ]
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT (Neutrophils)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                54.7
+            ]
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT (Lymphocytes)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                24
+            ]
+        },
+        {
+            "test_name": "PLAtELET COUnT % Platelet Count J: ",
+            "result_value": 0.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

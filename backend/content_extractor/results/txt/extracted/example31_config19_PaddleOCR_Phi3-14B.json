@@ -1,0 +1,77 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.지"
+        },
+        {
+            "test_name": "RBC COUNT (poo)",
+            "result_value": null,
+            "unit_of_measurement": "n/a",
+            "reference_range": "n/a"
+        },
+        {
+            "test_name": "Total RBC count (2X poo)",
+            "result_value": 57.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "BLOOD INDICES (2X poo)",
+            "result_value": null,
+            "unit_of_measurement": "n/a",
+            "reference_range": "n/a"
+        },
+        {
+            "test_name": "RDW WBC COUNT (2X poo)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT (2X cf)",
+            "result_value": {
+                "Neutrophils": 13.6,
+                "Lymphocytes": 0.06,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils Pg": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "27-32%",
+                "Lymphocytes": null,
+                "Eosinophils": "0.5 - 1.5 %",
+                "Monocytes": "4.0 - 8.0 %",
+                "Basophils Pg": null
+            }
+        },
+        {
+            "test_name": "Platelet Count (2X poo)",
+            "result_value": 135,
+            "unit_of_measurement": "%",
+            "reference_range": "n/a"
+        },
+        {
+            "test_name": "PLATELET COUNT (poo)",
+            "result_value": 7.6,
+            "unit_of_measurement": "P/L",
+            "reference_range": null
+        }
+    ]
+}

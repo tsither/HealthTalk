@@ -1,0 +1,65 @@
+{
+    "Date": "04.Dec.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "57 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "140 - 400 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "6.89573 million/µL",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "81 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "12 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "14.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "12.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "5750/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils - 64.3%, Lymphocytes - 28.9%, Monocytes - 5.1%, Eosinophils - 1.7%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "274,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "null"
+        }
+    ]
+}

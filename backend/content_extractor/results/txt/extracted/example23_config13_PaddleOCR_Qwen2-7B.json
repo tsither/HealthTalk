@@ -1,0 +1,29 @@
+{
+    "Date": "Not available",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "PATEL",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 4000,
+            "unit_of_measurement": "/sh vam",
+            "reference_range": "[105 - 1000] cumm"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 328,
+            "unit_of_measurement": "-",
+            "reference_range": "[32 - 34.5] %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 13.6,
+            "unit_of_measurement": "",
+            "reference_range": "[123 - 150] um"
+        }
+    ]
+}

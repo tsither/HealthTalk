@@ -1,0 +1,110 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.8,
+                    "unit": "g/dl",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2,
+                    "unit": "mill/cumm",
+                    "reference_range": "45-55"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": 57.5,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit": "fL",
+                    "reference_range": "83-101"
+                },
+                {
+                    "name": "MCH",
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": "27-32"
+                },
+                {
+                    "name": "MCHC",
+                    "value": 32.8,
+                    "unit": "g/dL",
+                    "reference_range": "32.5-34.5"
+                },
+                {
+                    "name": "RBC 13.6",
+                    "value": 13.6,
+                    "unit": "%",
+                    "reference_range": "11.6-14.0"
+                },
+                {
+                    "name": "Total WBC count",
+                    "value": "-9000",
+                    "unit": "2 cumm",
+                    "reference_range": "4000-11000"
+                }
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_values": [
+                {
+                    "name": "Neutrophils",
+                    "value": 60,
+                    "unit": "%",
+                    "reference_range": "7-50 - 62"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": "-",
+                    "unit": "%",
+                    "reference_range": "20-40"
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": "-",
+                    "unit": "%",
+                    "reference_range": "1-6"
+                },
+                {
+                    "name": "Monocytes",
+                    "value": 7,
+                    "unit": "%",
+                    "reference_range": "7-10"
+                },
+                {
+                    "name": "Basophils",
+                    "value": "-",
+                    "unit": "%",
+                    "reference_range": "1-2"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_values": [
+                {
+                    "name": "Platelet Count",
+                    "value": 150000,
+                    "unit": "cumm",
+                    "reference_range": "150000 - 410000"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Date": "091231",
+    "patient_information": {
+        "patient_id": "0123a76739",
+        "patient_name": "yash m",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "registered_on": "07 31 pt 02"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "lower": "11",
+                "upper": "17"
+            }
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": 521515,
+            "unit_of_measurement": "count/millicumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "lower": "40",
+                "upper": "56"
+            }
+        },
+        {
+            "test_name": "mch (mean corpuscular hemoglobin concentration)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": {
+                "lower": "18",
+                "upper": "30"
+            }
+        },
+        {
+            "test_name": "mchc (mean corpuscular hemoglobin content)",
+            "result_value": 328,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "lower": "345",
+                "upper": "375"
+            }
+        }
+    ]
+}

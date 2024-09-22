@@ -1,0 +1,86 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 10.1,
+                "RBC": 4.78,
+                "HGB": 13.9,
+                "HCT": 42,
+                "MCV": 86,
+                "MCH": 25,
+                "MCHC": 32,
+                "PLT": 240,
+                "NEU": 73,
+                "LYM": 19,
+                "MON": 4
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MON": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.0,
+                    "max": 6.2
+                },
+                "HGB": {
+                    "min": 13.0,
+                    "max": 17.0
+                },
+                "HCT": {
+                    "min": 38.0,
+                    "max": 46.0
+                },
+                "MCV": {
+                    "min": 78,
+                    "max": 92
+                },
+                "MCH": {
+                    "min": 25,
+                    "max": 31
+                },
+                "MCHC": {
+                    "min": 31,
+                    "max": 34
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 400
+                },
+                "NEU": {
+                    "min": 40,
+                    "max": 70
+                },
+                "LYM": {
+                    "min": 20,
+                    "max": 40
+                },
+                "MON": {
+                    "min": 3,
+                    "max": 10
+                }
+            }
+        }
+    ]
+}

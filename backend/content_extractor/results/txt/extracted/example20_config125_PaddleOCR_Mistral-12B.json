@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 20XX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel M.",
+        "patient_sex": "Male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "HCT",
+            "result_value": "45.0%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "8300/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC",
+            "result_value": "5.50x10^6/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "14.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "125 - 165"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "270x10^3/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

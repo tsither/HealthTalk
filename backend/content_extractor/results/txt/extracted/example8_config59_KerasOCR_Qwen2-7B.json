@@ -1,0 +1,20 @@
+{
+    "Date": "02/02/202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hbl)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g",
+            "reference_range": {
+                "male": "13-17",
+                "female": "11.5-16"
+            }
+        }
+    ]
+}

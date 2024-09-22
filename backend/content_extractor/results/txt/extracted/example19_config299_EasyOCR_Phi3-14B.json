@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "omzmoax",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 10.1,
+            "unit_of_measurement": "z0",
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": 21,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": [
+                0,
+                20
+            ]
+        },
+        {
+            "test_name": "Serum Iron",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Iron Binding Capacity (TIBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Transferrin Saturation",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                20,
+                50
+            ]
+        }
+    ]
+}

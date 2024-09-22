@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon de 60 anos",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Completo",
+            "result_value": "109",
+            "unit_of_measurement": "/l"
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": "65.0",
+            "unit_of_measurement": null,
+            "reference_range": "(70.0-110.0)"
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": "<240.0",
+            "unit_of_measurement": "U/L"
+        }
+    ]
+}

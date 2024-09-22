@@ -1,0 +1,60 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null,
+        "patient_registration_date": "02 2x"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count CBC",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[low:131, high:170]"
+        },
+        {
+            "test_name": "RBC Count Total RBC",
+            "result_value": null,
+            "unit_of_measurement": "millions/cumm",
+            "reference_range": "[55-6.0]"
+        },
+        {
+            "test_name": "PCV Packed cell volume",
+            "result_value": "51.5",
+            "unit_of_measurement": "%",
+            "reference_range": "[60-80]"
+        },
+        {
+            "test_name": "MCV Corpuscular volume",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": "[83-101]"
+        },
+        {
+            "test_name": "MCH Mean corpuscular hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "[27-32]"
+        },
+        {
+            "test_name": "MCHC MCH concentration",
+            "result_value": "3254",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[310-348]"
+        },
+        {
+            "test_name": "RDW Red cell distribution width",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[116-152]"
+        },
+        {
+            "test_name": "WBC Count Total WBC",
+            "result_value": "6.05",
+            "unit_of_measurement": "k/u/cumm",
+            "reference_range": null
+        }
+    ]
+}

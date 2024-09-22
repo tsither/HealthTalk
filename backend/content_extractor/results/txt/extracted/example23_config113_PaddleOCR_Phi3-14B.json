@@ -1,0 +1,29 @@
+{
+    "Date": "04.35.PM",
+    "patient_information": {
+        "patient_id": "900123456789",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total Blood Count - Hemogloptions (g/L)",
+            "result_value": 10.9,
+            "unit_of_measurement": "milliliters",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red blood cell count (Million /mcL)",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.8-5.6"
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": 41.0,
+            "unit_of_measurement": "%",
+            "reference_range": "39-49"
+        }
+    ]
+}

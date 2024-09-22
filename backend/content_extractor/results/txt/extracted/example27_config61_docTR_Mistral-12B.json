@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrit": 38.1,
+                "hemoglobin": 12.7,
+                "leucocytes": 6400,
+                "neutrophils": 51.6
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Biochemica Sérica V.N.",
+            "result_value": {
+                "glucose": 87,
+                "creatinine": 0.9,
+                "urea": 34,
+                "cholesterol": 150,
+                "hdl_cholesterol": 40
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas Enzimaticas GOT GPT GT",
+            "result_value": {
+                "got": 43,
+                "gpt": 45
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma V.N.",
+            "result_value": {
+                "sodium": 138,
+                "chloride": 98,
+                "potassium": 4.02
+            },
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

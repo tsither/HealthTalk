@@ -1,0 +1,108 @@
+{
+    "Date": "02/02/X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "5.2",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Calsulaied Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCH Calculaled",
+            "result_value": "27.2 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC Calculated",
+            "result_value": "32.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": [
+                {
+                    "Neutrophils": "40",
+                    "% cumm": "27.5%",
+                    "Low": "40-60"
+                },
+                {
+                    "Lymphocytes": "31",
+                    "% cumm": null,
+                    "Low": null
+                },
+                {
+                    "Eosinophils": "1",
+                    "% cumm": "1%",
+                    "Low": null
+                },
+                {
+                    "Monocytes": "7",
+                    "% cumm": null,
+                    "Low": null
+                },
+                {
+                    "Basophils": "1",
+                    "% cumm": null,
+                    "Low": null
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "40-60%",
+                "-",
+                "83-92%",
+                "0.5-7%"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "9000",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

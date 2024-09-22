@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "oiz3as67s",
+        "patient_name": "ms patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count (cbc)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12,
+                    "unit": "g/dl"
+                },
+                "rbc_count": {
+                    "value": 4.5,
+                    "unit": "million cells/mm³"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell count",
+            "result_value": {
+                "neutrophils": {
+                    "value": 60,
+                    "unit": "%"
+                },
+                "lymphocytes": {
+                    "value": 32,
+                    "unit": "%"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

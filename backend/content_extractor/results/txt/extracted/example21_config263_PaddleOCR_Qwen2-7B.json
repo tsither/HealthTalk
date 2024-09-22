@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": null,
+            "unit_of_measurement": "Mean Corpuscular Volume (MCV)",
+            "reference_range": "(DMLT, 8MLT)"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "27- 32"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

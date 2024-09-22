@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel Instant Type",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 125.0,
+                "Mean Corpuscular Volume (MCV)": 84.5,
+                "Red Blood Cell Count (RBC)": 4.0,
+                "White Blood Cell Count (WBC)": 6.5,
+                "Platelet Count": 272,
+                "Hematocrit (HCT)": 32.8
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Red Blood Cell Count (RBC)": "x10^6/uL",
+                "White Blood Cell Count (WBC)": "x10^3/uL",
+                "Platelet Count": "x10^3/uL",
+                "Hematocrit (HCT)": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

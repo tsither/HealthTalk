@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 360000,
+            "unit_of_measurement": "Cuwnm",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": "Cwnm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "7p/6",
+            "reference_range": "13.0-17.e"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm rBc count",
+            "reference_range": null
+        }
+    ]
+}

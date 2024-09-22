@@ -1,0 +1,29 @@
+{
+    "Date": "03 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PT",
+            "result_value": 15.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": null
+        },
+        {
+            "test_name": "INR",
+            "result_value": 1.23,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Plt (WBC)",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "15.50 - 34.50"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Date": "20 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC Count": 5.6,
+                "RBC Count": 4.87,
+                "HGB": 13.5,
+                "HCT": 40.2,
+                "MCV": 81.75,
+                "MCH": 27.2,
+                "MCHC": 33.6,
+                "RDW-CV": 14.5,
+                "PLT Count": 200
+            },
+            "unit_of_measurement": {
+                "WBC Count": "cells/mm^3",
+                "RBC Count": "cells/mm^3",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT Count": "cells/mm^3"
+            },
+            "reference_range": null
+        }
+    ]
+}

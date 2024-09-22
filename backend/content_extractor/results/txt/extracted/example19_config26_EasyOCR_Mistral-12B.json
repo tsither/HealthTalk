@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "Hb (Hemoglobin)": 10.1,
+                "RBC count": 3.12,
+                "WBC count": 6.0,
+                "Platelet count": 250
+            },
+            "unit_of_measurement": {
+                "Hb (Hemoglobin)": "g/dL",
+                "RBC count": "million/µL",
+                "WBC count": "thousand/µL",
+                "Platelet count": "thousand/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}
