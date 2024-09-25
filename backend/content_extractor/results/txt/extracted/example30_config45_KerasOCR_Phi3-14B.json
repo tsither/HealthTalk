@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L or g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 689578,
+            "unit_of_measurement": "cells / microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 130,
+            "unit_of_measurement": "x10^9/L or x10^3 /mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count (Differential)",
+            "result_value": [
+                {
+                    "neutrophils": 57.5,
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "lymphocytes": "8.77",
+                    "unit_of_measurement": "%"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": "Calculated by MCHC value, not provided",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

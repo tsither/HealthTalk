@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "RBC: 4.50 million/mcL",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "RBC: 4.0-5.5 million/mcL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7,200 cells/mcL",
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "WBC: 4,500-11,000 cells/mcL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Platelets: 275,000/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": "Platelets: 150,000-450,000/mcL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14.6 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "42.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "82 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "29 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "35.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "11.7%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        }
+    ]
+}

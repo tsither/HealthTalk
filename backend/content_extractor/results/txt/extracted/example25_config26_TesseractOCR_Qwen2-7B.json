@@ -1,0 +1,27 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 3.7,
+                "Hematies": 28.8,
+                "Hemoglobina": 23,
+                "MCV": 33.8
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "gr/dL",
+                "Hematies": "& 69,0 FL",
+                "Hemoglobina": "g/az",
+                "MCV": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

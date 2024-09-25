@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Leucocitos": "56 V",
+                "Hematies": "3.17 (4 - 10)",
+                "Hemoglobina": "12.5 g/dL",
+                "Hematocrito": "33%",
+                "Plaquetas": "298 x 10^3/µL"
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "/IL",
+                "Hematies": "/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "Plaquetas": "x 10^3/µL"
+            },
+            "reference_range": {
+                "Leucocitos": "(4,5 - 11)",
+                "Hematies": "(12.5 - 16.5)",
+                "Hemoglobina": "(12.5 - 17.5)",
+                "Hematocrito": "(39 - 50%)",
+                "Plaquetas": "(150,000 - 450,000)"
+            }
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "Neutrofilos": "69%",
+                "Linfocitos": "23%",
+                "Monocitos": "1%",
+                "Eosinofilos": "500/µL",
+                "Basoflilos": "10%"
+            },
+            "unit_of_measurement": {
+                "%": "%",
+                "/µL": "x 10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

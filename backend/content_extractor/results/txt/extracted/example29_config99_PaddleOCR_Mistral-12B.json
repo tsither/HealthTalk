@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555 Instant y Sample Type DAD",
+        "patient_name": "Sam D",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "125",
+            "unit_of_measurement": "nple Bnus Corpuscular Volume (MCV)",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (PCV)",
+            "result_value": "38.9",
+            "unit_of_measurement": "%",
+            "reference_range": "40.0 - 52.0"
+        },
+        {
+            "test_name": "PLT count",
+            "result_value": "272",
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "150-400"
+        },
+        {
+            "test_name": "WBC (Total)",
+            "result_value": "6895",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

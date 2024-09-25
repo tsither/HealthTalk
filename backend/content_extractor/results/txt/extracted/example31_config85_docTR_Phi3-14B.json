@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 mill/cumm",
+            "unit_of_measurement": null,
+            "reference_range": "13.0-17.e g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "5.2 %",
+            "unit_of_measurement": null,
+            "reference_range": "40-50 fL"
+        },
+        {
+            "test_name": "Packed Cell Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.2",
+            "unit_of_measurement": null,
+            "reference_range": "32.5-34.5 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "13.6",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "4000-11000",
+            "unit_of_measurement": "WBC count",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "9000",
+            "unit_of_measurement": "Total WBC count",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Differential White Blood Cell (WBC) Count",
+            "result_value": "7",
+            "unit_of_measurement": null,
+            "reference_range": "00-10 Eosinophils"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "57.5",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

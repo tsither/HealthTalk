@@ -1,0 +1,57 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "Age : 21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low (13.0-17.0)"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "5.2",
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "57.5",
+            "reference_range": "High (40-50)"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.2 fL",
+            "reference_range": "Calculated (27 - 32)"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "32.8",
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "9000",
+            "reference_range": "4000-11000 cumm"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "60 %",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "31 %",
+            "reference_range": "00-06%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "reference_range": "Borderline (150000 - 410000)"
+        }
+    ]
+}

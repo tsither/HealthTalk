@@ -1,0 +1,74 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HGB": 13.0,
+                "WBC": 6.5,
+                "PLT": 272,
+                "RBC": 4.92,
+                "HCT": 41.0,
+                "MCV": 83.5,
+                "MCH": 27.2,
+                "MCHC": 32.5,
+                "RDW-CV": 13.6
+            },
+            "unit_of_measurement": {
+                "HGB": "g/dL",
+                "WBC": "/µL",
+                "PLT": "/µL",
+                "RBC": "x10^6/µL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%"
+            },
+            "reference_range": {
+                "HGB": {
+                    "low": 12.5,
+                    "high": 16.0
+                },
+                "WBC": {
+                    "low": 4.5,
+                    "high": 10.5
+                },
+                "PLT": {
+                    "low": 150,
+                    "high": 450
+                },
+                "RBC": {
+                    "low": 4.0,
+                    "high": 5.5
+                },
+                "HCT": {
+                    "low": 37.0,
+                    "high": 47.0
+                },
+                "MCV": {
+                    "low": 80,
+                    "high": 100
+                },
+                "MCH": {
+                    "low": 26,
+                    "high": 32
+                },
+                "MCHC": {
+                    "low": 32,
+                    "high": 36
+                },
+                "RDW-CV": {
+                    "low": 11.5,
+                    "high": 14.5
+                }
+            }
+        }
+    ]
+}

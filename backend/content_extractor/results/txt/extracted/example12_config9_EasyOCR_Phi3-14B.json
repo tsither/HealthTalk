@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BUN",
+            "result_value": 18,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-20 mg/dL"
+        },
+        {
+            "test_n ame": "Creatinine",
+            "result_value": 1.1,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "GFR (estimated)",
+            "result_value": 75,
+            "unit_of_measurement": "mL/min/1.73 m^2",
+            "reference_range": ">60 mL/min/1.73 m^2"
+        }
+    ]
+}

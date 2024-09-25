@@ -1,0 +1,49 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shan Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 5.55,
+                "RBC": 4.8,
+                "HGB": 12.0,
+                "HCT": 37.0,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "PLT": 250,
+                "NEUT": 80,
+                "LYMPH": 10,
+                "MONO": 4,
+                "EO": 6,
+                "BASO": 0
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^3/uL",
+                "RBC": "x10^6/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "fL",
+                "PLT": "x10^3/uL",
+                "NEUT": "%",
+                "LYMPH": "%",
+                "MONO": "%",
+                "EO": "%",
+                "BASO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

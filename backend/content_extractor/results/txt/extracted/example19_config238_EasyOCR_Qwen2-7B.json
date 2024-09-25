@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 21,
+            "unit_of_measurement": "reference",
+            "reference_range": "555 dl pid"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 50,
+            "unit_of_measurement": "hbi",
+            "reference_range": "5o sz py"
+        },
+        {
+            "test_name": "High Hemoglobin",
+            "result_value": 10,
+            "unit_of_measurement": "b5 cl count g rbc count",
+            "reference_range": null
+        }
+    ]
+}

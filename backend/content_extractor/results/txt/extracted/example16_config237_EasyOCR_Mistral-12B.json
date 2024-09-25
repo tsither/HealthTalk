@@ -1,0 +1,35 @@
+{
+    "Date": "Dec 21",
+    "patient_information": {
+        "patient_id": "23a5675",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Serology Complete",
+            "result_value": "555",
+            "unit_of_measurement": "G/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-18"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.0",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "WBC Total Count",
+            "result_value": "10,000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4,500-11,000"
+        }
+    ]
+}

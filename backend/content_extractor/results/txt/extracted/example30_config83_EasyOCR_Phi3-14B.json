@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912645678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 50.69,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[24-45] x1e+9/L"
+        },
+        {
+            "test_name": "Hemoglobin (MCH)",
+            "result_value": 8.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-16] g/dL"
+        },
+        {
+            "test_name": "Hematocrit (MCHC)",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[32-47]%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-96] fL"
+        }
+    ]
+}

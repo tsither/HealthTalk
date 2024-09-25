@@ -1,0 +1,36 @@
+{
+    "Date": "07 Dec, 2020",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 150000,
+            "unit_of_measurement": "Blood",
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "HCT": {
+                    "min": 37,
+                    "max": 47
+                },
+                "Plt": {
+                    "min": 150000,
+                    "max": 410000
+                }
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

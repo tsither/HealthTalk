@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "drlo",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "red blood cell (RBC) count",
+            "result_value": "555",
+            "unit_of_measurement": "/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": "0.12345673",
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": "0",
+            "unit_of_measurement": "percentage",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "130",
+            "unit_of_measurement": "/µL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

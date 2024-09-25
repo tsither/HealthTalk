@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LDL cholesterol",
+            "result_value": 130.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-99 mg/dL"
+        },
+        {
+            "test_name": "HDL cholesterol",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ">39 mg/dL"
+        },
+        {
+            "test_name": "Total cholesterol",
+            "result_value": 210,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<200 mg/dL"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<150 mg/dL"
+        }
+    ]
+}

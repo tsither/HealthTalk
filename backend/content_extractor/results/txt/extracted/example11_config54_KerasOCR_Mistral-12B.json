@@ -1,0 +1,24 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "23456789",
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Lymphocytes (%)": {
+                    "value": 20,
+                    "reference_range": "40-70"
+                },
+                "Eosinophils (%)": {
+                    "value": 0,
+                    "reference_range": "0-6"
+                }
+            }
+        }
+    ]
+}

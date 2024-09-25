@@ -1,0 +1,23 @@
+{
+    "Date": "01/23/2023",
+    "patient_information": {
+        "patient_id": "A-12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "7.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.0 - 10.0"
+        },
+        {
+            "test_name": "Serum Glucose",
+            "result_value": "92",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70 - 100"
+        }
+    ]
+}

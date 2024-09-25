@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 144,
+            "unit_of_measurement": "g/L",
+            "reference_ range": null
+        },
+        {
+            "test_name": "Glal",
+            "result_value": 120,
+            "unit_of_measurement": "mmol/L",
+            "reference_ range": null
+        },
+        {
+            "test_name": "Homatocrito",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_ range": [
+                38,
+                47
+            ]
+        },
+        {
+            "test_name": "Sobremurosa plasmática viscosa (VP)",
+            "result_value": 91,
+            "unit_of_measurement": "mm/h",
+            "reference_ range": [
+                60,
+                150
+            ]
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 208,
+            "unit_of_measurement": "/ul",
+            "reference_range": [
+                150,
+                400
+            ]
+        }
+    ]
+}

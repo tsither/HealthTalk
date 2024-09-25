@@ -1,0 +1,23 @@
+{
+    "Date": "21.04.2023",
+    "patient_information": {
+        "patient_id": "LBR090765",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": 125.6,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "100 - 320"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 18.0"
+        }
+    ]
+}

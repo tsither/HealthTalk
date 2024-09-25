@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Jane Doe",
+        "patient_sex": "Female",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Red Blood Cells": 4.5,
+                "Hemoglobin": 14,
+                "Hematocrit": 42,
+                "White Blood Cells": 7.8,
+                "Platelets": 250
+            },
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": {
+                "Red Blood Cells": "4.0 - 5.5 x10^9/L",
+                "Hemoglobin": "12 - 16 g/dL",
+                "Hematocrit": "37 - 49%",
+                "White Blood Cells": "4.5 - 11 x10^9/L",
+                "Platelets": "150 - 450 x10^9/L"
+            }
+        }
+    ]
+}

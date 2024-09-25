@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "pLAteLet count Differential wbc count W8C COUNT MCLC MCH Mesn Corpuscular Volume. (MCV) Packed Cell Volume (PCV) BLOOd indicEs R8c count Hemoglobin (Hb) HEmOgLOBIN Primary Somple Type : Medical Lab Technician",
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                12.5,
+                87.75
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "%"
+            ],
+            "reference_range": null
+        }
+    ]
+}

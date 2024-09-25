@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "mumial",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation Result",
+            "result_value": "Hemoglobin HbJ",
+            "unit_of_measurement": null,
+            "reference_range": "125-1310a g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4540000.0,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "5-7e9/mm^3"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.16,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

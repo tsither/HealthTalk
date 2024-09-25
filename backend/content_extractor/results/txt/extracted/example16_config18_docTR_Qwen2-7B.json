@@ -1,0 +1,41 @@
+{
+    "Date": "Dec.2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "57.5 g/dL",
+            "unit_of_measurement": "Blood Value",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-17.0"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "9000 50-62",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

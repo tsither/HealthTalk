@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 32.5,
+            "unit_of_measurement": "-",
+            "reference_range": "[150000-410000]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": "[Low 13.0- 17.0]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "uH",
+            "reference_range": null
+        }
+    ]
+}

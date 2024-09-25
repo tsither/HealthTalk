@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[170, 120]"
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": 52458,
+            "unit_of_measurement": "cells/μm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 57.15,
+            "unit_of_measurement": "%",
+            "reference_range": "[40, 50]"
+        },
+        {
+            "test_name": "mean corpuscular volume (mcv)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "[b34, 101]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3251, 345]"
+        },
+        {
+            "test_name": "red cell distribution width (rdw)",
+            "result_value": 136,
+            "unit_of_measurement": "%",
+            "reference_range": "[116, 140]"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": 4.78,
+            "unit_of_measurement": "Million/uL",
+            "reference_range": "[13.2-16.9]"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 14.7,
+            "unit_of_measurement": "g/dL",
+            "reference_angle": "[13.8-17.2]"
+        },
+        {
+            "test_name": "HTC",
+            "result_value": 390,
+            "unit_of_measurement": "mmol/mol",
+            "reference_range": null
+        },
+        {
+            "test_name": "LDL-CHOLESTEROL",
+            "result_value": 125.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0-99]"
+        },
+        {
+            "test_name": "HDLC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

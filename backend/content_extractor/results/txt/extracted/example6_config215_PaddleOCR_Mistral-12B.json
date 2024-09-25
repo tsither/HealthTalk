@@ -1,0 +1,69 @@
+{
+    "Date": "04.35",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 87.75,
+                "RBC": 45000000,
+                "Hb": 12.5,
+                "HCT": 37.5,
+                "PLT": 272000
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/µL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "PLT": "cells/mm³"
+            },
+            "reference_range": {
+                "WBC": {
+                    "low": 4500,
+                    "high": 11000
+                },
+                "RBC": {
+                    "low": 3700000,
+                    "high": 5500000
+                },
+                "Hb": {
+                    "low": 12.0,
+                    "high": 16.0
+                },
+                "HCT": {
+                    "low": 36.0,
+                    "high": 46.0
+                },
+                "PLT": {
+                    "low": 150000,
+                    "high": 450000
+                }
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "low": 82,
+                "high": 100
+            }
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": {
+                "LYM": 32.8,
+                "NEU": 57.5,
+                "MONO": 9.0,
+                "EOS": 0.7
+            },
+            "unit_of_measurement": "%"
+        }
+    ]
+}

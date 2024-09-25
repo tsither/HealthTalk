@@ -1,0 +1,86 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "RBC count": {
+                    "value": 5.2,
+                    "unit": "million/µL"
+                },
+                "PCV": {
+                    "value": 4.5,
+                    "unit": "mL/L"
+                },
+                "MCV": {
+                    "value": 87.75,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "RDW": {
+                    "value": 32.8,
+                    "unit": "%"
+                },
+                "WBC count": {
+                    "value": 13.6,
+                    "unit": "thousand/µL"
+                },
+                "Neutrophils": {
+                    "value": 60,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 1,
+                    "unit": "%"
+                },
+                "Platelet Count": {
+                    "value": "",
+                    "unit": ""
+                }
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "RBC count": {
+                    "low": 4.5,
+                    "high": 6.0
+                },
+                "PCV": {
+                    "low": 40,
+                    "high": 50
+                },
+                "MCH": {
+                    "low": 83,
+                    "high": 101
+                },
+                "RDW": {
+                    "low": 32.5,
+                    "high": 34.5
+                },
+                "WBC count": {
+                    "low": 4000,
+                    "high": 11000
+                }
+            }
+        }
+    ]
+}

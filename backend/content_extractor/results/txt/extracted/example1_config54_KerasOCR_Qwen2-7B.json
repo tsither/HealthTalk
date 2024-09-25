@@ -1,0 +1,24 @@
+{
+    "Date": "02/02/20xx",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count CBC",
+            "result_value": "Hemoglobin: 12.5 mg/dL; Total RBC: 5245/mm3; Packed cell volume PCV: 57.5%; Mean corpuscular volume MCV: 87.75 fL; MCH: calculated; MCHC: 32.3% IDL g; RDW: 13.6%",
+            "unit_of_measurement": [
+                "mg/dL",
+                "mm3",
+                "%",
+                "fL",
+                "g",
+                "%"
+            ],
+            "reference_range": null
+        }
+    ]
+}

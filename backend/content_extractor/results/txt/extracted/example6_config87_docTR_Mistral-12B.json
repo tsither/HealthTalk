@@ -1,0 +1,107 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "HGB": "13.2",
+                "HCT": "42.0",
+                "PLT": "220",
+                "MCV": "90",
+                "MCH": "32",
+                "MCHC": "35.7",
+                "RDW-CV": "13.8"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "K/uL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 10.8",
+                "RBC": "4.4 - 6.2",
+                "HGB": "12.4 - 17.3",
+                "HCT": "41.2 - 50.9",
+                "PLT": "150 - 350",
+                "MCV": "80 - 100",
+                "MCH": "27 - 33",
+                "MCHC": "32 - 36",
+                "RDW-CV": "11.5 - 14.5"
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "GLU": "98",
+                "BUN": "14",
+                "CREA": "0.9",
+                "NA": "138",
+                "K": "4.2",
+                "CO2": "26",
+                "Ca": "9.5",
+                "TOT-PROT": "7.8",
+                "ALB": "4.2",
+                "TBIL": "0.9",
+                "DBIL": "0.3",
+                "IBIL": "0.6",
+                "ALT": "15",
+                "AST": "25",
+                "ALP": "78",
+                "TRIGL": "124",
+                "CHOL": "200"
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL",
+                "NA": "mEq/L",
+                "K": "mEq/L",
+                "CO2": "mEq/L",
+                "Ca": "mg/dL",
+                "TOT-PROT": "g/dL",
+                "ALB": "g/dL",
+                "TBIL": "mg/dL",
+                "DBIL": "mg/dL",
+                "IBIL": "mg/dL",
+                "ALT": "U/L",
+                "AST": "U/L",
+                "ALP": "U/L",
+                "TRIGL": "mg/dL",
+                "CHOL": "mg/dL"
+            },
+            "reference_range": {
+                "GLU": "74 - 99",
+                "BUN": "6 - 23",
+                "CREA": "0.6 - 1.5",
+                "NA": "136 - 145",
+                "K": "3.6 - 5.2",
+                "CO2": "23 - 30",
+                "Ca": "8.9 - 10.3",
+                "TOT-PROT": "6.0 - 8.3",
+                "ALB": "3.5 - 5.0",
+                "TBIL": "0.4 - 1.2",
+                "DBIL": "<0.7",
+                "IBIL": "<0.6",
+                "ALT": "9 - 52",
+                "AST": "8 - 48",
+                "ALP": "42 - 133",
+                "TRIGL": "25 - 150",
+                "CHOL": "125 - 200"
+            }
+        }
+    ]
+}

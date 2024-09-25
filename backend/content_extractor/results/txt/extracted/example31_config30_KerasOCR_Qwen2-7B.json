@@ -1,0 +1,41 @@
+{
+    "Date": "12/05/202X",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 55.5,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 128.5,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 50,
+            "unit_of_measurement": "ao",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 32,
+            "unit_of_measurement": "volume pg cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 150,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

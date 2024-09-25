@@ -1,0 +1,53 @@
+{
+    "Date": "Dec.? 02",
+    "patient_information": {
+        "patient_id": "Tenaese 012",
+        "patient_name": null,
+        "patient_sex": "M",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": {
+                    "value": 31,
+                    "unit": "cells/mm³"
+                },
+                "RBC": {
+                    "value": 57.5,
+                    "unit": "10^6/μL"
+                },
+                "Hb": {
+                    "value": 52,
+                    "unit": "g/dL"
+                }
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 41000,
+                    "max": null
+                },
+                "RBC": {
+                    "min": null,
+                    "max": null
+                },
+                "Hb": {
+                    "min": null,
+                    "max": null
+                }
+            }
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": {
+                "value": null,
+                "unit": null
+            },
+            "reference_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    ]
+}

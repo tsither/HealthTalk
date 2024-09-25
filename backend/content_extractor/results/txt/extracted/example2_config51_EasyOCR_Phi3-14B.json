@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 6.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_e range": "3.9-5.8 mmol/L"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 5.7,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6%"
+        },
+        {
+            "test_name": "Insulin",
+            "result_value": 290,
+            "unit_of_measurement": "pmol/L",
+            "reference_range": "15.78-439 pmol/L"
+        },
+        {
+            "test_name": "Cholesterol (Total)",
+            "result_value": 6,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "1.5-4.9 mmol/L"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0-1.7 mmol/L"
+        }
+    ]
+}

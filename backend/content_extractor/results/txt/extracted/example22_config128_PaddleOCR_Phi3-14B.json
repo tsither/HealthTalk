@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Low 13.0-17.0",
+            "unit_of_measurement": "Blood %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "27 - 32 %"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 87.75,
+            "unit_of_measurement": "cumm",
+            "reference_range": "140-160 * 10^9 /L"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "cumm",
+            "reference_range": "45 - 50%"
+        }
+    ]
+}

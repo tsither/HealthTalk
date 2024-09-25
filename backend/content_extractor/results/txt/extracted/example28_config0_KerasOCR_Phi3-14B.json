@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": [
+            null
+        ],
+        "patient_age": [
+            60
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "hemograma",
+            "result_value": 1.09,
+            "unit_of_measurement": "L/hct",
+            "reference_range": null
+        },
+        {
+            "test_name": "hematies",
+            "result_value": [
+                8
+            ],
+            "unit_of_measurement": "x10^6 /l",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobina",
+            "result_value": 143,
+            "unit_of_measurement": "g/L",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "creatinina",
+            "result_value": [
+                15
+            ],
+            "unit_of_measurement": "mg/dl",
+            "reference_range": [
+                70,
+                140
+            ]
+        },
+        {
+            "test_name": "colesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

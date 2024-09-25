@@ -1,0 +1,60 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete CBC Blood Count Investigation",
+            "result_value": [
+                "Hemoglobin: 10.5 o",
+                "RBC count total: 4.54 x10^6/uL",
+                "PCV (Packed Cell Volume): 57%",
+                "MCV (Mean Corpuscular Volume): 87 fL",
+                "MCH (Mean Corpuscular Hemoglobin): 27 pg",
+                "MCHC (Mean Corpuscular Hemoglobin Concentration): 32 g/dL",
+                "RDW-CV: 14.6%"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "x10^6/uL",
+                "%",
+                "fL",
+                "pg",
+                "g/dL",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count Total and Differential",
+            "result_value": [
+                "Total WBC count: 9000 /uL",
+                "Neutrophils: 60%",
+                "Lymphocytes: 31%",
+                "Eosinophils: < 1%",
+                "Monocytes: 2%",
+                "Basophils: 1%"
+            ],
+            "unit_of_measurement": [
+                "/uL",
+                "%",
+                "%",
+                "",
+                "%",
+                "%",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000 /uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

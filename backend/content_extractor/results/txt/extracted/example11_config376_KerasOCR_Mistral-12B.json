@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SBORO",
+            "result_value": 8,
+            "unit_of_measurement": "ss",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOC",
+            "result_value": 3,
+            "unit_of_measurement": "bo",
+            "reference_range": null
+        },
+        {
+            "test_name": "COPCT",
+            "result_value": "<10",
+            "unit_of_measurement": "%",
+            "reference_range": "<25"
+        },
+        {
+            "test_name": "SCOOS",
+            "result_value": 3,
+            "unit_of_measurement": "cp",
+            "reference_range": null
+        }
+    ]
+}

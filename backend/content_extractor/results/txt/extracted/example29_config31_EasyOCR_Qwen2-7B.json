@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "count",
+            "reference_range": {
+                "hemoglobin": "125-170 g/L",
+                "red blood cells": "4.3-5.8 x 10^12/L",
+                "hematocrit": "37%-50%",
+                "mean corpuscular volume (MCV)": "80-96 fl",
+                "mean corpuscular hemoglobin concentration (MCHC)": "320-360 g/dL",
+                "red cell distribution width (RDW)": "12.5%-14.5%",
+                "white blood cells": "4.5-11 x 10^9/L",
+                "neutrophils": "50% - 70%",
+                "lymphocytes": "20% - 40%",
+                "eosinophils": "<5% ",
+                "monocytes": "3%-8%",
+                "basophils": "<1% "
+            }
+        }
+    ]
+}

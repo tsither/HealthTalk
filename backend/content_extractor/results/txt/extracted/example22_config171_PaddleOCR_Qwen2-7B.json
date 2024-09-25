@@ -1,0 +1,51 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registration_date": "02 Dec. 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCv)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.5,
+                "RDW": 11.6,
+                "WBC Count": null,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophlls": null,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCv)": "",
+                "MCH": "",
+                "MCHC": "g/dL",
+                "RDW": "",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0 g/dL",
+                "Total RBC count": "4.5- 5.5 mill/cumm",
+                "Packed Cell Volume (PCV)": "40-50%",
+                "Mean Corpuscular Volume (MCv)": "83- 101",
+                "MCH": "27 - 32 dL",
+                "MCHC": "32.5 - 34.5 g/dL",
+                "RDW": "11.6 - 14.0%",
+                "Platelet Count": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

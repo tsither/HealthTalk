@@ -1,0 +1,120 @@
+{
+    "Date": "not specified",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "sample_collected_on": {
+            "day": "02",
+            "month": "31",
+            "year": "pt"
+        },
+        "collected_by": "Dr.",
+        "registered_on": {
+            "day": "02",
+            "month": "doc",
+            "year": "2X"
+        },
+        "sex": "Male",
+        "sample_collected_at": "Shivam Bungalow, S G Road. Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": null,
+                "high": null
+            }
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": {
+                "low": 4.5,
+                "high": 5.5
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": null,
+                "high": 40.5
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (McV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": 83,
+                "high": 101
+            }
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": 27,
+                "high": 32
+            }
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": null,
+                "high": null
+            }
+        },
+        {
+            "test_name": "ROW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": null,
+                "high": null
+            }
+        },
+        {
+            "test_name": "WBC COunt",
+            "result_value": 9000,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential wBc COuNt",
+            "result_value": {
+                "Neutrophils": null,
+                "Lymphocytes": 31,
+                "Eosinophils": 100,
+                "Monocyies": 700,
+                "Basophtls": 100
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": null,
+                "Lymphocytes": "06%",
+                "Eosinophils": "02%",
+                "Monocyies": "10%",
+                "Basophtls": "02%"
+            }
+        },
+        {
+            "test_name": "PlateLet count",
+            "result_value": 150000,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": null,
+                "high": null
+            }
+        }
+    ]
+}

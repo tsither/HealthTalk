@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5.0,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": "Million/mm3",
+            "reference_range": [
+                4.5,
+                6.0
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                13.8,
+                17.2
+            ]
+        },
+        {
+            "test_name": "MEMOCLO MEuOLOUnE 27- 32 lo RBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                14.0,
+                18.0
+            ]
+        },
+        {
+            "test_name": "MEMOCLO MEuOLOUnE 32- 35 lo RBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                14.0,
+                18.0
+            ]
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": null,
+            "unit_of_measurement": "/mm3",
+            "reference_range": [
+                4500,
+                11000
+            ]
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": null,
+            "unit_of_measurement": "Thousand/mm3",
+            "reference_range": [
+                150000,
+                450000
+            ]
+        }
+    ]
+}

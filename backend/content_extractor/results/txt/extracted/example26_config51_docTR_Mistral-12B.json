@@ -1,0 +1,113 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "TNUJDDIL",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": {
+                "Hematies": 4.75,
+                "HEMOGLOBINA": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C,M.": 27.9,
+                "C.H.C.M.": 33.6,
+                "A.D.E": {
+                    "MCH": 4.0,
+                    "MCHC": 33.6
+                }
+            },
+            "unit_of_measurement": {
+                "Hematies": "10E6/uL",
+                "HEMOGLOBINA": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C,M.": "pg",
+                "C.H.C.M.": "gldL"
+            },
+            "reference_range": {
+                "Hematies": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "HEMOGLOBINA": {
+                    "min": 13.5,
+                    "max": 18.0
+                },
+                "Hematocrito": {
+                    "min": 42.0,
+                    "max": 47.0
+                }
+            }
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": 208,
+                "V.P.M.": 9.1,
+                "A.D.P.": {
+                    "min": 15.6,
+                    "max": 18.4
+                },
+                "Plaquetocrito": 0.189
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "10E3/pL",
+                "V.P.M.": "fL",
+                "A.D.P.": "%"
+            },
+            "reference_range": {
+                "PLAQUETAS": {
+                    "min": 140,
+                    "max": 400
+                },
+                "V.P.M.": {
+                    "min": 7.5,
+                    "max": 11.0
+                }
+            }
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E3/uL",
+            "reference_range": {
+                "min": 4.0,
+                "max": 10.0
+            }
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": {
+                "Neu": 2.1,
+                "Lin Mon": 0.5,
+                "Eos": 0.1,
+                "Bas": 0.1
+            },
+            "unit_of_measurement": {
+                "Neu": "10E3/pL",
+                "Lin Mon": "10E3/pL",
+                "Eos": "10E3/L",
+                "Bas": "%"
+            },
+            "reference_range": {
+                "Neu": {
+                    "min": 42.0,
+                    "max": 73.0
+                },
+                "Lin Mon": {
+                    "min": 16.0,
+                    "max": 45.0
+                },
+                "Eos": {
+                    "min": 0.0,
+                    "max": 2.0
+                }
+            }
+        }
+    ]
+}

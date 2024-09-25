@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091234s678",
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": 18
+    },
+    "test_results": [
+        {
+            "test_name": "platelets",
+            "result_value": "555",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "100-350 thousand/µL"
+        },
+        {
+            "test_name": "PDW (Platelet Distribution Width)",
+            "result_value": "755",
+            "unit_of_measurement": "fL",
+            "reference_range": "7.5-11.0 fL"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": "1350",
+            "unit_of_measurement": "fL",
+            "reference_range": "7.5-11.0 fL"
+        }
+    ]
+}

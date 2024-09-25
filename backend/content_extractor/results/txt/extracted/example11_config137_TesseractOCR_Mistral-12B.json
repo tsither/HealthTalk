@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "E68723",
+        "patient_name": "Jane Doe",
+        "patient_sex": "Female",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "12.3",
+                "HCT": "39.7",
+                "MCV": "82.4"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "98 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

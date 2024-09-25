@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": 33.8,
+                "Hematocrito": 6.0,
+                "Eritrocitos": 52.0,
+                "V.C.M.": 101.0,
+                "H.C.M.": 9.1,
+                "C.H.C.M.": 0.8,
+                "R.D.W.": 0.9,
+                "Plaquetas": {
+                    "%": 0.2,
+                    "VPM": 70.1
+                },
+                "Leucocitos": {
+                    "Absolute Count": 18,
+                    "Formula": {
+                        "% Neutrofilos": 3.1,
+                        "Linfocitos": null,
+                        "Monocitos": null,
+                        "Eosinofilos": null,
+                        "Basofilos": null
+                    }
+                }
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "gr/dL",
+                "Hematocrito": "%",
+                "Eritrocitos": "/IL",
+                "V.C.M.": "fL",
+                "H.C.M.": "10/L",
+                "C.H.C.M.": "10/L",
+                "R.D.W.": "10/L",
+                "Plaquetas": {
+                    "%": "%",
+                    "VPM": "/IL"
+                },
+                "Leucocitos": {
+                    "Absolute Count": "L/UL",
+                    "Formula": {}
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Series roja Hematos",
+            "result_value": 4.75,
+            "unit_of_measurement": "HEMOGRAMA ROJA/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 10.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-15.8"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 30.5,
+            "unit_of_measurement": "%",
+            "reference_range": "36.0-49.2"
+        },
+        {
+            "test_name": "Velocidad de Crecimiento (Hemoglobina)",
+            "result_value": 47,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

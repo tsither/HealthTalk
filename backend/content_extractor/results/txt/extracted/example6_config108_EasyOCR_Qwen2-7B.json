@@ -1,0 +1,65 @@
+{
+    "Date": "02/12/202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "patel yash m",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "gbl",
+            "reference_range": "15-170 idl"
+        },
+        {
+            "test_name": "rbc count total rbc",
+            "result_value": 52.45,
+            "unit_of_measurement": "millicumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcvi)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "mcv",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean ca culated",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch pg calculated",
+            "result_value": 32.3251,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "8-140 oo"
+        },
+        {
+            "test_name": "total wbc",
+            "result_value": 9000,
+            "unit_of_measurement": "count cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential wbc count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

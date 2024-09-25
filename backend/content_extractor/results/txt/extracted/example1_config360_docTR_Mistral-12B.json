@@ -1,0 +1,23 @@
+{
+    "Date": "15.03.2022",
+    "patient_information": {
+        "patient_id": "UHN12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": 30,
+            "unit_of_measurement": "UI",
+            "reference_range": "15-29 UI"
+        },
+        {
+            "test_name": "International Normalized Ratio (INR)",
+            "result_value": 2.8,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

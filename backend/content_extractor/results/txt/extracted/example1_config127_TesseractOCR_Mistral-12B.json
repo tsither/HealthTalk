@@ -1,0 +1,77 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "status": "Low"
+                },
+                "RBC COUNT": {
+                    "value": 5.2,
+                    "reference_range": "4.5-5.5 mill/cumm"
+                },
+                "BLOOD INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "value": 57.5,
+                        "status": "High",
+                        "reference_range": "40-50 %"
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "value": 87.75,
+                        "reference_range": "83-101 fL"
+                    },
+                    "Calculated MCH": {
+                        "value": 27.2,
+                        "reference_range": "27 - 32 pg"
+                    },
+                    "Calculated HCT": {
+                        "value": 32.8,
+                        "reference_range": "32.5 -34.5 g/dL"
+                    },
+                    "Calculated RDW": {
+                        "value": 13.6,
+                        "reference_range": "11.6-14.0 %"
+                    }
+                },
+                "WBC COUNT": {
+                    "value": 9000,
+                    "reference_range": "4000-11000 cumm"
+                },
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": {
+                        "value": 60,
+                        "reference_range": "50 - 62 %"
+                    },
+                    "Lymphocytes": {
+                        "value": 31,
+                        "reference_range": "20 - 40 %"
+                    },
+                    "Eosinophils": {
+                        "value": 1,
+                        "reference_range": "00 - 06 %"
+                    },
+                    "Monocytes": {
+                        "value": 7,
+                        "reference_range": "00-10 %"
+                    },
+                    "Basophils": {
+                        "value": 1,
+                        "reference_range": "00-02 %"
+                    }
+                },
+                "PLATELET COUNT": {
+                    "value": 150000,
+                    "reference_range": "- 410000 cumm"
+                }
+            }
+        }
+    ]
+}

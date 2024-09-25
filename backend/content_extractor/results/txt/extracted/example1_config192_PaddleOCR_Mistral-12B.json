@@ -1,0 +1,47 @@
+{
+    "Date": "04 Dec. 2021",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC_count": "5.00",
+                "Hb": "13.6",
+                "Hct": "40.8",
+                "Wbc_count": "7.2",
+                "Platelet_count": "272"
+            },
+            "unit_of_measurement": {
+                "RBC_count": "mill/cumm",
+                "Hb": "g/dl",
+                "Hct": "%",
+                "Wbc_count": "10^9/L",
+                "Platelet_count": "10^9/L"
+            },
+            "reference_range": {
+                "RBC_count": "4.5 - 6.0",
+                "Hb": "12.0 - 18.0",
+                "Hct": "37.0 - 52.0",
+                "Wbc_count": "4.5 - 10.5",
+                "Platelet_count": "150000 - 410000"
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "90",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

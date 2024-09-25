@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "04e970",
+        "patient_name": "Coal",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 1.25,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "low": 0.3,
+                "high": 1.9
+            }
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 47,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "AST",
+            "result_value": 25,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        }
+    ]
+}

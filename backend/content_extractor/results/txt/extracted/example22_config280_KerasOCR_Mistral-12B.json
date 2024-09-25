@@ -1,0 +1,23 @@
+{
+    "Date": "23.08.22",
+    "patient_information": {
+        "patient_id": "YEA567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 54
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 123,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "100-350"
+        },
+        {
+            "test_name": "EGFR Mutation Status",
+            "result_value": "Negative",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

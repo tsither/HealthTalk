@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091235673",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 48
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear Investigation",
+            "result_value": "Normochromic Result",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Morphology Microscopy - RBCs",
+            "result_value": "Normal Age 55 Years",
+            "unit_of_measurement": "years",
+            "reference_range": null
+        },
+        {
+            "test_name": "Morphology Microscopy - WBCs",
+            "result_value": "Normocytic",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                150,
+                450
+            ]
+        },
+        {
+            "test_name": "RBC Microscopy",
+            "result_value": 4.8,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": [
+                4.7,
+                6.1
+            ]
+        }
+    ]
+}

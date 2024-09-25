@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[4.5 - 5.5]"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "[13.0-17.0]"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 87.73,
+            "unit_of_measurement": "%",
+            "reference_range": "[4.5 - 5.5]"
+        }
+    ]
+}

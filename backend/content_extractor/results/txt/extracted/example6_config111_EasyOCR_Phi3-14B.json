@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": [
+                "Hemoglobin: 125 g/L",
+                "RBC count total: 4.5 million/mcmm",
+                "PCVY: 57.5%",
+                "Mean Cell Diameter: 8.0 fl",
+                "MCHC: 32.8%",
+                "IDL G RBC: 60 %"
+            ],
+            "unit_of_measurement": [
+                "g/L",
+                "million/mcmm",
+                "%",
+                "fl",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                "Total WBC: 9,000 /μL",
+                "Neutrophils: 62%",
+                "Lymphocytes: 31%"
+            ],
+            "unit_of_measurement": [
+                "/μL",
+                "%"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "50,000 /μL"
+            ],
+            "unit_of_measurement": [
+                "/μL"
+            ]
+        }
+    ]
+}

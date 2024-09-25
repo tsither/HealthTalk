@@ -1,0 +1,134 @@
+{
+    "Date": "18.03.2023",
+    "patient_information": {
+        "patient_id": "A123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.3,
+                "HCT": 39.5,
+                "MCV": 87.0,
+                "MCH": 29.2,
+                "MCHC": 33.6,
+                "RDW-CV": 13.4
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.0,
+                    "max": 10.0
+                },
+                "RBC": {
+                    "min": 4.5,
+                    "max": 6.2
+                },
+                "Hb": {
+                    "min": 13.0,
+                    "max": 18.0
+                },
+                "HCT": {
+                    "min": 40.0,
+                    "max": 52.0
+                },
+                "MCV": {
+                    "min": 78.0,
+                    "max": 98.0
+                },
+                "MCH": {
+                    "min": 26.0,
+                    "max": 32.0
+                },
+                "MCHC": {
+                    "min": 31.0,
+                    "max": 35.0
+                },
+                "RDW-CV": {
+                    "min": 11.5,
+                    "max": 14.5
+                }
+            }
+        },
+        {
+            "test_name": "Lymphocyte Subsets",
+            "result_value": {
+                "T-cells": 67.2,
+                "B-cells": 8.9,
+                "NK-cells": 10.3,
+                "Monocytes": 7.5,
+                "Granulocytes": 5.2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "T-cells": {
+                    "min": 60.0,
+                    "max": 80.0
+                },
+                "B-cells": {
+                    "min": 5.0,
+                    "max": 15.0
+                },
+                "NK-cells": {
+                    "min": 7.0,
+                    "max": 20.0
+                },
+                "Monocytes": {
+                    "min": 4.0,
+                    "max": 8.0
+                },
+                "Granulocytes": {
+                    "min": 4.0,
+                    "max": 9.0
+                }
+            }
+        },
+        {
+            "test_name": "Coagulation Profile",
+            "result_value": {
+                "PT": 12.5,
+                "aPTT": 32.7,
+                "INR": 1.1,
+                "Fibrinogen": 280
+            },
+            "unit_of_measurement": {
+                "PT": "s",
+                "aPTT": "s",
+                "INR": "",
+                "Fibrinogen": "mg/dL"
+            },
+            "reference_range": {
+                "PT": {
+                    "min": 12.0,
+                    "max": 14.0
+                },
+                "aPTT": {
+                    "min": 28.0,
+                    "max": 37.0
+                },
+                "INR": {
+                    "min": 0.9,
+                    "max": 1.1
+                },
+                "Fibrinogen": {
+                    "min": 200,
+                    "max": 400
+                }
+            }
+        }
+    ]
+}

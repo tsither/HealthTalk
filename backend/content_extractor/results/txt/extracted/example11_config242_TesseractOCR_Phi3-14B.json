@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID",
+        "patient_name": "Doe",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "patient_location": "Age: Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total RBC count": 5.2,
+                "PCY Packed Cell Volume (PCV)": 7.5,
+                "MCV Mean Corpuscular Volume (MCV)": 87.0,
+                "MCH Calkotsted J MCH": 272.0,
+                "MCHC Ssinulistes — MCHC": 32.8,
+                "R DW": 13.6,
+                "WBC COUNT Total WCC!": -3
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dl",
+                "RBC COUNT Total RBC count": "mill/cumm",
+                "PCY Packed Cell Volume (PCV)": "%",
+                "MCV Mean Corpuscular Volume (MCV)": "fl",
+                "MCH Calkotsted J MCH": "pg",
+                "MCHC Ssinulistes — MCHC": "g/dL, ROW"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "13.0-17.  g/dl",
+                "RBC COUNT Total RBC count": "45-55 mill/cumm",
+                "PCY Packed Cell Volume (PCV)": "40-50 %",
+                "MCV Mean Corpuscular Volume (MCV)": "83-101 fl",
+                "MCH Calkotsted J MCH": "27 - 32 pg",
+                "MCHC Ssinulistes — MCHC": "32.5 - 34.5 g/dL, ROW"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "2X Dec",
+    "patient_information": {
+        "patient_id": "2L99EZ",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 5.2,
+                "HGB": 13.0,
+                "PCV": 27.2,
+                "MCH": 12.8,
+                "MCV": 90,
+                "RDW": 18.6,
+                "Total Neutrophils": 60,
+                "Band Neutrophils": 20,
+                "Lymphocytes": 30,
+                "Monocytes": 1,
+                "Eosinophils": 0,
+                "Basophils": 0,
+                "PLT": 12
+            },
+            "unit_of_measurement": {
+                "WBC": "#/uL",
+                "HGB": "g/dL",
+                "PCV": "%",
+                "MCH": "pg",
+                "MCV": "fL",
+                "RDW": "%",
+                "Total Neutrophils": "%",
+                "Band Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "PLT": "#/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 10.8 #/uL",
+                "HGB": "13.0 - 17.0 g/dL",
+                "PCV": "27 - 32%",
+                "MCH": "11.6 - 14.0 pg",
+                "MCV": "78 - 99 fL",
+                "RDW": "11.5 - 14.5 %",
+                "Total Neutrophils": "40 - 62%",
+                "Band Neutrophils": "<10%",
+                "Lymphocytes": "20 - 40%",
+                "Monocytes": "4 - 8%",
+                "Eosinophils": "1 - 3%",
+                "Basophils": "<1%",
+                "PLT": "150,000 - 410,000 #/uL"
+            }
+        }
+    ]
+}

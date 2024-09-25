@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "B6789X",
+        "patient_name": "Jane Smith",
+        "patient_sex": "F",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": "7.2",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[4-11]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[120-160]"
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": "234",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[150-450]"
+        }
+    ]
+}

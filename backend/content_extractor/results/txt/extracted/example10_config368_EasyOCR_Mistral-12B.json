@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 37.8,
+                "Platelet Count": 250000,
+                "WBC Count": 6500
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Platelet Count": "cells/uL",
+                "WBC Count": "cells/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": 15.4,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

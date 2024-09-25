@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123266769",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (red blood cell count)",
+            "result_value": 5.7,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.2-5.8 x1e+6/uL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "38.5-50 %"
+        }
+    ]
+}

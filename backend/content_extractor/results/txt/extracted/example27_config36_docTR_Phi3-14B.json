@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 51,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "37-53"
+        },
+        {
+            "test_name": "Recuento de Plaquetas",
+            "result_value": 298000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "150-450 x10^3/uL"
+        },
+        {
+            "test_name": "Hemoglobina Molecular (MCH)",
+            "result_value": 32,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.5-33.5 pg"
+        },
+        {
+            "test_name": "Velocidad de Sedimentación (VS)",
+            "result_value": 1,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0-20 mm/hr"
+        },
+        {
+            "test_name": "Hemoconcentración",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

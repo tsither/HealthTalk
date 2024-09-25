@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLUCEMETER",
+            "result_value": 1016,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 5.9,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4-11 x10^3/uL"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.9,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[REQUIRES CLINICAL INTERPRETATION]"
+        },
+        {
+            "test_name": "HGB COUNT",
+            "result_value": 2.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[REQUIRES CLINICAL INTERPRETATION]"
+        },
+        {
+            "test_name": "HCT COUNT",
+            "result_value": 0.7,
+            "unit_of_measurement": "%",
+            "reference_range": "38-54%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 1016,
+            "unit_of_measurement": "[REQUIRES CLINICAL INTERPRETATION]",
+            "reference_range": "[REQUIRES CLINICAL INTERPRETATION]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34,
+            "unit_of_measurement": "%",
+            "reference_range": "28-36%"
+        },
+        {
+            "test_name": "MEI",
+            "result_value": null,
+            "unit_of_measurement": "[REQUIRES CLINICAL INTERPRETATION]",
+            "reference_range": "[REQUIRES CLINICAL INTERPRETATION]"
+        },
+        {
+            "test_name": "PLT COUNT",
+            "result_value": 180,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "150-450 x1e+3/ul"
+        }
+    ]
+}

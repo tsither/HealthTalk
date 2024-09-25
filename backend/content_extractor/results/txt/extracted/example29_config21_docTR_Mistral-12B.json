@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 2023",
+    "patient_information": {
+        "patient_id": "S5S",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 10.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "Total Count RBC",
+            "result_value": 4.55,
+            "unit_of_measurement": "million cells/uL",
+            "reference_range": "4.4-6.2"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 71.6,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "3.5-10.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 204,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "150-450"
+        }
+    ]
+}

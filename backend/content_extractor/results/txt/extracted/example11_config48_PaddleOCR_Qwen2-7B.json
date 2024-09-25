@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "150000",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "87.75",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Lymphocytes (DMLT, BMLT)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        }
+    ]
+}

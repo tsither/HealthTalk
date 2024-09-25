@@ -1,0 +1,27 @@
+{
+    "Date": "03.02.2022",
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Vanati Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": {
+                    "min": 13.5,
+                    "max": 17.5
+                },
+                "female": {
+                    "min": 12.0,
+                    "max": 15.5
+                }
+            },
+            "interpretation": "Low levels may indicate anemia or other blood disorders"
+        }
+    ]
+}

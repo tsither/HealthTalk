@@ -1,0 +1,47 @@
+{
+    "Date": "02/02/2x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": "12.5",
+            "unit_of_measurement": "low",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "RBC count (x10^3/μm³)",
+            "result_value": "5.245",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (fL)",
+            "result_value": "87.75",
+            "unit_of_measurement": "",
+            "reference_range": "83 - 101"
+        },
+        {
+            "test_name": "MCH (pg)",
+            "result_value": "32.27",
+            "unit_of_measurement": "",
+            "reference_range": "27.2 - 27.5"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "128",
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "RDW (coefficient of variation)",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": "11.4 - 14.0"
+        }
+    ]
+}

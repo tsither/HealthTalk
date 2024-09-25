@@ -1,0 +1,32 @@
+{
+    "Date": "02/21",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "colin c",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_date": "03/02"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count CBC",
+            "result_value": "hemoglobin: 12.5, rbc_count: 5.295T, mcv: 87.75fL, mch: 272pg, mchc: 328g/dL, wbc_count: 60, platelet_count: 300k",
+            "unit_of_measurement": [
+                "g/dL",
+                "T",
+                "fL",
+                "pg",
+                "g/dL",
+                "-"
+            ],
+            "reference_range": [
+                "130-170",
+                null,
+                "83-101",
+                null,
+                null,
+                "325-35"
+            ]
+        }
+    ]
+}

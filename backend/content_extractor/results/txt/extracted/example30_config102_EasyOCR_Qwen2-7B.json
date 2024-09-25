@@ -1,0 +1,36 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": null,
+        "patient_years": "patel"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": "328",
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "white blood cell count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "130",
+            "unit_of_measurement": "k/uL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

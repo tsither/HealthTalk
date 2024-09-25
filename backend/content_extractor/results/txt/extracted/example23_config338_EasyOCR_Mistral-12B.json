@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "HCT": 40.5,
+                "PLT": 230
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10.0
+                ],
+                "RBC": [
+                    4.5,
+                    6.0
+                ],
+                "HGB": [
+                    13.5,
+                    17.5
+                ],
+                "HCT": [
+                    42.0,
+                    52.0
+                ],
+                "PLT": [
+                    150,
+                    450
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 15,
+                "CREA": 1.2,
+                "ALT": 30,
+                "AST": 25
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL",
+                "ALT": "IU/L",
+                "AST": "IU/L"
+            },
+            "reference_range": {
+                "GLU": [
+                    70,
+                    110
+                ],
+                "BUN": [
+                    6,
+                    25
+                ],
+                "CREA": [
+                    0.6,
+                    1.2
+                ],
+                "ALT": [
+                    7,
+                    56
+                ],
+                "AST": [
+                    5,
+                    41
+                ]
+            }
+        }
+    ]
+}

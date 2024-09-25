@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "00001"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 32.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "76-96"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 0.36,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

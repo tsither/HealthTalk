@@ -1,0 +1,23 @@
+{
+    "Date": "15.07.2022",
+    "patient_information": {
+        "patient_id": "BH0987",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.2,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "(4.5-10.9)"
+        },
+        {
+            "test_name": "HGB Concentration",
+            "result_value": 15.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(12.4-16.4)"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": "20.12.2021",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.3,
+            "unit_of_measurement": "%",
+            "reference_range": "37-52"
+        },
+        {
+            "test_name": "WBC (Leukocytes)",
+            "result_value": 6.8,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 185,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<200"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": 7.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6-8"
+        }
+    ]
+}

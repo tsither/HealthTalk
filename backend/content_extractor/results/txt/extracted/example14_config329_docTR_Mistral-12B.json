@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": "8.0",
+                "RBC": "4.5",
+                "HGB": "12.0",
+                "PLT": "220"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": "4.5",
+                    "max": "11.0"
+                },
+                "RBC": {
+                    "min": "4.4",
+                    "max": "6.2"
+                },
+                "HGB": {
+                    "min": "12.0",
+                    "max": "16.0"
+                },
+                "PLT": {
+                    "min": "150",
+                    "max": "450"
+                }
+            }
+        }
+    ]
+}

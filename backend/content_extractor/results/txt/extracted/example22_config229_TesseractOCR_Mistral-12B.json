@@ -1,0 +1,93 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "5550RES",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "name": "HEMOGLOBIN",
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "name": "RBC COUNT",
+                    "value": 5.2,
+                    "unit": "mill/cumm",
+                    "reference_range": "4.5-5.5"
+                },
+                {
+                    "name": "PACKED CELL VOLUME (PCV)",
+                    "value": 37.5,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "name": "MEAN CORPUSCULAR VOLUME (MCV)",
+                    "value": 87.75,
+                    "unit": "fl",
+                    "reference_range": "83-101"
+                },
+                {
+                    "name": "MCH",
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": "27-32"
+                },
+                {
+                    "name": "MCHC",
+                    "value": 32.8,
+                    "unit": "g/dL",
+                    "reference_range": "32.5-34.5"
+                },
+                {
+                    "name": "CRITICAL ROW",
+                    "value": 13.6,
+                    "unit": "%"
+                }
+            ],
+            "WBC_COUNT": {
+                "total_wbc_count": {
+                    "value": ">3",
+                    "unit": "g/dL",
+                    "reference_range": "4000-10000 cumm"
+                },
+                "differential_wbc_count": {
+                    "neutrophils": {
+                        "value": 60,
+                        "unit": "%"
+                    },
+                    "lymphocytes": {
+                        "value": 31,
+                        "unit": "%"
+                    },
+                    "eosinophils": {
+                        "value": 1,
+                        "unit": "%"
+                    },
+                    "monocytes": {
+                        "value": 7,
+                        "unit": "%"
+                    },
+                    "basophils": {
+                        "value": 1,
+                        "unit": "%"
+                    }
+                }
+            },
+            "PLATELET_COUNT": {
+                "platelet_count": {
+                    "value": 150000,
+                    "unit": "cumm",
+                    "reference_range": "150000-410000"
+                }
+            }
+        }
+    ]
+}

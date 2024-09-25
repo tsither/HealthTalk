@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1301170",
+        "patient_name": "Shah Hiren S",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": "4.80 x10^6/uL",
+                "Hemoglobin": "12.5 g/dL",
+                "HCT": "39%",
+                "MCV": "77.5 fL",
+                "MCH": "27.2 pg",
+                "MCHC": "35.0 g/dL",
+                "WBC count": "6895/uL",
+                "Platelet count": "272 x10^3/uL"
+            },
+            "unit_of_measurement": {
+                "RBC count": "/uL",
+                "Hemoglobin": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "WBC count": "/uL",
+                "Platelet count": "x10^3/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

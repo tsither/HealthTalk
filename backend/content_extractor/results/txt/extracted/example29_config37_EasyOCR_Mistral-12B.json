@@ -1,0 +1,29 @@
+{
+    "Date": "03/12/2021",
+    "patient_information": {
+        "patient_id": "012345689",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.08,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.57,
+            "unit_of_measurement": "million cells/mm3",
+            "reference_range": "4.0-6.0 million cells/mm3"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 8.35,
+            "unit_of_measurement": "thousand cells/mm3",
+            "reference_range": "4.5-11.0 thousand cells/mm3"
+        }
+    ]
+}

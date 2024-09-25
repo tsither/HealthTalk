@@ -1,0 +1,53 @@
+{
+    "Date": "13/07/2017",
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": "Mumbai Pathology Lab",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-18.0"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 45.7,
+            "unit_of_measurement": "%",
+            "reference_range": "40.0-54.0"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-6.1"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-95.0"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 26.1,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0-31.0"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 8.75,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 202,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150-450"
+        }
+    ]
+}

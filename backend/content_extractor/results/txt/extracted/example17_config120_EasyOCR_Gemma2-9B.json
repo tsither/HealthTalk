@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345678",
+        "patient_name": "Yash olo",
+        "patient_sex": "male",
+        "patient_age": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11000 - 1161"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "328",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "410000",
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "555",
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": null
+        }
+    ]
+}

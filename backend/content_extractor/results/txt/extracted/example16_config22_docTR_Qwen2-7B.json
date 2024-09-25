@@ -1,0 +1,41 @@
+{
+    "Date": "Dec.2X",
+    "patient_information": {
+        "patient_id": "PID:5 555",
+        "patient_name": "M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Value",
+            "result_value": "130-17",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "57.5",
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": "14.0"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "9000",
+            "unit_of_measurement": "",
+            "reference_range": "50-62 pg RBC COUNT"
+        },
+        {
+            "test_name": "RDW COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "20-40 WBC Total"
+        }
+    ]
+}

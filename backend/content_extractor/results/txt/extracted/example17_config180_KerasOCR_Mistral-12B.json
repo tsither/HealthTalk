@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "12.3",
+                "Hct": "39.7",
+                "Platelet": "230",
+                "MCV": "84.3",
+                "MCH": "25.6",
+                "MCHC": "30.3"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelet": "10^9/L",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.4 - 6.2",
+                "Hb": "12.0 - 16.0",
+                "Hct": "37.0 - 47.0",
+                "Platelet": "150 - 400",
+                "MCV": "80.0 - 96.0",
+                "MCH": "27.0 - 33.0",
+                "MCHC": "32.0 - 36.0"
+            }
+        },
+        {
+            "test_name": "Biochemistry Profile",
+            "result_value": {
+                "Glucose": "95",
+                "Urea": "4.1",
+                " Creatinine": "82",
+                "Sodium": "138",
+                "Potassium": "4.2",
+                "Chloride": "102",
+                "Total Protein": "7.2",
+                "Albumin": "4.1",
+                "Globulin": "3.1"
+            },
+            "unit_of_measurement": {
+                "Glucose": "mmol/L",
+                "Urea": "mmol/L",
+                " Creatinine": "μmol/L",
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L",
+                "Chloride": "mmol/L",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "Globulin": "g/dL"
+            },
+            "reference_range": {
+                "Glucose": "4.0 - 6.1",
+                "Urea": "2.5 - 8.3",
+                " Creatinine": "70 - 133",
+                "Sodium": "136 - 145",
+                "Potassium": "3.6 - 5.2",
+                "Chloride": "98 - 107",
+                "Total Protein": "6.5 - 8.5",
+                "Albumin": "3.5 - 5.5",
+                "Globulin": "2.0 - 4.0"
+            }
+        }
+    ]
+}

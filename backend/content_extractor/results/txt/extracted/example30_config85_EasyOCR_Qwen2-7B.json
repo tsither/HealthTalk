@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "09126a5675",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Hemoglobin",
+                    "min": 130,
+                    "max": 165
+                },
+                {
+                    "name": "Red Blood Cell (RBC) count",
+                    "min": 4.7,
+                    "max": 5.9
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "min": 82,
+                    "max": 100
+                }
+            ]
+        }
+    ]
+}

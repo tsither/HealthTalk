@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 12.3,
+                "HCT": 39.5,
+                "PLT": 250,
+                "MCV": 87.2
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^3/uL",
+                "MCV": "fL"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10
+                ],
+                "RBC": [
+                    4.5,
+                    6
+                ],
+                "HGB": [
+                    12,
+                    16
+                ],
+                "HCT": [
+                    37,
+                    47
+                ],
+                "PLT": [
+                    150,
+                    400
+                ],
+                "MCV": [
+                    80,
+                    100
+                ]
+            }
+        },
+        {
+            "test_name": "Lymphocyte Subsets",
+            "result_value": {
+                "CD3+": 65,
+                "CD4+": 45,
+                "CD8+": 25,
+                "NK": 7
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

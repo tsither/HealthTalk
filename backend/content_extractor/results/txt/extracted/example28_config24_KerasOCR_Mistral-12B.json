@@ -1,0 +1,99 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematíes": 4.8,
+                "hemoglobina": 130,
+                "hcmc": 29,
+                "leucocitos": 6.5,
+                "vgm": null
+            },
+            "unit_of_measurement": {
+                "hematíes": "x10^9/L",
+                "hemoglobina": "g/dL",
+                "hcmc": "%",
+                "leucocitos": "x10^9/L",
+                "vgm": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Química sanguínea",
+            "result_value": {
+                "glucosa": 24,
+                "creatinina": 65,
+                "colesterol": 280,
+                "proteína total": 115
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol": "mg/dL",
+                "proteína total": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro",
+            "result_value": {
+                "hierro": 220
+            },
+            "unit_of_measurement": {
+                "hierro": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": {
+                "ferritina": 6
+            },
+            "unit_of_measurement": {
+                "ferritina": "ng/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Función renal y biliar",
+            "result_value": {
+                "bilirrubina total": 80,
+                "bilirrubina directa": 32
+            },
+            "unit_of_measurement": {
+                "bilirrubina total": "mg/dL",
+                "bilirrubina directa": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa alcalina",
+            "result_value": {
+                "fosfatasa alcalina": 23
+            },
+            "unit_of_measurement": {
+                "fosfatasa alcalina": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Proteína total y albumina",
+            "result_value": {
+                "proteína total": 157,
+                "albumina": 4.1
+            },
+            "unit_of_measurement": {
+                "proteína total": "g/dL",
+                "albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

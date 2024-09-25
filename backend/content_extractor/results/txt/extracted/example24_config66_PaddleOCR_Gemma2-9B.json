@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "68 years old"
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "34.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4000-11000 x10^9/L"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.5",
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5 x10^6/µL"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "135",
+            "unit_of_measurement": "cumm",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "HEMAGLOBIN",
+            "result_value": "19",
+            "unit_of_measurement": "yb!",
+            "reference_range": "21-22"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87.75",
+            "unit_of_measurement": "%",
+            "reference_range": "83- 101"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "150000 - 410000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "57.5",
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

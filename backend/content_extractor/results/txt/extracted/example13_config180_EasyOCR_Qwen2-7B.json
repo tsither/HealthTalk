@@ -1,0 +1,21 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123459769",
+        "patient_name": "yash me patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "125 shlvom bungalowe s g rond, mumbal"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin cbj",
+            "result_value": 125,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "male": "135-175",
+                "female": "120-155"
+            }
+        }
+    ]
+}

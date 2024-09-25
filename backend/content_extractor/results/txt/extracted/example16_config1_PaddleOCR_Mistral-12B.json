@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 12.4,
+                "RBC": 5.0,
+                "Hb": 13.6,
+                "HCT": 40.5,
+                "MCV": 89.6,
+                "MCH": null,
+                "MCHC": null,
+                "PLT": 287.5,
+                "Neutrophils": 60.0,
+                "Lymphocytes": 31.0,
+                "Monocytes": 4.0,
+                "Eosinophils": 3.5,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": null,
+                "MCHC": null,
+                "PLT": "x10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": null
+            },
+            "reference_range": {
+                "WBC": null,
+                "RBC": null,
+                "Hb": "13.0 - 17.0 g/dL",
+                "HCT": null,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "PLT": null,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            }
+        }
+    ]
+}

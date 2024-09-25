@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HBsAg",
+            "result_value": "<0.05",
+            "unit_of_measurement": "IU/mL",
+            "reference_range": "Non-reactive"
+        },
+        {
+            "test_name": "Anti-HCV",
+            "result_value": "<0.9",
+            "unit_of_measurement": "COI",
+            "reference_range": "Negative"
+        },
+        {
+            "test_name": "HIV 1/2",
+            "result_value": "<0.8",
+            "unit_of_measurement": "AU",
+            "reference_range": "Non-reactive"
+        }
+    ]
+}

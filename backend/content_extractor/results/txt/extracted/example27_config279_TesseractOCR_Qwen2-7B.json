@@ -1,0 +1,32 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 8.2, RBC: 4.9, HGB: 13.5, HCT: 0.4",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "(4.0-11.0) x 10^3/µL",
+                "RBC": "(4.0-5.6) x 10^6/uL",
+                "HGB": "(12.0-16.0) g/dL",
+                "HCT": "(0.37-0.48)"
+            }
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "Na: 140, K: 5.1, Cl: 98",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Na": "(136-146) mEq/L",
+                "K": "(3.5-5.5) mEq/L",
+                "Cl": "(97-109) mEq/L"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HDL cholesterol",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "40-60"
+        },
+        {
+            "test_name": "LDL cholesterol (direct)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Vitamin D",
+            "result_value": 18.9,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "20-50"
+        }
+    ]
+}

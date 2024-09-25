@@ -1,0 +1,25 @@
+{
+    "Date": "dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "shivam oo",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": 1700,
+            "unit_of_measurement": "/L",
+            "reference_range": [
+                108,
+                369
+            ]
+        },
+        {
+            "test_name": "plateletcrit",
+            "result_value": 0.55,
+            "unit_of_measurement": "%"
+        }
+    ]
+}

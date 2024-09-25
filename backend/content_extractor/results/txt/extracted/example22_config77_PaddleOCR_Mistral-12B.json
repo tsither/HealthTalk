@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 5.2,
+                    "unit": "g/dL"
+                },
+                "Hematocrit": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "Total RBC count": {
+                    "value": 87.75,
+                    "unit": "cumm"
+                },
+                "MCV": {
+                    "value": 90,
+                    "unit": "fL"
+                },
+                "MCHC": {
+                    "value": 20,
+                    "unit": ""
+                },
+                "RDW": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "Total WBC count": {
+                    "value": 7,
+                    "unit": "cumm"
+                },
+                "Differential wBC count": {
+                    "Lymphocytes": {
+                        "value": 50,
+                        "unit": "%"
+                    },
+                    "Eosinophils": {
+                        "value": 32.8,
+                        "unit": "%"
+                    },
+                    "Monocytes": {
+                        "value": 9000,
+                        "unit": ""
+                    },
+                    "Basophils": {
+                        "value": 60,
+                        "unit": "cumm"
+                    }
+                },
+                "Platelet count": {
+                    "value": "",
+                    "unit": ""
+                }
+            }
+        }
+    ]
+}

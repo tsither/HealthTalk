@@ -1,0 +1,70 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "6895",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "value": 12.5,
+                    "status": "High"
+                },
+                "Hb": {
+                    "value": 87.75,
+                    "status": "LOW"
+                },
+                "HCT": {
+                    "value": 27.2
+                },
+                "MCV": {
+                    "value": 90.4
+                },
+                "MCH": {
+                    "value": 32.8
+                },
+                "PLT": {
+                    "value": 19
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "Hb": {
+                    "min": 12,
+                    "max": 16
+                },
+                "HCT": {
+                    "min": 37,
+                    "max": 47
+                },
+                "MCV": {
+                    "min": 80,
+                    "max": 100
+                },
+                "MCH": {
+                    "min": 27,
+                    "max": 31
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        }
+    ]
+}

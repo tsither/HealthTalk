@@ -1,0 +1,68 @@
+{
+    "Date": "Unknown",
+    "patient_information": {
+        "patient_id": "09126a5675",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "5.55",
+            "unit_of_measurement": "count/μL",
+            "reference_range": "[3.5, 6]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "4208",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "[4100, 5300]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "170",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[12.6, 16.8]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "91.175",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "[80-100]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "27",
+            "unit_of_measurement": "%",
+            "reference_range": "[35, 55]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "34.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[32-36]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC) by differential",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "percentage": "60"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "percentage": "40"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,800",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[140, 400]"
+        }
+    ]
+}

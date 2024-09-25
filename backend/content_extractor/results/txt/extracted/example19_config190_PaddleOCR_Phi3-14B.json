@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "87.75",
+                "410000"
+            ],
+            "unit_of_measurement": [
+                "%n/uq 5",
+                "dLmllt"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": [
+                8.75,
+                57.5
+            ],
+            "unit_of_measurement": [
+                "g/dl",
+                "%n/uq 5"
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": [
+                210,
+                null
+            ],
+            "unit_of_measurement": [
+                "dLmllt",
+                "%n/uq 5"
+            ]
+        }
+    ]
+}

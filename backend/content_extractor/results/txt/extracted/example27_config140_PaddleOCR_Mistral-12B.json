@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Velocidad de Sedimentacion",
+            "result_value": "140mg%",
+            "unit_of_measurement": "mg %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HEMATIES": "0.5-1.2mg%",
+                "HEMOGLOBINA%": "13.8g%",
+                "LEUCOCITOS/mm3": "4.6-16.2x10^9/L",
+                "PLAQUETAS/mtm3": null,
+                "V.C.M": null,
+                "HCM": null,
+                "CMCM": null
+            },
+            "unit_of_measurement": {
+                "HEMATIES": "mg %",
+                "HEMOGLOBINA%": "%",
+                "LEUCOCITOS/mm3": "/mm3",
+                "PLAQUETAS/mtm3": "/mtm3"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometria Hematica",
+            "result_value": {
+                "HEMATIES": null,
+                "HEMOGLOBINA%": null,
+                "LEUCOCITOS/mm3": "4.6-16.2x10^9/L",
+                "PLAQUETAS/mtm3": null
+            },
+            "unit_of_measurement": {
+                "HEMATIES": "mg %",
+                "HEMOGLOBINA%": "%",
+                "LEUCOCITOS/mm3": "/mm3",
+                "PLAQUETAS/mtm3": "/mtm3"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica Sérica",
+            "result_value": {
+                "GLUCOSA": "86-98mg/dL",
+                "UREA": "15-45mg/dL",
+                "CREATININA": "<0.8mg/dL",
+                "PROTEINAST": null,
+                "AC.URICO": null
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "UREA": "mg/dL",
+                "CREATININA": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolitos",
+            "result_value": {
+                "SODIO": "138.0meq/L",
+                "CLORO": null,
+                "POTSSO": null
+            },
+            "unit_of_measurement": {
+                "SODIO": "meq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

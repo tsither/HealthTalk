@@ -1,0 +1,29 @@
+{
+    "Date": "21.09.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Macarena Martinez",
+        "patient_sex": "Female",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 5600,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4,500 - 11,000 cells/mm³"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 289000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150,000 - 450,000 cells/mm³"
+        }
+    ]
+}

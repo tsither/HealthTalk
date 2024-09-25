@@ -1,0 +1,42 @@
+{
+    "Date": "202X-XX-XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "Complex Drogypathabadlogyom"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "35",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[27-14.0] g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "689576",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "[44000000-63000000] /mm3"
+        },
+        {
+            "test_name": "MCV Volume",
+            "result_value": "170",
+            "unit_of_measurement": "fL",
+            "reference_range": "[85-100] fL"
+        },
+        {
+            "test_name": "MCHC Concentration",
+            "result_value": "455",
+            "unit_of_measurement": "",
+            "reference_range": "[320-360] g/dL"
+        },
+        {
+            "test_name": "RDW Width",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[11.5-14.5] %"
+        }
+    ]
+}

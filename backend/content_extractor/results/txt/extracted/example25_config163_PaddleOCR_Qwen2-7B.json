@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 6.56,
+            "unit_of_measurement": "/ct",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 71,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 50,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 61,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 1.26,
+            "unit_of_measurement": "/mL",
+            "reference_range": [
+                135,
+                52
+            ]
+        },
+        {
+            "test_name": "LDL/HDL Ratio",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

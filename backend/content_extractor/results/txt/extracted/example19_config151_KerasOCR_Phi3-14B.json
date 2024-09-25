@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count (rbc)",
+            "result_value": 5.23,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Blood Cell Count (wbc total)",
+            "result_value": 8.3,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_**range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 52.7,
+            "unit_of_measurement": "% of wbc total",
+            "reference_range": null
+        }
+    ]
+}

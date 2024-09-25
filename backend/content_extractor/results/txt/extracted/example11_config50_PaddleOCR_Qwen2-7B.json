@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "total_WBC_count": "4.5 - 5.5",
+                "hemoglobin(Hb)": "125 - 320",
+                "packed_cell_volume(PCV)": "32.5 - 34.5",
+                "platelet_count": null,
+                "neutrophils": "4000-11000",
+                "lymphocytes": null,
+                "eosinophils": null,
+                "monocytes": null,
+                "basophils": null,
+                "MCH (Mean Corpuscular Hemoglobin)": null,
+                "RDW (Red Cell Distribution Width)": null
+            }
+        },
+        {
+            "test_name": "Blood indices",
+            "result_value": "87.75",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

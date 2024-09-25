@@ -1,0 +1,26 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012347679",
+        "patient_name": "Sunglow Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 17,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "age_normal_adults": {
+                    "min": 17,
+                    "max": 50
+                },
+                "children": {
+                    "min": 13,
+                    "max": 74
+                }
+            }
+        }
+    ]
+}

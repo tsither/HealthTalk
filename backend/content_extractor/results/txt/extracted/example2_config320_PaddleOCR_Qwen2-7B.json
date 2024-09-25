@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-17",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 170,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Under 130 mg/dL"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Over 60 mg/dL for men and over 59 mg/dL for women"
+        }
+    ]
+}

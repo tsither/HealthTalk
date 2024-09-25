@@ -1,0 +1,47 @@
+{
+    "Date": "2022-10-15",
+    "patient_information": {
+        "patient_id": "A12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "HGB": 12.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "HGB": "g/dL",
+                "PLT": "K/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.5",
+                "HGB": "13.5-17.5",
+                "PLT": "150-450"
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 12,
+                "CREA": 0.9
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL"
+            },
+            "reference_range": {
+                "GLU": "74-106",
+                "BUN": "6-25",
+                "CREA": "0.6-1.5"
+            }
+        }
+    ]
+}

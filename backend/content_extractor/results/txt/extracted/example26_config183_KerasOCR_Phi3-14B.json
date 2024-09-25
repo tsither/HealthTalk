@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Plaquetas",
+            "result_value": 160,
+            "unit_of_measurement": "serie plaqueta",
+            "reference_eangee": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 205,
+            "unit_of_measurement": "range reference"
+        },
+        {
+            "test_name": "ADP dehydrogenase",
+            "result_value": 102,
+            "unit_of_measurement": null,
+            "reference_eangee": [
+                86.4,
+                539
+            ]
+        },
+        {
+            "test_name": "Leucocitose",
+            "result_value": 102,
+            "unit_of_measurement": null,
+            "reference_eangee": [
+                4600,
+                11530
+            ]
+        },
+        {
+            "test_name": "Eosina-5-maleimide",
+            "result_value": 82,
+            "unit_of_measurement": null,
+            "reference_eangee": [
+                97.4,
+                170
+            ]
+        }
+    ]
+}

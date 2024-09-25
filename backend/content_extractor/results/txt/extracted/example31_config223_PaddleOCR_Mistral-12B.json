@@ -1,0 +1,82 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Drlogy 105",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "value": 27.2,
+                    "unit": "10^9/L"
+                },
+                "RBC": {
+                    "value": 52,
+                    "unit": "10^12/L"
+                },
+                "Hb": {
+                    "value": 125,
+                    "unit": "g/L"
+                },
+                "Hct": {
+                    "value": 37.2,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 90.5,
+                    "unit": "fl"
+                },
+                "MCH": {
+                    "value": 28.4,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 31.6,
+                    "unit": "g/L"
+                },
+                "PLT": {
+                    "value": 271,
+                    "unit": "10^9/L"
+                }
+            },
+            "reference_range": {
+                "WBC": {
+                    "low": 3.5,
+                    "high": 11
+                },
+                "RBC": {
+                    "low": 40,
+                    "high": 60
+                },
+                "Hb": {
+                    "low": 120,
+                    "high": 180
+                },
+                "Hct": {
+                    "low": 37,
+                    "high": 52
+                },
+                "MCV": {
+                    "low": 78,
+                    "high": 98
+                },
+                "MCH": {
+                    "low": 24.5,
+                    "high": 33.5
+                },
+                "MCHC": {
+                    "low": 27,
+                    "high": 36
+                },
+                "PLT": {
+                    "low": 100,
+                    "high": 400
+                }
+            }
+        }
+    ]
+}

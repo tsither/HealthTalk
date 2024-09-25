@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 4.75,
+                "Homalocrito": 12.0,
+                "V.C.M": 36.0,
+                "H.c.m": 83.1,
+                "C.H.C.M": 27.9,
+                "A.p.E": 33.6,
+                "P.l.T": 16.0
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Homalocrito": "g/dL",
+                "V.C.M": "fL",
+                "H.c.m": "fL",
+                "C.H.C.M": "pg",
+                "A.p.E": "g/dL",
+                "P.l.T": "%"
+            },
+            "reference_range": {
+                "Hemoglobina": "12.0 - 16.0 g/dL",
+                "Homalocrito": "30.5 - 36.0 g/dL",
+                "V.C.M": "80.0 - 98.0 fL",
+                "H.c.m": "27.0 - 32.0 fL",
+                "C.H.C.M": "27.0 - 32.0 pg",
+                "A.p.E": "11.5 - 15.0 g/dL",
+                "P.l.T": "5%"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 460,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "420-520"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 180,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "150-400"
+        },
+        {
+            "test_name": "WBC Differential Count (ImCVY WBC)",
+            "result_value": 7.8,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        }
+    ]
+}

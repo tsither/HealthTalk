@@ -1,0 +1,21 @@
+{
+    "Date": "03.11.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Bungaloy",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Hb": "13.0- 17.0",
+                "WBC count": "4.5 - 5.5",
+                "Platelet count": "40-50"
+            }
+        }
+    ]
+}

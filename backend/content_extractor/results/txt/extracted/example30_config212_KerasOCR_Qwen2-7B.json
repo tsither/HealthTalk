@@ -1,0 +1,42 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[MALE]",
+        "patient_age": 21,
+        "patient_birth_year": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "N/A",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Test",
+            "result_value": "12 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17]"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "500 K/uL",
+            "unit_of_measurement": "K/uL",
+            "reference_range": "[150-450]"
+        }
+    ]
+}

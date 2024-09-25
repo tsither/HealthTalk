@@ -1,0 +1,106 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemogram",
+            "result_value": {
+                "RBC": {
+                    "value": "5.60",
+                    "unit": "million/mm³"
+                },
+                "Hb": {
+                    "value": "12.8",
+                    "unit": "g/dL"
+                },
+                "HCT": {
+                    "value": "39.7%",
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": "74.6",
+                    "unit": "fl"
+                },
+                "MCH": {
+                    "value": "25.7",
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": "31.8",
+                    "unit": "g/dL"
+                },
+                "RDW-CV": {
+                    "value": "14.8%",
+                    "unit": "%"
+                },
+                "RDW-SD": {
+                    "value": "45.2",
+                    "unit": "fl"
+                },
+                "PLT": {
+                    "value": "260",
+                    "unit": "thousand/mm³"
+                },
+                "MPV": {
+                    "value": "9.3",
+                    "unit": "fl"
+                },
+                "PCT": {
+                    "value": "0.18",
+                    "unit": "%"
+                }
+            },
+            "reference_range": {
+                "RBC": {
+                    "min": 4.5,
+                    "max": 6
+                },
+                "Hb": {
+                    "min": 12,
+                    "max": 16
+                },
+                "HCT": {
+                    "min": 37,
+                    "max": 47
+                },
+                "MCV": {
+                    "min": 78,
+                    "max": 99
+                },
+                "MCH": {
+                    "min": 25.4,
+                    "max": 33.4
+                },
+                "MCHC": {
+                    "min": 26.8,
+                    "max": 34.0
+                },
+                "RDW-CV": {
+                    "min": 11.5,
+                    "max": 15.5
+                },
+                "RDW-SD": {
+                    "min": 39,
+                    "max": 51
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                },
+                "MPV": {
+                    "min": 7.8,
+                    "max": 12.8
+                },
+                "PCT": {
+                    "min": 0.15,
+                    "max": 0.36
+                }
+            }
+        }
+    ]
+}

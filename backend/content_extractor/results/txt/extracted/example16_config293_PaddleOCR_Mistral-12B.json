@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Ych M. Pcxc",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HGB",
+            "result_value": 12.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 273,
+            "unit_of_measurement": "K/µL",
+            "reference_range": "150-450"
+        }
+    ]
+}

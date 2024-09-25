@@ -1,0 +1,134 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HOMOLOGOUS",
+            "result_value": 4.73,
+            "unit_of_measurement": "1CEQL",
+            "reference_range": {
+                "lower": 4.0,
+                "upper": 5.0
+            }
+        },
+        {
+            "test_name": "HEMOGLOBINA",
+            "result_value": 13.3,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "lower": 12.0,
+                "upper": 16.0
+            }
+        },
+        {
+            "test_name": "HOMOTOcreto",
+            "result_value": 38.5,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "lower": 30.0,
+                "upper": 47.0
+            }
+        },
+        {
+            "test_name": "V.C.M.",
+            "result_value": 83.1,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "lower": 80.0,
+                "upper": 98.0
+            }
+        },
+        {
+            "test_name": "M.C.M.",
+            "result_value": 27.0,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "lower": 27.0,
+                "upper": 32.0
+            }
+        },
+        {
+            "test_name": "C.H.C.M.",
+            "result_value": 33.0,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "lower": 32.0,
+                "upper": 36.0
+            }
+        },
+        {
+            "test_name": "AB.E.",
+            "result_value": 10.0,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "lower": 8.5,
+                "upper": 14.5
+            }
+        },
+        {
+            "test_name": "SERIE PLAUETARA",
+            "result_value": {
+                "PLAQUETAS": 200,
+                "V.P.M.": 7.5,
+                "APO.D.P.": 16.2
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "10E3L",
+                "V.P.M.": null,
+                "APO.D.P.": null
+            },
+            "reference_range": {
+                "PLAQUETAS": {
+                    "lower": 140,
+                    "upper": 400
+                },
+                "V.P.M.": {
+                    "lower": 7.5,
+                    "upper": 12.5
+                },
+                "APO.D.P.": {
+                    "lower": 15.0,
+                    "upper": 18.4
+                }
+            }
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": {
+                "NEU": 2.1,
+                "LYM": 1.5,
+                "MON": 0.5,
+                "EOS": 0.1
+            },
+            "unit_of_measurement": {
+                "NEU": "10E3/L",
+                "LYM": "10E3/L",
+                "MON": "10E3/L",
+                "EOS": "10E3/L"
+            },
+            "reference_range": {
+                "NEU": {
+                    "lower": 1.8,
+                    "upper": 75
+                },
+                "LYM": {
+                    "lower": 1.3,
+                    "upper": 45
+                },
+                "MON": {
+                    "lower": 0.2,
+                    "upper": 12
+                },
+                "EOS": {
+                    "lower": 0.0,
+                    "upper": 5.0
+                }
+            }
+        }
+    ]
+}

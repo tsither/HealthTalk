@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam",
+        "patient_sex": null,
+        "patient_age": "55 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "13600",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.5 - 5.5 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "9000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4000-11000 /uL"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": "85.2",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

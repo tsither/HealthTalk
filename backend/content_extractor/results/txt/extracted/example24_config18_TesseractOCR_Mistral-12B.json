@@ -1,0 +1,23 @@
+{
+    "Date": "23.07.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 8.1,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 45.2,
+            "unit_of_measurement": "%",
+            "reference_range": "37-49%"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT Total",
+            "result_value": 4.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 37.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 9.1,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "4.0 - 11.6"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

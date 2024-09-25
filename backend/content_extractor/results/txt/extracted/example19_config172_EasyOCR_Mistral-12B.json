@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "HGB": 13.06,
+                "HCT": 45.8,
+                "MCV": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RDW": 13.6,
+                "PLT": 100000,
+                "WBC": {
+                    "Total": 5.2,
+                    "Neutrophils": 60.5,
+                    "Lymphocytes": 28.4,
+                    "Eosinophils": 0.6,
+                    "Monocytes": 0,
+                    "Basophils": 0
+                }
+            },
+            "unit_of_measurement": {
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "PLT": "10^3/μL",
+                "WBC": {
+                    "Total": "10^3/μL",
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

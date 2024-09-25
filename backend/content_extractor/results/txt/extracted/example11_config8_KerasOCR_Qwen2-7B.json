@@ -1,0 +1,57 @@
+{
+    "Date": "02/02/2X",
+    "patient_information": {
+        "patient_id": "091 2345678",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count CBC",
+            "result_value": "Hemoglobin: 12.5, RBC count: 52457.55 millivolts, PCV: 57.5%, MCV: 87.75 fl, MCH: 27.2 pg, MCHC: 328 g/dL, RDW: 13.6%",
+            "unit_of_measurement": [
+                "g/dL",
+                "millivolts",
+                "%",
+                "fl",
+                "pg",
+                "g/dL"
+            ],
+            "reference_range": [
+                null,
+                null,
+                "40-50",
+                null,
+                null,
+                "345-516"
+            ]
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "Total WBC: 9000 cells/cumm",
+            "unit_of_measurement": [
+                "cells/cumm"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": "Neutrophils: 62.0%, Lymphocytes: 31.2%, Eosinophils: 7.1%, Monocytes: 0%",
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150000 cells/cumm",
+            "unit_of_measurement": [
+                "cells/cumm"
+            ],
+            "reference_range": [
+                "150000-410000"
+            ]
+        }
+    ]
+}

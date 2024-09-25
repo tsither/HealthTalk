@@ -1,0 +1,41 @@
+{
+    "Date": "02.DEC.21",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "689578 PM",
+        "patient_sex": null,
+        "patient_age": "5 (00001 Years)"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "RBC": "4.5",
+                "HCT": "32.6",
+                "MCV": "91",
+                "MCH": "27.5",
+                "PCV": "30"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "RBC": "4.5 - 6.5",
+                "HCT": "36 - 47",
+                "MCV": "82 - 100",
+                "MCH": "27 - 31",
+                "PCV": "37 - 47"
+            }
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "5.9",
+            "unit_of_measurement": "K/UL",
+            "reference_range": "4.0 - 10.0"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "326",
+            "unit_of_measurement": "K/UL",
+            "reference_range": "150 - 400"
+        }
+    ]
+}

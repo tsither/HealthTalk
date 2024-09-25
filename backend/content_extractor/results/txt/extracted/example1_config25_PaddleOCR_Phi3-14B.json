@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "HEMOGLOBIN - 12.5; RBC COUNT Low - 7P/6, BLOOD INDICES - 4.5; PCV mill/cumm - 87.75, McV - 57.5, MCH % - 27.2 fL, 32.8, RDW pg - 13.6",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.0 g/dL",
+                "RBC COUNT": "4.5-5.9x10^6 cells/mcL",
+                "BLOOD INDICES": "4.5-5.5 x 10^9/L"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "PLATELET COUNT": "150000-410000 platelets/mcL"
+            }
+        }
+    ]
+}

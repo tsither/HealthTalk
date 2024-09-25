@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Papeete Sox",
+        "patient_sex": "male",
+        "patient_age": 62
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": "7.5",
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.6%"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": "228",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "125-200 mg/dL"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": "45",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "60 mg/dL or higher"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": "172",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<130 mg/dL"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": "195",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<150 mg/dL"
+        }
+    ]
+}

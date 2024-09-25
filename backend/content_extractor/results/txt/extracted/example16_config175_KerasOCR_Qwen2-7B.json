@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null,
+        "registration_number": null,
+        "sample_collection_date": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood CBC count",
+            "result_value": "TBC",
+            "unit_of_measurement": "ml cumm blood",
+            "reference_range": [
+                "<13.5 g/dL",
+                ">4.7 x 10^3 to <15.1 x 10^3 cells/μL",
+                "<6.2 x 10^12/L"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "TBC",
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "Male: >13.5 g/dL",
+                "Female: >12.0 g/dL"
+            ]
+        },
+        {
+            "test_name": "Red blood cell (RBC) count",
+            "result_value": "TBC",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": [
+                "Male: 4.7 x 10^3 to <6.2 x 10^3 cells/μL",
+                "Female: 5.1 x 10^3 to <6.9 x 10^3 cells/μL"
+            ]
+        },
+        {
+            "test_name": "Packed cell volume (PCV)",
+            "result_value": "TBC",
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "Male: <24%",
+                "Female: <25%"
+            ]
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": "TBC",
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "67.8 to 341 g/dL"
+            ]
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": "TBC",
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "<15% for all populations"
+            ]
+        },
+        {
+            "test_name": "White blood cell (WBC) count",
+            "result_value": null,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": [
+                "4.0 x 10^3 to <11.0 x 10^3 cells/μL"
+            ]
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

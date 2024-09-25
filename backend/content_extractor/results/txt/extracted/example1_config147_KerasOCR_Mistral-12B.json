@@ -1,0 +1,47 @@
+{
+    "Date": "dec",
+    "patient_information": {
+        "patient_id": "0123a5678",
+        "patient_name": "Shah",
+        "patient_sex": "male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 41.0,
+            "unit_of_measurement": "%",
+            "reference_range": "41-53"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 345,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36"
+        },
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": 7000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "generated to confirm",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8,
+                "Hemoglobina": 14.3,
+                "VCM": 89,
+                "A.M.c": 29,
+                "eucicitos": 10.2,
+                "%": 68,
+                "#": 1
+            },
+            "unit_of_measurement": {
+                "Hematies": "x 10^9/L",
+                "Hemoglobina": "g/dL",
+                "VCM": "fl",
+                "A.M.c": "pg",
+                "%": "%",
+                "#": ""
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Gluccsa": 65.0,
+                "Creatinina": 1.5,
+                "Colesterol": 220,
+                "Proteina": null,
+                "Hierro (Fe+III)": null,
+                "Ferricina": null,
+                "Hemoglobina Alc": null
+            },
+            "unit_of_measurement": {
+                "Gluccsa": "mL/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL"
+            },
+            "reference_range": {
+                "Gluccsa": "(70.0 - 110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": {
+                "GPT": 80,
+                "GGT": 100,
+                "Bilirrubina total": 2.8,
+                "Bilirrubina directa (Esterificada)": 1.5,
+                "Fosfatasa Alcalina": 50,
+                "Albumina": 23
+            },
+            "unit_of_measurement": {
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Bilirrubina directa (Esterificada)": "mg/dL",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

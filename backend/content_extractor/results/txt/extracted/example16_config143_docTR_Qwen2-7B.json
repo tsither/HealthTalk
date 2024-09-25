@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 17.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-140"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8725,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 272,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

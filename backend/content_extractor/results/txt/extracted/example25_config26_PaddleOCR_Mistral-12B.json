@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": 400,
+                "Hemoglobina": 417,
+                "Hematocrito": 540,
+                "V.C.M.": 288,
+                "H.C.M.": 690,
+                "C.H.C.M.": 230,
+                "R.D.W.": 33.8,
+                "Plaquetas": 300
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10/IL",
+                "Hematies": "-1080",
+                "Hemoglobina": "gr/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C.M.": "fL",
+                "C.H.C.M.": "g/dL",
+                "R.D.W.": "g/dL",
+                "Plaquetas": ""
+            },
+            "reference_range": {
+                "Leucocitos": null,
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": null
+            }
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "Neutrofilos": 70.1,
+                "Linfocitos": 24,
+                "Monocitos": 4.6,
+                "Eosinofilos": 13.7,
+                "Basofilos": 3.1
+            },
+            "unit_of_measurement": {
+                "Neutrofilos": "%",
+                "Linfocitos": "L101/L",
+                "Monocitos": "L101/L",
+                "Eosinofilos": "%",
+                "Basofilos": "L101/L"
+            },
+            "reference_range": {
+                "Neutrofilos": null,
+                "Linfocitos": null,
+                "Monocitos": null,
+                "Eosinofilos": null,
+                "Basofilos": null
+            }
+        }
+    ]
+}

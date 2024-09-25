@@ -1,0 +1,23 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "NULL"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "150000",
+            "unit_of_measurement": "/mL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "/μL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

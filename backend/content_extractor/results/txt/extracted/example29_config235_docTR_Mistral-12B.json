@@ -1,0 +1,35 @@
+{
+    "Date": "02/Dec/2023",
+    "patient_information": {
+        "patient_id": "LITT012X4573",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb) Blood Count (CBC)",
+            "result_value": 4.35,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": "3.8-5.9 M/mm³"
+        },
+        {
+            "test_name": "Hemoglobin Concentration",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "82-98 fL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4050,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000 cells/mm³"
+        }
+    ]
+}

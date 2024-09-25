@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "R 0123656789",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "low": "13.0",
+                    "high": "17.0"
+                },
+                "Toral RBC coune": null,
+                "Packed Cell Volume (PCV)": "57.5%",
+                "Mean Corpuscular Volume (MCV)": "87.75 colrelskes",
+                "MCHC": null,
+                "RDW": null
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

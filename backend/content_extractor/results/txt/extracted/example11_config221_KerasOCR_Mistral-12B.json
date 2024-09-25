@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin": 170,
+                "RBC Total": 5.55,
+                "MCV": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.2,
+                "WBC Total": 6000,
+                "Neutrophils": 60,
+                "Lymphocytes": 30,
+                "Eosinophils": 1,
+                "Monocytes": 8,
+                "Platelet Count": 250000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dl",
+                "RBC Total": "million/uL",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dl",
+                "WBC Total": "per uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Platelet Count": "/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

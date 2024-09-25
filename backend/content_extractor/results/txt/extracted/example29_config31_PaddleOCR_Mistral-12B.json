@@ -1,0 +1,103 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 5.2,
+                    "unit": "g/dL",
+                    "reference_range": {
+                        "lower": 4.5,
+                        "upper": 5.5
+                    }
+                },
+                "rbc_count": {
+                    "value": 57.5,
+                    "unit": "10^6/μL",
+                    "reference_range": {
+                        "lower": 40,
+                        "upper": 50
+                    }
+                },
+                "pcv": {
+                    "value": 27.2,
+                    "unit": "%",
+                    "reference_range": {
+                        "lower": 27,
+                        "upper": 32.5
+                    }
+                },
+                "mch": {
+                    "value": 32.8,
+                    "unit": "pg",
+                    "reference_range": {
+                        "lower": 11.6,
+                        "upper": 14
+                    }
+                },
+                "mchc": {
+                    "value": 13.6,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "rdw": {
+                    "value": 9000,
+                    "unit": "fl",
+                    "reference_range": {
+                        "lower": 4000,
+                        "upper": 11000
+                    }
+                },
+                "total_wbc_count": {
+                    "value": 60,
+                    "unit": "10^3/μL",
+                    "reference_range": {
+                        "lower": 50,
+                        "upper": 62
+                    }
+                },
+                "neutrophils_percentage": {
+                    "value": 31,
+                    "unit": "%",
+                    "reference_range": {
+                        "lower": 31,
+                        "upper": 60
+                    }
+                },
+                "lymphocytes_percentage": {
+                    "value": 1,
+                    "unit": "%",
+                    "reference_range": {
+                        "lower": 1,
+                        "upper": 40
+                    }
+                },
+                "monocytes_percentage": {
+                    "value": 20,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "basophils_percentage": {
+                    "value": 0,
+                    "unit": "%",
+                    "reference_range": {
+                        "lower": 0,
+                        "upper": 2
+                    }
+                },
+                "platelet_count": {
+                    "value": 150000,
+                    "unit": "10^3/μL",
+                    "reference_range": null
+                }
+            }
+        }
+    ]
+}

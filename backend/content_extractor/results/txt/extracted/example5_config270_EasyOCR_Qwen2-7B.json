@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "B7689",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 240,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[170-200]"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 50,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[40-60]"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-130]"
+        }
+    ]
+}

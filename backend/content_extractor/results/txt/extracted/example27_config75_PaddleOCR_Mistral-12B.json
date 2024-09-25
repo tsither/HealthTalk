@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "RECUENTOGAOBUAR MAS",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA HFMATOKRITO",
+            "result_value": 49.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "HORMONAL Y LEUCOCITARIA",
+            "result_value": 14.0,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDEIMENTACION",
+            "result_value": "+ 1 hora",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SANGUINEA",
+            "result_value": {
+                "GLUCOSA": 2.0,
+                "COLESTEROI": 87.0,
+                "TRIGLICERIDOS": 60.0,
+                "URIACO": 45.0,
+                "UREA": 19.0,
+                "CREATININA": 4.5
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLESTEROI": "mg/dL",
+                "TRIGLICERIDOS": "mg/dL",
+                "URIACO": "mg/dL",
+                "UREA": "mg/dL",
+                "CREATININA": "mg/dL"
+            },
+            "reference_range": {
+                "GLUCOSA": null,
+                "COLESTEROI": null,
+                "TRIGLICERIDOS": null,
+                "URIACO": null,
+                "UREA": null,
+                "CREATININA": null
+            }
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": {
+                "GOT": 40.0,
+                "GPT": 43.0
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 141.0,
+                "CLORO": 98.0,
+                "POTASIO": 3.7,
+                "BICARBONATO": null
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L",
+                "BICARBONATO": "mEq/L"
+            },
+            "reference_range": {
+                "SODIO": "135-145 mEq/L",
+                "CLORO": "98-108 mEq/L",
+                "POTASIO": "3.7-5.4 mEq/L",
+                "BICARBONATO": null
+            }
+        }
+    ]
+}

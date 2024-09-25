@@ -1,0 +1,52 @@
+{
+    "Date": "Dec. 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 9289,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 9298,
+            "unit_of_measurement": "/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 74,
+            "unit_of_measurement": "/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "High",
+                "Eosinophils": "83-101",
+                "Basophils": "<1",
+                "Monocytes": "27-32"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

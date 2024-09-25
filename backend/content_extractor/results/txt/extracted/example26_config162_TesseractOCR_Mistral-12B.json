@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HEMOGLOBINA": 14.0,
+                "HEMATOCRITO": 42.0,
+                "HEMOCOCITOS": 8.7
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBINA": "g/dL",
+                "HEMATOCRITO": "%",
+                "HEMOCOCITOS": "mill/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie Roja",
+            "result_value": {
+                "RETICULOCITOS": 15.0,
+                "HERMATOCRITO": 39.3,
+                "HEMOGLOBINA": 12.4
+            },
+            "unit_of_measurement": {
+                "RETICULOCITOS": "%",
+                "HEMATOCRITO": "%",
+                "HEMOGLOBINA": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie Blanca",
+            "result_value": {
+                "LEUCOCITOS": 4.2,
+                "NEUTROFILOS": 59.8,
+                "Eosinofilos": 0.8,
+                "Basofilos": 1.6
+            },
+            "unit_of_measurement": {
+                "LEUCOCITOS": "mill/mm³",
+                "NEUTROFILOS": "%",
+                "Eosinofilos": "%",
+                "Basofilos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": [
+            "PI ID"
+        ],
+        "patient_name": [
+            "NAME"
+        ],
+        "patient_sex": [
+            "MALE"
+        ],
+        "patient_age": [
+            5
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": [
+                "HEMOGLOBIN HEADER",
+                "COMPLETE BLOOD COUNT (CBC) WITH DIFFERENTIAL",
+                "PLATELET COUNT"
+            ],
+            "result_value": [
+                5.0,
+                487692,
+                null
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "cells/mcL",
+                "plts per microliter (μl)"
+            ],
+            "reference_range": [
+                "13.5-17.5 g/dL",
+                "4000-10900 cells/mcL",
+                "150,000 - 450,000"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": "20/12/2022",
+    "patient_information": {
+        "patient_id": "PT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "Hb": 13.5,
+                "HCT": 40.3,
+                "MCV": 90.2,
+                "MCH": 27.2,
+                "MCHC": 30.2
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 3.5,
+                    "max": 10.5
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.2
+                },
+                "Hb": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "HCT": {
+                    "min": 37.0,
+                    "max": 47.0
+                },
+                "MCV": {
+                    "min": 80.0,
+                    "max": 100.0
+                },
+                "MCH": {
+                    "min": 26.0,
+                    "max": 32.0
+                },
+                "MCHC": {
+                    "min": 27.0,
+                    "max": 35.0
+                }
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 70,
+                "max": 100
+            }
+        }
+    ]
+}

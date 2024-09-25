@@ -1,0 +1,66 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "5.2",
+                "RBC": "4.8",
+                "HGB": "13.6",
+                "PLT": "270",
+                "NEU%": "55",
+                "LYM%": "32",
+                "MONO%": "9"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "million/uL",
+                "HGB": "g/dL",
+                "PLT": "K/uL",
+                "%": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.8",
+                "RBC": "4.5-6.2",
+                "HGB": "13.5-17.5",
+                "PLT": "150-400",
+                "NEU%": "40-65",
+                "LYM%": "25-45",
+                "MONO%": "2-9"
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "GLU": "98",
+                "BUN": "15",
+                "CR": "0.9",
+                "ALP": "75",
+                "AST": "22",
+                "ALT": "30"
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CR": "mg/dL",
+                "ALP": "U/L",
+                "AST": "U/L",
+                "ALT": "U/L"
+            },
+            "reference_range": {
+                "GLU": "70-99",
+                "BUN": "6-20",
+                "CR": "0.6-1.5",
+                "ALP": "30-120",
+                "AST": "8-48",
+                "ALT": "7-55"
+            }
+        }
+    ]
+}

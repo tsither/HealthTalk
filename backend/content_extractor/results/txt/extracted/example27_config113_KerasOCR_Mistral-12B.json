@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Globulas": "...",
+                "Formul leucocitaria": "...",
+                "Hematies": "...",
+                "Eosinofilos": "...",
+                "Tienii": "...",
+                "Agagogoc e rematorito o cayaios aa": "...",
+                "Emoglobina": "...",
+                "Leucacitos": "...",
+                "Retneb edoi 56 sz70 tld": "...",
+                "Linfocitos": "...",
+                "Plaquetas": "..."
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Sedimentacion de eritrocitos",
+            "result_value": "...",
+            "unit_of_measurement": "mm/hora",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica",
+            "result_value": {
+                "Glucosa": "80 mg/dL",
+                "Colesterol total": "150 mg/dL",
+                "HDL": "45 mg/dL",
+                "LDL": "100 mg/dL",
+                "Trigliceridos": "..."
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol total": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "Trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas enzimaticas",
+            "result_value": {
+                "AST": "...",
+                "ALT": "...",
+                "GPT": "...",
+                "GOT": "..."
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": "145 meq/L",
+                "Potasio": "141 meq/L",
+                "Cloro": "98 meq/L"
+            },
+            "unit_of_measurement": "meq/L",
+            "reference_range": null
+        }
+    ]
+}

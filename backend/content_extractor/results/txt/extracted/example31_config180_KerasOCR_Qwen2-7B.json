@@ -1,0 +1,37 @@
+{
+    "Date": "041224",
+    "patient_information": {
+        "patient_id": "healthicaret pid 555",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "13.0 g/dL",
+                "hematocrit (Hct)": "45%",
+                "mean corpuscular hemoglobin concentration (MCHC)": "27.2%",
+                "red blood cell distribution width (RDW)": "11.6%",
+                "platelet count": "82,000/μL",
+                "white blood cell count": "3,280 cells/uL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": "[13.5-17.5] g/dL",
+                "hematocrit (Hct)": "[40-50]%",
+                "mean corpuscular hemoglobin concentration (MCHC)": "[32-36]%",
+                "red blood cell distribution width (RDW)": "[9-18]%",
+                "platelet count": "[150-400] K/μL",
+                "white blood cell count": "[4,000-11,000] cells/uL"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

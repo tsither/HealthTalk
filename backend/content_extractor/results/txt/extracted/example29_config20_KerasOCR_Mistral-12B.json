@@ -1,0 +1,29 @@
+{
+    "Date": "02/03/21",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 328,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.0-10.0"
+        }
+    ]
+}

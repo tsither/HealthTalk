@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Glóbulos Rojos (RBC)": 5.02,
+                "Hemoglobina (Hb)": 14.7,
+                "Hematocrito (Hct)": 43.8,
+                "Placahexosfalciforme (Retic.)": 2.0
+            },
+            "unit_of_measurement": {
+                "Glóbulos Rojos (RBC)": "10^6/µL",
+                "Hemoglobina (Hb)": "g/dL",
+                "Hematocrito (Hct)": "%",
+                "Placahexosfalciforme (Retic.)": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

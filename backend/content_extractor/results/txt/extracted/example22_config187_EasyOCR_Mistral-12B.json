@@ -1,0 +1,76 @@
+{
+    "Date": "Dec 10",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shah Mumbat Patel Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": 10,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 170,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "M/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 32.51,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 96.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 28.4,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 30.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Platelet Count",
+            "result_value": 265,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Differential",
+            "result_value": {
+                "Neutrophils": 0.74,
+                "Lymphocytes": 0.18,
+                "Eosinophils": 0.06,
+                "Monocytes": 0.02
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

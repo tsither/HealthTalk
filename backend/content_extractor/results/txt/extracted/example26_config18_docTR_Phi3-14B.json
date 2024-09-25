@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SERIE ROJA",
+            "result_value": [
+                "Hematies: 4.75",
+                "HEMOGLOBINA HEMATOLOGICA: 13.3",
+                "Hematocrito: 39,5 %"
+            ],
+            "unit_of_measurement": [
+                "uL/microL",
+                "gldL",
+                "%"
+            ],
+            "reference_range": [
+                null,
+                "12.0 - 16.e0",
+                "36.0 - 47.0"
+            ]
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": [
+                "Leucocitos: 4.20",
+                "NeuLinfocitos Mononucleares: 0,5"
+            ],
+            "unit_of_measurement": [
+                "10e3/uL",
+                "10e3/pL"
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "SERIE PLAQUETARA",
+            "result_value": [
+                "Plaquetas: 208"
+            ],
+            "unit_of_measurement": [
+                "10e3/pL"
+            ],
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

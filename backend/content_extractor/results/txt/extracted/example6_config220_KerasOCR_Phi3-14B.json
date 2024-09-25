@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Regiglored Oz",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HbJ)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "RBC Count - Tohtal",
+            "result_value": 5.5,
+            "unit_of_measurement": "Million cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 17.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Count - Total",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": "K/uL",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

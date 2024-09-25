@@ -1,0 +1,65 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.1-17.0"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.57,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.5-6.5"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 0.575,
+            "unit_of_measurement": "fL",
+            "reference_range": "0.40-0.50"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "101-183"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 324.51,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "344-5"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13,
+            "unit_of_measurement": "%",
+            "reference_range": "6.0-11.6"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-1000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 50000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000-350000"
+        }
+    ]
+}

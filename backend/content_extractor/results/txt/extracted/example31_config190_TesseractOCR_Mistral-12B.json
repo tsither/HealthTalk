@@ -1,0 +1,69 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "reference_range": "13.0-17.0 g/dL"
+                },
+                "RBC_COUNT": {
+                    "value": 5.2,
+                    "reference_range": "4.5-5.5 mill/cumm"
+                },
+                "BLOOD_INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "value": 57.5,
+                        "reference_range": "40-50 %"
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "value": 87.75,
+                        "reference_range": "83-101 fl"
+                    },
+                    "MCH": {
+                        "value": 27.2
+                    },
+                    "MCHC": {
+                        "value": 32.8,
+                        "reference_range": "32.5-34.5 g/dL"
+                    },
+                    "Calculated Row": {
+                        "value": 13.6,
+                        "reference_range": "11.6-14.0"
+                    }
+                },
+                "WBC_COUNT": {
+                    "value": 42
+                },
+                "DIFFERENTIAL_WBC_COUNT": {
+                    "Neutrophils": {
+                        "value": 60
+                    },
+                    "Lymphocytes": {
+                        "value": 31
+                    },
+                    "Eosinophils": {
+                        "value": 1
+                    },
+                    "Monocytes": {
+                        "value": 7
+                    },
+                    "Basophils": {
+                        "value": 1
+                    }
+                },
+                "PLATELET_COUNT": {
+                    "value": 150000,
+                    "reference_range": "150000 - 410000 cumm"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "Dec.20 202X",
+    "patient_information": {
+        "patient_id": "91 com 11 234567 b",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "57.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "%",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "11.6",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Total",
+            "result_value": "60",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-5.5"
+        }
+    ]
+}

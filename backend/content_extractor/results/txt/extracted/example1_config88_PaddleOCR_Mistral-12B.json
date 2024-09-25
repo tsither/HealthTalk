@@ -1,0 +1,121 @@
+{
+    "Date": "02 Dec. 7X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Total RBC count": 4.5,
+                "Hematocrit": 38.75,
+                "MCV": 90,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RDW": 13.6
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Total RBC count": "x10^6/µL",
+                "Hematocrit": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%"
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "Low": 12,
+                    "High": 16
+                },
+                "Total RBC count": {
+                    "Low": 4.5,
+                    "High": 5.5
+                },
+                "Hematocrit": {
+                    "Low": 37,
+                    "High": 47
+                },
+                "MCV": {
+                    "Low": 80,
+                    "High": 100
+                },
+                "MCH": {
+                    "Low": 27,
+                    "High": 32
+                },
+                "MCHC": {
+                    "Low": 32,
+                    "High": 36
+                },
+                "RDW": {
+                    "Low": 11.5,
+                    "High": 14.5
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": {
+                "Total WBC count": 7,
+                "Lymphocytes": 29,
+                "Neutrophils": 60,
+                "Eosinophils": 1,
+                "Monocytes": 8,
+                "Basophils": 1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Total WBC count": {
+                    "Low": 4.5,
+                    "High": 10.5
+                },
+                "Lymphocytes": {
+                    "Low": 29,
+                    "High": 36
+                },
+                "Neutrophils": {
+                    "Low": 40,
+                    "High": 70
+                },
+                "Eosinophils": {
+                    "Low": 1,
+                    "High": 5
+                },
+                "Monocytes": {
+                    "Low": 3,
+                    "High": 8
+                },
+                "Basophils": {
+                    "Low": 0,
+                    "High": 2
+                }
+            }
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": {
+                "Platelet Count": 27.5,
+                "Mean Platelet Volume": 13.6
+            },
+            "unit_of_measurement": {
+                "Platelet Count": "x10^3/µL",
+                "Mean Platelet Volume": "fL"
+            },
+            "reference_range": {
+                "Platelet Count": {
+                    "Low": 20,
+                    "High": 40
+                },
+                "Mean Platelet Volume": {
+                    "Low": 11.5,
+                    "High": 15.5
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "R0123456789",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "date_of_collection": "03:i1 Plt 02 Cec. 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "13.5 - 17.5 g/dL",
+                "female": "12.0 - 15.5 g/dL"
+            },
+            "interpretation": "Low Levels May indicate anemia or blood loss."
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": [
+            21
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5.2,
+            "unit_of_measurement": "mil/eumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": [
+                12.5
+            ],
+            "unit_of_measurement": "g/dl",
+            "reference_range": [
+                13.0,
+                17.0
+            ]
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

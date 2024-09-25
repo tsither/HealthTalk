@@ -1,0 +1,128 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result",
+            "result_value": [
+                {
+                    "test": "HEMOGLOBIN",
+                    "value": 12.5,
+                    "unit_of_measurement": "g/dL"
+                },
+                {
+                    "test": "RBC COUNT",
+                    "value": 4.5,
+                    "unit_of_measurement": "mill/cumm"
+                },
+                {
+                    "test": "Packed Cell Volume (PCV)",
+                    "value": 57.5,
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "test": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit_of_measurement": "fL"
+                },
+                {
+                    "test": "Calculated MCH",
+                    "value": 27.2,
+                    "unit_of_measurement": "pg"
+                },
+                {
+                    "test": "Calculated MCHC",
+                    "value": 32.8,
+                    "unit_of_measurement": "g/dL"
+                },
+                {
+                    "test": "ROW",
+                    "value": 13.6,
+                    "unit_of_measurement": "g/dL"
+                },
+                {
+                    "test": "Reige",
+                    "value": ".63",
+                    "unit_of_measurement": null
+                },
+                {
+                    "test": "Differential WBC COUNT",
+                    "value": [
+                        {
+                            "type": "Neutrophils",
+                            "percentage": 60
+                        },
+                        {
+                            "type": "Lymphocytes",
+                            "percentage": 31
+                        },
+                        {
+                            "type": "Eosinophils",
+                            "percentage": 1
+                        },
+                        {
+                            "type": "Monocytes",
+                            "percentage": 7
+                        },
+                        {
+                            "type": "Basophils",
+                            "percentage": 1
+                        }
+                    ]
+                },
+                {
+                    "test": "PLATELET COUNT",
+                    "value": 150000,
+                    "unit_of_measurement": "cumm"
+                }
+            ],
+            "reference_range": [
+                {
+                    "test": "HEMOGLOBIN",
+                    "range": "13.0-17.0 g/dL"
+                },
+                {
+                    "test": "RBC COUNT",
+                    "range": "4.5-5.5 mill/cumm"
+                },
+                {
+                    "test": "Packed Cell Volume (PCV)",
+                    "range": "40-50 %"
+                },
+                {
+                    "test": "Mean Corpuscular Volume (MCV)",
+                    "range": "83-101 fL"
+                },
+                {
+                    "test": "Calculated MCH",
+                    "range": "27-32 pg"
+                },
+                {
+                    "test": "Calculated MCHC",
+                    "range": "32.5-34.5 g/dL"
+                },
+                {
+                    "test": "ROW",
+                    "range": null
+                },
+                {
+                    "test": "Reige",
+                    "range": null
+                },
+                {
+                    "test": "Differential WBC COUNT",
+                    "range": null
+                },
+                {
+                    "test": "PLATELET COUNT",
+                    "range": "150000 - 410000 cumm"
+                }
+            ]
+        }
+    ]
+}

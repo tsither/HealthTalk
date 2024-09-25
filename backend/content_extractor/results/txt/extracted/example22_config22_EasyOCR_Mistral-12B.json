@@ -1,0 +1,35 @@
+{
+    "Date": "oz reported",
+    "patient_information": {
+        "patient_id": "091234676",
+        "patient_name": "shivam shah",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 13.08,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "hct",
+            "result_value": 45.7,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47%"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": 5.75,
+            "unit_of_measurement": "mill/mm^3",
+            "reference_range": "4.0-6.0 mill/mm^3"
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": 10,
+            "unit_of_measurement": "thou/mm^3",
+            "reference_range": "4.5-11 thou/mm^3"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "hemoglobin": 12.5,
+                    "total_rbc_count": 4.2,
+                    "packed_cell_volume": 7.5,
+                    "mean_corpuscular_volume": 87.75,
+                    "mch": 27.2,
+                    "mchc": 32.8,
+                    "rdw": null,
+                    "total_wbc_count": 13600,
+                    "neutrophils": null,
+                    "lymphocytes": null,
+                    "eosinophils": null,
+                    "monocytes": null,
+                    "basophils": null,
+                    "platelet_count": 136000
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "hemoglobin": "g/dk",
+                    "total_rbc_count": "mill/cumm",
+                    "packed_cell_volume": "%",
+                    "mean_corpuscular_volume": "fL",
+                    "mch": "pg",
+                    "mchc": null,
+                    "rdw": null,
+                    "total_wbc_count": "cumm",
+                    "neutrophils": null,
+                    "lymphocytes": null,
+                    "eosinophils": null,
+                    "monocytes": null,
+                    "basophils": null,
+                    "platelet_count": "/cum"
+                }
+            ],
+            "reference_range": [
+                {
+                    "hemoglobin": "13.0- 17.0 g/dk",
+                    "total_rbc_count": "45-55 mill/cumm",
+                    "packed_cell_volume": "40-50 %",
+                    "mean_corpuscular_volume": "83-101 fL",
+                    "mch": "27-32 pg",
+                    "mchc": null,
+                    "rdw": null,
+                    "total_wbc_count": "11.6- 14,0 . : wat i a 4000-11000 cumm",
+                    "neutrophils": null,
+                    "lymphocytes": null,
+                    "eosinophils": null,
+                    "monocytes": null,
+                    "basophils": null,
+                    "platelet_count": "11.6- 14,0 . : wat i a 4000-11000 cumm"
+                }
+            ]
+        }
+    ]
+}

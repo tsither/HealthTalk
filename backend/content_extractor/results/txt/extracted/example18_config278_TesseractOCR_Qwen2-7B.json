@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "6.2",
+            "unit_of_measurement": "%",
+            "reference_range": "4-6% for non-diabetics, 7-8% for known diabetics"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "165 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "130-149 mg/dL as borderline high"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 41.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (Mcv)",
+            "result_value": null,
+            "unit_of_measurement": "(Mcv)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 160,
+            "unit_of_measurement": "10^3",
+            "reference_range": "13.0 - 17.0 (Mcv)"
+        }
+    ]
+}

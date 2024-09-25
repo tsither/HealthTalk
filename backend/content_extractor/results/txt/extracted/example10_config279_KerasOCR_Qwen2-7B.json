@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.0-10.0"
+        },
+        {
+            "test_name": "C-reactive Protein",
+            "result_value": 3.2,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "0-5"
+        }
+    ]
+}

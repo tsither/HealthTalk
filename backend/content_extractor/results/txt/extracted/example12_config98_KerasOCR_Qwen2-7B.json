@@ -1,0 +1,57 @@
+{
+    "Date": "0231",
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": 555,
+        "patient_disease": [
+            {
+                "name": "myelodysplastic syndrome",
+                "condition": [
+                    "menstruation deficiency"
+                ],
+                "diagnosis": [
+                    {
+                        "result": "cell count decreased blood",
+                        "cause": [
+                            {
+                                "diseases": [
+                                    "leukemia",
+                                    "medications"
+                                ],
+                                "influences": [
+                                    "folic acid",
+                                    "iron"
+                                ]
+                            },
+                            {
+                                "diseases": [
+                                    "vitamin B12",
+                                    "ulcers"
+                                ],
+                                "losses": [
+                                    "iron"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "patient_conditions": [
+            {
+                "condition": "anemia",
+                "cause": "deficiencies"
+            }
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "rbc test",
+            "result_value": 202,
+            "unit_of_measurement": "cells",
+            "reference_range": "375 - 495 cells/uL"
+        }
+    ]
+}

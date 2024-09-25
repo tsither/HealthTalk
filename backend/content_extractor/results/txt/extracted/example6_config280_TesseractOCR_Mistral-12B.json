@@ -1,0 +1,23 @@
+{
+    "Date": "15/03/2022",
+    "patient_information": {
+        "patient_id": "PT-2022-03-15",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.2,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

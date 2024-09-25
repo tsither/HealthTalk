@@ -1,0 +1,46 @@
+{
+    "Date": "02.12.20xx",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": "Hemoglobin - 12.5, Total RBC count - 5.2, Platelet Count - 150000, Total WBC count - 9000",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": "Low: 13.0-17.e g/dL",
+                "Total RBC count": "4.5 - 5.5 mill/cumm",
+                "Platelet Count": "Borderline: 150000 - 410000 cumm",
+                "Total WBC count": "4000-11000 cumm"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils - 60%, Lymphocytes - 31%, Eosinophils - 1%, Monocytes - 7%, Basophils - 1%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "50-62%",
+                "Lymphocytes": "20-40%",
+                "Eosinophils": "0-06%",
+                "Monocytes": "0-10%",
+                "Basophils": "0-02%"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

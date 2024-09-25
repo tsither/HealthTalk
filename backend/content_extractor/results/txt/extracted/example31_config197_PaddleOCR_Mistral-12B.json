@@ -1,0 +1,49 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Borderline High": 13.0,
+                "Low": 17.0
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 275000,
+            "unit_of_measurement": "/cumm",
+            "reference_range": {
+                "Borderline High": 150000,
+                "Low": 410000
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 93.2,
+            "unit_of_measurement": "fl"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 29.6,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7800,
+            "unit_of_measurement": "/cumm"
+        }
+    ]
+}

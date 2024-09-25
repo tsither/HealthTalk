@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC - Complete Blood Count",
+            "result_value": "Total WBC 9000; Neutrophils 62%; Lymphocytes 20.5%; Eosinophils 0.6%; Monocytes 1%; Basophils 0.2%; Platelet count 90000",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Hemoglobin (HGB) and Hematocrit (HCT)",
+            "result_value": "HBG tz5; HCT 50%",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells (RBCs)",
+            "result_value": "155 count",
+            "unit_of_measurement": "/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "328 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

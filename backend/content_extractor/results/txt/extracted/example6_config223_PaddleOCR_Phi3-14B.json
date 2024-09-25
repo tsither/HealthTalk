@@ -1,0 +1,108 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "Hemoglobin (Hb)": 12.5,
+                "Low": true,
+                "Reference range for Hemoglobin (Hb)": "13.0-17.e"
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "Hemoglobin (Hb)": "g/dL"
+            }
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "Reference range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "BLOOD INDICES Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "Reference range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "Reference range": "83 - 101"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "Reference range": "27.3-33.4"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "Reference range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "",
+            "Reference range": "11.0-15.5%"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 9000,
+            "unit_of_measurement": "/cumm",
+            "Reference range": "4000 - 11000"
+        },
+        {
+            "test_name": "DIFFERENSIA BILIAR SOMATIFIED CELLS (DIF) Neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "Reference range": "50 - 70%"
+        },
+        {
+            "test_name": "DIFFERENSIA BILIAR SOMATIFIED CELLS (DIF) Lymphocytes",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "Reference range": "20 - 40%"
+        },
+        {
+            "test_name": "DIFFERENSIA BILIAR SOMATIFIED CELLS (DIF) Fosinophils",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "Reference range": "0 - 6%"
+        },
+        {
+            "test_name": "DIFFERENSIA BILIAR SOMATIFIED CELLS (DIF) Monocyies",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "Reference range": "2 - 8%"
+        },
+        {
+            "test_name": "DIFFERENSIA BILIAR SOMATIFIED CELLS (DIF) Basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "Reference range": "0 - 2%"
+        },
+        {
+            "test_name": "DIFFERENSIA BILIAR SOMATIFIED CELLS (DIF) Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "Reference range": "1 - 4%"
+        },
+        {
+            "test_name": "PLAZA GRANULOSO (PGA)",
+            "result_value": 0.7,
+            "unit_of_measurement": "",
+            "Reference range": null
+        }
+    ]
+}

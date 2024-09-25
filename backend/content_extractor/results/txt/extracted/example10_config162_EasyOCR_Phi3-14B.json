@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 12345678,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW) Investigation",
+            "result_value": 15,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "low": 90,
+                "high": 170
+            }
+        },
+        {
+            "test_name": "Whole Blood Occurrence",
+            "result_value": 50,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "normal adults": true,
+                "children under 13 years": false
+            }
+        },
+        {
+            "test_name": "Oral Contaminants",
+            "result_value": 900,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count (NCE)",
+            "result_value": 1700,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "normal range": true
+            }
+        }
+    ]
+}

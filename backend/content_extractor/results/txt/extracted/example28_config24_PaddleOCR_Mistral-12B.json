@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.81 x10^9/L",
+                "Hemoglobina": "14.3 g/dL",
+                "H.M.C.": "89 fl",
+                "Leucicitos": "29 pg 10^6/μL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "70.0 mg/dL",
+                "Proteina": "800 mg/dL",
+                "Hierro (II+I)": "220 mg/dL",
+                "Ferritina": "6.6 mg/dL",
+                "Hemoglogina A1c": "65 g/dL",
+                "GOT": "20 U/L",
+                "GPT": "4.5 ng/mL",
+                "GGT": "800 U/L",
+                "Bilirrubina total": "800* U/L",
+                "Bilirrubina directa (Esterificada)": "100* U/L",
+                "Fosfatasa Alcalina": "2.8 * U/L",
+                "Albumina": "1.5 * mg/dL",
+                "Globulinas": {
+                    "50 mg/dL": "0.2-1 g/dL",
+                    "2,3*": "0.05-0.4 g/dL"
+                }
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "2345615",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count and size",
+            "result_value": 69578,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean platelet volume (MPV)",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Thrombocytopenia",
+            "result_value": true,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

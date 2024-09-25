@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Sample Patient Name not provided",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 5",
+                "RBC count: 45",
+                "PCV: 83%",
+                "MCV: 87.7 fL"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "million cells/microliter",
+                "%",
+                "femtoliters (fl)"
+            ],
+            "reference_range": [
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "50,000"
+            ],
+            "unit_of_measurement": [
+                "per microliter (µL)"
+            ],
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

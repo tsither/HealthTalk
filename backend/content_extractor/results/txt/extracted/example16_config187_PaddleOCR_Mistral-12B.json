@@ -1,0 +1,26 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Total RBC count: 57.5 million/cumm\nHemoglobin (Hb): 13.0 g/dL\nPacked Cell Volume (PCV): 27.2%\nMean Corpuscular Hemoglobin (MCH): 32.8 pg\nRed Blood Cell Distribution Width (RDW)%: 60%",
+            "unit_of_measurement": "mill/cumm, g/dL, %, pg"
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": "Neutrophils: 31%\nLymphocytes: 7 cumm\nEosinophils: Monocytes: Borderline\nBasophils: *End",
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "PLATELEt count",
+            "result_value": "Platelet Count *End",
+            "unit_of_measurement": "*End"
+        }
+    ]
+}

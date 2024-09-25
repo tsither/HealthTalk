@@ -1,0 +1,23 @@
+{
+    "Date": "12.03.2023",
+    "patient_information": {
+        "patient_id": "B123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 170,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "2.6-200 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 5.8,
+            "unit_of_measurement": "%",
+            "reference_range": "3.7-5.6%"
+        }
+    ]
+}

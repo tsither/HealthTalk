@@ -1,0 +1,83 @@
+{
+    "Date": "2021-03-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 5.0,
+                "Hb": 12.8,
+                "Hct": 40.3,
+                "Plt": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 3.8,
+                    "max": 6
+                },
+                "Hb": {
+                    "min": 12,
+                    "max": 16
+                },
+                "Hct": {
+                    "min": 36,
+                    "max": 46
+                },
+                "Plt": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": {
+                "ALT": 28,
+                "AST": 32,
+                "ALP": 78,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "ALT": "IU/L",
+                "AST": "IU/L",
+                "ALP": "IU/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "ALT": {
+                    "min": 7,
+                    "max": 56
+                },
+                "AST": {
+                    "min": 8,
+                    "max": 48
+                },
+                "ALP": {
+                    "min": 30,
+                    "max": 120
+                },
+                "TBIL": {
+                    "min": 0.3,
+                    "max": 1
+                }
+            }
+        }
+    ]
+}

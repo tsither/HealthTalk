@@ -1,0 +1,78 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Total WBC count": null,
+                "RDW %": 32.8,
+                "Basophils": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Lymphocytes": null,
+                "Neutrophils": null
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "cumm",
+                "RDW %": null,
+                "Basophils": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Lymphocytes": null,
+                "Neutrophils": null
+            },
+            "reference_range": {
+                "Total WBC count": "90 - 100 cumm",
+                "RDW %": "20-40"
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": null,
+            "unit_   of_measurement": "mmol/L",
+            "reference_range": "3.5 - 5.2 mmol/L"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.7-6.1 g/dL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "50 - 62%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "32.5 - 34.5%"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "10-17"
+        }
+    ]
+}

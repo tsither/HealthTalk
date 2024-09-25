@@ -1,0 +1,65 @@
+{
+    "Date": "Dec 02, 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Calculated MCH": 27.2,
+                "Calculated MCHC": 32.8,
+                "WBC count": {
+                    "Total": 9000,
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 1,
+                    "Monocytes": 7,
+                    "Basophils": 1
+                },
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Calculated MCH": "",
+                "Calculated MCHC": "",
+                "WBC count": {
+                    "Total": "cumm",
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                },
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.9 g/dL",
+                "Total RBC count": "",
+                "Packed Cell Volume (PCV)": "40-59%",
+                "Mean Corpuscular Volume (MCV)": "",
+                "Calculated MCH": "27 - 32 Pg",
+                "Calculated MCHC": "32.5-34.5 g/dL",
+                "WBC count": {
+                    "Total": "4000-11000 cumm",
+                    "Neutrophils": "",
+                    "Lymphocytes": "",
+                    "Eosinophils": "",
+                    "Monocytes": "",
+                    "Basophils": ""
+                },
+                "Platelet Count": "150,000 - 440,000 cumm"
+            }
+        }
+    ]
+}

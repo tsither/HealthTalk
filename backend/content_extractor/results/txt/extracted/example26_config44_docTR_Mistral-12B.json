@@ -1,0 +1,123 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": {
+                "Hematies": "4.75 10E6/uL",
+                "HEMOGLOBINA": "13.3 gldL",
+                "Hematocrito": "39.5 %",
+                "V.C.M.": "83.1 IL",
+                "H.C,M.": "27.9 pg",
+                "C.H.C.M.": "33.6 gldL",
+                "A.D.E": "4.00"
+            },
+            "unit_of_measurement": {
+                "Hematies": "/uL",
+                "HEMOGLOBINA": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "IL",
+                "H.C,M.": "pg",
+                "C.H.C.M.": "g/dL",
+                "A.D.E": null
+            },
+            "reference_range": {
+                "Hematies": "12.0 - 16.0",
+                "HEMOGLOBINA": null,
+                "Hematocrito": "36.0 - 47.0",
+                "V.C.M.": "80.0 - 98.0",
+                "H.C,M.": "27.0 - 32.0",
+                "C.H.C.M.": null,
+                "A.D.E": null
+            }
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": "208 10E3/pL",
+                "V.P.M.": "9.1 fL",
+                "A.D.P": "16.2 %",
+                "Plaquetocrito": "0.189%"
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "/pL",
+                "V.P.M.": "fL",
+                "%": null,
+                "Plaquetocrito": "%"
+            },
+            "reference_range": {
+                "PLAQUETAS": "140 - 400",
+                "V.P.M.": null,
+                "%": null,
+                "Plaquetocrito": null
+            }
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": {
+                "LEUCOCITOS": "4.20 10E3/UL",
+                "Neu": {
+                    "%": "49.8",
+                    "10E3/pL": "2.1"
+                },
+                "Lin Mon": {
+                    "%": "35.0",
+                    "10E3/pL": "0.5"
+                },
+                "Eos": {
+                    "%": "11.2",
+                    "10E3/pL": "0.1"
+                },
+                "Bas": {
+                    "%": "2.8",
+                    "10E3/pL": "0.0"
+                }
+            },
+            "unit_of_measurement": {
+                "LEUCOCITOS": "/UL",
+                "%": null,
+                "Neu": {
+                    "%": "%",
+                    "10E3/pL": "/pL"
+                },
+                "Lin Mon": {
+                    "%": "%",
+                    "10E3/pL": "/pL"
+                },
+                "Eos": {
+                    "%": "%",
+                    "10E3/pL": "/pL"
+                },
+                "Bas": {
+                    "%": "%",
+                    "10E3/pL": "/pL"
+                }
+            },
+            "reference_range": {
+                "LEUCOCITOS": "4.00 - 10.00",
+                "Neu": {
+                    "%": null,
+                    "10E3/pL": null
+                },
+                "Lin Mon": {
+                    "%": null,
+                    "10E3/pL": null
+                },
+                "Eos": {
+                    "%": null,
+                    "10E3/pL": null
+                },
+                "Bas": {
+                    "%": null,
+                    "10E3/pL": null
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 1.05,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 26.8,
+            "unit_of_measurement": "%",
+            "reference_range": "39-49%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 71.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        }
+    ]
+}

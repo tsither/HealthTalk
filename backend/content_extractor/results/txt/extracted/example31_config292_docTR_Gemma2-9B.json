@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.71,
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "4.2-5.9 x10^6/µL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 11.4,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4.5-11 x10^3/µL"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 140,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

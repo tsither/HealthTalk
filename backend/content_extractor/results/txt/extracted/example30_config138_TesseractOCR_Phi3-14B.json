@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_val ue": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 32.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW wesc COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 52,
+            "unit_of_measurement": "mill/curam High",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Neutrophils Differential WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes Eosinophils Monocytes Basophils Platelet Count",
+            "result_value": [
+                27,
+                401
+            ],
+            "unit_of_measurement": [
+                "-10",
+                "-1"
+            ],
+            "reference_range": null
+        }
+    ]
+}

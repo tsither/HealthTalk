@@ -1,0 +1,25 @@
+{
+    "Date": "04/02",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "patient_collected_sample_on": "03/11 PM"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "low": 13.5,
+                "normal": [
+                    13.5,
+                    17.5
+                ],
+                "high": null
+            }
+        }
+    ]
+}

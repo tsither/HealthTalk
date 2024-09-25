@@ -1,0 +1,51 @@
+{
+    "Date": "02/12",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin gbj 12.5 low",
+            "unit_of_measurement": "g/L, DLDL RBC count",
+            "reference_range": "40-50 o for PCV, 83-101 fL for MCV"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "Total WBC 9000",
+            "unit_of_measurement": "count/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Neutrophils": "50.62%"
+                },
+                {
+                    "Lymphocytes": "31.2%"
+                },
+                {
+                    "Eosinophils": "0.6%"
+                },
+                {
+                    "Monocytes": "10%"
+                },
+                {
+                    "Basophils": "0.2%"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "platelets/cumm",
+            "reference_range": "150000-410000"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Caso hipopresentacion Paciente varon",
+        "patient_sex": "varon",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 14.3,
+                "VCM": 91.1,
+                "Hematocrito": 39.1,
+                "Leucocitos": 6.5,
+                "Placaeta": 270
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "VCM": "fl",
+                "Hematocrito": "%",
+                "Leucocitos": "10^3/uL",
+                "Placaeta": "10^3/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometria",
+            "result_value": {
+                "Glucosa": 89,
+                "Creatinina": 1.2,
+                "Colesterol total": 204,
+                "Trigliceridos": 156
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol total": "mg/dL",
+                "Trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ferrropenia",
+            "result_value": {
+                "Hierro sérico": 45,
+                "Ferritina": 28,
+                "Transferrina": 30,
+                "SATO2": 98
+            },
+            "unit_of_measurement": {
+                "Hierro sérico": "ug/dL",
+                "Ferritina": "ng/mL",
+                "Transferrina": "%",
+                "SATO2": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Funcional hepática",
+            "result_value": {
+                "GOT": 38,
+                "GPT": 15,
+                "GGT": 45,
+                "Eilirubina total": 0.8,
+                "Eilirubina Fosfatasa alcalina": 207
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Eilirubina total": "%",
+                "Eilirubina Fosfatasa alcalina": "U/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

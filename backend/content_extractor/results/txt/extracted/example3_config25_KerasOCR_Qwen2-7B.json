@@ -1,0 +1,27 @@
+{
+    "Date": "02/Dec/202X",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "address": "Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin cbj investigation result",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": {
+                "male": [
+                    13.5,
+                    17.5
+                ],
+                "female": [
+                    120,
+                    155
+                ]
+            }
+        }
+    ]
+}

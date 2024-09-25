@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "0912345678689578",
+        "patient_name": "Vimal",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 11.6,
+            "unit_of_measurement": "/uL",
+            "reference_range": "34.5 - 4000"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 40,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

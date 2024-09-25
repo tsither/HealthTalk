@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 4.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.3-18.0"
+        },
+        {
+            "test_name": "Hematocrit (Ve",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leukocytes Series",
+            "result_value": [
+                {
+                    "segmented neutrophils": 1
+                },
+                {
+                    "lymphocytes": 1
+                },
+                {
+                    "monocytes": 0.5
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils Series",
+            "result_value": [
+                {
+                    "eosinophils": 0.1
+                },
+                {
+                    "basophils": 0.0
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (Piaquotocrtto)",
+            "result_value": [
+                18,
+                15
+            ],
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Serum Iron (Homouos)",
+            "result_value": [
+                75,
+                110
+            ],
+            "unit_of_measurement": "μg/dL",
+            "reference_range": null
+        }
+    ]
+}

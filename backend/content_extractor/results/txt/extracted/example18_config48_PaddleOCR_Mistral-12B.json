@@ -1,0 +1,33 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 57.5,
+                "Neutrophils": 27.2,
+                "Lymphocytes": 32.8,
+                "Monocytes": 10.7,
+                "Eosinophils": 4.5,
+                "Basophils": 13.6,
+                "Platelet Count": 83
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/µL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelet Count": "10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

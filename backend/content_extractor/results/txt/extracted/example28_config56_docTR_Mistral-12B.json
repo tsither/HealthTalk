@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 X 10^9",
+                "Hemoglobina": "14.3 g/dL",
+                "VCM": "89.1 fl",
+                "H.M.C.": "29 pg",
+                "Leucicitos": "10,2 x 10^6 /L (68N, 18, 5E, 24L, 2M)"
+            },
+            "unit_of_measurement": {
+                "Hematies": "X 10^9",
+                "Hemoglobina": "g/dL",
+                "VCM": "fl",
+                "H.M.C.": "pg",
+                "Leucicitos": "/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.15 - 220 mg/dL",
+                "Colesterol": "65 mg/dL",
+                "Proteina": "70.0 - 110.0 g/dL",
+                "Hierro (Fe)": "(11+111)",
+                "Ferritina": "<30 µg/dL",
+                "Hemoglobina Alc": "2.8%",
+                "GOT": "50 U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "0.4 - 1.5 mg/dL",
+                "Fosfatasa Alcalina": "50-320 UAL/gidL",
+                "Albumina": "3.8-5.5 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (Fe)": "µg/dL",
+                "Ferritina": "µg/dL",
+                "Hemoglobina Alc": "%",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Fosfatasa Alcalina": "UAL/gidL",
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0-110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0",
+                "Proteina": "(6.0-8.0)",
+                "Hierro (Fe)": "(55.0 - 135.0)",
+                "Ferritina": "(10.0 - 120.0)",
+                "Hemoglobina Alc": "(3.8-5.5)",
+                "GOT": "(5-32)",
+                "GPT": "(7-33)",
+                "GGT": "(10-41)",
+                "Bilirrubina total": "(0.2-1)",
+                "Fosfatasa Alcalina": "(30 - 110)",
+                "Albumina": "(3.40-4.80)"
+            }
+        },
+        {
+            "test_name": "Bilirubina directa (Estenficada)",
+            "result_value": "1.5 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

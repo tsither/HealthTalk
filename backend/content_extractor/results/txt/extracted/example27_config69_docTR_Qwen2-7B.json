@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 5.2K/μL, RBC: 4.8M/μL, HGB: 16g/dL",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 20U/L, AST: 30U/L, ALP: 75U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "{<40 for ALT}, {<40 for AST}, {110-280 for ALP}"
+        },
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": "CRE: 1.2mg/dL, BUN: 9mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": "{<1.3 for CRE}, {<20 for BUN}"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Sungalos",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "regitlorod": "0281 pat 02 es 2y"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "15 s0 100 1700",
+            "unit_of_measurement": "% of whole blood",
+            "reference_range": {
+                "age": "normal adults",
+                "value": "17-13.58 for children, up to 7.54 for newborns"
+            }
+        }
+    ]
+}

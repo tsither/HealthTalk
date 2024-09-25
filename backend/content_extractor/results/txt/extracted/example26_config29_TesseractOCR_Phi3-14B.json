@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematies",
+            "result_value": 10.65,
+            "unit_of_measurement": "x10E+6/iL",
+            "reference_range": "[4.7-6.1] x10E+6/iL"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 3.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-16] g/dL"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 30.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-48]%"
+        },
+        {
+            "test_name": "Velocidad de carga media (HCV)",
+            "result_value": 10.65,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "[9-17] mm/hr"
+        }
+    ]
+}

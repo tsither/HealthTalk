@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "L jO I a0Dd",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "HGB": 13.6,
+                "HCT": 40.8,
+                "PLT": null
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": null
+            },
+            "reference_range": {
+                "WBC": "13.0 - 17.0 cells/µL",
+                "HGB": "12.5 - 16.5 g/dL",
+                "HCT": "42.0 - 52.0 %",
+                "PLT": null
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "NEU": null,
+                "LYM": null,
+                "EOS": null,
+                "BASO": null
+            },
+            "unit_of_measurement": {
+                "NEU": "%",
+                "LYM": "%",
+                "EOS": "%",
+                "BASO": "%"
+            },
+            "reference_range": {
+                "NEU": "40.0 - 65.0 %",
+                "LYM": "24.0 - 48.0 %",
+                "EOS": "<1.0 %",
+                "BASO": "<1.0 %"
+            }
+        }
+    ]
+}

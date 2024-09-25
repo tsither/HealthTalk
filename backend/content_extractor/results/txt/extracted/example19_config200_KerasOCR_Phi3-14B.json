@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091234s675",
+        "patient_name": "driogypathabdrlogycom cow drogys",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": null,
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Level",
+            "result_value": 64,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                12.0,
+                17.5
+            ]
+        },
+        {
+            "test_name": "Hematocrit Level",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                38.3,
+                48.6
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": [
+                150000,
+                450000
+            ]
+        }
+    ]
+}

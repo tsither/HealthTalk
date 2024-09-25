@@ -1,0 +1,43 @@
+{
+    "Date": "03 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "150000",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null,
+            "parameters": {
+                "RBC count": {
+                    "value": 87.75,
+                    "unit": "million/uL"
+                },
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "Hematocrit": {
+                    "value": 37.5,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 14.0,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 16.2,
+                    "unit": "pg"
+                },
+                "Platelet count": {
+                    "value": 298000,
+                    "unit": "cells/uL"
+                }
+            }
+        }
+    ]
+}

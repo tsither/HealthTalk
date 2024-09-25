@@ -1,0 +1,53 @@
+{
+    "Date": "202x-12-02",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "patel thcarei",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "9.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5, 17]"
+        },
+        {
+            "test_name": "cb count (count blood collecteds on total)",
+            "result_value": "231",
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv (percentage of packed cells in a whole volume of blood)",
+            "result_value": "21%",
+            "unit_of_measurement": "%",
+            "reference_range": "[36, 54]"
+        },
+        {
+            "test_name": "mch (mean corpuscular hemoglobin concentration)",
+            "result_value": "130 pg",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "mchc (mean corpuscular hemoglobin concentration)",
+            "result_value": "57.5 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "[34, 36]"
+        },
+        {
+            "test_name": "rdw (red cell distribution width)",
+            "result_value": "15.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "[11.5, 14.5]"
+        },
+        {
+            "test_name": "wbc count (total sos wbc)",
+            "result_value": "27.2 K/uL",
+            "unit_of_measurement": "",
+            "reference_range": "[4000-11000] K/uL"
+        }
+    ]
+}

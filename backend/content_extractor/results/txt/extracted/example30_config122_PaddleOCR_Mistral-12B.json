@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150 - 450"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "Hb Concentration",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        }
+    ]
+}

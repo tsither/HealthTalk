@@ -1,0 +1,86 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 12.5,
+                "rbc_count": 57.5,
+                "pcv": 87.75,
+                "mch": 32.8,
+                "rdw": 9000,
+                "total_wbc_count": 60,
+                "differential_wbc_count": {
+                    "neutrophils": 61,
+                    "lymphocytes": 3,
+                    "monocytes": 5
+                },
+                "platelet_count": 278000
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "fL",
+                "pcv": "%",
+                "mch": "pg",
+                "rdw": "FL",
+                "total_wbc_count": "cells/mm³",
+                "differential_wbc_count": {
+                    "neutrophils": "%",
+                    "lymphocytes": "%",
+                    "monocytes": "%"
+                },
+                "platelet_count": "cells/mm³"
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "rbc_count": {
+                    "low": 40,
+                    "high": 50
+                },
+                "pcv": {
+                    "low": 27,
+                    "high": 32
+                },
+                "mch": {
+                    "low": 11.6,
+                    "high": 14.0
+                },
+                "rdw": {
+                    "low": 4000,
+                    "high": 11000
+                },
+                "total_wbc_count": {
+                    "low": 50,
+                    "high": 62
+                },
+                "differential_wbc_count": {
+                    "neutrophils": {
+                        "low": 31.0,
+                        "high": 60.0
+                    },
+                    "lymphocytes": {
+                        "low": 0.0,
+                        "high": 0.2
+                    },
+                    "monocytes": {
+                        "low": 0.0,
+                        "high": 0.2
+                    }
+                },
+                "platelet_count": {
+                    "low": 150000,
+                    "high": 410000
+                }
+            }
+        }
+    ]
+}

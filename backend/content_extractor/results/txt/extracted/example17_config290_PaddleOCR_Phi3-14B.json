@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (white blood cells)",
+            "result_value": 4.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RBC (red blood cells)",
+            "result_value": 3.68,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "HGB (hemoglobin)",
+            "result_value": 9.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "PLT (platelets)",
+            "result_value": null,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

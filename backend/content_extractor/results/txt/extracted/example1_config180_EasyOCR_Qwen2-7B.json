@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "sample_collected_at": "age 21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "low 1301 170 rbc gidl count total ribic count",
+            "reference_range": "52 4st 55"
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 57.5,
+            "unit_of_measurement": "% high 0 s0",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (mcv)",
+            "result_value": 87,
+            "unit_of_measurement": "cucll",
+            "reference_range": "83 101 fl"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": 328,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell distribution width (rdw)",
+            "result_value": 13.16,
+            "unit_of_measurement": "%",
+            "reference_range": "116 140"
+        },
+        {
+            "test_name": "white blood cell count (wbc)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "52 4st 55"
+        }
+    ]
+}

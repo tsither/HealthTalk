@@ -1,0 +1,65 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "55500",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 38,
+            "unit_of_measurement": "L/9 cumm",
+            "reference_range": "150 - 450"
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "percentage": 62
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "percentage": 32.5
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "percentage": 2
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "percentage": 0
+                },
+                {
+                    "cell_type": "Basophils",
+                    "percentage": 0
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": [
+                {
+                    "parameter": "MCV",
+                    "value": 87.75
+                },
+                {
+                    "parameter": "PCV",
+                    "value": 40
+                }
+            ],
+            "unit_of_measurement": "[fL, %]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC COUNT": 5200,
+                "BLOOD INDICES": {
+                    "Volume (PCV)": 57.5,
+                    "Packed Cell Volume (MCV)": 87.75,
+                    "Mean Corpuscular Hb Conc. (MCHC)": 13.6
+                },
+                "WBC COUNT": 9000,
+                "Differential WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 1,
+                    "Eosinophils": 7,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "PLATELET COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "mill/cumm",
+                "RBC COUNT": "Total RBC count",
+                "BLOOD INDICES": {
+                    "Volume (PCV)": "g/dL",
+                    "Packed Cell Volume (MCV)": null,
+                    "Mean Corpuscular Hb Conc. (MCHC)": "cumm"
+                },
+                "WBC COUNT": "Total WBC count",
+                "Differential WBC COUNT": {
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "PLATELET COUNT": "cell counter"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "4.5-5.5",
+                "RBC COUNT": "40-50 fL",
+                "BLOOD INDICES": {
+                    "Volume (PCV)": "83-101 g/dL",
+                    "Packed Cell Volume (MCV)": "27-32 pg",
+                    "Mean Corpuscular Hb Conc. (MCHC)": null
+                },
+                "WBC COUNT": "50-62 cumm",
+                "Differential WBC COUNT": {
+                    "Neutrophils": "20-40%",
+                    "Lymphocytes": "1-35%",
+                    "Eosinophils": "00-06%",
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "PLATELET COUNT": null
+            }
+        }
+    ]
+}

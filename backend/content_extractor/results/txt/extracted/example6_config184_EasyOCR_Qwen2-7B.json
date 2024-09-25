@@ -1,0 +1,46 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "013a56761",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "sample_collection_location": "125 shivam bungalows s g rood, mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbcy investigation result",
+            "result_value": null,
+            "unit_of_measurement": [
+                "rbc count",
+                "blood indices",
+                "mchc pg"
+            ],
+            "reference_range": {
+                "rbc_count": [
+                    55
+                ],
+                "pcv": [
+                    57.5,
+                    101
+                ],
+                "imcv": [
+                    3.8,
+                    277
+                ],
+                "mch": [
+                    27.2,
+                    32
+                ],
+                "mchc": [
+                    325,
+                    360
+                ],
+                "rdw": [
+                    11,
+                    14.5
+                ]
+            }
+        }
+    ]
+}

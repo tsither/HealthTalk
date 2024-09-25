@@ -1,0 +1,107 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 205.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[150 - 450] x1e9/l"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 7.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "White Blood Cell Count (Leukocytes)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[4.5 - 11] x10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cell Count (Erythrocytes)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[4.7 - 6.1] x10^12/L"
+        },
+        {
+            "test_name": "Hematocrit (Erythrocyte Volume Fraction)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[38.3 - 48.6]%"
+        },
+        {
+            "test_name": "MCV (Mean Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[79-102] fL"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "MCV/MCH Ratio",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6 - 14.0]%"
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 10.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "Platelets Distribution Width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "MPV/PLT Ratio",
+            "result_value": 0.1736842105263158,
+            "unit_of_measurement": null,
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Aggregation",
+            "result_value": 4.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[1 - 7]%"
+        },
+        {
+            "test_name": "RDW-SD (Standard Deviation of Red Blood Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "DIL (Destroyed RBC Index)",
+            "result_value": 2.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[1 - 4]%"
+        }
+    ]
+}

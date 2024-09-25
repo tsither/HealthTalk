@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": "6,56",
+                "Val.Ref.": "4,17 - 9,7",
+                "Hematies": "329",
+                "H.C.M.": "10.0",
+                "R.D.W.": "128",
+                "Hematocrito": "40.0",
+                "Hemoglobina": "14.0"
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10^9/L",
+                "Val.Ref.": "10^9/L",
+                "Hematies": "g/dL",
+                "H.C.M.": "%",
+                "R.D.W.": "fl",
+                "Hematocrito": "%",
+                "Hemoglobina": "g/dL"
+            }
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": "350",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "(23 - 338)"
+        },
+        {
+            "test_name": "Formulacion leucocitaria",
+            "result_value": {
+                "Neutrofilos": "9.1",
+                "Linfocitos": "50",
+                "Monocitos": "4",
+                "Eosinofilos": "6",
+                "Basofilos": "7"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrofilos": "(25 - 52)",
+                "Linfocitos": "(10 - 36)",
+                "Monocitos": "(4 - 8)",
+                "Eosinofilos": "(0.7 - 4.6)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "13/01/2017",
+    "patient_information": {
+        "patient_id": "100011000",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 8.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 25.2,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47%"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 3.28,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "4.5-6 million cells/mcL"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) 12.5, Total RBC count 5.2, Packed Cell Volume (PCV) 57.5, Mean Corpuscular Volume (MCV) 87.75 fL, Calculated MCH 27.2 pg, Calculated RDW 13.6 %",
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/cumm",
+                "%",
+                "fL",
+                "pg",
+                "%"
+            ],
+            "reference_range": [
+                "13.0-17.0 g/dL",
+                "4.5-5.5 mill/cumm",
+                "40-50 %",
+                "83-101 fL",
+                "27 - 32 pg",
+                "11.6- 14.0 %"
+            ]
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "Total WBC count 9000 cumm",
+            "unit_of_measurement": [
+                "cumm"
+            ],
+            "reference_range": [
+                "4000-11000 cumm"
+            ]
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Neutrophils 60 %, Lymphocytes 31 %, Eosinophils 1 %, Monocytes 7 %, Basophils 1 %",
+            "unit_of_measurement": [
+                "%",
+                "%",
+                "%",
+                "%",
+                "%"
+            ],
+            "reference_range": [
+                "50 - 62 %",
+                "20 - 40 %",
+                "00-06 %",
+                "00-10 %",
+                "00 - 02 %"
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "Platelet Count 150000 cumm",
+            "unit_of_measurement": [
+                "cumm"
+            ],
+            "reference_range": [
+                "150000 - 410000 cumm"
+            ]
+        }
+    ]
+}

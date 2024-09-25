@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": "27 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hb (Hemoglobin)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "175 - 135 g/dL"
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_value": "4.00",
+            "unit_of_measurement": "Million/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (Hematocrit)",
+            "result_value": "35%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

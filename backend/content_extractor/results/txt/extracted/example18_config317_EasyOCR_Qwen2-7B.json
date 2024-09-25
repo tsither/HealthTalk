@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "1106",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[2,500-9,000] /uL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.8-17.6] g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[40.9-52.9] %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[83-106] fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "[27.3-34.1] pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[33.8-36.5] g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[140,000-425,000] /uL"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": [
+                    "120-160 g/dL"
+                ],
+                "hematic volume": [
+                    "4.5-5.7 mL"
+                ],
+                "erythrocyte sedimentation rate (ESR)": [
+                    null
+                ],
+                "mean corpuscular hemoglobin concentration (MCHC)": [
+                    "32-38%"
+                ],
+                "red blood cell distribution width (RDW)": [
+                    null
+                ]
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

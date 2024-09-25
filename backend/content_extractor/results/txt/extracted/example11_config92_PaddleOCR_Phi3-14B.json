@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Low Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HEMOGL count)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "Male: 14 - 18 g/dL, Female: 12 - 15 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_val ue": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "150-450 x 10^3 /ul"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "9.4 - 15.6%"
+        }
+    ]
+}

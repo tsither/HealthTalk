@@ -1,0 +1,29 @@
+{
+    "Date": "17 Mar 2024",
+    "patient_information": {
+        "patient_id": "3045989",
+        "patient_name": "Ahmed Patel",
+        "patient_age": "70",
+        "patient_sex": "Male"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.6,
+            "unit_of_measurement": "million cells/mm³",
+            "reference_range": "4.5-6 million cells/mm³"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 8725,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000 cells/mm³"
+        }
+    ]
+}

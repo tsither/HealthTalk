@@ -1,0 +1,34 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male"
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.1",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "6.5",
+            "unit_of_measurement": "thou/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150",
+            "unit_of_measurement": " thou/cumm",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "93.6",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

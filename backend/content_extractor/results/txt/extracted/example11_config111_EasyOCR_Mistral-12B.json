@@ -1,0 +1,53 @@
+{
+    "Date": "02 DEC 2X",
+    "patient_information": {
+        "patient_id": "0123456189",
+        "patient_name": "PATEL YASH M",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-17 (LOW)"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.24,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "PACKED CELL VOLUME (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50 (HIGH)"
+        },
+        {
+            "test_name": "CORPUSCULAR HEMATOCRIT VOLUME (MCV)",
+            "result_value": 87,
+            "unit_of_measurement": "fL",
+            "reference_range": "75-96"
+        },
+        {
+            "test_name": "MEAN CELL HEBATOCRIT CONCENTRATION (MCHC)",
+            "result_value": 32.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36"
+        },
+        {
+            "test_name": "RED BLOOD CELL DISTRIBUTION WIDTH (RDW)",
+            "result_value": 13,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "WHITE BLOOD CELL COUNT (WBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "4,500-10,000"
+        }
+    ]
+}

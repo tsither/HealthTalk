@@ -1,0 +1,54 @@
+{
+    "Date": "05.00",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Vimal",
+        "patient_sex": "Male",
+        "patient_age": 55,
+        "type_of_sample": "Fully Measured"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Million/uL)",
+            "result_value": 4.09,
+            "unit_of_measurement": "M",
+            "reference_range": "Null"
+        },
+        {
+            "test_name": "HGB (g/dL)",
+            "result_value": 12.5,
+            "unit_of_measurement": "gldl",
+            "reference_range": "4.0 - 6.0"
+        },
+        {
+            "test_name": "HCT (%)",
+            "result_value": 38.9,
+            "unit_of_measurement": "%",
+            "reference_eange": "27-41"
+        },
+        {
+            "test_name": "MCV (fL)",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "Null"
+        },
+        {
+            "test_name": "MCH (pg)",
+            "result_value": 27.1,
+            "unit_of_measurement": "pg",
+            "reference_eange": "23-32"
+        },
+        {
+            "test_name": "WBC (K/uL)",
+            "result_value": 5.7,
+            "unit_of_measurement": "K",
+            "reference_range": "4 - 10 K/uL"
+        },
+        {
+            "test_name": "PLATELETS (count)",
+            "result_value": 250000,
+            "unit_of_measurement": "K",
+            "reference_range": "Null"
+        }
+    ]
+}

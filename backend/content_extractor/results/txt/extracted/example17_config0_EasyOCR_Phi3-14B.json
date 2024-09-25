@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLUCOSE",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CALCIUM",
+            "result_value": 10.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.6-10.3"
+        },
+        {
+            "test_name": "SODIUM",
+            "result_value": 145,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "POTASSIUM",
+            "result_value": 4.7,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.1"
+        }
+    ]
+}

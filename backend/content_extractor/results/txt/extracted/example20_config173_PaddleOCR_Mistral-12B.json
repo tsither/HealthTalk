@@ -1,0 +1,51 @@
+{
+    "Date": "09 Dec, 202x",
+    "patient_information": {
+        "patient_id": "C 0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "count": "32.5",
+                    "unit": "-",
+                    "reference_range": "4.5- 5.5"
+                },
+                "RBC": {
+                    "count": "13.6",
+                    "unit": "nL/mm³",
+                    "reference_range": null
+                },
+                "HGB": {
+                    "value": "11.6",
+                    "unit": "g/dL",
+                    "reference_range": null
+                },
+                "PLT": {
+                    "count": "27- 32",
+                    "unit": "-",
+                    "reference_range": null
+                },
+                "MCV": {
+                    "value": "10.6",
+                    "unit": "fL",
+                    "reference_range": null
+                },
+                "MCH": {
+                    "value": "34.5",
+                    "unit": "pg",
+                    "reference_range": null
+                },
+                "MCHC": {
+                    "value": "32.5",
+                    "unit": "g/dL",
+                    "reference_range": null
+                }
+            }
+        }
+    ]
+}

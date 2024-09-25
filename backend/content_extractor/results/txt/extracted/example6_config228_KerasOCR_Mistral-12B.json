@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123476789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "RBC count": 5.2,
+                "WBC count": 7.1,
+                "Platelet count": 400
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "RBC count": "million/µL",
+                "WBC count": "thousand/µL",
+                "Platelet count": "thousand/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

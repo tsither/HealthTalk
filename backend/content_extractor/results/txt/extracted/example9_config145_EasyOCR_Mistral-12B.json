@@ -1,0 +1,31 @@
+{
+    "Date": "20XX-DEC",
+    "patient_information": {
+        "patient_id": "091235678",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": "normochromic",
+                "WBC": "normal",
+                "Platelets": "adequate"
+            },
+            "unit_of_measurement": "na",
+            "reference_range": null
+        },
+        {
+            "test_name": "Peripheral Blood Smear",
+            "result_value": {
+                "RBC morphology": "normocytic",
+                "WBC morphology": "normal",
+                "Platelets morphology": "normal"
+            },
+            "unit_of_measurement": "na",
+            "reference_range": null
+        }
+    ]
+}

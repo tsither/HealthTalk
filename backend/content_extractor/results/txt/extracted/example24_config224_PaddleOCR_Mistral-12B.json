@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "40"
+    },
+    "test_results": [
+        {
+            "test_name": "PCV (HCT)",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 51.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 214000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000 - 350000"
+        }
+    ]
+}

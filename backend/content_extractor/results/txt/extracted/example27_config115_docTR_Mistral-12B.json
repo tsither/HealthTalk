@@ -1,0 +1,105 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": 13.2,
+                "Hematocrito": 40.7,
+                "Leucocitos": 8.56,
+                "Plaquetas": 298
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "Leucocitos": "/mm³",
+                "Plaquetas": "/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": 20,
+            "unit_of_measurement": "mm/h",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol Total": 169,
+                "HDL": 50,
+                "LDL": 100,
+                "Trigliceridos": 45
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol Total": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "Trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "ACIDE URICO",
+            "result_value": 4.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HIERRO",
+            "result_value": 145,
+            "unit_of_measurement": "ug/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CREATININA",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HOMOCISTEINA",
+            "result_value": 7.39,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PROTEINAST",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS GOT GPT GT",
+            "result_value": {
+                "GOT": 40,
+                "GPT": 43
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "Sodio": 141,
+                "Potasio": 3.7
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/L",
+                "Potasio": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

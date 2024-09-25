@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345678",
+        "patient_name": "yash",
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelets",
+            "result_value": "555",
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "135,000-450,000"
+        },
+        {
+            "test_name": "PDW",
+            "result_value": "90.17",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

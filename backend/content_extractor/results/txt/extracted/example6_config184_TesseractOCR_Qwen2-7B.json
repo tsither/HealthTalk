@@ -1,0 +1,39 @@
+{
+    "Date": "0523456789",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "S . Accurate | Caring | Instant Ye",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registration_date": "02 Des. 2x"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "12.5",
+                "rbc_count": "5,2",
+                "pcv": "$7.5",
+                "mcv": "87.75 fl",
+                "mch": "27.2 pg",
+                "mchc": "32.8 g/dl"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dl",
+                "rbc_count": "mill/cumm",
+                "pcv": "%",
+                "mcv": "fl",
+                "mch": "pg",
+                "mchc": "g/dl"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0-17.0 g/dl",
+                "rbc_count": "45-55 mill/cumm",
+                "pcv": "40-50 %",
+                "mcv": "83-101 fl",
+                "mch": "27.32 pg",
+                "mchc": "32.5- 34.5 g/dl"
+            }
+        }
+    ]
+}

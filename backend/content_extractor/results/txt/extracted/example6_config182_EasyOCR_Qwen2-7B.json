@@ -1,0 +1,88 @@
+{
+    "Date": "02 cres",
+    "patient_information": {
+        "patient_id": "0211 pid onb",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "address": "125 shivam bungalow s g sex rond",
+        "city": "mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "gbj",
+            "reference_range": {
+                "low": 131,
+                "high": 170
+            }
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": 52.85,
+            "unit_of_measurement": "gidl",
+            "reference_range": null
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": 55,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "high": 83,
+                "101 mch fl": 27.2
+            }
+        },
+        {
+            "test_name": "mean corpuscular co volume (mcv)",
+            "result_value": 3.8775,
+            "unit_of_measurement": "co",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": 328,
+            "unit_of_measurement": "pg",
+            "reference_range": {
+                "co": 325,
+                "4.3 mch c": 345
+            }
+        },
+        {
+            "test_name": "rdw",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "total wbc count",
+            "result_value": 11.6,
+            "unit_of_measurement": "a",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential wbc count",
+            "result_value": {
+                "neutrophils": 60,
+                "lymphocyles": 50
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet x count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "borderline": 150000,
+                "410000 cumm": ""
+            }
+        }
+    ]
+}

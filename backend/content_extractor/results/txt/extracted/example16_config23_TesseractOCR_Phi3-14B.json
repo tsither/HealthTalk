@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count (CBC)",
+            "result_value": 52,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 84.375,
+            "unit_of_measurement": "femtoliters (fl)",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 190,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "white blood cell count (WBC)",
+            "result_value": 328,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

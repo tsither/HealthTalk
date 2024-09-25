@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                4.5,
+                83
+            ],
+            "unit_of_measurement": [
+                "x10^9/L",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": [
+                27.2,
+                32.8
+            ],
+            "unit_of_measurement": [
+                "%",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": [
+                110,
+                136
+            ],
+            "unit_of_measurement": [
+                "g/L",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": [
+                4.5,
+                8.3
+            ],
+            "unit_of_measurement": [
+                "x10^9/L"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": [
+                27.2,
+                32.8
+            ],
+            "unit_of_measurement": [
+                "x10^9/L"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": [
+                150,
+                450
+            ],
+            "unit_of_measurement": [
+                "x10^9/L"
+            ],
+            "reference_range": null
+        }
+    ]
+}

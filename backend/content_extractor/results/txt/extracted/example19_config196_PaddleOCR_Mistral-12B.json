@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "84955E21601",
+        "patient_name": "L JO I",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells (WBC)": 87.75,
+                "Red Blood Cells (RBC)": 150000,
+                "Hemoglobin (Hb)": 12.5,
+                "Platelet Count": 32.8
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "10^9/L",
+                "Red Blood Cells (RBC)": "/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cells (WBC)": "4.5 - 11.0",
+                "Red Blood Cells (RBC)": "3.8 - 6.2",
+                "Hemoglobin (Hb)": "12.0 - 16.0",
+                "Platelet Count": "150 - 450"
+            }
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 37.5,
+            "unit_of_measurement": "%",
+            "reference_range": "36.0 - 46.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

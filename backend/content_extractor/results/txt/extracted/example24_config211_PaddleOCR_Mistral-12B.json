@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "125. Shivam Bungalow, S G Road.",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "parameter": "White Blood Cell Count",
+                    "value": "8.0"
+                },
+                {
+                    "parameter": "Red Blood Cell Count",
+                    "value": "5.0"
+                },
+                {
+                    "parameter": "Hemoglobin (Hb)",
+                    "value": "13.6"
+                },
+                {
+                    "parameter": "Platelet Count",
+                    "value": "27"
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "parameter": "WBC",
+                    "unit": "mm³"
+                },
+                {
+                    "parameter": "RBC",
+                    "unit": "mm³"
+                },
+                {
+                    "parameter": "Hb",
+                    "unit": "g/dL"
+                },
+                {
+                    "parameter": "Platelet",
+                    "unit": "mm³"
+                }
+            ],
+            "reference_range": [
+                {
+                    "parameter": "WBC",
+                    "range": "4.5- 10.5"
+                },
+                {
+                    "parameter": "RBC",
+                    "range": "4.2-6.0"
+                },
+                {
+                    "parameter": "Hb",
+                    "range": "13.0 - 17.0"
+                },
+                {
+                    "parameter": "Platelet",
+                    "range": "150000-410000"
+                }
+            ]
+        }
+    ]
+}

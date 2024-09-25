@@ -1,0 +1,110 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": 21,
+            "unit_of_measurement": "cars f",
+            "reference_range": "low type"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 101,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 515300,
+            "unit_of_measurement": "cells/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Blood Indices",
+            "result_value": 8775,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 82.576,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 100,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cells) Count",
+            "result_value": 11000,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 15,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 20.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "percentage": "Ftodoo"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "percentage": "Ssooo"
+                },
+                {
+                    "type": "Eosinophils",
+                    "percentage": "Borderline"
+                },
+                {
+                    "type": "Monocytes",
+                    "percentage": "T sodoo"
+                },
+                {
+                    "type": "Basophils",
+                    "percentage": null
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

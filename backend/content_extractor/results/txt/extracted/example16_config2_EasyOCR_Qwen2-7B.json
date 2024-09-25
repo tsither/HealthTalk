@@ -1,0 +1,29 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "[FILL] Complete blood count",
+            "result_value": "125",
+            "unit_of_measurement": "white blood cells / microliter",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "[FILL] Hemoglobin",
+            "result_value": "345",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "[FILL] Platelet count",
+            "result_value": "150000",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Date": "202x-05-01",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc total count",
+            "result_value": 66,
+            "unit_of_measurement": "G/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch volume",
+            "result_value": 125,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc total count",
+            "result_value": 575,
+            "unit_of_measurement": "G/L",
+            "reference_range": [
+                3.5,
+                10
+            ]
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 130,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": 170,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 328,
+            "unit_of_measurement": "G/L",
+            "reference_range": [
+                0.4,
+                5
+            ]
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelets total count",
+            "result_value": 101,
+            "unit_of_measurement": "G/L",
+            "reference_range": [
+                140,
+                400
+            ]
+        }
+    ]
+}

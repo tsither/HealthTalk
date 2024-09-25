@@ -1,0 +1,29 @@
+{
+    "Date": "12.03.2022",
+    "patient_information": {
+        "patient_id": "987654321",
+        "patient_name": "John Doe",
+        "patient_sex": "male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon A1c",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4-5.6%"
+        },
+        {
+            "test_name": "Fasting Blood Glucose",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-99 mg/dl"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 210,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "< 200 mg/dl"
+        }
+    ]
+}

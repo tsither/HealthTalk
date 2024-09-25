@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "White Blood Cells": "7.5",
+                "Red Blood Cells": "4.8",
+                "Hemoglobin": "12.5",
+                "Platelets": "250",
+                "Neutrophils": "60%",
+                "Lymphocytes": "30%",
+                "Monocytes": "5%"
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "x10^9/L",
+                "Red Blood Cells": "x10^12/L",
+                "Hemoglobin": "g/dL",
+                "Platelets": "x10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

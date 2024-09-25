@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456139",
+        "patient_name": "shah",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin level",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "red blood cell count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4.5-5.9 x10^6"
+        },
+        {
+            "test_name": "platelet count (PLT)",
+            "result_value": null,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

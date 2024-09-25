@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8,
+                "Hemoglobina": 14.3,
+                "VCM": null,
+                "H.m.C.": null
+            },
+            "unit_of_measurement": {
+                "Hematies": "109 /l",
+                "Hemoglobina": "g/l",
+                "VCM": null,
+                "H.m.C.": "pg"
+            },
+            "reference_range": {
+                "Hematies": "4.2-5.8 * 109 /l",
+                "Hemoglobina": "13.5-17.5 g/dl (men) / 12.0-16.0 g/dL (women)",
+                "VCM": null,
+                "H.m.C.": null
+            }
+        },
+        {
+            "test_name": "Boguimca basica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatnina": 1.15,
+                "Colesterol": null,
+                "Protena": 6.6
+            },
+            "unit_of_measurement": {
+                "Glucosa": "* mg/dL",
+                "Creatnina": "mg/dl (0.70 - 1.10)",
+                "Colesterol": null,
+                "Protena": "g/D"
+            },
+            "reference_range": {
+                "Glucosa": "70.0-110.0 * mg/dL",
+                "Creatnina": "(0.65 - 1.25) mg/dl (menos de 38 años)",
+                "Colesterol": null,
+                "Protena": "5.9-7.3 g/D"
+            }
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 20,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "10.0 - 120.0"
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": 2.8,
+            "unit_of_measurement": "* mg/dL",
+            "reference_range": "(0.1- 1) * mg/dL"
+        }
+    ]
+}

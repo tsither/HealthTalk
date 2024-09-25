@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Female",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hematocrit: 35.8%",
+                "Red blood cell count: 4.7-6.1 x10^6/mcL"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Male (21–50 years): 40.7–50.3%",
+                "Female (21–50 years): 36.1–44.3%"
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                "27-94 fL"
+            ]
+        }
+    ]
+}

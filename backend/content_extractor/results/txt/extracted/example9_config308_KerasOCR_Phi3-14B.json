@@ -1,0 +1,29 @@
+{
+    "Date": "2023-12-01",
+    "patient_information": {
+        "patient_id": "PID123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "5.2",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-11.0 x1#"
+        },
+        {
+            "test_name": "Hemoglobin A1C",
+            "result_value": "7.2%",
+            "unit_of_measurement": "percentage",
+            "reference_range": "4.0-5.6%"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": "21 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.89575,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.2 - 16.0 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Total Count (WBC)",
+            "result_value": 45,
+            "unit_of_measurement": "thousand per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils Differential High Count (%)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

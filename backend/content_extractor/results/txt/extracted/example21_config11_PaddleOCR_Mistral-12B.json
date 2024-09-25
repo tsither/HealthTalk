@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Paahe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "155000",
+            "unit_of_measurement": "⮜",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) COUNT",
+            "result_value": "8.775",
+            "unit_of_measurement": "μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) COUNT",
+            "result_value": "52 | 0912345678",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-17.0"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "13.0",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "94.5",
+            "unit_of_measurement": "μL",
+            "reference_range": null
+        }
+    ]
+}

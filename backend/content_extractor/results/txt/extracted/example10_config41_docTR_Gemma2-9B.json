@@ -1,0 +1,35 @@
+{
+    "Date": "23.02.2024",
+    "patient_information": {
+        "patient_id": "6789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "AST",
+            "result_value": "1790",
+            "unit_of_measurement": "U/L",
+            "reference_range": "15-35 U/L"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": "11",
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-40 U/L"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": "75",
+            "unit_of_measurement": "U/L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": "4.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.0 g/dL"
+        }
+    ]
+}

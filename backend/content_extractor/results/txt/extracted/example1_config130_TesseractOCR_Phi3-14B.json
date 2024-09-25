@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) : 12.5, RBC count: 5.2",
+            "unit_of_measurement": "g/dL and mill/cumm respectively",
+            "reference_range": "Hemoglobin : Low(13.0-17.0), RBC Count: Normal (4.5-5.5)"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Packed Cell Volume (PCV) : 57.5, Mean Corpuscular Volume(MCV): 87.75",
+            "unit_of_measurement": "% and fL respectively",
+            "reference_range": "PCV: High(40-50), MCV: Normal (83 - 101)"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Mean Corpuscular Hemoglobin (MCH): 27.2, Mean Corpuscular Hemoglobin Concentration(MCHC): 32.8",
+            "unit_of_measurement": "pg and g/dL respectively",
+            "reference_range": "MCH: Normal (27 - 32), MCHC: Low(32.5-34.5)"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red Cell Distribution Width(RDW): 13.6",
+            "unit_of_measurement": "%",
+            "reference_range": "RDW: Normal (11.6 - 14)"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "White Blood Cell(WBC) count : 9000, Platelet Count: 150000",
+            "unit_of_measurement": "cumm and cumm respectively",
+            "reference_range": "WBC: Normal (4000-11000), Platelets:Normal(150000 - 410000)"
+        }
+    ]
+}

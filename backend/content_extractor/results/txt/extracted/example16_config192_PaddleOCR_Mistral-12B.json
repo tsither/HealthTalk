@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "RBC": 4680000,
+                "HGB": 13.6,
+                "HCT": 42.5,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "PLT": 27.2
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/µL",
+                "RBC": "cells/mCL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "PLT": "cells/µL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0 cells/µL",
+                "RBC": "4.6 - 6.2 million cells/mCL",
+                "HGB": "13.0 - 17.0 g/dL",
+                "HCT": "32.5 - 40.5 %",
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "PLT": "150000 - 450000 cells/µL"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 18.0 g/dL"
+        }
+    ]
+}

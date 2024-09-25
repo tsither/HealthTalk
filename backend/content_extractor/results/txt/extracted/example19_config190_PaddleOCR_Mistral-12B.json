@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC": 87.75,
+                "Neutrophils": 57.5,
+                "Lymphocytes": 27.2,
+                "Monocytes": 13.6
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Total WBC": "4.0 - 11.0",
+                "Neutrophils": "50 - 70%",
+                "Lymphocytes": "20 - 40%",
+                "Monocytes": "2 - 8%"
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

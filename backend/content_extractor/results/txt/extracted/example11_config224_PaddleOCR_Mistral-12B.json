@@ -1,0 +1,94 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "status": "Low",
+                    "reference_range": "13.0-17.0"
+                },
+                "RBC COUNT": {
+                    "value": 5.2,
+                    "reference_range": "4.5-5.5 mill/cumm"
+                },
+                "BLOOD INDICES": {
+                    "PACKED CELL VOLUME (PCV)": {
+                        "value": 57.5,
+                        "status": "High",
+                        "reference_range": "40-50 %"
+                    },
+                    "MEAN CORPUSCULAR VOLUME (MCV)": {
+                        "value": 87.75,
+                        "reference_range": "83 -101"
+                    },
+                    "MCH": {
+                        "value": 27.2,
+                        "reference_range": "27.32 pg"
+                    },
+                    "MCHC": {
+                        "value": 32.8,
+                        "reference_range": "32.5-34.5 g/dL."
+                    }
+                },
+                "WBC COUNT": {
+                    "value": 13.6,
+                    "status": null,
+                    "reference_range": "11.6-14.0"
+                },
+                "DIFFERENTIAl WBC COUnt": {
+                    "Neutrophils": {
+                        "value": 60,
+                        "status": null,
+                        "reference_range": "50-62%"
+                    },
+                    "Lymphocytes": {
+                        "value": 31,
+                        "status": null,
+                        "reference_range": "20 -40%"
+                    },
+                    "Fosinophils": {
+                        "value": 1,
+                        "status": null,
+                        "reference_range": "0-6%"
+                    },
+                    "Monocyies": {
+                        "value": 7,
+                        "status": null,
+                        "reference_range": "0-10%"
+                    },
+                    "Basophils": {
+                        "value": 1,
+                        "status": null,
+                        "reference_range": "0-2%"
+                    }
+                },
+                "PLateLet count": {
+                    "value": 150000,
+                    "status": "Borderline",
+                    "reference_range": "150000 :410000 cumm"
+                }
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL.",
+                "RBC COUNT": "mill/cumm",
+                "BLOOD INDICES": {
+                    "PACKED CELL VOLUME (PCV)": "%",
+                    "MEAN CORPUSCULAR VOLUME (MCV)": "fl.",
+                    "MCH": "pg",
+                    "MCHC": "g/dL."
+                },
+                "WBC COUNT": "I.I cumm",
+                "DIFFERENTIAl WBC COUnt": "%",
+                "PLateLet count": "cumm"
+            }
+        }
+    ]
+}

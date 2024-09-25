@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.0XXX",
+    "patient_information": {
+        "patient_id": "0001",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 43
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 0.123456789,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (MCV) count",
+            "result_value": 13.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "202X-01-23",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 52
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "50000",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "83",
+            "unit_of_measurement": "fl",
+            "reference_range": "[105 - 11.6] / 9-27"
+        }
+    ]
+}

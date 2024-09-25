@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 110,
+            "unit_of_measurement": "/μL",
+            "reference_range": "5.4 - 6.4"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 3251,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 4,
+            "unit_of_measurement": "/μL",
+            "reference_range": "4.0 - 10.0"
+        }
+    ]
+}

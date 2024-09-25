@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "A",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "MCV",
+            "result_value": 27.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 18.6,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 10.7,
+            "unit_of_measurement": null,
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 0.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

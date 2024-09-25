@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count",
+            "result_value": null,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "Normal range depends on specific laboratory standards"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC)",
+            "result_value": "5.2",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14.2 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "Female: 11.5-15.0 g/dL, Male: 13.5-17.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "75 fL",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "510 x 10^3/µL",
+            "unit_of_measurement": "",
+            "reference_range": "Normal range depends on specific laboratory standards"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Payal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (White Blood Cells)",
+            "result_value": 410000,
+            "unit_of_measurement": "per mm³",
+            "reference_range": "[150000 - 410000]"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[3.45] 7P/6"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[130 - 1200] /μL"
+        }
+    ]
+}

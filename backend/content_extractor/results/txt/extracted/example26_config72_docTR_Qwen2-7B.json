@@ -1,0 +1,25 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Serie Roja",
+            "result_value": "4.75 101 flpt",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "hemoglobin": "12.0 - 16",
+                "mch": "36.0 - 47.0",
+                "mchc": "80.0 - 98.0",
+                "rbc": "27.0",
+                "hct": "32.0",
+                "mcv": "32.0 - 360",
+                "rdw-cvd": "11.5 - 15.0"
+            }
+        }
+    ]
+}

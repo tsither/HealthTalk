@@ -1,0 +1,23 @@
+{
+    "Date": "12/04/2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HCT",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6200,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

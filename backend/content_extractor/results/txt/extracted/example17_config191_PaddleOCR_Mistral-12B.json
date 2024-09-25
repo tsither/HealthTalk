@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C492252160",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 87.75,
+                "Red Blood Cells": 32.8,
+                "Hemoglobin": 13.6,
+                "Platelets": 57.5
+            },
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": {
+                "White Blood Cells": "4.5-11.0",
+                "Red Blood Cells": "32.5-34.5",
+                "Hemoglobin": "11.6-14.0",
+                "Platelets": "13.0-17.0"
+            }
+        }
+    ]
+}

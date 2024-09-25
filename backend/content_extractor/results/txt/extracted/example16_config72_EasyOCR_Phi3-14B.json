@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "10b",
+        "patient_name": "Shah",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 555,
+            "unit_of_measurement": null,
+            "reference_range": "low"
+        },
+        {
+            "test_name": "Oxygen Saturation",
+            "result_value": 32,
+            "unit_of_measurement": "%",
+            "reference_range": "80-100%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 150000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4500-11000/microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 83,
+            "unit_of_measurement": "/picolliter",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "04 03 11",
+    "patient_information": {
+        "patient_id": "PATID : 555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "ATLT Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count Report",
+            "result_value": "12.5",
+            "unit_of_measurement": "m/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "83-101",
+            "unit_of_measurement": "%",
+            "reference_range": "[52 Low]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "130-170",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "272",
+            "unit_of_measurement": "mlicumm",
+            "reference_range": "[40-50]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "32.8",
+            "unit_of_measurement": "/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Granulocyte Count",
+            "result_value": "11.6",
+            "unit_of_measurement": "/dL",
+            "reference_range": "[14.0]"
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": "31",
+            "unit_of_measurement": "/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "20-607",
+            "unit_of_measurement": "Count",
+            "reference_range": "[00-06]"
+        }
+    ]
+}

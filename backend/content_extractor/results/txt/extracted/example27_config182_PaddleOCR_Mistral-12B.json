@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "RBC": 4.1,
+                "HCT": 32.7,
+                "MCV": 98.0,
+                "MCH": 33.4
+            },
+            "unit_of_measurement": {
+                "RBC": "10^6/μL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biochemica Sérica",
+            "result_value": {
+                "GLUCOSE": 97,
+                "CREATININE": 0.739
+            },
+            "unit_of_measurement": {
+                "GLUCOSE": "mg/dL",
+                "CREATININE": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas Enzimaticas",
+            "result_value": {
+                "AST": 143,
+                "ALT": 45
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "WBC": 14.0,
+                "NEUTROPHILS": 75.0,
+                "LYMPHOCYTES": 21.0
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/μL",
+                "NEUTROPHILS": "%",
+                "LYMPHOCYTES": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolitos",
+            "result_value": {
+                "CHLORIDE": 102,
+                "POTASIUM": 4.5
+            },
+            "unit_of_measurement": {
+                "CHLORIDE": "mEq/L",
+                "POTASIUM": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

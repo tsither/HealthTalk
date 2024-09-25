@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Sedimentacion",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometria Seraica",
+            "result_value": {
+                "VLDL": null,
+                "LDL": null,
+                "HDL": null,
+                "Trigliceridos": null,
+                "Colesterol Total": null
+            },
+            "unit_of_measurement": {
+                "VLDL": null,
+                "LDL": null,
+                "HDL": null,
+                "Trigliceridos": null,
+                "Colesterol Total": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas Enzimaticas",
+            "result_value": {
+                "GOT": "40 hasta 40 U/I",
+                "GPT": "MU/I"
+            },
+            "unit_of_measurement": {
+                "GOT": null,
+                "GPT": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodio",
+            "result_value": "141 135 148 mEq/L",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Cloro",
+            "result_value": "98 98 - 110 mEq/L",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Potasio",
+            "result_value": "4,02 1 . 37 -S.4 mEq/L",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "-",
+            "reference_range": "410000"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "9.2",
+            "unit_of_measurement": "G/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

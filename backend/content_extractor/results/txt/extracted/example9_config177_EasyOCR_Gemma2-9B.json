@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red blood cells (RBC): 4.5 million/µL",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0-5.5 million/µL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "White blood cells (WBC): 7,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4,500-11,000/µL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Platelets: 250,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-450,000/µL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "14.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL for males, 12.0-15.5 g/dL for females"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "42.0%",
+            "unit_of_measurement": "%",
+            "reference_range": "40%-54%"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": "80 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        }
+    ]
+}

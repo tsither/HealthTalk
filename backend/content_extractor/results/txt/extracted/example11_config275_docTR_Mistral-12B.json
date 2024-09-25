@@ -1,0 +1,44 @@
+{
+    "Date": "15/03/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 7.2,
+                "Red Blood Cells": 5.1,
+                "Hemoglobin": 14.5,
+                "Platelets": 230
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cells/µL",
+                "Red Blood Cells": "cells/fL",
+                "Hemoglobin": "g/dL",
+                "Platelets": "cells/µL"
+            },
+            "reference_range": {
+                "White Blood Cells": {
+                    "min": 4.5,
+                    "max": 10.8
+                },
+                "Red Blood Cells": {
+                    "min": 4.3,
+                    "max": 6.2
+                },
+                "Hemoglobin": {
+                    "min": 12.1,
+                    "max": 17.3
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        }
+    ]
+}

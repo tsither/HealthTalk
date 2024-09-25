@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Laboratory Patient",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low 13.0-17.e"
+        },
+        {
+            "test_name": "RBC COUNT (Red Blood Cells)",
+            "result_value": "5.2",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "High 40-50"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "9000",
+            "unit_of_measurement": "DIFF.",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "31",
+            "unit_of_measurement": "% cumm",
+            "reference_range": "Low 0.0-0.6"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "7",
+            "unit_of_measurement": "% cumm",
+            "reference_range": "Low 0.0-0.2"
+        }
+    ]
+}

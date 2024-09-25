@@ -1,0 +1,114 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HB": 145,
+                "HCM": 32.7,
+                "VCM": 96,
+                "HCT": 0.4,
+                "LEU": 8360
+            },
+            "unit_of_measurement": {
+                "HB": "g/dl",
+                "HCM": "%",
+                "VCM": "fl",
+                "HCT": "",
+                "LEU": "/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Formula leucocitaria",
+            "result_value": {
+                "NEUT": 336,
+                "LYMPH": 275,
+                "MONO": 12,
+                "EOSIN": 24
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometría hemática completa",
+            "result_value": {
+                "PLT": 314700
+            },
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas iso y gotas",
+            "result_value": {
+                "BILIRUBINA TOTAL": 0.8,
+                "BILIRUBINA DIRECTA": 0.1
+            },
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas hepáticas y enzimas",
+            "result_value": {
+                "GPT": 739,
+                "GOT": 546
+            },
+            "unit_of_measurement": "U/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucemia en ayunas",
+            "result_value": {
+                "GLUCOSA": 108
+            },
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HB": 145,
+                "HCM": 32.7,
+                "VCM": 96,
+                "HCT": 0.4
+            },
+            "unit_of_measurement": {
+                "HB": "g/dl",
+                "HCM": "%",
+                "VCM": "fl",
+                "HCT": ""
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "SODIO": 140,
+                "POTASIO": 4.2,
+                "CLORO": 101,
+                "UREA": 37
+            },
+            "unit_of_measurement": {
+                "SODIO": "meq/l",
+                "POTASIO": "meq/l",
+                "CLORO": "meq/l",
+                "UREA": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucemia en ayunas",
+            "result_value": {
+                "GLUCOSA": 108
+            },
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 5.8,
+            "unit_of_measurement": "%",
+            "reference_range": "3.7 to 6.0"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": [
+                {
+                    "name": "Total Cholesterol",
+                    "value": 192,
+                    "unit": "mg/dL"
+                },
+                {
+                    "name": "HDL Cholesterol",
+                    "value": 45,
+                    "unit": "mg/dL"
+                },
+                {
+                    "name": "LDL Cholesterol",
+                    "value": 90,
+                    "unit": "mg/dL"
+                },
+                {
+                    "name": "Triglycerides",
+                    "value": 125,
+                    "unit": "mg/dL"
+                }
+            ],
+            "reference_range": {
+                "Total Cholesterol": "200 to 239 mg/dL",
+                "HDL Cholesterol": ">40 mg/dL",
+                "LDL Cholesterol": "100 to 130 mg/dL",
+                "Triglycerides": "less than 150 mg/dL"
+            }
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6 to 1.2 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091231s675",
+        "patient_name": "driogypathlabdrogicom andlogycom",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC": {
+                    "total_count": "12500"
+                },
+                "RBC": {
+                    "count": "4.75",
+                    "hemoglobin": "136",
+                    "hct": "38.9"
+                },
+                "Platelet": {
+                    "count": "325000"
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": {
+                    "count": "10^6/µL",
+                    "hemoglobin": "g/dL",
+                    "hct": "%"
+                },
+                "Platelet": "10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

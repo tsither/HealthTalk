@@ -1,0 +1,29 @@
+{
+    "Date": "20XX-05-30",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 15.6,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "3.1-9.9"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4075,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        }
+    ]
+}

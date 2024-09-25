@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT Total",
+            "result_value": 4.52,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 87.75,
+            "unit_of_measurement": "thou/cumm",
+            "reference_range": "4.5 - 10.1"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 60,
+            "unit_of_measurement": "thou/cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

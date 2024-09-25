@@ -1,0 +1,67 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Bungalow S G Road",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "rbc_count_total": {
+                    "value": 5.2455,
+                    "unit": "millicumm count"
+                },
+                "packed_cell_volume_pcv": {
+                    "value": 57.5,
+                    "status": "high",
+                    "range": "40-50"
+                },
+                "mean_corpuscular_volume_mcv": {
+                    "value": 87.75,
+                    "range": "83-101 fl"
+                },
+                "mean_corpuscular_hemoglobin_mch": {
+                    "value": 27.2,
+                    "range": "27.1-32 pg"
+                },
+                "mean_corpuscular_hemoglobin_concentration_mchc": {
+                    "value": 82.8,
+                    "range": "32-51 g/dL"
+                },
+                "red_blood_cell_distribution_width_rdw": {
+                    "value": 13.6,
+                    "range": "14-16%"
+                },
+                "total_wbc_count": {
+                    "value": 9000,
+                    "unit": "cumm"
+                }
+            },
+            "reference_range": {
+                "hemoglobin": "13.0-17.0 g/dL",
+                "rbc_count_total": "4.5-5.5 millicumm count",
+                "packed_cell_volume_pcv": "40-50%",
+                "mean_corpuscular_volume_mcv": "83-101 fl",
+                "mean_corpuscular_hemoglobin_mch": "27.1-32 pg",
+                "mean_corpuscular_hemoglobin_concentration_mchc": "32-51 g/dL",
+                "red_blood_cell_distribution_width_rdw": "14-16%",
+                "total_wbc_count": "4000-11000 cumm"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 150000,
+                "status": "borderline",
+                "range": "150000-410000 cumm"
+            }
+        }
+    ]
+}

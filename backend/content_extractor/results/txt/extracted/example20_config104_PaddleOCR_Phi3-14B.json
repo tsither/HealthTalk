@@ -1,0 +1,40 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": "56789",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": [
+            null
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                16.6
+            ],
+            "unit_of_measurement": "[FILL]",
+            "reference_range": [
+                0,
+                45
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": [
+                13.0
+            ],
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_e value": [
+                280
+            ],
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

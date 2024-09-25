@@ -1,0 +1,44 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 87.75,
+                "Packed Cell Volume (PCV)": 32.8,
+                "MCHed": 9000,
+                "RDW": 60,
+                "Total WBC count": 31
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "%",
+                "Packed Cell Volume (PCV)": "cumm",
+                "MCHed": "",
+                "RDW": "%",
+                "Total WBC count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Total RBC count": "27- 32",
+                "Packed Cell Volume (PCV)": "11.6 - 14.0",
+                "MCHed": "",
+                "RDW": "50 - 62 %",
+                "Total WBC count": "00-10"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

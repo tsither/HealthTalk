@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as6769",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 32,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "140-180"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cell count (WBC)",
+            "result_value": 17000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

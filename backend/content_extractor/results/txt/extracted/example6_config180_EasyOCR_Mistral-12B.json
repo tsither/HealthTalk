@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "013a56761",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "rbc_count": {
+                    "value": 5.2,
+                    "unit": "million/µL"
+                },
+                "hct": {
+                    "value": 37.875
+                },
+                "mcv": {
+                    "value": 96.75,
+                    "unit": "fL"
+                },
+                "mch": {
+                    "value": 27.17
+                },
+                "mchc": {
+                    "value": 32.8
+                },
+                "rdw_cv": {
+                    "value": 13.6
+                },
+                "wbc_count": {
+                    "value": 18.1,
+                    "unit": "thousand/µL"
+                },
+                "neutrophils": {
+                    "value": 60,
+                    "percent": true
+                },
+                "lymphocytes": {
+                    "value": 35,
+                    "percent": true
+                },
+                "monocytes": {
+                    "value": 0,
+                    "percent": true
+                },
+                "basophils": {
+                    "value": 0,
+                    "percent": true
+                },
+                "platelet_count": {
+                    "value": 271
+                }
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "million/µL",
+                "hct": "%",
+                "mcv": "fL",
+                "mch": "pg",
+                "mchc": "g/dL",
+                "rdw_cv": "%",
+                "wbc_count": "thousand/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

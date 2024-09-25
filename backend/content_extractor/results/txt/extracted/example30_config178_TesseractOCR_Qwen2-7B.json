@@ -1,0 +1,67 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "DRLOGY PATHOLOGY LAB XK 0123656789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "121 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": "Hemoglobin 12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "5.2",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 μL",
+            "unit_of_measurement": "μL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.2 Sor",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "4000-11000 (722)",
+            "unit_of_measurement": "(um)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": [
+                {
+                    "Neutrophils": "60%",
+                    "Lymphocytes": "8%",
+                    "Eosinophils": "1%",
+                    "Monocytes": "7%",
+                    "Basophils": "1%"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

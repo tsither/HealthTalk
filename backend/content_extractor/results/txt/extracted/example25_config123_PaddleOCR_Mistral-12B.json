@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": "5.6",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "[4.0, 10.0]"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "12.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12.0, 16.0]"
+        }
+    ]
+}

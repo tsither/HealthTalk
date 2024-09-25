@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "D 689578",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Low Years": [
+                    "21",
+                    "4.5 - 5.5"
+                ],
+                "High cumm": [
+                    27,
+                    32
+                ],
+                "Type %": [
+                    50,
+                    60
+                ]
+            }
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 83,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Sample": [
+                    "11.6 - 14.0",
+                    "57.5 %"
+                ]
+            }
+        }
+    ]
+}

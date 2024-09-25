@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Varón",
+        "patient_sex": null,
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematies": 109,
+                "hemoglobina": 143,
+                "vcm": 89,
+                "hmc": 25,
+                "leucicitos": 6.1
+            },
+            "unit_of_measurement": {
+                "hematies": "fl",
+                "hemoglobina": "g/dl",
+                "vcm": "hm",
+                "hmc": "pg",
+                "leucicitos": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "bios 1": 24,
+                "bioq 1": 0.8
+            },
+            "unit_of_measurement": {
+                "bios 1": "%",
+                "bioq 1": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "glucosa": 65,
+                "creatina": 115,
+                "colesterol": 220,
+                "proteina": 60.5,
+                "hierro": 38,
+                "ferritina": 20
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dl",
+                "creatina": "mg/dl",
+                "colesterol": "mg/dl",
+                "proteina": "g/dl",
+                "hierro": "%",
+                "ferritina": "ng/ml"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina A1C",
+            "result_value": 4.15,
+            "unit_of_measurement": "ofo",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT/GGT/Bilirrubina",
+            "result_value": {
+                "got": 800,
+                "ggt": 100,
+                "bilirrubina_total": 2.8,
+                "bilirrubina_directa": 1.57
+            },
+            "unit_of_measurement": {
+                "got": "s",
+                "ggt": "s",
+                "bilirrubina_total": "mg/dl",
+                "bilirrubina_directa": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa alcalina/Albumina",
+            "result_value": {
+                "fosfatasa_alcalina": 150,
+                "albumina": 23.1
+            },
+            "unit_of_measurement": {
+                "fosfatasa_alcalina": "ufl",
+                "albumina": "g/dl"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 D",
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "RBC COUNT": {
+                    "total": {
+                        "value": 8000000,
+                        "unit": "/Omm^3"
+                    },
+                    "mean_corpuscular_volume": {
+                        "value": 87.75,
+                        "unit": "fl"
+                    },
+                    "mean_corpuscular_hemoglobin": {
+                        "value": 27.2,
+                        "unit": "pg"
+                    },
+                    "mean_corpuscular_hemoglobin_concentration": {
+                        "value": 32.8,
+                        "unit": "g/dL"
+                    }
+                },
+                "WBC COUNT": {
+                    "total": {
+                        "value": 9000,
+                        "unit": "/Omm^3"
+                    }
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "RBC COUNT": {
+                    "total": {
+                        "low": 4000000,
+                        "high": 6000000
+                    },
+                    "mean_corpuscular_volume": {
+                        "low": 83.1,
+                        "high": 97.5
+                    },
+                    "mean_corpuscular_hemoglobin": {
+                        "low": 27.32,
+                        "high": 32.5
+                    },
+                    "mean_corpuscular_hemoglobin_concentration": {
+                        "low": 30.5,
+                        "high": 36.5
+                    }
+                },
+                "WBC COUNT": {
+                    "low": 4000,
+                    "high": 10000
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 150000,
+                "unit": "/Omm^3"
+            },
+            "reference_range": {
+                "low": 150000,
+                "high": 810000
+            }
+        }
+    ]
+}

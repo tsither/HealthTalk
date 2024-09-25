@@ -1,0 +1,41 @@
+{
+    "Date": "not available",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "55.457 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "125-175 mg/dL"
+        },
+        {
+            "test_name": "rbc total count",
+            "result_value": "50.1*10^6 /μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "430-525*10^6 /μL"
+        },
+        {
+            "test_name": "mcv",
+            "result_value": "817.5 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "75-95 pg"
+        },
+        {
+            "test_name": "mch",
+            "result_value": "27.3 ng",
+            "unit_of_measurement": "ng",
+            "reference_range": "24-31 ng"
+        },
+        {
+            "test_name": "rdw",
+            "result_value": "90%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        }
+    ]
+}

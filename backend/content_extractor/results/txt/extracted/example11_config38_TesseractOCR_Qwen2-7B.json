@@ -1,0 +1,23 @@
+{
+    "Date": "12/04/23",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit, RBC",
+            "result_value": "45%",
+            "unit_of_measurement": "%",
+            "reference_range": "37-50%"
+        },
+        {
+            "test_name": "Lipid panel",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "16 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelets",
+            "result_value": "855",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "100-400 thousand/µL"
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "755",
+            "unit_of_measurement": null,
+            "reference_range": "75-1350"
+        }
+    ]
+}

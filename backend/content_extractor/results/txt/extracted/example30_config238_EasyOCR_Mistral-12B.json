@@ -1,0 +1,29 @@
+{
+    "Date": "2021-10-12",
+    "patient_information": {
+        "patient_id": "122456769",
+        "patient_name": "Mumsa Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.56,
+            "unit_of_measurement": "million cells/mm³",
+            "reference_range": "4.4-6.0"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 201,
+            "unit_of_measurement": "thousand cells/µL",
+            "reference_range": "150-350"
+        }
+    ]
+}

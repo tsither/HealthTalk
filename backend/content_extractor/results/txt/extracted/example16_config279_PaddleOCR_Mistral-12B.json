@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.5,
+                "HGB": 13.6,
+                "PLT": 270
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.0 - 6.0",
+                "HGB": "13.0 - 17.0",
+                "PLT": "150 - 400"
+            }
+        },
+        {
+            "test_name": "Lymphocyte Percentage (LYM%)",
+            "result_value": 27,
+            "unit_of_measurement": "%",
+            "reference_range": "27 - 36%"
+        },
+        {
+            "test_name": "Monocyte Percentage (MON%)",
+            "result_value": 8.5,
+            "unit_of_measurement": "%",
+            "reference_range": "2 - 10%"
+        },
+        {
+            "test_name": "Eosinophil Percentage (EOS%)",
+            "result_value": 3.2,
+            "unit_of_measurement": "%",
+            "reference_range": "1 - 4%"
+        }
+    ]
+}

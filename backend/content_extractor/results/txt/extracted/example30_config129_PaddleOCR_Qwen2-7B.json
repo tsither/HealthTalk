@@ -1,0 +1,77 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "X",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "35 - 40"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.0,
+            "unit_of_measurement": "-",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 87.75,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "7 - 10"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 6,
+            "unit_of_measurement": "%",
+            "reference_range": "27 - 32"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "0 - 1.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 60,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": "110 - 245"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "a5678",
+        "patient_name": "Patel N Vears",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": 3.2,
+            "unit_of_measurement": "1000/mm3",
+            "reference_range": "[4-11]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC)",
+            "result_value": 5.55,
+            "unit_of_measurement": "10^6/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 270,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "[140-400]"
+        }
+    ]
+}

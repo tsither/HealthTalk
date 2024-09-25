@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 5.8,
+                "RBC": 4.7,
+                "HGB": 13.6,
+                "PLT": 290
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "PLT": "10^3/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serum Electrolytes",
+            "result_value": {
+                "Na+": 140,
+                "K+": 4.2,
+                "Cl-": 105
+            },
+            "unit_of_measurement": {
+                "Na+": "mmol/L",
+                "K+": "mmol/L",
+                "Cl-": "mmol/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobin": 4.75,
+                "hématocrito": 12.0,
+                "V.C.M.": 30.0,
+                "H.CM.": 83.1
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dl",
+                "hématocrito": "%",
+                "V.C.M.": "fl",
+                "H.CM.": "fl"
+            },
+            "reference_range": {
+                "hemoglobin": [
+                    4.0,
+                    5.5
+                ],
+                "hématocrito": [
+                    18.0,
+                    279
+                ],
+                "V.C.M.": [
+                    17.0,
+                    83.1
+                ]
+            }
+        },
+        {
+            "test_name": "Sieroplasmático",
+            "result_value": {
+                "plaquetas": 208,
+                "V.P.M.": 400
+            },
+            "unit_of_measurement": {
+                "plaquetas": "10E3/UL",
+                "V.P.M.": "%"
+            },
+            "reference_range": {
+                "plaquetas": [
+                    140,
+                    400
+                ],
+                "V.P.M.": [
+                    9.1,
+                    7.5
+                ]
+            }
+        },
+        {
+            "test_name": "Derivados de la-blanca",
+            "result_value": {
+                "leucocitos": 4.2,
+                "Neu": 2.1,
+                "Lin": 1.5,
+                "Mon": 0.5,
+                "Eos": 2.8
+            },
+            "unit_of_measurement": {
+                "leucocitos": "10E3/L",
+                "Neu": "10E3/uL",
+                "Lin": "10E3/UL",
+                "Mon": "10E3/UL",
+                "Eos": "%"
+            },
+            "reference_range": {
+                "leucocitos": [
+                    4.0,
+                    10
+                ],
+                "Neu": [
+                    49.8,
+                    73
+                ],
+                "Lin": [
+                    16.0,
+                    46
+                ],
+                "Mon": [
+                    2.0,
+                    12
+                ],
+                "Eos": [
+                    0.0,
+                    5
+                ]
+            }
+        }
+    ]
+}

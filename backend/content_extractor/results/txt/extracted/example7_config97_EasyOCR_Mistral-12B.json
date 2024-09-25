@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "5.55",
+            "unit_of_measurement": "10^6/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB concentration",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT ratio",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

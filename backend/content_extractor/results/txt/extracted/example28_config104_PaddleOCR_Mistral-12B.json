@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon de 60 anos",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "14.3 g/l",
+                "Leucicitos": "89 fI",
+                "CPT": "29 pg"
+            },
+            "unit_of_measurement": {
+                "Hematies": "g/l",
+                "Leucicitos": "fI",
+                "CPT": "pg"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": "109 /l",
+            "unit_of_measurement": "/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": "0.8 mg/dl",
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "0.2 - 1"
+        },
+        {
+            "test_name": "Bilirrubina directa (Esterificada)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

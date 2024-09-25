@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 309700,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_amename": "Basophils",
+            "result_value": 4.5,
+            "unit_of_measurement": "% of Total WBCs",
+            "reference_range": "0.5 - 1"
+        },
+        {
+            "test_name": "ZLZ count",
+            "result_value": null,
+            "unit_of_measurement": "Nventr",
+            "reference_range": null
+        }
+    ]
+}

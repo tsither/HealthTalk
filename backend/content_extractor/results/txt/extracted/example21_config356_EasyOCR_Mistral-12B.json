@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 5.0,
+                "RBC": 4.5,
+                "HGB": 12.0,
+                "PLT": 250,
+                "NEU": 38,
+                "LYM": 55,
+                "MONO": 7
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 10.5",
+                "RBC": "4.4 - 6.2",
+                "HGB": "13.5 - 17.5",
+                "PLT": "150 - 400",
+                "NEU": "40 - 70",
+                "LYM": "20 - 45",
+                "MONO": "2 - 8"
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Glucose": 95,
+                "Total Protein": 7.5,
+                "Albumin": 3.5,
+                "BUN": 15,
+                "Creatinine": 0.8
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL"
+            },
+            "reference_range": {
+                "Glucose": "70 - 99",
+                "Total Protein": "6.4 - 8.3",
+                "Albumin": "3.5 - 5.2",
+                "BUN": "6 - 20",
+                "Creatinine": "0.6 - 1.2"
+            }
+        }
+    ]
+}

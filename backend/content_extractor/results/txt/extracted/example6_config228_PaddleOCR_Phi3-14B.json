@@ -1,0 +1,61 @@
+{
+    "Date": "02 Dec.",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_n ame": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "12.5",
+                "Total RBC count": "5.2.",
+                "Packed Cell Volume (PCV)": "7.5 High 40.50 % ",
+                "Mean Corpuscular Volume (MCv)": "87.75",
+                "Mean Corpuscular Hemoglobin (MCH)": "27.2",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32.8 32.5- 34.5 g/dL ",
+                "White Blood Cell (WBC) Count Total": "9000 L'!'",
+                "Platelet Count": "150000 Borderline"
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "",
+                "Total RBC count": "mill/cumm ",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCv)": "",
+                "Mean Corpuscular Hemoglobin (MCH)": "",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL ",
+                "White Blood Cell (WBC) Count Total": "cumm",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "13.0 7p/6",
+                "Total RBC count": "4.5.5.5",
+                "Packed Cell Volume (PCV)": "null 40.50 % ",
+                "Mean Corpuscular Volume (MCv)": "83 : 101",
+                "Mean Corpuscular Hemoglobin (MCH)": "",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "null 32.5- 34.5 g/dL ",
+                "White Blood Cell (WBC) Count Total": "4000.1.1000 cumm",
+                "Platelet Count": "150000 Borderline"
+            }
+        },
+        {
+            "test_n ame": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "60 '50 : 67% ",
+                "Lymphocytes": "31 '20.40",
+                "Fosinophils": "1 '00 : 06%",
+                "Monocytes": "7 '00 : 10%",
+                "Basophils": "1 '00 . 02%"
+            },
+            "unit_of_measurement": {
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Fosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%"
+            }
+        }
+    ]
+}

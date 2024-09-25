@@ -1,0 +1,43 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0912345678 - 689578",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "13.0 g/dL",
+                "Hematocrit (HCT)": "45.7%",
+                "Red Blood Cell Count": "5.2 million/μL",
+                "Mean Corpuscular Volume (MCV)": "90 fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "30 pg",
+                "White Blood Cell Count": "6800 /μL",
+                "Neutrophils": "57%",
+                "Lymphocytes": "32.5%",
+                "Monocytes": "<15%",
+                "Eosinophils": "1.6%",
+                "Basophils": "<1%",
+                "Platelet Count": "300 x 10^9/L"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit (HCT)": "%",
+                "Red Blood Cell Count": "million/μL",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "White Blood Cell Count": "/μL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelet Count": "x 10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

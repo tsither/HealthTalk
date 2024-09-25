@@ -1,0 +1,87 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "hipotetico caso",
+        "patient_sex": "varon",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemograma",
+            "result_value": {
+                "hematies": "109 l",
+                "hemoglobina": "143 gll",
+                "hcm": "89 hm",
+                "mpc": "29 pg",
+                "leucicitos": "102x 106/uL",
+                "neutrofilos": "64%",
+                "linfocitos": "25%",
+                "monocitos": "7%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "bioguimica basica",
+            "result_value": {
+                "glucosa": "650 mg/dl (450-800)",
+                "creatinina": "1.5 mg/dl (0.7-1.4)",
+                "colesterol": "124 mg/dl (<200)",
+                "proteina total": "8 g/dl (6.0-8.3)",
+                "ferro": "55 µg/dl (65-135)",
+                "ferritina": "20 ng/ml (10-120)",
+                "hemoglobina alcalina": "45%"
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dl",
+                "creatinina": "mg/dl",
+                "colesterol": "mg/dl",
+                "proteina total": "g/dl",
+                "ferro": "µg/dl",
+                "ferritina": "ng/ml",
+                "hemoglobina alcalina": "%"
+            },
+            "reference_range": {
+                "glucosa": "(450-800)",
+                "creatinina": "(0.7-1.4)",
+                "colesterol": "<200",
+                "proteina total": "(6.0-8.3)",
+                "ferro": "(65-135)",
+                "ferritina": "(10-120)"
+            }
+        },
+        {
+            "test_name": "transaminasas y bilirrubinas",
+            "result_value": {
+                "got": "80 U/l (5-32)",
+                "gpt": "800 U/l (7-53)",
+                "ggt": "100 U/l (10-46)",
+                "bilirrubina total": "2.1 mg/dl (0.1-1)",
+                "bilirrubina directa": "1.5 mg/dl (0.1-0.4)"
+            },
+            "unit_of_measurement": {
+                "got": "U/l",
+                "gpt": "U/l",
+                "ggt": "U/l",
+                "bilirrubina total": "mg/dl",
+                "bilirrubina directa": "mg/dl"
+            },
+            "reference_range": {
+                "got": "(5-32)",
+                "gpt": "(7-53)",
+                "ggt": "(10-46)",
+                "bilirrubina total": "(0.1-1)",
+                "bilirrubina directa": "(0.1-0.4)"
+            }
+        },
+        {
+            "test_name": "albumina",
+            "result_value": {
+                "albumina": "3.4 g/dl (3.5-5.2)"
+            },
+            "unit_of_measurement": "g/dl",
+            "reference_range": "(3.5-5.2)"
+        }
+    ]
+}

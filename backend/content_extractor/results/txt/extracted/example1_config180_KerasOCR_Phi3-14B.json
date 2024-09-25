@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 125 g/dL",
+                "RBC count: 5.2 million cells/mcL",
+                "MCV: 87 fL",
+                "MCH: 30 pg"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Hemoglon: 130-170 g/dL",
+                "RBC count: 4.5-5.9 million cells/mcL",
+                "MCV: 80-100 fL",
+                "MCH: 27-33 pg"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                "Neutrophils: 60%",
+                "Lymphocytes: 31%",
+                "Eosinophils: 0.2%",
+                "Monocytes: 0.8%",
+                "Basophils: 0.1%"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Neutrophils: 40-60%",
+                "Lymphocytes: 20-40%",
+                "Eosinophils: 1-4%",
+                "Monocytes: 3-8%",
+                "Basophils: 0.5-1%"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "Platelets: 260,000/mcL"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Platelets: 150-450,000/mcL"
+            ]
+        }
+    ]
+}

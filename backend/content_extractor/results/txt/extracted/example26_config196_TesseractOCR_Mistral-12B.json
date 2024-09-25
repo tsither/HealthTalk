@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "AL",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HOMOTOS",
+            "result_value": 43.3,
+            "unit_of_measurement": "%",
+            "reference_range": "<50%"
+        },
+        {
+            "test_name": "HOMOGLOBINA",
+            "result_value": 12.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLAQUETAS",
+            "result_value": 208,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-400"
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 7.98,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": null
+        }
+    ]
+}

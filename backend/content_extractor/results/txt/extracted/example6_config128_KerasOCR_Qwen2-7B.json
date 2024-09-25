@@ -1,0 +1,42 @@
+{
+    "Date": "02/11/202X",
+    "patient_information": {
+        "patient_id": "T 0123456789",
+        "patient_name": "Patel Ma",
+        "patient_sex": "male",
+        "patient_age": "21 years",
+        "patient_address": "heal thcare road, opposite drlogypathlabadrlogy"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "5.63",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.5-5.7"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4-6 million/uL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "39.2% or 170 indices",
+            "unit_of_measurement": "% or indices",
+            "reference_range": "38%-51% or 35%-45 indices"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "78-102 fL"
+        }
+    ]
+}

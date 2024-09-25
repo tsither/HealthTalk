@@ -1,0 +1,23 @@
+{
+    "Date": "10.03.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 7.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.8 - 9.2"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 4500,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "3700 - 10800"
+        }
+    ]
+}

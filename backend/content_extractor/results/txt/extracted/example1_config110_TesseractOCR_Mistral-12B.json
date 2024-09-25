@@ -1,0 +1,149 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2,
+                    "unit": "mill/cumm"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": 57.5,
+                    "unit": "%"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit": "fL"
+                },
+                {
+                    "name": "Calculated MCH",
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                {
+                    "name": "Calculated HCT",
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                {
+                    "name": "Calculated RDW",
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                {
+                    "name": "Total WBC count",
+                    "value": 9000,
+                    "unit": "cumm"
+                }
+            ],
+            "reference_range": {
+                "Hemoglobin (Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "Total RBC count": [
+                    4.5,
+                    5.5
+                ],
+                "Packed Cell Volume (PCV)": [
+                    40,
+                    50
+                ],
+                "Mean Corpuscular Volume (MCV)": [
+                    83,
+                    101
+                ],
+                "Calculated MCH": [
+                    27,
+                    32
+                ],
+                "Calculated HCT": [
+                    32.5,
+                    34.5
+                ],
+                "Calculated RDW": [
+                    11.6,
+                    14.0
+                ],
+                "Total WBC count": [
+                    4000,
+                    11000
+                ]
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "name": "Neutrophils",
+                    "value": 60,
+                    "unit": "%"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": 31,
+                    "unit": "%"
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": 1,
+                    "unit": "%"
+                },
+                {
+                    "name": "Monocytes",
+                    "value": 7,
+                    "unit": "%"
+                },
+                {
+                    "name": "Basophils",
+                    "value": 1,
+                    "unit": "%"
+                }
+            ],
+            "reference_range": {
+                "Neutrophils": [
+                    50,
+                    62
+                ],
+                "Lymphocytes": [
+                    20,
+                    40
+                ],
+                "Eosinophils": [
+                    0,
+                    6
+                ],
+                "Monocytes": [
+                    0,
+                    10
+                ],
+                "Basophils": [
+                    0,
+                    2
+                ]
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 150000,
+                "unit": "cumm"
+            }
+        }
+    ]
+}

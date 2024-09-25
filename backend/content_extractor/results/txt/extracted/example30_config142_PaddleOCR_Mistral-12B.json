@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 5.2,
+                "Total RBC count": 57.5,
+                "Packed Cell Volume (PCV)": 87.75,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": 32.8,
+                "Red Blood Cell Distribution Width (RDW)": 9000,
+                "Total WBC count": 60,
+                "Neutrophils %": 37,
+                "Lymphocytes %": 1,
+                "Platelet Count": "Within normal range"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "%",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "%",
+                "Red Blood Cell Distribution Width (RDW)": "fL",
+                "Total WBC count": "cells/uL",
+                "Neutrophils %": "%",
+                "Lymphocytes %": "%",
+                "Platelet Count": "cells/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "40-50%",
+                "Packed Cell Volume (PCV)": "27-32%",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32.5 - 34.5 pg",
+                "Red Blood Cell Distribution Width (RDW)": "4000-11000 fL",
+                "Total WBC count": "50 - 62 cells/uL",
+                "Neutrophils %": "00 - 06%",
+                "Lymphocytes %": "00 - 10%",
+                "Platelet Count": "150000 - 410000 cells/uL"
+            }
+        }
+    ]
+}

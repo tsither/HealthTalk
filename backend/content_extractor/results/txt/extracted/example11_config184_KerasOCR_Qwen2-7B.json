@@ -1,0 +1,59 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin g/dL",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 1304,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 52.45755,
+            "unit_of_measurement": "10^6/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[83-101]fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[272-274]g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume Index (MCV-IC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[30-50]fl"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 116.1,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        }
+    ]
+}

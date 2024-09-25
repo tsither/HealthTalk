@@ -1,0 +1,77 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "XYZ123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "PLT": "K/uL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10.0
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 5.8
+                },
+                "HGB": {
+                    "min": 13.0,
+                    "max": 17.0
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Chem-20",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 15,
+                "CR": 0.8,
+                "TP": 7.2
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CR": "mg/dL",
+                "TP": "g/dL"
+            },
+            "reference_range": {
+                "GLU": {
+                    "min": 70,
+                    "max": 100
+                },
+                "BUN": {
+                    "min": 6.0,
+                    "max": 20.0
+                },
+                "CR": {
+                    "min": 0.5,
+                    "max": 1.0
+                },
+                "TP": {
+                    "min": 6.0,
+                    "max": 8.3
+                }
+            }
+        }
+    ]
+}

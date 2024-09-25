@@ -1,0 +1,46 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 6.56,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 13.7,
+                "Hematocrito": 42.0,
+                "V.C.M.": 99.0,
+                "C.H.C.M.": 32.9,
+                "Plaquetas": 230
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "C.H.C.M.": "%",
+                "Plaquetas": "10^9/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "PMM",
+            "result_value": {
+                "Neutrofilos": 52.0,
+                "Metocitos": 4.6,
+                "Eosinofilos": 1.8,
+                "Basófilos": 0.7
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

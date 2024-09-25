@@ -1,0 +1,101 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ROSINGEILOS CATALUS HEMUGEOLINA & | uae SEGMENTA “TOS min 3.270 ao LINFOCITOS PLAQUETAS (mm.",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": [
+                {
+                    "GLUCOSA": 87,
+                    "COLES FEROL": 169,
+                    "HDL": 60,
+                    "LDL": null,
+                    "TR CERIDOS": 45,
+                    "UREA": 19,
+                    "URICO": 45
+                }
+            ],
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLES FEROL": null,
+                "HDL": "mg/dL",
+                "LDL": null,
+                "TR CERIDOS": "mg/dL",
+                "UREA": "mg/dL",
+                "URICO": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "HOMOCISTEINA",
+            "result_value": 7.39,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PROTEINAST",
+            "result_value": 18,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": [
+                {
+                    "GOT": null,
+                    "GPT": null,
+                    "CR": null
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "CLORO": 98,
+                "POTASIO": 4.02,
+                "FOSFORESO": null,
+                "MAGNESIO": null,
+                "CALCIO": null
+            },
+            "unit_of_measurement": {
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L",
+                "FOSFORESO": null,
+                "MAGNESIO": null,
+                "CALCIO": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA | 2 | 0 | 5h",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": 77,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "1-110 mm/h"
+        }
+    ]
+}

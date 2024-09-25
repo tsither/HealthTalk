@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon de 60 años",
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": "14,3 g/dL",
+                "Hematies": "68N, 1B, 5E, 24L ,2M"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioguimica basica",
+            "result_value": {
+                "Glucosa": "109 /l",
+                "Creatinina": "6.8 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "/l",
+                "Creatinina": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Silirrubina total",
+            "result_value": {
+                "Silirrubina directa (Esterificada)": "0.4 mg/dL",
+                "Silirrubina total": "2.8 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Silirrubina directa (Esterificada)": "mg/dL",
+                "Silirrubina total": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro (I+)",
+            "result_value": "68 µg/dL",
+            "unit_of_measurement": "µg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Proteina C reactiva",
+            "result_value": "<0.5 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

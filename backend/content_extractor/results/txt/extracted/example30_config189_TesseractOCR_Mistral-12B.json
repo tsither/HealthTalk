@@ -1,0 +1,90 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 Okk Ref.",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "parameter": "HEMOGLOBIN",
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "parameter": "RBC COUNT",
+                    "value": 5.2,
+                    "unit": "mill/cumm",
+                    "reference_range": "4.5-5.5"
+                },
+                {
+                    "parameter": "BLOOD INDICES",
+                    "value": [
+                        {
+                            "PCV": 57.5,
+                            "reference_range": "40-50 %"
+                        },
+                        {
+                            "MCV": 87.75,
+                            "unit": "fL",
+                            "reference_range": "83-101"
+                        }
+                    ]
+                },
+                {
+                    "parameter": "MCHC",
+                    "value": 32.5,
+                    "unit": "g/dL",
+                    "reference_range": "32.5-34.5"
+                },
+                {
+                    "parameter": "RBC COUNT",
+                    "value": 11.6,
+                    "unit": "%",
+                    "reference_range": "11.6-14.0"
+                },
+                {
+                    "parameter": "WBC COUNT",
+                    "value": [
+                        {
+                            "Total": "JOE",
+                            "reference_range": "4.5-11.0"
+                        },
+                        {
+                            "NEUTROPHILS": 50,
+                            "reference_range": "50 = 62-65%"
+                        },
+                        {
+                            "LYMPHOCYTES": 31,
+                            "reference_range": "20-40 %"
+                        },
+                        {
+                            "EOSINOPHILS": 1,
+                            "reference_range": "1 - 6 %"
+                        },
+                        {
+                            "MONOCYTES": 7,
+                            "reference_range": "7 - 10 %"
+                        },
+                        {
+                            "BASOPHILS": 1,
+                            "reference_range": "1 - 2 %"
+                        }
+                    ]
+                },
+                {
+                    "parameter": "PLATELET COUNT",
+                    "value": 150000,
+                    "unit": "cumm",
+                    "reference_range": "150000 - 410000"
+                }
+            ],
+            "instrument": "Fully automated cell counter - Mindray 300"
+        }
+    ]
+}

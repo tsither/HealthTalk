@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "ISI0 stiga Instant",
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": "2 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hb": 125,
+                "PCV": 25,
+                "MCV": null,
+                "WBC": 3.6,
+                "RBC": 5.4,
+                "HCT": 105
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "PCV": "%",
+                "MCV": null,
+                "WBC": "cells/mm³",
+                "RBC": "million/mm³",
+                "HCT": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

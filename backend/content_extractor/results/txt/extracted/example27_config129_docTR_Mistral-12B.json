@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hora": "4.960,000",
+                "Eosinófilos": 86,
+                "Bastones": 27,
+                "Segmentados": 32,
+                "Linfocitos": 33,
+                "Monocitos": 37
+            },
+            "unit_of_measurement": {
+                "Eosinófilos": "%",
+                "Bastones": "%",
+                "Segmentados": "%",
+                "Linfocitos": "%",
+                "Monocitos": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biochemical Serum Test",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol Total": 169,
+                "HDL Cholesterol": 60,
+                "LDL Cholesterol": 100,
+                "Triglycerides": 45,
+                "Urea": 19,
+                "Iron": 145,
+                "Creatinine": 0.6
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol Total": "mg/dL",
+                "HDL Cholesterol": "mg/dL",
+                "LDL Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL",
+                "Urea": "mg/dL",
+                "Iron": "µg/dL",
+                "Creatinine": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionogram Serum",
+            "result_value": {
+                "Sodio": 141,
+                "Potasio": 98,
+                "Cloro": 4.02
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/L",
+                "Potasio": "mEq/L",
+                "Cloro": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

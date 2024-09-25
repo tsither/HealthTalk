@@ -1,0 +1,29 @@
+{
+    "Date": "68/94",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 140,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-126]"
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": 11.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 4.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[5.0-6.2]"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lactate",
+            "result_value": 1.6,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0 - 1.8 mmol/L"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 12.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea Nitrogen",
+            "result_value": 400,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6 - 23 mg/dL"
+        }
+    ]
+}

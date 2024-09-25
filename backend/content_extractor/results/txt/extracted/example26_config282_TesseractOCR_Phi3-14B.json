@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-25",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 47
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.8,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.9%"
+        },
+        {
+            "test_name": "Fasting blood glucose",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

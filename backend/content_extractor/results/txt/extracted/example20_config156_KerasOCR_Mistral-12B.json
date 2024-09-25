@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "INR",
+            "result_value": 2.8,
+            "unit_of_measurement": "ratio",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 5.97,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 14.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 237,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

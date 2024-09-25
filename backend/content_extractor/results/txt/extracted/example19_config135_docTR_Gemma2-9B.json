@@ -1,0 +1,59 @@
+{
+    "Date": "Dec. 2 2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Payal Shah",
+        "patient_sex": "Female",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 45,
+            "unit_of_measurement": null,
+            "reference_range": "40-55 x10^6/µL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 27.32,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-15.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.25,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 31,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 0.345,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 17.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 3000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

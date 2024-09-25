@@ -1,0 +1,92 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "blood count investigation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobin (ghbj)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell count (rbc) low",
+            "result_value": 130,
+            "unit_of_measurement": "million cells / microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "total red blood cell count (rbc)",
+            "result_value": 170,
+            "unit_of_measurement": "million cells / microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv) mean",
+            "result_value": 45.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (mcvi)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "(40-56) fL"
+        },
+        {
+            "test_name": "mean cell hemoglobin (mch)",
+            "result_value": 27.8,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell distribution width (rdw)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood count total(wbc tholog count)",
+            "result_value": 1015,
+            "unit_of_measurement": "thousand cells / microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential white blood cell (dif. wbc)",
+            "result_value": [
+                60,
+                31
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocytes count(diff. wbc mono)",
+            "result_value": 90,
+            "unit_of_measurement": "thousand cells / microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "basophils count(diff. wbc baso)",
+            "result_value": 0.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count (prtclct)",
+            "result_value": 250000,
+            "unit_of_measurement": "thousand cells / microliter",
+            "reference_range": null
+        }
+    ]
+}

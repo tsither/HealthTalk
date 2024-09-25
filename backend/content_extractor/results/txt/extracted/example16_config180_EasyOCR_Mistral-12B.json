@@ -1,0 +1,85 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091231s675",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": {
+                    "value": 60,
+                    "unit": "G/L",
+                    "reference_range": null
+                },
+                "RBC": {
+                    "value": 5.55,
+                    "unit": "M/L",
+                    "reference_range": null
+                },
+                "HGB": {
+                    "value": 170,
+                    "unit": "G/L",
+                    "reference_range": null
+                },
+                "PLT": {
+                    "value": 80,
+                    "unit": "G/L",
+                    "reference_range": null
+                }
+            },
+            "other_parameters": {
+                "HCT": {
+                    "value": 42,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "MCV": {
+                    "value": 95.3,
+                    "unit": "fL",
+                    "reference_range": null
+                },
+                "MCH": {
+                    "value": 32.8,
+                    "unit": "pg",
+                    "reference_range": null
+                },
+                "MCHC": {
+                    "value": 34.5,
+                    "unit": "g/dL",
+                    "reference_range": null
+                },
+                "RDW": {
+                    "value": 15.6,
+                    "unit": "%",
+                    "reference_range": null
+                }
+            },
+            "differential_count": {
+                "Neutrophils": {
+                    "value": 60,
+                    "percent": "72%"
+                },
+                "Lymphocytes": {
+                    "value": 30,
+                    "percent": "21%"
+                },
+                "Eosinophils": {
+                    "value": 4,
+                    "percent": "0.5%"
+                },
+                "Monocytes": {
+                    "value": 2,
+                    "percent": "0.2%"
+                },
+                "Basophils": {
+                    "value": 1,
+                    "percent": "0.1%"
+                }
+            }
+        }
+    ]
+}

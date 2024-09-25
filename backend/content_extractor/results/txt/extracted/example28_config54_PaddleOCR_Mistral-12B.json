@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8,
+                "Hemoglobina": 14.3,
+                "VCM": 168,
+                "H.m.C.": 29,
+                "Leucicitos": 102
+            },
+            "unit_of_measurement": {
+                "Hematies": "10^9/l",
+                "Hemoglobina": "g/l",
+                "VCM": "fl",
+                "H.m.C.": "pg",
+                "Leucicitos": "10^6/jl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Boguimica basica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatnina": 1.15,
+                "Colesterol": 220,
+                "Protena": 6.6,
+                "Hierro (+III)": 65,
+                "Ferritina": 20,
+                "Hemoglogina A1c": 4.5,
+                "GPT": 800,
+                "Ggt": 100,
+                "Bilirrubina total": 2.8,
+                "Bilirrubina directa (Esterificada)": "<0.4",
+                "Fostatasa Alcalina": 50,
+                "Albumina": 2.3
+            },
+            "unit_of_measurement": {
+                "Glucosa": "* mg/dL",
+                "Creatnina": "* 7p/6w",
+                "Colesterol": "<240.0",
+                "Protena": "g/dL",
+                "Hierro (+III)": "∗g/dL",
+                "Ferritina": "ng/mL",
+                "Hemoglogina A1c": "%",
+                "GPT": "U/L",
+                "Ggt": "* U/L",
+                "Bilirrubina total": "* mg/dL",
+                "Bilirrubina directa (Esterificada)": "ST Tp/6wu",
+                "Fostatasa Alcalina": "* U/L",
+                "Albumina": "* 7P/D"
+            },
+            "reference_range": {
+                "Glucosa": "70.0-110.0",
+                "Creatnina": "0.70 - 1.10",
+                "Hierro (+III)": "55.0-135.0",
+                "Ferritina": "10.0 - 120.0",
+                "Hemoglogina A1c": "3.8-5.5",
+                "GPT": "7- 33",
+                "Ggt": "(10 - 41)",
+                "Bilirrubina total": "(0.2- 1)",
+                "Fostatasa Alcalina": "30-110",
+                "Albumina": "3.40-4.80"
+            }
+        },
+        {
+            "test_name": "109 800 ' U/L (5 - 32) GPT 800 U/L 7- 33 Ggt 100 * U/L (10 - 41) Bilirrubina total 2.8 * mg/dL (0.2- 1) Bilirrubina directa (Esterificada) ST Tp/6wu (0.05 0.4)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

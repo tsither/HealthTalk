@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "pg",
+            "reference_range": "4.5 - 5.5 g/dt"
+        },
+        {
+            "test_name": "RDW-CV (Red Cell Distribution Width)",
+            "result_value": 17.0,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglo <9%",
+            "result_value": 50,
+            "unit_of_measurement": "mc/mm^3",
+            "reference_range": "12.5-48"
+        },
+        {
+            "test_name": "WBC (White Blood Cell Count)",
+            "result_value": 9000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell Count)",
+            "result_value": 5.2,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

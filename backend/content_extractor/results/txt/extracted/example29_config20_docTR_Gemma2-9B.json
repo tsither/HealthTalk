@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, 2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "12.5",
+            "unit_of_measurement": "million/cu mm",
+            "reference_range": "4.0-5.5 million/cu mm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "5.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "41-53 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "87.75",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "32.8",
+            "unit_of_measurement": "thousand/cu mm",
+            "reference_range": "4.0-11.0 thousand/cu mm"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "68.9578%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "14.0%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "200,000",
+            "unit_of_measurement": "per cu mm",
+            "reference_range": "150,000-450,000 per cu mm"
+        }
+    ]
+}

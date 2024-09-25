@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "PAT",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/curmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCY Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "40 - 50 g/dL"
+        },
+        {
+            "test_name": "MCV Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": "83 - 95 fl"
+        },
+        {
+            "test_name": "MCH Calculated MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "27 - 31 pg"
+        },
+        {
+            "test_name": "MCHC Calculated MCHC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "31.5-34.0%"
+        },
+        {
+            "test_name": "RDW Red cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "wec WBC count Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT Platelet Count",
+            "result_value": 450000,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

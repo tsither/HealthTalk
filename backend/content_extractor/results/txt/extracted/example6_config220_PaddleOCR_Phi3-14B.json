@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 12.5",
+                "Total RBC count: 5.2",
+                "Packed Cell Volume (PCV): 57. the % of blood, volume that is occupied by red blood cells and are in this case high, which means they have a higher than normal percentage.",
+                "Mean Corpuscular Volume (mcv): 87.75"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/cumm",
+                "%",
+                ""
+            ],
+            "reference_range": [
+                "Hb: 13.0- 17.0",
+                "RBC count: 4.5 - 5.5 mill/cumm",
+                "PCV: 40.50%",
+                "mcv: 83 : 101"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                "Neutrophils: 60%",
+                "Lymphocytes: 31%",
+                "Eosinophils: 1%",
+                "Monocytes: 7%",
+                "Basophils: 1%"
+            ],
+            "unit_of_measurement": [
+                "%",
+                "%",
+                "%",
+                "%",
+                "%"
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150000",
+            "unit_of_measurement": "cumm",
+            "reference_range": [
+                "Borderline: 150000 - 410000"
+            ]
+        }
+    ]
+}

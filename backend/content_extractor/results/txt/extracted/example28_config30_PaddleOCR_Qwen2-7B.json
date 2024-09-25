@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.3,
+            "unit_of_measurement": "g/100 mL",
+            "reference_range": "[9-12]"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0.5-0.9]"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": null,
+            "unit_of_measurement": "g/100 mL",
+            "reference_range": "[3.8-5.5]"
+        }
+    ]
+}

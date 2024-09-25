@@ -1,0 +1,35 @@
+{
+    "Date": "20XX-05-01",
+    "patient_information": {
+        "patient_id": "105.. 108, SMART Patel Years",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "328",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "4000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

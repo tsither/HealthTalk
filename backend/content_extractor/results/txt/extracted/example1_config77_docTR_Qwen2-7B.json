@@ -1,0 +1,81 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "5.2",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Calculated Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Calculated Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.8 pg/g",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13.6 % cumm",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "9000 cells/cumm",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": [
+                {
+                    "Neutrophils": "60 %"
+                },
+                {
+                    "Lymphocytes": "31 %"
+                },
+                {
+                    "Eosinophils": "7 %"
+                },
+                {
+                    "Monocytes": "7 %"
+                },
+                {
+                    "Basophils": "2 %"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000 - 410000 cells/cumm",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

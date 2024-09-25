@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 7.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0 - 6.9%"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 182,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70 - 110 mg/dL"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 245,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "130 - 200 mg/dL"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 58,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ">60 mg/dL"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 174,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<130 mg/dL"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 258,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40 - 150 mg/dL"
+        },
+        {
+            "test_name": "CRP",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "<10 mg/L"
+        }
+    ]
+}

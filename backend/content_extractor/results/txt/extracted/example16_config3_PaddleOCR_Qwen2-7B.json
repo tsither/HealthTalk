@@ -1,0 +1,41 @@
+{
+    "Date": "2/35 PM",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Instant L",
+            "result_value": 13.0,
+            "unit_of_measurement": "-",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "WBC (White Blood Cell)",
+            "result_value": 4.5,
+            "unit_of_measurement": "",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 328,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 4000,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "sample_collected_at": null,
+        "collection_date": "03/11/XX",
+        "sex": "Male",
+        "collected_on": null,
+        "pid": "555",
+        "registered_on": "02/31/XX"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL",
+            "comment": "Low Levels, May indicate anemia or blood loss, Further testing may be necessary to determine the underlying cause."
+        }
+    ]
+}

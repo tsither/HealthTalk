@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Primary Hemoglobin",
+            "result_value": 116,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Hemoglobin (OLC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "120-160 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "Microliter^3/mm Hg",
+            "reference_range": "null"
+        }
+    ]
+}

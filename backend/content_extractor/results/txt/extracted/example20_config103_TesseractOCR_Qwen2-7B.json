@@ -1,0 +1,23 @@
+{
+    "Date": "12/03/2023",
+    "patient_information": {
+        "patient_id": "B7564321G",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "8.9",
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "[4-11]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "225",
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "[150-450]"
+        }
+    ]
+}

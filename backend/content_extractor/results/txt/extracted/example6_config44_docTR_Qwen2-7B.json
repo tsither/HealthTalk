@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "945678",
+        "patient_name": "",
+        "patient_sex": "",
+        "patient_age": ""
+    },
+    "test_results": [
+        {
+            "test_name": "High Leukocyte Count",
+            "result_value": 105,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[1, 12]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 328,
+            "unit_of_measurement": "Ku/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 60,
+            "unit_of_measurement": "fL",
+            "reference_range": "[81, 97]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[145 - 350] K/uL"
+        }
+    ]
+}

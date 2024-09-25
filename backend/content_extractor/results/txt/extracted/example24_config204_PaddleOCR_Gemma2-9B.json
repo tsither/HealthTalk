@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "White Blood Cells (WBC): 10.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.5-11.0 x10^9/L"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red Blood Cells (RBC): 4.8 million/µL",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0-5.5 million/µL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hgb): 13.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hematocrit (Hct): 42%",
+            "unit_of_measurement": "%",
+            "reference_range": "38%-50%"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Platelets (PLT): 250,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-450,000/µL"
+        }
+    ]
+}

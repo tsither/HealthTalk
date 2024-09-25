@@ -1,0 +1,23 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "PAT202301",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "5.0",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.9-6.1"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "7.8",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.5-10.5"
+        }
+    ]
+}

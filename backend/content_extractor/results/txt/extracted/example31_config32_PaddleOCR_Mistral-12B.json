@@ -1,0 +1,47 @@
+{
+    "Date": "24.02.23",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5 g/dL",
+                "RBC count": "57.5 FL",
+                "Packed Cell Volume (PCV)": "27.2%",
+                "MCH": "32.8 pg",
+                "MCV": "13.6 fL",
+                "RDW": "0006",
+                "WBC count": "60 cells/µL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC count": "FL",
+                "Packed Cell Volume (PCV)": "%",
+                "MCH": "pg",
+                "MCV": "fL",
+                "RDW": null,
+                "WBC count": "cells/µL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC count": "40-50 FL",
+                "Packed Cell Volume (PCV)": "27- 32%",
+                "MCH": "11.6-14.0 pg",
+                "MCV": null,
+                "RDW": null,
+                "WBC count": "50-62 cells/µL"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "410000 cells/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000 - 410000 cells/µL"
+        }
+    ]
+}

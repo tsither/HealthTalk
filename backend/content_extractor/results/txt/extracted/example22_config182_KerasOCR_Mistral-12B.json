@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "041234s675",
+        "patient_name": "shah mumbal patel hiren",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "HGB (g/dL)": 17,
+                "HCT (%)": 47.5,
+                "MCV (fL)": 87.5,
+                "MCH (pg)": 26,
+                "MCHC (g/dL)": 30,
+                "RDW-CV (%)": 14.5,
+                "RBC count (/mm³)": 5.75,
+                "Platelet count (/mm³)": 280000
+            },
+            "unit_of_measurement": {
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RBC count": "/mm³",
+                "Platelet count": "/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

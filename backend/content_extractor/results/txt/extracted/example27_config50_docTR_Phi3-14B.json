@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 165000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "40-50 /mm3"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 42.7,
+            "unit_of_measurement": "%",
+            "reference_range": "38-50%"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 14.96,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "12-17 g/dl"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 83.5,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 276000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "150-400 /mm3"
+        },
+        {
+            "test_name": "Volumen Corpuscular Medio (VCM)",
+            "result_value": 86,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

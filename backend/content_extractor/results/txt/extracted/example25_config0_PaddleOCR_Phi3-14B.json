@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leukocytes",
+            "result_value": 6.56,
+            "unit_of_measurement": "/IL",
+            "reference_range": "100/L"
+        },
+        {
+            "test_name": "Erythrocytes",
+            "result_value": 417,
+            "unit_of_measurement": "/FL",
+            "reference_range": "350-5.4x10^6"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 9.7,
+            "unit_of_measurement": "gr/dL",
+            "reference_range": "8-12"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 28.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocity of circulation",
+            "result_value": 690,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-107"
+        },
+        {
+            "test_name": "Red cell distribution width",
+            "result_value": 23.5,
+            "unit_of_measurement": "%SI",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 329,
+            "unit_of_measurement": "/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "12/03/2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "Jane Smith",
+        "patient_sex": "F",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "38%",
+            "unit_of_measurement": "%",
+            "reference_range": "37-51% for women"
+        },
+        {
+            "test_name": "Leukocyte count",
+            "result_value": "6.2 k/uL",
+            "unit_of_measurement": "k/uL",
+            "reference_range": "4.0-11.0 k/uL"
+        }
+    ]
+}

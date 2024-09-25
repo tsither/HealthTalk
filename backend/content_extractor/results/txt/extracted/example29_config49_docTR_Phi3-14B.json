@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SUAPr",
+            "result_value": 185,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "[0-39 mg/L]"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 4.7,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-50%]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 70.8,
+            "unit_of_measurement": "fl",
+            "reference_range": "[80-100 fl]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "HbA1c",
+            "result_value": 6.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[4-5.7%]"
+        },
+        {
+            "test_name": "Fasting Blood Glucose",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

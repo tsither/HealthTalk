@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "7.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.8 - 10.2"
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": "1.4",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6 - 1.2"
+        }
+    ]
+}

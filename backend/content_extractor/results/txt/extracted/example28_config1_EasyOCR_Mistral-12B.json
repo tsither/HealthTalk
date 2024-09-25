@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_name": "Vaton",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematocritos": "48 * 10^9 M",
+                "Hemoglobina": "M",
+                "VCM": "90 fL",
+                "HCM": "29 PO",
+                "Leucocitos": "10.2 * 10^6 /L"
+            },
+            "unit_of_measurement": {
+                "Hematocritos": "*10^9 M",
+                "Hemoglobina": null,
+                "VCM": "fL",
+                "HCM": "%",
+                "Leucocitos": "*10^6/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometria hematica",
+            "result_value": {
+                "Glucosa": "65.0 mmol",
+                "Cieaunina": "15 mmol",
+                "Colesterol": "220 mmol",
+                "Trigliceridos": "66 Ql"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mmol",
+                "Cieaunina": "mmol",
+                "Colesterol": "mmol",
+                "Trigliceridos": "Ql"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Enzymas hepaticas",
+            "result_value": {
+                "GOT": "80 U/L",
+                "GPT": "80 U/L",
+                "GGT": "100 U/L"
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina",
+            "result_value": {
+                "Total": "(0.2 - 4)",
+                "Directa (Estenficada)": "0.5 mmol"
+            },
+            "unit_of_measurement": {
+                "Total": null,
+                "Directa (Estenficada)": "mmol"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Analisis clinico de orina",
+            "result_value": {
+                "Fogiatas": "50 UL",
+                "Albumina": "2.3 g/L"
+            },
+            "unit_of_measurement": {
+                "Fogiatas": "UL",
+                "Albumina": "g/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

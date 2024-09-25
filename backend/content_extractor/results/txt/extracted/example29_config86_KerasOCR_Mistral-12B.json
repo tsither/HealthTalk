@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "Lee Pant Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 40,
+                "RBC": 4.5,
+                "WBC": 6.7,
+                "Platelet": 230
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "RBC": "10^6/μL",
+                "WBC": "10^3/μL",
+                "Platelet": "10^3/μL"
+            },
+            "reference_range": null
+        }
+    ]
+}

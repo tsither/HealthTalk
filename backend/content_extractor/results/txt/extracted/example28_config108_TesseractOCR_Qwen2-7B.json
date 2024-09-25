@@ -1,0 +1,171 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varén de 60 alos, obeso",
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                {
+                    "field": "Hematies",
+                    "value": 4.8,
+                    "unit_of_measurement": "x 109 /L"
+                },
+                {
+                    "field": "Hemoglobina",
+                    "value": 14.3,
+                    "unit_of_measurement": "gf vem sofl HMC. 29 pg"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitosis",
+            "result_value": [
+                {
+                    "field": "Count",
+                    "value": 10.2,
+                    "unit_of_measurement": "x 106 /L"
+                },
+                {
+                    "field": "% of cells",
+                    "value": [
+                        "68N",
+                        "1B",
+                        "SE",
+                        "24M"
+                    ]
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": [
+                {
+                    "field": "Glucosa",
+                    "value": 65.0,
+                    "unit_of_measurement": "'"
+                },
+                {
+                    "field": "Creatinina",
+                    "value": 1,
+                    "unit_of_measurement": "?"
+                },
+                {
+                    "field": "Colesterol",
+                    "value": 220
+                },
+                {
+                    "field": "Proteina",
+                    "value": 66
+                },
+                {
+                    "field": "Hierro",
+                    "value": [
+                        65,
+                        "+"
+                    ]
+                },
+                {
+                    "field": "Ferritina",
+                    "value": 20
+                },
+                {
+                    "field": "Hemoglogina Aic",
+                    "value": 45
+                },
+                {
+                    "field": "GoT",
+                    "value": 800
+                },
+                {
+                    "field": "GPT",
+                    "value": [
+                        800,
+                        "*"
+                    ]
+                },
+                {
+                    "field": "eet",
+                    "value": [
+                        100,
+                        "*"
+                    ]
+                },
+                {
+                    "field": "Silirrubina total",
+                    "value": 28
+                },
+                {
+                    "field": "Bilirrubina directa (Esterificada}",
+                    "value": 1.5
+                },
+                {
+                    "field": "Fostatasa Alcalina",
+                    "value": [
+                        50,
+                        "*"
+                    ]
+                },
+                {
+                    "field": "Albumina",
+                    "value": [
+                        2.3
+                    ],
+                    "unit_of_measurement": "mg/dL"
+                }
+            ],
+            "reference_range": [
+                {
+                    "field": "(70.0 - 110.0)",
+                    "value": null
+                },
+                {
+                    "field": "(0.70 ~ 4.10)",
+                    "value": null
+                },
+                {
+                    "field": "(&lt;240.0)",
+                    "value": null
+                },
+                {
+                    "field": "(6.0 - 8.0)",
+                    "value": null
+                },
+                {
+                    "field": "(65.0 — 135.0)",
+                    "value": null
+                },
+                {
+                    "field": "(20.0 - 120.0) G8-55) - 32",
+                    "value": null
+                },
+                {
+                    "field": "(7-33)",
+                    "value": null
+                },
+                {
+                    "field": "(0-41)",
+                    "value": null
+                },
+                {
+                    "field": "(0.2-1)",
+                    "value": null
+                },
+                {
+                    "field": "(0.05 - 0.4)",
+                    "value": null
+                },
+                {
+                    "field": "(30-110) @.40 - 4.80",
+                    "value": null
+                }
+            ]
+        }
+    ]
+}

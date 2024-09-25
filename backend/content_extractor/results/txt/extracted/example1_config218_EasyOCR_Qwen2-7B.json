@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_time": "125 shivam sungalow s g rond"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "RBC Count (millions/cmm)",
+            "result_value": 5.2,
+            "unit_of_measurement": "millions/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (%)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "high"
+        },
+        {
+            "test_name": "MCV (fl)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "10-101 fl"
+        },
+        {
+            "test_name": "MCH (pg)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (%)",
+            "result_value": 328,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (percentage)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "normal"
+        }
+    ]
+}

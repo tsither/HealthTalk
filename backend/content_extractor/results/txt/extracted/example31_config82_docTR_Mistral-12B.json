@@ -1,0 +1,52 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 5.2,
+                "BLOOD INDICES (PCV)": 57.5,
+                "MCV": 87.75,
+                "MCH": 32.8,
+                "MCHC": 13.6,
+                "RDW": null,
+                "WBC COUNT": 9000,
+                "Differential WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 7
+                },
+                "PLATELET COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "mill/cumm",
+                "RBC COUNT": "Total RBC count",
+                "BLOOD INDICES (PCV)": "g/dL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%CV",
+                "WBC COUNT": "cell/cumm",
+                "PLATELET COUNT": "cell/cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.0",
+                "RBC COUNT": "4.5-5.5",
+                "BLOOD INDICES (PCV)": "83-101",
+                "MCV": "27-32 pg",
+                "MCH": null,
+                "MCHC": null,
+                "RDW": "4000-11000",
+                "WBC COUNT": "50-62 DIFFERENTIAL WBC COUNT",
+                "PLATELET COUNT": null
+            }
+        }
+    ]
+}

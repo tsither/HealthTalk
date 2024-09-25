@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hb RBC (Hemoglobin)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Diff count",
+            "result_value": 689578,
+            "unit_of_measurement": "/uL",
+            "reference_range": {
+                "low": 3280,
+                "high": 13600
+            }
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 450,
+            "unit_of_measurement": "/uL",
+            "reference_range": {
+                "low": 170000,
+                "high": 450000
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 5.2,
+                    "unit_of_measurement": "g/dL"
+                },
+                "RBC COUNT %": {
+                    "value": 57.5
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 87.75,
+                    "unit_of_measurement": "%"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit_of_measurement": "pg"
+                },
+                "MCHC": {
+                    "value": 13.6,
+                    "unit_of_measurement": "g/dL"
+                },
+                "RDW": {
+                    "value": 90
+                },
+                "Total WBC count": {
+                    "value": 60,
+                    "unit_of_measurement": "10^3/μL"
+                },
+                "Neutrophils %": {
+                    "value": 37
+                },
+                "Lymphocytes": {
+                    "value": 7
+                },
+                "Platelet Count": {
+                    "value": null,
+                    "unit_of_measurement": null
+                }
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "low": 4.5,
+                    "high": 5.5
+                },
+                "RBC COUNT %": {
+                    "low": 83,
+                    "high": 101
+                },
+                "Packed Cell Volume (PCV)": {
+                    "low": 27,
+                    "high": 32
+                },
+                "MCH": {
+                    "low": 27.2,
+                    "high": null
+                },
+                "MCHC": {
+                    "low": null,
+                    "high": null
+                },
+                "RDW": {
+                    "low": null,
+                    "high": null
+                },
+                "Total WBC count": {
+                    "low": 50,
+                    "high": 62
+                },
+                "Neutrophils %": {
+                    "low": null,
+                    "high": null
+                },
+                "Lymphocytes": {
+                    "low": null,
+                    "high": null
+                },
+                "Platelet Count": {
+                    "low": null,
+                    "high": null
+                }
+            }
+        }
+    ]
+}

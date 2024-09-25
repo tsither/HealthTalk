@@ -1,0 +1,65 @@
+{
+    "Date": "Dec.2",
+    "patient_information": {
+        "patient_id": "34567",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": {
+                    "value": "57.5",
+                    "unit": "g/dL"
+                },
+                "Hb": {
+                    "value": "5.2",
+                    "unit": "MeOgEbIT"
+                },
+                "PCV": {
+                    "value": "87.75",
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": "32.5",
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": "13.6",
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": "9000",
+                    "unit": "g/dL"
+                },
+                "RDW COUNT": {
+                    "value": "20-40",
+                    "unit": "%"
+                },
+                "WBC count": {
+                    "value": "60",
+                    "unit": "1000/uL"
+                },
+                "NEUTrophils": {
+                    "value": "7",
+                    "unit": "1000/uL"
+                },
+                "Eosinophils": {
+                    "value": "4",
+                    "unit": "1000/uL"
+                },
+                "BASOphils": {
+                    "value": "150000",
+                    "unit": "1000/uL"
+                },
+                "PLATELET count": {
+                    "value": "300",
+                    "unit": "/uL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}
