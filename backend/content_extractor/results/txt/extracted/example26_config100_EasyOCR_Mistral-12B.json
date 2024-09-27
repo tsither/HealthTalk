@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "RBC": 4.75,
+                "HGB": 13.3,
+                "HCT": 30.5,
+                "MCV": 83.1,
+                "ACM": 27.9,
+                "CACM": 33.0,
+                "EAD": 3
+            },
+            "unit_of_measurement": {
+                "RBC": "fL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "FL",
+                "ACM": "Pa",
+                "CACM": "%",
+                "EAD": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

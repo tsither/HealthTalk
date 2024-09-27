@@ -1,0 +1,57 @@
+{
+    "Date": "03.11",
+    "patient_information": {
+        "patient_id": "PID: 555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.7,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "WBC COUNT": null,
+                "Neutrophils": 31,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": 7,
+                "Basophils": 1,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "P/6",
+                "%": "%",
+                "Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular Volume (MCV)": "%",
+                "MCH": "pg",
+                "WBC COUNT": null,
+                "Neutrophils": "%",
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "4.5 - 5.5 P/6",
+                "Packed Cell Volume (PCV)": "40-50 %",
+                "Mean Corpuscular Volume (MCV)": null,
+                "MCH": "27 - 32 pg",
+                "WBC COUNT": "11.6-14.0",
+                "Neutrophils": "40-70 %",
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": "00 - 06%",
+                "Basophils": "00 - 10%",
+                "Platelet Count": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "P CA 104 Fully Sample Collection",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "value": "98",
+                    "unit": "10^3/uL"
+                },
+                "HGB": {
+                    "value": "14.0",
+                    "unit": "g/dL"
+                },
+                "PLT": {
+                    "value": "250",
+                    "unit": "10^3/uL"
+                }
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": "4.5",
+                    "max": "11.0"
+                },
+                "HGB": {
+                    "min": "12.0",
+                    "max": "16.0"
+                },
+                "PLT": {
+                    "min": "150",
+                    "max": "450"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 8.5,
+            "unit_of_measurement": "/l",
+            "reference_e": "[4.0-11.0]x10^9/L"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 5.2,
+            "unit_of_measurement": "trillion / l",
+            "reference_range": "[4.7-6.1] trillion/l"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15,
+            "unit_of_measurement": "g / l",
+            "reference_range": "[13.8-17.2]"
+        }
+    ]
+}

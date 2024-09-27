@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Sue D. Johnson",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.3",
+            "unit_of_measurement": "g/dL",
+            "reference_nrange": "4.5-6.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "18.2",
+            "unit_of_measurement": "g/dL",
+            "reference_nrange": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "48.6",
+            "unit_of_measurement": "%",
+            "reference_nrange": "40.0-52.0%"
+        }
+    ]
+}

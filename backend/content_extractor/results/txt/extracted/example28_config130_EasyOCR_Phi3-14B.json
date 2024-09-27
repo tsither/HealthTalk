@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 89.0,
+            "unit_of_measurement": "f Pg",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "I (1B)",
+            "result_value": 65.0,
+            "unit_of_measurement": "",
+            "reference_range": "(0 - 20)"
+        },
+        {
+            "test_name": "Zm",
+            "result_value": 143.0,
+            "unit_of_measurement": "",
+            "reference_range": "(65.0 - 98.0)"
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": null,
+            "unit_of_measurement": "mgidl/dL",
+            "reference_range": "(60 - 120)"
+        },
+        {
+            "test_name": "Albuno sanguinis",
+            "result_value": null,
+            "unit_of_measurement": "mgidl/dL",
+            "reference_range": "(3.4 - 5)"
+        }
+    ]
+}

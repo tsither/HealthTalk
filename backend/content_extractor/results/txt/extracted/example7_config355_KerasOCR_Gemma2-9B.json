@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "P12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red blood cells: 4.8 million/µL",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0 - 5.5 million/µL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": "7,200 cells/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4,500 - 11,000 cells/µL"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": "280,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000 - 450,000/µL"
+        }
+    ]
+}

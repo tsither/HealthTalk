@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.e"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 40,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "42-54"
+        },
+        {
+            "test_name": "PCV Volume",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "38-46%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "29-31"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "30.5-47%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4600-11000"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": "50-70%"
+        }
+    ]
+}

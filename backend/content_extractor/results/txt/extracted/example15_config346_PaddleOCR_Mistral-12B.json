@@ -1,0 +1,44 @@
+{
+    "Date": "01/03/2023",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patient Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.5,
+                "RBC": 4.8,
+                "HGB": 12.3,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.5,
+                    "max": 6
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 16
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "632541",
+        "patient_name": "Jane Doe",
+        "patient_sex": "Female",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 41.5,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 47.0 %"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.0 - 5.5 million/mcL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 85.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 100.0 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.9,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0 - 31.0 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0 - 36.0 g/dL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 7.2,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "4.5 - 11.0 thousand/mcL"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 235,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "150 - 450 thousand/mcL"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "02 Cec. 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "l j0 l v5#d mill/cumm",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hb": "150000",
+                "WBC": "87.75",
+                "RBC_Count": "12.5",
+                "Platelet_count": "57.5",
+                "Neutrophils": "27.2",
+                "Lymphocytes": "32.8",
+                "MCH": "13.6"
+            },
+            "unit_of_measurement": {
+                "Hb": "cells/cumm",
+                "WBC": "10s/um",
+                "RBC_Count": "cells/um",
+                "Platelet_count": "10s/um",
+                "Neutrophils": "percent",
+                "Lymphocytes": "percent",
+                "MCH": "pg"
+            },
+            "reference_range": {
+                "Hb": "13.0- 17.0",
+                "WBC": "40.50 - 83 :101",
+                "RBC_Count": "27:32",
+                "Platelet_count": "90 :00 - 10 00 - 02",
+                "Neutrophils": "Low",
+                "Lymphocytes": "Borderline",
+                "MCH": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.": null,
+                "C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": 4.17
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10^9/L",
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.": null,
+                "C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": "10^9/L"
+            },
+            "reference_range": {
+                "Leucocitos": "(4.00, 10.80)",
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.": null,
+                "C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": "(3.50, 12.0)"
+            }
+        },
+        {
+            "test_name": "PoRMUIA LEUCOCITARIA",
+            "result_value": {
+                "Neutrofilos": 71.1,
+                "Linfo-citos": 12.4,
+                "Monocitos": 3.1,
+                "Eosinofilos": 4.6,
+                "Basofilos": 0.8
+            },
+            "unit_of_measurement": {
+                "Neutrofilos": "%",
+                "Linfo-citos": "%",
+                "Monocitos": "%",
+                "Eosinofilos": "%",
+                "Basofilos": "%"
+            }
+        }
+    ]
+}

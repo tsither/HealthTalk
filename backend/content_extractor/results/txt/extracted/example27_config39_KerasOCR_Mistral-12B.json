@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 13800,
+                "Hematies": 4270000,
+                "Hemarocrito": 36.7,
+                "Hemoglobina": 9.6,
+                "Velocidad de sedimentacion": 56
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "mms",
+                "Hematies": "mm/s",
+                "Hemarocrito": "%",
+                "Hemoglobina": "g/dL",
+                "Velocidad de sedimentacion": "mm/hora"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica",
+            "result_value": {
+                "Glucosa": 60,
+                "Colesterol total": 179,
+                "HDL": 42,
+                "LDL": 113,
+                "Trigliceridos": 158
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol total": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "Trigliceridos": "mmol/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Enzimaticas y proteinas",
+            "result_value": {
+                "Urilasa": 50,
+                "ALP": 43,
+                "GOT": 15,
+                "GPT": 145,
+                "Albumina": 4.1
+            },
+            "unit_of_measurement": {
+                "Urilasa": "UL",
+                "ALP": "U/L",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "5-8",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": {
+                "Creatinine": 0.9,
+                "Urea": 42
+            },
+            "unit_of_measurement": {
+                "Creatinine": "mg/dL",
+                "Urea": "mg/dL"
+            },
+            "reference_range": {
+                "Creatinine": {
+                    "min": 0.6,
+                    "max": 1.5
+                },
+                "Urea": {
+                    "min": 7,
+                    "max": 20
+                }
+            }
+        },
+        {
+            "test_name": "Electrolytes",
+            "result_value": {
+                "Sodium": 138,
+                "Potassium": 4.6
+            },
+            "unit_of_measurement": {
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L"
+            },
+            "reference_range": {
+                "Sodium": {
+                    "min": 135,
+                    "max": 145
+                },
+                "Potassium": {
+                    "min": 3.6,
+                    "max": 5.2
+                }
+            }
+        }
+    ]
+}

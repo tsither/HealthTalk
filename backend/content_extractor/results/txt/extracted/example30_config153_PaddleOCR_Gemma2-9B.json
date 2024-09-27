@@ -1,0 +1,53 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 125,
+            "unit_of_measurement": "nple count",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIF count",
+            "result_value": 89689,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophil",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Monocyte",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Lymphocyte",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": 400000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "410000 - 1100000 (/µL)"
+        }
+    ]
+}

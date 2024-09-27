@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC": "5.0 x10^6/uL",
+                "Hemoglobin": "11.6 g/dL",
+                "HCT": "41%",
+                "MCV": "93 fL",
+                "MCH": "32 pg",
+                "MCHC": "34.5 g/dL",
+                "RDW": "15%",
+                "RBC Count": "5.0 x10^6/uL",
+                "WBC Count": "8.7 x10^3/uL",
+                "Platelet Count": "202 x10^3/uL"
+            },
+            "unit_of_measurement": {
+                "Total RBC": "cells/uL",
+                "Hemoglobin": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "RBC Count": "cells/uL",
+                "WBC Count": "cells/uL",
+                "Platelet Count": "cells/uL"
+            },
+            "reference_range": {
+                "Total RBC": "4.0 - 6.1 x10^6/uL",
+                "Hemoglobin": "13.5 - 17.5 g/dL",
+                "HCT": "42 - 52%",
+                "MCV": "80 - 96 fL",
+                "MCH": "27 - 31 pg",
+                "MCHC": "32 - 36 g/dL",
+                "RDW": "11.5 - 14.5%",
+                "RBC Count": "4.4 - 6.1 x10^6/uL",
+                "WBC Count": "4.5 - 11.0 x10^3/uL",
+                "Platelet Count": "150 - 400 x10^3/uL"
+            }
+        }
+    ]
+}

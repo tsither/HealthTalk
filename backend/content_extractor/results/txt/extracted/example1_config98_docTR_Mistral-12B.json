@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "945678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 10.32,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "low": 4.5,
+                "high": 11
+            }
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 49.978,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": 36,
+                "high": 52
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80.1,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 28.53,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

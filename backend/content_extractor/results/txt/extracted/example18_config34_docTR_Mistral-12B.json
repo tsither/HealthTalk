@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.97",
+                "HGB": "13.2",
+                "HCT": "40.5",
+                "MCV": "81.5",
+                "MCH": "26.7",
+                "MCHC": "32.7",
+                "RDW-CV": "13.7",
+                "PLT": "275",
+                "MPV": "9.4",
+                "PDW": "15.5"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "10^9/L",
+                "MPV": "fL",
+                "PDW": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

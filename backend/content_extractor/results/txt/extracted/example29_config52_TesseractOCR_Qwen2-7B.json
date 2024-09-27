@@ -1,0 +1,29 @@
+{
+    "Date": "12/04/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "50"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 5.2, RBC: 4.8, HGB: 13.6, HCT: 39%",
+            "unit_of_measurement": "",
+            "reference_range": "WBC (4.0-10.0) x 10^3/μL, RBC (4.5-5.7) x 10^12/L, HGB (13.5-16.0) g/dL, HCT (38%-50%)"
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "Glucose: 92 mg/dL, Creatinine: 0.7 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": "Glucose (70-100) mg/dL, Creatinine (0.6-1.3) mg/dL"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "TC: 195 mg/dL, LDL-C: 124 mg/dL, HDL-C: 48 mg/dL, Triglycerides: 130 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": "TC (150-200) mg/dL, LDL-C (70-129) mg/dL, HDL-C (>40) mg/dL, Triglycerides (<150) mg/dL"
+        }
+    ]
+}

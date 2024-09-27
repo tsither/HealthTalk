@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Caso hipotetico",
+        "patient_sex": "varon",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 x 109 /l",
+                "Hemoglobina": "14,3 g/l",
+                "VCM": null,
+                "Leucicitos": "68 ane",
+                "H.M.C": "29 pg ha"
+            },
+            "unit_of_measurement": {
+                "Hematies": "/l",
+                "Hemoglobina": "g/l",
+                "VCM": null,
+                "Leucicitos": null,
+                "H.M.C": "pg ha"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biomica basica",
+            "result_value": {
+                "Glucosa": "10,2 x 106/I68N1B5E.24L2M",
+                "Creatnina": null,
+                "Colesterol": null,
+                "Proteina Hierro (II+III)": "220 GOT",
+                "Ferritina": "1.15",
+                "Hemoglogina A1c": null,
+                "GOT": "6.6 mgidL",
+                "GPT": "65 (70.0 - 110.0) mg/dL",
+                "GGT": "20 (0.70 - 1.10) g/dL",
+                "Bilirrubina tota!": "4.5 240.0 ug/dL",
+                "Bilirrubina directa (Esterificada)": "800 (6.0- 8.0 ng/mL",
+                "Fosfatasa Alcalina": "800. 55.0 - 135.0 U/L",
+                "Albumina": "2.8 (3.8 - 5.5) U/L"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "/l",
+                "Creatnina": null,
+                "Colesterol": null,
+                "Proteina Hierro (II+III)": null,
+                "Ferritina": null,
+                "Hemoglogina A1c": null,
+                "GOT": "mgidL",
+                "GPT": "mg/dL",
+                "GGT": "g/dL",
+                "Bilirrubina tota!": "ug/dL",
+                "Bilirrubina directa (Esterificada)": "ng/mL",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "U/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

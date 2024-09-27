@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 17.0 g/dL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "32.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "11.6 fl",
+            "unit_of_measurement": "fl",
+            "reference_range": "81 - 97 fl"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "(not provided)",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

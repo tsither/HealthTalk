@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "4.5-6 million cells/mcL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "thousand cells/mcL",
+            "reference_range": "4.5-11 thousand cells/mcL"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": null,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "150-450 thousand cells/mcL"
+        }
+    ]
+}

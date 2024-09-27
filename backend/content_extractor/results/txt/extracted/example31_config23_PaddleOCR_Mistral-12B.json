@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": "L 0123456789 | 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 72.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 37.5,
+            "unit_of_measurement": "fl",
+            "reference_range": "36-46 fl"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 87.75,
+            "unit_of_measurement": "10^6/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 32.8,
+            "unit_of_measurement": "10^3/cumm",
+            "reference_range": "4-9"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

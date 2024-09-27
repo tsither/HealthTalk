@@ -1,0 +1,35 @@
+{
+    "Date": "202X 05:00 PM",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": "300",
+                "RBC": "4.5",
+                "Hb": "11.6",
+                "HCT": "32.8",
+                "PLT": "27.2"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.0 - 6.0",
+                "Hb": "12.0 - 17.0",
+                "HCT": "38.0 - 48.0",
+                "PLT": "14.0 - 35.0"
+            }
+        }
+    ]
+}

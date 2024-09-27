@@ -1,0 +1,27 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "ons555",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": {
+                    "low": 13,
+                    "high": 17.5
+                },
+                "female": {
+                    "low": 12,
+                    "high": 15.5
+                }
+            },
+            "interpretation": "Low levels may indicate anemia due to blood loss or other causes. Further testing may be necessary to determine the underlying cause."
+        }
+    ]
+}

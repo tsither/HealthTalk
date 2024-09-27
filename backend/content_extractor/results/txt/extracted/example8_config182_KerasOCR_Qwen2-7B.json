@@ -1,0 +1,24 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "mrs. yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "sample_collection_location": "125 shivam bungalow s g road, mumbai",
+        "sample_collection_date_time": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "male": "135 - 175 mg/dL",
+                "female": "120 - 155 mg/dL"
+            },
+            "comment": "normal range for male is generally considered as 135 - 175 mg/dL. for female it's 120 - 155 mg/dL.",
+            "interpretation": "low levels may indicate anemia or blood loss, further testing may be necessary to determine the underlying cause."
+        }
+    ]
+}

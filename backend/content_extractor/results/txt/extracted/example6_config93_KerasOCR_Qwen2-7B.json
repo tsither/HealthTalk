@@ -1,0 +1,49 @@
+{
+    "Date": "01/12/2023",
+    "patient_information": {
+        "patient_id": "0112345678",
+        "patient_name": "com drlogypathlabadrlogy",
+        "patient_sex": "male",
+        "patient_age": "8o years"
+    },
+    "test_results": [
+        {
+            "test_name": "GIDL Count",
+            "result_value": "125",
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": "105-170"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-160"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "272",
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "50",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Volume Indices",
+            "result_value": [
+                "lo"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.5",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

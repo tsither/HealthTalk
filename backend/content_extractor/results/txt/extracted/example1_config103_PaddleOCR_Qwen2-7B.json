@@ -1,0 +1,72 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": "87.75",
+                "Lymphocytes": "57.5",
+                "Neutrophils": "27.2",
+                "Monocytes": "32.8",
+                "Eosinophils": "13.6"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Total WBC count": "4.5 - 5.5",
+                "Lymphocytes": "4.5 - 5.5",
+                "Neutrophils": "4.5 - 5.5",
+                "Monocytes": "0.4 - 0.6",
+                "Eosinophils": "0.4 - 0.6"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "MCH": "[FILL]",
+                "RDW": "[FILL]"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": {
+                "PCV": null,
+                "PLATELET COUNT": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "PCV": "32 - 34.5",
+                "PLATELET COUNT": "[FILL]"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": {
+                "Hb": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": "[FILL]"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": {
+                "MCHC": null,
+                "RDW": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Packed Cell Volume (PCV)": "[FILL]",
+                "RBC COUNT": "[FILL]"
+            }
+        }
+    ]
+}

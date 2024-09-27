@@ -1,0 +1,44 @@
+{
+    "Date": "Wd 00 0",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "7.8",
+                "RBC": "5.0",
+                "Hb": "13.9",
+                "Hct": "42.5",
+                "MCV": "86.0",
+                "MCH": "28.5",
+                "MCHC": "33.0",
+                "RDW": "14.5"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 10.0",
+                "RBC": "4.4 - 6.2",
+                "Hb": "13.0 - 17.0",
+                "Hct": "40.0 - 52.0",
+                "MCV": "80.0 - 96.0",
+                "MCH": "27.0 - 31.0",
+                "MCHC": "32.0 - 36.0",
+                "RDW": "11.5 - 14.5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 17,
+                    "unit": "g/dL",
+                    "reference_range": "13.5-18"
+                },
+                "rbc_count_total": {
+                    "value": 5.55,
+                    "unit": "million cells/uL"
+                },
+                "platelet_count": {
+                    "value": 400000,
+                    "unit": "cells/uL",
+                    "reference_range": "150000-450000"
+                }
+            },
+            "unit_of_measurement": null
+        }
+    ]
+}

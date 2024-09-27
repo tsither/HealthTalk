@@ -1,0 +1,41 @@
+{
+    "Date": "13.01.2017",
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "8 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "80",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "105-130 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": "40-48%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "90",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.1 x 10^6",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "5.7 x 10^3",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Plasma protein",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "(1-5 g/dl)"
+        },
+        {
+            "test_name": "Plasma glucose",
+            "result_value": 2.0,
+            "unit_of_measurement": "mmol/l",
+            "reference_range": "3.9-6.1 mmol/l"
+        },
+        {
+            "test_name": "Total bilirubin (TB)",
+            "result_value": 0.5,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Direct bilirubin (DB)",
+            "result_value": 0.2,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Alkaline phosphatase (ALP)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "(30-120 IU/l)"
+        },
+        {
+            "test_name": "Aspartate aminotransferase (AST)",
+            "result_value": 5.7,
+            "unit_of_measurement": "IU/l",
+            "reference_range": "(0-35 IU/l)"
+        },
+        {
+            "test_name": "Alanine aminotransferase (ALT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "(7-56 IU/l)"
+        }
+    ]
+}

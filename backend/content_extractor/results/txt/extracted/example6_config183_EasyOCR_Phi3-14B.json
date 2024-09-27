@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a567689",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "hemoglobin: 12.5 g/dL",
+                "RBC count: 5.2 million/uL",
+                "Total RBC count: null",
+                "Packed Cell Volume(PCV): 57%"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "million/uL",
+                "%"
+            ],
+            "reference_range": [
+                [
+                    "Hemoglobin : Low (13.104 g/dL)",
+                    "RBC count: Normal( 5-6 million/uL)"
+                ],
+                [
+                    "Total RBC count: null",
+                    "Packed Cell Volume(PCV): High (58%-72%)"
+                ]
+            ]
+        }
+    ]
+}

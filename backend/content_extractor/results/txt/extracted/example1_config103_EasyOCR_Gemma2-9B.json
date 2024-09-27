@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White blood cells",
+            "result_value": 8600,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "Red blood cells",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 17.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 (males), 12.0-15.5 (females)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54 (males), 36-48 (females)"
+        }
+    ]
+}

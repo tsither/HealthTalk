@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Bemograma",
+            "result_value": {
+                "WBC": "3.12-8.8",
+                "RBC": "4.50",
+                "HGB": "13.0",
+                "PLT": "216",
+                "MCV": "90.5",
+                "MCH": "30.0",
+                "MCHC": "33.0",
+                "RDW": "14.5"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

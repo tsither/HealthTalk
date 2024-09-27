@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 4.5,
+            "unit_or_measurement": "olg",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "PCV COUNT",
+            "result_value": 89689,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

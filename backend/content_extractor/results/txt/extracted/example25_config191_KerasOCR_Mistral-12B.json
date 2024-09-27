@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "45-75%"
+        },
+        {
+            "test_name": "ESR",
+            "result_value": 2,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "<10"
+        }
+    ]
+}

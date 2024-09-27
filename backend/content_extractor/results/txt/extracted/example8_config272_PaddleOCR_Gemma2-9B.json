@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 12000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 4.2,
+            "unit_of_measurement": "millions/µL",
+            "reference_range": "4.0-5.5 millions/µL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 280000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-450000 cells/µL"
+        }
+    ]
+}

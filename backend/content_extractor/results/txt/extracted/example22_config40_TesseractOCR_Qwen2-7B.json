@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Glucose (Fasting)",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-126]"
+        },
+        {
+            "test_name": "Cholesterol Total",
+            "result_value": 185,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[130-200]"
+        },
+        {
+            "test_name": "HDL (High Density Lipoprotein)",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[>60] for optimal health"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Rosa",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "4.2",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "3.9-5.4 million/mcL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "8.9",
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "4.5-11.0 thousand/mcL"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "280",
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "150-450 thousand/mcL"
+        },
+        {
+            "test_name": "Hgb",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "40.9",
+            "unit_of_measurement": "%",
+            "reference_range": "37-52%"
+        }
+    ]
+}

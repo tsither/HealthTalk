@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shivam Accurate Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Red Blood Cell) Test",
+            "result_value": {
+                "Total RBC Count": "5.2 x10^6/uL",
+                "Hemoglobin Concentration": "13.5 g/dL",
+                "Hematocrit": "42%",
+                "Mean Corpuscular Volume (MCV)": "90 fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "27 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "30 g/dL",
+                "Red Cell Distribution Width (RDW)": "15%"
+            },
+            "unit_of_measurement": {
+                "Total RBC Count": "/uL",
+                "Hemoglobin Concentration": "g/dL",
+                "Hematocrit": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL",
+                "Red Cell Distribution Width (RDW)": "%"
+            },
+            "reference_range": {
+                "Total RBC Count": "4.5 - 6.0 x10^6/uL",
+                "Hemoglobin Concentration": "12.0 - 16.0 g/dL",
+                "Hematocrit": "38% - 48%",
+                "Mean Corpuscular Volume (MCV)": "80 - 100 fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "27 - 33 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32% - 36%",
+                "Red Cell Distribution Width (RDW)": "11.5% - 14.5%"
+            }
+        }
+    ]
+}

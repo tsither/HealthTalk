@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "6,56 V.C_ M",
+        "patient_name": "C.H_ R. C.M_ L",
+        "patient_sex": "M",
+        "patient_age": 28
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 6900,
+                "Eritrocitos": 4170,
+                "Hemoglobina": 123,
+                "Hematocrito": 35.8,
+                "Val/VOL": 0.98,
+                "Ref": {
+                    "min": 40,
+                    "max": 60
+                },
+                "Plaquetas": 201000,
+                "VPM": null,
+                "Formula_Leucocitaria": {
+                    "Neutrofilos": 58.9,
+                    "Linfocitos": 34.7,
+                    "Monocitos": 5.6,
+                    "Eosinofilos": 0.6,
+                    "Basofofila": 0.2
+                }
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "/IL",
+                "Eritrocitos": "/IL",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "Val/VOL": null,
+                "Plaquetas": "/IL"
+            }
+        }
+    ]
+}

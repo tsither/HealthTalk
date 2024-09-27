@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "230345678",
+        "patient_name": "MPINICA",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 6.1,
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        }
+    ]
+}

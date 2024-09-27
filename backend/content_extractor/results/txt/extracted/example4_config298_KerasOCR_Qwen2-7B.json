@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 5.2, RBC: 5.1, HGB: 14.3, HCT: 0.42",
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4.0-10.0, RBC: 4.5-6.0, HGB: 13.0-17.0, HCT: 0.40-0.52"
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": "0.8 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

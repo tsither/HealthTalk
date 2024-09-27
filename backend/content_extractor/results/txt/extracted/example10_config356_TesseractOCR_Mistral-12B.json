@@ -1,0 +1,23 @@
+{
+    "Date": "19.07.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 4.2,
+            "unit_of_measurement": "Million/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Differential",
+            "result_value": "Neutrophils: 60%, Lymphocytes: 35%, Monocytes: 4%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

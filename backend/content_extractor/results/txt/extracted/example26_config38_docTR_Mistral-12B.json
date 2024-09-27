@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrito",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_range": "36.0 - 47.0"
+        },
+        {
+            "test_name": "Plaquetocrito",
+            "result_value": 16.2,
+            "unit_of_measurement": "%",
+            "reference_range": "15.6 - 18.4"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E3/µL",
+            "reference_range": "4.00 - 10.00"
+        }
+    ]
+}

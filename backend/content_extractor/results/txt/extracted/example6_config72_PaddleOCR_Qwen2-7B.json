@@ -1,0 +1,57 @@
+{
+    "Date": "02/Dec/2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "sample_collected_at": "02 Dec, 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "Hemoglobin: 12.5g/dL; Total RBC count: Low",
+            "unit_of_measurement": "g/dL; cells/uL",
+            "reference_range": [
+                "Normal range for Hb is 13.0-17.0 g/dL",
+                "Normal range for total RBC count is 13.0-17.0 cells/uL"
+            ]
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "PCV: 5.2%; MCV: 4.5 - 5.5 fL; Mean Corpuscular Hemoglobin (MCH): 87.75 pg; RDW %: 32.8%",
+            "unit_of_measurement": "%, fL, pg, %",
+            "reference_range": [
+                "Normal range for PCV is 40-50%",
+                "Normal range for MCV is 40-50 pg",
+                "Normal range for MCH is 27 - 31 pg",
+                "Normal range for RDW% is 11.5 - 14.5%"
+            ]
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "Total WBC count: 13.6 cells/uL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": [
+                "Normal range is 32.5 - 34.5 cells/uL"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "% Neutrophils: % Lymphocytes: 40%; Eosinophils: 60; Monocytes: 31%; Basophils: 1%",
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "Normal range for neutrophils is 50 - 62%",
+                "Normal range for lymphocytes is 1p/6",
+                "Normal range for eosinophils is 50 - 62%",
+                "Normal range for monocytes is 1p/6"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Platelet Count: not specified",
+            "unit_of_measurement": "not specified",
+            "reference_range": null
+        }
+    ]
+}

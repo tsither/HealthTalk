@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": " . Patel ",
+        "patient_sex": null,
+        "patient_age": "16"
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": "14.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "84",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "30",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "4000",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "15|60"
+        }
+    ]
+}

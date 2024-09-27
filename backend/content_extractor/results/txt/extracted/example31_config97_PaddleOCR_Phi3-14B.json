@@ -1,0 +1,32 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) - 13.0, RBC COUNT - 48",
+            "unit_of_measurement": "- High/Low",
+            "reference_range": "Hemoglobin: 12-17 gm/dl, RBC: 4.5 to 6.0 million cells/mcL"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "PCV - 87.75, MCV - 5.2 Low, MCH - 4.5 - 5.5, RDW - 31 PLATELET COUNT % - 7% low"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Total WBC count - 83-101, Neutrophils - 27-32%, Lymphocytes - 49.6%",
+            "unit_of_measurement": "- High/Low",
+            "reference_range": "WBC: 5000 to 10000 cells/mcL, Neutrophils - 32-68%, Lymphocytes - 25-40%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "- High, Platelets: 7% low",
+            "unit_of_measurement": "platelets: 150,000 to 450,000 per mcL"
+        }
+    ]
+}

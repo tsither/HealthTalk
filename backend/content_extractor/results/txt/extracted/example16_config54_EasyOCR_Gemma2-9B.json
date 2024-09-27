@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "4.10",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.00 - 5.50 million/µL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "9.00",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.50 - 11.00 thousand/µL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.10",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "41.00",
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 54%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "97.00",
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "325.00",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.00",
+            "unit_of_measurement": "%",
+            "reference_range": "11 - 15%"
+        }
+    ]
+}

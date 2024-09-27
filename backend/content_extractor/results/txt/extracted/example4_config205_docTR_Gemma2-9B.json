@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Corine",
+        "patient_sex": "Female",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": ">10.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 31.5,
+            "unit_of_measurement": "%",
+            "reference_range": ">31.0%"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.2,
+            "unit_of_measurement": "million/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 23.8,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 31.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": ">30.0 g/dL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 7.8,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 265,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        }
+    ]
+}

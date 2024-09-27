@@ -1,0 +1,29 @@
+{
+    "Date": "Dec 2, 2027",
+    "patient_information": {
+        "patient_id": "15678",
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130-170]"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "300",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[4,500-12,500]"
+        }
+    ]
+}

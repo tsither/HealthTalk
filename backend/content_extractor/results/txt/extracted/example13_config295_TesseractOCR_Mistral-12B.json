@@ -1,0 +1,62 @@
+{
+    "Date": "15.03.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 15.0,
+                "HCT": 42.0,
+                "PLT": 250,
+                "MCV": 90
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^3/µL",
+                "MCV": "fL"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.0",
+                "RBC": "4.4-6.2",
+                "HGB": "13.5-17.5",
+                "HCT": "41-53",
+                "PLT": "150-450",
+                "MCV": "80-100"
+            }
+        },
+        {
+            "test_name": "CMP",
+            "result_value": {
+                "Glucose": 95,
+                "BUN": 12.3,
+                "Cr": 0.8,
+                "ALT": 25.0,
+                "AST": 32.0
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "BUN": "mg/dL",
+                "Cr": "mg/dL",
+                "ALT": "U/L",
+                "AST": "U/L"
+            },
+            "reference_range": {
+                "Glucose": "70-99",
+                "BUN": "6-20",
+                "Cr": "0.6-1.2",
+                "ALT": "7-56",
+                "AST": "8-48"
+            }
+        }
+    ]
+}

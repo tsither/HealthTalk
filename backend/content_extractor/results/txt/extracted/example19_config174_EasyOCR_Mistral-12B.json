@@ -1,0 +1,29 @@
+{
+    "Date": "25/12/2021",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam S G",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.04,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.5,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": "4.5 -6.0 M/mm³"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 328,
+            "unit_of_measurement": "x10³/mm³",
+            "reference_range": "150-450 x10³/mm³"
+        }
+    ]
+}

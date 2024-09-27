@@ -1,0 +1,55 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCv)": 87.75,
+                "Mean Corpuscular Hemoglobin (MCH)": 27.2,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": 32.8,
+                "Red Cell Distribution Width (RDW)": 13.6,
+                "Neutrophils": 60,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCv)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL",
+                "Red Cell Distribution Width (RDW)": "%",
+                "Neutrophils": "%",
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0",
+                "Total RBC count": "4.5- 5.5",
+                "Packed Cell Volume (PCV)": "40-50 %",
+                "Mean Corpuscular Volume (MCv)": "83- 101 fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "27 - 32 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32.5 - 34.5 g/dL",
+                "Red Cell Distribution Width (RDW)": "11.6 - 14.0 %",
+                "Neutrophils": "42-72%",
+                "Platelet Count": "150000 - 410000"
+            }
+        }
+    ]
+}

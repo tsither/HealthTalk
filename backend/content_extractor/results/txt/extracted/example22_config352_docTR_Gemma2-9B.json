@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red blood cells: 4.5 million/µL\nWhite blood cells: 7,200/µL\nPlatelets: 250,000/µL",
+            "unit_of_measurement": "million/µL, /µL, /µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolytes",
+            "result_value": "Sodium: 138 mmol/L\nPotassium: 4.0 mmol/L\nChloride: 102 mmol/L\nBicarbonate: 25 mmol/L",
+            "unit_of_measurement": "mmol/L, mmol/L, mmol/L, mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "105 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

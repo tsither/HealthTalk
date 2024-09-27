@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah o av ",
+        "patient_sex": "Male",
+        "patient_age": "55 Vears"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.125",
+            "unit_of_measurement": "x10^6 cells/uL",
+            "reference_range": "4.5-5.5 x10^6 cells/uL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "27",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "340",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "12.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

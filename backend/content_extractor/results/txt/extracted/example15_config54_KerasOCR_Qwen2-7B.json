@@ -1,0 +1,21 @@
+{
+    "Date": "02/02/20xx",
+    "patient_information": {
+        "patient_id": "0123456189",
+        "patient_name": "Patel Yash M",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PDW",
+            "result_value": "17",
+            "unit_of_measurement": "50%",
+            "reference_range": {
+                "adults": "(17-35%)",
+                "children": "(46-78%)",
+                "newborns": "<=25%"
+            }
+        }
+    ]
+}

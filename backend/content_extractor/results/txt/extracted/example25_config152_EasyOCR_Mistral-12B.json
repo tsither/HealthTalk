@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": "6.56",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "[4.5, 11]"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": "4.17",
+            "unit_of_measurement": "10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12, 16]"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "40.3",
+            "unit_of_measurement": "%",
+            "reference_range": "[37, 47]"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "259",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "NEU",
+            "result_value": "62.7",
+            "unit_of_measurement": "%",
+            "reference_range": "[45, 65]"
+        },
+        {
+            "test_name": "LYM",
+            "result_value": "28.3",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MON",
+            "result_value": "7.0",
+            "unit_of_measurement": "%",
+            "reference_range": "[2, 10]"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 8.0, RBC: 5.2, HGB: 16.0, HCT: 47.2, MCV: 93.0, MCH: 32.0, MCHC: 35.0",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 190 mg/dL, HDL-Cholesterol: 42 mg/dL, LDL-Cholesterol: 135 mg/dL, Triglycerides: 160 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": " Serum Creatinine: 1.2 mg/dL, Blood Urea Nitrogen: 15 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

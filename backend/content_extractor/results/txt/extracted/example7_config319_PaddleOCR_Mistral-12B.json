@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "HCT": 42,
+                "PLT": 230
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 6.1
+                },
+                "HGB": {
+                    "min": 13,
+                    "max": 18
+                },
+                "HCT": {
+                    "min": 40,
+                    "max": 52
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": 80,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": {
+                "min": 62,
+                "max": 115
+            }
+        }
+    ]
+}

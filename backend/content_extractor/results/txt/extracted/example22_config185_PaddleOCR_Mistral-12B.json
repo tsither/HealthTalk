@@ -1,0 +1,59 @@
+{
+    "Date": "02/04/23",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 40.0,
+                "RBC Count": 57.5,
+                "WBC Count": 32.5,
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "RBC Count": "mill/mm^3",
+                "WBC Count": "thou/mm^3",
+                "Platelet Count": null
+            },
+            "reference_range": {
+                "Hemoglobin": "12-16 g/dL",
+                "Hematocrit": "40-50%",
+                "RBC Count": "4.5-5.5 million/mm^3",
+                "WBC Count": "4,500 - 11,000 cells/mm^3",
+                "Platelet Count": null
+            }
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Neutrophils": "thou/mm^3",
+                "Lymphocytes": "thou/mm^3",
+                "Eosinophils": "thou/mm^3",
+                "Monocytes": "thou/mm^3",
+                "Basophils": "thou/mm^3"
+            },
+            "reference_range": {
+                "Neutrophils": "40-75%",
+                "Lymphocytes": "20-45%",
+                "Eosinophils": "1-6%",
+                "Monocytes": "2-10%",
+                "Basophils": "<1%"
+            }
+        }
+    ]
+}

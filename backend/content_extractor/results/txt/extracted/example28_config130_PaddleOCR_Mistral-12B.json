@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8x10^9/L",
+                "Hemoglobina": "14.3 g/dL",
+                "VCM": "68 fL",
+                "Leucicitos": "29 x10^6/L"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "220 mg/dL",
+                "Colesterol": "70.0 mg/dL",
+                "Proteina": "1.15 mg/dL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Glucosa": "<240.0",
+                "Creatinina": "70.0-110.0",
+                "Colesterol": "55.0-135.0",
+                "Proteina": "0.70-1.10"
+            }
+        },
+        {
+            "test_name": "Hierro",
+            "result_value": "(1+)",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglogina A1C",
+            "result_value": "65 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": "<240.0"
+        }
+    ]
+}

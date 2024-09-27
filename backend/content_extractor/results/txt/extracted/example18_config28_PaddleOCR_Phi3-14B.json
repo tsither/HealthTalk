@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "×10^3/µL",
+            "reference_range": "150 - 400"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Basophils": null
+                },
+                {
+                    "Monocytes": null
+                },
+                {
+                    "Neutrophils": null
+                }
+            ],
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Blood Indices MCV (Mean Corpuscular Volume)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "[40 - 110]"
+        },
+        {
+            "test_name": "RBC Count (Red Blood Cell Count)",
+            "result_value": null,
+            "unit_of_measurement": "x10^6/L",
+            "reference_range": "[4.7 - 5.2]"
+        },
+        {
+            "test_name": "Hemoglon y",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.0 - 17.0]"
+        }
+    ]
+}

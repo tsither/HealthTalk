@@ -1,0 +1,47 @@
+{
+    "Date": "xx.xx.xxx",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shah",
+        "patient_sex": "male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 5.55,
+            "unit_of_measurement": "million cells/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 0.42,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.15,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 29.04,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 5750,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123a56189",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "116 - 345"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": "4.00 - 5.50 millions/µL"
+        },
+        {
+            "test_name": "Hb Packed Cell Volume (PCV)",
+            "result_value": "125",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "689578",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4100 - 11,000 cells/µL"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "8.75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "2.12",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "3.28",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "0.457",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "136",
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": "150,000 - 450,000/µL"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 12.5 g/dL",
+                "Total RBC count: 5,207 cmm",
+                "Packed Cell Volume (PCV): 57.5%",
+                "Mean Corpuscular Volume (MCV): 87 fL",
+                "Red cell distribution width (RDW): 14%, MCHC: 32 g/dL"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "cmm",
+                "%",
+                "fL",
+                "%",
+                "g/dL"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": [
+                "170",
+                "2",
+                "130"
+            ],
+            "unit_of_measurement": [
+                "cells/uL",
+                "-",
+                "cells/uL"
+            ],
+            "reference_range": [
+                null,
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": [
+                "575"
+            ],
+            "unit_of_measurement": [
+                "mg/dL"
+            ],
+            "reference_range": [
+                "140"
+            ]
+        },
+        {
+            "test_name": "MCV, PCV, RBC Indices",
+            "result_value": [
+                null,
+                null,
+                null
+            ],
+            "unit_of_measurement": [
+                null,
+                null,
+                null
+            ],
+            "reference_range": [
+                null,
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "WBC Count and Differential",
+            "result_value": [
+                "32",
+                "5L"
+            ],
+            "unit_of_measurement": [
+                "cells/uL",
+                null
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

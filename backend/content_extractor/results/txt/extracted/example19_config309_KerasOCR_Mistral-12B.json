@@ -1,0 +1,29 @@
+{
+    "Date": "30.05.2022",
+    "patient_information": {
+        "patient_id": "patel1101z9",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 12
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count",
+            "result_value": {
+                "WBC": 6500,
+                "RBC": 4.8,
+                "Hb": 12,
+                "Hct": 36,
+                "Platelets": 210
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "millions/µL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "thousands/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

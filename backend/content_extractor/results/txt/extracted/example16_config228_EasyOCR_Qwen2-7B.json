@@ -1,0 +1,34 @@
+{
+    "Date": "12.11.2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collect_date_time": "12:50 PM on Dec 2nd"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood CBC count investigation",
+            "result_value": {
+                "hemoglobin": "13.05 g/dL",
+                "low_tlc_rbc": null,
+                "total_rbc_count": "5.15 x 10^9 cells",
+                "pcv_volume": "57.5%",
+                "mch": "27.2 pg",
+                "mchc": "328 g/dL",
+                "rdw": "13.6%",
+                "high_tlc_rbc": null
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "total_rbc_count": "cells",
+                "pcv_volume": "%",
+                "mch": "pg",
+                "mchc": "g/dL",
+                "rdw": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "K/µL",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": 20,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": 10.2,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": null,
+            "unit_of_measurement": "s",
+            "reference_range": null
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time",
+            "result_value": 30.1,
+            "unit_of_measurement": "s",
+            "reference_range": null
+        },
+        {
+            "test_name": "International Normalized Ratio",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6.7,
+            "unit_of_measurement": "K/µL",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Absolute Neutrophil Count",
+            "result_value": 3800,
+            "unit_of_measurement": "K/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 120,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "<350"
+        }
+    ]
+}

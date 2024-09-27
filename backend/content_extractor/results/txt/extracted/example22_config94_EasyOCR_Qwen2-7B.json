@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "17 years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "860",
+            "unit_of_measurement": "mM/L",
+            "reference_range": "By 100 millicumm"
+        },
+        {
+            "test_name": "Hemoglobin (f)",
+            "result_value": "o",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "150000",
+            "unit_of_measurement": "",
+            "reference_range": "Calculated"
+        },
+        {
+            "test_name": "RDW (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

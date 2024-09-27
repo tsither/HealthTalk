@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobina": "17g/dL",
+                "hematocrito": "75%",
+                "globulos_rojos": "4.93M/mm³",
+                "globulos_blancos": "8,200/mm³",
+                "plaquetas": "368,000/mm³",
+                "sedimentacion_de_CHCM_velocidad": "33mm/hora"
+            },
+            "unit_of_measurement": {
+                "hemoglobina": "g/dL",
+                "hematocrito": "%",
+                "globulos_rojos": "M/mm³",
+                "globulos_blancos": "/mm³",
+                "plaquetas": "/mm³",
+                "sedimentacion_de_CHCM_velocidad": "mm/hora"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica",
+            "result_value": {
+                "glucosa": "87mg/dL",
+                "colesterol_total": "169mg/dL",
+                "hdl_colesterol": "60mg/dL",
+                "LDL_colesterol": "100mg/dL",
+                "trigliceridos": "155mg/dL",
+                "urea": "26.66mg/dL",
+                "creatinina": "0.6mg/dL",
+                "hierro": "145ug/dL",
+                "uricacao": "4.5mg/dL"
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "colesterol_total": "mg/dL",
+                "hdl_colesterol": "mg/dL",
+                "LDL_colesterol": "mg/dL",
+                "trigliceridos": "mg/dL",
+                "urea": "mg/dL",
+                "creatinina": "mg/dL",
+                "hierro": "ug/dL",
+                "uricacao": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Enzimaticas",
+            "result_value": {
+                "AST(GOT)": "40U/L",
+                "ALT(GPT)": "43U/L",
+                "GGT": "45U/L"
+            },
+            "unit_of_measurement": {
+                "AST(GOT)": "U/L",
+                "ALT(GPT)": "U/L",
+                "GGT": "U/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "02.12.2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "1 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "12.5",
+            "unit_of_measurement": "million/cu mm",
+            "reference_range": "4.0 - 5.5 million/cu mm"
+        },
+        {
+            "test_name": "Hb (Packed Cell Volume)",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "13.6",
+            "unit_of_measurement": "thousand/cu mm",
+            "reference_range": "4000-10000 thousand/cu mm"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "7",
+            "unit_of_measurement": "lakh/cu mm",
+            "reference_range": "150000 - 410000 lakh/cu mm"
+        }
+    ]
+}

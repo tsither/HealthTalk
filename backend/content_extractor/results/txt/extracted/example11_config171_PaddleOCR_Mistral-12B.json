@@ -1,0 +1,64 @@
+{
+    "Date": "04:35 PM, 02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "9ZS699-IVMr x1 krtO3 RY3!'ryJH 1$QasO`0YOn V3Hi 1Y,JH X7k#tO3 NOrSA 1dYPS 80t S0t",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "M",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": 15000,
+                "PLATELET COUNT": 27.2,
+                "RBC COUNT": 486,
+                "HEMOGLOBIN": 13.6
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "cells/mm^3",
+                "PLATELET COUNT": "x10^9/L",
+                "RBC COUNT": "/L",
+                "HEMOGLOBIN": "g/dL"
+            },
+            "reference_range": {
+                "WBC COUNT": [
+                    4.5,
+                    11
+                ],
+                "PLATELET COUNT": [
+                    150,
+                    450
+                ],
+                "RBC COUNT": null,
+                "HEMOGLOBIN": [
+                    13.0,
+                    17.0
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": {
+                "MCH": 27.2,
+                "MCV": 87.75,
+                "PCV": null,
+                "TOTAL RBC COUNT": null
+            },
+            "unit_of_measurement": {
+                "MCH": "pg",
+                "MCV": "fL"
+            },
+            "reference_range": {
+                "MCH": [
+                    27.3,
+                    34.5
+                ],
+                "MCV": [
+                    80,
+                    100
+                ]
+            }
+        }
+    ]
+}

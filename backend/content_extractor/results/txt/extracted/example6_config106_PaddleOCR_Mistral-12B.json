@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 87.75,
+                "Hemoglobin (Hb)": 12.5,
+                "Packed Cell Volume (PCV)": 36.0,
+                "Platelet Count": 27.2,
+                "Mean Corpuscular Volume (MCV)": 93.8,
+                "Total RBC count": 4.75,
+                "WBC COUNT": {
+                    "Lymphocytes": 13.6,
+                    "Neutrophils": 60.0,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "MCH": null,
+                "MCSC": null,
+                "RDW": null
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "10^9/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Platelet Count": "10^9/L",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Total RBC count": "10^12/L",
+                "WBC COUNT": {
+                    "Lymphocytes": "%",
+                    "Neutrophils": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                },
+                "MCH": null,
+                "MCSC": null,
+                "RDW": null
+            },
+            "reference_range": {
+                "Total WBC count": "4.5 - 11.0",
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Packed Cell Volume (PCV)": "36.0-46.0",
+                "Platelet Count": "150-400",
+                "Mean Corpuscular Volume (MCV)": "82 - 98",
+                "Total RBC count": null,
+                "WBC COUNT": {
+                    "Lymphocytes": "27 - 32",
+                    "Neutrophils": "45 - 65",
+                    "Eosinophils": "0.5 - 4",
+                    "Monocytes": "2 - 8",
+                    "Basophils": "<1"
+                },
+                "MCH": null,
+                "MCSC": null,
+                "RDW": null
+            }
+        }
+    ]
+}

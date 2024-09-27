@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "hiren shah",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "red blood cell count",
+            "result_value": "3x 10^6 cells/mcL",
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "4.0 - 5.5 x 10^6 cells/mcL"
+        },
+        {
+            "test_name": "hematocrit",
+            "result_value": "30%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

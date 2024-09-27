@@ -9,6 +9,12 @@ def load_json_file(file_path):
         return json.load(file)
     
 def find_matching_key(target_key, dictionary, threshold=80):
+    if isinstance(dictionary, int):
+        return None
+
+    if isinstance(dictionary, list):
+        return None
+    
     for key in dictionary.keys():
         if fuzz.ratio(target_key.lower(), key.lower()) >= threshold:
             return key

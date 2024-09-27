@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 0
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (qH)",
+            "result_value": 689578,
+            "unit_of_measurement": null,
+            "reference_range": "27.2 Low Basopi ytes is 13.0 - 17.0"
+        },
+        {
+            "test_name": "Hemoglobin (Mindray)",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 40"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red blood cell distribution width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

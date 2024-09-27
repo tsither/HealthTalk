@@ -1,0 +1,35 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.5",
+            "unit_of_measurement": "Mill/cumm",
+            "reference_range": "4.0 - 5.5 Mill/cumm"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "Mill/cumm",
+            "reference_range": "4.5 - 5.5 Mill/cumm"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "31",
+            "unit_of_measurement": "0006",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "87.75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

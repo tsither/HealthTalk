@@ -1,0 +1,31 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": "WBC: 5.2, RBC: 4.8, HGB: 14.0, HCT: 43.0, MCV: 87.0, MCH: 29.0, MCHC: 36.0",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "(4-11)",
+                "RBC": "(4.5-5.5)",
+                "HGB": "(13.0-17.0)",
+                "HCT": "(40.0-50.0)",
+                "MCV": "(80-96)",
+                "MCH": "(28-33)",
+                "MCHC": "(320-360)"
+            }
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 85,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(70-100)"
+        }
+    ]
+}

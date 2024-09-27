@@ -1,0 +1,53 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "234561",
+        "patient_name": "Patel M.",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "10.5",
+            "unit_of_measurement": "x 10^9 /L",
+            "reference_range": "4.0-11.0 x 10^9 /L"
+        },
+        {
+            "test_name": "RBC Total RBC Count",
+            "result_value": "57.5",
+            "unit_of_measurement": "x 10^12 /L",
+            "reference_range": "4.0-5.5 x 10^12 /L"
+        },
+        {
+            "test_name": "Hgb (Hb)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "HCT (Hematocrit)",
+            "result_value": "40.2",
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-48.6 %"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "90.0",
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-100 fL"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "32.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0-36.0 g/dL"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "14.0",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5 %"
+        }
+    ]
+}

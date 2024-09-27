@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "L fo L Page",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (White Blood Cells)",
+            "result_value": "13.6",
+            "unit_of_measurement": "Unit",
+            "reference_range": "5.2 - 7.8"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "< 400,000",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": "28 - 40"
+        }
+    ]
+}

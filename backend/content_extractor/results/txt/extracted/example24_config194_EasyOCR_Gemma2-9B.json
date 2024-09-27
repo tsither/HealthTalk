@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Hemoglobin: 12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal range: 13-17 g/dL for women, 14-18 g/dL for men"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "WBC: 8.5 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "Normal range: 4.5-11.0 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Platelets: 225 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "Normal range: 150-450 x 10^9/L"
+        }
+    ]
+}

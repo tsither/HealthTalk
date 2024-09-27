@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "20231027-1",
+        "patient_name": "JOHN DOE",
+        "patient_sex": "M",
+        "patient_age": 58
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0 - 5.6%"
+        },
+        {
+            "test_name": "Fasting Plasma Glucose",
+            "result_value": 138,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70 - 99 mg/dL"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 245,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<200 mg/dL"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 38,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ">=60 mg/dL"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 175,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<130 mg/dL"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 280,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<150 mg/dL"
+        }
+    ]
+}

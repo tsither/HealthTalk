@@ -1,0 +1,110 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 32,
+        "patient_birth_year": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": [
+                "132",
+                "170"
+            ],
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": [
+                {
+                    "units": "g/dL",
+                    "value": [
+                        "27",
+                        "63"
+                    ]
+                },
+                {
+                    "units": "mmol/mol",
+                    "value": [
+                        "21"
+                    ]
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": [
+                {
+                    "units": "%",
+                    "value": [
+                        "34",
+                        "57"
+                    ]
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": [
+                {
+                    "units": "fL",
+                    "value": [
+                        "80",
+                        "57"
+                    ]
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": [
+                {
+                    "units": "%",
+                    "value": [
+                        "31"
+                    ]
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": [
+                {
+                    "units": "x10^9/L",
+                    "value": [
+                        "15",
+                        "00"
+                    ]
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": [
+                {
+                    "units": "x10^3/μL",
+                    "value": [
+                        "41",
+                        "0"
+                    ]
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

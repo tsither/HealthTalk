@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Ial Shah",
+        "patient_sex": "M",
+        "patient_age": "31"
+    },
+    "test_results": [
+        {
+            "test_name": "MCHC",
+            "result_value": "09",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.8 - 34.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "57.5",
+            "unit_of_measurement": "x10^6/μL",
+            "reference_range": "4.0-5.5 x10^6/μL"
+        },
+        {
+            "test_name": "Hb",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0 g/dL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "12.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-26",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "mm/Hr",
+            "reference_range": null
+        }
+    ]
+}
