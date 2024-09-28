@@ -68,8 +68,8 @@ API_KEY = octoai_api_key
 BASE_URL = langdock_base_url
 # MODEL = model_gpt
 MODEL = model_llama
-sql_query_gen_method = False            #True: generate SQL queries to access database info (sqlite3)
-                                        #False: converts database to json file, queries database using RAG methods (NO SQL QUERY GENERATION)
+sql_query_gen_method = False            #False: converts database to json file, queries database as dictionary (NO SQL QUERY GENERATION)
+                                        #True: generate SQL queries to access database info (sqlite3)
 #############################################################
 
 
@@ -263,11 +263,6 @@ def json_to_sql(data):
     IMPORTANT: Just return the SQL query. Do not make any further comment. Otherwise, the patient will die.
     """
 
-    # llm = AnyScaleLLM(model_name=MODEL, api_key=ANYSCALE_API_KEY)
-    # logger.debug("AnyScaleLLM instantiated successfully.")
-
-    # answer = llm.chat_completion(prompt, str(json_output))
-    # print(answer)
 
     # TODO: Create new OctoAI class as line 231
     client = OctoAI()
@@ -392,6 +387,7 @@ def page3_view(request):
 
             if sql_query_gen_method:
                 query = generate_query(llm=llm, template=SUBCHAIN_PROMPT, question=question, db=DB)
+                logger.debug(f"SQL query generated successfully: {query}")
                 response = generate_response(llm=llm, query=query, template=FULLCHAIN_PROMPT, question=question, db=DB)
             else:
                 response = generate_RAG_query(llm=llm, template=RAG_CONTEXT, user_data=USER_DATA, question=question)

@@ -1,0 +1,386 @@
+{
+    "sqlite_sequence": [
+        {
+            "name": "diagnosis",
+            "seq": "2"
+        },
+        {
+            "name": "USER",
+            "seq": "1"
+        },
+        {
+            "name": "hospitals",
+            "seq": "3"
+        },
+        {
+            "name": "reports",
+            "seq": 8
+        },
+        {
+            "name": "doctors",
+            "seq": "3"
+        },
+        {
+            "name": "appointments",
+            "seq": "6"
+        },
+        {
+            "name": "medicine",
+            "seq": 7
+        }
+    ],
+    "hospitals": [
+        {
+            "hospital_id": 1,
+            "hospital_name": "Inova Fairfax",
+            "address_line": " 3300 Gallows Rd, Falls Church, VA 22042",
+            "phone_number": "7328913"
+        },
+        {
+            "hospital_id": 2,
+            "hospital_name": "Virginia Hospital Center",
+            "address_line": " 1701 N George Mason Dr, Arlington, VA 22205",
+            "phone_number": "37182930"
+        },
+        {
+            "hospital_id": 3,
+            "hospital_name": "Martin Family Practice",
+            "address_line": "2544 W language Ave, Arlington, VA 22204",
+            "phone_number": "8375621"
+        }
+    ],
+    "diagnosis": [
+        {
+            "diagnosis_id": 1,
+            "diagnosis_name": "Diabetes Type 2",
+            "recommendations": "Monitor blood sugar levels and follow a diabetic diet"
+        },
+        {
+            "diagnosis_id": 2,
+            "diagnosis_name": "Iron deficiency",
+            "recommendations": "Increase consumption of iron-rich foods and take supplementation"
+        }
+    ],
+    "reports": [
+        {
+            "report_id": 1,
+            "report_date": "2024-01-18",
+            "test_name": "Hemoglobin",
+            "test_result": 11.0,
+            "test_units": "g/dL",
+            "test_reference_range": "13.0-17.0",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Low"
+        },
+        {
+            "report_id": 2,
+            "report_date": "2024-01-18",
+            "test_name": "Neutrophils",
+            "test_result": 55.0,
+            "test_units": "%",
+            "test_reference_range": "50-62",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 3,
+            "report_date": "2024-04-24",
+            "test_name": "Cholesterol",
+            "test_result": 100.0,
+            "test_units": "mg/dL",
+            "test_reference_range": "Less than 200",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 2,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 4,
+            "report_date": "2024-05-30",
+            "test_name": "Glucose",
+            "test_result": 110.0,
+            "test_units": "mg/dL",
+            "test_reference_range": "70-100",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 5,
+            "report_date": "2024-05-30",
+            "test_name": "Hemoglobin A1c",
+            "test_result": 5.0,
+            "test_units": "%",
+            "test_reference_range": "4.0-5.6",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 6,
+            "report_date": "2024-05-30",
+            "test_name": "Platelets",
+            "test_result": 300000.0,
+            "test_units": "cells/\u00b5L",
+            "test_reference_range": "150000-400000",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 7,
+            "report_date": "2024-07-18",
+            "test_name": "Urine Microalbumin",
+            "test_result": 40.0,
+            "test_units": "mg/dL",
+            "test_reference_range": "0.0-30.0",
+            "report_type_id": 2,
+            "user_id": 1,
+            "hospital_id": 3,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 8,
+            "report_date": "2024-07-18",
+            "test_name": "Hemoglobin",
+            "test_result": 15.0,
+            "test_units": "g/dL",
+            "test_reference_range": "13.0-17.0",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 3,
+            "interpretation": "Normal"
+        }
+    ],
+    "appointments": [
+        {
+            "appointment_id": 1,
+            "appointment_date": "2024-01-18\n",
+            "payment_total": 60.0,
+            "user_id": 1,
+            "hospital_id": 1,
+            "doctor_id": 1
+        },
+        {
+            "appointment_id": 2,
+            "appointment_date": "2024-05-30\n",
+            "payment_total": 80.0,
+            "user_id": 1,
+            "hospital_id": 1,
+            "doctor_id": 1
+        },
+        {
+            "appointment_id": 3,
+            "appointment_date": "2024-04-24\n",
+            "payment_total": 70.0,
+            "user_id": 1,
+            "hospital_id": 2,
+            "doctor_id": 2
+        },
+        {
+            "appointment_id": 4,
+            "appointment_date": "2024-07-18\n",
+            "payment_total": 70.0,
+            "user_id": 1,
+            "hospital_id": 3,
+            "doctor_id": 3
+        },
+        {
+            "appointment_id": 5,
+            "appointment_date": "2024-10-29",
+            "payment_total": "N/A",
+            "user_id": 1,
+            "hospital_id": 1,
+            "doctor_id": 1
+        },
+        {
+            "appointment_id": 6,
+            "appointment_date": "2024-12-10",
+            "payment_total": "N/A",
+            "user_id": 1,
+            "hospital_id": 3,
+            "doctor_id": 3
+        }
+    ],
+    "diagnosis_by_doctor": [
+        {
+            "doctor_id": 1,
+            "diagnosis_id": 1
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 2
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 3
+        },
+        {
+            "doctor_id": 3,
+            "diagnosis_id": 4
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 5
+        },
+        {
+            "doctor_id": 2,
+            "diagnosis_id": 6
+        },
+        {
+            "doctor_id": 1,
+            "diagnosis_id": 7
+        }
+    ],
+    "medicine_by_diagnosis": [
+        {
+            "medicine_id": 1,
+            "diagnosis_id": 1
+        },
+        {
+            "medicine_id": 2,
+            "diagnosis_id": 1
+        },
+        {
+            "medicine_id": 3,
+            "diagnosis_id": 1
+        },
+        {
+            "medicine_id": 4,
+            "diagnosis_id": 1
+        },
+        {
+            "medicine_id": 5,
+            "diagnosis_id": 1
+        },
+        {
+            "medicine_id": 6,
+            "diagnosis_id": 2
+        },
+        {
+            "medicine_id": 7,
+            "diagnosis_id": 2
+        }
+    ],
+    "report_type": [
+        {
+            "report_type_id": 1,
+            "report_type_name": "Blood report"
+        },
+        {
+            "report_type_id": 2,
+            "report_type_name": "Urine Microalbumin"
+        }
+    ],
+    "USER": [
+        {
+            "user_id": 1,
+            "first_name": "Drew",
+            "last_name": "Smith",
+            "gender": "M",
+            "birth_date": "1998-04-26",
+            "phone_number": "82930128"
+        }
+    ],
+    "doctor_specialization": [
+        {
+            "specialization_id": 1,
+            "specialization_name": "Endocrinologist"
+        },
+        {
+            "specialization_id": 2,
+            "specialization_name": "Cardiologist"
+        },
+        {
+            "specialization_id": 3,
+            "specialization_name": "Primary Care Physician"
+        }
+    ],
+    "doctors": [
+        {
+            "doctor_id": 1,
+            "first_name": "Harper",
+            "last_name": "Jackson",
+            "phone_number": "29392012",
+            "email": "harperjackson@gmail.com",
+            "specialization_id": 1,
+            "hospital_id": 1
+        },
+        {
+            "doctor_id": 2,
+            "first_name": "William",
+            "last_name": "Hernandez",
+            "phone_number": "28102930",
+            "email": "williamhernandez@gmail.com",
+            "specialization_id": 2,
+            "hospital_id": 2
+        },
+        {
+            "doctor_id": 3,
+            "first_name": "Nora",
+            "last_name": "Martin",
+            "phone_number": "28123939",
+            "email": "noramartin@gmail.com",
+            "specialization_id": 3,
+            "hospital_id": 3
+        }
+    ],
+    "medicine": [
+        {
+            "medicine_id": 1,
+            "medicine_name": "Metformin",
+            "dosage": 750,
+            "daily_frequency": 2,
+            "units": "mg"
+        },
+        {
+            "medicine_id": 2,
+            "medicine_name": "Glyburide",
+            "dosage": 2.5,
+            "daily_frequency": 1,
+            "units": "mg"
+        },
+        {
+            "medicine_id": 3,
+            "medicine_name": "Liraglutide (GLP-1 Receptor Agonists)",
+            "dosage": 0.8,
+            "daily_frequency": 1,
+            "units": "mg"
+        },
+        {
+            "medicine_id": 4,
+            "medicine_name": "Insulin Glargine (Long-acting Insulin)",
+            "dosage": 20,
+            "daily_frequency": 1,
+            "units": "units"
+        },
+        {
+            "medicine_id": 5,
+            "medicine_name": "Sitagliptin (DPP-4 Inhibitors)",
+            "dosage": 100,
+            "daily_frequency": 1,
+            "units": "mg"
+        },
+        {
+            "medicine_id": 6,
+            "medicine_name": "Ferrous Sulfate",
+            "dosage": 325,
+            "daily_frequency": 2,
+            "units": "mg"
+        },
+        {
+            "medicine_id": 7,
+            "medicine_name": "Iron Polysaccharide",
+            "dosage": 100,
+            "daily_frequency": 1,
+            "units": "mg"
+        }
+    ]
+}

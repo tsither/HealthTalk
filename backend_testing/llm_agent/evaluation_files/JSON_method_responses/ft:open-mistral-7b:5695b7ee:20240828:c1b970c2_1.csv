@@ -1,0 +1,51 @@
+High (19.0 g/dL),1.2997121810913086
+The medications you are currently prescribed are Paracetamol with a dosage of 500 mg and Ibuprofen with a dosage of 200 mg.,1.0180490016937256
+You last visited Cedars-Sinai Medical Center for your medical visit.,2.0579640865325928
+The result of your last cholesterol test was 180 mg/dL,0.7588150501251221
+You have been diagnosed with hypertension once.,0.9095380306243896
+Monitor blood sugar levels and follow a diabetic diet,0.6778359413146973
+The contact number for the hospital where you had your last appointment is 8457289,0.8581211566925049
+The total payment for the user's last medical appointment was 60.00,0.849768877029419
+The diagnosis given by Dr. Jane Doe during your last visit was 'Allergy',1.0358891487121582
+The normal reference range for a glucose test is 70-100 mg/dL,0.8264942169189453
+Take the prescribed Lisinopril once a day.,0.9345121383666992
+"The interpretation of my last creatinine test result is ""Normal""",1.1050639152526855
+"SELECT T1.test_name FROM reports AS T1 JOIN test_types AS T2 ON T1.test_type_id  =  T2.test_type_id WHERE T1.interpretation  =  ""High"" AND T1.user_id  =  1",1.4812989234924316
+Take antihistamines,0.6357853412628174
+The dosage of the medicine Oseltamivir is 75,2.1304469108581543
+"Kindred Hospital Chicago North is located at 2544 W Montrose Ave, Chicago, IL 60618",0.9792742729187012
+The platelet count in the most recent blood report was 250000 cells/µL.,1.520902156829834
+The diagnosis of Flu was made by doctor John Doe on 2024-06-15.,0.9271230697631836
+"SELECT appointment_date FROM Appointments AS T1 JOIN doctors AS T2 ON T1.doctor_id  =  T2.doctor_id WHERE T2.first_name = ""Michael"" AND T2.last_name = ""Smith""",1.5636069774627686
+$340.00,2.0485219955444336
+The dosage for the medicine Metformin that you are taking is 500 mg and the frequency is 2 times a day.,1.2449328899383545
+"SELECT T1.first_name ,  T1.last_name FROM doctors AS T1 JOIN appointments AS T2 ON T1.doctor_id  =  T2.doctor_id JOIN USER AS T3 ON T3.user_id  =  T2.user_id JOIN hospitals AS T4 ON T4.hospital_id  =  T2.hospital_id WHERE T4.hospital_id  =  4",2.2437028884887695
+Take ibuprofen,0.792698860168457
+The user has been prescribed Cetirizine 1 times.,1.093177080154419
+"The result of your urinalysis report from two visits ago was ""Normal""",0.7594537734985352
+"Based on the records from the last six months, here's a summary of your medical reports:1. April 1, 2024 - Hemoglobin: High (19.0g/dL), Neutrophils: Normal (60.0%)2. April 2, 2024 - Cholesterol: High (180.0mg/dL), Glucose: High (110.0mg/dL)3. April 3, 2024 - Hemoglobin A1c: Normal (5.5%), Platelets: Normal (250000 cells/µL)4. April 4, 2024 - Bilirubin: Normal (1.0mg/dL), Creatinine: Normal (0.8mg/dL)",3.1808741092681885
+The test units for the hemoglobin A1c in your reports are '%',1.721120834350586
+There are 8 different types of reports you have had.,0.8367149829864502
+"In the appointment on 2024-05-15, you paid $70.00",1.0300769805908203
+Reduce salt intake and exercise regularly,0.7012901306152344
+Take Paracetamol,0.8684020042419434
+The result of your Hemoglobin A1c in the last report was 5.5%,0.9170150756835938
+The interpretation of your Hemoglobin A1c in the last report was 'Normal',0.8377630710601807
+The interpretation of my bilirubin levels in the last report was 'Normal',0.7246241569519043
+SELECT appointment_date FROM appointments AS t1 JOIN doctors AS t2 ON t1.doctor_id  =  t2.doctor_id JOIN doctor_specialization AS t3 ON t2.specialization_id  =  t3.specialization_id WHERE t3.specialization_name  =  'Cardiologist',2.6937739849090576
+The user has visited Cedars-Sinai for appointments 6 times.,0.9140181541442871
+The normal reference range for neutrophils is 50-62,0.9272780418395996
+michaelsmith@gmail.com,0.938101053237915
+janedoe@gmail.com,0.9286689758300781
+The phone number of Doctor John Doe is 8374972,0.8307108879089355
+9876543,0.8296778202056885
+Jane Doe works at NYU Langone.,0.835637092590332
+Michael Smith is a Cardiologist.,0.7215590476989746
+Maria Garcia is a Pediatrician.,1.7543010711669922
+The phone number of NYU Langone is '8447239',0.9347610473632812
+"Cedars-Sinai Medical Center is located at 8700 Beverly Blvd, Los Angeles, CA 90048",1.1281859874725342
+You have listed 4 hospitals.,1.550584077835083
+The Cholesterol test is in 'mg/dL' units.,0.8292598724365234
+Your next upcoming appointment is on 2024-05-15.,1.1306650638580322
+"Bring a list of your current medications, including dosage and frequency, to your next appointment.",1.0470778942108154
+"Your next appointment is on May 15, 2024 at Cedars-Sinai Medical Center.",1.0267579555511475

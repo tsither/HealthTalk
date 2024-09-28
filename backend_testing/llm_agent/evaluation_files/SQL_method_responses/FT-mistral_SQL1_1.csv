@@ -1,0 +1,51 @@
+Error,"SELECT T2.test_result FROM reports AS T1 JOIN report_type AS T2 ON T1.report_type_id=T2.report_type_id JOIN medicine AS T3 ON T1.hospital_id=T3.hospital_id WHERE T1.first_name=""Belen"" AND T1.last_name=""Tavares"" AND T2.report_type_name=""Blood report"" ORDER BY T1.report_date DESC LIMIT 1"
+Error,"SELECT T1.medicine_name ,T2.dosage FROM medicine_by_diagnosis AS T1 JOIN medicine AS T2 ON T1.medicine_id = T2.medicine_id JOIN doctors AS T3 ON T3.doctor_id = T1.doctor_id JOIN appointment AS T4 ON T3.doctor_id = T4.doctor_id WHERE T4.user_id = (SELECT user_id FROM appointment WHERE appointment_date=CURDATE())"
+Error,SELECT T1.hospital_name FROM appointments AS T1 JOIN hospitals AS T2 ON T1.hospital_id=T2.hospital_id ORDER BY T1.appointment_date DESC LIMIT 1
+(180.0),"SELECT test_result FROM reports WHERE test_name=""Cholesterol"" AND user_id=1 AND report_date=(SELECT MAX(report_date) FROM reports WHERE test_name=""Cholesterol"" AND user_id=1)",7.308894872665405
+You have been diagnosed with hypertension 1 time,SELECT COUNT(*) FROM diagnosis_by_doctor WHERE diagnosis_id = 2,6.147641181945801
+Monitor blood sugar levels and follow a diabetic diet,"SELECT Recommendations FROM diagnosis WHERE Diagnosis_name = ""Diabetes""",6.473213195800781
+The contact number of the hospital where you had your last appointment is 8457289,SELECT T2.phone_number FROM appointments AS T1 JOIN hospitals AS T2 ON T1.hospital_id = T2.hospital_id WHERE T1.user_id = (SELECT T3.user_id FROM appointments AS T3 ORDER BY T3.appointment_id DESC LIMIT 1),7.369430065155029
+$75.0,SELECT payment_total FROM appointments WHERE user_id=(SELECT user_id FROM appointments ORDER BY appointment_date DESC LIMIT 1),6.452159881591797
+Anxiety,"SELECT diagnosis_name FROM diagnosis_by_doctor AS T1 JOIN diagnosis AS T2 ON T1.diagnosis_id=T2.diagnosis_id JOIN appointments AS T3 ON T1.doctor_id=T3.doctor_id JOIN user AS T4 ON T3.user_id=T4.user_id WHERE T4.first_name=""Belen"" AND T4.last_name=""Tavares"" AND T1.doctor_id=(SELECT doctor_id FROM doctors WHERE first_name=""Jane"" AND last_name=""Doe"")",8.624833106994629
+The normal reference ranges for a glucose test are 70-100,SELECT test_reference_range FROM reports WHERE test_name='Glucose',6.563093185424805
+Error,SELECT T2.daily_frequency FROM medicine AS T1 JOIN medicine_by_diagnosis AS T2 ON T1.medicine_id=T2.medicine_id WHERE T1.medicine_name='Lisinopril';
+Error,"SELECT T1.interpretation FROM reports AS T1 JOIN user AS T2 ON T1.user_id = T2.user_id WHERE T2.user_id = ? AND T1.test_name = ""Creatinine"" ORDER BY T1.report_date DESC LIMIT 1"
+"Hemoglobin, Cholesterol, Glucose",SELECT T1.test_name FROM Reports AS T1 JOIN report_type AS T2 ON T1.report_type_id=T2.report_type_id JOIN appointments AS T3 ON T1.user_id=T3.user_id WHERE T1.interpretation='High',7.524899959564209
+Error,"SELECT T2.medicine_name FROM diagnosis AS T1 JOIN medicine_by_diagnosis AS T2 ON T1.diagnosis_id=T2.diagnosis_id WHERE T1.diagnosis_name=""Allergy"""
+The dosage of the medicine Oseltamivir is 75,SELECT dosage FROM medicine WHERE medicine_name='Oseltamivir',6.699225902557373
+"Yes, the address is 2544 W Montrose Ave, Chicago, IL 60618.",SELECT address_line FROM hospitals WHERE hospital_id = 3,6.620024919509888
+Error,SELECT T2.platelet_count FROM reports AS T1 JOIN blood_tests AS T2 ON T1.report_id=T2.report_id WHERE T1.user_id=1 ORDER BY T1.report_date DESC LIMIT 1
+Error,"SELECT T3.first_name ,T3.last_name FROM appointments AS T1 JOIN diagnosis AS T2 ON T1.appointment_id=T2.appointment_id JOIN doctor_by_diagnosis AS T3 ON T2.diagnosis_id=T3.diagnosis_id JOIN doctors AS T4 ON T3.doctor_id=T4.doctor_id JOIN USER AS T5 ON T1.user_id=T5.user_id WHERE T5.birth_date LIKE ""%1990-12%"" AND T2.diagnosis_name=""Flu"""
+"April 15, 2024, May 15, 2024, May 20, 2024, June 15, 2024",SELECT appointment_date FROM appointments WHERE user_id=1 INTERSECT SELECT appointment_date FROM appointments WHERE doctor_id=3,7.098426818847656
+"You have paid $12,144.00 for your medical appointments.",SELECT sum(appointment_date) FROM appointments WHERE user_id=1;,6.5173659324646
+Error,"SELECT t1.dosage ,t1.daily_frequency FROM medicine_by_diagnosis AS t1 JOIN diagnosis AS t2 ON t1.diagnosis_id = t2.diagnosis_id WHERE t2.diagnosis_name='Diabetes'"
+"Sure, here are the doctors you have seen at the 4th hospital in Miami:Doctor Name-----------Diana MartinezRobert Johnson","SELECT T1.first_name ,T1.last_name FROM doctors AS T1 JOIN appointments AS T2 ON T1.doctor_id=T2.doctor_id WHERE T2.hospital_id=4",7.153893232345581
+Error,SELECT t2.recommendations FROM appointments AS t1 JOIN diagnosis_by_doctor AS t2 ON t1.doctor_id=t2.doctor_id WHERE t1.user_id=1 AND t1.diagnosis_id=2
+(2),SELECT count(*) FROM medicine_by_diagnosis WHERE medicine_id=3,6.321361064910889
+Error,"SELECT report_result FROM reports WHERE user_id=1 AND report_date<=DATEADD(day , -2 , GETDATE()) AND test_name=""Urinalysis"""
+Error,"SELECT T1.report_id ,T1.test_name ,T1.test_result ,T1.test_units ,T1.test_reference_range ,T1.interpretation ,T2.report_date FROM reports AS T1 JOIN user AS T2 ON T1.user_id=T2.user_id WHERE T1.report_date>=DATE(DATE_SUB(now(), INTERVAL 6 MONTH))"
+The test units for the hemoglobin A1c in my reports are %.,"SELECT T1.test_units FROM reports AS T1 JOIN report_type AS T2 ON T1.report_type_id=T2.report_type_id WHERE T1.test_name=""Hemoglobin A1c"" AND T1.user_id=1",7.069616794586182
+You have had 1 type of report.,SELECT count(DISTINCT report_type_id) FROM reports WHERE user_id = 1,6.5936808586120605
+The highest payment made for a single appointment was $75 on 2024-06-05,"SELECT max(payment_total) ,appointment_date FROM appointments",6.5251240730285645
+The latest recommendation for your hypertension management is to take 10mg of Losartan daily and to do 40 minutes of aerobics 3 times a week.,"SELECT T1.recommendations FROM diagnosis AS T1 JOIN diagnosis_by_doctor AS T2 ON T1.diagnosis_id=T2.diagnosis_id JOIN doctors AS T3 ON T2.doctor_id=T3.doctor_id WHERE T3.first_name=""Belen"" AND T3.last_name=""Tavares"" AND T1.diagnosis_name=""Hypertension"" ORDER BY T1.diagnosis_id DESC LIMIT 1",8.232148170471191
+Error,"SELECT t1.recommendations FROM diagnosis_by_doctor AS t1 JOIN diagnosis AS t2 ON t1.diagnosis_id = t2.diagnosis_id WHERE t2.diagnosis_name = ""cold"""
+The result of your Hemoglobin A1c in the last report was 5.5,"SELECT test_result FROM reports WHERE test_name = ""Hemoglobin A1c"" ORDER BY report_date DESC LIMIT 1",6.789976119995117
+Normal,SELECT Interpretation FROM reports WHERE report_type_id = 1 AND user_id = 1 ORDER BY report_date DESC LIMIT 1,6.232485771179199
+Error,SELECT T2.interpretation FROM reports AS T1 JOIN diagnosis AS T2 ON T1.diagnosis_id=T2.diagnosis_id WHERE T1.test_name='Bilirubin' ORDER BY T1.report_date DESC LIMIT 1
+"[('2024-04-22',), ('2024-04-30',), ('2024-05-15',), ('2024-05-20',), ('2024-06-05',), ('2024-06-15',)]",SELECT appointment_date FROM appointments WHERE doctor_id IN (SELECT doctor_id FROM doctor_specialization WHERE specialization_name='Cardiologist'),7.422106742858887
+3 times,SELECT count(*) FROM appointments WHERE hospital_id=1,6.225341796875
+The normal reference ranges for neutrophils are 50-62,"SELECT test_reference_range FROM reports WHERE test_name = ""Neutrophils""",6.46051812171936
+michaelsmith@gmail.com,"SELECT email FROM doctors WHERE first_name=""Michael"" AND last_name=""Smith""",6.5650599002838135
+janedoe@gmail.com,SELECT email FROM doctors WHERE first_name = 'Jane' AND last_name = 'Doe',6.161421775817871
+Error,"SELECT t2.phone_number FROM doctors AS t1 JOIN USER AS t2 ON t1.user_id=t2.user_id WHERE t1.first_name=""John"" AND t1.last_name=""Doe"""
+The phone number of doctor Maria Garcia is 9876543,SELECT phone_number FROM doctors WHERE first_name='Maria' AND last_name='Garcia',6.691210031509399
+NYU Langone,SELECT hospitals.hospital_name FROM hospitals JOIN doctors ON hospitals.hospital_id=doctors.hospital_id WHERE doctors.first_name='Jane' AND doctors.last_name='Doe',6.8670899868011475
+Error,"SELECT T1.specialization_name FROM doctors AS T1 JOIN doctor_specialization AS T2 ON T1.specialization_id=T2.specialization_id WHERE T1.first_name=""Michael"" AND T1.last_name=""Smith"""
+Error,"SELECT specialization_name FROM doctors WHERE first_name=""Maria"" AND last_name=""Garcia"""
+The phone number of NYU Langone is 844-723-9.,"SELECT phone_number FROM hospitals WHERE hospital_name=""NYU Langone""",6.389103174209595
+Error,SELECT T2.address_line FROM hospitals AS T1 JOIN hospital_clinics AS T2 ON T1.hospital_id=T2.hospital_id WHERE T1.hospital_name='Cedars-Sinai Medical Center'
+There are 4 hospitals listed,SELECT count(*) FROM hospitals,6.675635099411011
+mg/dL,SELECT test_units FROM reports WHERE test_name='Cholesterol',6.197849988937378
+"Your next upcoming appointment is on April 22, 2024.",SELECT appointment_date FROM appointments WHERE user_id=1 ORDER BY appointment_date LIMIT 1,6.833185195922852
+Error,"SELECT T2.diagnosis_name ,T3.medicine_name FROM appointments AS T1 JOIN diagnosis_by_doctor AS T2 ON T1.doctor_id=T2.doctor_id JOIN medicine_by_diagnosis AS T3 ON T2.diagnosis_id=T3.diagnosis_id WHERE T1.appointment_date='2024-04-22'"
+Your next appointment is on 2024-04-22.,SELECT appointment_date FROM appointments WHERE user_id=1 ORDER BY appointment_date LIMIT 1,6.550122976303101

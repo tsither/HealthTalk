@@ -1,0 +1,51 @@
+"Your most recent hemoglobin level, from the report dated 2024-04-01, was 19.0 g/dL. This result was interpreted as ""High.""",1.128871202468872
+"Based on the provided data, here are the medications you are currently prescribed along with their dosages:1. **Paracetamol**   - Dosage: 500 mg   - Daily Frequency: 2 times per day2. **Ibuprofen**   - Dosage: 200 mg   - Daily Frequency: 3 times per day3. **Metformin**   - Dosage: 500 mg   - Daily Frequency: 2 times per day4. **Lisinopril**   - Dosage: 10 mg   - Daily Frequency: 1 time per day5. **Cetirizine**   - Dosage: 10 mg   - Daily Frequency: 1 time per day6. **Oseltamivir**   - Dosage: 75 mg   - Daily Frequency: 2 times per dayThese medications align with the diagnoses listed in the dataset and their respective treatment recommendations.",3.378741979598999
+"According to your medical data, your last medical visit was on 2024-06-15. The hospital you visited during this appointment was:**Kindred Hospital Chicago North**Address: 2544 W Montrose Ave, Chicago, IL 60618",1.526902198791504
+"The result of your last cholesterol test was 180.0 mg/dL, which was interpreted as ""High."" The test was conducted on 2024-04-02 at NYU Langone Hospital.",0.9548108577728271
+"Based on the provided dataset, you have been diagnosed with hypertension once. This is indicated by the presence of Hypertension (diagnosis_id: 4) in the `diagnosis` table.",0.7514419555664062
+The recommendations for managing your diabetes are to monitor blood sugar levels and follow a diabetic diet.,0.7629280090332031
+The contact number of the hospital where you had your last appointment (which was on 2024-06-15) is **8375621**. The hospital is Kindred Hospital Chicago North.,1.382279872894287
+The total payment for your last medical appointment was $70.00 on 2024-06-15 at Kindred Hospital Chicago North with Dr. Michael Smith.,0.8685686588287354
+"According to the provided data, Dr. Jane Doe (doctor_id: 2) has given the following diagnoses in the past:1. Gastritis (diagnosis_id: 2)2. Migraine (diagnosis_id: 3)3. Diabetes (diagnosis_id: 5)4. Flu (diagnosis_id: 6)However, there is no specific information available in the dataset regarding the exact date or details of your last visit to Dr. Jane Doe. Therefore, I cannot determine the diagnosis given by Dr. Jane Doe during your last visit from the available data.",1.567842960357666
+"The normal reference range for a glucose test, according to your medical data, is 70-100 mg/dL.",0.7831711769104004
+"According to the provided medical data, you should take Lisinopril once daily.",0.6639480590820312
+"The interpretation of your last creatinine test result was ""Normal.""",0.8912930488586426
+The tests for which you have a high interpretation are:1. Hemoglobin2. Cholesterol3. Glucose,0.6987378597259521
+"For your allergy diagnosis, the recommended actions are to ""Avoid allergens and take antihistamines.""",0.6618497371673584
+"The dosage of the medicine Oseltamivir is 75 mg, and it is to be taken twice daily.",0.8254437446594238
+"The address of the Kindred Hospital you visited in Chicago is:**Kindred Hospital Chicago North**2544 W Montrose Ave, Chicago, IL 60618",0.8620538711547852
+"Your most recent platelet count, as indicated in the blood report dated 2024-04-03, was 250,000 cells/µL.",0.8645880222320557
+"According to the provided dataset, Dr. Jane Doe diagnosed you with flu.",0.546241044998169
+The dates of the appointments you have with Dr. Michael Smith are:1. 2024-05-152. 2024-05-203. 2024-06-15,0.8867630958557129
+"According to the dataset, you paid the following amounts for your medical appointments:- $60.00 on 2024-04-22- $60.00 on 2024-04-30- $70.00 on 2024-05-15- $70.00 on 2024-05-20- $75.00 on 2024-06-05- $70.00 on 2024-06-15The total amount paid for these appointments is $405.00.",1.4250221252441406
+"According to the medical data provided, the dosage for Metformin that you are taking is 500 mg, and the daily frequency is 2 times per day.",0.8823039531707764
+"Based on the provided data, there are no records of appointments at the 4th hospital (HCA Florida Mercy Hospital) in Miami. Therefore, I cannot list any doctors you have seen at that hospital.If you need information on doctors from other hospitals, feel free to ask!",0.8859398365020752
+The recommendation given for your diagnosis of gastritis is to take ibuprofen.,1.0489649772644043
+"From the provided dataset, you have been prescribed Cetirizine once. This can be determined by the entry in the `medicine_by_diagnosis` table, which links medication ID `6` (Cetirizine) with diagnosis ID `7`. There is only one such entry, indicating a single prescription.",0.9792613983154297
+"I do not have any records of urinalysis reports in the provided dataset. The available reports are all blood reports. Therefore, I can't provide information on your urinalysis report from two visits ago.",0.7846076488494873
+"Here is the summary of your medical reports from the last six months:1. **April 1, 2024:**   - **Test Name:** Hemoglobin     - **Result:** 19.0 g/dL (High)     - **Reference Range:** 13.0-17.0 g/dL   - **Test Name:** Neutrophils     - **Result:** 60.0% (Normal)     - **Reference Range:** 50-62%    - **Hospital:** Cedars-Sinai Medical Center2. **April 2, 2024:**   - **Test Name:** Cholesterol     - **Result:** 180.0 mg/dL (High)     - **Reference Range:** Less than 200 mg/dL   - **Test Name:** Glucose     - **Result:** 110.0 mg/dL (High)     - **Reference Range:** 70-100 mg/dL   - **Hospital:** NYU Langone3. **April 3, 2024:**   - **Test Name:** Hemoglobin A1c     - **Result:** 5.5% (Normal)     - **Reference Range:** 4.0-5.6%   - **Test Name:** Platelets     - **Result:** 250,000 cells/µL (Normal)     - **Reference Range:** 150,000-400,000 cells/µL   - **Hospital:** Kindred Hospital Chicago North4. **April 4, 2024:**   - **Test Name:** Bilirubin     - **Result:** 1.0 mg/dL (Normal)     - **Reference Range:** 0.1-1.2 mg/dL   - **Test Name:** Creatinine     - **Result:** 0.8 mg/dL (Normal)     - **Reference Range:** 0.6-1.2 mg/dL   - **Hospital:** HCA Florida Mercy Hospital",5.039201974868774
+"The test units for the Hemoglobin A1c in your reports are ""%"" (percent).",0.7084641456604004
+"According to your medical data, you have had 1 different type of report: ""Blood report"". The ""report_type"" table lists:1. Blood report2. UrinalysisHowever, all your reports in the ""reports"" table are of the ""Blood report"" type.",1.1919739246368408
+"The highest payment you made for a single appointment was $75.00, on 2024-06-05.",0.7146811485290527
+The latest recommendation for your hypertension management is to reduce salt intake and exercise regularly.,0.5457992553710938
+"According to your medical data, the common recommendation for colds is to take Paracetamol.",0.6108710765838623
+"The result of your Hemoglobin A1c in the last report, dated 2024-04-03, was 5.5%. According to the interpretation, this result is considered normal.",0.9375729560852051
+"The interpretation of your Hemoglobin A1c in the last report was ""Normal.""",1.4871139526367188
+"The interpretation of your bilirubin levels in the last report was ""Normal.""",0.6243410110473633
+"Based on the provided medical data, you have had appointments with cardiologists on the following dates:1. 2024-05-152. 2024-05-203. 2024-06-15",0.995966911315918
+"Based on the provided data, you have visited Cedars-Sinai Medical Center for appointments **3 times**. The relevant appointments are:1. Appointment on 2024-04-222. Appointment on 2024-04-303. Appointment on 2024-06-05",1.0257182121276855
+"The normal reference range for neutrophils, according to your medical data, is 50-62%.",0.5474379062652588
+The email of Dr. Michael Smith is michaelsmith@gmail.com.,0.5105259418487549
+The email of doctor Jane Doe is janedoe@gmail.com.,0.6927108764648438
+The phone number of Dr. John Doe is 8374972.,0.6194329261779785
+The phone number of doctor Maria Garcia is 9876543.,0.595836877822876
+Jane Doe works at NYU Langone.,0.5584397315979004
+Michael Smith is a Cardiologist.,0.6708390712738037
+Maria Garcia's specialization is Pediatrician.,0.577812910079956
+The phone number of NYU Langone is 8447239.,0.5148899555206299
+"The address of Cedars-Sinai Medical Center is 8700 Beverly Blvd, Los Angeles, CA 90048.",0.65478515625
+You have 4 hospitals listed.,0.5989389419555664
+"The Cholesterol test is in units of ""mg/dL.""",0.47484302520751953
+Your next upcoming appointment is on 2024-04-22 at Cedars-Sinai Medical Center.,0.7021040916442871
+"Based on the information available in your medical data, here are a few suggestions for what you might want to bring or prepare for your next appointment:1. **Medical Reports**: You have several recent blood reports (e.g., Hemoglobin, Neutrophils, Cholesterol, etc.). Bringing copies of these reports could help your doctor better understand your current health status.2. **Medication List**: If you are taking any medications (e.g., Paracetamol, Ibuprofen, Metformin, etc.), it would be useful to make a list of all the medications along with their dosages and frequency. This can help your doctor in prescribing or adjusting treatments.3. **Questions or Concerns**: Prepare any questions or concerns you may have regarding your health, symptoms, or treatments. This will ensure that you make the most out of your consultation time.4. **Insurance Information**: Ensure that you have your insurance information handy in case it's required for your appointment.5. **Identification**: Bring a form of identification and any necessary medical identification cards.6. **Appointment Details**: It looks like your next appointment is on 2024-06-05 at Cedars-Sinai Medical Center with Dr. John Doe. Confirm the date, time, and location to avoid any inconvenience.7. **Health Diary**: If you maintain any diary or logs related to your health (e.g., blood sugar levels, blood pressure readings), bring those as well.Preparing these items should help make your appointment more productive and efficient.",2.8257431983947754
+"Your next appointment is on **2024-06-05** at **Cedars-Sinai Medical Center**. The address of the hospital is **8700 Beverly Blvd, Los Angeles, CA 90048**.",0.7715587615966797
