@@ -6,7 +6,7 @@ from .models import User
 from langchain_community.utilities.sql_database import SQLDatabase
 import sqlalchemy
 from .DB_query.helper import generate_query, generate_response, generate_RAG_query, read_json_file, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT, RAG_CONTEXT, HELPFUL_PROMPT
-from .DB_query.LLMs import langdock_LLM_Chatbot, OCTOAI_LLM_Chatbot
+from .DB_query.LLMs import PREM_LLM_Chatbot
 import logging
 from django.shortcuts import render, redirect
 from django.core.files.storage import FileSystemStorage
@@ -52,23 +52,21 @@ USER_DATA = read_json_file(user_data_json_path)
 ##########################################
 
 #models, keys
-# octoai_api_key = os.getenv("OCTOAI_KEY")
-octoai_api_key = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkMjMzOTQ5In0.eyJzdWIiOiI0Y2JlMjY3OC0xMDc5LTRjNjItODc0NC1iNzdiZWJhNjA0N2QiLCJ0eXBlIjoidXNlckFjY2Vzc1Rva2VuIiwidGVuYW50SWQiOiI0Y2JmY2YxZC02ODRmLTRlMmEtOGY5Yi0xNjQyNzdkNjk3Y2UiLCJ1c2VySWQiOiIwNjdjOGFmNi00ODRhLTRmYmMtYmU2Yy0xNDY1NTczMTdkZjkiLCJhcHBsaWNhdGlvbklkIjoiYTkyNmZlYmQtMjFlYS00ODdiLTg1ZjUtMzQ5NDA5N2VjODMzIiwicm9sZXMiOlsiRkVUQ0gtUk9MRVMtQlktQVBJIl0sInBlcm1pc3Npb25zIjpbIkZFVENILVBFUk1JU1NJT05TLUJZLUFQSSJdLCJhdWQiOiIzZDIzMzk0OS1hMmZiLTRhYjAtYjdlYy00NmY2MjU1YzUxMGUiLCJpc3MiOiJodHRwczovL2lkZW50aXR5Lm9jdG8uYWkiLCJpYXQiOjE3MjMyMDMzNDl9.hJPH3PwYhh1Kw3Y8wEN_mjCKnMA01ArX4ThKErRbg-I--Fr4L4SFW5dGfibvVfXIiqpLX6Mn3ghEdwkidyw8inhrxc2i2E9j1_tqi7ffXZ9u58BTgHWP89FpfAbxkJzLHmo9vwPDxhkzfBt2ployEyXexP9QXGUIKgxH7LJlyIEFm1CRPrZKa1DRZhyFuAP64wjFMm98_vEYexORUJdtdw3qw9GxJLRmsOe6XidH-Yd37rKX8y0HEhkemCULPPPtW8ZMHE__QOekP6_4Iaah0ZAJUk491SddjnVfNGppHGNAIhAbYY4HrOQqEPbuP70su8-VzAMf5QVFo-WCLWQA8A"
-langdock_api_key = os.getenv("langdock_api_key")
-langdock_base_url = os.getenv("langdock_base_url")
+PREMAI_API_KEY = os.getenv("PREMAI_API_KEY")
 
-model_gpt = "gpt-4o"
-model_llama = "meta-llama-3-8b-instruct"
+# langdock_api_key = os.getenv("langdock_api_key")
+# langdock_base_url = os.getenv("langdock_base_url")
+
+# model_gpt = "gpt-4o"
+# model_llama = "meta-llama-3-8b-instruct"
 
 
 #######################################################################
 ########### #CHANGE HERE FOR DIFFERENT KEYS + query method ############
-# API_KEY = langdock_api_key
-API_KEY = octoai_api_key
-BASE_URL = langdock_base_url
-# MODEL = model_gpt
-MODEL = model_llama
-sql_query_gen_method = False            #False: converts database to json file, queries database as dictionary (NO SQL QUERY GENERATION)
+
+API_KEY = PREMAI_API_KEY
+MODEL = "gpt-4o"
+sql_query_gen_method = False            #False: converts database to json file, queries database as dictionary (JSON METHOD - NO SQL QUERY GENERATION)
                                         #True: generate SQL queries to access database info (sqlite3)
 #############################################################
 
@@ -349,8 +347,8 @@ def page3_view(request):
             if not test_db_connection(db_uri=db_uri):
                 return JsonResponse({"error": "Database connection failed"}, status=500)
 
-            llm = OCTOAI_LLM_Chatbot(model_name=MODEL, api_key=API_KEY)
-            logger.debug(f"Instantiating LLM with model_name={MODEL} and api_key=API_KEY")
+            llm = PREM_LLM_Chatbot(model_name=MODEL, api_key=API_KEY, project_id=5834)
+            logger.debug(f"Instantiating LLM with model_name={MODEL}")
 
             # Guardrails validation
             try:
