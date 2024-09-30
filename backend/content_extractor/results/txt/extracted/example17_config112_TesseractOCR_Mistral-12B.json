@@ -1,0 +1,56 @@
+{
+    "Date": "2023-03-15",
+    "patient_information": {
+        "patient_id": "PT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.9,
+                "Hb": 13.5,
+                "Hct": 40.3,
+                "Plt": 220
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5-11",
+                "RBC": "4.4-6.2",
+                "Hb": "13.5-17.5",
+                "Hct": "41-53",
+                "Plt": "150-400"
+            }
+        },
+        {
+            "test_name": "LFT",
+            "result_value": {
+                "AST": 28,
+                "ALT": 35,
+                "ALP": 70,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": "5-35",
+                "ALT": "7-52",
+                "ALP": "45-105",
+                "TBIL": "0.3-1.9"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": 17.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 15.5"
+        },
+        {
+            "test_name": "MCV (fl)",
+            "result_value": 80,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 350000"
+        }
+    ]
+}

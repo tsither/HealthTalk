@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "310",
+            "unit_of_measurement": "6",
+            "reference_range": "150,000 - 410,000"
+        },
+        {
+            "test_name": "NEUTROPHIL COUNT",
+            "result_value": "68.9%",
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 75%"
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT",
+            "result_value": "21.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "23 - 46%"
+        },
+        {
+            "test_name": "EOSINOPHIL COUNT",
+            "result_value": "9.6%",
+            "unit_of_measurement": "%",
+            "reference_range": "1 - 4%"
+        },
+        {
+            "test_name": "MONOCYTE COUNT",
+            "result_value": "0.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "<7%"
+        },
+        {
+            "test_name": "BASOPHIL COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5%"
+        },
+        {
+            "test_name": "MEAN CORPUSCULAR VOLUME (MCV)",
+            "result_value": "97 FL",
+            "unit_of_measurement": "FL",
+            "reference_range": "80 - 100 FL"
+        }
+    ]
+}

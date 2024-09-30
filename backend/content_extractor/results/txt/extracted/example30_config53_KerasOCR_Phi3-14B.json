@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin test",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RBC count test",
+            "result_value": null,
+            "unit_of_measurement": "million cells/microliter",
+            "reference_range": "4.5-5.9 million cells/microliter"
+        },
+        {
+            "test_name": "Platelet count test",
+            "result_value": 130,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "null"
+        }
+    ]
+}

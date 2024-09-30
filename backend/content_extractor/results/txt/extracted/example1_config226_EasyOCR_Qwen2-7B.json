@@ -1,0 +1,75 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_date": "02 rogizlorod"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (ghbj)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low 130-170"
+        },
+        {
+            "test_name": "RBC count (total)",
+            "result_value": 5.2,
+            "unit_of_measurement": "millions/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (packed cell volume)",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": "high"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCVy)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": [
+                "83",
+                "101"
+            ]
+        },
+        {
+            "test_name": "MCH (mean corpuscular hemoglobin)",
+            "result_value": 272,
+            "unit_of_measurement": "pg",
+            "reference_range": [
+                "274",
+                "32"
+            ]
+        },
+        {
+            "test_name": "MCHC (mean corpuscular hemoglobin concentration)",
+            "result_value": 3251,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (red cell distribution width)",
+            "result_value": 13,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "116",
+                "1a0"
+            ]
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

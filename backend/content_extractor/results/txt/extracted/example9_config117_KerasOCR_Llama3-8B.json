@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.2-17.5"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 4.3,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "3.5-10.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.72,
+            "unit_of_measurement": "M/μL",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 184000,
+            "unit_of_measurement": "per μL",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "26.5-31.3"
+        },
+        {
+            "test_name": "Bilirubin, Total",
+            "result_value": 1.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.2-1.2"
+        }
+    ]
+}

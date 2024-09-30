@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (PLT)",
+            "result_value": 17.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 831,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 14.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

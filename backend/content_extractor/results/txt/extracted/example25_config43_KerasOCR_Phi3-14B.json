@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_namae": "leucocitos",
+            "result_value": 9.9,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "neutrofilos",
+            "result_value": 6.23,
+            "unit_of_measurement": "% of leucocitos",
+            "reference_range": null
+        },
+        {
+            "test_name": "linfocitos",
+            "result_value": 28.57,
+            "unit_of_measurement": "% of leucocitos",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (A1C) (%)",
+            "result_value": 5.4,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-6.0"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 182,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-200"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 134,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "80-200"
+        }
+    ]
+}

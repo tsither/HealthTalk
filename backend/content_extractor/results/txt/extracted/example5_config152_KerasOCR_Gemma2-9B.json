@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelets",
+            "result_value": "555 x 10^9 /L",
+            "unit_of_measurement": "x 10^9 /L",
+            "reference_range": "105 - 345 x 10^9 /L"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": "12.5 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        }
+    ]
+}

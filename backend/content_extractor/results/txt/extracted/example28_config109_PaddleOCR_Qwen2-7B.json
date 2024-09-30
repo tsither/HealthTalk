@@ -1,0 +1,100 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 60,
+        "patient_obesity_status": "obese"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematies": "4,8 109",
+                "hemoglobin": "14.3 g/l",
+                "VCM": "89",
+                "H.M.C.": "29 pg"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hematies": null,
+                "hemoglobin": "70.0-110.0 mg/dL",
+                "VCM": null,
+                "H.M.C.": null
+            }
+        },
+        {
+            "test_name": "Basic Bioguimica",
+            "result_value": {
+                "glucosa": "59 mg/dl",
+                "creatinina": "1.15 mg/dL",
+                "colesterol": "220 mg/dL",
+                "proteina": "6.6 g/dL"
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol": null,
+                "proteina": null
+            },
+            "reference_range": {
+                "glucosa": "[70.0 110.0 mg/dL]",
+                "creatinina": "[0.7-1.10 mg/dL]",
+                "colesterol": "<240.0",
+                "proteina": null
+            }
+        },
+        {
+            "test_name": "Hemoglogina A1c",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[3.8-5.5]"
+        },
+        {
+            "test_name": "Enzimas Hepaticas",
+            "result_value": {
+                "GOT": "800 U/L",
+                "GPT": "800 U/L",
+                "GGT": "100 * U/L"
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "* U/L"
+            },
+            "reference_range": {
+                "GOT": "[5-32 U/L]",
+                "GPT": null,
+                "GGT": "[10-41 U/L]"
+            }
+        },
+        {
+            "test_name": "Bilirrubina",
+            "result_value": {
+                "sirrubina_total": "2.8 a mg/dL",
+                "bilirrubina_directa": "1.5 * mg/dL"
+            },
+            "unit_of_measurement": {
+                "sirrubina_total": "mg/dL",
+                "bilirrubina_directa": "* mg/dL"
+            },
+            "reference_range": {
+                "sirrubina_total": "[0.2-1 mg/dL]",
+                "bilirrubina_directa": "[0.05-0.4 mg/dL]"
+            }
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": 50,
+            "unit_of_measurement": "U/L",
+            "reference_range": "[30-110 U/L]"
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": "2.3'",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.40- 4.80) g/dL]"
+        }
+    ]
+}

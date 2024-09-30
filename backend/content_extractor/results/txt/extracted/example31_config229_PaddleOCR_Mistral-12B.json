@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "555 105",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": 550000,
+                "Platelet count": 9000,
+                "Hemoglobin (Hb)": 12.5
+            },
+            "unit_of_measurement": {
+                "RBC count": "per mm³",
+                "Platelet count": "per mm³",
+                "Hemoglobin (Hb)": "g/dL"
+            },
+            "reference_range": {
+                "RBC count": "4.1 - 5.8 million/mm³",
+                "Platelet count": "13.0 - 17.0 lakhs/mm³",
+                "Hemoglobin (Hb)": "12 - 16 g/dL"
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

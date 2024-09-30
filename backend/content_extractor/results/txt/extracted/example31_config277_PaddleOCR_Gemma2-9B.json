@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "MCY",
+        "patient_name": "Lowy",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "12.0",
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "12.0 - 12.8"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "45.",
+            "unit_of_measurement": null,
+            "reference_range": "17.8 - 17.8"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "5.5",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": "4+",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": "11.6",
+            "unit_of_measurement": "%",
+            "reference_range": "14.0"
+        }
+    ]
+}

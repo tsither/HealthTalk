@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 130,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120-160"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 5.5,
+            "unit_of_measurement": "KU/L",
+            "reference_range": "4-11"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 288000,
+            "unit_of_measurement": "u/mm^3",
+            "reference_range": null
+        }
+    ]
+}

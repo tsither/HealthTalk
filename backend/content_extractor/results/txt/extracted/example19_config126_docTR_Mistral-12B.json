@@ -1,0 +1,63 @@
+{
+    "Date": "Dec.20",
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "RBC Count": 5.75,
+                "HCT": 32.8,
+                "MCV": 32.5,
+                "MCH": 13.6,
+                "MCHC": null,
+                "RDW-CV": 14.0,
+                "WBC Count": 31,
+                "Platelet Count": 270
+            },
+            "unit_of_measurement": {
+                "RBC Count": "milicronm Blood",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "RDW-CV": "%",
+                "WBC Count": "cumm",
+                "Platelet Count": "cell/cumm"
+            },
+            "reference_range": {
+                "RBC Count": {
+                    "Low": 45,
+                    "High": 123
+                },
+                "HCT": {
+                    "Low": 6,
+                    "High": null
+                },
+                "MCV": {
+                    "Low": null,
+                    "High": 101
+                },
+                "MCH": {
+                    "Low": null,
+                    "High": null
+                },
+                "RDW-CV": {
+                    "Low": null,
+                    "High": null
+                },
+                "WBC Count": {
+                    "Low": null,
+                    "High": 25000
+                },
+                "Platelet Count": {
+                    "Low": null,
+                    "High": null
+                }
+            }
+        }
+    ]
+}

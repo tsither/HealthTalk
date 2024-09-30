@@ -1,0 +1,82 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": [
+                "170",
+                "272"
+            ],
+            "unit_of_measurement": [
+                "count/μL",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) count",
+            "result_value": [
+                null,
+                "130"
+            ],
+            "unit_of_measurement": [
+                "count/μL",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils %",
+            "result_value": [
+                null,
+                "328"
+            ],
+            "unit_of_measurement": [
+                "%",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes count",
+            "result_value": [
+                null,
+                "136"
+            ],
+            "unit_of_measurement": [
+                "count/μL",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils %",
+            "result_value": [
+                null,
+                null
+            ],
+            "unit_of_measurement": [
+                "%",
+                ""
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils count",
+            "result_value": [
+                "136"
+            ],
+            "unit_of_measurement": [
+                "count/μL",
+                ""
+            ],
+            "reference_range": null
+        }
+    ]
+}

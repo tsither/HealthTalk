@@ -1,0 +1,38 @@
+{
+    "Date": "Dec 27",
+    "patient_information": {
+        "patient_id": "555 Yash M. Patel",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 13000,
+                "RBC": 489578,
+                "Hb": 15.0,
+                "HCT": 48.0
+            },
+            "unit_of_measurement": {
+                "WBC": "mm³",
+                "RBC": "cells/µL",
+                "Hb": "g/dL",
+                "HCT": "%"
+            },
+            "reference_range": {
+                "WBC": "4100-10900",
+                "RBC": "4.2-6.1",
+                "Hb": "13.5-18.0",
+                "HCT": "40-52"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 27,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150,000-390,000"
+        }
+    ]
+}

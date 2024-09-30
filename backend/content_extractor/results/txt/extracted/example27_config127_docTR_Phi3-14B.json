@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 51,
+            "unit_of_measurement": "%",
+            "reference_range": "33-49%"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 27,
+            "unit_of_measurement": "%",
+            "reference_range": "38.5 - 50"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 4960,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-10800"
+        },
+        {
+            "test_name": "Plateletas",
+            "result_value": 160,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "150 - 450"
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular (VSG)",
+            "result_value": 2,
+            "unit_of_measurement": "/h",
+            "reference_nrange": null
+        },
+        {
+            "test_name": "Electroforesis Serica",
+            "result_value": 150,
+            "unit_of_measurement": "mg'%",
+            "reference_range": null
+        }
+    ]
+}

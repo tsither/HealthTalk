@@ -1,0 +1,41 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Kidney Function Test (Sodium)",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "Kidney Function Test (Potassium)",
+            "result_value": 3.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0 mmol/L"
+        },
+        {
+            "test_name": "Kidney Function Test (Creatinine)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

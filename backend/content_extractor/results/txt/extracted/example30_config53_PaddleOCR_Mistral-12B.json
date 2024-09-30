@@ -1,0 +1,23 @@
+{
+    "Date": "2023-01-06",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Haemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "52 count",
+            "unit_of_measurement": "count",
+            "reference_range": "40.0 - 60.0"
+        }
+    ]
+}

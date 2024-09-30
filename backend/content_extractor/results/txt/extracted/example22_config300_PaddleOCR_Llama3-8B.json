@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-16.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 4.4,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "3.5-11.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "1.5-7.0"
+        },
+        {
+            "test_name": "Monocyte Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 0.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "0.04-1.3"
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 8.0,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

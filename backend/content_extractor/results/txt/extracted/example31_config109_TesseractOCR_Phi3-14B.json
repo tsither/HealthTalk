@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "PID123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.0,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[4.5-11.0]"
+        },
+        {
+            "test_name": "Hemoglopsi",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17.5]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 6.8,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[4.5-11.0]"
+        }
+    ]
+}

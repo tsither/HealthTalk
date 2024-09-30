@@ -1,0 +1,68 @@
+{
+    "Date": "03 po 02",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbc",
+            "result_value": "hemoglobin cbj 12.5",
+            "unit_of_measurement": "low 130 - 170 gidl",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": "total rebc 5.295t",
+            "unit_of_measurement": null,
+            "reference_range": "55 mullcumm"
+        },
+        {
+            "test_name": "blood indices",
+            "result_value": [
+                {
+                    "name": "pcv packed cell volumne",
+                    "value": "57.5",
+                    "note": "high 90 - s0 x"
+                },
+                {
+                    "name": "imcvi corpuscular volume",
+                    "value": "87 75 83 101 fl"
+                },
+                {
+                    "name": "mch mean coco cieg mch",
+                    "value": "272 275 32 pg"
+                },
+                {
+                    "name": "mchc senoos mchc",
+                    "value": "328 325 3a5 gidl"
+                },
+                {
+                    "name": "coguus row",
+                    "value": "136 116 1a0"
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": [
+                "neutrophils cocam s 31",
+                "lymphocyies do 06 s 00",
+                "eosinophils do 06",
+                "monocyies 10 00"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "platelet s0000 borderlinc",
+            "unit_of_measurement": "count 1 cumm fully",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

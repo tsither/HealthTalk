@@ -1,0 +1,23 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "6.2",
+            "unit_of_measurement": "%",
+            "reference_range": "3.9-5.6"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 180 mg/dL, HDL Cholesterol: 45 mg/dL, LDL Cholesterol: 120 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

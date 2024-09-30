@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Ferritin",
+            "result_value": 105.8,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "<36"
+        },
+        {
+            "test_name": "Iron, Total Binding Capacity (TIBC)",
+            "result_value": 274,
+            "unit_of_measurement": "ug/dL",
+            "reference_range": "250-450"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "Date": "02/12/202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "patel yash m",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin gbl",
+            "result_value": 125,
+            "unit_of_measurement": "oe",
+            "reference_range": "170 idl low"
+        },
+        {
+            "test_name": "g rbc count",
+            "result_value": 52.45,
+            "unit_of_measurement": "5/ml",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcvi packed cell volume",
+            "result_value": 57.5,
+            "unit_of_measurement": "high",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "mcvy mean corpuscular volume",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch pg calculated mchc",
+            "result_value": 32.32,
+            "unit_of_measurement": "1/idl",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 13.6,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc count total wbc",
+            "result_value": 9000,
+            "unit_of_measurement": "/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential wbc count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 1.02,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": 10,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "basophils",
+            "result_value": 1.02,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": "/cumm",
+            "reference_range": null
+        }
+    ]
+}

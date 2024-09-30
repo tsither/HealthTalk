@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.8",
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4-5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "150",
+            "unit_of_measurement": "g/L",
+            "reference_range": "120-160"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "80",
+            "unit_of_measurement": "fL",
+            "reference_range": "70-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "30",
+            "unit_of_measurement": "pg",
+            "reference_range": "28-32"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "180",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": "12.6",
+            "unit_of_measurement": "seconds",
+            "reference_range": "10-14"
+        }
+    ]
+}

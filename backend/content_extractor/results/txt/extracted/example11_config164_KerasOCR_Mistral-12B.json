@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567e9",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dl",
+                    "flag": "low"
+                },
+                "RBC count (Total)": {
+                    "value": 5.2,
+                    "unit": "million/cumm",
+                    "reference_range": "4.5-6.0"
+                },
+                "PCV": {
+                    "value": 37.5,
+                    "unit": "%",
+                    "flag": "high"
+                },
+                "MCV": {
+                    "value": 87.5,
+                    "unit": "fl",
+                    "reference_range": "82-100"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": "27-32"
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dl",
+                    "reference_range": "32-36"
+                },
+                "Total WBC count": {
+                    "value": 13.16,
+                    "unit": "cells/cumm"
+                },
+                "Neutrophils": {
+                    "value": 50.0
+                },
+                "Lymphocytes": {
+                    "value": 40.0
+                },
+                "Eosinophils": {
+                    "value": 0.0
+                },
+                "Monocytes": {
+                    "value": 10.0
+                },
+                "Basophils": {
+                    "value": 0.0
+                },
+                "Platelet count": {
+                    "value": 310000,
+                    "unit": "/cumm",
+                    "reference_range": "150000-450000"
+                }
+            }
+        }
+    ]
+}

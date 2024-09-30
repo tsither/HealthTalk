@@ -1,0 +1,23 @@
+{
+    "Date": "XX/XX/YYYY",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[Patient Name]",
+        "patient_sex": "[Male/Female]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "4-10 K/uL"
+        }
+    ]
+}

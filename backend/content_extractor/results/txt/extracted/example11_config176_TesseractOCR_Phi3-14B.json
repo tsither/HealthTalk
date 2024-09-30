@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglonin": 12.5,
+                "RBC COUNT Total RBC count": 8.2,
+                "Packed Cell Volume [PCV]": 7.5,
+                "Corpuscular volume (MCW)": 87.78,
+                "Mean Corpuscular Hemoglobin MCH": 27.2,
+                "Mean Corpuscular Hemoglobin Concentration [MCHC]": 32.5,
+                "White Blood Cell (WBC) Count Total WBC count": null,
+                "Neutrophils %": null,
+                "Lymphocytes %": null,
+                "Eosinophils %": null,
+                "Monocyte %": null,
+                "Basophils %": 10.0,
+                "Platelet Count Platelet count": 750000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin [Hb]": "g/dL",
+                "RBC COUNT Total RBC count": "millions/uL",
+                "Packed Cell Volume [PCVi]": "%",
+                "Corpuscular volume (MCW)": "fl.",
+                "Mean Corpuscular Hemoglobin MCH": "pg",
+                "Mean Corpuscular Hemoglobin Concentration [MCHC]": "g/dL",
+                "White Blood Cell (WBC) Count Total WBC count": "thousands/uL",
+                "Neutrophils %": "%",
+                "Lymphocytes %": "%",
+                "Eosinophils %": "%",
+                "Monocyte %": "%",
+                "Basophils %": "%",
+                "Platelet Count Platelet count": "thousands/uL"
+            },
+            "reference_range": {
+                "Hemoglobin [Hb]": "13.0-17.0 g/dL",
+                "RBC COUNT Total RBC count": "45-55 millions/uL",
+                "Packed Cell Volume [PCVi]": "40-50%",
+                "Corpuscular volume (MCW)": null,
+                "Mean Corpuscular Hemoglobin MCH": "27-32 pg",
+                "Mean Corpuscular Hemoglobin Concentration [MCHC]": "34.0+ g/dL",
+                "White Blood Cell (WBC) Count Total WBC count": null,
+                "Neutrophils %": "50-62%",
+                "Lymphocytes %": null,
+                "Eosinophils %": null,
+                "Monocyte %": null,
+                "Basophils %": null,
+                "Platelet Count Platelet count": "150-400 thousands/uL"
+            }
+        }
+    ]
+}

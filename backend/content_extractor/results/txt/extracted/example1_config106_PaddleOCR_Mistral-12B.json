@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": "87.75",
+                "RBC_count": "57.5",
+                "Hb": "32.8",
+                "Hct": "13.6",
+                "Platelet": "0006"
+            },
+            "unit_of_measurement": {
+                "WBC_count": "10^9/L",
+                "RBC_count": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelet": "10^9/L"
+            },
+            "reference_range": {
+                "WBC_count": null,
+                "RBC_count": null,
+                "Hb": "13.0-17.0 g/dL",
+                "Hct": "32.5 - 34.5%",
+                "Platelet": null
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

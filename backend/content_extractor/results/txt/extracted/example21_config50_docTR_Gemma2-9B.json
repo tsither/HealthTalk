@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC - Count",
+            "result_value": 4.86,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0 - 5.5 million/µL"
+        },
+        {
+            "test_name": "HGB - Mean Cell Hemoglobin",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "HCT - Hematocrit",
+            "result_value": 41,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3 - 50.0 %"
+        },
+        {
+            "test_name": "MCV - Mean Cell Volume",
+            "result_value": 86,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 100.0 fL"
+        },
+        {
+            "test_name": "MCHC - Mean Cell Hemoglobin Concentration",
+            "result_value": 34,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0 - 36.0 g/dL"
+        },
+        {
+            "test_name": "RDW - Red Cell Distribution Width",
+            "result_value": 14,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "WBC - White Blood Cell Count",
+            "result_value": 6.76,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.0 - 11.0 thousand/µL"
+        },
+        {
+            "test_name": "PLT - Platelet Count",
+            "result_value": 225,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150.0 - 450.0 thousand/µL"
+        },
+        {
+            "test_name": "NEUT - Neutrophils (%)",
+            "result_value": 62,
+            "unit_of_measurement": "%",
+            "reference_range": "40.0 - 75.0 %"
+        },
+        {
+            "test_name": "LYMPH - Lymphocytes (%)",
+            "result_value": 21,
+            "unit_of_measurement": "%",
+            "reference_range": "20.0 - 40.0 %"
+        },
+        {
+            "test_name": "MONO - Monocytes (%)",
+            "result_value": 9,
+            "unit_of_measurement": "%",
+            "reference_range": "2.0 - 10.0 %"
+        },
+        {
+            "test_name": "EO - Eosinophils (%)",
+            "result_value": 6,
+            "unit_of_measurement": "%",
+            "reference_range": "1.0 - 4.0 %"
+        },
+        {
+            "test_name": "BASO - Basophils (%)",
+            "result_value": 2,
+            "unit_of_measurement": "%",
+            "reference_range": "0.0 - 1.0 %"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "E121",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Blood Count",
+            "result_value": 5.21,
+            "unit_of_measurement": "T/L",
+            "reference_range": {
+                "low": 3.5,
+                "high": 8.0
+            }
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 12.0,
+                "high": 16.0
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 85,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 28.0,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 356,
+            "unit_of_measurement": "K/L",
+            "reference_range": {
+                "low": 140,
+                "high": 440
+            }
+        }
+    ]
+}

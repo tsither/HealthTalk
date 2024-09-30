@@ -1,0 +1,29 @@
+{
+    "Date": "14.08.2021",
+    "patient_information": {
+        "patient_id": "A14",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "3.2",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "-16.5 to 16.5"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Differential",
+            "result_value": {
+                "Neutrophils": "60%",
+                "Lymphocytes": "30%",
+                "Monocytes": "8%",
+                "Eosinophils": "1%",
+                "Basophils": "1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": "-1 to 6 for Neutrophils, 19-45 for Lymphocytes, 2-10 for Monocytes, 1-7 for Eosinophils, 0-2 for Basophils"
+        }
+    ]
+}

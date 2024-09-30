@@ -1,0 +1,22 @@
+{
+    "Date": "04:35 PI O7 Les, 7X",
+    "patient_information": {
+        "patient_id": "0123436789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (HB)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "gender_male": "13.5-17.5",
+                "female": {
+                    "low": "12.0-15.5"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CLORAL S",
+            "result_value": 1200,
+            "unit_of_measurement": "%",
+            "reference_range": "90 - 170"
+        },
+        {
+            "test_name": "POHA",
+            "result_value": 1550,
+            "unit_of_measurement": "U",
+            "reference_range": null
+        },
+        {
+            "test_name": "Iron",
+            "result_value": "8120",
+            "unit_of_measurement": null,
+            "reference_range": "Lower L- < 1358, Upper limit: may be > 1704"
+        },
+        {
+            "test_name": "Immunoglobulin A (IgA)",
+            "result_value": 200,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-15.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 31.54,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4000000000000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "3.90-5.10"
+        },
+        {
+            "test_name": "White Blood Cell Count Total",
+            "result_value": 9000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Neutrophils",
+            "result_value": 70.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Lymphocytes",
+            "result_value": 20.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 3.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 202000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "1.50-3.00"
+        }
+    ]
+}

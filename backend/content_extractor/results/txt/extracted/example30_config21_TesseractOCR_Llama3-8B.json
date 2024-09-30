@@ -1,0 +1,29 @@
+{
+    "Date": "01.09.2022",
+    "patient_information": {
+        "patient_id": "PAT1234",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "platelets/ul",
+            "reference_range": "150000-400000"
+        },
+        {
+            "test_name": "Glucose Level",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "70-110"
+        }
+    ]
+}

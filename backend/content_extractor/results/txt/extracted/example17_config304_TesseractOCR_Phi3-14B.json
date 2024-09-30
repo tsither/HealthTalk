@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "BE90-5",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 6
+    },
+    "test_results": [
+        {
+            "test_name": "WBC count (x10^3/uL)",
+            "result_value": 8.5,
+            "unit_of_measurement": "/ul",
+            "reference_nRange": null
+        },
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": 12,
+            "unit_of_measurement": "/dl",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Platelet count (/uL)",
+            "result_value": 300,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        }
+    ]
+}

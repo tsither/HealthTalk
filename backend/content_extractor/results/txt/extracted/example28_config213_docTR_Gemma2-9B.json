@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "P012345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": 4.5,
+                "WBC": 7.2,
+                "Hgb": 14.0,
+                "Hct": 42.0,
+                "MCV": 90.0,
+                "MCH": 30.0,
+                "MCHC": 33.0
+            },
+            "unit_of_measurement": {
+                "RBC": "x10^6/µL",
+                "WBC": "x10^3/µL",
+                "Hgb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "RBC": "4.0-5.5 x10^6/µL",
+                "WBC": "4.5-11.0 x10^3/µL",
+                "Hgb": "12.0-16.0 g/dL",
+                "Hct": "37-54%",
+                "MCV": "80-99 fL",
+                "MCH": "27-31 pg",
+                "MCHC": "32-36 g/dL"
+            }
+        }
+    ]
+}

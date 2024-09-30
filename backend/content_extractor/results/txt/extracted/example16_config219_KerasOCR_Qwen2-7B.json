@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5108,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[345-930]"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": null,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130-170]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 150000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[345-930]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 150000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[4000-12500]"
+        }
+    ]
+}

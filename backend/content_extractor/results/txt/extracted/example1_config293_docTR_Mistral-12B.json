@@ -1,0 +1,23 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 7500,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5-11"
+        }
+    ]
+}

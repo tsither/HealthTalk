@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": {
+                "Hematies": 4.75,
+                "HEMOGLOBINA": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C,M.": 27.9,
+                "C.H.C.M.": 33.6,
+                "A.D.E.": null
+            },
+            "unit_of_measurement": {
+                "Hematies": "10E6/L",
+                "HEMOGLOBINA": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C,M.": "Pg",
+                "C.H.C.M.": "gidL",
+                "A.D.E.": null
+            },
+            "reference_range": {
+                "Hematies": "[4.00, 5.50]",
+                "HEMOGLOBINA": "[12.0, 16.0]",
+                "Hematocrito": "[36.0, 47.0]",
+                "V.C.M.": "[80.0, 98.0]",
+                "H.C,M.": "[27.0, 32.0]",
+                "C.H.C.M.": "[32.0, 36.0]",
+                "A.D.E.": "[11.5, 15.0]"
+            }
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": 208,
+                "V.P.M.": 9.1,
+                "A.D.P.": null
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "10E3/pL",
+                "V.P.M.": "fL",
+                "A.D.P.": "%"
+            },
+            "reference_range": {
+                "PLAQUETAS": "[140, 400]",
+                "V.P.M.": "[7.5, 11.0]",
+                "A.D.P.": "[15.6, 18.4]"
+            }
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": {
+                "LEUCOCITOS": 4.2
+            },
+            "unit_of_measurement": {
+                "LEUCOCITOS": "10E3/uL"
+            },
+            "reference_range": {
+                "LEUCOCITOS": "[4.00, 10.00]"
+            }
+        }
+    ]
+}

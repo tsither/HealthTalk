@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (Mcv)",
+            "result_value": null,
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "2 (Mcv)"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 160,
+            "unit_of_measurement": "thousands/mm3",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

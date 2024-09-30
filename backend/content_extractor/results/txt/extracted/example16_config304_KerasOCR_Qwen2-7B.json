@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Complete",
+        "patient_sex": null,
+        "patient_age": 170
+    },
+    "test_results": [
+        {
+            "test_name": "wbc",
+            "result_value": 10.1,
+            "unit_of_measurement": "/ul",
+            "reference_range": "[4-11] "
+        },
+        {
+            "test_name": "rbc",
+            "result_value": 5.2,
+            "unit_of_measurement": "/ul",
+            "reference_range": "[4.3-5.8] "
+        },
+        {
+            "test_name": "hgb",
+            "result_value": 160,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[120-160] "
+        },
+        {
+            "test_name": "mch",
+            "result_value": 8.7,
+            "unit_of_measurement": "pg",
+            "reference_range": "[30-35]"
+        },
+        {
+            "test_name": "platelets",
+            "result_value": 120000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "[150000-450000]"
+        }
+    ]
+}

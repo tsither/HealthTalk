@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 7.8,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5 - 11"
+        },
+        {
+            "test_name": "HGB Level",
+            "result_value": 12.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12 - 16"
+        }
+    ]
+}

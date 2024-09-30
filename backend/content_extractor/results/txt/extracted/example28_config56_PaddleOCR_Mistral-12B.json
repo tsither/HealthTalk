@@ -1,0 +1,113 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon",
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.81,
+                "Hemoglobina": 14.3,
+                "VCM": 168,
+                "H.M.C.": 2266,
+                "Leucicitos": 102
+            },
+            "unit_of_measurement": {
+                "Hematies": "/l",
+                "Hemoglobina": "g/dl",
+                "VCM": "fl",
+                "H.M.C.": "fl",
+                "Leucicitos": "x10^6/l"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": 65.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70.0-110.0"
+        },
+        {
+            "test_name": "Creatnina",
+            "result_value": 1.15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.70-1.10"
+        },
+        {
+            "test_name": "Colesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<240.0"
+        },
+        {
+            "test_name": "Proteina Total",
+            "result_value": 6.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.0-8.0"
+        },
+        {
+            "test_name": "Hierro (Fe)",
+            "result_value": 65,
+            "unit_of_measurement": "μg/dL",
+            "reference_range": "55.0-135.0"
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 20,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "10.0-120.0"
+        },
+        {
+            "test_name": "Hemoglogina A1c",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "3.8-5.5"
+        },
+        {
+            "test_name": "GOT (AST)",
+            "result_value": 800,
+            "unit_of_measurement": "U/L",
+            "reference_range": "5-32"
+        },
+        {
+            "test_name": "GPT (ALT)",
+            "result_value": 800,
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-33"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": 100,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-41"
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": 2.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.2-1"
+        },
+        {
+            "test_name": "Bilirrubina directa (Esterificada)",
+            "result_value": "<0.4",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa Alcalana",
+            "result_value": 50,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-110"
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": 2.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.40-4.80"
+        }
+    ]
+}

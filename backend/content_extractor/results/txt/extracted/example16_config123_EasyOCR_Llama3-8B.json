@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "PT-1234",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "135",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-160"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "8.5",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": "20",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20"
+        }
+    ]
+}

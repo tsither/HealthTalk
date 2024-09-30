@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "sodium",
+            "result_value": 142,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "potassium",
+            "result_value": 4.3,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0 mmol/L"
+        },
+        {
+            "test_name": "chloride",
+            "result_value": 98,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "96-106 mmol/L"
+        },
+        {
+            "test_name": "carbon dioxide",
+            "result_value": 22,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "22-30 mmol/L"
+        },
+        {
+            "test_name": "glucose",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "calcium",
+            "result_value": 8.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.5-10.3 mg/dL"
+        },
+        {
+            "test_name": "creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.4 mg/dL"
+        },
+        {
+            "test_name": "urea",
+            "result_value": 5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "2.9-7.3 mmol/L"
+        },
+        {
+            "test_name": "albumin",
+            "result_value": 34,
+            "unit_of_measurement": "g/L",
+            "reference_range": "35-55 g/L"
+        },
+        {
+            "test_name": "alkaline phosphatase",
+            "result_value": 55,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-120 U/L"
+        }
+    ]
+}

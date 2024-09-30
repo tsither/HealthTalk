@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 5550000000.0,
+            "unit_of_measurement": "cells/microL",
+            "reference_range": "4.32e+09 - 5.72e+09 cells/microL"
+        },
+        {
+            "test_name": "Hemoglobin (HB) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Polycythemia",
+            "result_value": true,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

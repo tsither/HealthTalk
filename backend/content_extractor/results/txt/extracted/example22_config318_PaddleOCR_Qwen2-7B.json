@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": "4 * 4000",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "-ru"
+        },
+        {
+            "test_name": "Bun (Blood Urea Nitrogen)",
+            "result_value": "1000",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "-23 40 - 30"
+        },
+        {
+            "test_name": "AST (Aspartate Transaminase)",
+            "result_value": null,
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "- 5.5"
+        },
+        {
+            "test_name": "ALT (Alanine Transaminase)",
+            "result_value": "4",
+            "unit_of_measurement": "U/L",
+            "reference_range": "13.0 - 17.8"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "4000-11000",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "6.5 - 8.5 mill/cumm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "37%",
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50%"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "13.6 - 17.2 g/dL"
+        }
+    ]
+}

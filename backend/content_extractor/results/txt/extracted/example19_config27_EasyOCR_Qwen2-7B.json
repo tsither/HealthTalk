@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "differential blood count",
+            "result_value": 170,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "blood hemoglobin",
+            "result_value": 8775,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": null,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 212,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "erythrocyte sedimentation rate",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        }
+    ]
+}

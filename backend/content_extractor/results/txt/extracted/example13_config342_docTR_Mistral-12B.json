@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.5,
+                "RBC": 5.2,
+                "HGB": 13.8,
+                "PLT": 220,
+                "NEU%": 65.4,
+                "LYM%": 22.7,
+                "MONO%": 6.9,
+                "EOS%": 0.7
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "PLT": "10^3/uL",
+                "NEU%": "%",
+                "LYM%": "%",
+                "MONO%": "%",
+                "EOS%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

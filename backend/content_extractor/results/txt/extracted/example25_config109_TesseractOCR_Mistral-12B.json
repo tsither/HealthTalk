@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": 4.17,
+                "Hemoglobina": 9.7,
+                "Hematocrito": 28.8,
+                "V.C.M.": 69.0,
+                "H.C.M.": 23,
+                "C.H.C.M": 33.8,
+                "R.D.W": 17,
+                "Plaquetas": 329
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10^9/L",
+                "Hematies": "10^12/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fl",
+                "H.C.M.": "fl",
+                "C.H.C.M": "fl",
+                "R.D.W": "fl",
+                "Plaquetas": "10^9/L"
+            },
+            "reference_range": {
+                "Leucocitos": "[3.5 - 10.5]",
+                "Hematies": "[4.0 - 6.0]",
+                "Hemoglobina": "[12.0 - 18.0]",
+                "Hematocrito": "[37.0 - 52.0]",
+                "V.C.M.": "[80.0 - 99.0]",
+                "H.C.M.": "(25 - 35)",
+                "C.H.C.M": "(30.0 - 36.0)",
+                "R.D.W": "(10 -18)",
+                "Plaquetas": "(150 - «5500)"
+            }
+        },
+        {
+            "test_name": "Formula Leucocitaria",
+            "result_value": {
+                "Neutrotilos": 70.1,
+                "Linfocitos": 12.4,
+                "Monocitos": 13.7,
+                "Eosinofilos": 0.7,
+                "Basofilios": 0.05
+            },
+            "unit_of_measurement": {
+                "Neutrotilos": "%",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Eosinofilos": "%",
+                "Basofilios": "%"
+            },
+            "reference_range": {
+                "Neutrotilos": "[40.0 - 75.0]",
+                "Linfocitos": "[20.0 - 40.0]",
+                "Monocitos": "[3.0 - 10.0]",
+                "Eosinofilos": "[0.5 - 5.0]",
+                "Basofilios": "[0.0 - 1.0]"
+            }
+        }
+    ]
+}

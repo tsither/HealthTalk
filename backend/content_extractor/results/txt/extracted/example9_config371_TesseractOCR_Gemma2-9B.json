@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "2023-10-27-005",
+        "patient_name": "JOHN DOE",
+        "patient_sex": "MALE",
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "RBC: 4.81 Million/uL, WBC: 7.2 Thousand/uL, PLT: 223 Thousand/uL",
+            "unit_of_measurement": "uL",
+            "reference_range": "RBC: 4.0 - 5.5 Million/uL; WBC: 4.5 - 11 Thousand/uL; PLT: 150 - 450 Thousand/uL"
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": "Sodium: 138 mEq/L, Potassium: 4.2 mEq/L, Chloride: 104 mEq/L, Glucose: 95 mg/dL, BUN: 16 mg/dL, Creatinine: 0.9 mg/dL",
+            "unit_of_measurement": "mEq/L, mg/dL",
+            "reference_range": "Sodium: 135 - 145 mEq/L; Potassium: 3.5 - 5.0 mEq/L; Chloride: 98 - 106 mEq/L; Glucose: 70 - 100 mg/dL; BUN: 7 - 20 mg/dL; Creatinine: 0.6 - 1.2 mg/dL"
+        }
+    ]
+}

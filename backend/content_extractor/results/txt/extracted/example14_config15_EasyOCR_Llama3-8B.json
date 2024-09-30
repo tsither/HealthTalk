@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SGOT",
+            "result_value": 45,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0 - 40"
+        },
+        {
+            "test_name": "SGPT",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0 - 35"
+        },
+        {
+            "test_name": "ALKP",
+            "result_value": 120,
+            "unit_of_measurement": "U/L",
+            "reference_range": "50 - 200"
+        }
+    ]
+}

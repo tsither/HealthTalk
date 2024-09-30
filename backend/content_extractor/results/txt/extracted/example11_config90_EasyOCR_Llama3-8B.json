@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.57,
+            "unit_of_measurement": "Million/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 0.45,
+            "unit_of_measurement": "",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 30.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Volume (RBCV)",
+            "result_value": 1.85,
+            "unit_of_measurement": "mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.3,
+            "unit_of_measurement": "Thousand/μL",
+            "reference_range": "4-10 Thousand/μL"
+        },
+        {
+            "test_name": "Differential Total WBC Count",
+            "result_value": {
+                "Neutrophils": 60,
+                "Lymphocytes": 25,
+                "Eosinophils": 5,
+                "Monocytes": 10,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

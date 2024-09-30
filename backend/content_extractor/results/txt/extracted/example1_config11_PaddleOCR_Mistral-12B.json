@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC count",
+            "result_value": 150000,
+            "unit_of_measurement": "/cumm",
+            "reference_range": "410000 - 97000"
+        },
+        {
+            "test_name": "WBC COUNT RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "MCHG MCH Mean Corpuscular Volume (MCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "RBC COUNT Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "/cumm g/dL",
+            "reference_range": null
+        }
+    ]
+}

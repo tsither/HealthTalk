@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "8.5",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": "5.2",
+            "unit_of_measurement": "%",
+            "reference_range": "40-70"
+        }
+    ]
+}

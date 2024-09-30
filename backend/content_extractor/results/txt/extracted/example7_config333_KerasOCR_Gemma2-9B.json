@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red Blood Cells: 4.5 million/µL\nWhite Blood Cells: 7,200 cells/µL\nPlatelets: 300,000 cells/µL",
+            "unit_of_measurement": "million/µL / cells/µL / cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "42%",
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 54%"
+        }
+    ]
+}

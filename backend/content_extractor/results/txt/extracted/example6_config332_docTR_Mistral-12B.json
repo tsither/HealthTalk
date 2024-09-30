@@ -1,0 +1,41 @@
+{
+    "Date": "20XX/XX/XX",
+    "patient_information": {
+        "patient_id": "F0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 12.345,
+                "RBC": 6789000,
+                "Hb": 12.3,
+                "HCT": 34.5,
+                "MCV": 80.5,
+                "MCH": 25.6,
+                "MCHC": 31.8,
+                "PLT": 250000,
+                "NEU%": 55.6,
+                "LYM%": 35.7,
+                "MONO%": 4.3
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/µL",
+                "RBC": "/µL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "/µL",
+                "NEU%": "%",
+                "LYM%": "%",
+                "MONO%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

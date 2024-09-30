@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": 51,
+            "unit_of_measurement": "Uds",
+            "reference_range": "[27-32pg]"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 44,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 138,
+            "unit_of_measurement": "G",
+            "reference_range": "[150 - 220 mg]"
+        },
+        {
+            "test_name": "% desedimentación",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[70 - 110 mg %]"
+        }
+    ]
+}

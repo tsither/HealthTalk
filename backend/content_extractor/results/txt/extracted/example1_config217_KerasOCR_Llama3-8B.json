@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 52,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": ""
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.51,
+            "unit_of_measurement": "g/dL",
+            "reference_range": ""
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 136,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-400,000 /µL"
+        }
+    ]
+}

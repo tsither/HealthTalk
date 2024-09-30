@@ -1,0 +1,64 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HIEMOGRAMA SERII ROJA Hemalios",
+            "result_value": 4.75,
+            "unit_of_measurement": "106/pul",
+            "reference_range": "4 0o 65"
+        },
+        {
+            "test_name": "HEMOGLOBINA",
+            "result_value": 13.3,
+            "unit_of_measurement": "claL",
+            "reference_range": "12.0 16,0"
+        },
+        {
+            "test_name": "Hornalocrilo",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_range": "360 47,0"
+        },
+        {
+            "test_name": "VC M; 83.1 IL",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "HC,M.",
+            "result_value": 27.9,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0 30"
+        },
+        {
+            "test_name": "ADE; 16.0 %a",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": 208,
+                "VPMM": 9.1,
+                "ADP_": 16.2,
+                "Plaquetocrito": 0.189,
+                "LeucoCITOS": 4.2,
+                "Neu": 21,
+                "Lin": 1.5,
+                "Mon": 0.5,
+                "Eos": 2.8,
+                "Bas": 0
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

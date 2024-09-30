@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (Hb)",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50 %"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 27.2,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 140000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4000-11000 / ul"
+        }
+    ]
+}

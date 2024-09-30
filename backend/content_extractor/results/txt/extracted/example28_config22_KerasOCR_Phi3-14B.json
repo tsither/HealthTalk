@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucicitos": "29 pg",
+                "Glóbulos rojos (GR)": "143 g/dl",
+                "Hemoglobina": "89 fl",
+                "Eritrocytes": "4.8 x 10^9 / l"
+            },
+            "unit_of_measurement": {
+                "Leucicitos": "pg",
+                "Glóbulos rojos (GR)": "g/dl",
+                "Hemoglobina": "fl",
+                "Eritrocytes": "x 10^9 / l"
+            },
+            "reference_range": {
+                "Leucicitos": null,
+                "Glóbulos rojos (GR)": null,
+                "Hemoglobina": null,
+                "Eritrocytes": null
+            }
+        },
+        {
+            "test_name": "Analitica",
+            "result_value": {
+                "Glucosa": "54 mg/dl"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Articulares",
+            "result_value": {
+                "Creatinina": "1.4 mg/dl"
+            },
+            "unit_of_measurement": {
+                "Creatinina": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematies",
+            "result_value": {
+                "Proteína total": "157 g/dl"
+            },
+            "unit_of_measurement": {
+                "Proteína total": "g/dl"
+            },
+            "reference_range": null
+        }
+    ]
+}

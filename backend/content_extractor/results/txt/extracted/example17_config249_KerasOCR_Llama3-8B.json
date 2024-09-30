@@ -1,0 +1,23 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "4-11 k/uL"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        }
+    ]
+}

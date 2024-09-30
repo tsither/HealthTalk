@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "2345678",
+        "patient_name": "Alato Drogy",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 12.5,
+                "rbc_count": 4.5,
+                "pcv": 37.5,
+                "mcv": 90,
+                "mch": 27,
+                "mchc": 32.3,
+                "rdw": 13.9,
+                "wbc_total": 9000,
+                "neutrophils": 62,
+                "lymphocytes": 31,
+                "eosinophils": 0,
+                "monocytes": 1,
+                "basophils": 0,
+                "platelet_count": 370
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "M/mm³",
+                "pcv": "%",
+                "mcv": "fL",
+                "mch": "pg",
+                "mchc": "g/dL",
+                "rdw": "%",
+                "wbc_total": "K/mm³",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%",
+                "platelet_count": "K/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

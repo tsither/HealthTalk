@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7.0-10.0"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Liver Function Tests: Albumin",
+            "result_value": 3.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.0"
+        }
+    ]
+}

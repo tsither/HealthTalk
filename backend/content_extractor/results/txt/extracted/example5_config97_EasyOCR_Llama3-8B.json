@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 18
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": 555,
+            "unit_of_measurement": "thousand per microliter",
+            "reference_range": "normal"
+        },
+        {
+            "test_name": "electrical impedance",
+            "result_value": 755,
+            "unit_of_measurement": "ohms",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": "2 VELOCIDAD DS SEDIMENTACION FIRA 10",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": [
+                {
+                    "ion": "Cloruro",
+                    "value": "45"
+                },
+                {
+                    "ion": "Potasio",
+                    "value": "93"
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "ion": "Cloruro",
+                    "unit": "mEq/L"
+                },
+                {
+                    "ion": "Potasio",
+                    "unit": "mmol/L"
+                }
+            ],
+            "reference_range": null
+        }
+    ]
+}

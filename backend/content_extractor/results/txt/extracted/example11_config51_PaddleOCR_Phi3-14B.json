@@ -1,0 +1,69 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Vimal Shah",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "Hb": 87.75
+                },
+                {
+                    "RDW": 4.5
+                },
+                {
+                    "MCH": null
+                },
+                {
+                    "Platelet Count": "20 - 40"
+                }
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "",
+                "",
+                ""
+            ],
+            "reference_range": [
+                null,
+                null,
+                null,
+                {
+                    "low": 150,
+                    "high": 410
+                }
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": {
+                "RDW": 4.5
+            },
+            "unit_of_measurement": [
+                "fl"
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": {
+                "MCee": null
+            },
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

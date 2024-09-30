@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "11"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count",
+            "result_value": 125,
+            "unit_of_measurement": "pdw (x10^9/L)",
+            "reference_range": "Normal: 150-450 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.7 x 10^11",
+            "unit_of_measurement": "platelets/cumm",
+            "reference_range": "Normal: 1.5 to 4.5 x 10^11 platelets/cumm"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 12.0,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: <11"
+        }
+    ]
+}

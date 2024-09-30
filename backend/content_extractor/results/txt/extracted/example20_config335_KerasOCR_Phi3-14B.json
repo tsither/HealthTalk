@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "4.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_eange": "4.0-10.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "120",
+            "unit_of_measurement": "g/L",
+            "reference_eange": "135-175"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "6.0",
+            "unit_of_measurement": "x10^9/L",
+            "reference_eange": "4.5-11"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": "250",
+            "unit_of_measurement": "x10^9/L",
+            "reference_eange": "150-400"
+        }
+    ]
+}

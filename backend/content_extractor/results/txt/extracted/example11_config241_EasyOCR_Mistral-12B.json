@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "ss5 02171",
+        "patient_name": "Yash Patel",
+        "patient_sex": "M",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "rbc_count": {
+                    "value": 4.7,
+                    "unit": "million cells/mm3"
+                },
+                "wbc_count": {
+                    "value": 6.0,
+                    "unit": "thousand cells/mm3"
+                }
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "male": {
+                        "low": null,
+                        "high": null
+                    }
+                },
+                "rbc_count": {
+                    "male": {
+                        "low": 4.5,
+                        "high": 6.0
+                    }
+                },
+                "wbc_count": {
+                    "male": {
+                        "low": 3.5,
+                        "high": 11.0
+                    }
+                }
+            }
+        }
+    ]
+}

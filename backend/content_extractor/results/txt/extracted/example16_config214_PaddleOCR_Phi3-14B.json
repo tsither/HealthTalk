@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 150.0,
+            "unit_of_measurement": "%",
+            "reference_range": "32 - 47 %"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 96.2 fL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4500 - 11000 /uL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "/nL",
+            "reference_range": "150.0 - 450.0 /nL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "12 - 16 %"
+        }
+    ]
+}

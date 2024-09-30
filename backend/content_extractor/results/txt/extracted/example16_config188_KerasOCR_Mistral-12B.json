@@ -1,0 +1,40 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": {
+                    "total_count": 60,
+                    "differential": {
+                        "Neutrophils": 70,
+                        "Lymphocytes": 25,
+                        "Monocytes": 3,
+                        "Eosinophils": "<1",
+                        "Basophils": "<1"
+                    }
+                },
+                "RBC": {
+                    "count": 5.5,
+                    "HGB": 18,
+                    "PCV": 45
+                },
+                "Platelets": 200
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": "cells/mL",
+                "HGB": "g/dL",
+                "PCV": "%",
+                "Platelets": "10^3/μL"
+            },
+            "reference_range": null
+        }
+    ]
+}

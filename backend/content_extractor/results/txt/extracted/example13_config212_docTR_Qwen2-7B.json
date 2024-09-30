@@ -1,0 +1,24 @@
+{
+    "Date": "09/12/2023",
+    "patient_information": {
+        "patient_id": "R 0123856789",
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "REMOGLOBIN (HB)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": "13.5",
+                "normal": {
+                    "min": 13.5,
+                    "max": 17.5
+                },
+                "high": "17.5"
+            }
+        }
+    ]
+}

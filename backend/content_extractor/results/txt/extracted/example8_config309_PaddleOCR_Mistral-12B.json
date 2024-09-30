@@ -1,0 +1,50 @@
+{
+    "Date": "15/03/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells (WBC)": 6.5,
+                "Red Blood Cells (RBC)": 4.8,
+                "Hemoglobin (Hb)": 13.2,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "x10^9/L",
+                "Red Blood Cells (RBC)": "x10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelets": "x10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cells (WBC)": "4.5 - 11 x10^9/L",
+                "Red Blood Cells (RBC)": "4.4 - 6.2 x10^12/L",
+                "Hemoglobin (Hb)": "13.5 - 17.5 g/dL",
+                "Platelets": "150 - 450 x10^9/L"
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "Albumin": 3.8,
+                "Bilirubin, Total": 1.2,
+                "Alanine Aminotransferase (ALT)": 25
+            },
+            "unit_of_measurement": {
+                "Albumin": "g/dL",
+                "Bilirubin, Total": "mg/dL",
+                "Alanine Aminotransferase (ALT)": "U/L"
+            },
+            "reference_range": {
+                "Albumin": "3.5 - 5.0 g/dL",
+                "Bilirubin, Total": "0.4 - 1.2 mg/dL",
+                "Alanine Aminotransferase (ALT)": "7 - 56 U/L"
+            }
+        }
+    ]
+}

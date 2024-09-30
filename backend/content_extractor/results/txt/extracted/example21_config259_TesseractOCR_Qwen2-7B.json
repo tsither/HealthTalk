@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7.8, RBC: 5.2, HGB: 13.6, HCT: 0.406, MCV: 90.5, MCH: 30.7, MCHC: 339, PLT: 200",
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "LDL Cholesterol: 145 mg/dL, HDL Cholesterol: 50 mg/dL, Triglycerides: 175 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "Fasting Glucose: 120 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        }
+    ]
+}

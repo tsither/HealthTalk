@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematimetria",
+            "result_value": 100.0,
+            "unit_of_measurement": "% HEMATOCRITO",
+            "reference_range": "(95-100)"
+        },
+        {
+            "test_name": "Hematimetria",
+            "result_value": 28.8,
+            "unit_of_measurement": "g/dl.",
+            "reference_range": "(13.5 - 17.5)"
+        },
+        {
+            "test_name": "Hematimetria",
+            "result_value": null,
+            "unit_of_measurement": "gr./l",
+            "reference_range": "280-345"
+        },
+        {
+            "test_name": "Conteo Plaquetario",
+            "result_value": 17.0,
+            "unit_of_measurement": "/ml.",
+            "reference_range": "(150 - 450)"
+        }
+    ]
+}

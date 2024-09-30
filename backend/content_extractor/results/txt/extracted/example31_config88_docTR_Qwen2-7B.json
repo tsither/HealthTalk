@@ -1,0 +1,87 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "Mean Corpuscular volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular hemoglobin (MCH)",
+            "result_value": 32.8,
+            "unit_of_measurement": "pg",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "Mean Corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 136,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": [
+                {
+                    "Neutrophils": 31
+                },
+                {
+                    "Lymphocytes": 1
+                },
+                {
+                    "Eosinophils": 7
+                },
+                {
+                    "Monocytes": null
+                },
+                {
+                    "Basophils": 150000
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

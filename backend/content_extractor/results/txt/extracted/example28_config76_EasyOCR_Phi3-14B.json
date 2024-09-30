@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(13.5 - 17)"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 10.2,
+            "unit_of_measurement": "",
+            "reference_range": "4.00-11.00"
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": 65.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(70-140)"
+        }
+    ]
+}

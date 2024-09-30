@@ -1,0 +1,93 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_eange": null
+        },
+        {
+            "test_name": "MCV (Mean Cell Volume)",
+            "result_value": 83.1,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Content",
+            "result_value": 4.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "MCM (Mean Cell Hemoglobin)",
+            "result_value": 27.9,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Content - Mean Cell Volume (MCV) Correction Factor (CCHM)",
+            "result_value": 16.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells - Count",
+            "result_value": 4.0,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": [
+                5.5,
+                15.0
+            ]
+        },
+        {
+            "test_name": "White Blood Cells - Count (Neutrophils)",
+            "result_value": 49.8,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 21.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 73.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                16.0,
+                null
+            ]
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0.8,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

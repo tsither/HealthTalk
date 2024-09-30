@@ -1,0 +1,23 @@
+{
+    "Date": "05.12.2023",
+    "patient_information": {
+        "patient_id": "B456789",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "LDH (Lactate Dehydrogenase)",
+            "result_value": "210",
+            "unit_of_measurement": "U/L",
+            "reference_range": "Normal: Men <220 U/L, Women <245 U/L"
+        },
+        {
+            "test_name": "AST (Aspartate Transaminase)",
+            "result_value": "38",
+            "unit_of_measurement": "U/L",
+            "reference_range": "Normal range is typically between 6 and 40 U/L"
+        }
+    ]
+}

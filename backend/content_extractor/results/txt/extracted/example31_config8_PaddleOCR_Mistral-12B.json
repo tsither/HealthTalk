@@ -1,0 +1,38 @@
+{
+    "Date": "20XX-05-01",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.89,
+                "RBC": 4.5,
+                "HGB": 13.0,
+                "HCT": 41.0
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0",
+                "RBC": "4.0-6.3",
+                "HGB": "13.0-17.0",
+                "HCT": "40.0-52.0"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "02/2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "patel yash m",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin (hbl)",
+            "result_value": "12.5",
+            "unit_of_measurement": "q4 170 idl",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": "52,457",
+            "unit_of_measurement": "milliy count cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv (packed cell volume)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "[40, 50] 0oo s"
+        },
+        {
+            "test_name": "mean corpuscular volume (imcv)",
+            "result_value": "8775",
+            "unit_of_measurement": "fl",
+            "reference_range": "[83, 101] fl"
+        },
+        {
+            "test_name": "mch (mean corpuscular hemoglobin)",
+            "result_value": "27.2",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mchc (mean corpuscular hemoglobin concentration)",
+            "result_value": "345",
+            "unit_of_measurement": "gidl",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw (red cell distribution width)",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": "[116, 140] %"
+        },
+        {
+            "test_name": "total wbc count",
+            "result_value": "9000",
+            "unit_of_measurement": "count cumm",
+            "reference_range": null
+        }
+    ]
+}

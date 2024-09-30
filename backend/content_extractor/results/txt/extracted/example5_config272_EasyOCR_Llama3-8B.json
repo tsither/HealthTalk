@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test Name 1",
+            "result_value": 25.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-100 mg/dL"
+        },
+        {
+            "test_name": "Test Name 2",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-16.0 g/dL"
+        }
+    ]
+}

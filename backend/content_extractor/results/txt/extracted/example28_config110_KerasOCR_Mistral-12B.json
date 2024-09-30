@@ -1,0 +1,61 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": "60"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 109,
+                "hemoglobina": 14.3,
+                "leucocitos": 12.1,
+                "glucosa": 110,
+                "creatinina": 88,
+                "colesterol": 220,
+                "proteina C": 6,
+                "hierro": 66,
+                "fermina": 20,
+                "hemoglobina A2": 5.5
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dL",
+                "leucocitos": "x10^3/uL",
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol": "mg/dL",
+                "proteina C": "g/L",
+                "hierro": "ug/dL",
+                "fermina": "%",
+                "hemoglobina A2": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas bioquímicas",
+            "result_value": {
+                "bilirrubina total": 0.2,
+                "bilirrubina conjugada": 0,
+                "bilirrubina indirecta": 157,
+                "fosfatasa alcalina": 30,
+                "albumina": 40,
+                "globulinas": {
+                    "total": 480,
+                    "230": null
+                }
+            },
+            "unit_of_measurement": {
+                "bilirrubina total": "mg/dL",
+                "bilirrubina conjugada": "mg/dL",
+                "bilirrubina indirecta": "mg/dL",
+                "fosfatasa alcalina": "U/L",
+                "albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

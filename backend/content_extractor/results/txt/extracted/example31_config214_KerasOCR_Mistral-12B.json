@@ -1,0 +1,81 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shilvam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dl",
+                    "reference_range": "13.1-17.0"
+                },
+                "Total RBC count": {
+                    "value": 5.245,
+                    "unit": "M/uL",
+                    "reference_range": null
+                },
+                "Hematocrit (HCT)": {
+                    "value": 50,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": 87.75,
+                    "unit": "fl",
+                    "reference_range": null
+                },
+                "Mean Corpuscular Hemoglobin (MCH)": {
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": null
+                },
+                "Red Cell Distribution Width (RDW)": {
+                    "value": 13.6,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Total WBC count": {
+                    "value": 8200,
+                    "unit": "/uL",
+                    "reference_range": null
+                },
+                "Neutrophils": {
+                    "value": 80,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Lymphocytes": {
+                    "value": 20,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Eosinophils": {
+                    "value": 0,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Monocytes": {
+                    "value": 0,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Basophils": {
+                    "value": 2,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "Platelet count": {
+                    "value": 350000,
+                    "unit": "/uL",
+                    "reference_range": "150-400"
+                }
+            }
+        }
+    ]
+}

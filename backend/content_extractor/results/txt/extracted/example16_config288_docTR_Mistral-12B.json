@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "09123067",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell Count": 91.75,
+                "Red Blood Cell Count": 323,
+                "Hemoglobin": 14.0,
+                "Hematocrit": 41,
+                "Platelet Count": 180,
+                "Mean Corpuscular Volume": 90.8,
+                "Mean Corpuscular Hemoglobin": 30.6,
+                "Red Cell Distribution Width": 15.2
+            },
+            "unit_of_measurement": {
+                "White Blood Cell Count": "K/µL",
+                "Red Blood Cell Count": "M/µL",
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Platelet Count": "K/µL",
+                "Mean Corpuscular Volume": "fL",
+                "Mean Corpuscular Hemoglobin": "pg",
+                "Red Cell Distribution Width": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

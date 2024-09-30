@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC COUNT": 272,
+                "RBC COUNT": 52,
+                "HGB CONC": 13.0,
+                "HCT (PCV)": 328,
+                "PLT COUNT": 27
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "/L",
+                "RBC COUNT": "mill/L",
+                "HGB CONC": "g/dL",
+                "HCT (PCV)": "%",
+                "PLT COUNT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

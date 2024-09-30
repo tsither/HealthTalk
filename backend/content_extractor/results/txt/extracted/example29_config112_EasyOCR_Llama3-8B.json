@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.12,
+            "unit_of_measurement": "million/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 40.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80.8,
+            "unit_of_measurement": "fl",
+            "reference_range": "70-94"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 15.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Count",
+            "result_value": 6895.78,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 55%, Lymphocytes: 25%, Monocytes: 10%, Eosinophils: 5%, Basophils: 1%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.72,
+            "unit_of_measurement": "lakh/µL",
+            "reference_range": null
+        }
+    ]
+}

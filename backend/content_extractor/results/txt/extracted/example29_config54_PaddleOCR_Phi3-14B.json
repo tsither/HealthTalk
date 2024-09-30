@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "nple Bnus",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (PCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "low",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "DIF count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "25-328 Dom"
+        }
+    ]
+}

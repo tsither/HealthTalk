@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "Patel Shiv",
+        "patient_sex": "Male",
+        "patient_age": "555"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb) count",
+            "result_value": "125",
+            "unit_of_measurement": "count",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "328",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "27.2",
+            "unit_of_measurement": "",
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

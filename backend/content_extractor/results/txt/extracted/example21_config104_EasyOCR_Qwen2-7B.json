@@ -1,0 +1,75 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "patel compli years",
+        "patient_sex": "male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "complete blood count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "total_wbc_count": "575 cells/µL"
+            }
+        },
+        {
+            "test_name": "white blood cell counts differential",
+            "result_value": [
+                {
+                    "type": "neutrophils",
+                    "count": 8775,
+                    "value": 0.317
+                },
+                {
+                    "type": "lymphocytes",
+                    "count": 150,
+                    "value": null
+                },
+                {
+                    "type": "eosinophils",
+                    "count": 272,
+                    "value": null
+                },
+                {
+                    "type": "monocytes",
+                    "count": 156,
+                    "value": null
+                },
+                {
+                    "type": "basophils",
+                    "count": null,
+                    "value": null
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": {
+                "neutrophils": "40-75%",
+                "lymphocytes": "20-40%",
+                "eosinophils": "0-6%",
+                "monocytes": "3-11%",
+                "basophils": "0-1%"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": "C912X658",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "10^6/uL",
+            "reference_range": "4.4-6.2"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 93.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6.4,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5-11.0"
+        }
+    ]
+}

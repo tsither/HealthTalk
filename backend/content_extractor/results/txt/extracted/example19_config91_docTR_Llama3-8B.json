@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Miren Shah",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 5.51,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4.32-5.72 x 10^12/L"
+        },
+        {
+            "test_name": "Total RBC volume",
+            "result_value": 90,
+            "unit_of_measurement": "ml",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell count (WBC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 3.52,
+            "unit_of_measurement": "10^11/L",
+            "reference_range": "1.5-300 x 10^11/L"
+        }
+    ]
+}

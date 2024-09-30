@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 8,
+            "unit_of_measurement": null,
+            "reference_range": "0-5% or 0-300 cells/μL"
+        },
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 12345,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4,000-11,000 cells/µL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration",
+            "result_value": 35.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width",
+            "result_value": 14.3,
+            "unit_of_measurement": "%",
+            "reference_range": "12-15%"
+        }
+    ]
+}

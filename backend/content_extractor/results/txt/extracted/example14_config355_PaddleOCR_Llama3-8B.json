@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "W000A",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "result_value": 12.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "9.5-12.5"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (aPTT)",
+            "result_value": 30.2,
+            "unit_of_measurement": "seconds",
+            "reference_range": "25-35"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 220000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000-400000"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4500000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "3800000-4800000"
+        }
+    ]
+}

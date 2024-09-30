@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Systolic blood pressure",
+            "result_value": 140,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "90-120"
+        },
+        {
+            "test_name": "Diastolic blood pressure",
+            "result_value": 80,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "60-80"
+        },
+        {
+            "test_name": "Heart rate",
+            "result_value": 100,
+            "unit_of_measurement": "bpm",
+            "reference_range": "60-100"
+        },
+        {
+            "test_name": "Glucose (fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        }
+    ]
+}

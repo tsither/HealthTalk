@@ -1,0 +1,23 @@
+{
+    "Date": "12/05/2023",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "3.8 - 10.8"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 17.2"
+        }
+    ]
+}

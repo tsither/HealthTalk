@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shivam Patel Shah Hiren Mumbal",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "52x10^12/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.3-5.7x10^12/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "135-170g/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "31.6pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32pg"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC) Differential",
+            "result_value": "{Neutrophils: 31%, Lymphocytes: 41%, Eosinophils: 1%, Monocytes: 5%, Basophils: 0%}",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "300x10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "150-400x10^9/L"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "01.02.23",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 7.8,
+            "unit_of_measurement": "%",
+            "reference_range": "5.0 - 6.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6500,
+            "unit_of_measurement": "/mcL",
+            "reference_range": "4500 - 11000"
+        }
+    ]
+}

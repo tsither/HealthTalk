@@ -1,0 +1,89 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "status": "Low"
+                },
+                "RBC_COUNT": {
+                    "value": 5.2,
+                    "reference_range": "4.5 - 5.5 mill/cumm"
+                },
+                "PCV": {
+                    "value": 57.5,
+                    "status": "High",
+                    "reference_range": "40-50 %"
+                },
+                "MCV": {
+                    "value": 87.75,
+                    "reference_range": "83 - 101 fL"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "reference_range": "27 - 32 pg"
+                },
+                "Calculated_MCHC": {
+                    "value": 32.8,
+                    "reference_range": "32.5 - 34.5 g/dL"
+                },
+                "RDW": {
+                    "value": 13.6,
+                    "reference_range": "11.6 - 14.0 %"
+                },
+                "WBC_COUNT": {
+                    "value": 9000,
+                    "reference_range": "4000-11000 cumm"
+                },
+                "NEUTROPHILS": {
+                    "value": 60,
+                    "reference_range": "50 - 62 %"
+                },
+                "LYMPHOCYTES": {
+                    "value": 31,
+                    "reference_range": "20 - 40 %"
+                },
+                "EOSINOPHILS": {
+                    "value": 1,
+                    "reference_range": "00 - 06 %"
+                },
+                "MONOCYTES": {
+                    "value": 7,
+                    "reference_range": "00 - 10 %"
+                },
+                "BASOPHILS": {
+                    "value": 1,
+                    "reference_range": "00 - 02 %"
+                },
+                "PLATELET_COUNT": {
+                    "value": ".I:. ",
+                    "reference_range": "150000 - 410000 cumm"
+                }
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC_COUNT": "mill/cumm",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "Calculated_MCHC": "g/dL",
+                "RDW": "%",
+                "WBC_COUNT": "cumm",
+                "NEUTROPHILS": "%",
+                "LYMPHOCYTES": "%",
+                "EOSINOPHILS": "%",
+                "MONOCYTES": "%",
+                "BASOPHILS": "%",
+                "PLATELET_COUNT": "cumm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0i123as769",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 90,
+            "unit_of_measurement": "fl",
+            "reference_range": {
+                "adults": {
+                    "lower": 9,
+                    "upper": 17
+                },
+                "children": {
+                    "lower": 75.4,
+                    "upper": 135
+                },
+                "newborns": {
+                    "lower": 70,
+                    "upper": 17
+                }
+            },
+            "comments": "PDW is a measure of platelet anisocytosis and indicative of the volume of circulating platelets in unit d volume of blood. This test is useful in distinguishing essential thrombocythemia from reactive thrombocytopenia."
+        }
+    ]
+}

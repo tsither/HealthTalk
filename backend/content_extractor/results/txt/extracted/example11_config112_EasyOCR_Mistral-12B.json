@@ -1,0 +1,122 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "105",
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "RBC count": {
+                    "value": 5.24,
+                    "unit": "million/µL"
+                },
+                "WBC count": {
+                    "value": 9000,
+                    "unit": "cells/µL"
+                },
+                "Platelet count": {
+                    "value": 150000,
+                    "unit": "cells/µL"
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "min": 13,
+                    "max": 18
+                },
+                "RBC count": {
+                    "min": 4.5,
+                    "max": 6.0
+                },
+                "WBC count": {
+                    "min": 4000,
+                    "max": 10000
+                },
+                "Platelet count": {
+                    "min": 150000,
+                    "max": 410000
+                }
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": {
+                "PCV": {
+                    "value": 57.5,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 87.75,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 32,
+                    "unit": "g/dL"
+                },
+                "RDW": {
+                    "value": 13,
+                    "unit": "%"
+                }
+            },
+            "reference_range": {
+                "PCV": {
+                    "min": 40,
+                    "max": 50
+                },
+                "MCV": {
+                    "min": 83,
+                    "max": 101
+                },
+                "MCH": {
+                    "min": 27,
+                    "max": 32
+                },
+                "MCHC": {
+                    "min": 32.5,
+                    "max": 34.5
+                },
+                "RDW": {
+                    "min": 6,
+                    "max": 14
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": {
+                    "value": 60,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 20,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 1,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 0,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 1,
+                    "unit": "%"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Date": "02 Dec 20XX",
+    "patient_information": {
+        "patient_id": "01 23456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 9,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "min": 13.5,
+                    "max": 40
+                },
+                "children": {
+                    "min": 75,
+                    "max": 13
+                },
+                "newborns": {
+                    "min": 9,
+                    "max": 17
+                }
+            },
+            "comments": "Mild platelet anisocytosis; indicative of variation in the volume of circulating platelets per unit volume of blood. Useful in distinguishing essential thrombocythemia."
+        }
+    ]
+}

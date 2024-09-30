@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10.8,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Morphology",
+            "result_value": "Normochromic, Normocytic",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

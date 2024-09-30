@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_eaname": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL (male), 12.1-15.1 g/dL (female)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "38.5-50% (male), 36-46% (female)"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "3.5-10.5 x10^9/L"
+        }
+    ]
+}

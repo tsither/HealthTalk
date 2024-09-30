@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 80,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "BAL",
+            "%L": 20,
+            "LYM": 88.0,
+            "MONO": 4.3,
+            "EOS": 9.9,
+            "BASO": 1.0,
+            "PCT": null,
+            "ATLP": null,
+            "Iymph": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 82,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4-11 x10^3/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450 x10^3/μL"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": 18,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-24 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7-1.5 mg/dL"
+        }
+    ]
+}

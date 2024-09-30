@@ -1,0 +1,29 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "Vimal Shah",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "m",
+        "patient_age": "1 % 150000"
+    },
+    "test_results": [
+        {
+            "test_name": "Full automated cell counter",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "/cumm",
+            "reference_range": "69. 4000-11000"
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "13.6 - 17.0"
+        }
+    ]
+}

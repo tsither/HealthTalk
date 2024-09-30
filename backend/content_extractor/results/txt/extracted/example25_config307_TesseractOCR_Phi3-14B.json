@@ -1,0 +1,23 @@
+{
+    "Date": "15.03.2021",
+    "patient_information": {
+        "patient_id": "P-987654",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon level",
+            "result_value": 14.8,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "Hematocrit level",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "38.5 - 50%"
+        }
+    ]
+}

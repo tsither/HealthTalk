@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Shah Blood Packed)",
+            "result_value": 46.8,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[27-31] x10^6/uL"
+        },
+        {
+            "test_name": "Hemoglobin (Shah Blood Packed)",
+            "result_value": 8.5,
+            "unit_of_measurement": "gm%,",
+            "reference_range": "[13-17] gm%"
+        },
+        {
+            "test_name": "MCV (Shah Blood Packed)",
+            "result_value": 80,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Shah Blood Packed)",
+            "result_value": 24.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-50]%"
+        },
+        {
+            "test_name": "MCHC (Shah Blood Packed)",
+            "result_value": null,
+            "unit_of_measurement": "gm/dl",
+            "reference_range": null
+        }
+    ]
+}

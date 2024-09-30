@@ -1,0 +1,53 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "PAT123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 7.2,
+                "Red Blood Cells": 5.0,
+                "Hemoglobin": 14.8,
+                "Platelets": 230
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "10^9/L",
+                "Red Blood Cells": "10^12/L",
+                "Hemoglobin": "g/dL",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cells": "4.5 - 11.0",
+                "Red Blood Cells": "4.4 - 6.2",
+                "Hemoglobin": "13.5 - 17.5",
+                "Platelets": "150 - 450"
+            }
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": {
+                "Total Cholesterol": 208,
+                "LDL": 135,
+                "HDL": 56,
+                "Triglycerides": 147
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "LDL": "mg/dL",
+                "HDL": "mg/dL",
+                "Triglycerides": "mg/dL"
+            },
+            "reference_range": {
+                "Total Cholesterol": "<200",
+                "LDL": "<130",
+                "HDL": ">40 (Male) / >50 (Female)",
+                "Triglycerides": "<150"
+            }
+        }
+    ]
+}

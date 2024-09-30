@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Iron",
+            "result_value": "<9.0",
+            "unit_of_measurement": "μmol/L",
+            "reference_range": "9.0 - 30.4 μmol/L"
+        },
+        {
+            "test_name": "Vitamin B12",
+            "result_value": "<140",
+            "unit_of_measurement": "pmol/L",
+            "reference_range": "140 - 770 pmol/L"
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "15.50",
+            "unit_of_measurement": "%",
+            "reference_range": "9.0 - 17.0%"
+        }
+    ]
+}

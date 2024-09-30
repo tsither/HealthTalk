@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "245678",
+        "patient_name": "Atoppes L SUIAN",
+        "patient_sex": "F",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "RBC test",
+            "result_value": 5.5,
+            "unit_of_measurement": "Millions per Microliter (mL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13,
+            "unit_of_measurement": "Grams per Deciliter (g/dL)",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 5.0,
+            "unit_of_measurement": "Thousands per Microliter (μL)",
+            "reference_range": "4-10 K/μL"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "Thousands per Microliter (K/μL)",
+            "reference_range": null
+        }
+    ]
+}

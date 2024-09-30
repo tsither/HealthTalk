@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Low": "13.0",
+                "High": "17.0"
+            }
+        },
+        {
+            "test_name": "Total RBC COUNT",
+            "result_value": "5.2",
+            "unit_of_measurement": "millicumm",
+            "reference_range": {
+                "Low": "4.5",
+                "High": "5.5"
+            }
+        },
+        {
+            "test_name": "Mean Packed Cell Volume (PCV)",
+            "result_value": "37.5",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": "83.0",
+                "High": "101.0"
+            }
+        },
+        {
+            "test_name": "MCH Calculated",
+            "result_value": "27.2",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC RDW",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": "11.6",
+                "High": "14.0"
+            }
+        },
+        {
+            "test_name": "WBC Total COUNT",
+            "result_value": "9000",
+            "unit_of_measurement": "cumm",
+            "reference_range": {
+                "Low": "4000",
+                "High": "11000"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "275000",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

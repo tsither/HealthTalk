@@ -1,0 +1,53 @@
+{
+    "Date": "02.Dec.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 689578,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": "37-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Hb Concentration (MCHC)",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 328,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "150000-400000"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

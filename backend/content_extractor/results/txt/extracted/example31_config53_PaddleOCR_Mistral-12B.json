@@ -1,0 +1,56 @@
+{
+    "Date": "20XX-05-05",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shiva Patel",
+        "patient_sex": null,
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": 8280,
+                "RBC COUNT": 689578,
+                "PLATELET COUNT": 136
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "cells/mm³",
+                "RBC COUNT": "cells/mm³",
+                "PLATELET COUNT": "cells/mm³"
+            },
+            "reference_range": {
+                "WBC COUNT": {
+                    "min": 4000,
+                    "max": 11000
+                },
+                "RBC COUNT": {
+                    "min": null,
+                    "max": null
+                },
+                "PLATELET COUNT": {
+                    "min": null,
+                    "max": null
+                }
+            }
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "min": 13.0,
+                "max": 17.0
+            }
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 41.0,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    ]
+}

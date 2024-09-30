@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "White Blood Cells (WBC)": "5.6",
+                "Red Blood Cells (RBC)": "4.8",
+                "Hemoglobin (Hb)": "12.5",
+                "Platelets": "230"
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "10^9/L",
+                "Red Blood Cells (RBC)": "10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

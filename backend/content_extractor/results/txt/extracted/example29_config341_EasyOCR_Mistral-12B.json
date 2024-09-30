@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": 20,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0-15"
+        },
+        {
+            "test_name": "Lymphocyte count",
+            "result_value": 3.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "1.2-4.8"
+        }
+    ]
+}

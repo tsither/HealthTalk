@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": "4.0",
+            "unit_of_measurement": "K/UL",
+            "reference_range": "< 11.4"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "20",
+            "unit_of_measurement": "g/DL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "163",
+            "unit_of_measurement": "K/UL",
+            "reference_range": null
+        }
+    ]
+}

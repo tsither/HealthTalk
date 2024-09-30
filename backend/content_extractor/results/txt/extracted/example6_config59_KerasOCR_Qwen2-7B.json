@@ -1,0 +1,41 @@
+{
+    "Date": "02/02/20XX",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count",
+            "result_value": "hemoglobin: 12.5; rbc_count: 5240; pcvi: 57.5; mcv: 87.75fl; mch: 27.13pg; mchc: 32.3dl; rdw: 18.6%",
+            "unit_of_measurement": null,
+            "reference_range": "hemoglobin: 13-170idl; rbc_count: s55milli; pcvi: a0-50jioo; mcv: 85-101fl; mch: calculated; mchc: calculated; rdw: 116-140"
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC differential",
+            "result_value": "neutrophils: 6.50; lymphocytes: 5.20; eosinophils: 0.00; monocytes: 1.0; basophils: 0.02",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "50000",
+            "unit_of_measurement": "platelet count 1 cumm",
+            "reference_range": "41000-"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel Aa",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": 27.2,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "BL OOD INDICES Packed Cell Volume (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Cakusaled MCH Coleutates",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC RDW WBC COUNT NI( CC Total WBC'count DIFFERENTIAL WBC COUNT",
+            "result_value": 90016,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": [
+                60,
+                31
+            ],
+            "unit_of_measurement": [
+                "%",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumn/cumn fL",
+            "reference_range": [
+                150000,
+                null
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "B9876543A",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (Sugars, Average)",
+            "result_value": "6.3",
+            "unit_of_measurement": "%",
+            "reference_range": "4-6"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": "120",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "20-130"
+        }
+    ]
+}

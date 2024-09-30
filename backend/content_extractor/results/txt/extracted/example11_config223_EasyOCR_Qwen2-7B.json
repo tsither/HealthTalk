@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345761",
+        "patient_name": "Yash m",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collected_sample_at": "125 shiyam bungalot s g coad"
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbcy investigation",
+            "result_value": 125,
+            "unit_of_measurement": "gfil",
+            "reference_range": {
+                "low": 130,
+                "high": 170
+            }
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": 51.2,
+            "unit_of_measurement": "ds",
+            "reference_range": {
+                "min": 55,
+                "max": null
+            }
+        },
+        {
+            "test_name": "pcv packed cell volume",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "min": 50,
+                "max": null
+            }
+        },
+        {
+            "test_name": "mch mean corpuscular hemoglobin concentration",
+            "result_value": 328,
+            "unit_of_measurement": "pg",
+            "reference_range": {
+                "min": 272,
+                "max": 325.7
+            }
+        }
+    ]
+}

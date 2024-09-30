@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin test",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5750000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4.7 - 6.1 million cells/mcL"
+        },
+        {
+            "test_name": "WBC Differential count",
+            "result_value": [
+                {
+                    "neutrophils": 27200,
+                    "percentage": "35%"
+                },
+                {
+                    "lymphocytes": 17000,
+                    "percentage": "22%"
+                },
+                {
+                    "eosinophils": 4600,
+                    "percentage": "6%"
+                }
+            ],
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 277000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "150 - 450 thousand cells/mcL"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": null,
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        }
+    ]
+}

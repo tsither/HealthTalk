@@ -1,0 +1,20 @@
+{
+    "Date": "02 Dec 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "13.5 - 17.5 g/dL",
+                "female": "12.0 - 15.5 g/dL"
+            }
+        }
+    ]
+}

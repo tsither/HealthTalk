@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "RBC Count": 4.5,
+                "PCV": null,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 32.8,
+                "WBC Count": 13.6,
+                "Differential WBC Count": {
+                    "Neutrophils": null,
+                    "Lymphocytes": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "Platelet Count": 150000
+            }
+        }
+    ]
+}

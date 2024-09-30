@@ -1,0 +1,86 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": {
+                "Hematies": 4.75,
+                "HEMOGLOBINA": "13.3 g/dL",
+                "Hematocrito": 13.3,
+                "V.C.M": null,
+                "H.C,M": null,
+                "C.H.C.M": null,
+                "A.D.E": null
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBINA": "g/dL",
+                "V.C.M": "[FILL]",
+                "H.C,M": "[FILL]",
+                "C.H.C.M": "[FILL]",
+                "A.D.E": "[FILL]"
+            },
+            "reference_range": {
+                "Hematies": "[FILL] - [FILL] g/dL",
+                "HEMOGLOBINA": "[FILL] - [FILL]%",
+                "V.C.M": null,
+                "H.C,M": null,
+                "C.H.C.M": null,
+                "A.D.E": null
+            }
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": 208,
+                "V.P.M": null,
+                "A.D.P": null,
+                "Plaquetocrito": null
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "[FILL] /uL",
+                "V.P.M": "[FILL] fL",
+                "A.D.P": "[FILL]%",
+                "Plaquetocrito": "[FILL]"
+            },
+            "reference_range": {
+                "PLAQUETAS": "[FILL] - [FILL]",
+                "V.P.M": null,
+                "A.D.P": null,
+                "Plaquetocrito": null
+            }
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": {
+                "4.20 10E3/L": null,
+                "Neu": null,
+                "Lin": null,
+                "Mon": null,
+                "Eos": null,
+                "Bas": null
+            },
+            "unit_of_measurement": {
+                "4.20 10E3/L": "[FILL] /L",
+                "Neu": "[FILL]%",
+                "Lin": "[FILL]%",
+                "Mon": "[FILL]%",
+                "Eos": "[FILL]%",
+                "Bas": "[FILL]%"
+            },
+            "reference_range": {
+                "4.20 10E3/L": null,
+                "Neu": "[FILL] - [FILL]% ",
+                "Lin": "[FILL] - [FILL]%",
+                "Mon": "[FILL] - [FILL]%",
+                "Eos": "[FILL] - [FILL]%",
+                "Bas": "[FILL] - [FILL]%"
+            }
+        }
+    ]
+}

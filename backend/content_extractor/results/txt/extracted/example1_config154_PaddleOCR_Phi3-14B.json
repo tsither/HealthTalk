@@ -1,0 +1,39 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "7p/6",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Low",
+                "4.5 - 5. cu mm/u l High",
+                "83 - 101 g/d L"
+            ],
+            "unit_of_measurement": [
+                "Packed Cell Volume (PCV) Unit",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC) g/dL",
+                "White Blood Cells Count WBC count /u l"
+            ],
+            "reference_range": [
+                "40-50%",
+                "27.2 - 32%",
+                "150000 - 83*10^9/l"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": [
+                "pluglecs"
+            ],
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "GLB": 14.8,
+                "HB": 138,
+                "HTC": 36,
+                "VGM": 88.7,
+                "PLT": 298
+            },
+            "unit_of_measurement": {
+                "GLB": "g/dL",
+                "HB": "g/dL",
+                "HTC": "%",
+                "VGM": "fL",
+                "PLT": "thousand/μL"
+            },
+            "reference_range": {
+                "GLB": [
+                    37,
+                    53
+                ],
+                "HB": [
+                    11.5,
+                    17
+                ],
+                "HTC": [
+                    40,
+                    11
+                ],
+                "VGM": [
+                    86,
+                    98
+                ],
+                "PLT": [
+                    140,
+                    440
+                ]
+            }
+        },
+        {
+            "test_name": "Biometria hematica",
+            "result_value": {
+                "BRCN": 51,
+                "LMC": 36,
+                "MO": 10,
+                "BA": 1
+            },
+            "unit_of_measurement": {
+                "BRCN": "%",
+                "LMC": "%",
+                "MO": "%",
+                "BA": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de sedimentacion",
+            "result_value": 2,
+            "unit_of_measurement": "mm/hora",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": 87,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas serologicas",
+            "result_value": {
+                "GOT": 40,
+                "GPT": 43,
+                "GT": 45,
+                "A/G": 0.91
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GT": "U/L",
+                "A/G": ""
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Na+": 141,
+                "Cl-": 98,
+                "K+": 4.02
+            },
+            "unit_of_measurement": {
+                "Na+": "mEq/L",
+                "Cl-": "mEq/L",
+                "K+": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "07 Dec, 21",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "407000",
+            "unit_of_measurement": "/cumm",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "7.9",
+            "unit_of_measurement": "/cumm",
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "% Neutrophils",
+            "result_value": "63.8",
+            "unit_of_measurement": "%",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "% Lymphocytes",
+            "result_value": "30.1",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.7,
+                "Hct": 39.4,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "K/uL"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.0,
+                    10.0
+                ],
+                "RBC": [
+                    4.5,
+                    6.0
+                ],
+                "Hb": [
+                    12.0,
+                    16.0
+                ],
+                "Hct": [
+                    37.0,
+                    47.0
+                ],
+                "Platelets": [
+                    150,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": {
+                "Glucose": 98,
+                "Total Protein": 7.2,
+                "Albumin": 3.9,
+                "BUN": 15,
+                "Creatinine": 0.9
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL"
+            },
+            "reference_range": {
+                "Glucose": [
+                    70,
+                    110
+                ],
+                "Total Protein": [
+                    6.5,
+                    8.3
+                ],
+                "Albumin": [
+                    3.5,
+                    5.0
+                ],
+                "BUN": [
+                    6,
+                    20
+                ],
+                "Creatinine": [
+                    0.6,
+                    1.2
+                ]
+            }
+        }
+    ]
+}

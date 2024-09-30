@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.5 - 17.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 328,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "13.6 - 34.5"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 87.75,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

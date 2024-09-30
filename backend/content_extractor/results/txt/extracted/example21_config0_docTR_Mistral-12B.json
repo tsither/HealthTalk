@@ -1,0 +1,29 @@
+{
+    "Date": "A/XX/XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "A Y",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CA & A",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ANA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ESR",
+            "result_value": 10,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "<20"
+        }
+    ]
+}

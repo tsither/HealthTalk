@@ -1,0 +1,32 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "com | 0912345678",
+        "patient_name": "Patel Result",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.5 - 16.5"
+        },
+        {
+            "test_name": "Total Count",
+            "result_value": "410,000",
+            "unit_of_measurement": "/µL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "92",
+            "unit_of_measurement": "fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "28.4",
+            "unit_of_measurement": "pg"
+        }
+    ]
+}

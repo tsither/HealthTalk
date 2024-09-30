@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "9",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": "0.75",
+            "unit_of_measurement": "%",
+            "reference_range": "[9-16]"
+        },
+        {
+            "test_name": "Immunoglobulin M (IgM)",
+            "result_value": "234",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[50-300]"
+        },
+        {
+            "test_name": "Immunoglobulin G (IgG)",
+            "result_value": "1869",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[50-1500]"
+        },
+        {
+            "test_name": "Immunoglobulin A (IgA)",
+            "result_value": "328",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[60-400]"
+        }
+    ]
+}

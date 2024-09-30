@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec. 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Pate! ",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 40.5,
+                "MCHC": 32.8,
+                "RDW": 13.6,
+                "WBC COUNT": 11.6,
+                "Neutrophils": 31,
+                "Lymphocytes": 67,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 1,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "MCHC": "pg",
+                "RDW": "fL",
+                "WBC COUNT": "x10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "x10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "4.5- 5.5 mill/cumm",
+                "Packed Cell Volume (PCV)": "",
+                "Mean Corpuscular Volume (MCV)": "",
+                "MCHC": "32.5- 34.5 pg",
+                "RDW": "",
+                "WBC COUNT": "4.5-11.0 x10^9/L",
+                "Neutrophils": "",
+                "Lymphocytes": "",
+                "Eosinophils": "",
+                "Monocytes": "",
+                "Basophils": "",
+                "Platelet Count": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

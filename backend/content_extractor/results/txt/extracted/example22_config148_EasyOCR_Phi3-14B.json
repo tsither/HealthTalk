@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345673",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "unknown"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "860",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "150 g/L",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "normal"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "3 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.5 x10^12/L",
+            "unit_of_measurement": "x10^6/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "300 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

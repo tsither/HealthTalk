@@ -1,0 +1,35 @@
+{
+    "Date": "08/12/2023",
+    "patient_information": {
+        "patient_id": "091234s678",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear",
+            "result_value": "Normochromic, Normocytic",
+            "unit_of_measurement": "Blood morphology",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.5 M/μL",
+            "unit_of_measurement": "cells/microL",
+            "reference_range": "3.8-5.6 M/μL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "6,000/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4,500-11,000/mm³"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250,000/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150,000-450,000/mm³"
+        }
+    ]
+}

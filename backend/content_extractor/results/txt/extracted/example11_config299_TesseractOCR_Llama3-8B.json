@@ -1,0 +1,29 @@
+{
+    "Date": "02/16/2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.5-11.0 x 10^12 cells/L"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "Liver Function Tests (LFTs)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

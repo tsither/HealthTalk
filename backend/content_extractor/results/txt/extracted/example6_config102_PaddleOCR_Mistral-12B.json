@@ -1,0 +1,56 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 8.775,
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Total RBC count": null,
+                "Hemoglobin (Hb)": 12.5,
+                "Packed Cell Volume (PCV)": 37.5,
+                "Platelet Count": 272,
+                "Mean Corpuscular Volume (MCV)": 84.06,
+                "Mean Corpuscular Hemoglobin (MCH)": null,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null,
+                "Red Cell Distribution Width (RDW)": null
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "10^3/uL",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Platelet Count": "10^3/uL",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": null,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null,
+                "Red Cell Distribution Width (RDW)": "%"
+            },
+            "reference_range": {
+                "Total WBC count": "4.5 - 10.8",
+                "Hemoglobin (Hb)": "13.0 - 17.0",
+                "Packed Cell Volume (PCV)": "32.5 - 36.5",
+                "Platelet Count": "150,000 - 450,000",
+                "Mean Corpuscular Volume (MCV)": "80 - 96",
+                "Mean Corpuscular Hemoglobin (MCH)": null,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null,
+                "Red Cell Distribution Width (RDW)": null
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

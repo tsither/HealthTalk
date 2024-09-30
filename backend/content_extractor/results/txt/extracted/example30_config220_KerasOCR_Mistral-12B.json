@@ -1,0 +1,35 @@
+{
+    "Date": "20.05.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.8,
+            "unit_of_measurement": "million cells/mm³",
+            "reference_range": "4.4-6.1"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 5200,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "3700-9900"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 136,
+            "unit_of_measurement": "thousand cells/mm³",
+            "reference_range": "150-450"
+        }
+    ]
+}

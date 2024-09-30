@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "41%",
+            "unit_of_measurement": "%",
+            "reference_range": "37-52%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "217,000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-450,000/µL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "6.895",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5-11.0 10^3/uL"
+        }
+    ]
+}

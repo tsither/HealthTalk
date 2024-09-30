@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 6.56,
+            "unit_of_measurement": "100/IL",
+            "reference_range": "(400 - 1080)"
+        },
+        {
+            "test_name": "Hematies",
+            "result_value": 4.17,
+            "unit_of_measurement": "100/IL",
+            "reference_range": "(350 - 5,40)"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 9.7,
+            "unit_of_measurement": "gr/dL",
+            "reference_range": "(12.0 - 16.0)"
+        }
+    ]
+}

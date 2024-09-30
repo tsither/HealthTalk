@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "8.88 cp s",
+            "unit_of_measurement": "cells per mm^3",
+            "reference_range": "(4.30-10.50) x 10^12 cells/L"
+        },
+        {
+            "test_name": "Blood Urea",
+            "result_value": "0.80 mg/dL",
+            "unit_of_measurement": "milligrams per deciliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": "135 mmol/L",
+            "unit_of_measurement": "millimoles per liter",
+            "reference_range": "(136-145) mmol/L"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": "3.50 mEq/L",
+            "unit_of_measurement": "milliequivalents per liter",
+            "reference_range": "(3.50-5.00) mEq/L"
+        }
+    ]
+}

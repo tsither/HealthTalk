@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HIV",
+            "result_value": "10^4",
+            "unit_of_measurement": null,
+            "reference_range": "< 10^3"
+        },
+        {
+            "test_name": "CD4 Count",
+            "result_value": 400,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "500-1600 cells/μL"
+        },
+        {
+            "test_name": "Hepatitis B Surface Antigen (HBsAg)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hepatitis C Antibody",
+            "result_value": "O",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

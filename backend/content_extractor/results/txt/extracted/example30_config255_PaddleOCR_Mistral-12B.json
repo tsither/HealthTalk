@@ -1,0 +1,23 @@
+{
+    "Date": "20XX-XX-XX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "MCV",
+            "result_value": 90.0,
+            "unit_of_measurement": "fl",
+            "reference_range": "83.0 - 100.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 45678,
+            "unit_of_measurement": "/MCV/L",
+            "reference_range": null
+        }
+    ]
+}

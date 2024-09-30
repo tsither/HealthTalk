@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yashm",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_ name": "Cortisol AM Levels",
+            "result_value": 8,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": "[5-23 mcg/dL]"
+        },
+        {
+            "test_name": "Plasma Testosterone Levels",
+            "result_value": 8,
+            "unit_of_measurement": "ng/dL",
+            "reference_range": "[150-950 ng/dL]"
+        },
+        {
+            "test_name": "Corticosteroid Hormone Profile",
+            "result_value": 23,
+            "unit_of_measurement": "ug/mL",
+            "reference_range": "[5-10 ug/mL]"
+        },
+        {
+            "test_name": "Comprehensive Metabolic Panel (CMP)",
+            "result_value": 3,
+            "unit_of_measurement": null,
+            "reference_range": "[null]"
+        }
+    ]
+}

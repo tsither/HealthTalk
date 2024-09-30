@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC Count",
+            "result_value": 555,
+            "unit_of_measurement": "value pid",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 170,
+            "unit_of_measurement": "",
+            "reference_range": "low type"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": null,
+            "unit_of_measurement": "g",
+            "reference_range": "52z count"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Packed Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 60.9,
+            "unit_of_measurement": "g",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

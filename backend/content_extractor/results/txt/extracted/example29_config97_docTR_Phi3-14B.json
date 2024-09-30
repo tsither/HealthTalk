@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "THCAREC ECOMPIEX",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (Hb)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 328,
+            "unit_of_measurement": "/ul",
+            "reference_range": "83-101/uL"
+        },
+        {
+            "test_name": "PLT (Platelet count)",
+            "result_value": 75,
+            "unit_of_measurement": "/nL",
+            "reference_range": "20-40 x10^9/L"
+        },
+        {
+            "test_name": "Basophils (%)",
+            "result_value": 3.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

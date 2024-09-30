@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell Count": 7.3,
+                "Red Blood Cell Count": 5.5,
+                "Hemoglobin": 130,
+                "Platelet Count": 289
+            },
+            "unit_of_measurement": {
+                "White Blood Cell Count": "10^9/L",
+                "Red Blood Cell Count": "10^12/L",
+                "Hemoglobin": "g/dL",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

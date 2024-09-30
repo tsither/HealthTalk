@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 6.7,
+            "unit_of_measurement": "%",
+            "reference_range": "<5.7"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8.2,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "OI23ASS69",
+        "patient_name": null,
+        "patient_sex": "M",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "130",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "135-170"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "170",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "50",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "275",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "325-34"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "11000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "60%",
+                "Lymphocytes": "62%",
+                "Monocytes": "10%",
+                "Eosinophils": "0%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "10000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        }
+    ]
+}

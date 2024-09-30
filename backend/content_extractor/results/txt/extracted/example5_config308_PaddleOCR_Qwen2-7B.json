@@ -1,0 +1,35 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2 K/uL, RBC: 4.81 M/uL, HGB: 14.0 g/dL, HCT: 43.5%, PLT: 250 K/uL",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "ALT: 18 U/L, AST: 22 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "[0-40][0-36]"
+        },
+        {
+            "test_name": "Kidney Function Tests (KFT)",
+            "result_value": "Cr: 1.2 mg/dL, BUN: 15 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0.6-1.2][8-23]"
+        },
+        {
+            "test_name": "Serum Electrolytes",
+            "result_value": "Na: 140 mEq/L, K: 4.1 mEq/L, Cl: 97 mEq/L, Ca: 9.5 mg/dL",
+            "unit_of_measurement": "mEq/L mg/dL",
+            "reference_range": "[136-146][3.5-5.0][98-108][8.2-10]"
+        }
+    ]
+}

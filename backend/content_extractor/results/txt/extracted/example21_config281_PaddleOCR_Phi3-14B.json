@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "I",
+            "result_value": 4.0,
+            "unit_of_measurement": "g/dL",
+            "reference_nrange": "-0 to +1"
+        },
+        {
+            "test_name": "O.4",
+            "result_value": 0.9,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "+0",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "-11.6 to -14.0",
+            "result_value": 13.0,
+            "unit_of_measurement": "% Hematocrit",
+            "reference_range": null
+        }
+    ]
+}

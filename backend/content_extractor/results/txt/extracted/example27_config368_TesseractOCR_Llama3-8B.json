@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "ERYTHROCYTE COUNT",
+            "result_value": 4320000.0,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "3.90-5.10 x 10^12 per liter"
+        },
+        {
+            "test_name": "HAEMOGLOBIN",
+            "result_value": 134,
+            "unit_of_measurement": "grams per decilitre",
+            "reference_range": "117-159 g/dL"
+        },
+        {
+            "test_name": "MEAN CORPUSCULAR HAEMOGLOBIN",
+            "result_value": 81.2,
+            "unit_of_measurement": "picograms",
+            "reference_range": "74-94 pg/cell"
+        },
+        {
+            "test_name": "RED CELL DISTRIBUTION WIDTH",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "12.3-14.7%"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 123.45,
+            "unit_of_measurement": "U/ml",
+            "reference_range": null
+        },
+        {
+            "test_name": "Alanine Aminotransferase",
+            "result_value": 67.89,
+            "unit_of_measurement": "IU/l",
+            "reference_range": "5-40 IU/l"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "32.5",
+                "- 34.5",
+                "83",
+                "- 101"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_n ame": "Differential White Cell Count",
+            "result_value": [
+                "- -",
+                "OMLT",
+                "BMLT"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": [
+                "12.5",
+                "- 7.5"
+            ],
+            "unit_of_measurement": "$",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "83",
+                "- 101"
+            ],
+            "unit_of_measurement": "s9s/ml",
+            "reference_range": null
+        }
+    ]
+}

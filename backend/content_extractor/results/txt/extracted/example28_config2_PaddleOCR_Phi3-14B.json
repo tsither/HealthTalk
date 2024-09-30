@@ -1,0 +1,121 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "60"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                {
+                    "hematies": 4.81,
+                    "hemoglobina": 14.3,
+                    "VCM": 68,
+                    "H.M.C.": 29
+                }
+            ],
+            "unit_of_measurement": [
+                "x10^9/L",
+                "g/L",
+                "fL",
+                "pg"
+            ]
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": [
+                {
+                    "glucosa": 65.0,
+                    "creatinina": 1.15,
+                    "colesterol": 220,
+                    "proteina": 6.6,
+                    "hierro (II+III)": 65,
+                    "ferritina": 20
+                }
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mg/dL",
+                "mg/dL",
+                "g/dL",
+                "g/dL",
+                "ng/mL"
+            ]
+        },
+        {
+            "test_name": "Hemoglobina A1c",
+            "result_value": [
+                4.5
+            ],
+            "unit_of_measurement": [
+                "%"
+            ]
+        },
+        {
+            "test_name": "GOT",
+            "result_value": [
+                800
+            ],
+            "unit_of_measurement": [
+                "U/L"
+            ]
+        },
+        {
+            "test_name": "GPT",
+            "result_value": [
+                800
+            ],
+            "unit_of_measurement": [
+                "U/L"
+            ]
+        },
+        {
+            "test_name": "GGT",
+            "result_value": [
+                100
+            ],
+            "unit_of_measurement": [
+                "U/L"
+            ]
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": [
+                2.8
+            ],
+            "unit_of_measurement": [
+                "mg/dL"
+            ]
+        },
+        {
+            "test_name": "Bilirrubina directa (Esterificada)",
+            "result_value": [
+                1.5
+            ],
+            "unit_of_measurement": [
+                "mg/dL"
+            ]
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": [
+                50
+            ],
+            "unit_of_measurement": [
+                "U/L"
+            ]
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": [
+                2.3
+            ],
+            "unit_of_measurement": [
+                "g/dL"
+            ]
+        }
+    ]
+}

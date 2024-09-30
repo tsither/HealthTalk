@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38.5-50%"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 11000000000,
+            "unit_of_measurement": "/l",
+            "reference_range": "4.5-6.0 x 10^12 / l"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 140,
+            "unit_of_measurement": "g/l",
+            "reference_range": "135-180 g/l"
+        },
+        {
+            "test_name": "Hematocrit (repeated)",
+            "result_value": 140,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells (repeated)",
+            "result_value": 84.5,
+            "unit_of_measurement": "x10^6/L",
+            "reference_range": "null"
+        }
+    ]
+}

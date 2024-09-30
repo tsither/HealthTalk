@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 6.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_nrange": "4.5-11"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 85,
+            "unit_of_measurement": "g/L",
+            "reference_nrange": "40-60"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.0,
+            "unit_of_measurement": "x10^12/L",
+            "reference_nrange": "3.5-6.0"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 48,
+            "unit_of_measurement": "%",
+            "reference_nrange": "27-43% for women; 39-50% for men"
+        },
+        {
+            "test_name": "Platelet Count (Plt)",
+            "result_value": 168,
+            "unit_of_measurement": "x10^9/L",
+            "reference_nrange": "150-450"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.7,
+            "unit_of_measurement": "x10^9/L",
+            "reference_nrange": "4-11"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils (%)": 62.5,
+                "Lymphocytes (%)": 30,
+                "Monocytes (%)": 4.9,
+                "Eosinophils (%)": 1.8,
+                "Basophils (%)": 0.7
+            },
+            "unit_of_measurement": "%",
+            "reference_nrange": {
+                "Neutrophils (%)": "45-70%",
+                "Lymphocytes (%)": "20-40%",
+                "Monocytes (%)": "3-8%",
+                "Eosinophils (%)": "1-4%",
+                "Basophils (%)": "0.5-1%"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.325",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.0 - 5.5 million/cumm"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13.6",
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "41.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "80.0",
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 90 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

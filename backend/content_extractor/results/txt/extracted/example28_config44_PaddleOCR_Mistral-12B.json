@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon",
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4,8x109 /L",
+                "Hemoglobina": "14,3 g/L",
+                "VCM": "89 fL",
+                "Leucicitos": "29 pg/há"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "10,2 mmol/L",
+                "Creatinina": "65 mg/dL",
+                "Colesterol": "70.0 mg/dL",
+                "Proteina": null,
+                "Hierro (Fe)": "(II+III)",
+                "Ferritina": "1.15 µg/L",
+                "Hemoglobina A1C": "220 mg/dL",
+                "COT": "6.6 mg/dL",
+                "CPT": "110.0 mg/dL",
+                "GGT": "20 g/dL",
+                "Bilirrubina total": "4.5 (<240.0 g/dL)",
+                "Bilirubina directa (esterificada)": "800 ng/mL",
+                "Fosfatasa Alcalina": "800 U/L",
+                "Albumina": {
+                    "%": "100%",
+                    "Un": "2.8"
+                }
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mmol/L",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Hierro (Fe)": null,
+                "Ferritina": "µg/L",
+                "Hemoglobina A1C": "mg/dL",
+                "COT": "mg/dL",
+                "CPT": "mg/dL",
+                "GGT": "g/dL",
+                "Bilirrubina total": "g/dL",
+                "Bilirubina directa (esterificada)": "ng/mL",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": {
+                    "%": "%",
+                    "Un": "g/dL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

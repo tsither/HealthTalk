@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "105. Acci PID 555",
+        "patient_name": "Shivam",
+        "patient_sex": "M",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "lower": 11.6,
+                "upper": 14.0
+            }
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 328,
+            "unit_of_measurement": "/µL",
+            "reference_range": {
+                "lower": 325,
+                "upper": 6200
+            }
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

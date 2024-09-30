@@ -1,0 +1,97 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "HEMATIES": 4.96,
+                "HEMATOCRITO": 44,
+                "HEMOGLOBINA": 14.8,
+                "LEUCOCITOS": 3.27,
+                "PLAQUETAS": 138,
+                "EOSINOFILOS": 2,
+                "BASOFILOS": 1
+            },
+            "unit_of_measurement": {
+                "HEMATIES": "por mm^3",
+                "HEMATOCRITO": "%",
+                "HEMOGLOBINA": "%",
+                "LEUCOCITOS": "/mm^3",
+                "PLAQUETAS": "/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "HDL": 60,
+                "LDL": 100,
+                "TRIGLICERIDOS": 45,
+                "UREA": 19,
+                "AC. URICO": 4.5,
+                "HIERRO": null,
+                "CREATININA": 145,
+                "HOMOCISTEINA": 0.6,
+                "PROTEINAST": null
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": null,
+                "COLESTEROL": null,
+                "HDL": null,
+                "LDL": null,
+                "TRIGLICERIDOS": null,
+                "UREA": null,
+                "AC. URICO": null,
+                "HIERRO": null,
+                "CREATININA": null,
+                "HOMOCISTEINA": null,
+                "PROTEINAST": null
+            },
+            "reference_range": {
+                "GLUCOSA": null,
+                "COLESTEROL": null,
+                "HDL": null,
+                "LDL": null,
+                "TRIGLICERIDOS": null,
+                "UREA": null,
+                "AC. URICO": null,
+                "HIERRO": null,
+                "CREATININA": null,
+                "HOMOCISTEINA": null,
+                "PROTEINAST": null
+            }
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": {
+                "GOT": 40,
+                "GPT": 43,
+                "GT": 45
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 98,
+                "POTASIO": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

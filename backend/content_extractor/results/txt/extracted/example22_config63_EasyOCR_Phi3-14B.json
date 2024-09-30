@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Level",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Ref Count",
+            "result_value": 575,
+            "unit_of_measurement": "count/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Composition",
+            "result_value": {
+                "neutrophils": 272,
+                "lymphocytes": 170,
+                "eosinophils": null,
+                "monocytes": null,
+                "basophils": null
+            },
+            "unit_of_measurement": "count/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 89.0,
+            "unit_of_measurement": "femtoliters (fl)",
+            "reference_range": [
+                76.0,
+                96.0
+            ]
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 6400,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 485,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 100,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 320,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 720,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 320,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 10,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

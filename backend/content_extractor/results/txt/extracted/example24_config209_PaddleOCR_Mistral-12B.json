@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "Platelets": 32.8,
+                "Hemoglobin (Hb)": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Eosinophils": null,
+                "Lymphocytes": null,
+                "MCHC": null
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "Platelets": "10³/mm³",
+                "Hemoglobin (Hb)": null,
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Eosinophils": "%",
+                "Lymphocytes": "%",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": "150000-410000",
+                "Platelets": null,
+                "Hemoglobin (Hb)": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Eosinophils": null,
+                "Lymphocytes": null,
+                "MCHC": null
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 13.6,
+            "unit_of_measurement": "fL",
+            "reference_range": "11.6-14.0"
+        }
+    ]
+}

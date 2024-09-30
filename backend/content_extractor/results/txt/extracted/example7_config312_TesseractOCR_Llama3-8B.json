@@ -1,0 +1,23 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": "PAT001",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose Level Test",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Creatinine Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Cumulative Blood Count (CBC)",
+            "result_value": 7,
+            "unit_of_measurement": "p/6",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": [
+                11.5
+            ],
+            "unit_of_measurement": "",
+            "reference_range": "[32.5 - 14.0]"
+        },
+        {
+            "test_name": "Hemogloebin (Hb)",
+            "result_value": [
+                87.75
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 32,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                27
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "Date": "01.01.2022",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 8000,
+                "Red Blood Cells": 4.5,
+                "Hemoglobin": 15.2,
+                "Platelets": 250000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "/uL",
+                "Red Blood Cells": "x10^12/L",
+                "Hemoglobin": "g/dL",
+                "Platelets": "/uL"
+            }
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": {
+                "Sodium": 140,
+                "Potassium": 4.5,
+                "Chloride": 100
+            },
+            "unit_of_measurement": {
+                "Sodium": "mEq/L",
+                "Potassium": "mmol/L",
+                "Chloride": "mEq/L"
+            }
+        }
+    ]
+}

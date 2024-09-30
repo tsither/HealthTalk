@@ -1,0 +1,35 @@
+{
+    "Date": "202x-12-08",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "02",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Count",
+            "result_value": "511",
+            "unit_of_measurement": "x 10^3/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "75",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "45.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

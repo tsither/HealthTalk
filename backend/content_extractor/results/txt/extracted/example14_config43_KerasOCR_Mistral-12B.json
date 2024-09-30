@@ -1,0 +1,35 @@
+{
+    "Date": "202X-DEC",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shah, Vimal",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear Examination",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "5.55 million/cumm",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "108,000/cumm",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250,000/cumm",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

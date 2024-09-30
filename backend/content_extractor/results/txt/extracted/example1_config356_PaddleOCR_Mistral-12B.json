@@ -1,0 +1,23 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 10,
+            "unit_of_measurement": "%",
+            "reference_range": "0-1"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 9.8,
+            "unit_of_measurement": "G/L",
+            "reference_range": null
+        }
+    ]
+}

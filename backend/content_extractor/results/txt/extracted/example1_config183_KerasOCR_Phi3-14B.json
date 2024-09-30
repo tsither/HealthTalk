@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": null,
+                "rbc_count": null,
+                "wbc_count": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": [
+                    13.8,
+                    17.2
+                ],
+                "rbc_count": [
+                    4.5,
+                    5.9
+                ],
+                "wbc_count": [
+                    3.5,
+                    10.5
+                ]
+            },
+            "primary_sample_type": "Blood"
+        }
+    ]
+}

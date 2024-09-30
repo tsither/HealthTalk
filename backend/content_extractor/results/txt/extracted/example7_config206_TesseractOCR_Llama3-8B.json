@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7000,
+            "unit_of_measurement": "cells per microliter (μL)",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4500000,
+            "unit_of_measurement": "red cells per microliter (μL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "grams per deciliter (g/dL)",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 90,
+            "unit_of_measurement": "flotrons (fL)",
+            "reference_range": null
+        }
+    ]
+}

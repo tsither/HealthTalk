@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 170,
+        "patient_birth_year": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "smart count mumoal de gidl",
+            "reference_range": {
+                "low": "106 milicumm",
+                "high": "105 blood"
+            }
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 8,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": "5",
+                "high": null
+            }
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC count)",
+            "result_value": 555,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": null,
+                "high": null
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 272,
+            "unit_of_measurement": "",
+            "reference_range": {}
+        },
+        {
+            "test_name": "Hemoglobin concentration",
+            "result_value": 8175,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "low": null,
+                "high": null
+            }
+        }
+    ]
+}

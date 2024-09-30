@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.52,
+            "unit_of_measurement": "Million cells per microliter",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10.2,
+            "unit_of_measurement": "Thousand cells per microliter",
+            "reference_range": "3.5-9.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 189000,
+            "unit_of_measurement": "cells per microliter",
+            "reference_range": "150000-300000"
+        },
+        {
+            "test_name": "Blood Urea",
+            "result_value": 20.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-24"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.4,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7-1.5"
+        },
+        {
+            "test_name": "Gluose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "THCAREI",
+        "patient_name": "Shah Sample",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (type: Packed)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 8775,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": [
+                4200,
+                5400
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": [
+                80,
+                100
+            ]
+        }
+    ]
+}

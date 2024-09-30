@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin count",
+            "result_value": 55.0,
+            "unit_of_measurement": "",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell (WBC) differential",
+            "result_value": {
+                "neutrophils": 55.0,
+                "lymphocytes": 136.0,
+                "eosinophils": null,
+                "monocytes": null,
+                "basophils": null
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

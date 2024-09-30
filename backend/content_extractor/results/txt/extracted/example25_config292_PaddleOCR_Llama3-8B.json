@@ -1,0 +1,29 @@
+{
+    "Date": "01.09.2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose Level",
+            "result_value": "120",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "8000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": "20",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-18"
+        }
+    ]
+}

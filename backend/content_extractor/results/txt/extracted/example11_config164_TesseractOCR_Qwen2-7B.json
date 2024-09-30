@@ -1,0 +1,48 @@
+{
+    "Date": "Not Available",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02,31 Prt 02 Ces, 2x"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin (Hb)": 12.8,
+                "total RBC count": 5.2,
+                "packed cell volume (PCV)": "$7.5",
+                "mean corpuscular volume (MCV)": 87.75,
+                "mch": 27.2,
+                "mchc": 32.8,
+                "total WBC count": 19000,
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "00 - 06 %",
+                "monocytes": "7 00-10 %",
+                "basophils": "1 00 - 02%",
+                "platelet count": 350000
+            },
+            "unit_of_measurement": {
+                "hemoglobin (Hb)": "g/dl",
+                "total RBC count": "mill/cumm",
+                "packed cell volume (PCV)": "%",
+                "mean corpuscular volume (MCV)": "fl.",
+                "mch": "eg",
+                "mchc": "g/dL",
+                "platelet count": "cumm"
+            },
+            "reference_range": {
+                "hemoglobin (Hb)": "13.0-17.0 g/dl",
+                "total RBC count": "45-55 mill/cumm",
+                "packed cell volume (PCV)": "40-50 %",
+                "mean corpuscular volume (MCV)": "83-101 fl.",
+                "mch": "27 - 32 eg",
+                "mchc": "32.8 - 34,5 g/dL",
+                "platelet count": "150000 » 410000 cumm"
+            }
+        }
+    ]
+}

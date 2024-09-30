@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "09123415673",
+        "patient_name": "",
+        "patient_sex": "male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": {
+                    "low": 12,
+                    "high": 16
+                },
+                "white_blood_cell_count": {
+                    "low": 4000,
+                    "high": 10000
+                },
+                "platelet_count": {
+                    "low": 150,
+                    "high": 400
+                }
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

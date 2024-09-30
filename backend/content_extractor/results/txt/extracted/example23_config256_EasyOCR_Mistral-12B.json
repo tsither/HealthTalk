@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 160,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 9.0,
+            "unit_of_measurement": "x10^3/uL"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 5.4,
+            "unit_of_measurement": "x10^6/uL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 320,
+            "unit_of_measurement": "x10^3/uL"
+        }
+    ]
+}

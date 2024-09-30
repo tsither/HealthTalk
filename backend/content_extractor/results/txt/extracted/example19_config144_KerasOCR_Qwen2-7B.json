@@ -1,0 +1,35 @@
+{
+    "Date": "0251",
+    "patient_information": {
+        "patient_id": "0123456739",
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count",
+            "result_value": "116",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[80-125]"
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": "170",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "erythrocyte count",
+            "result_value": "3.4",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[3.2-5]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration",
+            "result_value": "150",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

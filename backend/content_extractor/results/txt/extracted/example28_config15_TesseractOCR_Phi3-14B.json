@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "HipoTer",
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 48,
+                "Hemoglobina": 14.3,
+                "Leucicitos": 10.2
+            },
+            "unit_of_measurement": {
+                "Hematies": "x 109/l",
+                "Hemoglobina": "ofl vem",
+                "Leucicitos": "x 106 /I"
+            },
+            "reference_range": {
+                "Hematies": "(34.0 - 45.0)",
+                "Hemoglobina": "(8.0 - 12.0)",
+                "Leucicitos": "(4.0-10.0)"
+            }
+        },
+        {
+            "test_name": "Urimica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": 1.15,
+                "Colesterol": 220,
+                "Proteina": 66
+            },
+            "unit_of_measurement": {
+                "Glucosa": "*",
+                "Creatinina": "*",
+                "Colesterol": "mg/dL",
+                "Proteina": "(3.5 - 5.0)"
+            }
+        },
+        {
+            "test_name": "Ba",
+            "result_value": {
+                "Hierro (11+!)": 65,
+                "Ferritina": 20
+            },
+            "unit_of_measurement": {
+                "Hierro (11+!)": "*",
+                "Ferritina": "(3.0 - 4.5)"
+            }
+        },
+        {
+            "test_name": "GoT",
+            "result_value": 800,
+            "unit_of_measurement": "*",
+            "reference_range": null
+        },
+        {
+            "test_name": "GPT",
+            "result_value": 800,
+            "unit_of_measurement": "*",
+            "reference_range": null
+        },
+        {
+            "test_name": "Got",
+            "result_value": 100,
+            "unit_of_measurement": "U/L",
+            "reference_range": "(8-55)"
+        }
+    ]
+}

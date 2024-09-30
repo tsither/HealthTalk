@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Investio",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.**"
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": "40.5 - 100"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": null,
+            "unit_of_measurement": "/mcL",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "Neutrophis",
+            "result_value": 87.6,
+            "unit_of_measurement": "%",
+            "reference_range": "40.0 - 70.0"
+        }
+    ]
+}

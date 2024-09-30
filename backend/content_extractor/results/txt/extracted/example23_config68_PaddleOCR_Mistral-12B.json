@@ -1,0 +1,41 @@
+{
+    "Date": "2 Dec",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Hiren",
+        "patient_sex": null,
+        "patient_age": 52
+    },
+    "test_results": [
+        {
+            "test_name": "Haemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 18.0"
+        },
+        {
+            "test_name": "Total Red Blood Cell Count (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 38.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 52"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 91.6,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.0,
+            "unit_of_measurement": "thousand/mm³",
+            "reference_range": null
+        }
+    ]
+}

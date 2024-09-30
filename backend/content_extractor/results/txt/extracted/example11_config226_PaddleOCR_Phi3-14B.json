@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin (Hb): 12.5g/dL",
+                "RBC count: 5.2 mill/cumm",
+                "Packed Cell Volume (PCV): 57.5%",
+                "Mean Corpuscular Volume (MCV): 87.75f.",
+                "MCH: 27.2 pg",
+                "MCHC: 32.8 g/dL.",
+                "RBC Distribution Width (RDW): 13.6%",
+                "Neutrophils: 60%",
+                "Eosinophils: 1%",
+                "Basophils: 1%",
+                "Plaielet Count: 150,000 cumm"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/cumm",
+                "%",
+                "f.",
+                "pg",
+                "g/dL.",
+                "%",
+                "cumm"
+            ]
+        }
+    ]
+}

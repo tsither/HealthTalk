@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "12.5",
+                "Hct": "37.0",
+                "Plt": "250"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "million/µL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "thousand/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

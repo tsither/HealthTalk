@@ -1,0 +1,29 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "A42",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": "xxx"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.5",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.5 - 5.5 million/mcL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "12.5",
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "13.0 - 17.0 thousand/mcL"
+        }
+    ]
+}

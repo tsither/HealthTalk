@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "ERYTROCITOS": 4.66,
+                "LEUCOCITOS": 12700,
+                "MONOCITOS": 9,
+                "Eosinófilos": 134,
+                "BASOFILOS": 0,
+                "NEUTROFILOS": 65.8,
+                "HEMOGLOBINA": 148,
+                "Hematocrito": 45.1
+            },
+            "unit_of_measurement": {
+                "ERYTROCITOS": "Mcm/mm3",
+                "LEUCOCITOS": "/mm3",
+                "MONOCITOS": "%",
+                "Eosinófilos": "G/mcm3",
+                "BASOFILOS": "%",
+                "NEUTROFILOS": "%",
+                "HEMOGLOBINA": "g/dl",
+                "Hematocrito": "Mcm/mm3"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SANGUINEA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "TOTAL COLSTEROL": 169,
+                "HDL": 60,
+                "TRIGLICERIDOS": 45
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dl",
+                "TOTAL COLSTEROL": "mg/dl",
+                "HDL": "mg/dl",
+                "TRIGLICERIDOS": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "UREA Y CREATININA",
+            "result_value": {
+                "UREA": 19,
+                "CREATENINA": 0.6
+            },
+            "unit_of_measurement": {
+                "UREA": "mg/dl",
+                "CREATENINA": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA SANGUINEO",
+            "result_value": {
+                "SODIO": 141,
+                "POTASIO": 3.7,
+                "CLORURO DE SODIO": 98,
+                "CLORO": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "POTASIO": "mEq/L",
+                "CLORURO DE SODIO": "mEq/L",
+                "CLORO": "gr/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

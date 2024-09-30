@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "NEUTROPHIL COUNT",
+            "result_value": 10.6,
+            "unit_of_measurement": "G/L",
+            "reference_range": "4-11"
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT",
+            "result_value": 60,
+            "unit_of_measurement": "G/L",
+            "reference_range": "20-50"
+        },
+        {
+            "test_name": "MONOCYTE COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "EOSINOPHIL COUNT",
+            "result_value": 1.5,
+            "unit_of_measurement": "G/L",
+            "reference_range": "0-5"
+        },
+        {
+            "test_name": "BASOPHIL COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

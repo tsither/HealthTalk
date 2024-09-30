@@ -1,0 +1,33 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "[FILL]",
+                "RBC": "[FILL]",
+                "HGB": "[FILL]",
+                "PLT": "[FILL]",
+                "MCV": "[FILL]",
+                "MCH": "[FILL]",
+                "MCHC": "[FILL]"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

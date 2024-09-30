@@ -1,0 +1,85 @@
+{
+    "Date": "125 m",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": " CBCY",
+            "result_value": 55,
+            "unit_of_measurement": "55 455 count PID blood complete",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "cumm hemogl milll ghbj hemoglobin",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 504,
+            "unit_of_measurement": "do count RBC total",
+            "reference_range": "low obin"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 32,
+            "unit_of_measurement": "volume pg cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB%",
+            "result_value": 81.175,
+            "unit_of_measurement": "packed MCV",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 328,
+            "unit_of_measurement": "calculated",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 140,
+            "unit_of_measurement": "lo MCH",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 62.5,
+            "unit_of_measurement": "do count DRIOGY WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential",
+            "result_value": [
+                {
+                    "neutrophils": 51.1,
+                    "lymphocytes": 2.97,
+                    "eosinophils": null,
+                    "monocytes": null,
+                    "basophils": null
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

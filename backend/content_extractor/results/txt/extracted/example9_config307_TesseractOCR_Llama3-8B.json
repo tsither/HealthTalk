@@ -1,0 +1,29 @@
+{
+    "Date": "12.05.2023",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Leukocyte Count (WBC)",
+            "result_value": 8.2,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 230.0,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150.0-450.0"
+        }
+    ]
+}

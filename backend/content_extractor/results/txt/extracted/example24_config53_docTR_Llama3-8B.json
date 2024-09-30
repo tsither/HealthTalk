@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Tonie",
+        "patient_sex": "Female",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.1",
+            "unit_of_measurement": "X 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "82",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "28.3",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.1",
+            "unit_of_measurement": "%",
+            "reference_range": "11-14.5"
+        },
+        {
+            "test_name": "NEUTROPHIL COUNT",
+            "result_value": "66",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT",
+            "result_value": "26.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MONO CYTE COUNT",
+            "result_value": "7.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "2.45",
+            "unit_of_measurement": "X 10^11/L",
+            "reference_range": "1.5-3.5"
+        }
+    ]
+}

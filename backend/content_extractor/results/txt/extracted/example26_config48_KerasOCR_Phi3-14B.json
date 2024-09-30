@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 115,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120-160 g/dL"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52%"
+        },
+        {
+            "test_name": "Velocidade de hemossedimentação (VHS)",
+            "result_value": 189,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 208,
+            "unit_of_measurement": "/uL",
+            "reference_range": "150-450 / uL"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Lactic Acid",
+            "result_value": 7.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: <13"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 85,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: 70-99"
+        }
+    ]
+}

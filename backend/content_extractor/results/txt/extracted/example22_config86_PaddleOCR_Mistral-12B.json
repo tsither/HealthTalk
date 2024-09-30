@@ -1,0 +1,57 @@
+{
+    "Date": "02 Dec, 202X 05:00 PM",
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 83.5,
+                "Hematocrit": 27.5,
+                "MCV": 57.75,
+                "MCH": null,
+                "MCHC": null,
+                "Total White Blood Cells": 13600,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "MCV": "fL",
+                "Total White Blood Cells": "cells/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": [
+                    13.0,
+                    17.0
+                ],
+                "Hematocrit": [
+                    32.5,
+                    42.5
+                ],
+                "MCV": [
+                    83,
+                    97
+                ],
+                "Total White Blood Cells": [
+                    4000,
+                    11000
+                ]
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

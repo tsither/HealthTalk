@@ -1,0 +1,20 @@
+{
+    "Date": "02/12",
+    "patient_information": {
+        "patient_id": "01234561759",
+        "patient_name": "patel yash m",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "135-175",
+                "female": "120-155"
+            }
+        }
+    ]
+}

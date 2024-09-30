@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "white blood cell count",
+            "result_value": "10.8",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0 - 11.0 x10^9/L"
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": "5.21",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.0 - 5.5 x10^12/L"
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": "168",
+            "unit_of_measurement": "g/L",
+            "reference_range": "130 - 180 g/L"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "248",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150 - 450 x10^9/L"
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": "2.36",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "0.8 - 4.8 x10^9/L"
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": "5.79",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "1.8 - 7.5 x10^9/L"
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": "0.56",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "0.2 - 1.0 x10^9/L"
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": "0.18",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "0 - 0.5 x10^9/L"
+        },
+        {
+            "test_name": "basophils",
+            "result_value": "0.02",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "0 - 0.1 x10^9/L"
+        }
+    ]
+}

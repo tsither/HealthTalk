@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_eange": "40 - 47"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 83.1,
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 98"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.9,
+            "unit_of_measurement": "pg",
+            "reference_range": "27 - 32"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 16.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "73"
+        },
+        {
+            "test_name": "Plaqueta",
+            "result_value": 15.6,
+            "unit_of_measurement": "E6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "LDN (Densidade de Leucócitos)",
+            "result_value": 42.0,
+            "unit_of_measurement": "10E3/JL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrófilos (%)",
+            "result_value": 69.8,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 75"
+        },
+        {
+            "test_name": "Linfócitos (%)",
+            "result_value": 23.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

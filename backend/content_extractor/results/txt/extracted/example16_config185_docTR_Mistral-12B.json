@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec,2X",
+    "patient_information": {
+        "patient_id": "091245578",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5 g/dL",
+                "RBC count": "57.5 million/µL",
+                "PCV": "87.75%",
+                "MCHC": "30.8 g/dL",
+                "RDW": "30%",
+                "WBC Total": "60,000 cells/µL",
+                "Neutrophils": "31%",
+                "Eosinophils": "4%",
+                "Monocytes": "15%",
+                "Basophils": "<1%",
+                "Platelet Count": "75,000 cells/µL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC count": "million/µL",
+                "PCV": "%",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC Total": "cells/µL",
+                "% Neutrophils": "%",
+                "% Eosinophils": "%",
+                "% Monocytes": "%",
+                "% Basophils": "%",
+                "Platelet Count": "cells/µL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC count": "4.0-5.0 million/µL",
+                "PCV": "32-36%",
+                "MCHC": "32.5-34.5 g/dL",
+                "RDW": "11.6-18.0%",
+                "WBC Total": "4,500-11,000 cells/µL",
+                "% Neutrophils": "0-6%",
+                "% Eosinophils": "0-2%",
+                "% Monocytes": "3-7%",
+                "% Basophils": "<1%",
+                "Platelet Count": "150,000-450,000 cells/µL"
+            }
+        }
+    ]
+}

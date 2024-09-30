@@ -1,0 +1,41 @@
+{
+    "Date": "04 Dec 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Pio Patel",
+        "patient_sex": "Male",
+        "patient_age": 57
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 4.68,
+            "unit_of_measurement": "M/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.0-10.8"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        }
+    ]
+}

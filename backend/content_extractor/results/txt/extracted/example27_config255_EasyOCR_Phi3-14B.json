@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "t Ca",
+            "result_value": 7.064,
+            "unit_of_measurement": "mmol/L",
+            "reference_nrange": "[3.5 - 5.2]"
+        },
+        {
+            "test_name": "t Ca corrected to serum albumin",
+            "result_value": 6.847,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[3.5 - 5.2]"
+        },
+        {
+            "test_name": "Un U Un1 t",
+            "result_value": 9.0,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": null
+        }
+    ]
+}

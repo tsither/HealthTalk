@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Example Test",
+            "result_value": 80.0,
+            "unit_of_measurement": "SO Something",
+            "reference_range": "5-15 g/L"
+        },
+        {
+            "test_name": "Another Example",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

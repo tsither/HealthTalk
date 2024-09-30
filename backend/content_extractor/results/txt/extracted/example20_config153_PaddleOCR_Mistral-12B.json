@@ -1,0 +1,38 @@
+{
+    "Date": "20XX-05-05",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": 83
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC COUNT": "5.1",
+                "RBC COUNT": "500",
+                "HGB": "11.6",
+                "HCT": "32.8%",
+                "PLT COUNT": "250",
+                "NEUTROPHILS": "40%"
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "cells/mm³",
+                "RBC COUNT": "cells/mm³",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT COUNT": "cells/mm³",
+                "NEUTROPHILS": "%"
+            },
+            "reference_range": {
+                "WBC COUNT": "4000-11000 cells/mm³",
+                "RBC COUNT": ">5.0 million cells/mm³",
+                "HGB": "13.0 - 17.0 g/dL",
+                "HCT": "36.0 - 46.0%",
+                "PLT COUNT": "150,000 - 450,000 cells/mm³",
+                "NEUTROPHILS": "40-75%"
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "HEMATOCRITO": 44,
+                "HEMOGLOBINA": 14.8,
+                "LEUCOCITOS": 8870,
+                "PLAQUETAS": 298000
+            },
+            "unit_of_measurement": {
+                "HEMATOCRITO": "%",
+                "HEMOGLOBINA": "g/dL",
+                "LEUCOCITOS": "/mm³",
+                "PLAQUETAS": "/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "EOSINOFILOS CAYADOS": 29.8,
+                "SEGMENTADOS": 33.6,
+                "LINFOCITOS": 10,
+                "MONOCITOS": 5.46,
+                "BASOFILOS": 0.6
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "HDL": 60,
+                "LDL": 100,
+                "TRIGLICERIDOS": 45
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLESTEROL": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "TRIGLICERIDOS": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

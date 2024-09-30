@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Sha",
+        "patient_sex": "Male",
+        "patient_age": "90"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 14.0,
+            "unit_of_measurement": "/dL.",
+            "reference_range": "4.5- 5.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocytes %",
+            "result_value": 9,
+            "unit_of_measurement": "/dL.",
+            "reference_range": "0.5-1"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "me (PCV)",
+            "reference_range": null
+        }
+    ]
+}

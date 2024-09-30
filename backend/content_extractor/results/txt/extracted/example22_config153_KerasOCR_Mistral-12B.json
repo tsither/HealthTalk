@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "White Blood Cells": "8.16",
+                "Red Blood Cells": "4.73",
+                "Hemoglobin": "150",
+                "Hematocrit": "42.5",
+                "Platelets": "290"
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "K/uL",
+                "Red Blood Cells": "M/uL",
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Platelets": "K/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

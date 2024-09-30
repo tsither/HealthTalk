@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 689578,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count Total",
+            "result_value": 45,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Differential High Count",
+            "result_value": 328,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

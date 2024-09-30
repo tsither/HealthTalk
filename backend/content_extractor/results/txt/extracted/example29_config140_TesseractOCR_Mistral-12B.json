@@ -1,0 +1,62 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Livash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Total RBC count": 52,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Calculated MCH": 27.2,
+                "Calculated MCHC": 32.8,
+                "Mean Platelet Volume (MPV)": null,
+                "Total WBC count": 9900,
+                "Sneutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 4,
+                "Monocytes": 7,
+                "Basophils": 4,
+                "Platelet Count": 450000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dl",
+                "Total RBC count": "million/microliter",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Calculated MCH": "pg",
+                "Calculated MCHC": "g/dl",
+                "Mean Platelet Volume (MPV)": null,
+                "Total WBC count": "thousand/microliter",
+                "Sneutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "thousand/microliter"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0-17.0 g/dl",
+                "Total RBC count": "45-55 million/microliter",
+                "Packed Cell Volume (PCV)": "40-50 %",
+                "Mean Corpuscular Volume (MCV)": "93-101 fl",
+                "Calculated MCH": "27.2 pg",
+                "Calculated MCHC": "325-345 g/dl",
+                "Mean Platelet Volume (MPV)": null,
+                "Total WBC count": "4900-11 00 cumm",
+                "Sneutrophils": "50 - 62 %",
+                "Lymphocytes": "20 - 40 %",
+                "Eosinophils": "00-06 %",
+                "Monocytes": "7 og -10 %",
+                "Basophils": "00 - 02 %",
+                "Platelet Count": "150000 - 350008 cumm"
+            }
+        }
+    ]
+}

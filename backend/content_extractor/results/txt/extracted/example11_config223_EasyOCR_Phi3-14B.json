@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_eame": "Complete Blood Count (CBC)",
+            "result_value": 510,
+            "unit_of_measurement": "y/sec",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cell (RBC) count",
+            "result_value": 2.78,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": [
+                4.5,
+                6
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": [
+                130,
+                170
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": [
+                83,
+                101
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.5,
+            "unit_of_measurement": "pg",
+            "reference_range": [
+                28,
+                34
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                320,
+                360
+            ]
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                11.5,
+                14.5
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 207,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                150,
+                450
+            ]
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                38.3,
+                48.6
+            ]
+        }
+    ]
+}

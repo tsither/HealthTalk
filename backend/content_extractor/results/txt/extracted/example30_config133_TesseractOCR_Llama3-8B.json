@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.6,
+            "unit_of_measurement": "Million/mcL",
+            "reference_range": "4.32 - 5.72"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 85.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 100.0"
+        }
+    ]
+}

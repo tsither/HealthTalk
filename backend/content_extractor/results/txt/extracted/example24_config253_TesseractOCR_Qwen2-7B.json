@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-14",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 0.42,
+            "unit_of_measurement": "%",
+            "reference_range": "37-51%"
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": 6.8,
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "4.0-11.0"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "202X-05-02",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Aoe",
+        "patient_sex": "Male",
+        "patient_age": "PID Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (qH)",
+            "result_value": 12.5,
+            "unit_of_measurement": "M/uL",
+            "reference_range": "4.5 - 6.0"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 17.6"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 40.5,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

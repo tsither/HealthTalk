@@ -1,0 +1,47 @@
+{
+    "Date": "123456780",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LD",
+            "result_value": 12.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "C-reactive protein",
+            "result_value": 40,
+            "unit_of_measurement": "-",
+            "reference_range": "40 - 50 mg/L"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 13.6,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4 - 5.5 thousand/mm³"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "32.5 - 34.5 million/mm³"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "/dL",
+            "reference_range": "14.0 mg/dL"
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": "-",
+            "reference_range": null
+        }
+    ]
+}

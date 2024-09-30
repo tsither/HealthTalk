@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "driogyathabadlogcom",
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "116-140 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "345",
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4,000,11000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "5.2",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4,000-11,000 cells/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "328",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "null"
+        }
+    ]
+}

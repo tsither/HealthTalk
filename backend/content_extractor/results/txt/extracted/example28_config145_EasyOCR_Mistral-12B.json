@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": "5.6",
+                "Hematies": "40.2%",
+                "Hemoglobina": "11.9",
+                "Hematocrito": "37%",
+                "VCM": "109 fL",
+                " Neutros": "68.0%",
+                "Eosinofilos": "1%",
+                "Basofilos": "2%",
+                "Linfos": "25%",
+                "Monos": "4%"
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "/uL",
+                "Hematies": "%",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "VCM": "fL",
+                " Neutros": "%",
+                "Eosinofilos": "%",
+                "Basofilos": "%",
+                "Linfos": "%",
+                "Monos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

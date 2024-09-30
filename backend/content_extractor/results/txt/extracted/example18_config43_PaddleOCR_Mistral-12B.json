@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 2021",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "cells /microliter",
+            "reference_range": "4.5 - 11"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12 - 18"
+        }
+    ]
+}

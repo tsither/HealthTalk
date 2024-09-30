@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "226150",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 6775,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 60.2,
+                "Lymphocytes": 31.5,
+                "Monocytes": 7.2,
+                "Eosinophils": 0.8,
+                "Basophils": 0.3
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

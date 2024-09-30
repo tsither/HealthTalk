@@ -1,0 +1,29 @@
+{
+    "Date": "21.03.2022",
+    "patient_information": {
+        "patient_id": "LH220301",
+        "patient_name": "Patel, M.",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.5,
+                "HCT": 39.0,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

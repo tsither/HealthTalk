@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 15,
+            "unit_of_measurement": "x10^9/L",
+            "reference_ range": "4.5-11 x10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 13,
+            "unit_of_measurement": "g/dL",
+            "reference_ range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_ range": "38.3-48.6%"
+        }
+    ]
+}

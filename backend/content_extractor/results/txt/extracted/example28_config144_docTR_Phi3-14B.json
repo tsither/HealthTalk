@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GOT",
+            "result_value": 143,
+            "unit_of_measurement": "%",
+            "reference_range": "7-56"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 89,
+            "unit_of_measurement": "U/L",
+            "reference_range": "4-30"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 71,
+            "unit_of_measurement": "U/L",
+            "reference_range": "5-25"
+        },
+        {
+            "test_name": "ALP",
+            "result_value": 160,
+            "unit_of_measurement": "U/L",
+            "reference_range": "39-117"
+        }
+    ]
+}

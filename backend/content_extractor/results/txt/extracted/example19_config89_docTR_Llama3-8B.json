@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood count",
+            "result_value": 27.32,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-32.5"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 31,
+            "unit_of_measurement": "pg",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW) Count",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

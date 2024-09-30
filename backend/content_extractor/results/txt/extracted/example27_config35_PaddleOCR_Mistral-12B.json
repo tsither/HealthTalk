@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": 150.2,
+            "unit_of_measurement": "mm/hour",
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "percentage": 62
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "percentage": 2.5
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "percentage": 35
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "percentage": 15
+                },
+                {
+                    "cell_type": "Basophils",
+                    "percentage": 0.5
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMATOCRITO",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMOGLOBINA",
+            "result_value": 15.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 8.2,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLAQUETAS",
+            "result_value": 145,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "GLUCOSA",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

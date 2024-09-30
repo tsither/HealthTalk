@@ -1,0 +1,73 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 40.5,
+                "Red Blood Cells (RBC)": null,
+                "WBC": 87.75
+            },
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Hemoglobin (Hb)": [
+                    32.8,
+                    40.5
+                ],
+                "Red Blood Cells (RBC)": [
+                    null,
+                    null
+                ],
+                "WBC": [
+                    null,
+                    null
+                ]
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": {
+                "Neutrophils": 1,
+                "Lymphocytes": 27,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": "cumm",
+            "reference_range": {
+                "Neutrophils": [
+                    null,
+                    null
+                ],
+                "Lymphocytes": [
+                    0,
+                    27
+                ],
+                "Monocytes": [
+                    null,
+                    null
+                ],
+                "Eosinophils": [
+                    150000,
+                    410000
+                ],
+                "Basophils": [
+                    null,
+                    null
+                ]
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "Counts",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "5.2 g/dL",
+                "RBC COUNT": "57.5 %",
+                "Packed Cell Volume (PCV)": "87.75 %",
+                "MCH": "32.8 pg",
+                "MCHC": "13.6 g/dL",
+                "RDW": "9000 fl",
+                "Total WBC count": "60 x10^9/L",
+                "Neutrophils": "60 %",
+                "Lymphocytes": "31 %",
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT": "%",
+                "Packed Cell Volume (PCV)": "%",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "fl",
+                "Total WBC count": "x10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "4.5 - 5.5 g/dL",
+                "RBC COUNT": "High 40-50%",
+                "Packed Cell Volume (PCV)": "83 - 101 pg",
+                "MCH": "27 - 32 pg",
+                "MCHC": null,
+                "RDW": "4000-11000 fl",
+                "Total WBC count": "50 - 62 x10^9/L",
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            }
+        }
+    ]
+}

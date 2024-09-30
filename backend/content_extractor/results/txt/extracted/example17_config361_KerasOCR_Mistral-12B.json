@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell (WBC)": "6.5",
+                "Red Blood Cell (RBC)": "4.8",
+                "Hemoglobin (Hb)": "12.3",
+                "Platelet": "250"
+            },
+            "unit_of_measurement": {
+                "White Blood Cell (WBC)": "10^9/L",
+                "Red Blood Cell (RBC)": "10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelet": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cell (WBC)": "4.5 - 11",
+                "Red Blood Cell (RBC)": "4.5 - 6.0",
+                "Hemoglobin (Hb)": "12 - 16",
+                "Platelet": "150 - 400"
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "98",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70 - 130"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "13.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "red blood cells",
+            "result_value": "4.80",
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.2-5.9 million/uL"
+        },
+        {
+            "test_name": "hematocrit",
+            "result_value": "41.3",
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-50.6 %"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": "83.7",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (MCH)",
+            "result_value": "28.1",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": "33.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": "14.8",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5 %"
+        },
+        {
+            "test_name": "white blood cells",
+            "result_value": "6.90",
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "4.8-7.2 thousand/uL"
+        },
+        {
+            "test_name": "platelets",
+            "result_value": "241",
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "150-450 thousand/uL"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": "6.8",
+                "RBC": "4.5",
+                "HGB": "12.0",
+                "PLT": "290",
+                "MCV": "87",
+                "MCH": "27"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "PLT": "10^3/uL",
+                "MCV": "fL",
+                "MCH": "pg"
+            },
+            "reference_range": null
+        }
+    ]
+}

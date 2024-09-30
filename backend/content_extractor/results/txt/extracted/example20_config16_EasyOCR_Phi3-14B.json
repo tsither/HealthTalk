@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin count",
+            "result_value": "PCVI",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red blood cell count",
+            "result_value": "3000000000/uL",
+            "unit_eofmea": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": "272",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        }
+    ]
+}

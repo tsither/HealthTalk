@@ -1,0 +1,71 @@
+{
+    "Date": "17/01/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 13
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "400011000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Indices",
+            "result_value": [
+                "MCV: 87.75",
+                "PCV: 41%",
+                "RBC count: 272000",
+                "Hematocrit (Hct): 32.57%",
+                "Hemoglobin (HGB): 140g/dL",
+                "Simplified Hemoglobin S1: Normal"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "MCV range: ",
+                "PCV range:",
+                "RBC count range:",
+                "Hct: 37-50%",
+                "HGB: 120-160g/dL",
+                "Simplified Hemoglobin S1: <8.9%"
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": [
+                "Mean Corpuscular Volume (MCV): calculated at 90%",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC): calculated at 32%",
+                "Red Cell Distribution Width (RDW): 15%"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "MCV: Normal",
+                "MCHC: Normal",
+                "RDW: <14% (Normal)"
+            ]
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": [
+                "Neutrophils: 30%",
+                "Lymphocytes: %",
+                "Eosinophils: %",
+                "Monocytes: %",
+                "Basophils: 1.2%",
+                "Platelets: 202x"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Neutrophils: 53-78%",
+                "Lymphocytes: 21-46%",
+                "Eosinophils: 3-10%",
+                "Monocytes: <7%",
+                "Basophils: 0.01-1.9%",
+                "Platelets: 150,000-450,000/μL"
+            ]
+        }
+    ]
+}

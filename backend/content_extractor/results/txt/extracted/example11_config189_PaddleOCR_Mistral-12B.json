@@ -1,0 +1,59 @@
+{
+    "Date": "03.11",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": "Pl. 02 Cec.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": "87.75",
+                "RBC_count": "57.5",
+                "Hb": "13.6",
+                "HCT": "42.5",
+                "MCV": "90",
+                "MCH": "32.8",
+                "MCHC": "32.8",
+                "Platelet_count": "27.2",
+                "Neutrophils": "57.5",
+                "Lymphocytes": "32.8",
+                "Monocytes": "4.5",
+                "Eosinophils": "0.5",
+                "Basophils": "0.2"
+            },
+            "unit_of_measurement": {
+                "WBC_count": "10^9/L",
+                "RBC_count": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelet_count": "10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "WBC_count": "4.5 - 11.0",
+                "RBC_count": "4.2-6.2",
+                "Hb": "13.0-18.0",
+                "HCT": "42-52",
+                "MCV": "80-100",
+                "MCH": "27-33",
+                "MCHC": "32-36",
+                "Platelet_count": "150-450",
+                "Neutrophils": "40-75",
+                "Lymphocytes": "20-50",
+                "Monocytes": "2-10",
+                "Eosinophils": "1-6",
+                "Basophils": "0-2"
+            }
+        }
+    ]
+}

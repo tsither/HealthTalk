@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "105",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "555"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (qH)",
+            "result_value": "125",
+            "unit_of_measurement": "1000/uL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32.8",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "62",
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "11.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RetIC",
+            "result_value": "1%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: low, RBC count: 5.2 ass, Mean Corpuscular Volume (MCV): 75 fL",
+            "unit_of_measurement": null,
+            "reference_range": "Hemoglobin: Normal Range, RBC count: Normal Range, MCV: Normal Range"
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": "Neutrophils: 62%, Lymphocytes: 31%",
+            "unit_of_measurement": null,
+            "reference_range": "Neutrophils: Normal Range, Lymphocytes: Normal Range"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "Normal Range"
+        }
+    ]
+}

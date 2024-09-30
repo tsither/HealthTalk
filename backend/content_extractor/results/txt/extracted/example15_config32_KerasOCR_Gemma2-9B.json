@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.0 - 5.5 million/uL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "38.0 - 52.0 %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 91.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 95.0 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 29.6,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0 - 31.0 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0 - 36.0 g/dL"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": 14,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "RDW-SD",
+            "result_value": 52.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "47.0 - 58.0 fL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.1,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "4.5 - 11.0 thousand/uL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 238,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "150 - 450 thousand/uL"
+        }
+    ]
+}

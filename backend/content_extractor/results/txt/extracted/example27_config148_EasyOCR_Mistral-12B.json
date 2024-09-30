@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": 145,
+                "Hematocrito": 44.96,
+                "Leucocitos": 8700,
+                "Placas": 290000
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dl",
+                "Hematocrito": "%",
+                "Leucocitos": "mm3",
+                "Placas": "mm3"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA EOSINOFILOS LEUCOCITARIA",
+            "result_value": {
+                "Eosinofilos": 298,
+                "Bastones": 336,
+                "Segmentados": 0,
+                "Linfocitos": 32
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "GLUCOSA BIOQUIMICA",
+            "result_value": 169,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        }
+    ]
+}

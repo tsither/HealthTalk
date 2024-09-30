@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobina",
+            "result_value": 114,
+            "unit_of_measurement": "g/l",
+            "reference_range": "[110-1to]"
+        },
+        {
+            "test_name": "hematocrito",
+            "result_value": 395,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "volume esferico medio",
+            "result_value": 7119,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "glucosa",
+            "result_value": 20,
+            "unit_of_measurement": "mmol/l",
+            "reference_range": "[3.5-6.1]"
+        },
+        {
+            "test_name": "total de plaquetas",
+            "result_value": 200,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "velocidad de sedimentacion de plaquetas",
+            "result_value": 91,
+            "unit_of_measurement": "mm",
+            "reference_range": "[0-15]"
+        },
+        {
+            "test_name": "ADP",
+            "result_value": 162,
+            "unit_of_measurement": "u/ml",
+            "reference_range": null
+        }
+    ]
+}

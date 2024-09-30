@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET DISTRIBUTION WIDTH (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Lower bound": 9.0,
+                "Upper bound": 17.0
+            }
+        },
+        {
+            "test_name": "Normal PDW Range (Adults)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Lower bound": 90.0,
+                "Upper bound": 170.0
+            }
+        },
+        {
+            "test_name": "Interpretation Lower than normal range",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Interpretation Normal range",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Lower bound": 9.0,
+                "Upper bound": 17.0
+            }
+        },
+        {
+            "test_name": "Interpretation Higher than normal range",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

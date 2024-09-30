@@ -1,0 +1,91 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "varon",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobina": 14.3,
+                "hematies": 5290000.0,
+                "leucocitos": 10200000.0,
+                "neutrofias": 68,
+                "linfocitas": 68,
+                "mono citoes": null,
+                "plaquetas": 24000000000.0,
+                "monocitos": null
+            },
+            "unit_of_measurement": {
+                "hemoglobina": "g/l",
+                "hematies": "/mm3",
+                "leucocitos": "/mm3",
+                "neutrofias": "/%, %",
+                "linfocitas": "/%, %",
+                "mono citoes": null,
+                "plaquetas": "/%",
+                "monocitos": null
+            },
+            "reference_range": {
+                "hemoglobina": "(80N- 120N)",
+                "hematies": "(3.4e+6 - 5.9e+6)/mm3",
+                "leucocitos": "(2.7e+9 - 8.8e+9)/mm3",
+                "neutrofias": "(50N- 70N)",
+                "linfocitas": "(15N- 45B)",
+                "mono citoes": null,
+                "plaquetas": "(20P- 49L)"
+            }
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "glucosa": 65,
+                "creatinina": 1.15,
+                "colesterol": null,
+                "proteína": 20,
+                "hierro": 70.0,
+                "hemogloginaAlc": 89,
+                "gotGpt": null,
+                "gtg": null,
+                "bilirrubina total": 45.0,
+                "fostatasa alcalina": 32,
+                "albumina": 70.0
+            },
+            "unit_of_measurement": {
+                "glucosa": "-",
+                "creatinina": "mg/dL",
+                "colesterol": null,
+                "proteína": "UIL U/L",
+                "hierro": "ng/mL",
+                "hemogloginaAlc": "%",
+                "gotGpt": "-",
+                "gtg": "-",
+                "bilirrubina total": "mg/dL",
+                "fostatasa alcalina": "UIL U/L",
+                "albumina": "g/dL"
+            },
+            "reference_range": {
+                "glucosa": "(60 - 105)",
+                "creatinina": "(0.8- - - 1.4)",
+                "colesterol": "(90- - -), (300N- 400N)",
+                "proteína": "(2.0- - -, 6.5- - -)",
+                "hierro": "(27 - 178)",
+                "hemogloginaAlc": "(90 - 100)",
+                "gotGpt": "(4N- 35B)",
+                "gtg": "(6 - 45B)",
+                "bilirrubina total": "(2.0- - -), (80 - 150)",
+                "fostatasa alcalina": "(30U/L- - -, 37 U/L- - -)",
+                "albumina": "(2.8- - -)"
+            }
+        },
+        {
+            "test_name": "Bilirrubina directa",
+            "result_value": 1.5,
+            "unit_of_measurement": "-",
+            "reference_range": "(0.4- - -)"
+        }
+    ]
+}

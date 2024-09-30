@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "5.21",
+            "unit_of_measurement": "10^6/μL",
+            "reference_range": "4.4-5.9"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "294",
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

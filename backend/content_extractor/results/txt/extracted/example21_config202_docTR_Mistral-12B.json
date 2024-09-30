@@ -1,0 +1,23 @@
+{
+    "Date": "2023-06-12",
+    "patient_information": {
+        "patient_id": "A4567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 6.7,
+            "unit_of_measurement": "%",
+            "reference_range": "<5.7%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "3.4-8.4"
+        }
+    ]
+}

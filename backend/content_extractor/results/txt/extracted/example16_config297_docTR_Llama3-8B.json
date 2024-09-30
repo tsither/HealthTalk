@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4000000000000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4.3-5.9 x 10^12 cells/microliter"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.4,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Urea Nitrogen",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

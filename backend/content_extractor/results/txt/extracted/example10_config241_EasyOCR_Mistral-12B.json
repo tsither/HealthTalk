@@ -1,0 +1,27 @@
+{
+    "Date": "03/11/22",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 90,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "lower": 15,
+                    "upper": 50
+                },
+                "children": {
+                    "lower": 75,
+                    "upper": 135
+                }
+            },
+            "comments": "PDW is increased, indicating iron deficiency or bone marrow disorders."
+        }
+    ]
+}

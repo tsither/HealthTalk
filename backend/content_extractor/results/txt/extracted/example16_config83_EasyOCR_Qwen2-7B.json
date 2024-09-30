@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 125,
+            "unit_of_measurement": "mL",
+            "reference_range": "83-104"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 170,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "135-165"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 150,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36"
+        }
+    ]
+}

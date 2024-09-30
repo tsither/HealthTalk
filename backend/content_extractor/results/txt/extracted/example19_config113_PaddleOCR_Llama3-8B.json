@@ -1,0 +1,35 @@
+{
+    "Date": "Dec 02, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 4.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "Ref. ae Accurate 50-101 ofo LOW 40 34.5 Result High"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 125,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        }
+    ]
+}

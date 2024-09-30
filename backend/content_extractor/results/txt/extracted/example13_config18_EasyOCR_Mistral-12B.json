@@ -1,0 +1,27 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "ons 555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (CBBJ)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Male": {
+                    "low": 13.5,
+                    "high": 17.5
+                },
+                "Female": {
+                    "low": 12,
+                    "high": 15.5
+                }
+            },
+            "interpretation": "Low levels may indicate anemia due to blood loss or other causes. Further testing may be necessary to determine the underlying cause."
+        }
+    ]
+}

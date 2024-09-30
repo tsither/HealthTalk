@@ -1,0 +1,64 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "101",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.1,
+            "unit_of_measurement": "million cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": {
+                "MCV": 87.75,
+                "MCH": 29.4,
+                "MCHC": 320,
+                "RDW-CV": 16.4
+            },
+            "unit_of_measurement": "fL, pg, g/dL, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 8700,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": {
+                "Neutrophils": 65,
+                "Lymphocytes": 30,
+                "Eosinophils": 2,
+                "Monocytes": 3,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 272,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        }
+    ]
+}

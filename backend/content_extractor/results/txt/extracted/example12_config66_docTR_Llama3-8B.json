@@ -1,0 +1,41 @@
+{
+    "Date": "09/08",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.5,
+            "unit_of_measurement": "x10^3/ul",
+            "reference_range": "4-11 x10^3/ul"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 15.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 35.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 2450000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "150000-4000000 /ul"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (qH)",
+            "result_value": "12.5",
+            "unit_of_measurement": null,
+            "reference_range": "32.8 - 40.6"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "689578",
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Basophil count",
+            "result_value": "13.0",
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Neutrophil %",
+            "result_value": "62",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocyte %",
+            "result_value": "20",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

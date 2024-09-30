@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "4 VCD. tL pg afd",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[6408 SERIE 420 10E%L = 4.00 - 10.00]"
+        },
+        {
+            "test_name": "Platelet count (OES)",
+            "result_value": "11.0 0,189 %",
+            "unit_of_measurement": "kilo cells/mcL",
+            "reference_range": "[6408 SERIE 420 10E%L = 150 - 400]"
+        },
+        {
+            "test_name": "Leukocyte count",
+            "result_value": "4.3",
+            "unit_of_measurement": "kilo cells/mcL",
+            "reference_range": "[6408 SERIE 420 10E%L = 4.00 - 10.00]"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": "3.5 Os O2",
+            "unit_of_measurement": "%",
+            "reference_range": "[6408 SERIE 420 10E%L = 32 - 36]"
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": "0.0 - 0.6",
+            "unit_of_measurement": "%",
+            "reference_range": "[6408 SERIE 420 10E%L = 11.5 - 14.5]"
+        }
+    ]
+}

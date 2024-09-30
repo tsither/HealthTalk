@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 5.2,
+                "BLOOD INDICES": 57.5,
+                "WBC COUNT": 9000,
+                "PLATELET COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "BLOOD INDICES": "%",
+                "WBC COUNT": "cumm",
+                "PLATELET COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "[13.0-17.0] g/dL Low",
+                "RBC COUNT": "[4.5-5.5] mill/cumm",
+                "BLOOD INDICES": "[40-50] % High",
+                "WBC COUNT": "[4000-11000] cumm",
+                "PLATELET COUNT": "[150000 - 410000]"
+            }
+        }
+    ]
+}

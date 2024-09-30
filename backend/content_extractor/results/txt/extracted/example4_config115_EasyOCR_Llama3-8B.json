@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "patel yash me",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral blood smear examination",
+            "result_value": "Normocytic normochromic",
+            "unit_of_measurement": null,
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "RBC morphology",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "WBC morphology",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 8,
+            "unit_of_measurement": "Adequate in number",
+            "reference_range": "Normal"
+        }
+    ]
+}

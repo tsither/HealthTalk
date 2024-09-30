@@ -1,0 +1,71 @@
+{
+    "Date": "10/15/2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6500,
+                "Red Blood Cells": 4.8,
+                "Hemoglobin": 12.5,
+                "Platelets": 250000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "/uL",
+                "Red Blood Cells": "x10^6/uL",
+                "Hemoglobin": "g/dL",
+                "Platelets": "/uL"
+            },
+            "reference_range": {
+                "White Blood Cells": {
+                    "min": 4500,
+                    "max": 11000
+                },
+                "Red Blood Cells": {
+                    "min": 4.2,
+                    "max": 6.2
+                },
+                "Hemoglobin": {
+                    "min": 12.0,
+                    "max": 18.0
+                },
+                "Platelets": {
+                    "min": 150000,
+                    "max": 450000
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "Alanine Aminotransferase (ALT)": 25,
+                "Aspartate Aminotransferase (AST)": 30,
+                "Alkaline Phosphatase (ALP)": 85
+            },
+            "unit_of_measurement": {
+                "Alanine Aminotransferase (ALT)": "U/L",
+                "Aspartate Aminotransferase (AST)": "U/L",
+                "Alkaline Phosphatase (ALP)": "U/L"
+            },
+            "reference_range": {
+                "Alanine Aminotransferase (ALT)": {
+                    "min": 0,
+                    "max": 55
+                },
+                "Aspartate Aminotransferase (AST)": {
+                    "min": 0,
+                    "max": 46
+                },
+                "Alkaline Phosphatase (ALP)": {
+                    "min": 45,
+                    "max": 129
+                }
+            }
+        }
+    ]
+}

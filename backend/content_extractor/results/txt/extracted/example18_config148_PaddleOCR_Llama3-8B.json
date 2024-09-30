@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Rahul Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC) ne",
+            "result_value": 11.6,
+            "unit_of_measurement": null,
+            "reference_range": "32.5 - 34.5 x 10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 88,
+            "unit_of_measurement": null,
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": 15000,
+            "unit_of_measurement": null,
+            "reference_range": "4500 - 11000 /µL"
+        }
+    ]
+}

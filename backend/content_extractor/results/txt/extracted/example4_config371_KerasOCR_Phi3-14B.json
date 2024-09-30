@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_eange": "39-50%"
+        },
+        {
+            "test_name": "RBC (x10^6/uL)",
+            "result_value": 4.8,
+            "unit_of_measurement": "%",
+            "reference_range": "4.7-6.1%"
+        },
+        {
+            "test_name": "WBC (x10^3/uL)",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5-11%"
+        },
+        {
+            "test_name": "Platelets (x10^3/uL)",
+            "result_value": 180,
+            "unit_of_measurement": "%",
+            "reference_range": "150-450%"
+        },
+        {
+            "test_name": "Neutrophils (x10^3/uL)",
+            "result_value": 2.9,
+            "unit_of_measurement": "%",
+            "reference_range": "40-74%"
+        },
+        {
+            "test_name": "Lymphocytes (x10^3/uL)",
+            "result_value": 2.1,
+            "unit_of_measurement": "%",
+            "reference_range": "18-45%"
+        },
+        {
+            "test_name": "Monocytes (x10^3/uL)",
+            "result_value": 0.2,
+            "unit_of_measurement": "%",
+            "reference_range": "3-13%"
+        }
+    ]
+}

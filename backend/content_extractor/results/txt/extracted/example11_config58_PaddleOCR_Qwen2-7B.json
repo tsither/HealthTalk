@@ -1,0 +1,75 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registration_date": "02:31 PM 02 Dec, 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": "Low",
+                "hgb": [
+                    13.0,
+                    17.0
+                ],
+                "rbc_count": null,
+                "pcv": {
+                    "percentage": [
+                        "40",
+                        "50"
+                    ],
+                    "value": [
+                        null,
+                        null
+                    ]
+                },
+                "mch": [
+                    27,
+                    32
+                ],
+                "mchc": [
+                    32.5,
+                    34.5
+                ],
+                "rdw": [
+                    11.6,
+                    14.0
+                ],
+                "wbc_count": [
+                    4000,
+                    11000
+                ],
+                "diff_wbc_neutrophils": [
+                    null,
+                    null
+                ],
+                "diff_wbc_lymphocytes": [
+                    null,
+                    null
+                ],
+                "diff_wbc_eosinophils": [
+                    null,
+                    null
+                ],
+                "diff_wbc_monocytes": [
+                    null,
+                    null
+                ],
+                "diff_wbc_basophils": [
+                    null,
+                    null
+                ],
+                "platelet_count": [
+                    "150000",
+                    "410000"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 DEC",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "SHIVAM SINGH",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (HB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "TOTAL RBC COUNT",
+            "result_value": 5.745,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "NEUTROPHILS (%)",
+            "result_value": 80,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "150000-400000"
+        }
+    ]
+}

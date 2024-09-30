@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "hiren shah",
+        "patient_sex": "male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin count",
+            "result_value": "106",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11000 - 325"
+        },
+        {
+            "test_name": "total RBC count",
+            "result_value": "8300",
+            "unit_of_measurement": "cells / μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "105",
+            "unit_of_measurement": "cells / μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": null,
+            "unit_of_measurement": "cells / μL",
+            "reference_range": null
+        }
+    ]
+}

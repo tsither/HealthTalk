@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 9.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-15.5 g/dL"
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": 34.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (MCH)",
+            "result_value": 27.57,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell count",
+            "result_value": 3925000000000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "4.32-5.72 x 10^12 cells/microL"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 74.328,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell count (WBC)",
+            "result_value": 17500.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "4.52-11.09 x 10^3 cells/microL"
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": 51.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

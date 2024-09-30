@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SGOT",
+            "result_value": 8.8,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "SGPT",
+            "result_value": 5,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "S. creatinine",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Total protein",
+            "result_value": 7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 3.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 6.56,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "<12.0"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 97,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 21,
+            "unit_of_measurement": "pi",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 7.0,
+            "unit_of_measurement": "k/µL",
+            "reference_range": null
+        }
+    ]
+}

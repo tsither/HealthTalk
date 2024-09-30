@@ -1,0 +1,23 @@
+{
+    "Date": "23.07.2021",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "8.7",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.8 - 10"
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": "65",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

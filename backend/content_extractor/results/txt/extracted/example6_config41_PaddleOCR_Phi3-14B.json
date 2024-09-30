@@ -1,0 +1,29 @@
+{
+    "Date": "02/31",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "105-170"
+        },
+        {
+            "test_name": "Red Blood Cell Count (cumm)",
+            "result_value": 4.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "383-562"
+        },
+        {
+            "test_name": "Platelet Count (PID cumm)",
+            "result_value": 116,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150-400"
+        }
+    ]
+}

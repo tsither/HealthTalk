@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "M",
+        "patient_age": 15
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) / Hematocrit (HCT)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        }
+    ]
+}

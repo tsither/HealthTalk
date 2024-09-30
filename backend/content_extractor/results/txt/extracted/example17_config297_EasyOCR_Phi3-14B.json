@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglovee",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.8-17.2]"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 4500,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4500-11000]"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[150000-450000]"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 12.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[[% 11-15]"
+        }
+    ]
+}

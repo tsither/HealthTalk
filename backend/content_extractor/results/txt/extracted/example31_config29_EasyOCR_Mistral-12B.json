@@ -1,0 +1,81 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential (Automated)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 5.5,
+                    "unit": "g/dL",
+                    "reference_range": "13-17"
+                },
+                "RBC Count": {
+                    "value": 4.0,
+                    "unit": "million/µL",
+                    "reference_range": "4.2-5.8"
+                },
+                "HCT": {
+                    "value": 15.6,
+                    "unit": "%",
+                    "reference_range": "42-52"
+                },
+                "MCV": {
+                    "value": 81.75,
+                    "unit": "fL",
+                    "reference_range": "78-93"
+                },
+                "MCH": {
+                    "value": 32.8,
+                    "unit": "pg",
+                    "reference_range": "26-34"
+                },
+                "MCCHC": {
+                    "value": 150,
+                    "unit": "%",
+                    "reference_range": "32-36"
+                },
+                "RDW-CV": {
+                    "value": 14.0,
+                    "unit": "%",
+                    "reference_range": "11.5-14.5"
+                },
+                "WBC Count": {
+                    "value": 6.2,
+                    "unit": "thousand/µL",
+                    "reference_range": "3.5-9.0"
+                },
+                "Neutrophils": {
+                    "value": 70,
+                    "unit": "%",
+                    "reference_range": "40-75"
+                },
+                "Lymphocytes": {
+                    "value": 20,
+                    "unit": "%",
+                    "reference_range": "25-45"
+                },
+                "Eosinophils": {
+                    "value": 0,
+                    "unit": "%",
+                    "reference_range": "1-6"
+                },
+                "Monocytes": {
+                    "value": 6,
+                    "unit": "%",
+                    "reference_range": "3-8"
+                },
+                "Platelet Count": {
+                    "value": 250,
+                    "unit": "thousand/µL",
+                    "reference_range": "150-400"
+                }
+            }
+        }
+    ]
+}

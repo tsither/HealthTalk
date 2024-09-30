@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Yash Visions Complex",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin by Type Complete (OBIN)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Blood Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "million/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "29.51",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) %",
+            "result_value": "39%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "34.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "15%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17.75",
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "52%",
+                "Lymphocytes": "40%",
+                "Eosinophils": "10%",
+                "Monocytes": "7%",
+                "Basophils": "0.5%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "140",
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        }
+    ]
+}

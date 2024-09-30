@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 72.5,
+            "unit_of_measurement": "I Count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": 8.9689,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 13.0,
+            "unit_of_measurement": "Count Unit",
+            "reference_range": [
+                4.5,
+                5.5
+            ]
+        }
+    ]
+}

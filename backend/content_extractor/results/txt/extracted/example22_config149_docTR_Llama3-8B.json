@@ -1,0 +1,47 @@
+{
+    "Date": "12/09/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "15-45"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood count (PCNT Mcn)",
+            "result_value": 212,
+            "unit_of_measurement": "%",
+            "reference_range": "59-620"
+        },
+        {
+            "test_name": "Total hemoglobin",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count (PCNT)",
+            "result_value": 59,
+            "unit_of_measurement": "%",
+            "reference_range": "0-50"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 29,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.9,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

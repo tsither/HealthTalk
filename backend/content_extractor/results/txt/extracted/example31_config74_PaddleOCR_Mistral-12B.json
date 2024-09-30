@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "PID : 555 t 0123456789 | 0912345678",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 87.75,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

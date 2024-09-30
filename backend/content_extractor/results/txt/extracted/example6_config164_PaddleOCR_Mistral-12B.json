@@ -1,0 +1,56 @@
+{
+    "Date": "03-11 PM",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low (<13.0 g/dL)"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.24,
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "High (>50%)"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl L"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "Normal (27-32 pg)"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal (11.6-14%)"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "Borderline (<150,000 cumm)"
+        }
+    ]
+}

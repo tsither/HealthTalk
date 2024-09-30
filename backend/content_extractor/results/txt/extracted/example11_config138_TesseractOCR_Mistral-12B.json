@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lung function tests",
+            "result_value": {
+                "FVC": "%",
+                "FEV1": "6d lt %",
+                "FEV1/FVC": "XZ 980",
+                "PEF": "20 Wd SE:p0 :uo Payoday",
+                "PETCO2": "XZ 920"
+            },
+            "unit_of_measurement": {
+                "FVC": "%",
+                "FEV1": "%",
+                "FEV1/FVC": "",
+                "PEF": "Wd",
+                "PETCO2": ""
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "4eys jeAeg",
+                "RBC": "1g YY?",
+                "HGB": "Le tty see0day JO PUa.ey",
+                "PLT": "SN (11a ‘1Wwa)"
+            },
+            "unit_of_measurement": {
+                "WBC": "",
+                "RBC": "",
+                "HGB": "g/dL",
+                "PLT": "x10^3/μL"
+            },
+            "reference_range": null
+        }
+    ]
+}

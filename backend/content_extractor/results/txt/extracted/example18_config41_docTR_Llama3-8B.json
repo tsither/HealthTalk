@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[feminine] 12.0-16.0 g/dL"
+        },
+        {
+            "test_name": "Leukocyte Count",
+            "result_value": 12000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4000-11000 /µL"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 50,
+            "unit_of_measurement": "/µL",
+            "reference_range": "0-500 /µL"
+        },
+        {
+            "test_name": "Monocyte Count",
+            "result_value": 320,
+            "unit_of_measurement": "/µL",
+            "reference_range": "200-1000 /µL"
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "2500-7800 /µL"
+        }
+    ]
+}

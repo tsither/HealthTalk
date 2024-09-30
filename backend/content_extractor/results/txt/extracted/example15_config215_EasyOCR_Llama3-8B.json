@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 170.5,
+            "unit_of_measurement": "fl",
+            "reference_range": "Normal: 11-18 fl"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1550,
+            "unit_of_measurement": "x10^3/ul",
+            "reference_range": "Normal Adults: 150-400 x10^3/ul, Normal Children: 75-200 x10^3/ul"
+        },
+        {
+            "test_name": "Platelet Anisocytosis",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

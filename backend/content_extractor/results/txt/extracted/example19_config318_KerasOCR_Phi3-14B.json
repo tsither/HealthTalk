@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "PIS JIO S",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "3.5e9/L",
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": "4.5-11.0e6 cells/microliter"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "7,000",
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": "4,500-11,000 cells/microliter"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.5g/dL",
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "13.2-16.0 g/dL (males), 12.0-14.8 g/dL (females)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

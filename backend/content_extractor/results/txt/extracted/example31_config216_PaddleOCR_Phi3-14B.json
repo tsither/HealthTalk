@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglovee (Hb)",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-18.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.6,
+            "unit_of_measurement": "mill/cu mm",
+            "reference_range": "4.5-5.9"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 37,
+            "unit_of_measurement": "%",
+            "reference_range": "38.8-50%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (DIF)",
+            "result_value": 27.1,
+            "unit_of_measurement": "%",
+            "reference_range": "23-45%"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": null,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "150-450"
+        }
+    ]
+}

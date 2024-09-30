@@ -1,0 +1,60 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.e"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.5 - 5.5 High",
+            "unit_of_measurement": "Million/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "83-101",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 27.2,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (WBC)",
+            "result_value": [
+                {
+                    "Neutrophils": "83-101"
+                },
+                {
+                    "Lymphocytes": "27 - 32"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocyte Count",
+            "result_value": null,
+            "unit_of_measurement": "Percentage of WBCs",
+            "reference_range": null
+        }
+    ]
+}

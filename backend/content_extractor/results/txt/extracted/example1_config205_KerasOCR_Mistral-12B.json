@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456739",
+        "patient_name": "colin patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "total RBC count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 8.75,
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 3251,
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": null
+        }
+    ]
+}

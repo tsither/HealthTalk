@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Group",
+            "result_value": "A+",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "120 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "115-155 g/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "70-100 fL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "6.5 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        }
+    ]
+}

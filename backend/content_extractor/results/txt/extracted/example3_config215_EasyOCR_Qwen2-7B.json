@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash M",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collected_date": "07 Dec OS 71"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (CHBL)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": [
+                    135,
+                    175
+                ],
+                "female": [
+                    120,
+                    155
+                ]
+            },
+            "interpretation": "Low levels may indicate a loss of blood; further underlying low levels may indicate conditions such as anemia. Determining the cause is necessary."
+        }
+    ]
+}

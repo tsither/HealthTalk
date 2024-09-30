@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345678",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "50",
+            "unit_of_measurement": "adult males 43 - 52 / L females 37 - 46 / L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "cells/mcL",
+            "reference_namerange": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "million cells / L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": null,
+            "unit_of_measurement": "thousand cells / micro L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56^",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 57
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL or mmol/L",
+            "reference_range": "13.5-17.5 g/dL for males"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 5750,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils percentage",
+            "result_value": 63.9,
+            "unit_of_measurement": "%",
+            "reference_range": "40-70%"
+        },
+        {
+            "test_name": "Lymphocytes percentage",
+            "result_value": 25.1,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Eosinophils percentage",
+            "result_value": 3.8,
+            "unit_of_measurement": "%",
+            "reference_range": "1-6%"
+        },
+        {
+            "test_name": "Basophils percentage",
+            "result_value": 2.0,
+            "unit_of_measurement": "%",
+            "reference_range": "0-2%"
+        },
+        {
+            "test_name": "Monocytes percentage",
+            "result_value": 6.1,
+            "unit_of_measurement": "%",
+            "reference_range": "3-10%"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 250000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

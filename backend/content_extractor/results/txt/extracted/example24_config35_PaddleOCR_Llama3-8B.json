@@ -1,0 +1,41 @@
+{
+    "Date": "Regi Dec, 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4000-11000 (MCV)"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 98,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

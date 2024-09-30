@@ -1,0 +1,29 @@
+{
+    "Date": "20-12-2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatine Kinase (CK)",
+            "result_value": 1500,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-200 U/L"
+        },
+        {
+            "test_name": "Aspartate Aminotransferase (AST)",
+            "result_value": 250,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40 U/L"
+        },
+        {
+            "test_name": "Alanine Aminotransferase (ALT)",
+            "result_value": 180,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40 U/L"
+        }
+    ]
+}

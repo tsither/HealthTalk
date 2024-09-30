@@ -1,0 +1,30 @@
+{
+    "Date": "01.02.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "lower": 4.5,
+                "upper": 11
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 83.7,
+            "unit_of_measurement": "fL"
+        }
+    ]
+}

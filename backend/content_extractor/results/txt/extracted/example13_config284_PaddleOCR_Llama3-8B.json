@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "platelets/μL",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        }
+    ]
+}

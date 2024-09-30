@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "3456789",
+        "patient_name": "M. Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 13000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[13000 - 41000]"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Volume (RBC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6 - 14.0]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[32.5 - 34.5]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 67.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cells (RBC) Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[4000 - 11000]"
+        }
+    ]
+}

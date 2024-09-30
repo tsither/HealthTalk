@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cell Count",
+            "result_value": "0500",
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_valve": "202x",
+            "unit_of_measurement": "femtoliters/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "300",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "20.06.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.8,
+                "RBC": 5.1,
+                "HGB": 14.2,
+                "HCT": 42.3,
+                "PLT": 260
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

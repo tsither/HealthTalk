@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 16,
+                "Hemoglobina": 90,
+                "Hematocyito": 80,
+                "MCV": 76.5,
+                "MCH": 28.8
+            },
+            "unit_of_measurement": {
+                "Hematies": "/L",
+                "Hemoglobina": "g/L",
+                "Hematocyito": "%",
+                "MCV": "fl",
+                "MCH": "pg"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 17.4,
+            "unit_of_measurement": "/L",
+            "reference_range": {
+                "Min": 3500,
+                "Max": 11000
+            }
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 295,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitaria formula",
+            "result_value": {
+                "Neutrofilos": 60,
+                "Linfocitos": 30,
+                "Monocitos": 5,
+                "Eosinofilos": 1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

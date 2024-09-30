@@ -1,0 +1,71 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "RBC": {
+                    "value": 4.689,
+                    "unit": "mill/cumm"
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "min": 11.6,
+                    "max": 17
+                },
+                "RBC": {
+                    "min": 4.0,
+                    "max": 6
+                }
+            }
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": {
+                "Total WBC": {
+                    "value": 87.75,
+                    "unit": "/L"
+                },
+                "Neutrophils": {
+                    "value": 32.8,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 27.2,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 4.5,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 13.6,
+                    "unit": "/L"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 270,
+                "unit": "x10^9/L"
+            },
+            "reference_range": {
+                "min": 83,
+                "max": 107
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.5",
+            "unit_of_measurement": "Million cells/mcL",
+            "reference_range": {
+                "low": 3.6,
+                "high": 5.8
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 13.0,
+                "high": 17.0
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "92",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

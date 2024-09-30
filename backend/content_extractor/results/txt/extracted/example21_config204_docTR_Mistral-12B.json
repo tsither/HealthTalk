@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 5.0,
+                "RBC": 4.8,
+                "HGB": 12.0,
+                "PLT": 250,
+                "NEU": 65,
+                "LYM": 30,
+                "MONO": 5
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    11.0
+                ],
+                "RBC": [
+                    4.4,
+                    6.2
+                ],
+                "HGB": [
+                    13.5,
+                    17.5
+                ],
+                "PLT": [
+                    150,
+                    450
+                ],
+                "NEU": [
+                    40,
+                    70
+                ],
+                "LYM": [
+                    20,
+                    45
+                ],
+                "MONO": [
+                    2,
+                    10
+                ]
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "AST": 25,
+                "ALT": 30,
+                "ALP": 80,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": [
+                    8,
+                    50
+                ],
+                "ALT": [
+                    6,
+                    41
+                ],
+                "ALP": [
+                    35,
+                    129
+                ],
+                "TBIL": [
+                    0.1,
+                    1.5
+                ]
+            }
+        }
+    ]
+}

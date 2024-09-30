@@ -1,0 +1,65 @@
+{
+    "Date": "2023-10-27",
+    "patient_information": {
+        "patient_id": "P12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White blood cells (WBC)": 7.5,
+                "Red blood cells (RBC)": 4.8,
+                "Hemoglobin (Hgb)": 14.0,
+                "Hematocrit (Hct)": 42.0
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "Hgb": "g/dL",
+                "Hct": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0 x10^9/L",
+                "RBC": "4.0 - 5.5 x10^12/L",
+                "Hgb": "13.5 - 17.5 g/dL",
+                "Hct": "38.3 - 52.1%"
+            }
+        },
+        {
+            "test_name": "Liver Function Tests (LFTs)",
+            "result_value": {
+                "Aspartate aminotransferase (AST)": 25,
+                "Alanine aminotransferase (ALT)": 18,
+                "Total bilirubin": 0.8
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "Total bilirubin": "mg/dL"
+            },
+            "reference_range": {
+                "AST": "10 - 40 U/L",
+                "ALT": "7 - 56 U/L",
+                "Total bilirubin": "0.1 - 1.2 mg/dL"
+            }
+        },
+        {
+            "test_name": "Kidney Function Tests (KFTs)",
+            "result_value": {
+                "Creatinine": 0.9,
+                "Glomerular filtration rate (GFR)": 95
+            },
+            "unit_of_measurement": {
+                "Creatinine": "mg/dL",
+                "GFR": "mL/min/1.73 m^2"
+            },
+            "reference_range": {
+                "Creatinine": "0.6 - 1.2 mg/dL",
+                "GFR": "90 - 120 mL/min/1.73 m^2"
+            }
+        }
+    ]
+}

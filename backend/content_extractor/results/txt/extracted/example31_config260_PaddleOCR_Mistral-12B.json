@@ -1,0 +1,35 @@
+{
+    "Date": "17.03.2022",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 66
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 6.695,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "4.5 - 11"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 130,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12 - 16"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 41.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37 - 52"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 92.8,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

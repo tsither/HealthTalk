@@ -1,0 +1,50 @@
+{
+    "Date": "04.11",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": 87.75,
+                "RBC_count": null,
+                "Hb": 12.5,
+                "HCT": 57.5,
+                "MCV": 5.2,
+                "PLT_count": 32.8,
+                "NEUT%": 64.5,
+                "LYMPH%": 27.2,
+                "MONO%": 7.1,
+                "EOSEO%": null
+            },
+            "unit_of_measurement": {
+                "WBC_count": "x10^9/L",
+                "RBC_count": "x10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "PLT_count": "x10^9/L",
+                "NEUT%": "%",
+                "LYMPH%": "%",
+                "MONO%": "%",
+                "EOSEO%": "%"
+            },
+            "reference_range": {
+                "WBC_count": "4.5 - 11.0",
+                "RBC_count": null,
+                "Hb": "13.0-17.0 g/dL",
+                "HCT": "37.0-47.0%",
+                "MCV": "80-96 fL",
+                "PLT_count": "150-450 x10^9/L",
+                "NEUT%": "40-75%",
+                "LYMPH%": "20-45%",
+                "MONO%": "2-8%",
+                "EOSEO%": null
+            }
+        }
+    ]
+}

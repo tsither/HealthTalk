@@ -1,0 +1,29 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "MARY PID M.",
+        "patient_sex": null,
+        "patient_age": "2 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "wBC",
+            "result_value": 12.5,
+            "unit_of_measurement": "/dL",
+            "reference_range": ".34.5"
+        },
+        {
+            "test_name": "eosi",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "3-5"
+        }
+    ]
+}

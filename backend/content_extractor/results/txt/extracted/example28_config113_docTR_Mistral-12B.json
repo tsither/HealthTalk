@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 X 10^9/1",
+                "Hemoglobina": "18.3 g/l",
+                "VCM": "89 fl",
+                "M.C.": "29 pg",
+                "Leucicitos": "10.2 X 10^6/l"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteina": "6.6 g/dL",
+                "Hierro (II)": "800 µg/dL",
+                "Ferritina": "800 µg/dL",
+                "Hemoglobina Alc": "100%",
+                "GOT": "28 U/L",
+                "GPT": "50 U/L",
+                "GGT": "4.5 U/L",
+                "Bilirrubina total": "8 mg/dL",
+                "Fosfatasa Alcalina": "230 U/L",
+                "Albumina": "4.1 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (II)": "µg/dL",
+                "Ferritina": "µg/dL",
+                "Hemoglobina Alc": "%",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0",
+                "Proteina": "(6.0-8.0)",
+                "Hierro (II)": null,
+                "Ferritina": null,
+                "Hemoglobina Alc": null,
+                "GOT": null,
+                "GPT": null,
+                "GGT": null,
+                "Bilirrubina total": null,
+                "Fosfatasa Alcalina": "(30 - 110)",
+                "Albumina": "(3.8 - 5.5)"
+            }
+        },
+        {
+            "test_name": "Silirrubina directa (Estenticada)",
+            "result_value": "1.5",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

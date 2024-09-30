@@ -1,0 +1,86 @@
+{
+    "Date": "05.12.23",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 220
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "HGB": "g/dL",
+                "PLT": "x10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.0,
+                    10.0
+                ],
+                "RBC": [
+                    4.5,
+                    6.0
+                ],
+                "HGB": [
+                    13.5,
+                    17.5
+                ],
+                "PLT": [
+                    150,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "LFTs",
+            "result_value": {
+                "AST": 28,
+                "ALT": 32,
+                "ALP": 95,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": [
+                    8,
+                    30
+                ],
+                "ALT": [
+                    7,
+                    56
+                ],
+                "ALP": [
+                    45,
+                    125
+                ],
+                "TBIL": [
+                    0.3,
+                    1.9
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 105,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": [
+                74,
+                106
+            ]
+        }
+    ]
+}

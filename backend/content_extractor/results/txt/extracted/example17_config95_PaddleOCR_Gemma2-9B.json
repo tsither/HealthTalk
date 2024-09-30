@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 4000,
+            "unit_of_measurement": "g/L",
+            "reference_range": "41000 - 5000"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "27 - 32"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

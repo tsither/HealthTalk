@@ -1,0 +1,53 @@
+{
+    "Date": "Dec 21",
+    "patient_information": {
+        "patient_id": "Hiren Shah",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "1 year"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Total RBC COUNT (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "Low": 13.0,
+                "High": 17.0
+            }
+        },
+        {
+            "test_name": "Blood Packed Cell Volume (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 45,
+                "High": 55
+            }
+        },
+        {
+            "test_name": "MCH Calcu ted Volume",
+            "result_value": 57.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 32.8,
+            "unit_of_measurement": "count",
+            "reference_range": {
+                "Low": 4.5,
+                "High": 10.5
+            }
+        },
+        {
+            "test_name": "Platelet PLATEETO COUNT",
+            "result_value": 7,
+            "unit_of_measurement": "Count",
+            "reference_range": {
+                "Low": 150000,
+                "High": 410000
+            }
+        }
+    ]
+}

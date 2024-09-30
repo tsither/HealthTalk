@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 x 10^9/L",
+                "Hemoglobina": "14.3 g/dL",
+                "VCM": "69 fl",
+                "H.M.C": "29 pg",
+                "Leucicitos": "(68N, 1B, SE, 24L 2M) 10.2 x 10^6/L"
+            },
+            "unit_of_measurement": {
+                "Hematies": "x10^9/L",
+                "Hemoglobina": "g/dL",
+                "VCM": "fl",
+                "H.M.C": "pg",
+                "Leucicitos": "x10^6/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "85 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteína": "65 g/dL",
+                "Hierro (Fe)": "(11-41)",
+                "Ferratina": "28 μg/dL",
+                "Hemoglobina A1c": "5.0 %",
+                "GOT": "<35 U/L",
+                "GPT": "20 U/L",
+                "GGT": "4.5 U/L",
+                "Bilirubina total": "0.8 mg/dL",
+                "Fosfatasa Alcalina": "80 U/L",
+                "Albumina": "3.8 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteína": "g/dL",
+                "Hierro (Fe)": "(11-41)",
+                "Ferratina": "μg/dL",
+                "Hemoglobina A1c": "%",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirubina total": "mg/dL",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0-110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0",
+                "Proteína": "(6.0-8.0)",
+                "Hierro (Fe)": null,
+                "Ferratina": "(30 - 110)",
+                "Hemoglobina A1c": "(5.0-5.9)",
+                "GOT": "<35 U/L",
+                "GPT": "<41 U/L",
+                "GGT": "(9 - 60)",
+                "Bilirubina total": "(0.2 - 1)",
+                "Fosfatasa Alcalina": "(30 - 110)",
+                "Albumina": "(3.8-5.5)"
+            }
+        }
+    ]
+}

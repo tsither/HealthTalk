@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin": "12.5 g/dL",
+                "Red Blood Cell Count": "4.8 x 10^6 /uL",
+                "White Blood Cell Count": "6.0 x 10^3 /uL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Red Blood Cell Count": "x 10^6 /uL",
+                "White Blood Cell Count": "x 10^3 /uL"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.5-17.5 g/dL (men)",
+                "Red Blood Cell Count": "4.7-6.1 x e{}*10^6 /uL",
+                "White Blood Cell Count": "4.5-11.0 x 10^3 /uL"
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": {
+                "Packed Cell Volume (PCV)": "75%",
+                "Mean Corpuscular Hemoglobin (MCH)": "21.0 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32 g/dL"
+            },
+            "unit_of_measurement": {
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL"
+            },
+            "reference_range": {
+                "Packed Cell Volume (PCV)": "38-49%",
+                "Mean Corpuscular Hemoglobin (MCH)": "27.5-30 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "31.5-36 g/dL"
+            }
+        },
+        {
+            "test_name": "Differential White Blood Cell Count",
+            "result_value": {
+                "Neutrophils": "70%",
+                "Lymphocytes": "21%",
+                "Monocytes": "4%",
+                "Eosinophils": "5%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "40-60%",
+                "Lymphocytes": "20-40%",
+                "Monocytes": "3-8%",
+                "Eosinophils": "1-4%"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250,000 /uL",
+            "unit_of_measurement": "/uL"
+        }
+    ]
+}

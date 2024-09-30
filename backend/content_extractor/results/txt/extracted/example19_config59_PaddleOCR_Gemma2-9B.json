@@ -1,0 +1,29 @@
+{
+    "Date": "02/Dec/202X",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "36",
+            "unit_of_measurement": "fL",
+            "reference_range": "11.6 - 101"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "83",
+            "unit_of_measurement": "x 10^6/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "245",
+            "unit_of_measurement": "x 10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

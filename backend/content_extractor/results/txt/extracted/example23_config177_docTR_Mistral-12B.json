@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 220,
+                "NEU": 55,
+                "LYM": 35,
+                "MONO": 7,
+                "EOS": 3
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%",
+                "EOS": "%"
+            },
+            "reference_range": {
+                "WBC": null,
+                "RBC": null,
+                "HGB": null,
+                "PLT": null,
+                "NEU": null,
+                "LYM": null,
+                "MONO": null,
+                "EOS": null
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "TBIL": 1.2,
+                "DBIL": 0.6,
+                "IBIL": 0.5,
+                "ALP": 80,
+                "AST": 25,
+                "ALT": 30
+            },
+            "unit_of_measurement": {
+                "TBIL": "mg/dL",
+                "DBIL": "mg/dL",
+                "IBIL": "mg/dL",
+                "ALP": "U/L",
+                "AST": "U/L",
+                "ALT": "U/L"
+            },
+            "reference_range": {
+                "TBIL": null,
+                "DBIL": null,
+                "IBIL": null,
+                "ALP": null,
+                "AST": null,
+                "ALT": null
+            }
+        }
+    ]
+}

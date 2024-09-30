@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.8K/mm3, RBC: 4.96E+12/L, HGB: 15.2g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "WBC: 4-10K/mm3, RBC: 4.5-5.8E+12/L, HGB: 13.5-17.5g/dL"
+        },
+        {
+            "test_name": "Serum Glucose",
+            "result_value": "96mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": "70-100mg/dL"
+        }
+    ]
+}

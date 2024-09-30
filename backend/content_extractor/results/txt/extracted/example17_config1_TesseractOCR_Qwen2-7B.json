@@ -1,0 +1,51 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2; RBC: 4.8; HGB: 14.1; HCT: 0.43",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "ALT: 12 U/L; AST: 26 U/L; Bilirubin Total: 0.4 mg/dL",
+            "unit_of_measurement": "U/L for ALT/AST, mg/dL for Bilirubin",
+            "reference_range": {
+                "ALT": "Normal range is typically below 105 U/L",
+                "AST": "Typically normal range is less than 40 U/L",
+                "Bilirubin Total": "Normal range varies by laboratory but is generally below 1.2 mg/dL"
+            }
+        },
+        {
+            "test_name": "Kidney Function Tests (KFT)",
+            "result_value": "Serum Creatinine: 0.9 mg/dL; Blood Urea Nitrogen: 15 mg/dL",
+            "unit_of_measurement": "mg/dL for both",
+            "reference_range": {
+                "Serum Creatinine": null,
+                "Blood Urea Nitrogen": null
+            }
+        },
+        {
+            "test_name": "Electrolytes and Acid Base Status",
+            "result_value": "Sodium: 140 mEq/L; Potassium: 4.2 mEq/L; Chloride: 98 mEq/L; pH: 7.36; CO2: 25 mmol/L",
+            "unit_of_measurement": [
+                "mEq/L for Na, K, Cl",
+                "mmol/L for pCO2"
+            ],
+            "reference_range": {
+                "Sodium": null,
+                "Potassium": null,
+                "Chloride": null,
+                "pH": null,
+                "CO2": null
+            }
+        }
+    ]
+}

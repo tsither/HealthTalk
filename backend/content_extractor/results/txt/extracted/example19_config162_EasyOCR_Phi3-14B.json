@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Poge",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (Glycosylated Hemoglobin)",
+            "result_value": 5.7,
+            "unit_of_measurement": "%",
+            "reference_range": "4-5.6%"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count with Differential",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": null,
+            "unit_of_measurement": "% of RBCs or cells/uL (units vary)",
+            "reference_range": "0.5-2%"
+        },
+        {
+            "test_name": "Reticulocyte Index",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

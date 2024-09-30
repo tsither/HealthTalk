@@ -1,0 +1,112 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": "42",
+                "hemoglobina": "13.5",
+                "leucocitos": "7500"
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dL",
+                "leucocitos": "mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos fórmula",
+            "result_value": {
+                "neutrófilos": "51%",
+                "linfocitos": "36%",
+                "monocitos": "8%",
+                "basófilos": "5%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": {
+                "conteo": "200000"
+            },
+            "unit_of_measurement": "mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular",
+            "result_value": {
+                "1 hora": "20 mm/hora"
+            },
+            "unit_of_measurement": "mm/hora",
+            "reference_range": null
+        },
+        {
+            "test_name": "Biquímica",
+            "result_value": {
+                "glucosa": "87 mg/dL",
+                "colesterol": "169 mg/dL",
+                "hdl": "45 mg/dL",
+                "ldl": "102 mg/dL",
+                "trigliceridos": "150 mg/dL"
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "colesterol": "mg/dL",
+                "hdl": "mg/dL",
+                "ldl": "mg/dL",
+                "trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea",
+            "result_value": {
+                "conteo": "35 mg/dL"
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": {
+                "conteo": "1.2 mg/dL"
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Homocisteína",
+            "result_value": {
+                "conteo": "14.5 µmol/L"
+            },
+            "unit_of_measurement": "µmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Proteínas totales",
+            "result_value": {
+                "conteo": "7.3 g/dL"
+            },
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "sodio": "141 meq/L",
+                "cloro": "98 meq/L",
+                "potasio": "3.5 meq/L"
+            },
+            "unit_of_measurement": "meq/L",
+            "reference_range": null
+        }
+    ]
+}

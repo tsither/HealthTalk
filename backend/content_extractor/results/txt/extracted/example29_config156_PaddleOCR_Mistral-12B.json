@@ -1,0 +1,35 @@
+{
+    "Date": "20XX-05-02",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.0 - 6.1"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "89689",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "270",
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

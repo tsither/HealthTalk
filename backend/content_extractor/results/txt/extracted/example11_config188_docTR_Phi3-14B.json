@@ -1,0 +1,87 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin(Hb)": "12.5",
+                "RBC COUNT Total RBC count": null,
+                "BLOOD INDICES Packed Cell Volume (PCV)": "57.5",
+                "Mean Corpuscular Volume (MCV)": "87.75",
+                "Mean Corpuscular Hemogloprise (MCHC)": null,
+                "Reticulocyte Count": null,
+                "WBC COUNT Total WBC DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": null,
+                    "Lymphocytes": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "PLATELET COUNT Platelet Count": {
+                    "Platelets": "150000"
+                }
+            },
+            "unit_of_measurement": {
+                "Hemoglobin(Hb)": "9/dL",
+                "RBC COUNT Total RBC count": null,
+                "BLOOD INDICES Packed Cell Volume (PCV)": "% fl. pg g/dl",
+                "Mean Corpuscular Volume (MCV)": null,
+                "Mean Corpuscular Hemogloprise (MCHC)": null,
+                "Reticulocyte Count": null,
+                "WBC COUNT Total WBC DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                },
+                "PLATELET COUNT Platelet Count": null
+            },
+            "reference_range": {
+                "Hemoglobin(Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "RBC COUNT Total RBC count": null,
+                "BLOOD INDICES Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular Volume (MCV)": null,
+                "Mean Corpuscular Hemogloprise (MCHC)": null,
+                "Reticulocyte Count": null,
+                "WBC COUNT Total WBC DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": [
+                        0.5,
+                        1
+                    ],
+                    "Lymphocytes": [
+                        2,
+                        3
+                    ],
+                    "Eosinophils": [
+                        null,
+                        null
+                    ],
+                    "Monocytes": [
+                        null,
+                        null
+                    ],
+                    "Basophils": [
+                        null,
+                        null
+                    ]
+                },
+                "PLATELET COUNT Platelet Count": {
+                    "Platelets": [
+                        150000,
+                        400000
+                    ]
+                }
+            }
+        }
+    ]
+}

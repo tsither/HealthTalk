@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Payal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "- 14.0"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": " - 5.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6890000000000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count Test",
+            "result_value": 10.2,
+            "unit_of_measurement": "G/L",
+            "reference_range": "8-12 G/L"
+        },
+        {
+            "test_name": "Sugar Level Test",
+            "result_value": 4.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.9-6.1 mmol/L"
+        },
+        {
+            "test_name": "Creatinine Test",
+            "result_value": 120,
+            "unit_of_measurement": "umol/L",
+            "reference_range": "53-106 umol/L"
+        }
+    ]
+}

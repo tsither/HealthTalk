@@ -1,0 +1,142 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA RECUENTO",
+            "result_value": {
+                "WBC": 4.96,
+                "RBC": 5.27,
+                "HCT": 44,
+                "Hb": 148,
+                "PLT": 138
+            },
+            "unit_of_measurement": {
+                "WBC": "/mm³",
+                "RBC": "/mm³",
+                "HCT": "%",
+                "Hb": "g/dL",
+                "PLT": "/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "NEUT": 51,
+                "LYMPH": 36,
+                "MONO": 10,
+                "EOSINOPHILS": 4.96
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": {
+                "ESR": "<20"
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "HDL": 60,
+                "LDL": "<140",
+                "TRIGLICERIDOS": 45
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLESTEROL": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "TRIGLICERIDOS": "mg/dL"
+            },
+            "reference_range": {
+                "GLUCOSA": {
+                    "min": 70,
+                    "max": 110
+                },
+                "COLESTEROL": {
+                    "min": 150,
+                    "max": 220
+                },
+                "HDL": {
+                    "min": 35,
+                    "max": 65
+                }
+            }
+        },
+        {
+            "test_name": "UREA",
+            "result_value": {
+                "UREA": "<50"
+            },
+            "unit_of_measurement": {
+                "UREA": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "HIERRO",
+            "result_value": {
+                "FE": 145
+            },
+            "unit_of_measurement": {
+                "FE": "%"
+            },
+            "reference_range": {
+                "FE": {
+                    "min": 50,
+                    "max": 160
+                }
+            }
+        },
+        {
+            "test_name": "CREATININA",
+            "result_value": {
+                "Cre": 0.6
+            },
+            "unit_of_measurement": {
+                "Cre": "mg/dL"
+            },
+            "reference_range": {
+                "Cre": {
+                    "min": 0.5,
+                    "max": 1.2
+                }
+            }
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 98,
+                "POTASIO": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": {
+                "SODIO": {
+                    "min": 135,
+                    "max": 145
+                },
+                "CLORO": {
+                    "min": 98,
+                    "max": 110
+                }
+            }
+        }
+    ]
+}

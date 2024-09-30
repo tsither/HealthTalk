@@ -1,0 +1,23 @@
+{
+    "Date": "01/25/23",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 4.5, RBC: 5.2, HGB: 16.0, HCT: 48.5",
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "ALT: 32, AST: 27, ALP: 68",
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        }
+    ]
+}

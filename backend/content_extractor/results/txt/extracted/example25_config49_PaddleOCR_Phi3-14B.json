@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrito",
+            "result_value": 47.1,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-50]"
+        },
+        {
+            "test_name": "Neutrofilia",
+            "result_value": 64.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[40-70]"
+        },
+        {
+            "test_name": "Linfocitario",
+            "result_value": 25.9,
+            "unit_of_measurement": "%",
+            "reference_range": "[18-42]"
+        },
+        {
+            "test_name": "Monocitria",
+            "result_value": 9.3,
+            "unit_of_measurement": "%",
+            "reference_range": "[2-10]"
+        }
+    ]
+}

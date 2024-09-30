@@ -1,0 +1,35 @@
+{
+    "Date": "01/31/2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.7,
+            "unit_of_measurement": "/mcL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.7-6.1"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17.2"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 200,
+            "unit_of_measurement": "/mcL",
+            "reference_range": "150-450"
+        }
+    ]
+}

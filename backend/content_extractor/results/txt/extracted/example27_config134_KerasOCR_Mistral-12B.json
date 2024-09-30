@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 4451,
+                "Globulos Rojos": 3614,
+                "Hematocrito": 0.33,
+                "Hemoglobina": 70
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "x10^9/L",
+                "Globulos Rojos": "x10^12/L",
+                "Hematocrito": "%",
+                "Hemoglobina": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Formula Globular",
+            "result_value": {
+                "Segmentados": 36,
+                "Linfocitos": 45
+            },
+            "unit_of_measurement": {
+                "Segmentados": "%",
+                "Linfocitos": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica Sérica",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol Total": 160,
+                "Trigliceridos": 50
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol Total": "mg/dL",
+                "Trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 0.71,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Homocisteína",
+            "result_value": 15,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": null
+        }
+    ]
+}

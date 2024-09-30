@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "DrLOgy PAthOLOgy LAB",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 87.75,
+                "Hemoglobin (Hb)": 12.5,
+                "Packed Cell Volume (PCV)": 57.5,
+                "MCV": 27.2,
+                "MCH": 32.8,
+                "Platelet Count": 13.6
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "mm³",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "Platelet Count": "10^3/µL"
+            },
+            "reference_range": {
+                "Total WBC count": {
+                    "Low": 4000,
+                    "High": 11000
+                },
+                "Hemoglobin (Hb)": {
+                    "Low": 11.6,
+                    "High": 14.0
+                },
+                "Packed Cell Volume (PCV)": {
+                    "Low": 32.5,
+                    "High": 34.5
+                },
+                "MCV": null,
+                "MCH": null,
+                "Platelet Count": {
+                    "Low": 20,
+                    "High": 40
+                }
+            }
+        }
+    ]
+}

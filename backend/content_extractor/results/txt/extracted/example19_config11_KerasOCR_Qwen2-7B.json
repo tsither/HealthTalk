@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "patel complex",
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": 57
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin (hb)",
+            "result_value": 108,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130, 140]"
+        },
+        {
+            "test_name": "red blood cells (rbc)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 125,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

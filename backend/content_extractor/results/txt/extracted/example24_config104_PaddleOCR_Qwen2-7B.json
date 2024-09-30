@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "RBC",
+            "reference_range": "[27.2 - 40] g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6 - 15]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 83000,
+            "unit_of_measurement": "/cumm",
+            "reference_range": "[140000-410000] "
+        }
+    ]
+}

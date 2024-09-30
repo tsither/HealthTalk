@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID 555",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": {
+                    "count": "5.2",
+                    "MCV": "91.2"
+                },
+                "WBC": {
+                    "count": "32.8",
+                    "differential": {
+                        "Neutrophils": "50%",
+                        "Lymphocytes": "32.5%",
+                        "Monocytes": "7.0%"
+                    }
+                },
+                "Platelets": {
+                    "count": "17.0"
+                }
+            },
+            "unit_of_measurement": {
+                "RBC_count": "million/µL",
+                "RBC_MCV": "fL",
+                "WBC_count": "thousand/µL",
+                "Platelets_count": "thousand/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

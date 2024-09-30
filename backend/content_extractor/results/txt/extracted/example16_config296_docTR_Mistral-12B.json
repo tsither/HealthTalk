@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091234057",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell Count": 6200,
+                "Red Blood Cell Count": 4750,
+                "Hemoglobin": 13.2,
+                "Hematocrit": 41.8
+            },
+            "unit_of_measurement": {
+                "White Blood Cell Count": "/uL",
+                "Red Blood Cell Count": "/uL",
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

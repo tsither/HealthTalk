@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0112345673",
+        "patient_name": "",
+        "patient_sex": "male",
+        "patient_age": "18"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 116,
+            "unit_of_measurement": "ghbl",
+            "reference_range": [
+                "575 slo",
+                "40001100"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin Oligomerization Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 272,
+            "unit_of_measurement": "pcv hnog od rbc",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW) for WBC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

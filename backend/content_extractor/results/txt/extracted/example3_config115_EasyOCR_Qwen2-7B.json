@@ -1,0 +1,20 @@
+{
+    "Date": "02/dec/2x",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "low 135-175 mg/dL",
+            "reference_range": {
+                "male": "135-175 mg/dL",
+                "female": "120-155 mg/dL"
+            }
+        }
+    ]
+}

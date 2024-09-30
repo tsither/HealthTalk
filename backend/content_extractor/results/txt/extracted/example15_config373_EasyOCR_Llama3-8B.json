@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5000000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4300000-5400000"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 90.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "80-100"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555 Instant Primary",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential count",
+            "result_value": [
+                {
+                    " Neutrophils": "68.9%"
+                },
+                {
+                    " Lymphocytes": "13.0%"
+                },
+                {
+                    " Monocytes": "13.6%"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "9000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "92.3",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

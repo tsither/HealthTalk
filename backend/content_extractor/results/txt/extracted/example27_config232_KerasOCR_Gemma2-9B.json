@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobina",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-14 g/dL"
+        },
+        {
+            "test_name": "hematocrit",
+            "result_value": 39,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47 %"
+        },
+        {
+            "test_name": "eritrocitos",
+            "result_value": 4.8,
+            "unit_of_measurement": "millones/mcL",
+            "reference_range": "4.2-5.9 millones/mcL"
+        },
+        {
+            "test_name": "volumen corpuscular medio",
+            "result_value": 81,
+            "unit_of_measurement": "fL",
+            "reference_range": "78-100 fL"
+        },
+        {
+            "test_name": "concentración de hemoglobina corpuscular media",
+            "result_value": 325,
+            "unit_of_measurement": "pg/eritrocito",
+            "reference_range": "320-360 pg/eritrocito"
+        },
+        {
+            "test_name": "leucocitos",
+            "result_value": 7.2,
+            "unit_of_measurement": "mil millones/mcL",
+            "reference_range": "4.5-11 mil millones/mcL"
+        },
+        {
+            "test_name": "plaquetas",
+            "result_value": 230,
+            "unit_of_measurement": "mil/mcL",
+            "reference_range": "150-450 mil/mcL"
+        }
+    ]
+}

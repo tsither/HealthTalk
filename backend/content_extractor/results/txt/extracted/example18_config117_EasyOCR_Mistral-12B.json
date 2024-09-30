@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "HGB": "13.2",
+                "HCT": "40.5",
+                "MCV": "84.7",
+                "MCH": "29.3",
+                "MCHC": "34.6",
+                "PLT": "250",
+                "NEU": "55",
+                "LYM": "35",
+                "MONO": "8"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 10.8",
+                "RBC": "4.4 - 6.2",
+                "HGB": "13.5 - 17.5",
+                "HCT": "41 - 51",
+                "MCV": "80 - 100",
+                "MCH": "27 - 33",
+                "MCHC": "32 - 36",
+                "PLT": "150 - 400",
+                "NEU": "40 - 70",
+                "LYM": "20 - 40",
+                "MONO": "2 - 8"
+            }
+        }
+    ]
+}

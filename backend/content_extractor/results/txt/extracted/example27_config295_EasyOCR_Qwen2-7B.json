@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-10",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.3",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[4-10]"
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 65, AST: 38",
+            "unit_of_measurement": "%",
+            "reference_range": "[0-40]"
+        },
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": "Cr: 1.2, BUN: 15",
+            "unit_of_measurement": "",
+            "reference_range": "[<0.8] for Cr, [6-23] for BUN"
+        }
+    ]
+}

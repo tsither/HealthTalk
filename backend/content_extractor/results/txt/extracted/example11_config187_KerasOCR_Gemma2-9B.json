@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "null",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 1301,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 52,
+            "unit_of_measurement": "a x 10^6/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.95,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 11000,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": "Neutrophils 60%, Lymphocytes 50%, Monocytes 6%, Eosinophils 2%, Basophils 1%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "borderline"
+        }
+    ]
+}

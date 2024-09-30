@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 280,
+            "unit_of_measurement": "thousand/mm^3",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

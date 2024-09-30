@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                13,
+                17
+            ]
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": [
+                4.0,
+                5.0
+            ]
+        },
+        {
+            "test_name": "BLOOD Packed Cell Volume (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                32.5,
+                34.5
+            ]
+        },
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": 7000,
+            "unit_of_measurement": "/µL",
+            "reference_range": [
+                4000,
+                11000
+            ]
+        }
+    ]
+}

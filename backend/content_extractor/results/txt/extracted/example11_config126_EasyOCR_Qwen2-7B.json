@@ -1,0 +1,47 @@
+{
+    "Date": "02.31.20xx",
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": "23 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.1 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[12.0, 16.0]"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": "5.2 M/cumm",
+            "unit_of_measurement": "M/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "13.04%",
+            "unit_of_measurement": "%",
+            "reference_range": "[32, 56]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "[75, 100]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "408 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "[360, 380]"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "15%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

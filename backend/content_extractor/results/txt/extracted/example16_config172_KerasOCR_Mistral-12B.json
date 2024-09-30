@@ -1,0 +1,136 @@
+{
+    "Date": "02 DEC X",
+    "patient_information": {
+        "patient_id": "123456769",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 170,
+                    "unit": "g/dL"
+                },
+                "rbc_count_total": {
+                    "value": 5.2458,
+                    "unit": "million/µL"
+                },
+                "pcv": {
+                    "value": 57.15,
+                    "unit": "%"
+                },
+                "mcv": {
+                    "value": 87.75,
+                    "unit": "fL"
+                },
+                "mch": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "mchc": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "rdw": {
+                    "value": 13.6,
+                    "unit": "%"
+                }
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "low": 120,
+                    "high": null
+                },
+                "rbc_count_total": {
+                    "low": 4.58,
+                    "high": 5.5
+                },
+                "pcv": {
+                    "low": 40,
+                    "high": 50
+                },
+                "mcv": {
+                    "low": 83.4,
+                    "high": 101
+                },
+                "mch": {
+                    "low": 21.6,
+                    "high": 32
+                },
+                "mchc": {
+                    "low": null,
+                    "high": 34.5
+                },
+                "rdw": {
+                    "low": 11.6,
+                    "high": 14
+                }
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": {
+                "neutrophils": {
+                    "value": 60,
+                    "unit": "%"
+                },
+                "lymphocytes": {
+                    "value": 30,
+                    "unit": "%"
+                },
+                "eosinophils": {
+                    "value": 1,
+                    "unit": "%"
+                },
+                "monocytes": {
+                    "value": 5,
+                    "unit": "%"
+                },
+                "basophils": {
+                    "value": 2,
+                    "unit": "%"
+                }
+            },
+            "reference_range": {
+                "neutrophils": {
+                    "low": null,
+                    "high": 70
+                },
+                "lymphocytes": {
+                    "low": null,
+                    "high": 50
+                },
+                "eosinophils": {
+                    "low": null,
+                    "high": 6
+                },
+                "monocytes": {
+                    "low": null,
+                    "high": 12
+                },
+                "basophils": {
+                    "low": null,
+                    "high": 3
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "platelet_count": {
+                    "value": 300000,
+                    "unit": "/µL"
+                }
+            },
+            "reference_range": {
+                "platelet_count": {
+                    "low": null,
+                    "high": 400000
+                }
+            }
+        }
+    ]
+}

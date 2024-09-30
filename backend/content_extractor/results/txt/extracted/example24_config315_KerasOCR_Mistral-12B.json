@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "Hb": 13.5,
+                "Hct": 40.5,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "K/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

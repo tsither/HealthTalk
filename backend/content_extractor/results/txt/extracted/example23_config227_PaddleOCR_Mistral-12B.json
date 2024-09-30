@@ -1,0 +1,35 @@
+{
+    "Date": "...dod? jo pug...",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4001000,
+            "unit_of_measurement": "u/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 5.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "78-96"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

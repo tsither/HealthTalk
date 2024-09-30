@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "CTW8",
+        "patient_name": "LWal",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 10.2,
+                "RBC": 4.5,
+                "Hb": 13.6,
+                "HCT": 42,
+                "MCV": 87,
+                "MCH": 29,
+                "MCHC": 33,
+                "PLT": 280,
+                " Neutrophils": 58,
+                "Lymphocytes": 31,
+                "Monocytes": 8,
+                "Eosinophils": 2,
+                "Basophils": 1
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

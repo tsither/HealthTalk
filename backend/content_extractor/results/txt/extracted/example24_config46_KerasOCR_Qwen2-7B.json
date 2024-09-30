@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "pid",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "57"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "total red blood cell count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "hematocrit (PCV)",
+            "result_value": "689578",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": "125",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell size distribution width (RDW)",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

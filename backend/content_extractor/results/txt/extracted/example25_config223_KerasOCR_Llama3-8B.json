@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Fecu",
+            "result_value": 1.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hct",
+            "result_value": 45.5,
+            "unit_of_measurement": "%",
+            "reference_range": "39-48%"
+        },
+        {
+            "test_name": "Hb",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "012345761",
+        "patient_name": "yash",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collector": "dr hiren shah"
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbc",
+            "result_value": 125,
+            "unit_of_measurement": "gfil",
+            "reference_range": "[130, 170]"
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": 51.2,
+            "unit_of_measurement": "millicumim",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv packed cell volume",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": "[50, 60]"
+        },
+        {
+            "test_name": "mch mean corpuscular hemoglobin concentration",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "[27.5, 32]"
+        },
+        {
+            "test_name": "mchc mean corpuscular hemoglobin content",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw red cell distribution width",
+            "result_value": 136,
+            "unit_of_measurement": "lco",
+            "reference_range": "[116, 125]"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 7500000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "500000 - 25000000 cells/ul"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000,
+            "unit_of_measurement": "platelets/ul",
+            "reference_range": "150000 - 400000 platelets/ul"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80,
+            "unit_of_measurement": "fl",
+            "reference_range": "70 - 100 fl"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4500000,
+            "unit_of_measurement": "RBCs/ul",
+            "reference_range": "4000000 - 5500000 RBCs/ul"
+        }
+    ]
+}

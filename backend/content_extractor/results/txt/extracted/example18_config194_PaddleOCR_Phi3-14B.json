@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon (Hb)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5760000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Hematocrit (HTC)",
+            "result_value": 41.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "μm^3",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 12.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

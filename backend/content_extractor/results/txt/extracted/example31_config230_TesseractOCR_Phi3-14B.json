@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "Low: 13.0-17.0"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/cumene",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "High: 40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "83-107"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 48-72%"
+        }
+    ]
+}

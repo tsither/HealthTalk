@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "M",
+        "patient_age": "52"
+    },
+    "test_results": [
+        {
+            "test_name": "(Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0 - 17.0 g/dL"
+        },
+        {
+            "test_name": "DIF count",
+            "result_value": 40,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 27.2,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "0 - 350 cells/uL"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 13.0,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 10.5 %"
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1 - 1.2 mg/dL"
+        }
+    ]
+}

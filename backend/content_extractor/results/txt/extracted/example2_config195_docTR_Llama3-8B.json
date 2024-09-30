@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.0,
+            "unit_of_measurement": "/μL",
+            "reference_range": "4,500-11,000 /μL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.3 mg/dL"
+        }
+    ]
+}

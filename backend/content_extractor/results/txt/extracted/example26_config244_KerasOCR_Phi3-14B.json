@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "[4500-11000]"
+        },
+        {
+            "test_name": "Hemoglopoe",
+            "result_value": 13,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-16]"
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "[150000-450000]"
+        },
+        {
+            "test_name": "Reticulocytes Count",
+            "result_value": 3,
+            "unit_of_measurement": "% of total RBCs",
+            "reference_range": "[2-4%]"
+        }
+    ]
+}

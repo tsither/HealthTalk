@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel V",
+        "patient_sex": "Male",
+        "patient_age": "40 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 10500,
+            "unit_of_measurement": null,
+            "reference_range": "4-10 x 10^12 cells/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.7,
+            "unit_of_measurement": null,
+            "reference_range": "4.32-5.72 x 10^12 cells/L"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 12500,
+            "unit_of_measurement": null,
+            "reference_range": "4,500 - 11,000 cells/mm3"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11-14.5%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 310000,
+            "unit_of_measurement": null,
+            "reference_range": "150,000 - 450,000 cells/mm3"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Cholesterol Total",
+            "result_value": 205,
+            "unit_of_measurement": "mg/dL",
+            "reference_nrange": "125-200 mg/dL"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 48,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "> 50 mg/dL"
+        },
+        {
+            "test_name": "LDL Cholesterol (Calculated)",
+            "result_value": 128,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "< 150 mg/dL"
+        },
+        {
+            "test_name": "VLDL Cholesterol (Calculated)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Glycated Hemoglobin",
+            "result_value": 5.7,
+            "unit_of_measurement": "%",
+            "reference_range": "< 5.7%"
+        },
+        {
+            "test_name": "HbA1C (Glycated Hemoglobin)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

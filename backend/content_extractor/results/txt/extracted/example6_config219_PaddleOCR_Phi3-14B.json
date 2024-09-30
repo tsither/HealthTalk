@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "Hemoglobin (Hb)": "Low",
+                    "Result Value": 12.5,
+                    "Unit of Measurement": "g/dL",
+                    "Reference Range": "13.0-17.0 g/dL"
+                },
+                {
+                    "Total RBC count": null,
+                    "Result Value": 5.2,
+                    "Unit of Measurement": "mill/cumm",
+                    "Reference Range": "45-5.5 mill/cumm"
+                },
+                {
+                    "Packed Cell Volume (PCV)": "High",
+                    "Result Value": 7.5,
+                    "Unit of Measurement": "%",
+                    "Reference Range": "39-49%"
+                },
+                {
+                    "Mean Corpuscular Volume (mCv)": null,
+                    "Result Value": 87.75,
+                    "Unit of Measurement": "fl",
+                    "Reference Range": "80-100 fl"
+                },
+                {
+                    "Mean Corpuscular Hemoglobin (MCH)": null,
+                    "Result Value": 272,
+                    "Unit of Measurement": "pg",
+                    "Reference Range": "24.5-34 pg"
+                }
+            ]
+        }
+    ],
+    "Sample Collection Date": "09/12/345678",
+    "Reported by": [
+        "Dr. Payal Shah",
+        "Dr. Vimal Shah"
+    ],
+    "Lab Contact Information": {
+        "Address": "Laural - CA75/8 wwwdrogy.com Yash M. Patel Shivam 3ungalow S G Road Age:21 Years Mumbai Rogistorod on:09/31",
+        "Phone Number": "647-123-4567"
+    }
+}

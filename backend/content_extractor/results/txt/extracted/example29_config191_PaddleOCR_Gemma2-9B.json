@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dc, 202x",
+    "patient_information": {
+        "patient_id": "90123456789",
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": "4.5",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.5 - 5.5 million/cumm"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "32.5- 34.5 %"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "88",
+            "unit_of_measurement": "fL",
+            "reference_range": "27- 32 fL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "per µL",
+            "reference_range": "150000 - 410000 per µL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": "10.8",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        }
+    ]
+}

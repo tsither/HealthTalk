@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: Low, RBC count: 5.2",
+                "WBC count: High"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Hemoglobin: 13.1-17 g/dL",
+                "RBC count: 4.5-5.9 x10^6/uL"
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": [
+                "38.7"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "80-101 fL"
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": [
+                "32.5"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "31-36 g/dL"
+            ]
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": [
+                "150000"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "150000-410000"
+            ]
+        }
+    ]
+}

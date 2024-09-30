@@ -1,0 +1,83 @@
+{
+    "Date": "02 Dec 202x",
+    "patient_information": {
+        "patient_id": "M555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "1304 x 10^12",
+            "unit_of_measurement": "x 10^12",
+            "reference_range": "170 x 10^12"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "52%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "40-50%",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27-32 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "40-50%",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": "13.6%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "11,161 x 10^9",
+            "unit_of_measurement": "x 10^9",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Neutrophil Count",
+            "result_value": "9000 x 10^9",
+            "unit_of_measurement": "x 10^9",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "40-60%",
+                "Lymphocytes": "50-60%",
+                "Eosinophils": "3-6%",
+                "Monocytes": "4-10%",
+                "Basophils": "0-1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000-400,000 x 10^9",
+            "unit_of_measurement": "x 10^9",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 4700000,
+                "Packed Cell Volume (PCV)": 32.8,
+                "Total WBC count": 6500,
+                "Platelet Count": 209000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "cells/µL",
+                "Packed Cell Volume (PCV)": "%",
+                "Total WBC count": "cells/µL",
+                "Platelet Count": "cells/µL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "Total RBC count": {
+                    "Low": 4000,
+                    "High": 6100
+                },
+                "Packed Cell Volume (PCV)": {
+                    "Low": 32.5,
+                    "High": 34.5
+                },
+                "Total WBC count": {
+                    "Low": 4500,
+                    "High": 11000
+                },
+                "Platelet Count": {
+                    "Low": 150000,
+                    "High": 450000
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": {
+                "Lymphocytes": 27.2,
+                "Neutrophils": 57.5,
+                "Eosinophils": 87.75,
+                "Monocytes": 32.8,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

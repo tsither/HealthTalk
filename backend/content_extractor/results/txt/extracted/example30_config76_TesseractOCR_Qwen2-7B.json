@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-25",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": "5.8 k/uL",
+            "unit_of_measurement": "k/uL",
+            "reference_range": "4.0-11.0 k/uL"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucemia",
+            "result_value": 6.56,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        },
+        {
+            "test_name": "Hemograma Completo",
+            "result_value": {
+                "Hemoglobina": 13.4,
+                "Hematocrito": 42.0,
+                "VCM": null,
+                "CHCM": null,
+                "MCV": null,
+                "MCHC": null,
+                "Placaetas": 478,
+                "Leucocitos": 6950,
+                "Neutrófilos": 52.0,
+                "Linfocitos": 31.0,
+                "Monocitos": 9.7,
+                "Eosinófilos": 4.6,
+                "Bacilos": null
+            }
+        },
+        {
+            "test_name": "Coagulación",
+            "result_value": {
+                "PT": 12.5,
+                "PTT": 35.0,
+                "INR": 2.5
+            }
+        }
+    ]
+}

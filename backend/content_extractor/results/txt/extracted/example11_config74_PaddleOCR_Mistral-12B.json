@@ -1,0 +1,55 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "Age : 21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5 g/dL",
+                "Total RBC count": "5.2 M/cumm",
+                "Packed Cell Volume (PCV)": "4.5",
+                "Mean Corpuscular Volume (McV)": "87.75 fL",
+                "MCH Calculated": "27.2 fL",
+                "RDW SD": "32.8 %",
+                "Total WBC count": "13.6 K/uL",
+                "Neutrophils": "60 %",
+                "Lymphocytes": "31 %",
+                "Monocytes": "1 %",
+                "Basophils": "7 %",
+                "Platelet Count": "250 K/uL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "M/cumm",
+                "Packed Cell Volume (PCV)": "mill/cumm",
+                "Mean Corpuscular Volume (McV)": "fL",
+                "MCH Calculated": "fL",
+                "RDW SD": "%",
+                "Total WBC count": "K/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "K/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "4.5 - 5.5 M/cumm",
+                "Mean Corpuscular Volume (McV)": "83-101 fL",
+                "MCH Calculated": "27 - 32 fL",
+                "RDW SD": "32.5 - 34.5 %",
+                "Total WBC count": "11.6-14.0 K/uL",
+                "Neutrophils": "50 - 62 %",
+                "Lymphocytes": "20 - 40 %",
+                "Monocytes": "2.0 - 7.0 %",
+                "Basophils": "00 - 10 %",
+                "Platelet Count": "150000 - 410000 K/uL"
+            }
+        }
+    ]
+}

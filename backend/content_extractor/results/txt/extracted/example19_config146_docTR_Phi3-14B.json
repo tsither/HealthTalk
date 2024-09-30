@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_eame": "HbA1c",
+            "result_value": "5.8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fasting Blood Glucose (FBG)",
+            "result_value": "102 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-96 mg/dL"
+        },
+        {
+            "test_name": "Postprandial Blood Glucose (PPBG)",
+            "result_value": "120 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

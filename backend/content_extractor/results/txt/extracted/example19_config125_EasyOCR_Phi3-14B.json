@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 57
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin level",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cells count",
+            "result_value": 5750000,
+            "unit_of_measurement": "/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC differential",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils count",
+                    "count": 272000,
+                    "unit_of_measurement": "/L"
+                },
+                {
+                    "cell_type": "Lymphocytes count",
+                    "count": 170000,
+                    "unit_of_measurement": "/L"
+                },
+                {
+                    "cell_type": "Eosinophils count",
+                    "count": null,
+                    "unit_of_measurement": "/L"
+                },
+                {
+                    "cell_type": "Monocytes count",
+                    "count": 55000,
+                    "unit_of_measurement": "/L"
+                },
+                {
+                    "cell_type": "Basophils count",
+                    "count": null,
+                    "unit_of_measurement": "/L"
+                }
+            ]
+        }
+    ]
+}

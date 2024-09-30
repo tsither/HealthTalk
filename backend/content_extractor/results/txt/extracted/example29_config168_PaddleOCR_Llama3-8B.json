@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "A %",
+            "result_value": "% na%",
+            "unit_of_measurement": "% a%",
+            "reference_range": "^na% ^na%"
+        },
+        {
+            "test_name": "a% a%",
+            "result_value": "^na% a%",
+            "unit_of_measurement": "% a%",
+            "reference_range": "^na%"
+        },
+        {
+            "test_name": "^na% a%",
+            "result_value": "% a%",
+            "unit_of_measurement": "^na% ^na%",
+            "reference_range": "a%"
+        },
+        {
+            "test_name": "a% n%",
+            "result_value": "~ a%",
+            "unit_of_measurement": "n c%",
+            "reference_range": "^na%"
+        },
+        {
+            "test_name": "^na% ^na%",
+            "result_value": "% a%",
+            "unit_of_measurement": "% nu c%",
+            "reference_range": null
+        }
+    ]
+}

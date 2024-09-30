@@ -1,0 +1,103 @@
+{
+    "Date": "18-07-2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": {
+                    "Total": 4.72,
+                    "HGB": 13.8,
+                    "HCT": 42.5,
+                    "MCV": 89.6,
+                    "MCH": 29.3,
+                    "MCHC": 32.8,
+                    "RDW": 12.8
+                },
+                "WBC": {
+                    "Total": 7.24,
+                    " Neutrophils": 54.2,
+                    "Lymphocytes": 36.7,
+                    "Monocytes": 6.9,
+                    "Eosinophils": 1.3,
+                    "Basophils": 0.9
+                },
+                "Platelets": {
+                    "Total": 238,
+                    "MPV": 9.2,
+                    "PDW": null,
+                    "PCT": null
+                }
+            },
+            "unit_of_measurement": {
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "FL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC": "10^3/µL",
+                "Platelets": "10^3/µL",
+                "MPV": "FL",
+                "PDW": null,
+                "PCT": null
+            },
+            "reference_range": {
+                "RBC": {
+                    "Min": 4.5,
+                    "Max": 6.0
+                },
+                "HGB": {
+                    "Min": 13.5,
+                    "Max": 17.5
+                },
+                "HCT": {
+                    "Min": 42,
+                    "Max": 52
+                },
+                "MCV": {
+                    "Min": 80,
+                    "Max": 96
+                },
+                "MCH": {
+                    "Min": 27,
+                    "Max": 31
+                },
+                "MCHC": {
+                    "Min": 32,
+                    "Max": 36
+                },
+                "RDW": {
+                    "Min": 11.5,
+                    "Max": 14.5
+                },
+                "WBC": {
+                    "Min": 4000,
+                    "Max": 10000
+                },
+                "Platelets": {
+                    "Min": 150000,
+                    "Max": 400000
+                },
+                "MPV": {
+                    "Min": null,
+                    "Max": null
+                },
+                "PDW": {
+                    "Min": null,
+                    "Max": null
+                },
+                "PCT": {
+                    "Min": null,
+                    "Max": null
+                }
+            }
+        }
+    ]
+}

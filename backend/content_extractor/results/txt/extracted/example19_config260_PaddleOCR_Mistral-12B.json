@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah Vin",
+        "patient_sex": "M",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Result Investigation",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "Low 7p/6",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "High 40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (mcv)",
+            "result_value": 87.75,
+            "unit_of_measurement": "11. mCH",
+            "reference_range": "83: 101"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 27.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "27.32 6d"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Toital wnc count I",
+            "result_value": 9000,
+            "unit_of_measurement": "",
+            "reference_range": "4000:1.1000 cumn"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "+ Lymphocytes",
+            "reference_range": "50 : 6?"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 31,
+            "unit_of_measurement": "- 10 Fosinophils",
+            "reference_range": "20 -.10"
+        },
+        {
+            "test_name": "Fosinophils",
+            "result_value": 1,
+            "unit_of_measurement": "% Monocyies",
+            "reference_range": "06 %"
+        },
+        {
+            "test_name": "Monocyies",
+            "result_value": 7,
+            "unit_of_measurement": "- 10 % Basophils",
+            "reference_range": "100 : 02 PLATELEt CoUNT"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "Borderline 150000 - 410000"
+        }
+    ]
+}

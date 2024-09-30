@@ -1,0 +1,35 @@
+{
+    "Date": "125 m",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "55",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[45-70]"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": "689578",
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv volume",
+            "result_value": "27",
+            "unit_of_measurement": "%",
+            "reference_range": "[34-56]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": "10b 105 ati collected",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

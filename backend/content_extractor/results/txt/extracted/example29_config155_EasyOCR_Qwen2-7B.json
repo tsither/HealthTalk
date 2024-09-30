@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "drlogy",
+        "patient_name": "",
+        "patient_sex": "male",
+        "patient_age": ""
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 130,
+            "unit_of_measurement": "k/uL",
+            "reference_range": [
+                150000,
+                400010
+            ]
+        }
+    ]
+}

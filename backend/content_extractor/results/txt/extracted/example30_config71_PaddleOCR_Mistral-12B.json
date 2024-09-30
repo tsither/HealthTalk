@@ -1,0 +1,40 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Iautor soph",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "value": "9.8",
+                    "unit": "10^3/µL"
+                },
+                "RBC": {
+                    "value": "4.5 - 5.5",
+                    "unit": "M/mm³"
+                },
+                "Hb": {
+                    "value": "14.0",
+                    "unit": "g/dL"
+                },
+                "Hct": {
+                    "value": "32.5",
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": "90",
+                    "unit": "fl"
+                },
+                "PCV": {
+                    "value": "0.345"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

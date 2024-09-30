@@ -1,0 +1,23 @@
+{
+    "Date": "20.06.23",
+    "patient_information": {
+        "patient_id": "A987654321",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Haemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        }
+    ]
+}

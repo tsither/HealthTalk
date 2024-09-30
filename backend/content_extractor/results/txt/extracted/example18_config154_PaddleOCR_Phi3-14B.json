@@ -1,0 +1,38 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Payal Shah",
+        "patient_sex": "Female",
+        "patient_age": 55,
+        "test_information": {
+            "primary_sample_type": "e OPPO HEMOGLOBIN Hemoglobin"
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "RBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_eb_range": null
+        },
+        {
+            "test_name": "WBC Total WBC Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

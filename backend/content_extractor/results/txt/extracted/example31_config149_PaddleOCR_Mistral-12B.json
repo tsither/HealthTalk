@@ -1,0 +1,63 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": "57.5",
+                    "unit": "g/dL"
+                },
+                "Total RBC count": {
+                    "value": "12.5",
+                    "unit": "Packed Cell Volume (PCV)",
+                    "reference_range": {
+                        "low": 0,
+                        "high": 4
+                    }
+                }
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": {
+                "Total WBC count": {
+                    "value": "32.8",
+                    "unit": "mill/cumm"
+                }
+            },
+            "differential_count": {
+                "Neutrophils": {
+                    "value": "13.6"
+                },
+                "Lymphocytes": {
+                    "value": "70.06"
+                },
+                "Eosinophils": {
+                    "value": "11.6"
+                },
+                "Monocytes": {
+                    "value": "49"
+                },
+                "Basophils": {
+                    "value": "6"
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "Platelet Count": {
+                    "value": "7",
+                    "unit": "%"
+                }
+            }
+        }
+    ]
+}

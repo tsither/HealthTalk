@@ -1,0 +1,26 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2, RBC: 5.1, HGB: 13.5, HCT: 40%",
+            "unit_of_measurement": "",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "Glucose: 86 mg/dL, Potassium: 3.9 mEq/L, Sodium: 135 mEq/L",
+            "unit_of_measurement": [
+                "mg/dL",
+                "mEq/L"
+            ],
+            "reference_range": "[70-110] mg/dL for Glucose, [3.6-5.2] mEq/L for Potassium, [135-145] mEq/L for Sodium"
+        }
+    ]
+}

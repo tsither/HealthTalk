@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "[FILL] (such as blood glucose)",
+            "result_value": 105,
+            "unit_of_measurement": "vanoi",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "[FILL] (such as cholesterol)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "High"
+        },
+        {
+            "test_name": "[FILL] (such as RBC count)",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": "50-620"
+        }
+    ]
+}

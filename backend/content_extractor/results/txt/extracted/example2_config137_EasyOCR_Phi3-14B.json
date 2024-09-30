@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Unknown Test 1",
+            "result_value": 6,
+            "unit_of_measurement": "unknown unit",
+            "reference_range": null
+        },
+        {
+            "test_name": "Unknown Test 2",
+            "result_valuelowerLimit": 8,
+            "lowerUnitOfMeasurement": "unknown unit",
+            "upperUnitOfMeasurement": "unknown unit",
+            "referenceRangeUpperLimit": null
+        },
+        {
+            "test_name": "Unknown Test 3",
+            "result_value": 0,
+            "unitOfMeasurement": "unknown unit",
+            "reference_range": null
+        }
+    ]
+}

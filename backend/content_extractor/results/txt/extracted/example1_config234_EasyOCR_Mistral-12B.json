@@ -1,0 +1,66 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 5.25,
+            "unit_of_measurement": "million/cumm blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Differential WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null,
+            "differential_count": {
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 0.06,
+                "Monocytes": 0.09,
+                "Basophils": 0.02
+            }
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 300000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

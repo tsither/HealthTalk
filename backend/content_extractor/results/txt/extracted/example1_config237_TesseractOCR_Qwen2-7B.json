@@ -1,0 +1,72 @@
+{
+    "Date": "03/11",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "patient_dob": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "5.2",
+            "unit_of_measurement": "mul/cumm",
+            "reference_range": "[45-55]"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.0-17.0]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "$7.5",
+            "unit_of_measurement": "%",
+            "reference_range": "[40-50]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fi",
+            "reference_range": "[83-101]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.2",
+            "unit_of_measurement": "Pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "13.6%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[45-55]"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "9000",
+            "unit_of_measurement": "Ul/cumm",
+            "reference_range": "[6-12] (Normal)"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

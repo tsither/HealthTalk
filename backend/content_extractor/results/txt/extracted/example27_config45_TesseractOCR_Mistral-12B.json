@@ -1,0 +1,111 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "WBC": 4.96,
+                "EOS": 0.02,
+                "BASO": 0.03,
+                "LYM": 3.6,
+                "MONO": 10
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "SERUM BIOCHEMISTRY",
+            "result_value": {
+                "GLUCOSE": 87,
+                "CHOLESTEROL": 169,
+                "HDL": 60,
+                "LDL": ">140",
+                "TRIGLYCERIDES": 45,
+                "UREA": 49,
+                "URIC ACID": 4.5
+            },
+            "unit_of_measurement": {
+                "GLUCOSE": "mg/dL",
+                "CHOLESTEROL": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "TRIGLYCERIDES": "mg/dL",
+                "UREA": "mg/dL",
+                "URIC ACID": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "SERUM IRON",
+            "result_value": 445,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": {
+                "min": 50,
+                "max": 160
+            }
+        },
+        {
+            "test_name": "CREATININE",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 0.5,
+                "max": 1.2
+            }
+        },
+        {
+            "test_name": "HOMOCYSTEINE",
+            "result_value": 739,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": {
+                "min": 5.46,
+                "max": 16.2
+            }
+        },
+        {
+            "test_name": "TOTAL PROTEINS",
+            "result_value": 15,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "min": 6.2,
+                "max": 8.2
+            }
+        },
+        {
+            "test_name": "HEPATIC FUNCTION TESTS",
+            "result_value": {
+                "AST": 40,
+                "ALT": 43
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "AST": {
+                    "min": 0,
+                    "max": 40
+                },
+                "ALT": {
+                    "min": 0,
+                    "max": 40
+                }
+            }
+        },
+        {
+            "test_name": "SERUM ELECTROLYTES",
+            "result_value": {
+                "CLORO": "-",
+                "POTASIO": "-"
+            },
+            "unit_of_measurement": "mEq/L",
+            "reference_range": {
+                "CLORO": "-",
+                "POTASIO": "-"
+            }
+        }
+    ]
+}

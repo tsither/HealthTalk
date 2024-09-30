@@ -1,0 +1,47 @@
+{
+    "Date": "12346789",
+    "patient_information": {
+        "patient_id": "0912346678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "U/L",
+            "reference_range": "130 -170"
+        },
+        {
+            "test_name": "Total Hemoglobin",
+            "result_value": 14.08,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 923,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "CHG",
+            "result_value": 186,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "5.0-6.2"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "kilo/mm3",
+            "reference_range": "180"
+        }
+    ]
+}

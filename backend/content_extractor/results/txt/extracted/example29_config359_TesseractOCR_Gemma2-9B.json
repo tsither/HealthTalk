@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "10.5",
+                "RBC": "4.8",
+                "HGB": "14.2",
+                "HCT": "41.5",
+                "MCV": "86.5",
+                "MCHC": "33.9",
+                "RDW": "12.7",
+                "PLT": "280"
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "HGB": "g/L",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "PLT": "x10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0 x10^9/L",
+                "RBC": "4.0-5.5 x10^12/L",
+                "HGB": "130-170 g/L",
+                "HCT": "38.3-50.0 %",
+                "MCV": "80-96 fL",
+                "MCHC": "32-36 g/dL",
+                "RDW": "11.5-14.5 %",
+                "PLT": "150-450 x10^9/L"
+            }
+        }
+    ]
+}

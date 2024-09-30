@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "MPOORUG MPAED",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-16 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 37.2,
+            "unit_of_measurement": "%",
+            "reference_range": "34-48%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "/μL",
+            "reference_range": "4000-11000/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/μL",
+            "reference_range": "150000-450000/μL"
+        }
+    ]
+}

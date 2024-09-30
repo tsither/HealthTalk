@@ -1,0 +1,77 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "PAT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6.2,
+                "Red Blood Cells": 5.0,
+                "Platelets": 235,
+                "Hemoglobin": 14.5
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "10^9/L",
+                "Red Blood Cells": "10^12/L",
+                "Platelets": "10^9/L",
+                "Hemoglobin": "g/dL"
+            },
+            "reference_range": {
+                "White Blood Cells": {
+                    "min": 4,
+                    "max": 11
+                },
+                "Red Blood Cells": {
+                    "min": 4.5,
+                    "max": 6
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 400
+                },
+                "Hemoglobin": {
+                    "min": 13.5,
+                    "max": 17.5
+                }
+            }
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": {
+                "Total Cholesterol": 205,
+                "LDL-Cholesterol": 120,
+                "HDL-Cholesterol": 45,
+                "Triglycerides": 135
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "LDL-Cholesterol": "mg/dL",
+                "HDL-Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL"
+            },
+            "reference_range": {
+                "Total Cholesterol": {
+                    "min": 125,
+                    "max": 200
+                },
+                "LDL-Cholesterol": {
+                    "min": 70,
+                    "max": 130
+                },
+                "HDL-Cholesterol": {
+                    "min": 40,
+                    "max": 60
+                },
+                "Triglycerides": {
+                    "min": 50,
+                    "max": 200
+                }
+            }
+        }
+    ]
+}

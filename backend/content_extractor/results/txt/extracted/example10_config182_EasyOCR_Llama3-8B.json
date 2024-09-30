@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "age_group": "Adults",
+                "normal_range": "910-1701"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "age_group": "Children",
+                "normal_range": "755-1358"
+            }
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": "58",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "age_group": null,
+                "normal_range": "1702"
+            }
+        }
+    ]
+}

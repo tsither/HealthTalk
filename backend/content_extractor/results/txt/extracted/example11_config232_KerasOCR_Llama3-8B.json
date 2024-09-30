@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "2345678",
+        "patient_name": "Shivam Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-170 g/L (Low)"
+        },
+        {
+            "test_name": "RBC Count Total",
+            "result_value": 5.2,
+            "unit_of_measurement": "MILL/cmum",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV Packed Cell Volume",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": "High"
+        },
+        {
+            "test_name": "MCV Mean Corpuscular Volume",
+            "result_value": 37.5,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH Mean Corpuscular Hemoglobin",
+            "result_value": 32.8,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC Mean Corpuscular Hemoglobin Concentration",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW Red Cell Distribution Width",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count Total",
+            "result_value": 11000,
+            "unit_of_measurement": "cells/cmum",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "60 Neutrophils, 50 Lymphocytes, 0.6 Monocytes, 0.0 Basophils, 0.0 Eosinophils",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count Total",
+            "result_value": 10000,
+            "unit_of_measurement": "cells/cmum",
+            "reference_range": null
+        }
+    ]
+}

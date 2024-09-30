@@ -1,0 +1,35 @@
+{
+    "Date": "2x Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Hiren",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC Total": 9000,
+                "RBC Total": 5550000.0,
+                "HGB": 15.0,
+                "HCT": 45.5,
+                "MCV": 83.75,
+                "MCH": 27.2,
+                "MCHC": 32.0,
+                "PLT": 206000000000.0
+            },
+            "unit_of_measurement": {
+                "WBC Total": "10^3/uL",
+                "RBC Total": "cells/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.59",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0 - 5.5 million/µL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "45",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "81",
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.5",
+            "unit_of_measurement": "pg",
+            "reference_range": "26 - 34 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "340",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32 - 36 g/dL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.5",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "125",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": "60",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": "30",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes (%)",
+            "result_value": "5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils (%)",
+            "result_value": "3",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils (%)",
+            "result_value": "2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

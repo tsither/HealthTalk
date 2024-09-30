@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 12,
+            "unit_of_measurement": "o",
+            "reference_range": "16-56"
+        },
+        {
+            "test_name": "Leucocitos (T)",
+            "result_value": 125,
+            "unit_of_measurement": "l",
+            "reference_range": "0-9.18"
+        },
+        {
+            "test_name": "Eritrocitos (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "10^12",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "Hematocrito (Hct)",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 90,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitaria (D)",
+            "result_value": 0.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrofilos",
+            "result_value": 70,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Linfocitos",
+            "result_value": 70,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

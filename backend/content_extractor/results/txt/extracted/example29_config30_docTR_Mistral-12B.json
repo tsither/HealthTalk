@@ -1,0 +1,62 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 5.2,
+                "BLOOD INDICES Volume (PCV)": 57.5,
+                "PACKED CELL VOLUME (MCV)": 87.75,
+                "MCH CALCULATED": 27.2,
+                "MCHC": 13.6,
+                "RDW": null,
+                "WBC COUNT": 9000,
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 7
+                },
+                "PLATELET COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "mill/cumm",
+                "RBC COUNT": "Total RBC count",
+                "BLOOD INDICES Volume (PCV)": "g/dL",
+                "PACKED CELL VOLUME (MCV)": null,
+                "MCH CALCULATED": null,
+                "MCHC": "cumm",
+                "RDW": null,
+                "WBC COUNT": "Total WBC count",
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%"
+                },
+                "PLATELET COUNT": "cell counter"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.0",
+                "RBC COUNT": "40-50 fL",
+                "BLOOD INDICES Volume (PCV)": "83-101 g/dL",
+                "PACKED CELL VOLUME (MCV)": "27-32 pg",
+                "MCH CALCULATED": "32.5-34.5",
+                "MCHC": "11.6-14.0",
+                "RDW": "4000-11000",
+                "WBC COUNT": "50-62",
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": "20-40%",
+                    "Lymphocytes": "00-10%",
+                    "Eosinophils": "00-02%"
+                },
+                "PLATELET COUNT": null
+            }
+        }
+    ]
+}

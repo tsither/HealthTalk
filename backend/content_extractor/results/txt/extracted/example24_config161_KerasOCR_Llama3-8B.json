@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Yash Smart Patel",
+        "patient_sex": "Male",
+        "patient_age": "17"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cell)",
+            "result_value": "4.25",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.2",
+            "unit_of_measurement": null,
+            "reference_range": "27.3-31.9"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80.6",
+            "unit_of_measurement": "fl",
+            "reference_range": "76-100"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "52",
+            "unit_of_measurement": null,
+            "reference_range": "11.9-14.5"
+        },
+        {
+            "test_name": "White Blood Cell (WBC)",
+            "result_value": "7.75",
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "4.3-10.7"
+        },
+        {
+            "test_name": "Differential Count of WBC",
+            "result_value": {
+                "Neutrophils": "74.5",
+                "Lymphocytes": "15.2",
+                "Monocytes": "6.8",
+                "Eosinophils": "2.7",
+                "Basophils": "0.3"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.25",
+            "unit_of_measurement": "lakh/cumm",
+            "reference_range": "1.5-4.0"
+        }
+    ]
+}

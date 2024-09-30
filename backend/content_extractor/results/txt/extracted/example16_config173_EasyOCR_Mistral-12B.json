@@ -1,0 +1,43 @@
+{
+    "Date": "02.DEC.21",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 13.05,
+                "Total RBC count": 5.28,
+                "Packed Cell Volume (PCV)": 57.15,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Mean Corpuscular Hemoglobin (MCH)": 27.2,
+                "Corpuscular Hemoglobin Concentration (CHCM)": 32.8,
+                "Red Cell Distribution Width (RDW)": 13.6,
+                "Total WBC count": 5000,
+                "Neutrophils (%)": 60,
+                "Lymphocytes (%)": null,
+                "Eosinophils (%)": 0,
+                "Monocytes (%)": null,
+                "Basophils (%)": null,
+                "Platelet count": "200,000"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "million/µL",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl/L",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Corpuscular Hemoglobin Concentration (CHCM)": "g/dL",
+                "Red Cell Distribution Width (RDW)": "%",
+                "Total WBC count": "cells/µL",
+                "Neutrophils (%)": "%",
+                "Platelet count": "cells/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

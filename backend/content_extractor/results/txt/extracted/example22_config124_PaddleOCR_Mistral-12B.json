@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": 8.97,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 8.78,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "LYMPHOCYTES (%)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "EOSINOPHILS (%)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MONOCYTES (%)",
+            "result_value": 46.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PATELET COUNT",
+            "result_value": 273,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": "5.40",
+                "WBC": "7.8",
+                "PLT": "235"
+            },
+            "unit_of_measurement": {
+                "RBC": "mill/cumm",
+                "WBC": "109/L",
+                "PLT": "109/L"
+            },
+            "reference_range": {
+                "RBC": "4.1-5.8",
+                "WBC": "4.5-11.0",
+                "PLT": "150-450"
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "15",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "40.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

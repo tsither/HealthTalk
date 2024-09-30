@@ -1,0 +1,37 @@
+{
+    "Date": "02 Dec, 2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Drlogy pathology Lab",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "4.5 - 5.5",
+                "RBC": "32.5 - 34.5",
+                "Hb": "11.6 - 14.0"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "4.5- 5.5",
+                "RBC": "32.5 - 34.5",
+                "Hb": "11.6 - 14.0"
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

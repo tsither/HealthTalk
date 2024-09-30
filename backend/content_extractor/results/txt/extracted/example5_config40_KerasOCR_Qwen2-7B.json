@@ -1,0 +1,24 @@
+{
+    "Date": "012345678",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "18 years",
+        "patient_age_unit": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": "555",
+            "unit_of_measurement": "platelets",
+            "reference_range": "[9017-1350] electricalimpedence plateletcrit pdw"
+        },
+        {
+            "test_name": "PDW (Platelet Distribution Width)",
+            "result_value": "125",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

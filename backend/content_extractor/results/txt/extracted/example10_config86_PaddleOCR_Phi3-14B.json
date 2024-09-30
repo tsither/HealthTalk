@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PDW Range Result",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "9.0 - 17.0%"
+        },
+        {
+            "test_name": "thrombocytopenia",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "<9.0"
+        },
+        {
+            "test_name": "Reactive thrombocytosis (PDW normal)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "9.0 - 17.0%"
+        },
+        {
+            "test_name": "thrombocytopenia",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ">17.0"
+        }
+    ]
+}

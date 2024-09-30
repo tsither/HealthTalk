@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Index (Mb)",
+            "result_value": 4.18,
+            "unit_of_measurement": "g/dt",
+            "reference_range": "250-350"
+        },
+        {
+            "test_name": "Mean Cell Packed Density (MCH)",
+            "result_value": 126,
+            "unit_of_measurement": null,
+            "reference_range": "95-110"
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV)",
+            "result_value": 83.7,
+            "unit_of_measurement": null,
+            "reference_range": "80-96"
+        }
+    ]
+}

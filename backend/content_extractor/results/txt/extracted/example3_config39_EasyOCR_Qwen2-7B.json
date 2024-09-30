@@ -1,0 +1,23 @@
+{
+    "Date": "dec",
+    "patient_information": {
+        "patient_id": "patel",
+        "patient_name": "yash",
+        "patient_sex": "male",
+        "patient_age": 555,
+        "patient_blood_type": null,
+        "patient_medical_conditions": [
+            "underlying production disorder",
+            "anemia"
+        ],
+        "collection_date": "0123456789"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 108,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "105-135 g/dL"
+        }
+    ]
+}

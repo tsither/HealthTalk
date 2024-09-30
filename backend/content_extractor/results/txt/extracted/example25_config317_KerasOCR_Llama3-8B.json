@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.1-16.1 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "3.5-10.5 x10^3/μL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

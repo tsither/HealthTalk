@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "drlogy",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "HGB": "12.5 g/dL",
+                "WBC": "6895/µL",
+                "RBC": "4.57 million/µL",
+                "PLT": "272,000/µL"
+            },
+            "unit_of_measurement": {
+                "HGB": "g/dL",
+                "WBC": "/µL",
+                "RBC": "million/µL",
+                "PLT": "/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

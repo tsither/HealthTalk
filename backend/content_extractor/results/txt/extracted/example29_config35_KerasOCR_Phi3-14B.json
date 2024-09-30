@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "5.48 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "3.9-5.7 x 10^9/L"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "6,000 / microliter",
+            "unit_of_measurement": "/ microliter",
+            "reference_range": "4,500 - 11,000 / microliter"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "68%",
+                "Lymphocytes": "24%",
+                "Eosinophils": "3%",
+                "Basophils": "1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "40-60%",
+                "Lymphocytes": "20-40%",
+                "Eosinophils": "1-4%",
+                "Basophils": "0.5-1%"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "260,000 / microliter",
+            "unit_of_measurement": "/ microliter",
+            "reference_range": "150,000 - 450,000 / microliter"
+        }
+    ]
+}

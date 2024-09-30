@@ -1,0 +1,44 @@
+{
+    "Date": "Not Available",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "55"
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": [
+                "101"
+            ],
+            "unit_of_measurement": "g/dL",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": [
+                "345",
+                "2t"
+            ],
+            "unit_of_measurement": "/mm³, /μL",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": [
+                "101"
+            ],
+            "unit_of_measurement": "/μL",
+            "reference_range": ""
+        }
+    ]
+}

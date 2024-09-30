@@ -1,0 +1,21 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_city": "mumbiai"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 175,
+            "unit_of_measurement": "g",
+            "reference_range": {
+                "male": "13.5-17.5",
+                "female": "11.5-15"
+            }
+        }
+    ]
+}

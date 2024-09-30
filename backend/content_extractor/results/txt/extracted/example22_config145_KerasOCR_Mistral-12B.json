@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "101 lo",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "Total Count": "3.25",
+                "HGB (g/dL)": "8.6",
+                "HCT (%)": "27.2",
+                "MCV (fL)": "90",
+                "MCH (pg)": "31",
+                "MCHC (g/dL)": "34.5",
+                "RDW (%)": "15.1",
+                "PLT (/µL)": "202",
+                "WBC (/µL)": "5.0"
+            },
+            "unit_of_measurement": {
+                "Total Count": "/µL",
+                "HGB (g/dL)": "g/dL",
+                "HCT (%)": "%",
+                "MCV (fL)": "fL",
+                "MCH (pg)": "pg",
+                "MCHC (g/dL)": "g/dL",
+                "RDW (%)": "%",
+                "PLT (/µL)": "/µL",
+                "WBC (/µL)": "/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

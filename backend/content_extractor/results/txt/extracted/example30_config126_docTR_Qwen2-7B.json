@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 81000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": 16.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 10017,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "[45-33 - High Erusrer A]"
+        }
+    ]
+}

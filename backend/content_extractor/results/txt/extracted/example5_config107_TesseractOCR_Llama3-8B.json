@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(6.8-10.2) g/dL"
+        },
+        {
+            "test_name": null,
+            "result_value": 1.25,
+            "unit_of_measurement": "%",
+            "reference_range": "(0.35-0.50)%"
+        },
+        {
+            "test_name": "ESR (Erythrocyte Sedimentation Rate)",
+            "result_value": 15,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "(0-20) mm/h"
+        }
+    ]
+}

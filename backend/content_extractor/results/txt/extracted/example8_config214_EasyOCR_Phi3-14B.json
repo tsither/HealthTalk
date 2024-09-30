@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "null",
+        "patient_name": "Laurliogsc",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": {
+                "low": 135,
+                "high": 175
+            }
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "low": 40.7,
+                "high": 50.3
+            }
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "x10^6/L",
+            "reference_range": {
+                "low": 4.7,
+                "high": 6.1
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "low": 80,
+                "high": 96
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": {
+                "low": 4.5,
+                "high": 11.0
+            }
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": null,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": {
+                "low": 150,
+                "high": 450
+            }
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "low": 7.4,
+                "high": 10.5
+            }
+        }
+    ]
+}

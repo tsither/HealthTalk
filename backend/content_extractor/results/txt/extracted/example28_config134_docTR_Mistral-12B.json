@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Completo",
+            "result_value": {
+                "VCM": 90,
+                "HCM": 32,
+                "Leucocitos": 4.8,
+                "Glucosa": 143,
+                "Creatinina": 1.15,
+                "Colesterol": 220,
+                "Proteina Total": 79,
+                "Hierro (Fe)": 65.0,
+                "Ferrritina": 800,
+                "GOT": 43,
+                "GPT": 29,
+                "GGT": 14,
+                "Bilirrubina Total": 6.6,
+                "Bilirrubina Fostatasa Directa": 5.5,
+                "Albumina": 20
+            },
+            "unit_of_measurement": {
+                "VCM": "fl",
+                "HCM": "fl",
+                "Leucocitos": "x10^9/L",
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina Total": "g/dL",
+                "Hierro (Fe)": "ug/dL",
+                "Ferrritina": "ng/mL",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina Total": "mg/dL",
+                "Bilirrubina Fostatasa Directa": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

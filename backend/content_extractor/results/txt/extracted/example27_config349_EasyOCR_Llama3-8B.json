@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "PAT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": 3.5,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "135-145"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 68,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-15.5 g/dL"
+        },
+        {
+            "test_name": "platelets",
+            "result_value": 452,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150-450 thousand/µL"
+        },
+        {
+            "test_name": "white blood cells",
+            "result_value": 8.6,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.5-11.0 thousand/µL"
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 63,
+            "unit_of_measurement": "%",
+            "reference_range": "40-70 %"
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": 28,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40 %"
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": "2-8 %"
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 2,
+            "unit_of_measurement": "%",
+            "reference_range": "1-4 %"
+        },
+        {
+            "test_name": "basophils",
+            "result_value": 0,
+            "unit_of_measurement": "%",
+            "reference_range": "0-1 %"
+        }
+    ]
+}

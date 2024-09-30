@@ -1,0 +1,99 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123156769",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "rbc_count_total": {
+                    "value": 5.2,
+                    "unit": "millicumm",
+                    "status": null
+                },
+                "pcv_packed_cell_volume": {
+                    "value": 51.5,
+                    "status": "high"
+                },
+                "mcv_mean_corpuscular_volume": {
+                    "value": 87,
+                    "unit": "fl",
+                    "status": null
+                },
+                "mch_mean_corpuscular_hemoglobin": {
+                    "value": 27.2,
+                    "unit": "pg",
+                    "status": null
+                },
+                "mchc_mean_corpuscular_hemoglobin_concentration": {
+                    "value": 328,
+                    "unit": "g/dl",
+                    "status": null
+                },
+                "rdw_red_cell_distribution_width": {
+                    "value": 13.6,
+                    "status": null
+                },
+                "wbc_count_total_white_blood_cell_count": {
+                    "value": 4000,
+                    "unit": "cells/mm³",
+                    "status": null
+                },
+                "neutrophils": {
+                    "value": 62,
+                    "percent": true,
+                    "status": null
+                },
+                "lymphocytes": {
+                    "value": 31,
+                    "percent": true,
+                    "status": null
+                },
+                "eosinophils": {
+                    "value": 0,
+                    "percent": true,
+                    "status": null
+                },
+                "monocytes": {
+                    "value": 8,
+                    "percent": true,
+                    "status": null
+                },
+                "basophils": {
+                    "value": 1,
+                    "percent": true,
+                    "status": null
+                },
+                "platelet_count": {
+                    "value": 300000,
+                    "status": "borderline"
+                }
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dl",
+                "rbc_count_total": "millicumm",
+                "pcv_packed_cell_volume": "%",
+                "mcv_mean_corpuscular_volume": "fl",
+                "mch_mean_corpuscular_hemoglobin": "pg",
+                "mchc_mean_corpuscular_hemoglobin_concentration": "g/dl",
+                "rdw_red_cell_distribution_width": "%",
+                "wbc_count_total_white_blood_cell_count": "cells/mm³",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%",
+                "platelet_count": "cells/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

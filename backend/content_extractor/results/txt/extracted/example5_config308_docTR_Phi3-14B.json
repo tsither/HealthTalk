@@ -1,0 +1,29 @@
+{
+    "Date": "05.21.2021",
+    "patient_information": {
+        "patient_id": "A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6Q7R8S9T0U1V2W3X4Y5Z6",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_namae": "Red Blood Cell Count (RBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.5-6 million/uL"
+        },
+        {
+            "test_namae": "Hemoglobin (Hb)",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_namae": "Hematocrit (Hct)",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "38-50%"
+        }
+    ]
+}

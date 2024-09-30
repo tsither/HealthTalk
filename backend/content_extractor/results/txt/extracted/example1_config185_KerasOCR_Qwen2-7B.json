@@ -1,0 +1,94 @@
+{
+    "Date": "31/04",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": "125 s low s20 170",
+            "unit_of_measurement": "g",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total resc count",
+            "result_value": "5 g",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Indices",
+            "result_value": [
+                {
+                    "name": "packed cell volume (PCV)",
+                    "value": "so so me",
+                    "unit": "%"
+                },
+                {
+                    "name": "corpuscular an a volume (MCV)",
+                    "value": "272 coshot 275 32",
+                    "unit": "pg"
+                },
+                {
+                    "name": "corpuscular sedimentation rate (ESR)",
+                    "value": null
+                }
+            ],
+            "reference_range": [
+                {
+                    "name": "packed cell volume (PCV)",
+                    "range": null
+                },
+                {
+                    "name": "corpuscular an a volume (MCV)",
+                    "range": null
+                },
+                {
+                    "name": "corpuscular sedimentation rate (ESR)",
+                    "range": null
+                }
+            ]
+        },
+        {
+            "test_name": "Total differential wsc count",
+            "result_value": [
+                {
+                    "cell_type": "neulfophils",
+                    "value": "51 fosinophls j qo"
+                },
+                {
+                    "cell_type": "lymphocyies",
+                    "value": null
+                },
+                {
+                    "cell_type": "monocytes",
+                    "value": "1z t oq tc sisophtls"
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": [
+                {
+                    "cell_type": "neulfophils",
+                    "range": null
+                },
+                {
+                    "cell_type": "lymphocyies",
+                    "range": null
+                },
+                {
+                    "cell_type": "monocytes",
+                    "range": null
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "sooo0 ogdoling",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

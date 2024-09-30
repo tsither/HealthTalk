@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "sex_specific_ranges": {
+                    "male": {
+                        "lower_limit": 135,
+                        "upper_limit": 175
+                    },
+                    "female": {
+                        "lower_limit": 120,
+                        "upper_limit": 155
+                    }
+                },
+                "non_sex_specific_range": {
+                    "lower_limit": null,
+                    "upper_limit": null
+                }
+            }
+        }
+    ]
+}

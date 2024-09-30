@@ -1,0 +1,29 @@
+{
+    "Date": "03/11/20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Unknown",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 456,
+            "unit_of_measurement": null,
+            "reference_range": "80-120"
+        },
+        {
+            "test_name": "Hemoglobin (Hb) Total RBC count",
+            "result_value": 456,
+            "unit_of_measurement": null,
+            "reference_range": "80-120"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 378.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

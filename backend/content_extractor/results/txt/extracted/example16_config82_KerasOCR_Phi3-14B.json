@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0124s6769",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 6200,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4.5 - 11.0] x 10^3/uL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 272,
+            "unit_of_measurement": "/nL",
+            "reference_range": "[4.5 - 6.0] x 10^6/nL"
+        },
+        {
+            "test_name": "Hemoglo <",
+            "result_value": 3257,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[14 - 18] g/dL"
+        },
+        {
+            "test_name": "<Hgb",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "<HCT",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[38.5 - 49%]"
+        }
+    ]
+}

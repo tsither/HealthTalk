@@ -1,0 +1,71 @@
+{
+    "Date": "15.03.2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 6
+                },
+                "HGB": {
+                    "min": 13.5,
+                    "max": 17.5
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "ALT": 28,
+                "AST": 32,
+                "ALP": 95
+            },
+            "unit_of_measurement": {
+                "ALT": "U/L",
+                "AST": "U/L",
+                "ALP": "U/L"
+            },
+            "reference_range": {
+                "ALT": {
+                    "min": 0,
+                    "max": 40
+                },
+                "AST": {
+                    "min": 5,
+                    "max": 38
+                },
+                "ALP": {
+                    "min": 20,
+                    "max": 120
+                }
+            }
+        }
+    ]
+}

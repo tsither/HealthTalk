@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": 1105,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.5-11.0 x 10^9/L"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 712,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 118,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 1148,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        }
+    ]
+}

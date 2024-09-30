@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567639",
+        "patient_name": "Dr. Hiren Shah",
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4.50-5.00 Hemoglobin; 25-35% PCV; 7,500-10,000 RBC count"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.57 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "35%",
+            "unit_of_measurement": "%",
+            "reference_range": "25-35%"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "9,000 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "7,500-10,000"
+        },
+        {
+            "test_name": "WBC count (Differential)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "30 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "35 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

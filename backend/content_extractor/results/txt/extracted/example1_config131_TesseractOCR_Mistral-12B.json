@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "N SSI",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.2,
+                "RBC": 4.89,
+                "Hb": 13.5,
+                "HCT": 40.6,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "PLT": 278,
+                "MPV": null
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "PLT": "cells/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

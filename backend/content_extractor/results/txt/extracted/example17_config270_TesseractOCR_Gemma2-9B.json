@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White blood cells (WBC)": 10.5,
+                "Red blood cells (RBC)": 4.8,
+                "Hemoglobin (Hgb)": 14.2,
+                "Hematocrit (Hct)": 42.3,
+                "Platelets": 325
+            },
+            "unit_of_measurement": {
+                "White blood cells (WBC)": "x10^9/L",
+                "Red blood cells (RBC)": "x10^12/L",
+                "Hemoglobin (Hgb)": "g/dL",
+                "Hematocrit (Hct)": "%",
+                "Platelets": "x10^3/µL"
+            },
+            "reference_range": {
+                "White blood cells (WBC)": "4.5-11.0 x10^9/L",
+                "Red blood cells (RBC)": "4.0-5.5 x10^12/L",
+                "Hemoglobin (Hgb)": "13.5-17.5 g/dL",
+                "Hematocrit (Hct)": "40-54%",
+                "Platelets": "150-450 x10^3/µL"
+            }
+        },
+        {
+            "test_name": "Comprehensive Metabolic Panel (CMP)",
+            "result_value": {
+                "Blood glucose": 98,
+                "Sodium": 139,
+                "Potassium": 4.2,
+                "Chloride": 102,
+                "Bicarbonate": 26,
+                "BUN": 15,
+                "Creatinine": 0.8,
+                "Total bilirubin": 0.8
+            },
+            "unit_of_measurement": {
+                "Blood glucose": "mg/dL",
+                "Sodium": "mEq/L",
+                "Potassium": "mEq/L",
+                "Chloride": "mEq/L",
+                "Bicarbonate": "mEq/L",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Total bilirubin": "mg/dL"
+            },
+            "reference_range": {
+                "Blood glucose": "70-100 mg/dL",
+                "Sodium": "135-145 mEq/L",
+                "Potassium": "3.5-5.0 mEq/L",
+                "Chloride": "98-106 mEq/L",
+                "Bicarbonate": "22-26 mEq/L",
+                "BUN": "7-20 mg/dL",
+                "Creatinine": "0.6-1.2 mg/dL",
+                "Total bilirubin": "0.1-1.2 mg/dL"
+            }
+        }
+    ]
+}

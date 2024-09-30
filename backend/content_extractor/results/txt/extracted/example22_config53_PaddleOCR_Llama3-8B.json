@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Gener Pathologist",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "11.6",
+            "unit_of_measurement": null,
+            "reference_range": "13-15 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "90",
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100 fl"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": "4.32",
+            "unit_of_measurement": "10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "32.5",
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "9,000",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4,000-11,000/μL"
+        },
+        {
+            "test_name": "Segmented Neutrophils",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "4.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "0.5-5%"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "0.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "107,000",
+            "unit_of_measurement": "/μL",
+            "reference_range": "150,000-410,000/μL"
+        }
+    ]
+}

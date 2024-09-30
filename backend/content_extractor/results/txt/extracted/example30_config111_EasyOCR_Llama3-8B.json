@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 4.23,
+            "unit_of_measurement": "million/cu mm",
+            "reference_range": "4.32-5.72 million/cu mm"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 26.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 33.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.6%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 137000,
+            "unit_of_measurement": "/cu mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": 5.72,
+            "unit_of_measurement": "thousand/cu mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 57.5,
+                "Lymphocytes": 25.7,
+                "Eosinophils": 3.2,
+                "Basophils": 0.28
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

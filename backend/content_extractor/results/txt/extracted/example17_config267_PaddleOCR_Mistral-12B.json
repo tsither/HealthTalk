@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.3
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "AST": 25,
+                "ALT": 32,
+                "ALP": 98
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

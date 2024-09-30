@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091234s675",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count - Differential (WBC)",
+            "result_value": 328,
+            "unit_e of measurement": "x10^9/L",
+            "reference_range": "4.5-11 x10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 8,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.7-6.1 x10^6/uL"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 325,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HC)",
+            "result_value": 90,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-48.6%"
+        }
+    ]
+}

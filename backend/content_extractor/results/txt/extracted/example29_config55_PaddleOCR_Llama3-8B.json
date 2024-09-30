@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Male H Sex Aoe PID Years",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (qH)",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32.8",
+            "unit_of_measurement": "fl",
+            "reference_range": "27.2 Low"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "13.6",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "4000-11000",
+            "unit_of_measurement": "%",
+            "reference_range": "200-500 (thousand/ul)"
+        }
+    ]
+}

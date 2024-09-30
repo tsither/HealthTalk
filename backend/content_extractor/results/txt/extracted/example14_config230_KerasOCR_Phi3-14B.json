@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Payal Shah",
+        "patient_sex": "Female",
+        "patient_age": 231
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear Examination",
+            "result_value": null,
+            "unit_of_measurement": "N/A",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Morphology Normality",
+            "result_value": "Normal",
+            "unit_of_measurement": "N/A",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Counts Adequate in Number",
+            "result_value": true,
+            "unit_of_measurement": "cells per microliter (µL)",
+            "reference_range": "4.0-11.0 × 10^3/µL"
+        },
+        {
+            "test_name": "Hemoglo gro Adequate in Concentration",
+            "result_value": true,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0 g/dL"
+        },
+        {
+            "test_name": "Platelet Counts Adequate in Number",
+            "result_value": true,
+            "unit_of_measurement": "thousands per microliter (K/µL)",
+            "reference_range": "150-450 K/µL"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "I p I aod",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 100000,
+            "unit_of_measurement": "mm³",
+            "reference_range": "90000 - 41000"
+        },
+        {
+            "test_name": "Total White Cell Count",
+            "result_value": 9000,
+            "unit_of_measurement": "mm³",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 65,
+            "unit_of_measurement": "%",
+            "reference_range": "57.5 - 32.5"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 47.5,
+            "unit_of_measurement": "%",
+            "reference_range": "27.2 - 13.0"
+        }
+    ]
+}

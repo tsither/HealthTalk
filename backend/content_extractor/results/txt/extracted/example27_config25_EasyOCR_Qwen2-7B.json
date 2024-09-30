@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLUCOSA SERICA",
+            "result_value": 110,
+            "unit_of_measurement": "mg %",
+            "reference_range": "[8,5-10]"
+        },
+        {
+            "test_name": "COLESTEROL",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[190-230] mg %"
+        },
+        {
+            "test_name": "HIERRO",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[88,7-145] mg %"
+        },
+        {
+            "test_name": "UREA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[50] mEq/L"
+        }
+    ]
+}

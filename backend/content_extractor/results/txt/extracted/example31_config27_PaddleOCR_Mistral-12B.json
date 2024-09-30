@@ -1,0 +1,44 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "rbc_count": {
+                    "value": 57.5,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                },
+                "pcv": {
+                    "value": 87.75,
+                    "unit": "%",
+                    "reference_range": "27 - 32"
+                },
+                "mch": {
+                    "value": 13.6,
+                    "unit": "pg"
+                },
+                "rdw": {
+                    "value": 9000,
+                    "unit": "",
+                    "reference_range": "4000-11000"
+                },
+                "wbc_count": {
+                    "value": 60,
+                    "unit": "cells/uL",
+                    "reference_range": "50 - 62"
+                }
+            }
+        }
+    ]
+}

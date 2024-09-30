@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "OPD-0123456789",
+        "patient_name": "Payal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin count",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red cell count",
+            "result_value": 4500000000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.0 - 6.5"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell count",
+            "result_value": 22200,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5 - 10.5"
+        }
+    ]
+}

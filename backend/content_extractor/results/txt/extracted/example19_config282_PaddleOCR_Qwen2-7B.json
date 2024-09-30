@@ -1,0 +1,29 @@
+{
+    "Date": "not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Type c",
+            "result_value": 23.4,
+            "unit_of_measurement": "s (rCv)",
+            "reference_range": "[13.0 - 17.0] cv"
+        },
+        {
+            "test_name": "CBC",
+            "result_value": 4.3,
+            "unit_of_measurement": "",
+            "reference_range": "[4.0 - 6.5] Moh"
+        },
+        {
+            "test_name": "Moh",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6 - 140] #00 I 1-000 #0 - 42"
+        }
+    ]
+}

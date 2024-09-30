@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.3,
+                "Hct": 39.5,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 5.8
+                },
+                "Hb": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "Hct": {
+                    "min": 37,
+                    "max": 47
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "ALT": 25,
+                "AST": 30,
+                "ALP": 70,
+                "TBil": 1.2
+            },
+            "unit_of_measurement": {
+                "ALT": "U/L",
+                "AST": "U/L",
+                "ALP": "U/L",
+                "TBil": "mg/dL"
+            },
+            "reference_range": {
+                "ALT": {
+                    "min": 5,
+                    "max": 30
+                },
+                "AST": {
+                    "min": 8,
+                    "max": 48
+                },
+                "ALP": {
+                    "min": 29,
+                    "max": 106
+                },
+                "TBil": {
+                    "min": 0.3,
+                    "max": 1.5
+                }
+            }
+        }
+    ]
+}

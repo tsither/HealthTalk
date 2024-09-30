@@ -1,0 +1,41 @@
+{
+    "Date": "04.02.2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "pooa",
+            "reference_range": "Low: 7P/6"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "High: 83 - 101"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Total RBC count: 87.75"
+        },
+        {
+            "test_name": "White Blood Cells (WBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "*END OF REPORT*"
+        }
+    ]
+}

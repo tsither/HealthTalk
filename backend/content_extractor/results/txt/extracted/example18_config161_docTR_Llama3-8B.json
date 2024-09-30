@@ -1,0 +1,35 @@
+{
+    "Date": "24/12/2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Srma",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 140.0,
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-180"
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin (MCH)",
+            "result_value": 30.0,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4300000000000.0,
+            "unit_of_measurement": "cells/L",
+            "reference_range": "4-5.2e+12"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

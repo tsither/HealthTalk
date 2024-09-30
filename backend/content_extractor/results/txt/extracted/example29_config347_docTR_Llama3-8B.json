@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.4,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "3.9-5.7 x10^12/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 143,
+            "unit_of_measurement": "g/L",
+            "reference_range": "120-170 g/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 90.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Bilirubin",
+            "result_value": 18.5,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": "3-17 μmol/L"
+        },
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": 108.9,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-90 U/L"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 95.2,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": "40-110 μmol/L"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec.",
+    "patient_information": {
+        "patient_id": "54867",
+        "patient_name": "Shivam Shah Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "5.2 g/dL",
+                "hematocrit": "83%",
+                "red blood cell count": "57.5 x10^6/uL",
+                "white blood cell count": "60 x1 00/ul",
+                "platelet count": "31 x 10^9/L"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "hematocrit": "%",
+                "red blood cell count": "x10^6/uL",
+                "white blood cell count": "x 10^9/L",
+                "platelet count": "x 10^9/L"
+            },
+            "reference_range": {
+                "hemoglo vicein": "[40-50 g/dL]",
+                "hematocrit": "[325-345 U%]",
+                "red blood cell count": "[27-32 x10^6/uL]",
+                "white blood cell count": "[3.5-10.5 x 10^9/L]",
+                "platelet count": "[150-450 x 10^9/L]"
+            }
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": "32.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "[1-4%]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "32.8 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "[27-31 pg/cell]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "90 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "[32-36 g/L]"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13.6%",
+            "unit_of_measurement": "%",
+            "reference_range": "[11-15%]"
+        }
+    ]
+}

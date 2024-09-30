@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "COUNT",
+        "patient_name": "tor",
+        "patient_sex": "Male",
+        "patient_age": "50"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "150000",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte count",
+            "result_value": "10 150000",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "50000",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.0 - 17.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "9-12"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "Date": "02 Dec, 2 -10 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "3 9000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "125",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "RBC COUNT",
+                    "low": "11.6-14.0",
+                    "high": "150000 - 410000"
+                },
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "low": null,
+                    "high": "13.0 - 17.0"
+                }
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Platelet Count",
+                    "low": "4.5 - 5.5",
+                    "high": null
+                }
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "PLATELET COUNT",
+                    "low": null,
+                    "high": null
+                },
+                {
+                    "name": "Basophils",
+                    "low": null,
+                    "high": null
+                },
+                {
+                    "name": "Monocytes",
+                    "low": null,
+                    "high": null
+                },
+                {
+                    "name": "Eosinophils",
+                    "low": null,
+                    "high": null
+                },
+                {
+                    "name": "Lymphocytes",
+                    "low": null,
+                    "high": null
+                },
+                {
+                    "name": "Neutrophils",
+                    "low": null,
+                    "high": null
+                }
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "DIFFERENTIAL WBC COUNT",
+                    "low": null,
+                    "high": null
+                },
+                {
+                    "name": "Total RBC count",
+                    "low": null,
+                    "high": null
+                }
+            ]
+        }
+    ]
+}

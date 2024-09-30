@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.0k/μL, RBC: 5.2M/μL, HGB: 14.5g/dL",
+            "unit_of_measurement": "/μL or /dL",
+            "reference_range": "WBC: 4.0-11.0k/μL, RBC: 4.5-6.0M/μL, HGB: 12-17g/dL"
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "BUN: 12mg/dL, Creatinine: 0.8mg/dL",
+            "unit_of_measurement": "/dL",
+            "reference_range": "BUN: 7-23mg/dL, Creatinine: 0.6-1.4mg/dL"
+        }
+    ]
+}

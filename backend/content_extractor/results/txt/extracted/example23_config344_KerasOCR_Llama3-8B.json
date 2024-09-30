@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Globulin",
+            "result_value": 2.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 3.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[2.5-4.3]"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 8600,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.58,
+            "unit_of_measurement": "M/m^3",
+            "reference_range": "[4-5.72]"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 34,
+            "unit_of_measurement": "%",
+            "reference_range": "[34-48]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 33.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirubin Direct",
+            "result_value": 0.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0-1]"
+        },
+        {
+            "test_name": "Bilirubin Indirect",
+            "result_value": 0.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 13.8,
+            "unit_of_measurement": "s",
+            "reference_range": "[12-14]"
+        },
+        {
+            "test_name": "APTT",
+            "result_value": 26.5,
+            "unit_of_measurement": "s",
+            "reference_range": "[21-35]"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Date": "28.03.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 250,
+                "NEU": 55,
+                "LYM": 35,
+                "MONO": 5
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.4 - 6.2",
+                "HGB": "13.0 - 18.0",
+                "PLT": "150 - 450",
+                "NEU": "40 - 70",
+                "LYM": "20 - 50",
+                "MONO": "2 - 10"
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "ALT": 35,
+                "AST": 40,
+                "ALP": 80,
+                "TBIL": 1.5
+            },
+            "unit_of_measurement": {
+                "ALT": "U/L",
+                "AST": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "ALT": "7 - 56",
+                "AST": "5 - 42",
+                "ALP": "30 - 120",
+                "TBIL": "<1.5"
+            }
+        }
+    ]
+}

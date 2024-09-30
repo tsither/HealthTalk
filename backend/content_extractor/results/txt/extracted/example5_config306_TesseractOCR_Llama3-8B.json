@@ -1,0 +1,35 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 7.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6.5"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "White Blood Cell Count: 10,000/ÅL\nRed Blood Cell Count: 5 million/ÅL",
+            "unit_of_measurement": "ÅL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": "Creatinine: 1.2 mg/dL\nUrea: 30 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.5"
+        }
+    ]
+}

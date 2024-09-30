@@ -1,0 +1,48 @@
+{
+    "Date": "03-11",
+    "patient_information": {
+        "patient_id": "WCC Yash M. Pate! m: Sample Collected At: oo : EAs 125, Shivam Bungalow, $ G Road ",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 32.5,
+                    "reference_range": "13.0-17.0"
+                },
+                "TOTAL RBC COUNT": {
+                    "value": 5.48,
+                    "reference_range": "3.8-5.5"
+                },
+                "PACKED CELL VOLUME (PCV)": {
+                    "value": 37.5
+                },
+                "MEAN CORPUSCULAR VOLUME (MCV)": {
+                    "value": 87.75
+                },
+                "MEAN CORPUSCULAR HEAMATOCRIT (MCH)": {
+                    "value": 27.2
+                },
+                "MEAN CORPUSCULAR HEAMATOCRIT CONCENTRATION (MCHC)": {
+                    "value": 22.8
+                },
+                "RED CELL DISTRIBUTION WIDTH (RDW)": {
+                    "value": 13.6
+                }
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "TOTAL RBC COUNT": "million/µL",
+                "PACKED CELL VOLUME (PCV)": "%",
+                "MEAN CORPUSCULAR VOLUME (MCV)": "fL",
+                "MEAN CORPUSCULAR HEAMATOCRIT (MCH)": "pg",
+                "MEAN CORPUSCULAR HEAMATOCRIT CONCENTRATION (MCHC)": "g/dL",
+                "RED CELL DISTRIBUTION WIDTH (RDW)": "%"
+            }
+        }
+    ]
+}

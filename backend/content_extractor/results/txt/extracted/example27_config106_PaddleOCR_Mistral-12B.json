@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "HGB": 14.6,
+                "HCT": 41,
+                "PLT": 278000,
+                "WBC": 7.0
+            },
+            "unit_of_measurement": {
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "/uL",
+                "WBC": "/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SANGUINEA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "HDL": 60,
+                "LDL": 145
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLESTEROL": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

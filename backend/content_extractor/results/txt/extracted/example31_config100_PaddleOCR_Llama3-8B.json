@@ -1,0 +1,29 @@
+{
+    "Date": "202X-05-02",
+    "patient_information": {
+        "patient_id": "555 Instant me HEM y",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-38 g/dL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 4000,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet (PLT) count",
+            "result_value": 150000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "140000-300000 /ul"
+        }
+    ]
+}

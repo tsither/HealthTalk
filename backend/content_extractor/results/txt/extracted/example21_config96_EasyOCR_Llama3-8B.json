@@ -1,0 +1,29 @@
+{
+    "Date": "20/03/2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "G/L",
+            "reference_range": "4-11 G/L"
+        },
+        {
+            "test_name": "Creatinine Level",
+            "result_value": 1.2,
+            "unit_of_measurement": "Mmol/L",
+            "reference_range": "0.6-1.2 Mmol/L"
+        },
+        {
+            "test_name": "Glucose Level",
+            "result_value": 7.8,
+            "unit_of_measurement": "Mmol/L",
+            "reference_range": "3.9-5.5 Mmol/L"
+        }
+    ]
+}

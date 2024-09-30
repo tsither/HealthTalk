@@ -1,0 +1,35 @@
+{
+    "Date": "10/20/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "35-55%"
+        },
+        {
+            "test_name": "Monocyte Count",
+            "result_value": 10,
+            "unit_of_measurement": "%",
+            "reference_range": "5-15%"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 2.1,
+            "unit_of_measurement": "%",
+            "reference_range": "0.5-3%"
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

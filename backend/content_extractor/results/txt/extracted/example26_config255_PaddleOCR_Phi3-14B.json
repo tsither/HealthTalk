@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "TEST NAME 1",
+            "result_value": 4.0,
+            "unit_of_measurement": "IMPLIED UNIT 1",
+            "reference_range": null
+        },
+        {
+            "test_name": "TEST NAME 2",
+            "result_value": 5.5,
+            "unit_of_measurement": "IMPLIED UNIT 2",
+            "reference_range": null
+        },
+        {
+            "test_name": "TEST NAME 3",
+            "result_value": 10.0,
+            "unit_of_measurement": "IMPLIED UNIT 3",
+            "reference_range": null
+        }
+    ]
+}

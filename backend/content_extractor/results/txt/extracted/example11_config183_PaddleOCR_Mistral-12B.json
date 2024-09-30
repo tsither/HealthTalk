@@ -1,0 +1,43 @@
+{
+    "Date": "04:35 Pit 07 Cec",
+    "patient_information": {
+        "patient_id": "S55",
+        "patient_name": "Yash M. Pate! Sample Collected At:e Age: 21 Years",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC COUNT": "Low",
+                "Total RBC count": 5.7,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": "High",
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "WBC Count": 11.6
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT": null,
+                "Total RBC count": "r",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "MCH": "pg",
+                "MCHC": "pg",
+                "WBC Count": "cells/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "45-55 r",
+                "Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular Volume (MCV)": "83-101 fl",
+                "MCH": null,
+                "MCHC": "32.5-34.5 pg",
+                "WBC Count": "4.5-11.6 cells/uL"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null,
+        "patient_years": 106
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 555,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RBC Total Count",
+            "result_value": null,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 125,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

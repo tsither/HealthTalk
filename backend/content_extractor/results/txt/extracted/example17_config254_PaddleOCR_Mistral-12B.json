@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "ample Collection",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "parameter": "WBC",
+                    "value": "15.0"
+                },
+                {
+                    "parameter": "RBC",
+                    "value": "4.5"
+                },
+                {
+                    "parameter": "HGB",
+                    "value": "13.6"
+                },
+                {
+                    "parameter": "PLT",
+                    "value": "280"
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "WBC": "10^9/L"
+                },
+                {
+                    "RBC": "10^12/L"
+                },
+                {
+                    "HGB": "g/dL"
+                },
+                {
+                    "PLT": "10^9/L"
+                }
+            ],
+            "reference_range": null
+        }
+    ]
+}

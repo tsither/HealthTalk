@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shah Patil",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130,180]"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "per μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 689573,
+            "unit_of_measurement": "fl",
+            "reference_range": "[80,100]"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 101250,
+            "unit_of_measurement": "per μL",
+            "reference_range": "[150K-450K]"
+        }
+    ]
+}

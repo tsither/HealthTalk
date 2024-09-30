@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "White blood cells: 12000/mm3",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "4500-11000 /mm3"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red blood cells: 4.8 million/mm3",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "4.0-5.5 million/mm3"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Hemoglobin: 15 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Hematocrit: 45%",
+            "unit_of_measurement": "%",
+            "reference_range": "37-50%"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "250000/mm3",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "150000-450000 /mm3"
+        }
+    ]
+}

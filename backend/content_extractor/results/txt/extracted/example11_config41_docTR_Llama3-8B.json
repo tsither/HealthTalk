@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Total",
+            "result_value": "4.51",
+            "unit_of_measurement": "M/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Norotal count",
+            "result_value": "0.33",
+            "unit_of_measurement": "Billions / microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "15455",
+            "unit_of_measurement": "Thousand / cubic millimeter",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

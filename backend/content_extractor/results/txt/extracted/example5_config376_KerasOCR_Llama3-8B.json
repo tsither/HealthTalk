@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 225000,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "150000-350000"
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": 9.5,
+            "unit_of_measurement": "femtoliters",
+            "reference_range": "7.5-11.1"
+        },
+        {
+            "test_name": "Platelet Distribution Width",
+            "result_value": 16.6,
+            "unit_of_measurement": "percent",
+            "reference_range": "9.8-17.2"
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 12.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "10.6-13.4"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time",
+            "result_value": 29.9,
+            "unit_of_measurement": "seconds",
+            "reference_range": "24.5-36.5"
+        },
+        {
+            "test_name": "Fibrinogen",
+            "result_value": 300,
+            "unit_of_measurement": "milligrams per deciliter",
+            "reference_range": "200-500"
+        }
+    ]
+}

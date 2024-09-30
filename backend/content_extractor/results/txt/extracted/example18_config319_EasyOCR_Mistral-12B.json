@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 123.456,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Count",
+            "result_value": 789012.345,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 212234.567,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        }
+    ]
+}

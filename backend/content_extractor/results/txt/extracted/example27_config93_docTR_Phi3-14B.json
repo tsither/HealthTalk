@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucemia",
+            "result_value": 144,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-99]"
+        },
+        {
+            "test_name": "Hemoglobina (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-16]"
+        },
+        {
+            "test_name": "Glóbulos rojos (RBC)",
+            "result_value": 5.1,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[4.7-6.1]"
+        },
+        {
+            "test_name": "Hematocrit (HC)",
+            "result_value": 48,
+            "unit_of_measurement": "%",
+            "reference_range": "[39%-50%]"
+        },
+        {
+            "test_name": "Albumina plasmática",
+            "result_value": 16.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.4-5.4]"
+        },
+        {
+            "test_name": "Proteína total plasmática (PTP)",
+            "result_value": 826,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[500-790]"
+        },
+        {
+            "test_name": "Globulin plasmático (GP)",
+            "result_value": 62,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[18-40]"
+        },
+        {
+            "test_name": "Albumina sérica (AS)",
+            "result_value": 3.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.5-5.0]"
+        },
+        {
+            "test_name": "Globulina sérica (GS)",
+            "result_value": 4.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[2-3.5]"
+        }
+    ]
+}

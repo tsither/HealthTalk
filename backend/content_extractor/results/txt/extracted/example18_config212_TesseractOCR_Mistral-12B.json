@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 2x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yasmin M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.25,
+            "unit_of_measurement": "mil/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "% Neutrophils",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": "32-66%"
+        }
+    ]
+}

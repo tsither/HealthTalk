@@ -1,0 +1,27 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": null,
+    "test_results": [
+        {
+            "test_name": "WBC Differential",
+            "result_value": {
+                "NEUT": "55.5",
+                "LYMPH": "34.5",
+                "MONO": "6.1"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Absolute Counts",
+            "result_value": {
+                "WBC": "7890",
+                "NEUT": "4250",
+                "LYMPH": "2716",
+                "MONO": "535"
+            },
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

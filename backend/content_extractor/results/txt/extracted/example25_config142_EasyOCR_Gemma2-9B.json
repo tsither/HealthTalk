@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAM",
+            "result_value": "6.56",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4 0-10,80"
+        },
+        {
+            "test_name": "NEUTROCITOS",
+            "result_value": "16",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "LINFOCITOS",
+            "result_value": "32",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "MONOCITOS",
+            "result_value": "10",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "EOSINOFILOS",
+            "result_value": "0.5",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "BASOFILOS",
+            "result_value": "0.1",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMÁTICOS",
+            "result_value": "4.9",
+            "unit_of_measurement": "C.m³",
+            "reference_range": "3.5-5 C.m³"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "28",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "null"
+        }
+    ]
+}

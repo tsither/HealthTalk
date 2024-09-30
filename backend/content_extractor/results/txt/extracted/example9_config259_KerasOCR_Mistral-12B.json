@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 0.91,
+            "unit_of_measurement": "wash",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52%"
+        }
+    ]
+}

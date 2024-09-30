@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.1-15.0 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "3.5-10.5 x10^9/L"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Gluose",
+            "result_value": 100,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HGMOGLOBINA",
+            "result_value": 4.75,
+            "unit_of_measurement": "ICEOLL",
+            "reference_range": [
+                13.3,
+                30.5
+            ]
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": 208,
+            "unit_of_measurement": "V.P.M.",
+            "reference_range": null
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E3pL",
+            "reference_range": [
+                4.0,
+                10.0
+            ]
+        }
+    ]
+}

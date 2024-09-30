@@ -1,0 +1,29 @@
+{
+    "Date": "12.03.2024",
+    "patient_information": {
+        "patient_id": "A123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 37
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.8, RBC: 5.2 x10^6/uL, HGB: 14.5 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "[4.0-11.0] x10^3/uL",
+                "RBC": "[4.0-5.5] x10^6/uL",
+                "HGB": "[12.0-16.0] g/dL"
+            }
+        },
+        {
+            "test_name": "Serum Electrolyte Assay",
+            "result_value": "[137-148] mEq/L",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Na+": "[135-145] mEq/L"
+            }
+        }
+    ]
+}

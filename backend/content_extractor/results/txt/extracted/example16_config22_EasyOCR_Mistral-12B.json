@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "value": "10",
+                    "unit": "K/uL"
+                },
+                "RBC": {
+                    "value": "4.72",
+                    "unit": "M/uL"
+                },
+                "Hb": {
+                    "value": "13.5",
+                    "unit": "g/dL"
+                },
+                "Hct": {
+                    "value": "40.5",
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": "89.6",
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": "27.1",
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": "30.5",
+                    "unit": "g/dL"
+                },
+                "Platelet": {
+                    "value": "264",
+                    "unit": "K/uL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

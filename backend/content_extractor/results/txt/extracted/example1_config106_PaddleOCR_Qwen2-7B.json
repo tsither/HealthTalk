@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec, 7X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "name": "Lymphocytes",
+                    "value": 57.5
+                },
+                {
+                    "name": "Neutrophils",
+                    "value": null
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": null
+                },
+                {
+                    "name": "Monocytes",
+                    "value": null
+                },
+                {
+                    "name": "Basophils",
+                    "value": null
+                }
+            ],
+            "unit_of_measurement": [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

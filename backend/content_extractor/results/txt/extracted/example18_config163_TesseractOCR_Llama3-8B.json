@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x10^9/L"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "Creatinine Level",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

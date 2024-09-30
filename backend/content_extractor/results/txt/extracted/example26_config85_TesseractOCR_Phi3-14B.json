@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 12.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 34,
+            "unit_of_measurement": "%",
+            "reference_range": "30 - 47.6"
+        },
+        {
+            "test_name": "Velocidad de carga capilar (CV)",
+            "result_value": 85,
+            "unit_of_measurement": "mm/h",
+            "reference_range": null
+        },
+        {
+            "test_name": "Volumen corpuscular medio (MCV)",
+            "result_value": 92.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 98"
+        },
+        {
+            "test_name": "Hemoglobina corpuscular media (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Concentración de hemoglobina corpuscular media (MCHC)",
+            "result_value": 32.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina corpuscular Mnqui (MCH)",
+            "result_value": 32.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

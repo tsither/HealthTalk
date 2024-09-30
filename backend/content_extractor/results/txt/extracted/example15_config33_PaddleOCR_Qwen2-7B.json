@@ -1,0 +1,22 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "PDW",
+            "result_value": "15.50%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Lower than normal range": "9.0 - 17.0%",
+                "Normal PDW Range": "9.0 - 17.0%",
+                "Reactive thrombocytosis": "(PDW normal).. 9.0 - 17.0%",
+                "thrombocytopenia": "9.0 - 17.0%"
+            }
+        }
+    ]
+}

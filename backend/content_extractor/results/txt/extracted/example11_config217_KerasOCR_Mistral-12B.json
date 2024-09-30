@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as67e9",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "rbc_count_total": {
+                    "value": 5.2,
+                    "unit": "T/L"
+                },
+                "mcv": {
+                    "value": 87,
+                    "unit": "fL"
+                },
+                "mch": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "mchc": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "rdw": {
+                    "value": 13.6,
+                    "unit": "%"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": {
+                "neutrophils": {
+                    "value": 60,
+                    "unit": "%"
+                },
+                "lymphocytes": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "monocytes": {
+                    "value": 10,
+                    "unit": "%"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 250000,
+                "unit": "/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

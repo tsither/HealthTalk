@@ -1,0 +1,41 @@
+{
+    "Date": "01234567",
+    "patient_information": {
+        "patient_id": "0112345678",
+        "patient_name": "com drilogypathlabodrlogy com",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "9000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[4500-11,500]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "328",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17] for males"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "140",
+            "unit_of_measurement": "%",
+            "reference_range": "[12-15] for males"
+        }
+    ]
+}

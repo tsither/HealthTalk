@@ -1,0 +1,41 @@
+{
+    "Date": "09/11",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Carine",
+        "patient_sex": "M",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC - Count",
+            "result_value": "5.1",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb - Hemoglobin",
+            "result_value": "135",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "MCH - Mean Corpuscular Haemoglobin",
+            "result_value": "27.8",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC - Mean Corpuscular Haemoglobin Concentration",
+            "result_value": "32.4",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV - Mean Corpuscular Volume",
+            "result_value": "78.2",
+            "unit_of_measurement": "fl",
+            "reference_range": "70-100"
+        }
+    ]
+}

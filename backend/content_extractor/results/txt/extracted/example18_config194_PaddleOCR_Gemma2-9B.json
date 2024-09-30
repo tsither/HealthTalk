@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "32.8",
+            "unit_of_measurement": "OmLT, BmLT",
+            "reference_range": "105-10 576"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

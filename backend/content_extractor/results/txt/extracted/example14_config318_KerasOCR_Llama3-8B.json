@@ -1,0 +1,53 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 10.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "8-12 g/dL"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Electrolyte Panel (Sodium, Potassium, Chloride)",
+            "result_value": [
+                {
+                    "Sodium": 135
+                },
+                {
+                    "Potassium": 4.5
+                },
+                {
+                    "Chloride": 95
+                }
+            ],
+            "unit_of_measurement": [
+                "mmol/L",
+                "mmol/L",
+                "mmol/L"
+            ],
+            "reference_range": [
+                {
+                    "Sodium": "135-145 mmol/L"
+                },
+                {
+                    "Potassium": "3.5-5.0 mmol/L"
+                },
+                {
+                    "Chloride": "95-105 mmol/L"
+                }
+            ]
+        }
+    ]
+}

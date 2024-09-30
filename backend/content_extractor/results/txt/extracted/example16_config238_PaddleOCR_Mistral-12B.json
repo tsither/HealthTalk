@@ -1,0 +1,56 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell Count": 6.75,
+                "Red Blood Cell Count": 57.5,
+                "Hemoglobin": 13.2,
+                "Packed Cell Volume": 32.8,
+                "Mean Corpuscular Hemoglobin Concentration": 32.8,
+                "Red Blood Cell Distribution Width": 14.0
+            },
+            "unit_of_measurement": {
+                "White Blood Cell Count": "cells/cumm",
+                "Red Blood Cell Count": "mill/cumm",
+                "Hemoglobin": "g/dL",
+                "Packed Cell Volume": "%",
+                "Mean Corpuscular Hemoglobin Concentration": "g/dL",
+                "Red Blood Cell Distribution Width": "%"
+            },
+            "reference_range": {
+                "White Blood Cell Count": {
+                    "Low": 4.5,
+                    "High": 10
+                },
+                "Red Blood Cell Count": {
+                    "Low": 27,
+                    "High": 32
+                },
+                "Hemoglobin": {
+                    "Low": 11.6,
+                    "High": 14
+                },
+                "Packed Cell Volume": {
+                    "Low": 27.2,
+                    "High": 40
+                },
+                "Mean Corpuscular Hemoglobin Concentration": {
+                    "Low": 27.2,
+                    "High": 34.5
+                },
+                "Red Blood Cell Distribution Width": {
+                    "Low": 11.6,
+                    "High": 14
+                }
+            }
+        }
+    ]
+}

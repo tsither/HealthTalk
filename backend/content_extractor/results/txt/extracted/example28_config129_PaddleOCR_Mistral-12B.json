@@ -1,0 +1,88 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Facene",
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Memograma Hemates",
+            "result_value": {
+                "VCM": 4.81,
+                "HM.C": 14.3,
+                "HGB": 89,
+                "Lymphocytes": 29
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica Basica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": 1.15,
+                "Colesterol Total": 220,
+                "Proteina Total": 7.8,
+                "Hemoglobina A1c": 5.6
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol Total": "mg/dL",
+                "Proteina Total": "g/dL",
+                "Hemoglobina A1c": "%"
+            },
+            "reference_range": {
+                "Glucosa": "<99",
+                "Creatinina": "0.70-1.10",
+                "Colesterol Total": "60-100",
+                "Proteina Total": null,
+                "Hemoglobina A1c": "<5.7%"
+            }
+        },
+        {
+            "test_name": "GOT",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": "6-68"
+        },
+        {
+            "test_name": "GPT",
+            "result_value": 45,
+            "unit_of_measurement": "ng/mt",
+            "reference_range": "5.60-135"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": 80,
+            "unit_of_measurement": null,
+            "reference_range": "9-48"
+        },
+        {
+            "test_name": "Bilirrubina Total",
+            "result_value": 800,
+            "unit_of_measurement": "U/L",
+            "reference_range": "3.8-55"
+        },
+        {
+            "test_name": "Bilirrubina Directa (Esterificada)",
+            "result_value": 100,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa Alacilana",
+            "result_value": 2.8,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": 15,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

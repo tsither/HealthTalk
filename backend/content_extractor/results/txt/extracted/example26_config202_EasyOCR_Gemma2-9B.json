@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hgb",
+            "result_value": 15.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "420 - 450 g/dL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "49.8",
+            "unit_of_measurement": "fL",
+            "reference_range": "10.0 fL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "120",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Co*",
+            "result_value": "0.0",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neut",
+            "result_value": "35.0",
+            "unit_of_measurement": "%",
+            "reference_range": "5.0 %"
+        }
+    ]
+}

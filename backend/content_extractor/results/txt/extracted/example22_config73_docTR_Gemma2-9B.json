@@ -1,0 +1,65 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Vimal shah",
+        "patient_sex": null,
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "57.5",
+            "unit_of_measurement": "X10^6/µL",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Hb (Hemoglobin)",
+            "result_value": "5.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "83-101 g/dL"
+        },
+        {
+            "test_name": "Hct (Packed Cell Volume)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "325-345  cumm"
+        },
+        {
+            "test_name": "MCV (Mean Cell Volume)",
+            "result_value": "27.2",
+            "unit_of_measurement": "fL",
+            "reference_range": "87.75-116 fL"
+        },
+        {
+            "test_name": "MCH (Mean Cell Hemoglobin)",
+            "result_value": "13.6",
+            "unit_of_measurement": "pg",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "MCHC (Mean Cell Hemoglobin Concentration)",
+            "result_value": "9000",
+            "unit_of_measurement": "%o",
+            "reference_range": "20-40 %o"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "null",
+            "unit_of_measurement": "%",
+            "reference_range": "0.0-0.6%"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "31",
+            "unit_of_measurement": "X10^9/L",
+            "reference_range": "45-55 X10^9/L"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": null,
+            "unit_of_measurement": "X10^9/L",
+            "reference_range": null
+        }
+    ]
+}

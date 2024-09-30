@@ -1,0 +1,29 @@
+{
+    "Date": "01/22/20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Blood)",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "40.3-50.3%"
+        },
+        {
+            "test_name": "White Blood Cell Count (Blood)",
+            "result_value": 7900.0,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "3,500-10,500 cells/μL"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "04/12/3456",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 170,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 3.45,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 125000,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

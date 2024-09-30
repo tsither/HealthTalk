@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 04:35 PM",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC Count": 4.55,
+                "HCT": 37.8,
+                "MCV": 90,
+                "MCHC": 27.2,
+                "Total WBC Count": 11.6,
+                "Neutrophils": 55.6,
+                "Lymphocytes": 34.5,
+                "Monocytes": 6.0,
+                "Eosinophils": 3.1,
+                "Basophils": 0.8,
+                "Platelet Count": 209
+            },
+            "unit_of_measurement": {
+                "RBC Count": "million/uL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCHC": "g/dL",
+                "Total WBC Count": "thousand/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelet Count": "thousand/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

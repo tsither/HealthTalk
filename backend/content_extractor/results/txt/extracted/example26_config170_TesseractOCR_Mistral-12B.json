@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucosa",
+            "result_value": 93.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 208,
+            "unit_of_measurement": "Cel/uL",
+            "reference_range": "156 - 450"
+        }
+    ]
+}

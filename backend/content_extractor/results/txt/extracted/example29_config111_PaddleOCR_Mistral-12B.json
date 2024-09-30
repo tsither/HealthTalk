@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 89.689,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 5200,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5 - 17.0"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 300000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

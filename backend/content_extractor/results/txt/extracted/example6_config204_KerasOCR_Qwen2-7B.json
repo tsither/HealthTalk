@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "60-120"
+        }
+    ]
+}

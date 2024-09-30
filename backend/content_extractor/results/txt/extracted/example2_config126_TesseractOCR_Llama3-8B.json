@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 12000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4,000-11,000 cells/μL"
+        },
+        {
+            "test_name": "NEUTROPHIL COUNT %",
+            "result_value": 80,
+            "unit_of_measurement": "%",
+            "reference_range": "45-70%"
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT %",
+            "result_value": 18,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "MONOCTYE COUNT%",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

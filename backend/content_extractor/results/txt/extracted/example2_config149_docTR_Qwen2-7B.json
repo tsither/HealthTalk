@@ -1,0 +1,30 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "patient_race": "blond"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 12510,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 6.2,
+            "unit_of_measurement": "x 10^3 per μL",
+            "reference_range": null
+        }
+    ]
+}

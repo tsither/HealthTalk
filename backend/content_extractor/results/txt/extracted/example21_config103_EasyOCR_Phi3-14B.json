@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "Patel Complex",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.7-6.1 x1^6/uL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 95,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "ng/mL Hb (g/dL)",
+            "reference_range": "32-36 ng/mL Hb (g/dL)"
+        },
+        {
+            "test_name": "PVC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "95-105%"
+        }
+    ]
+}

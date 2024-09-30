@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCv)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Calculated MCH": 27.2,
+                "Calculated MCHC": 32.8,
+                "Calculated RDW": 13.6,
+                "Total WBC count": 9000,
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 1,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "10^6 cells/uL",
+                "Packed Cell Volume (PCv)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Calculated MCH": "pg",
+                "Calculated MCHC": "g/dL",
+                "Calculated RDW": "%",
+                "Total WBC count": "cells/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "10^3 cells/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.9 - 17.0 g/dL",
+                "Total RBC count": "4.5 - 5.5 10^6 cells/uL",
+                "Packed Cell Volume (PCv)": "40 - 59 %",
+                "Mean Corpuscular Volume (MCV)": "83 - 101 fL",
+                "Calculated MCH": "27 - 32 pg",
+                "Calculated MCHC": "32.5 - 34.5 g/dL",
+                "Calculated RDW": "11.6 - 14.9 %",
+                "Total WBC count": "4000 - 11000 cells/uL",
+                "Neutrophils": "50 - 62 %",
+                "Lymphocytes": "20 - 40 %",
+                "Eosinophils": "0.00 - 0.06%",
+                "Monocytes": "0.00 - 0.10 %",
+                "Basophils": "0.00 - 0.02 %",
+                "Platelet Count": "150000 - 410000 10^3 cells/uL"
+            }
+        }
+    ]
+}

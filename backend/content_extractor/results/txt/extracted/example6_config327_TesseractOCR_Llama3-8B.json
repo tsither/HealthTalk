@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glu",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Ca",
+            "result_value": 8.5,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "8.2-10.3"
+        },
+        {
+            "test_name": "K",
+            "result_value": 4.1,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0"
+        }
+    ]
+}

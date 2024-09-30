@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "12.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal: 14-16.5 g/dL"
+        },
+        {
+            "test_name": "Total RBC Count (Packed Cell Volume, PCV)",
+            "result_value": "4.12",
+            "unit_of_measurement": "",
+            "reference_range": "Male: 40.7-50.3 %; Female: 37.2-48.8 %"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.6",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "Normal: 26.5-32 pg/cell"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.0",
+            "unit_of_measurement": "",
+            "reference_range": "Normal: 11.6-14.4 %"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "3.25",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "Normal: 4-10 x10^9/L"
+        },
+        {
+            "test_name": "Differential Eosinophils",
+            "result_value": "0.1%",
+            "unit_of_measurement": "",
+            "reference_range": "Normal: 0-5 %"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "62 x10^9/L",
+            "unit_of_measurement": "",
+            "reference_range": "Normal: 150-450 x10^9/L"
+        }
+    ]
+}

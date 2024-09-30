@@ -1,0 +1,42 @@
+{
+    "Date": "04/12/34",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "field": "Hemoglobin",
+                    "value": "13.0 g/dL"
+                },
+                {
+                    "field": "Red Blood Cells (RBC)",
+                    "value": "5.75 million/mm³"
+                },
+                {
+                    "field": "White Blood Cells (WBC)",
+                    "value": "15,000 cells/µL"
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "Hemoglobin": "g/dL",
+                    "RBC": "million/mm³",
+                    "WBC": "cells/µL"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

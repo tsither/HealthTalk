@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitoss serie olanca",
+            "result_value": 20.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "<7"
+        },
+        {
+            "test_name": "Eosinófilos %",
+            "result_value": 4.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrófilos Abs",
+            "result_value": 75.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

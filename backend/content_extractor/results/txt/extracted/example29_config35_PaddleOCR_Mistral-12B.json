@@ -1,0 +1,90 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 5.2,
+                    "unit": "g/dL"
+                },
+                "RBC COUNT %": {
+                    "value": 57.5,
+                    "unit": "%"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 87.75,
+                    "unit": "%"
+                },
+                "MCHed %": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "RDW": {
+                    "value": 9000,
+                    "unit": "%"
+                },
+                "Total WBC count": {
+                    "value": 60,
+                    "unit": "/cumm"
+                },
+                "Neutrophils": {
+                    "value": 71,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "Platelet Count": {
+                    "value": "Normal",
+                    "unit": ""
+                }
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "min": 4.5,
+                    "max": 5.5
+                },
+                "RBC COUNT %": {
+                    "min": 40,
+                    "max": 50
+                },
+                "Packed Cell Volume (PCV)": {
+                    "min": 27,
+                    "max": 32
+                },
+                "MCHed %": {
+                    "min": 11.6,
+                    "max": 14
+                },
+                "RDW": {
+                    "min": 4000,
+                    "max": 11000
+                },
+                "Total WBC count": {
+                    "min": 50,
+                    "max": 62
+                },
+                "Neutrophils": {
+                    "min": 71,
+                    "max": 83
+                },
+                "Lymphocytes": {
+                    "min": 14,
+                    "max": 19
+                },
+                "Platelet Count": {
+                    "min": 150000,
+                    "max": 410000
+                }
+            }
+        }
+    ]
+}

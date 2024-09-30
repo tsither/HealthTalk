@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Yash Patel",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear Examination",
+            "result_value": "Reference result value not available",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "10.8x10^6/μL",
+            "unit_of_measurement": "/μL",
+            "reference_eange": "4.2-5.9x10^6/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250x10^3/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "150-450x10^3/μL"
+        }
+    ]
+}

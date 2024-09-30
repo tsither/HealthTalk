@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 41,
+                "hemoglobina": 13.8,
+                "leucocitos": 6500,
+                "plaquetas": 298000
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "hematocrito": null,
+                "hemoglobina": null,
+                "leucocitos": null,
+                "plaquetas": null
+            }
+        },
+        {
+            "test_name": "Leucograma",
+            "result_value": {
+                "linfocitos": 29.8,
+                "monocitos": 3.6,
+                "neutrofilos": 51,
+                "basofilos": 1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de Sedimentacion Globular",
+            "result_value": 20,
+            "unit_of_measurement": "mm/hora",
+            "reference_range": {
+                "vsg_mujer": 70,
+                "vsg_hombre": 150
+            }
+        },
+        {
+            "test_name": "Biometria Hematica",
+            "result_value": {
+                "hematocrito": 38,
+                "hemoglobina": 14.1,
+                "leucocitos": 6200
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

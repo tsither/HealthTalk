@@ -1,0 +1,29 @@
+{
+    "Date": "01.05.2023",
+    "patient_information": {
+        "patient_id": "PAT123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "HemogloBin",
+            "result_value": 14.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 6.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

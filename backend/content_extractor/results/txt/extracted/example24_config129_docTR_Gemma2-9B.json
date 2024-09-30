@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SODIONIC",
+            "result_value": 138,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "POTASSIUM",
+            "result_value": 4.2,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0 mmol/L"
+        },
+        {
+            "test_name": "CREATININE",
+            "result_value": 87,
+            "unit_of_measurement": "umol/L",
+            "reference_range": "60-110 umol/L"
+        }
+    ]
+}

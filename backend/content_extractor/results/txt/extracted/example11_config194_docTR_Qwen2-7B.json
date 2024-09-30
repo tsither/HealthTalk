@@ -1,0 +1,47 @@
+{
+    "Date": "0913345678",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular.Volume (MCV)",
+            "result_value": 83.1,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Differential wsc count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 125000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Primary Sample Type",
+            "result_value": "BLOOD",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

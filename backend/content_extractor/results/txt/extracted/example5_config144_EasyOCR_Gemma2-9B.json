@@ -1,0 +1,29 @@
+{
+    "Date": "dec",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "platelets",
+            "result_value": "555 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "90-170 x 10^9/L"
+        },
+        {
+            "test_name": "plateletcrit",
+            "result_value": "null",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "pdw",
+            "result_value": "1b",
+            "unit_of_measurement": null,
+            "reference_range": "normal range"
+        }
+    ]
+}

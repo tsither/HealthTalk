@@ -1,0 +1,35 @@
+{
+    "Date": "06.02.2023",
+    "patient_information": {
+        "patient_id": "52012345678",
+        "patient_name": "Patel Athology",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": 27.2,
+                "RBC COUNT": 5.09,
+                "HGB": 136,
+                "HCT": 41,
+                "MCV": 84.56,
+                "MCH": 27,
+                "MCHC": 328,
+                "PLT COUNT": 272
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "10^9/L",
+                "RBC COUNT": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT COUNT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

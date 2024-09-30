@@ -1,0 +1,42 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "555 years",
+        "patient_address": "patel complex"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": null,
+            "unit_of_measurement": "count/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

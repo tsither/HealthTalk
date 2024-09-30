@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 20.3,
+            "unit_of_measurement": "%",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "Red blood cells (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "1/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 24.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

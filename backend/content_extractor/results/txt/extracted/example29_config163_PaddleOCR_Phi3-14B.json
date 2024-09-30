@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC COUNT 27.2",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for WBC count not provided in the text."
+        },
+        {
+            "test_name": "Hb (Hemoglobin)",
+            "result_value": "125 nple 3",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for Hemoglobin not provided in the text."
+        },
+        {
+            "test_name": "MCV (Mean Cell Volume)",
+            "result_value": "12.5",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for MCV not provided in the text."
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "689578",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for PCV not provided in the text."
+        },
+        {
+            "test_name": "DIF (Differential Count)",
+            "result_value": "32.8 Rep 13.6 Platelet on 5.5 Count",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for DIF not provided in the text."
+        },
+        {
+            "test_name": "Anemia",
+            "result_value": "Mindray 30 cPg Borderline % 7P/6",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for Anemia not provided in the text."
+        },
+        {
+            "test_name": "Hematocrit %",
+            "result_value": "0%",
+            "unit_of_measurement": null,
+            "reference_range": "[REQUIRED] Reference range for Hematocrit not provided in the text."
+        },
+        {
+            "test_name": "Platelets Count (mill/uL)",
+            "result_value": "150000",
+            "unit_of_measurement": "mill/uL",
+            "reference_range": "[REQUIRED] Reference range for Platelet count not provided in the text."
+        }
+    ]
+}

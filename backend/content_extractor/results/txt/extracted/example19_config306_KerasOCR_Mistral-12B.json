@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 12
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 10.0,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 160,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 350,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

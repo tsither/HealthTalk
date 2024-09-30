@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01234567",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 856
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 130.7,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_value": 4.5,
+            "unit_of_measurement": "trillion cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 85.6,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 20,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

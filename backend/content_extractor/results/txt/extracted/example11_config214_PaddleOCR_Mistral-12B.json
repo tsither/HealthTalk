@@ -1,0 +1,49 @@
+{
+    "Date": "03.11",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 4.7,
+                "Platelet count": 27.2
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Platelet count": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0",
+                "Total RBC count": "4.5 - 6.2",
+                "Platelet count": "150000 - 410000"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "WBC COUNT": 87.7,
+                "Neutrophils": 62.3,
+                "Lymphocytes": 25.4,
+                "Monocytes": 5.1,
+                "Eosinophils": 0.9,
+                "Basophils": 0.1
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "%",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

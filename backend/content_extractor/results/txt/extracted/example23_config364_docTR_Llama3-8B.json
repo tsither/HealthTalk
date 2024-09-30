@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "C-Reactive Protein",
+            "result_value": 6.4,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8,
+            "unit_of_measurement": "per %",
+            "reference_range": "4-10 per %"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": 2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lactate Dehydrogenase",
+            "result_value": 6.5,
+            "unit_of_measurement": "a/d %b",
+            "reference_range": null
+        },
+        {
+            "test_name": "Osmolality",
+            "result_value": 290,
+            "unit_of_measurement": "mOsm/kg H2O",
+            "reference_range": null
+        }
+    ]
+}

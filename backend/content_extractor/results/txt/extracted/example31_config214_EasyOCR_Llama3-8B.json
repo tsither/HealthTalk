@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": " normal (13.5-17)"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 1310,
+            "unit_of_measurement": "a/L",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "RBC Count Total RBC",
+            "result_value": 454,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 1316,
+            "unit_of_measurement": "%",
+            "reference_range": "high"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 1000,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 80,
+                "Lymphocytes": 20,
+                "Eosinophils": 0.3,
+                "Monocytes": 10,
+                "Basophils": 0.2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 70000,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "borderline"
+        }
+    ]
+}

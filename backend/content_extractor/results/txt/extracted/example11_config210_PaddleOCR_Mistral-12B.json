@@ -1,0 +1,38 @@
+{
+    "Date": "04/11",
+    "patient_information": {
+        "patient_id": "917345678",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "13.6 g/dL",
+                "Total RBC count": "500,000 /uL",
+                "Platelet count": "27.2 x 10^9/L",
+                "WBC COUNT": "8.775 x 10^9/L"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Total RBC count": "/uL",
+                "Platelet count": "x 10^9/L",
+                "WBC COUNT": "x 10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0 - 17.0 g/dL",
+                "Total RBC count": "4.5 - 6.0 x 10^12/L",
+                "Platelet count": "150,000 - 400,000 /uL",
+                "WBC COUNT": "4,500 - 11,000 /uL"
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

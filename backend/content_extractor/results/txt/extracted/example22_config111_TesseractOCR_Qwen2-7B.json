@@ -1,0 +1,23 @@
+{
+    "Date": "12/30/2023",
+    "patient_information": {
+        "patient_id": "A123456",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 32
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 5.8,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-6.0"
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": 195,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-200"
+        }
+    ]
+}

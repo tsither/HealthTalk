@@ -1,0 +1,29 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 68
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Blood Test",
+            "result_value": "125",
+            "unit_of_measurement": "units",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "low",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "45%",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        }
+    ]
+}

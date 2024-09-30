@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 13.0,
+                "high": 17.0
+            }
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 87.75,
+            "unit_of_measurement": "2/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": {
+                "low": 11.6,
+                "high": 14.0
+            }
+        },
+        {
+            "test_name": "WBC Differential (%)",
+            "result_value": {
+                "Neutrophils": 83.6,
+                "Lymphocytes": 9.0,
+                "Monocytes": 7.0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 125,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 9000,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 345,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 10000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        }
+    ]
+}

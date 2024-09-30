@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 21,
+            "unit_of_measurement": "years",
+            "reference_range": "50-70 years"
+        },
+        {
+            "test_name": "Blood Type and Screening",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.16,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14-18 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 5.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x1^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-400 x10^9/L"
+        }
+    ]
+}

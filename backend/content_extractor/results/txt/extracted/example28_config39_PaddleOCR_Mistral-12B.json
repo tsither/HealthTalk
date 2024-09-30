@@ -1,0 +1,121 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hipotetico",
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 109,
+                "VCM": 4.8,
+                "H.M.C.": 14.3,
+                "Leucicitos": 89
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "VCM": "fl",
+                "H.M.C.": "fl",
+                "Leucicitos": "/μL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biquímica Básica",
+            "result_value": {
+                "Glucosa": 102,
+                "Creatinina": 1.2,
+                "Colesterol": 242,
+                "Proteína": 7.8
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteína": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro (Fe)",
+            "result_value": 65.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 1.15,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina A1C",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT",
+            "result_value": 6.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<40"
+        },
+        {
+            "test_name": "GPT",
+            "result_value": 70.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<55"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": "<48"
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<1.2"
+        },
+        {
+            "test_name": "Bilirrubina directa (Estenficada)",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": 350,
+            "unit_of_measurement": "U/L",
+            "reference_range": "<240"
+        },
+        {
+            "test_name": "Albumina %",
+            "result_value": 100,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Uricemia",
+            "result_value": 2.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cálcio",
+            "result_value": 3.4,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<10"
+        },
+        {
+            "test_name": "Fósforo",
+            "result_value": 4.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2 K/uL, RBC: 6.0 M/uL, HGB: 13.8 g/dL, HCT: 39.5%",
+            "unit_of_measurement": null,
+            "reference_range": "WBC (4-10 K/uL), RBC (4-6 M/uL), HGB (12-16 g/dL), HCT (37-51%)"
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "AST: 22 U/L, ALT: 18 U/L",
+            "unit_of_measurement": null,
+            "reference_range": "AST (0-40 U/L), ALT (0-36 U/L)"
+        },
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": "Cr: 1.2 mg/dL, BUN: 9 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": "Cr (0.6-1.3 mg/dL), BUN (7-25 mg/dL)"
+        }
+    ]
+}

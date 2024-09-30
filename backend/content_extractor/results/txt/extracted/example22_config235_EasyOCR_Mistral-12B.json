@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "09123as675",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.1,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40.7-50.3"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 81.7,
+            "unit_of_measurement": "fl",
+            "reference_range": "82-96"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 21.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "32-36"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.575,
+            "unit_of_measurement": "million/μl",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 2.0,
+            "unit_of_measurement": "thousand/μl",
+            "reference_range": "4.5-11.0"
+        }
+    ]
+}

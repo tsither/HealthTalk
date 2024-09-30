@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 690000000.0,
+            "unit_of_measurement": "/uL",
+            "reference_range": "(3.5-10.0)e8/uL"
+        },
+        {
+            "test_name": "Blood Chemistry - Glucose",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(70-110)"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 19.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(6-24)"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(0.7-1.2)"
+        },
+        {
+            "test_name": "Electrolyte Panel - Sodium",
+            "result_value": 137,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "(135-145)"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": 3.6,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "(3.5-5.0)"
+        },
+        {
+            "test_name": "Chloride",
+            "result_value": 96,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "(96-106)"
+        }
+    ]
+}

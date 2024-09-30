@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "ESR",
+            "result_value": 20,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "0-20 mm/h"
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 130,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[120,160]"
+        }
+    ]
+}

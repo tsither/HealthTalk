@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/muL",
+            "reference_range": "13.8-17.5"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.2"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 35.1,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 10100,
+            "unit_of_measurement": "cells/muL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils: 75%, Lymphocytes: 15%, Eosinophils: 2%, Monocytes: 5%, Basophils: 3%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 410000,
+            "unit_of_measurement": "cells/muL",
+            "reference_range": "150-450"
+        }
+    ]
+}

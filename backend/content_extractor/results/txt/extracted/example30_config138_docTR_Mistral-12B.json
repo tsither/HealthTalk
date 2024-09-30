@@ -1,0 +1,49 @@
+{
+    "Date": "03 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                "RBC COUNT": {
+                    "value": "High",
+                    "reference_range": "40-50 fl"
+                },
+                "BLOOD INDICES": {
+                    "Volume (PCV)": 57.5,
+                    "Mean Corpuscular Volume (MCV)": 87.75,
+                    "Mean Corpuscular Hemoglobin (MCH)": 27.2,
+                    "Mean Corpuscular Hemoglobin Concentration (MCHC)": 13.6,
+                    "Red Cell Distribution Width (RDW)": null
+                },
+                "Total RBC count": {
+                    "value": null,
+                    "unit": null
+                },
+                "WBC COUNT": {
+                    "value": 9000,
+                    "reference_range": "50-62"
+                },
+                "Differential WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 7
+                },
+                "PLATELET COUNT": {
+                    "value": null,
+                    "unit": null
+                }
+            }
+        }
+    ]
+}

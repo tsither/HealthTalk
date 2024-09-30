@@ -1,0 +1,46 @@
+{
+    "Date": "03/11/202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "PATEL",
+        "patient_sex": "Male",
+        "patient_age": 51
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 6.89578,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.2 - 6.1 million/mm³"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90.0,
+            "unit_of_measurement": "fL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5750,
+            "unit_of_measurement": "cells/mm³"
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": 27.2
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": 34.5,
+            "reference_range": "20 - 45%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 101,
+            "unit_of_measurement": "gigapl/mm³"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": null,
+            "reference_range": "11.6-17.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "3.90-5.20"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "36.00-52.00"
+        }
+    ]
+}

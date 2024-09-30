@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "09-48"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 4.69,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 130,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "09-48"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 0.41,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 17.0,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 8.5,
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 6.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 1.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 0.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_nme": "Blood Count (CBC) Complete",
+            "result_value": 125,
+            "unit_of_measurement": "mm^3",
+            "reference_range": "40-50 L/mm^3"
+        },
+        {
+            "test_name": "Lam",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Tetel HA",
+            "result_value": 40,
+            "unit_of_measurement": null,
+            "reference_range": "0-50"
+        }
+    ]
+}

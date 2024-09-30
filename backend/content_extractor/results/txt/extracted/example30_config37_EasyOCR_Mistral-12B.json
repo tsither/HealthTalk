@@ -1,0 +1,35 @@
+{
+    "Date": "03/11/2022",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.35 million/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "42%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "3.28 K/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        }
+    ]
+}

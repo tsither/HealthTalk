@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 123456789,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 405000,
+            "unit_of_measurement": "mm^3",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "WBC Count (Differential)",
+            "result_value": null,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "",
+            "reference_range": "50 - 62"
+        },
+        {
+            "test_name": "Blood Indices (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 32.5,
+            "unit_of_measurement": "",
+            "reference_range": "27 - 34.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "83 - 101"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 0.8,
+            "unit_of_measurement": "%",
+            "reference_range": "70-97"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.8-15.7"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4520000000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 29.6,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 34.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Red Cell Volume",
+            "result_value": 71.3,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7500000000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 250000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        }
+    ]
+}

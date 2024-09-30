@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 7.5,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "4.5-10.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 2.9,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 0.31,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95"
+        },
+        {
+            "test_name": "RDW-SD",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 250,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

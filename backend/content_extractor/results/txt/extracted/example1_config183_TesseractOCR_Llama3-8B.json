@@ -1,0 +1,97 @@
+{
+    "Date": "03.11.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL",
+            "sub_tests": [
+                {
+                    "sub_test_name": "Hemoglobin (Hb)",
+                    "result_value": "low"
+                },
+                {
+                    "sub_test_name": "Total RBC count",
+                    "result_value": "$2?",
+                    "unit_of_measurement": null,
+                    "reference_range": "45-55 mull/cumm"
+                },
+                {
+                    "sub_test_name": "Packed Cell Volume (PCV)",
+                    "result_value": "57.5 S",
+                    "unit_of_measurement": "%",
+                    "reference_range": "High 40-50 %"
+                },
+                {
+                    "sub_test_name": "Mean Corpuscular Volume (MCV)",
+                    "result_value": "87.75",
+                    "unit_of_measurement": "tL",
+                    "reference_range": null
+                },
+                {
+                    "sub_test_name": "Mean Corpuscular Hemoglobin (MCH)",
+                    "result_value": "27.2",
+                    "unit_of_measurement": "pg",
+                    "reference_range": "27-32 pg"
+                },
+                {
+                    "sub_test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+                    "result_value": "32.8",
+                    "unit_of_measurement": "g/dl",
+                    "reference_range": null
+                }
+            ]
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null,
+            "sub_tests": [
+                {
+                    "sub_test_name": "Neutrophils",
+                    "result_value": "% Lymphocytes cr OQ)",
+                    "unit_of_measurement": null,
+                    "reference_range": null
+                },
+                {
+                    "sub_test_name": "Lymphocytes",
+                    "result_value": "cr OQ) Y. Ge ",
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "sub_test_name": "Eosinophils",
+                    "result_value": "00 - a %",
+                    "unit_of_measurement": null,
+                    "reference_range": null
+                },
+                {
+                    "sub_test_name": "Monocytes",
+                    "result_value": "7 00 - x ",
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "sub_test_name": "Basophils",
+                    "result_value": "1 00. 02 %",
+                    "unit_of_measurement": null,
+                    "reference_range": null
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "180000",
+            "unit_of_measurement": "cumm",
+            "reference_range": "Borderline 150000 - 410000 cumm"
+        }
+    ]
+}

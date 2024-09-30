@@ -1,0 +1,41 @@
+{
+    "Date": "03.09.2024",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 10300,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": "4500-11000 cells/mm3"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 67,
+            "unit_of_measurement": "million/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 43,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets (PLT) Count",
+            "result_value": 250,
+            "unit_of_measurement": "thousand/mm3",
+            "reference_range": "150-450 thousand/mm3"
+        }
+    ]
+}

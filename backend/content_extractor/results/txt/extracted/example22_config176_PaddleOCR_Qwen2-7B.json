@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "DrlOgy pAtholOgy LAB L 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin (Hb)": 12.5,
+                "packed cell volume (PCV)": 87.75,
+                "mean corpuscular hemoglobin concentration (MCHC)": 32.8
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "packed_cell_volume": "%",
+                "mean_corpuscular_hemoglobin_concentration": "g/dL"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0- 17.0 g/dL",
+                "packed_cell_volume": "40-50 %",
+                "mean_corpuscular_hemoglobin_concentration": "32.5 - 34.5 g/dL"
+            }
+        }
+    ]
+}

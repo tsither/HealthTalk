@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "XXX",
+        "patient_name": "XX",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Primary Hemoglobin",
+            "result_value": 130,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Ghdy",
+            "result_value": 285,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count (se)",
+            "result_value": 4.1,
+            "unit_of_measurement": "trillion / L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Total Rc Count (tillfcumm)",
+            "result_value": null,
+            "unit_of_measurement": "count/L",
+            "reference_range": "5.0 - 6.5"
+        },
+        {
+            "test_name": "Blood Indices So Cell Volume (pcv)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "41%-50%"
+        }
+    ]
+}

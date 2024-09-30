@@ -1,0 +1,26 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBJ)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "[135, 175]",
+                "female": "[120, 155]"
+            }
+        },
+        {
+            "test_name": "Hemoglobin CBL (125)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

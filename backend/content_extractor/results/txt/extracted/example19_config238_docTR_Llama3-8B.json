@@ -1,0 +1,92 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Shah Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "RBC COUNT": {
+                    "result_value": 57.5,
+                    "reference_range": "27-32 g/dL"
+                },
+                "PCV": {
+                    "result_value": 87.75,
+                    "reference_range": "325-345 U"
+                },
+                "MCV": {
+                    "result_value": 32.8,
+                    "reference_range": null
+                },
+                "MCH": {
+                    "result_value": 13.6,
+                    "reference_range": "80-100 fL"
+                },
+                "MCHC": {
+                    "result_value": 36,
+                    "reference_range": "32-38 g/dL"
+                },
+                "RDW": {
+                    "result_value": 62,
+                    "reference_range": null
+                },
+                "WBC COUNT": {
+                    "result_value": 31,
+                    "reference_range": null
+                },
+                "PLATELET COUNT": {
+                    "result_value": "Normal",
+                    "reference_range": null
+                }
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "40-50 g/dL"
+        },
+        {
+            "test_name": "Blood Volume Indices",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hematocrit (Hct)": {
+                    "result_value": 38.8,
+                    "reference_range": null
+                },
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+                    "result_value": 36,
+                    "reference_range": "32-38 g/dL"
+                }
+            }
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Neutrophils": {
+                    "result_value": 60,
+                    "reference_range": null
+                },
+                "Basophils": {
+                    "result_value": 0.2,
+                    "reference_range": null
+                }
+            }
+        },
+        {
+            "test_name": "Blood Smear",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": "120.5",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "110-130"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        }
+    ]
+}

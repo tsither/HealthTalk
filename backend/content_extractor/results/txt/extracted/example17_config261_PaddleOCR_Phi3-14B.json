@@ -1,0 +1,51 @@
+{
+    "Date": "12/02",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_angle": "150000 - 410000"
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 3.6,
+            "unit_of_measurement": null,
+            "reference_range": "3 - 5"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Eosinophils": 0.6
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": "[1-4]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "pood",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 5.2,
+            "unit_of_measurement": "ml/cumm",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Total Red Blood Cell Count (RBC)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

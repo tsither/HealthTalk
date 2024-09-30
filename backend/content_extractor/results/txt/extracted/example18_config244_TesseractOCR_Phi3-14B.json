@@ -1,0 +1,43 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12.5 g/dl, RBC count: 5.2 mill/cumm, Packed Cell Volume: 57.5%, MCH: 32.8 pg",
+            "unit_of_measurement": "g/dl, mill/cumm, %, pg",
+            "reference_range": {
+                "Hemoglobin": "13.0-17.e g/dl",
+                "RBC count": "4.5-5.5 mill/cumm",
+                "Packed Cell Volume": "40-50 %",
+                "MCH": "28-33 pg"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils: 60%, Lymphocytes: 31%, Eosinophils: 1%, Monocytes: 7%, Basophils: 1%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "40-60 %",
+                "Lymphocytes": "20-40 %",
+                "Eosinophils": "1-6 %",
+                "Monocytes": "2-8 %",
+                "Basophils": "0.5-1 %"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": {
+                "Lower limit": 150000,
+                "Upper limit": 410000
+            }
+        }
+    ]
+}

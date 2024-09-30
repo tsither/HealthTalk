@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 504,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": 9000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 16.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 290000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

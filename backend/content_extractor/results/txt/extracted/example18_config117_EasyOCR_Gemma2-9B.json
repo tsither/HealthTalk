@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White blood cell count",
+            "result_value": 11010,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-11000 cells/µL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 46,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 280000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-450000 cells/µL"
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": 138,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": 4.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0 mmol/L"
+        },
+        {
+            "test_name": "Chloride",
+            "result_value": 102,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "96-106 mmol/L"
+        },
+        {
+            "test_name": "Bicarbonate",
+            "result_value": 25,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "22-26 mmol/L"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 18,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-20 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

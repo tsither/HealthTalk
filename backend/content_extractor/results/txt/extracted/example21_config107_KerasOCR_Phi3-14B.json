@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "thcare rbc",
+            "reference_range": "0123a56789 gb complete bungalow"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 66,
+            "unit_of_measurement": "gidl 271 count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80.5,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "WBC differential on Neutrophils",
+            "result_value": 130,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        }
+    ]
+}

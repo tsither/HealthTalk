@@ -1,0 +1,41 @@
+{
+    "Date": "XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "[FILL] blood count by reference ref gldl",
+            "result_value": 170,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 315400,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "red blood cell distribution width (RDW)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

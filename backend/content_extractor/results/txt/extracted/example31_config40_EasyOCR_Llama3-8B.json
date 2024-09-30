@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "10.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.25 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32 - 5.72 x 10^12/L"
+        },
+        {
+            "test_name": "PMO2 Count",
+            "result_value": "8.11 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "15.35 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4 - 10 x 10^9/L"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "7.26 x 10^9/L (32%)",
+                "Lymphocytes": "6.25 x 10^9/L (32%)",
+                "Eosinophils": "0.58 x 10^9/L (2%)",
+                "Monocytes": "0.48 x 10^9/L (2%)",
+                "Basophils": "0.06 x 10^9/L (0%)"
+            },
+            "unit_of_measurement": "x 10^9/L (%)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1.52 x 10^5/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "1.50 - 4.50 x 10^5/μL"
+        }
+    ]
+}

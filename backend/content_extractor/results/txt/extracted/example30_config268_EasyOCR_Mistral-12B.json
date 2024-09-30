@@ -1,0 +1,47 @@
+{
+    "Date": "DX.XX.XXX",
+    "patient_information": {
+        "patient_id": "01zzasgta6",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6-17.0"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.451,
+            "unit_of_measurement": "10^6/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 67.275,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-410,000"
+        }
+    ]
+}

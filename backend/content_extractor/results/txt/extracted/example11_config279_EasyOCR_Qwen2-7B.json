@@ -1,0 +1,23 @@
+{
+    "Date": "20/10/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": "WBC: 10.2",
+            "unit_of_measurement": "/mm³",
+            "reference_range": "5-10 /mm³"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": "Cholesterol: 240 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": "Less than 200 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8,
+                "Hemoglobina": 14.3,
+                "HMC.": 29,
+                "Leucicitos": 10.2
+            },
+            "unit_of_measurement": {
+                "Hematies": "x 109 /L",
+                "Hemoglobina": "g/dL",
+                "HMC.": "pg",
+                "Leucicitos": "x 106/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica Básica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": "1as*",
+                "Colesterol": 220,
+                "Proteina": 66,
+                "Hierro (I+)": 65,
+                "Ferritina": 20,
+                "Hemoglobina Aic": 4.5,
+                "Got": 800,
+                "Gpt": 800,
+                "Cet": 100,
+                "Silirrubina total": 28,
+                "Bilirrubina directa (Esterificada)": 1.5,
+                "Fostatasa Alcalina": 50,
+                "Albumina": 2.3
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (I+)": "ug/L",
+                "Ferritina": "ng/mL",
+                "Hemoglobina Aic": "%",
+                "Got": "U/L",
+                "Gpt": "U/L",
+                "Cet": "U/L",
+                "Silirrubina total": "mg/dL",
+                "Bilirrubina directa (Esterificada)": "mg/dL",
+                "Fostatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

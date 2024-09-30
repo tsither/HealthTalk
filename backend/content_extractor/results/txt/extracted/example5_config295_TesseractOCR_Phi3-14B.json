@@ -1,0 +1,23 @@
+{
+    "Date": "05.12.2023",
+    "patient_information": {
+        "patient_id": "A123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglokee",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "38.8-50%"
+        }
+    ]
+}

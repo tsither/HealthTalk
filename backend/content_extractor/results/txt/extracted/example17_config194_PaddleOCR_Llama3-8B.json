@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Vimal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": "Borderline",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "150000-410000"
+        },
+        {
+            "test_name": "White Blood Cell Count (%)",
+            "result_value": "32.5-34.5 20",
+            "unit_of_measurement": "%",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Direct Eosinophils (%)",
+            "result_value": "8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count x10^9/L",
+            "result_value": "150000",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "20-04-2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4000-11000 /mm^3"
+        },
+        {
+            "test_name": "Creatinine (Cr)",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

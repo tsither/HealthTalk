@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "x",
+            "reference_range": "Low 15.0- 41.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (Mcv)",
+            "result_value": 81,
+            "unit_eof_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "27.3- 32.2"
+        },
+        {
+            "test_name": "Platelet Count (OMLT)",
+            "result_value": null,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

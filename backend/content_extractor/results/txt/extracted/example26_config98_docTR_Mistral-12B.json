@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemogram",
+            "result_value": {
+                "Hemoglobina": 4.75,
+                "Homalocrito": 13.3,
+                "V.C.M": 83.1,
+                "H.C.M": 27.9,
+                "C.H.C.M": 33.6,
+                "ADE": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Homalocrito": "%",
+                "V.C.M": "fl",
+                "H.C.M": "Pg",
+                "C.H.C.M": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

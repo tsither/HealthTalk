@@ -1,0 +1,21 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as6769",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "male": "13.5 - 17.5",
+                "female": "12.0 - 15.5"
+            },
+            "interpretation": "Low levels may indicate anemia or blood loss. Further testing may be necessary to determine the underlying cause. May also indicate high conditions such as polycythemia vera."
+        }
+    ]
+}

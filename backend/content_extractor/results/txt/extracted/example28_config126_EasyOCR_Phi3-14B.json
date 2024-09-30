@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "F",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "VGM",
+            "result_value": 89.0,
+            "unit_of_measurement": "femtometers^3 (fm^3)",
+            "reference_range": "(24.7 - 25.1) fm^3"
+        },
+        {
+            "test_name": "Pg",
+            "result_value": 10.2,
+            "unit_of_measurement": "X10^6/uL",
+            "reference_range": "(4.5 - 7.3) X1^6/ul"
+        },
+        {
+            "test_name": "I",
+            "result_value": 89,
+            "unit_of_measurement": null,
+            "reference_veeam": null
+        }
+    ]
+}

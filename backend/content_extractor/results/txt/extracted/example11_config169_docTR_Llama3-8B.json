@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "Low": "13.0-17.0",
+                    "High": null
+                },
+                "RBC COUNT Total RBC count": {
+                    "Low": "4.5-5.5",
+                    "High": "40-50"
+                },
+                "Packed Cell Volumne (PCV)": {
+                    "Low": "27.32",
+                    "High": null
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "Low": "83.101",
+                    "High": null
+                },
+                "Carletes MCH": {
+                    "Low": "32.5-34,5",
+                    "High": null
+                },
+                "MCH Cairlsted": {
+                    "Low": "11,6-140",
+                    "High": null
+                },
+                "RDW": {
+                    "Low": "20-40",
+                    "High": null
+                },
+                "WBC COUNT Total WBC count!": {
+                    "Low": null,
+                    "High": "150000"
+                },
+                "DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Fosinophils Monocyies Basophils": {
+                    "Neutrophils": {
+                        "Low": "50",
+                        "High": null
+                    },
+                    "Lymphocytes": {
+                        "Low": "62",
+                        "High": null
+                    },
+                    "Fosinophils": {
+                        "Low": "0-06",
+                        "High": null
+                    },
+                    "Monocyies": {
+                        "Low": "0-10",
+                        "High": null
+                    },
+                    "Basophils": {
+                        "Low": "0-02",
+                        "High": null
+                    }
+                },
+                "PLATELET COUNT Platelet Count": {
+                    "Low": "4000",
+                    "High": "110000"
+                }
+            }
+        }
+    ]
+}

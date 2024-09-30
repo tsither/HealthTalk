@@ -1,0 +1,46 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 105,
+                "Hematocrit (Hct) / PCV": 32.8,
+                "Red Blood Cells (RBC)": 4.7,
+                "Mean Corpuscular Volume (MCV)": 90,
+                "Mean Corpuscular Hemoglobin (MCH)": 15,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null,
+                "Red Cell Distribution Width (RDW)": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Hematocrit (Hct) / PCV": "%",
+                "Red Blood Cells (RBC)": "10^6/µL",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null,
+                "Red Cell Distribution Width (RDW)": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "min": 13.0,
+                    "max": 17.0
+                },
+                "Hematocrit (Hct) / PCV": {
+                    "min": 40.0,
+                    "max": 50.0
+                },
+                "Red Blood Cells (RBC)": {
+                    "min": 4.0,
+                    "max": 5.2
+                }
+            }
+        }
+    ]
+}

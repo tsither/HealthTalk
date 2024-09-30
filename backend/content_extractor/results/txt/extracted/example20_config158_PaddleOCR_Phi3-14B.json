@@ -1,0 +1,41 @@
+{
+    "Date": "02. Dec. 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 6.0,
+            "unit_of_measurement": "d/cc",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_e value": 5.8,
+            "unit_of_measurement": "million cells per microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 17.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": ".9 - 1.5"
+        },
+        {
+            "test_name": "HEMATOCRIT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELETS",
+            "result_value": 150.0,
+            "unit_of_measurement": "thousand per microliter",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

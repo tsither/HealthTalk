@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "+17.0 g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/feumm (assuming mill/liter)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "+27-32 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 50,
+            "unit_of_measurement": "02mm % (assuming cells/μL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "% Monocytes",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": "+80-16%"
+        },
+        {
+            "test_name": "% Eosinophils",
+            "result_value": 2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Date": "20XX-05-02",
+    "patient_information": {
+        "patient_id": "150000",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.6,
+                "RBC": 125,
+                "Hb": 13.4,
+                "HCT": 40.8,
+                "MCV": 89.5,
+                "MCH": 27.2,
+                "MCHC": 30.6,
+                "PLT": 235,
+                "NEU": 61.6,
+                "LYMPH": 27.7,
+                "MONO": 8.7,
+                "EOS": 0.9
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/uL",
+                "NEU": "%",
+                "LYMPH": "%",
+                "MONO": "%",
+                "EOS": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

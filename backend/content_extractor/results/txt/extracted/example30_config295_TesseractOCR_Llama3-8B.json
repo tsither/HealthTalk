@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.9-15.1 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.2,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-10.5 x10^3/uL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 220.1,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "150-350 x10^3/uL"
+        }
+    ]
+}

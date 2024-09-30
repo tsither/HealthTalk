@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "849S9E2160",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "15000",
+                "RBC": "4.6",
+                "HGB": "13.6",
+                "PLT": "278",
+                "LYM": "54",
+                "MON": "5",
+                "EOS": "2",
+                "BASO": "0"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/cumm",
+                "RBC": "10^6 cells/uL",
+                "HGB": "g/dL",
+                "PLT": "cells/uL",
+                "LYM": "%",
+                "MON": "%",
+                "EOS": "%",
+                "BASO": "%"
+            },
+            "reference_range": {
+                "WBC": "15000-41000",
+                "RBC": "3.8-5.6",
+                "HGB": "13.0-17.0",
+                "PLT": "27-32",
+                "LYM": "4.5- 5.5",
+                "MON": "27-32",
+                "EOS": "2-8",
+                "BASO": "0-1"
+            }
+        }
+    ]
+}

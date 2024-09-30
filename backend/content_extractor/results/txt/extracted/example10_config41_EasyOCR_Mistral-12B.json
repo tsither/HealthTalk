@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": "555",
+            "unit_of_measurement": "mo",
+            "reference_range": {
+                "lower_range": "90-340",
+                "upper_range": "410-740"
+            }
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "lower_range": "36-46",
+                "upper_range": "41-53"
+            }
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": {
+                "lower_range": "16.0-24.0",
+                "upper_range": "39.0"
+            }
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": {
+                "lower_range": "6.5-12.5",
+                "upper_range": "14.0"
+            }
+        },
+        {
+            "test_name": "Plateletcrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

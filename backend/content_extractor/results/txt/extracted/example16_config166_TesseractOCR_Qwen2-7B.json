@@ -1,0 +1,29 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2k/uL, RBC: 5.0M/uL, HGB: 13.5g/dL",
+            "unit_of_measurement": "k/uL, M/uL, g/dL",
+            "reference_range": "WBC: 4-11 k/uL, RBC: 4-5.5 M/uL, HGB: 12-16 g/dL"
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "Total Bilirubin: 0.8mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Total Bilirubin: 0.1-1.2 mg/dL"
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "AST: 35U/L, ALT: 28U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "AST: 0-40 U/L, ALT: 0-37 U/L"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "Dec. 2",
+    "patient_information": {
+        "patient_id": "9458T8",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BUN/Creatinine Ratio",
+            "result_value": 23.45,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC": 10.5,
+                "RBC": 4.5,
+                "Hb": 12.5,
+                "Hct": 37.1,
+                "Plat": 289
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plat": "K/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

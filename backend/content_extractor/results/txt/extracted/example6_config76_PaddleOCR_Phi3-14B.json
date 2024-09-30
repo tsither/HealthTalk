@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "HEMOGLOBIN: 12.5, RBC COUNT: Low",
+            "unit_of_measurement": null,
+            "reference_range": "Hb: 13.0-17.nf, RBC Count: Normal"
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "PCV: Mean, MCV: 7P/6, Calculatec: High, MCH: 87.75 mill/cumm, RDW%: 32.8",
+            "unit_of_measurement": null,
+            "reference_range": "PCV: Normal, MCV: 40-50 fL, Calculatec: Low, MCH: 40-50 pg/cell, RDW%: 27-32%"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils: 40%, Lymphocytes: 60%, Eosinophils: %, Monocytes: 31% cumm, Basophils: %",
+            "unit_of_measurement": null,
+            "reference_range": "Basically all within normal range (Neutrophils: 40-75%, Lymphocytes: 25-48%, Eosinophils: 1.9-6.5%, Monocytes: 3-7% cumm, Basophils: 0.5-1%) except eosinophils and basophils"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "% - % %",
+            "unit_of_measurement": null,
+            "reference_range": "Normal range (%)"
+        }
+    ]
+}

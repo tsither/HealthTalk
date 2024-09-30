@@ -1,0 +1,21 @@
+{
+    "Date": "04 Feb 2022 09:00 AM",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Vash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "Low": 13.8,
+                "High": 17.5
+            },
+            "interpretation": "Low Levels | May Indicate anemia or blood loss. Further testing may be necessary to determine the underlying cause."
+        }
+    ]
+}

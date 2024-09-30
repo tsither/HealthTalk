@@ -1,0 +1,45 @@
+{
+    "Date": "Dec. 20XX",
+    "patient_information": {
+        "patient_id": "555678",
+        "patient_name": "Shivam Shah Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC count": 60,
+                "RBC count": 57.5,
+                "Hb": 13.0,
+                "PCV": 87.75,
+                "MCV": 27.2,
+                "MCH": 13.6,
+                "MCHC": 90,
+                "RDW": null,
+                "Platelet count": 300
+            },
+            "unit_of_measurement": {
+                "WBC count": "10^3/uL",
+                "RBC count": "/L",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": null,
+                "Platelet count": "/uL"
+            },
+            "reference_range": {
+                "RBC count": "4.5 - 5.5 M/L",
+                "Hb": "13.0 - 17.0 g/dL",
+                "PCV": "32.5 - 34.5 %",
+                "MCV": "14.0 fL",
+                "MCH": null,
+                "MCHC": "50-62 g/L",
+                "RDW": null
+            }
+        }
+    ]
+}

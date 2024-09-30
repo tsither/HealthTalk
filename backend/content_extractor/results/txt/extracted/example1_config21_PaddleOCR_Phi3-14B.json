@@ -1,0 +1,94 @@
+{
+    "Date": "02.12.20xx",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Primary Sample Type",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMOGLOBIN Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.^"
+        },
+        {
+            "test_name": "RBC COUNT Low Total RBC count",
+            "result_value": 4.6,
+            "unit_of_measurement": "T/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES Packed Cell Volume (PCV)",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV) High",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "MCH % Calculated",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW pg",
+            "result_value": 13.6,
+            "unit_of_measurement": "pg",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "WBC COUNT Itholog %",
+            "result_value": 7.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": ".boro Neutrophils cumm Lymphocytes",
+            "result_value": [
+                4000,
+                11000
+            ],
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": ".boro Eosinophils",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": ".boro Monocytes",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": ".boro Basophils",
+            "result_value": 13600,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count %",
+            "result_value": [
+                150000
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": "150000-410000"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SEPSIS SCREEN",
+            "result_value": 1.02,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "<0.9"
+        },
+        {
+            "test_name": "ALBUMIN",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Globulin (CALCULATED)",
+            "result_value": 4.25,
+            "unit_of_measurement": "g/dL",
+            "reference_range": ">3.5"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ALB/GLOBULIN RATIO",
+            "result_value": 1.01,
+            "unit_of_measurement": "g/dL",
+            "reference_range": ">0.7"
+        },
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (aPTT) ",
+            "result_value": 0.98,
+            "unit_of_measurement": "%",
+            "reference_range": ">80%"
+        },
+        {
+            "test_name": "Fibrinogen (CLINICAL)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "D-dimer",
+            "result_value": 5.32,
+            "unit_of_measurement": "microg/mL",
+            "reference_range": "<1"
+        }
+    ]
+}

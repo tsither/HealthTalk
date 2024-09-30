@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematology - Red Blood Cell Indices",
+            "result_value": 50.48,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Normal",
+            "unit_of_measurement": "Not Applicable",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV)",
+            "result_value": 90.1,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 13.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

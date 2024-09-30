@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": "150000",
+            "unit_of_measurement": "count",
+            "reference_range": "Reference range not available"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "95",
+            "unit_of_measurement": null,
+            "reference_range": "(80-100)"
+        }
+    ]
+}

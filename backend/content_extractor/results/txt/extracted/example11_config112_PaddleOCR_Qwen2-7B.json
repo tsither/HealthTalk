@@ -1,0 +1,54 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Pate",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "Total RBC count": {
+                    "min": 4.5,
+                    "max": 5.5
+                },
+                "Packed Cell Volume (PCV)": {
+                    "min": 40,
+                    "max": 50
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "min": 83,
+                    "max": 101
+                },
+                "MCH": {
+                    "min": 27,
+                    "max": 32
+                },
+                "Calculated MCHC": {
+                    "min": 32.5,
+                    "max": 34.5
+                },
+                "RDW": {
+                    "min": 11.6,
+                    "max": 14.0
+                },
+                "Total WBC count": {
+                    "min": 4000,
+                    "max": 11000
+                },
+                "Platelet Count": {
+                    "min": 150000,
+                    "max": 410000
+                }
+            }
+        }
+    ]
+}

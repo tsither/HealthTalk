@@ -1,0 +1,29 @@
+{
+    "Date": "dec vt",
+    "patient_information": {
+        "patient_id": "01235678",
+        "patient_name": "shivam olo",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": 125,
+            "unit_of_measurement": "cells x10^9/L",
+            "reference_range": "108-324"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 45.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "plateletcrit",
+            "result_value": 75.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

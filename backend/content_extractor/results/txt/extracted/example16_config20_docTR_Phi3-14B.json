@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Total",
+            "result_value": 57.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 60,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "4.5-10.0"
+        }
+    ]
+}

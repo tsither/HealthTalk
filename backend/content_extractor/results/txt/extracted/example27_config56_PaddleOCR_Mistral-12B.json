@@ -1,0 +1,113 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "HEMATIES": 4.96,
+                "LEUCOCITOS": 3.27,
+                "HEMATOCRITO": 44,
+                "CAYADOS": 0,
+                "HEMOGLOBINA%": 14.8,
+                "SEGMENTADOS": 51,
+                "LINFOCITOS": 36,
+                "PIAQUETAS/mm'": 138.0,
+                "MONOCITOS": 10,
+                "VCM": 88.7,
+                "HICM": 29.8,
+                "CHCM": 33.6,
+                "VELOCIDAD DE SEDIMENTACION": -2
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBINA%": "%",
+                "LEUCOCITOS": "/mm³",
+                "HEMATIES": "/mn³",
+                "HICM": "fL",
+                "CHCM": "fL",
+                "VCM": "FL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "HDL": 60,
+                "TRIGLICERIDOS": 45,
+                "UREA": 19,
+                "Ac.URICO": 4.5,
+                "HIERRO": 145,
+                "CREATININA": 0.6,
+                "HOMOCISTEINA": 7.39,
+                "PROTEINAS TOTALES": 7.5
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg%",
+                "COLESTEROL": "mg%",
+                "HDL": "mg%",
+                "TRIGLICERIDOS": "mg%",
+                "UREA": "mg%",
+                "Ac.URICO": null,
+                "HIERRO": "μg%",
+                "CREATININA": "mg%",
+                "HOMOCISTEINA": "mmol/L",
+                "PROTEINAS TOTALES": "gr%"
+            },
+            "reference_range": {
+                "GLUCOSA": "70-100 mg%",
+                "COLESTEROL": "150-220 mg%",
+                "HDL": "35-65 mg%",
+                "TRIGLICERIDOS": "<150 mg%",
+                "UREA": "19-50 mg%",
+                "Ac.URICO": null,
+                "HIERRO": "50-160 μg%",
+                "CREATININA": "0,5-1.2 mg%",
+                "HOMOCISTEINA": "5.46-16.2 mmol/L",
+                "PROTEINAS TOTALES": "6.2-8.2 gr%"
+            }
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": {
+                "GOT": 40,
+                "GPT": 43,
+                "GT": 45
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GT": "U/L"
+            },
+            "reference_range": {
+                "GOT": "<40 U/L",
+                "GPT": "<40 U/L",
+                "GT": "11-50 U/L"
+            }
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 98,
+                "POTASIO": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": {
+                "SODIO": "135-145 mEq/L",
+                "CLORO": "98-110 mEq/L",
+                "POTASIO": "3.7-5.4 mEq/L"
+            }
+        }
+    ]
+}

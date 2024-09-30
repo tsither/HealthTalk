@@ -1,0 +1,41 @@
+{
+    "Date": "Dec 202X",
+    "patient_information": {
+        "patient_id": "1250123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "4.75 million cells/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4.5-6.0 million cells/mm³"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "91.1 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "82-99 fL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "7,750 cells/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4,500 - 11,000 cells/mm³"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "325,400 platelets/mm³",
+            "unit_of_measurement": "platelets/mm³",
+            "reference_range": "150,000 - 450,000 platelets/mm³"
+        }
+    ]
+}

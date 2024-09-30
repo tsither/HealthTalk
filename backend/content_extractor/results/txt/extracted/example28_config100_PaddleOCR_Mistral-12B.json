@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 13.5,
+                "Hto": 42.0,
+                "Ht": 37.0,
+                "PCV": 0.37,
+                "MCV": 89.0,
+                "MCH": 29.0,
+                "MCHC": 32.0,
+                "PLT": 106.0,
+                "WBC": 6.8
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dl",
+                "Hto": "%",
+                "Ht": "%",
+                "PCV": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dl",
+                "PLT": "x10^3/μl",
+                "WBC": "x10^3/μl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": 2.8,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "18 years"
+    },
+    "test_results": [
+        {
+            "test_name": "platelets",
+            "result_value": "555",
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": "100-450 thousands/µL"
+        },
+        {
+            "test_name": "PDW",
+            "result_value": "170",
+            "unit_of_measurement": "fL",
+            "reference_range": "8-11 fL"
+        }
+    ]
+}

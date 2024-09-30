@@ -1,0 +1,26 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "ONI555PM",
+        "patient_name": "Shivam Bungalow S.G. Road Mumbai",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": {
+                "male": {
+                    "low": 135,
+                    "high": 175
+                },
+                "female": {
+                    "low": 120,
+                    "high": 155
+                }
+            }
+        }
+    ]
+}

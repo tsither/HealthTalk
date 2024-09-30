@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a567e9",
+        "patient_name": "Urogathaoros Cora",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.2,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.5-11"
+        }
+    ]
+}

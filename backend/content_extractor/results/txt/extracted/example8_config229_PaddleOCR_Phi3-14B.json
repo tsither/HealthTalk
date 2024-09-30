@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "Sample Collected At": {
+            "Date": null,
+            "Location": "Shivam Bungalow, S G Road"
+        },
+        "Collected on": {
+            "Time": "03:i1 P.M."
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb) Investigation Result",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl.",
+            "reference_range": {
+                "Low": null,
+                "High": "13.5 - 17.5"
+            },
+            "interpretation": "Hemoglobin : Interpretation ... . Low Levels May indicate anemia or blood loss."
+        }
+    ]
+}

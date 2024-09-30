@@ -1,0 +1,95 @@
+{
+    "Date": "02 Dec, 27",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "57.5",
+            "unit_of_measurement": "million cells/µL",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "TOTAL RBC VOLUME (PCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "PACKED CELL VOLUME (MCV)",
+            "result_value": "32.8",
+            "unit_of_measurement": "fL",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "MEAN CORPUSCULAR HEMOGLOBIN (MCH)",
+            "result_value": "27.2",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MEAN CORPUSULAR HEMOGLOBIN CONCENTRATION (MCHC)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RED CELL DISTRIBUTION WIDTH (RDW)",
+            "result_value": "9000",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "60",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "40-10.0 * 10^9 /L"
+        },
+        {
+            "test_name": "NEUTROphils",
+            "result_value": "31",
+            "unit_of_measurement": "%",
+            "reference_range": "40-60%"
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": "00",
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "EOSINOPHILS",
+            "result_value": "41",
+            "unit_of_measurement": "%",
+            "reference_range": "1-6%"
+        },
+        {
+            "test_name": "MONOCYTES",
+            "result_value": "00",
+            "unit_of_measurement": "%",
+            "reference_range": "2-8%"
+        },
+        {
+            "test_name": "BASOPHILS",
+            "result_value": "15",
+            "unit_of_measurement": "%",
+            "reference_range": "0-1%"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "300",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        }
+    ]
+}

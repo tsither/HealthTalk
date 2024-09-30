@@ -1,0 +1,81 @@
+{
+    "Date": "02.12.202",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "WOO Yash M. Patel . Sigaxe)",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC_COUNT": 5.2,
+                "BLOOD_INDICES": [
+                    {
+                        "Packed Cell Volume (PCV)": 57.5
+                    },
+                    {
+                        "Mean Corpuscular Volume (MCV)": 87.75
+                    },
+                    {
+                        "MCHC": 32.8
+                    }
+                ],
+                "DIFFERENTIAL_WBC_COUNT": [
+                    {
+                        "Neutrophils": 60
+                    },
+                    {
+                        "Lymphocytes": 31
+                    },
+                    {
+                        "Eosinophils": 0
+                    },
+                    {
+                        "Monocytes": 7
+                    },
+                    {
+                        "Basophils": 1
+                    }
+                ],
+                "PLATELET_COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC_COUNT": "mill/eumm",
+                "BLOOD_INDICES": [
+                    "%"
+                ],
+                "DIFFERENTIAL_WBC_COUNT": [
+                    "%"
+                ]
+            },
+            "reference_range": {
+                "HEMOGLOBIN": [
+                    13.0,
+                    17.0
+                ],
+                "RBC_COUNT": [
+                    45,
+                    55
+                ],
+                "BLOOD_INDICES": {
+                    "Packed Cell Volume (PCV)": [
+                        40,
+                        50
+                    ],
+                    "Mean Corpuscular Volume (MCV)": [
+                        83,
+                        101
+                    ]
+                },
+                "PLATELET_COUNT": [
+                    150000,
+                    410000
+                ]
+            }
+        }
+    ]
+}

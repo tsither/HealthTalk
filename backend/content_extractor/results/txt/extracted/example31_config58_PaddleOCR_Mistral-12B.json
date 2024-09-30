@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Result",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "94.5 fl",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "316000 /µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000 - 450000 /µL"
+        }
+    ]
+}

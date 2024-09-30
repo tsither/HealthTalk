@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "Normal reference range not provided"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 100,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Total Count",
+            "result_value": 4.52,
+            "unit_of_measurement": "Millions per microliter (mL)",
+            "reference_range": "4-5.5 x 10^12 cells/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 50,
+            "unit_of_measurement": null,
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "RBC Packed Cell Volume (PCV) or Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "Thousands per microliter (mL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 52%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.28,
+            "unit_of_measurement": "Thousands per microliter (mL)",
+            "reference_range": null
+        }
+    ]
+}

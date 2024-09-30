@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Elein Yash Ma Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 454,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": "platelets/mm³",
+            "reference_range": "150000-400000"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 4.8,
+            "unit_of_measurement": "*",
+            "reference_range": "13.0 - 20.5"
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular (VSG)",
+            "result_value": null,
+            "unit_of_measurement": "*",
+            "reference_range": "0 - 15 mm/hr"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 6.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Colesterol Total",
+            "result_value": 110.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "95 - 200"
+        },
+        {
+            "test_name": "Colesterol HDL (colesterol bueno)",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ">40 mg/dL"
+        },
+        {
+            "test_name": "Colesterol LDL (colesterol malo)",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<130 mg/dL"
+        },
+        {
+            "test_name": "Colesterol VLDL (colesterol intermedio)",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<40 mg/dL"
+        },
+        {
+            "test_name": "Triglicéridos",
+            "result_value": 165,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<150 mg/dL"
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7 - 1.3"
+        }
+    ]
+}

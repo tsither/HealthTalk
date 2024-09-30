@@ -1,0 +1,54 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "status": "Low"
+                },
+                "RBC COUNT": {
+                    "value": 5.2,
+                    "status": "45-55 mill/cumm"
+                },
+                "PACKED CELL VOLUME (PCV)": {
+                    "value": 7.5,
+                    "status": "High"
+                },
+                "MEAN CORPUSCULAR VOLUME (MCV)": {
+                    "value": 87.75
+                },
+                "COMPUTATED MCH": {
+                    "value": 27.2
+                },
+                "COMPUTATED MCHC": {
+                    "value": 32.8
+                },
+                "CAKAGATED moe RDW": {
+                    "value": 13.6
+                }
+            }
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": {
+                "value": 9000,
+                "status": "4000-11000"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 150000,
+                "status": "Borderline"
+            }
+        }
+    ]
+}

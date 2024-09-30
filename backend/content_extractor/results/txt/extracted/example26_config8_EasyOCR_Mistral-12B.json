@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobin": 4.75,
+                "Hematocrito": 13.3,
+                "VCM": 92.5,
+                "HCM": 83.1,
+                "CHCM": 27.9,
+                "ADE": 33.6,
+                "Plaquetas": 208
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrito": "%",
+                "VCM": "fL",
+                "HCM": "%",
+                "CHCM": "%",
+                "ADE": "%",
+                "Plaquetas": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": null,
+                "Hematocrito": null,
+                "VCM": null,
+                "HCM": null,
+                "CHCM": null,
+                "ADE": null,
+                "Plaquetas": null
+            }
+        },
+        {
+            "test_name": "Leucograma",
+            "result_value": {
+                "Neutrofilos": 2.1,
+                "Linfocitos": 1.5,
+                "Monocitos": 0.5,
+                "Eosinofilos": 0.1,
+                "Basofilos": 0.0
+            },
+            "unit_of_measurement": {
+                "Neutrofilos": "10^3/uL",
+                "Linfocitos": "10^3/uL",
+                "Monocitos": "10^3/uL",
+                "Eosinofilos": "10^3/uL",
+                "Basofilos": "10^3/uL"
+            },
+            "reference_range": {
+                "Neutrofilos": null,
+                "Linfocitos": null,
+                "Monocitos": null,
+                "Eosinofilos": null,
+                "Basofilos": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.5-15.0"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 250000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

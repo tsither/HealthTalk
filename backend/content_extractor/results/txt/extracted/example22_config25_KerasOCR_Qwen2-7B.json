@@ -1,0 +1,84 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "091234676",
+        "patient_name": "0123a56769",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_age_unit": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 170,
+            "unit_of_measurement": "cumm blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (GHB)",
+            "result_value": 555,
+            "unit_of_measurement": "",
+            "reference_range": [
+                130,
+                170
+            ]
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "l",
+            "reference_range": [
+                "<= 5.7*10^6/cumm",
+                "> 4.0*10^6/cumm"
+            ]
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": [
+                85,
+                100
+            ]
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": [
+                "<=3.6%",
+                ">42%"
+            ]
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 101,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cells) Count",
+            "result_value": [
+                10,
+                86
+            ],
+            "unit_of_measurement": "",
+            "reference_range": [
+                "<=2.5*10^9/l",
+                ">4.0*10^9/l"
+            ]
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 50000,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

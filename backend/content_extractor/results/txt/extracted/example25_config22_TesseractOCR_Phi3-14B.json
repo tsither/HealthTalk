@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 9.7,
+            "unit_of_measurement": "g g/dl",
+            "reference_range": "10-16"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 28.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Volumen Corpuscular Medio (VCM)",
+            "result_value": 69.0,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina corpuscular media (HCM)",
+            "result_value": 33.8,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

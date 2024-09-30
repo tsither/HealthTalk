@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "L 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "13.0 - 17.0 fL"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "83 cumm",
+            "unit_of_measurement": "",
+            "reference_range": "27 - 32 fL"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": "4.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "17 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "17%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

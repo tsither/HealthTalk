@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah Shivam 125",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC count": "10 x 10^9/L",
+                "RBC count": "4.57 x 10^12/L",
+                "Hb": "13.0 g/dL",
+                "HCT": "40%",
+                "MCV": "81.7 fL",
+                "MCH": "26 pg",
+                "MCHC": "32 g/dL",
+                "RDW": "15%",
+                "PLT count": "300 x 10^9/L",
+                "NEUT": "41%",
+                "LYMPH": "58%",
+                "EOS": "<1%",
+                "MONO": "<1%"
+            },
+            "unit_of_measurement": {
+                "WBC count": "x 10^9/L",
+                "RBC count": "x 10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "PLT count": "x 10^9/L",
+                "NEUT": "%",
+                "LYMPH": "%",
+                "EOS": "%",
+                "MONO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

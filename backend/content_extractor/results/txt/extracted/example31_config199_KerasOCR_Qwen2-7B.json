@@ -1,0 +1,41 @@
+{
+    "Date": "unknown",
+    "patient_information": {
+        "patient_id": "patel",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "red blood cell distribution width (RDW)",
+            "result_value": 17.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 328,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012456189",
+        "patient_name": "Payal Dee",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 170,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 55,
+            "unit_of_measurement": "x10^9/L",
+            "reference_narege": "[FILL]"
+        },
+        {
+            "test_name": "Differential Cumulative Percentage (DP)",
+            "result_value": [
+                23.7,
+                56.4,
+                18.2
+            ],
+            "unit_of_measurement": "[FILL]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 300,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

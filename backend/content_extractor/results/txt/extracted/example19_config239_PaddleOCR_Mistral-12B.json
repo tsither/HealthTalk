@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (Cbc)",
+            "result_value": {
+                "Hemoglobin (Hb)": 83,
+                "Total RBC count": 57.5,
+                "Blood Indices": {
+                    "Mean Corpuscular Volume (MCV)": 27.2,
+                    "Red Cell Distribution Width (RDW-SD)": 16.9,
+                    "Hemoglobin Concentration (MCH)": 32.0,
+                    "Mean Corpuscular Hemoglobin Concentration (MCHC)": 93.6
+                },
+                "White Blood Cell (WBC) count": 87.75,
+                "Differential WBC count": {
+                    "Neutrophils": 71.5,
+                    "Lymphocytes": 24,
+                    "Eosinophils": 0,
+                    "Monocytes": 3,
+                    "Basophils": 0
+                },
+                "Platelet Count": 300
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Blood Indices": {
+                    "Mean Corpuscular Volume (MCV)": "fL",
+                    "Red Cell Distribution Width (RDW-SD)": "%",
+                    "Hemoglobin Concentration (MCH)": "pg",
+                    "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL"
+                },
+                "White Blood Cell (WBC) count": "cells/μL",
+                "Platelet Count": "cells/mm³"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "4.5-5.5 mill/cumm",
+                "Blood Indices": {
+                    "Mean Corpuscular Volume (MCV)": "80-100 fL",
+                    "Red Cell Distribution Width (RDW-SD)": "12.0-16.0 %",
+                    "Hemoglobin Concentration (MCH)": "27-31 pg",
+                    "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32.0-36.0 g/dL"
+                },
+                "White Blood Cell (WBC) count": "32.5-34.5 cells/μL",
+                "Platelet Count": "150,000-450,000 cells/mm³"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "Date": "02.Dec.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular Volume (MCV)": null,
+                "Calculated MCH": null,
+                "Calculated MCHC": null,
+                "Calculated RDW": 41.6,
+                "wBC COUNT Total WBC count": 8500,
+                "Neutrophils": 58,
+                "Lymphocytes": 35,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dl",
+                "Total RBC count": "mill/curmm",
+                "wBC COUNT Total WBC count": "cells/μL"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "13.0- 17.e g/dl",
+                "Total RBC count": "4.5-5.5 mill/curmm",
+                "wBC COUNT Total WBC count": null,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            }
+        }
+    ]
+}

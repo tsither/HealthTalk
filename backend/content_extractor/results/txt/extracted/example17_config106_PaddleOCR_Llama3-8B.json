@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "RBC (Total)",
+            "result_value": 4.5,
+            "unit_of_measurement": "Million / cubic mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "g/cu.mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 10800,
+            "unit_of_measurement": "/cu.mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 60,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

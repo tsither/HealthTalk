@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": "10.9 fl hematies",
+            "unit_of_measurement": "fl",
+            "reference_range": null,
+            "hemoglobina": "14 g/l",
+            "vcm": "84 fl",
+            "hct": "29%",
+            "leucocitos": "10.6 x10^3/uL"
+        },
+        {
+            "test_name": "Quimica sanguinea",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null,
+            "glucosa": "1 mg/dL",
+            "creatinina": "1.1 mg/dL",
+            "colesterol total": "200 mg/dL",
+            "proteinas totales": "8 g/dL",
+            "ferritina": "170 ng/mL",
+            "hemoglobina a1c": "5.4%"
+        },
+        {
+            "test_name": "Pruebas de funcion hepatica",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null,
+            "bilirrubina directa": "<0.8 mg/dL",
+            "fosfatasa alcalina": "50 IU/L",
+            "albumina": "4.9 g/dL"
+        }
+    ]
+}

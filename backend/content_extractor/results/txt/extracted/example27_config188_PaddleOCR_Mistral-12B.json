@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "FORHULA",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "LEUCOCTARLA RTOCCLAR",
+            "result_value": 10.4,
+            "unit_of_measurement": "AT/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": 16.5,
+            "unit_of_measurement": "CCSA",
+            "reference_range": "+"
+        },
+        {
+            "test_name": "CREATA",
+            "result_value": 0.739,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 145,
+                "POTASIO": 4.02,
+                "CLORURO": 103,
+                "BICARBONATO": null
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "POTASIO": "mEq/L",
+                "CLORURO": "mEq/L",
+                "BICARBONATO": null
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 37.5,
+                "Mean Corpuscular Volume (MCV)": 89,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "WBC count": 4000,
+                "Neutrophils": 60,
+                "Lymphocytes": 50,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 0,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "10^6/uL",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "WBC count": "/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0 g/dL",
+                "Total RBC count": "4.5 - 5.5 8LOO0 Indices mill/cumm",
+                "Packed Cell Volume (PCV)": "40.50 %",
+                "Mean Corpuscular Volume (MCV). ": "83 - 101 fl",
+                "MCH": "27-32 pg",
+                "MCHC": "32.5- 34.3 g/dL",
+                "WBC count": null,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

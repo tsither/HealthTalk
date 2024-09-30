@@ -1,0 +1,23 @@
+{
+    "Date": "18.02.23",
+    "patient_information": {
+        "patient_id": "LIP-234567",
+        "patient_name": "Alex Johnson",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5.1,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "4.0-7.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

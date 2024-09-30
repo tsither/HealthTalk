@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 X 109/",
+                "Hemoglobina": "14.3 g/l",
+                "VCM": "89 fl",
+                "H.M.C.": "29 Pg",
+                "Leucicitos": "10,2 X 106"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "97 mg/dL",
+                "Creatinina": "<1.0 mg/dL",
+                "Colesterol": "204 mg/dL",
+                "Proteina": ">8 g/dL",
+                "Hierro (I+I)": "65 µg/dL",
+                "Ferritina": null,
+                "HemoglobinaAlc": null,
+                "GOT": "37 U/L",
+                "GPT": "79 U/L",
+                "GGT": "108 U/L",
+                "Bilirrubina total": "0.8 mg/dL",
+                "Fostatasa Alcalina": "176 U/L",
+                "Albumina": "4 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (I+I)": "µg/dL",
+                "HemoglobinaAlc": null,
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Fostatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

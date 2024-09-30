@@ -1,0 +1,124 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Recuento Globular Hematies",
+            "result_value": 4960000,
+            "unit_of_measurement": "mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "37-53"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 44,
+            "unit_of_measurement": "Uds/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Formula Leucocitaria",
+            "result_value": {
+                "PLAQUETAS": 148000,
+                "EOSINOFILOS": 3.27,
+                "CAYADOS": 138000,
+                "SEGMENTADOS": 2887,
+                "LINFOCITOS": 0,
+                "MONOCITOS": 336,
+                "BASOFILOS": 10
+            },
+            "unit_of_measurement": "Uds",
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de Sedimentacion",
+            "result_value": 1,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica Sérica",
+            "result_value": {
+                "GLUCOSA": 2,
+                "COLESTEROL": 87,
+                "HDL": 169,
+                "TRIGLICERIDOS": 60,
+                "UREA": 100,
+                "AC.URICO": 45,
+                "HIERRO": 19,
+                "CREATININA": 4.5,
+                "HOMOCISTEINA": 145,
+                "PROTEINAST": 0.6
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg%",
+                "COLESTEROL": "mg%",
+                "HDL": "mg%",
+                "TRIGLICERIDOS": "mg%",
+                "UREA": "mg%",
+                "AC.URICO": "mg%",
+                "HIERRO": "mg%",
+                "CREATININA": "mg%",
+                "HOMOCISTEINA": "mg%",
+                "PROTEINAST": "g%"
+            },
+            "reference_range": {
+                "GLUCOSA": "70-110mg%",
+                "COLESTEROL": null,
+                "HDL": null,
+                "TRIGLICERIDOS": "150-220 mg%",
+                "UREA": "35-65 mg%",
+                "AC.URICO": "45 hasta 140 mg%",
+                "HIERRO": null,
+                "CREATININA": "0,7-1,5 mg%",
+                "HOMOCISTEINA": null,
+                "PROTEINAST": "50-160 g%"
+            }
+        },
+        {
+            "test_name": "Pruebas Enzimaticas",
+            "result_value": 7.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "5,46-16,2 mmol/L"
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": null,
+                "POTASIO": 86
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "CLORO": null,
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": {
+                "SODIO": "135-145 mEq/L",
+                "CLORO": null,
+                "POTASIO": "98-110 mEq/L"
+            }
+        }
+    ]
+}

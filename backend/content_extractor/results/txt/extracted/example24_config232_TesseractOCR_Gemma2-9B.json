@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb A1c",
+            "result_value": "5.8",
+            "unit_of_measurement": "%",
+            "reference_range": "4.0 - 5.6%"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": "227",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": "65",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40-60 mg/dL for men, 50-70 mg/dL for women"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": "148",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<100 mg/dL"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": "165",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40-150 mg/dL"
+        }
+    ]
+}

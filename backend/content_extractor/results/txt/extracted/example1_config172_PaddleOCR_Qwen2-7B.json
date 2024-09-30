@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patery",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": [
+                "cells/uL",
+                "mg/dL",
+                "%"
+            ],
+            "reference_range": {
+                "Total WBC count": {
+                    "high": 150000,
+                    "low": 410000
+                },
+                "Total RBC count": {
+                    "low": 11.6,
+                    "high": 14.0
+                },
+                "MCHC (Mean Corpuscular Hemoglobin Concentration)": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "PCV (Packed Cell Volume)": {
+                    "low": 27,
+                    "high": 32
+                },
+                "MCV (Mean Corpuscular Volume)": {
+                    "low": 4.5,
+                    "high": 5.5
+                }
+            }
+        }
+    ]
+}

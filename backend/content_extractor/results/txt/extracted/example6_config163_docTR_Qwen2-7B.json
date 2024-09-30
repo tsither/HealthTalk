@@ -1,0 +1,65 @@
+{
+    "Date": "02/Dec/2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "Sample_Collected_At": "125, Shivam Bungalow. S G Road"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5",
+                "RBC_COUNT": "5,2",
+                "PCV": "57.5",
+                "MCV": "fL",
+                "MCH": "",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC_COUNT": "32.8",
+                "DIFFERENTIAL_WBC_COUNT": {
+                    "Neutrophils": "13.6",
+                    "Lymphocytes": "9000",
+                    "Fosinophils": "",
+                    "Monocytes": "1",
+                    "Basophils": "7"
+                },
+                "PLATELET_COUNT": "150,000"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC_COUNT": "",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC_COUNT": "",
+                "Neutrophils": "/cumm",
+                "Lymphocytes": "/cumm",
+                "Fosinophils": "",
+                "Monocytes": "/cumm",
+                "Basophils": "/cumm",
+                "PLATELET_COUNT": "u/cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC_COUNT": "",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC_COUNT": "4.5-5.5 /cumm",
+                "Neutrophils": "",
+                "Lymphocytes": "",
+                "Fosinophils": "",
+                "Monocytes": "",
+                "Basophils": "",
+                "PLATELET_COUNT": "200-400 u/cumm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shah Shivam Smart",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 36.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Leukocyte Count (TLC)",
+            "result_value": 15000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 202,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

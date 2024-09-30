@@ -1,0 +1,71 @@
+{
+    "Date": "01.03.2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell Count": 6.2,
+                "Red Blood Cell Count": 4.8,
+                "Hemoglobin": 13.5,
+                "Platelet Count": 250
+            },
+            "unit_of_measurement": {
+                "White Blood Cell Count": "10^9/L",
+                "Red Blood Cell Count": "10^12/L",
+                "Hemoglobin": "g/dL",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cell Count": [
+                    4.5,
+                    11
+                ],
+                "Red Blood Cell Count": [
+                    4.5,
+                    6
+                ],
+                "Hemoglobin": [
+                    13.5,
+                    17.5
+                ],
+                "Platelet Count": [
+                    150,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": {
+                "Glucose": 98,
+                "Total Protein": 7.2,
+                "Albumin": 4.2
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL"
+            },
+            "reference_range": {
+                "Glucose": [
+                    70,
+                    99
+                ],
+                "Total Protein": [
+                    6.4,
+                    8.3
+                ],
+                "Albumin": [
+                    3.5,
+                    5
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Date": "02/31/02",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12,
+            "unit_of_measurement": "s/dL",
+            "reference_range": {
+                "male": "155 g/L",
+                "female": "120 g/L"
+            }
+        }
+    ]
+}

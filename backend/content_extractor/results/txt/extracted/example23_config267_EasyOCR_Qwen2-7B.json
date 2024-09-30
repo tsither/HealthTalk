@@ -1,0 +1,23 @@
+{
+    "Date": "12/03/2023",
+    "patient_information": {
+        "patient_id": "P0123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": "WBC: 7.0, RBC: 5.2, HGB: 13.5, HCT: 38, MCV: 92, RDW: 14",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 190 mg/dL, HDL Cholesterol: 50 mg/dL, LDL Cholesterol: 120 mg/dL, Triglycerides: 140 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ""
+        }
+    ]
+}

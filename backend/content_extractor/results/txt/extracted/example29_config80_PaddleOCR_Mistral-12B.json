@@ -1,0 +1,39 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 87.75
+        },
+        {
+            "test_name": "Blood Packed Cell Volume (PCV)",
+            "result_value": 40,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 27.2,
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 32.8
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 60,
+            "unit_of_measurement": "g/dL"
+        }
+    ]
+}

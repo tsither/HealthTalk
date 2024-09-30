@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "13.0",
+                "HCT": "39.2",
+                "MCV": "77.5",
+                "MCH": "27.0",
+                "MCHC": "35.0",
+                "PLT": "245,000"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.4 - 6.2",
+                "Hb": "13.0 - 17.0",
+                "HCT": "40.0 - 52.0",
+                "MCV": "80.0 - 96.0",
+                "MCH": "27.0 - 33.0",
+                "MCHC": "32.0 - 36.0",
+                "PLT": "150,000 - 450,000"
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

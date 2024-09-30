@@ -1,0 +1,29 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "Vimal Shah",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "69.0",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "< 09 7P/6"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "13.6",
+            "unit_of_measurement": "",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Cell Volume (PCV)",
+            "result_value": "12.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

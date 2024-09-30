@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red blood cells: 4.5 million/µL",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "Reference range for Red Blood Cells: 4-6 million/µL"
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": "8,000 cells/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "Reference range for White Blood Cells: 4,500-11,000 cells/µL"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "250,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "Reference range for Platelets: 150,000-450,000/µL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14 grams/dL",
+            "unit_of_measurement": "grams/dL",
+            "reference_range": "Reference range for Hemoglobin: 13-18 grams/dL (males), 12-16 grams/dL (females)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "42%",
+            "unit_of_measurement": "%",
+            "reference_range": "Reference range for Hematocrit: 40-54% (males), 36-48% (females)"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "82 femtoliters",
+            "unit_of_measurement": "femtoliters",
+            "reference_range": "Reference range for MCV: 80-100 femtoliters"
+        }
+    ]
+}

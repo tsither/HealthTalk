@@ -1,0 +1,35 @@
+{
+    "Date": "07 Dec 22",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "12-17 g/dl"
+        },
+        {
+            "test_name": "RBC count (Total)",
+            "result_value": 5.5,
+            "unit_of_measurement": "million/cumm blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (Total)",
+            "result_value": 8.0,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 150,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "150-450 thousand/cumm"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total COUNT RBC",
+            "result_value": 4.2,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "Ref Value Low: 130-120 x10^12/L, Ref Value High: 40-50 x10^12/L"
+        },
+        {
+            "test_name": "Mean Packed Cell Volume (PCV)",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC",
+            "result_value": 32.8,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count (Neutrophils)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils COUNT",
+            "result_value": 9000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils COUNT",
+            "result_value": 60,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet PLATELETO COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "Ref Value Low: 10-50 x10^3/ul, Ref Value High: 40-500 x10^4/ul"
+        }
+    ]
+}

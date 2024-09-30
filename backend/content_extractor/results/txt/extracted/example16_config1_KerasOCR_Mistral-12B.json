@@ -1,0 +1,29 @@
+{
+    "Date": "20XX-12-31",
+    "patient_information": {
+        "patient_id": "0912315678",
+        "patient_name": "Shah, Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.5,
+            "unit_of_measurement": "million cells/mm³",
+            "reference_range": "4.5-6.0 million cells/mm³"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 41.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-52%"
+        }
+    ]
+}

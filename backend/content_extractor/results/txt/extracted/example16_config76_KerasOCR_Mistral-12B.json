@@ -1,0 +1,35 @@
+{
+    "Date": "10/15/2023",
+    "patient_information": {
+        "patient_id": "Yash Patel",
+        "patient_name": "Shivam Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40.7-50.3"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.1,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.6-8.2"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 15.0,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "3.9-10.7"
+        }
+    ]
+}

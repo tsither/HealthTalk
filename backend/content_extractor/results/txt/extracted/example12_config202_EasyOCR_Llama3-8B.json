@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0122456759",
+        "patient_name": "patel yash caring",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "blood count",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": "not provided"
+        },
+        {
+            "test_name": "rbc (red blood cell) count",
+            "result_value": "5x 10^12 / L",
+            "unit_of_measurement": "/ L",
+            "reference_range": "4.50 - 6.00 x 10^12 / L"
+        },
+        {
+            "test_name": "cbc (complete blood count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "iron level",
+            "result_value": "5x 10^(-9) g/dL",
+            "unit_of_measurement": "/dL",
+            "reference_range": "45 - 150 mcg/dL"
+        }
+    ]
+}

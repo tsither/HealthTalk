@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123a56189",
+        "patient_name": "Yash Shah",
+        "patient_sex": "male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 345,
+            "unit_of_measurement": "ct",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 136,
+            "unit_of_measurement": "x primary hemoglobin count",
+            "reference_range": null
+        }
+    ]
+}

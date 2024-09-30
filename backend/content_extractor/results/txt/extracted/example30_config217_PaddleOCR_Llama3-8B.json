@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "LOBIN Sam lobir",
+        "patient_sex": "M",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.0,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000.0,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "150000-400000/microliter"
+        }
+    ]
+}

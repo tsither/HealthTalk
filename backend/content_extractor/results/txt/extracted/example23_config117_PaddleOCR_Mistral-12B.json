@@ -1,0 +1,29 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash",
+        "patient_sex": null,
+        "patient_age": 5
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 13.6,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4.5 - 10.5"
+        },
+        {
+            "test_name": "HGB Level",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000,
+            "unit_of_measurement": "(mcV)",
+            "reference_range": null
+        }
+    ]
+}

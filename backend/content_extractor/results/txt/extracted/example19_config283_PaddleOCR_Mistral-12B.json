@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C012346678",
+        "patient_name": "Cornoolow, 3 Q Noud.",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 13.6,
+                "Hb": 12.5,
+                "HCT": 37.0,
+                "PLT": 270,
+                "NEU%": 59.0,
+                "LYM%": 32.0
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "PLT": "cells/mm³",
+                "NEU%": "%",
+                "LYM%": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0 cells/mm³",
+                "Hb": "13.0 - 17.0 g/dL",
+                "HCT": "37.0 - 47.0 %",
+                "PLT": "150,000 - 410,000 cells/mm³",
+                "NEU%": "40.0 - 62.0 %",
+                "LYM%": "23.0 - 50.0%"
+            }
+        }
+    ]
+}

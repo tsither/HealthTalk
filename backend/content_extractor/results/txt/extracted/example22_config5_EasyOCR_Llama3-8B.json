@@ -1,0 +1,59 @@
+{
+    "Date": "2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 9000,
+            "unit_of_measurement": "n",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 150000,
+            "unit_of_measurement": "loos",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 272,
+            "unit_of_measurement": "0500",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Indices",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 555,
+            "unit_of_measurement": "8",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 8175,
+            "unit_of_measurement": "s",
+            "reference_range": null
+        }
+    ]
+}

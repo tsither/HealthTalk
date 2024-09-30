@@ -1,0 +1,51 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": {
+                    "count": "4.5",
+                    "Hct": "0.37"
+                }
+            },
+            "unit_of_measurement": {
+                "count": "mill/cumm",
+                "Hct": "%"
+            }
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Differential Count",
+            "result_value": {
+                "Neutrophils": {
+                    "low": "47.2",
+                    "mid": "36.0",
+                    "high": "15.8"
+                },
+                "Lymphocytes": "27.2",
+                "Eosinophils": "0.2",
+                "Basophils": "13.6"
+            },
+            "unit_of_measurement": {
+                "low": "%",
+                "mid": "%",
+                "high": "%"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "count": "83"
+            },
+            "unit_of_measurement": {
+                "count": "mill/cumm"
+            }
+        }
+    ]
+}

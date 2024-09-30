@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL (men), 12.1-15.1 g/dL (women)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-48.6 %"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.7-6.1 million cells/mcL for men; 4.2-5.4 million cells/mcL for women"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 5,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.5-11 thousand cells/mcL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 200,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150-450 thousand cells/mcL"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "21.09.2022",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5-6.5"
+        }
+    ]
+}

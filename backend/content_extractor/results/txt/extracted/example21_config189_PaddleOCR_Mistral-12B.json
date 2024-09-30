@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202x 05:00 PM",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "306 x10^9/L",
+            "unit_of_measurement": "L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "5.2 x10^9/L",
+            "unit_of_measurement": "L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "4.83 x10^12/L",
+            "unit_of_measurement": "L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6- 14.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.5 g/dL",
+            "unit_of_measurement": "%",
+            "reference_range": "32- 36"
+        }
+    ]
+}

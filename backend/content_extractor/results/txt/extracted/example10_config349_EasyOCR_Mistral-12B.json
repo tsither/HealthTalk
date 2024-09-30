@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-49%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 82.1,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100 fl"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 15.6,
+            "unit_of_measurement": "%",
+            "reference_range": "12.0-15.4%"
+        }
+    ]
+}

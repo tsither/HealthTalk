@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 123456789,
+        "patient_name": "Rogiteri",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation",
+            "result_value": 50,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin Concentration (cbj)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (rbc s7 aa)",
+            "result_value": 55,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Packed Cell Volume (pcv)",
+            "result_value": 42.79,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (mcvi)",
+            "result_value": 83.15,
+            "unit_of_measurement": "fl",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (mch)",
+            "result_value": 27.84,
+            "unit_of_measurement": "pg",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (mchc)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (rdw)",
+            "result_value": 14.69,
+            "unit_of_measurement": "%SD",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

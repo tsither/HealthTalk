@@ -1,0 +1,29 @@
+{
+    "Date": "108",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "5.2 x10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "0.47 L/L",
+            "unit_of_measurement": "%",
+            "reference_range": "0.41-0.53"
+        },
+        {
+            "test_name": "Hb",
+            "result_value": "162 g/L",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "135-180"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "AK CaN AGoMD yaaa ays",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02:31 PM, 02 Dec, 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0- 17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "= 27-32"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5 - 34.5"
+        },
+        {
+            "test_name": "ROW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 82,
+            "unit_of_measurement": "cumm",
+            "reference_range": "2) ao00-11000."
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "percentage": 60
+                },
+                {
+                    "type": "Lymphocytes",
+                    "percentage": null
+                },
+                {
+                    "type": "Eosinophils",
+                    "percentage": 1
+                },
+                {
+                    "type": "Monocytes",
+                    "percentage": 7
+                },
+                {
+                    "type": "Basophils",
+                    "percentage": 1
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": [
+                {
+                    "type": "Neutrophils",
+                    "range": null
+                },
+                {
+                    "type": "Lymphocytes",
+                    "range": "20-40 | | %"
+                },
+                {
+                    "type": "Eosinophils",
+                    "range": "1 00 - 06 %"
+                },
+                {
+                    "type": "Monocytes",
+                    "range": "7 00-10 %"
+                },
+                {
+                    "type": "Basophils",
+                    "range": "1 00 - 02 %"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "Borderline 150000 - 410000"
+        }
+    ]
+}

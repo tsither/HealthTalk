@@ -1,0 +1,96 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobina": "vn",
+                "hematocrito": "mms"
+            },
+            "unit_of_measurement": [
+                "uds",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": {
+                "total": "14 imms"
+            },
+            "unit_of_measurement": [
+                "uds"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": "148",
+            "unit_of_measurement": "uds",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": {
+                "glucosa": "inm",
+                "colesterol": "87 vmb"
+            },
+            "unit_of_measurement": [
+                "mg/dL",
+                "ng"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Trigliceridos",
+            "result_value": "60-150 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 60,
+                "max": 150
+            }
+        },
+        {
+            "test_name": "Urea",
+            "result_value": "5 mgo",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": "45 hasta 50 ml/a",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 45,
+                "max": 50
+            }
+        },
+        {
+            "test_name": "Proteínas totales",
+            "result_value": "739 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodio",
+            "result_value": "141 vmb",
+            "unit_of_measurement": "meq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Potasio",
+            "result_value": "98",
+            "unit_of_measurement": "meq/L",
+            "reference_range": {
+                "min": 3.5,
+                "max": 5.3
+            }
+        }
+    ]
+}

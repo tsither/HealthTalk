@@ -1,0 +1,23 @@
+{
+    "Date": "02/12/202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "17,000",
+            "unit_of_measurement": "/μL (microliters)",
+            "reference_range": "Normal: Adults - 155 to 405, Children - Not specified"
+        },
+        {
+            "test_name": "PDW (Platelet Distribution Width)",
+            "result_value": "18%",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal range: Adults - Up to age of 65 is unspecified but normal for adult, Children - Varies by age group"
+        }
+    ]
+}

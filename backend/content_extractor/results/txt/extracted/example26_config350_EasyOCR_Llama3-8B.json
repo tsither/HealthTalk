@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lactate",
+            "result_value": 112.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.4-2.8"
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.35,
+            "unit_of_measurement": "units",
+            "reference_range": "7.35-7.45"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 350,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 5.1,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4-11"
+        }
+    ]
+}

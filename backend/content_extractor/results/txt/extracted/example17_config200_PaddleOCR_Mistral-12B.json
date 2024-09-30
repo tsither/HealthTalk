@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "jo",
+        "patient_sex": "Male",
+        "patient_age": "10"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0 - 34.5"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 325000,
+            "unit_of_measurement": "/μL",
+            "reference_range": "150000 - 450000"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 87.75,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

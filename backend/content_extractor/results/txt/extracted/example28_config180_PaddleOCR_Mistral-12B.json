@@ -1,0 +1,23 @@
+{
+    "Date": "21.06.23",
+    "patient_information": {
+        "patient_id": "213456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<1.0"
+        },
+        {
+            "test_name": "Alanine Aminotransferase (ALT)",
+            "result_value": 35,
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-56"
+        }
+    ]
+}

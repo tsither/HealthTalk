@@ -1,0 +1,23 @@
+{
+    "Date": "15.09.2023",
+    "patient_information": {
+        "patient_id": "ID-123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": 5.8,
+            "unit_of_measurement": "x10^3/μl",
+            "reference_range": "4.2-5.8"
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": 123,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

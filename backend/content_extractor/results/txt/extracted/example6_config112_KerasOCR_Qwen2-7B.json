@@ -1,0 +1,54 @@
+{
+    "Date": "02/12/2X",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_diagnosis": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "count/cumm",
+            "reference_range": "[4000-10000] 4000-10000"
+        },
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[120-160] [170-210]"
+        },
+        {
+            "test_name": "Total RBC (milli/cumm)",
+            "result_value": 5245,
+            "unit_of_measurement": "milli/cumm",
+            "reference_range": "[35000-56000] [45000-61000]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) (%)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[35-50] [40-50]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV) (fl)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "[81-92] [76-104]"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW) (%)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.5-14.5] [12-15]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[4000-10000] [4000-11000]"
+        }
+    ]
+}

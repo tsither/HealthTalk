@@ -1,0 +1,23 @@
+{
+    "Date": "12/04/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "180 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "140-200 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "5.6%",
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-6.0%"
+        }
+    ]
+}

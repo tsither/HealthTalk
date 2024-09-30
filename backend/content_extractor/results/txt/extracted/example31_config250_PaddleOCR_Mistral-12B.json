@@ -1,0 +1,39 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 9000,
+                "RBC": 410000,
+                "HGB": null,
+                "PLT": 150000,
+                "LYM": 58,
+                "MON": null,
+                "EOS": null,
+                "BASO": null
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "PLT": "cells/mm³"
+            },
+            "reference_range": {
+                "WBC": {
+                    "Borderline High": 13.0,
+                    "Low": 17.0
+                },
+                "LYM": {
+                    "High": 4000,
+                    "Low": 11000
+                }
+            }
+        }
+    ]
+}

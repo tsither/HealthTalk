@@ -1,0 +1,29 @@
+{
+    "Date": "20XX-05-02",
+    "patient_information": {
+        "patient_id": "MUMBAI - | 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "(Hb)",
+            "reference_range": "13.6 - 17.0 g/dL"
+        },
+        {
+            "test_name": "Total Red Blood Cell Count (RBC)",
+            "result_value": 555,
+            "unit_of_measurement": "WBC COUNT",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0 %"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": [
+        "02 dec",
+        null
+    ],
+    "patient_information": {
+        "patient_id": "23456189",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": {
+            "city": "mumbai",
+            "street": "healthcare complex",
+            "pincode": "105"
+        },
+        "collection_time": [
+            "031 02 dec t pm",
+            null
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "175",
+            "unit_of_measurement": "gidl",
+            "reference_range": {
+                "male": "135 to 175",
+                "female": "120 to 155"
+            }
+        }
+    ]
+}

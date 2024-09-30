@@ -1,0 +1,29 @@
+{
+    "Date": "10/12/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 38
+    },
+    "test_results": [
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "16-130"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 54,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "42-60"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "50-150"
+        }
+    ]
+}

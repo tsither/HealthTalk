@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Corine",
+        "patient_sex": "Female",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 1550,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "200-400 mg/dL"
+        },
+        {
+            "test_name": "LDL Cholesterol (VLDL)",
+            "result_value": 190,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 43.5,
+            "unit_of_measurement": "%",
+            "reference_range": "20-60%"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "35-160 mg/dL"
+        },
+        {
+            "test_name": "VLDL Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

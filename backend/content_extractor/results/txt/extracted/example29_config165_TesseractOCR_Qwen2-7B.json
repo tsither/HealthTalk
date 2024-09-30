@@ -1,0 +1,23 @@
+{
+    "Date": "12/05/2023",
+    "patient_information": {
+        "patient_id": 456789,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 8.2,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": 19,
+            "unit_of_measurement": "IU/L",
+            "reference_range": "0-16"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "s55 s",
+        "patient_name": "shivam sungaloys",
+        "patient_sex": "m",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count (cbc)",
+            "result_value": {
+                "hemoglobin": "12.5 g/dL",
+                "rbc_count": "5.2457 million/µL",
+                "pcv": "37.5 %",
+                "mch": "27.4 fL",
+                "mchc": "32.8 g/dL",
+                "wbc_count": "11,690/uL",
+                "neutrophils": "60 %",
+                "lymphocytes": "31 %",
+                "eosinophils": "2 %",
+                "monocytes": "6 %",
+                "basophils": "1 %",
+                "platelet_count": "500,000/uL"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "million/µL",
+                "pcv": "%",
+                "mch": "fL",
+                "mchc": "g/dL",
+                "wbc_count": "/uL",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%",
+                "platelet_count": "/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

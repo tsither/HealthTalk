@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Yash M",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_date": "125 shiyam sungalow s g rond"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": {
+                    "min": 125,
+                    "max": 13
+                },
+                "rbc_count": {
+                    "min": 4.5,
+                    "max": 6.0
+                },
+                "pcv_volume": {
+                    "min": null,
+                    "max": 75
+                },
+                "mean_corpuscular_volume": {
+                    "min": 87.7,
+                    "max": 93.1
+                },
+                "mch": {
+                    "min": null,
+                    "max": 32
+                },
+                "mchc": {
+                    "min": 328,
+                    "max": null
+                },
+                "rdw": {
+                    "min": 13,
+                    "max": null
+                }
+            }
+        }
+    ]
+}

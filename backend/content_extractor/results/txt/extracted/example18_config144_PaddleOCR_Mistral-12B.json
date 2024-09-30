@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HCT",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 9.18,
+            "unit_of_measurement": "M/mm3",
+            "reference_range": "4.0 - 6.1"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 125,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

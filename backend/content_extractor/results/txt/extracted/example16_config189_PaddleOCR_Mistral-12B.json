@@ -1,0 +1,32 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "jO I aD0d Rathology",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 15000,
+                "Red Blood Cells": 12.5,
+                "Hemoglobin": 13.6,
+                "Platelets": 27.2
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cells/uL",
+                "Red Blood Cells": "million/uL",
+                "Hemoglobin": "g/dL",
+                "Platelets": "thousand/uL"
+            },
+            "reference_range": {
+                "White Blood Cells": "4.5 - 11.0",
+                "Red Blood Cells": "4.2 - 5.8",
+                "Hemoglobin": "13.0 - 17.0",
+                "Platelets": "150,000 - 450,000"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Lactic Acid",
+            "result_value": 2.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "Normal: <3.8 mmol/L"
+        },
+        {
+            "test_name": "Creatine Kinase",
+            "result_value": 61,
+            "unit_of_measurement": "U/L",
+            "reference_range": "Normal: 40-250 U/L"
+        }
+    ]
+}

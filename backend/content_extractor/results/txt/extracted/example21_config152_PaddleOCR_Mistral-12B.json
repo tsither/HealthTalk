@@ -1,0 +1,29 @@
+{
+    "Date": "31.09.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Al Shah",
+        "patient_sex": null,
+        "patient_age": 31
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.0,
+            "unit_of_measurement": "million cells/L",
+            "reference_range": "4.5 - 6.0"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 39,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

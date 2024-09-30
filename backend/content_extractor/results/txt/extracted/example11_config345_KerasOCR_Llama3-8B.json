@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ICBCP (IgC, IgA, IgG) OncoScreen",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "result_value": 14.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "9.5-14.5"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (aPTT)",
+            "result_value": 28.2,
+            "unit_of_measurement": "seconds",
+            "reference_range": "25-40"
+        },
+        {
+            "test_name": "Fibrinogen (Coagulation)",
+            "result_value": 300,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "200-400"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 189000,
+            "unit_of_measurement": "/microliter",
+            "reference_range": "150000-300000"
+        }
+    ]
+}

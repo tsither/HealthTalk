@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLUCOSE",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "BLOOD URIC ACID",
+            "result_value": 5.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "2.6-8.0"
+        },
+        {
+            "test_name": "CREATININE",
+            "result_value": 1.7,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.9-1.3"
+        }
+    ]
+}

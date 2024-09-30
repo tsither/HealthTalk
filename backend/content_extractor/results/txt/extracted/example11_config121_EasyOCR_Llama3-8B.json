@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 6.8,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "sodium",
+            "result_value": 140,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "potassium",
+            "result_value": 5.8,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5.0 mmol/L"
+        },
+        {
+            "test_name": "chloride",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "glucose",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        }
+    ]
+}

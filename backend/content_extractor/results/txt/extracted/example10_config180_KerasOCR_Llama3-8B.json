@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123",
+        "patient_name": "Shivam Sungalow S G Rood",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "15",
+            "unit_of_measurement": "Whole Blood",
+            "reference_range": {
+                "adults": {
+                    "normal": "[90, 170]",
+                    "abnormal": {
+                        "< 90": "may indicate iron deficiency or bone marrow disorders",
+                        "> 170": "may indicate liver diseases, bone marrow disorders, thrombocytopenia, or immune system problems"
+                    }
+                },
+                "children": {
+                    "normal": "[75.1, 155]",
+                    "abnormal": {
+                        "< 75.1": "may indicate iron deficiency or bone marrow disorders",
+                        "> 155": "may indicate liver diseases, bone marrow disorders, thrombocytopenia, or immune system problems"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "-",
+            "reference_range": "410000 -"
+        },
+        {
+            "test_name": "Differential WBC COUNT Total WBC count",
+            "result_value": 9.5,
+            "unit_of_measurement": "- cumm",
+            "reference_range": "8-10"
+        },
+        {
+            "test_name": "Eosinophils Count",
+            "result_value": null,
+            "unit_of_measurement": "-%",
+            "reference_range": "20 - 40%"
+        },
+        {
+            "test_name": "(PCV) BLOOD INDICES (Hematocrit)",
+            "result_value": null,
+            "unit_of_measurement": "-",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 9.5,
+            "unit_of_measurement": "L cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 13.6,
+            "unit_of_measurement": "-",
+            "reference_range": null
+        }
+    ]
+}

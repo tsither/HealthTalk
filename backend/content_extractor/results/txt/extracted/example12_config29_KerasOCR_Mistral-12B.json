@@ -1,0 +1,71 @@
+{
+    "Date": "20.12.2022",
+    "patient_information": {
+        "patient_id": "ABC1234567",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 5.0,
+                "HGB": 13.8,
+                "PLT": 240,
+                "NEU%": 55.0,
+                "LYM%": 35.0,
+                "MONO%": 6.0
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "%": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.2
+                },
+                "HGB": {
+                    "min": 13.0,
+                    "max": 18.0
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                },
+                "%": {
+                    "NEU%": {
+                        "min": 40,
+                        "max": 60
+                    },
+                    "LYM%": {
+                        "min": 20,
+                        "max": 50
+                    },
+                    "MONO%": {
+                        "min": 3,
+                        "max": 15
+                    }
+                }
+            }
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 18.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 6,
+                "max": 20
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "Date": "Not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "Caring 555 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.21 x 10^12/L",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4-5.7 x 10^12/L"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "39%",
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "31.1 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "89 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "2.81 x 10^5/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "1.50-3.00 x 10^5/µL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "6.89 x 10^9/L",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.00-11.00 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "75%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "2%",
+                "Monocytes": "3%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 8.775,
+                "RBC": 57.5,
+                "Hb": 13.6,
+                "PCV": null,
+                "Platelets": null
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.5 - 6.2",
+                "Hb": "13.0 - 17.0",
+                "PCV": null,
+                "Platelets": "150 - 450"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Lymphocytes": 27.2,
+                "Neutrophils": 62.8,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Lymphocytes": "27 - 32",
+                "Neutrophils": "40 - 62",
+                "Eosinophils": "0.5 - 7.0",
+                "Monocytes": "2.0 - 10",
+                "Basophils": "<2"
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": {
+                "MCV": null,
+                "MCH": null,
+                "Calculated RDW": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

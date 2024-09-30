@@ -1,0 +1,58 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as673",
+        "patient_name": "acom driogypathiabadrlogy",
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-15 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.17x10^12",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Electrophoresis",
+            "result_value": "Normal",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17.3x10^3",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4-11x10^3/μL"
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": {
+                "Neutrophils": "75%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "2%",
+                "Monocytes": "3%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils Count",
+            "result_value": "0.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "0-1%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250x10^3",
+            "unit_of_measurement": "/μL",
+            "reference_range": "150-300x10^3/μL"
+        }
+    ]
+}

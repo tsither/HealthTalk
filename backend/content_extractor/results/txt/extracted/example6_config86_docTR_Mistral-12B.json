@@ -1,0 +1,73 @@
+{
+    "Date": "21.03.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 12.2,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 6
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 18
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": {
+                "TC": 190,
+                "TG": 120,
+                "HDL": 45,
+                "LDL": 115
+            },
+            "unit_of_measurement": {
+                "TC": "mg/dL",
+                "TG": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL"
+            },
+            "reference_range": {
+                "TC": {
+                    "max": 200
+                },
+                "TG": {
+                    "max": 150
+                },
+                "HDL": {
+                    "min": 40
+                },
+                "LDL": {
+                    "max": 130
+                }
+            }
+        }
+    ]
+}

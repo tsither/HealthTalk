@@ -1,0 +1,35 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6% for non-diabetics, >7% for diagnosed diabetes"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": [
+                180,
+                55,
+                3.2
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mg/dL",
+                "mg/dL"
+            ],
+            "reference_range": [
+                "<160 mg/dL for total cholesterol",
+                "<130 mg/dL for HDL cholesterol",
+                "<170 mg/dL for LDL cholesterol"
+            ]
+        }
+    ]
+}

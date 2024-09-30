@@ -1,0 +1,29 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 12.5,
+            "unit_of_measurement": "JMBAI COUNT",
+            "reference_range": "13.0 - 17.e"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 6895,
+            "unit_of_measurement": "units/l",
+            "reference_range": "4.5 - 10.5"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": "million cells/mm3",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345678",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 87.75,
+        "additional_notes": [
+            "instant road reference s count hiren 9 thcare gidl pa shivam sample 170 s op cumm heal blood mumbai caring os v"
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "105",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "4000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null,
+            "additional_notes": [
+                "microscopically countable"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count (Neutrophils)",
+            "result_value": "5.0",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "additional_notes": [
+                "automated count"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count (Lymphocytes)",
+            "result_value": "3.0",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "additional_notes": [
+                "automated count"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count (Monocytes)",
+            "result_value": "0.85",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "additional_notes": [
+                "confirm monocytes"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count (Eosinophils)",
+            "result_value": "0.15",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "additional_notes": [
+                "eosinophils count"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count (Basophils)",
+            "result_value": "null",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "additional_notes": [
+                "basophils count"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "325",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "additional_notes": [
+                "mean platelets"
+            ]
+        }
+    ]
+}

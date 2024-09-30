@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": "130.1",
+            "unit_of_measurement": "g/L",
+            "reference_range": "135-175 g/L"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "9600",
+            "unit_of_measurement": "/μL",
+            "reference_range": "4.5-11 x 10^9/L"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": "4.8",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.0-5.5 x 10^12/L"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "45",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "96",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32.5",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "340",
+            "unit_of_measurement": "g/L",
+            "reference_range": "32-36 g/L"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "15.5",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "230",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        },
+        {
+            "test_name": "NEUT",
+            "result_value": "62",
+            "unit_of_measurement": "%",
+            "reference_range": "40-70%"
+        },
+        {
+            "test_name": "LYMPH",
+            "result_value": "28",
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "MONO",
+            "result_value": "7",
+            "unit_of_measurement": "%",
+            "reference_range": "3-8%"
+        },
+        {
+            "test_name": "EOS",
+            "result_value": "2",
+            "unit_of_measurement": "%",
+            "reference_range": "1-4%"
+        }
+    ]
+}

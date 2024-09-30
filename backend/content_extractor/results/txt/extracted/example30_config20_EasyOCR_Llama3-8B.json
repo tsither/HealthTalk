@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "55",
+        "patient_name": "Patel Thcaret",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.31",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "[3.90-5.10] million/mcL"
+        },
+        {
+            "test_name": "HB Count",
+            "result_value": "15.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[14.00-17.50] g/dL"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "7.27",
+            "unit_of_measurement": "thousand/cu mm",
+            "reference_range": "[4.10-11.00] thousand/cu mm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": "[37.00-49.00] %"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.5",
+            "unit_of_measurement": "pg",
+            "reference_range": "[27.50-32.10] pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "57.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "[80.00-96.00] fL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "45.7",
+            "unit_of_measurement": "%",
+            "reference_range": "[12.30-14.50] %"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": "[45.00-70.00] %"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "27.5",
+            "unit_of_measurement": "%",
+            "reference_range": "[20.00-40.00] %"
+        }
+    ]
+}

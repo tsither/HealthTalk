@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "555",
+            "unit_of_measurement": "pid/gdl",
+            "reference_range": "55 sample 45"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "101",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Count",
+            "result_value": "515",
+            "unit_of_measurement": "3l/g",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells (WBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

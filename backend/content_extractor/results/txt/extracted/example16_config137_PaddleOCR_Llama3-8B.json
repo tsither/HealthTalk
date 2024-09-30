@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Blood pg g/dL",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "40 - 50 High"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "50 - 62 Low"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1500000,
+            "unit_of_measurement": null,
+            "reference_range": "25000-35000 High"
+        }
+    ]
+}

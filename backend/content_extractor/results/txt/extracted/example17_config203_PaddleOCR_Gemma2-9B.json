@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Drlogy",
+        "patient_sex": "Male",
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.5",
+            "unit_of_measurement": null,
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

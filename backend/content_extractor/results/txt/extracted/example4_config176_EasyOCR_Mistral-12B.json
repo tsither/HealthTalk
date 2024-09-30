@@ -1,0 +1,23 @@
+{
+    "Date": "07.01.2023",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 7.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.0 - 12.0"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500 - 10000"
+        }
+    ]
+}

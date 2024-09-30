@@ -1,0 +1,52 @@
+{
+    "Date": "21/06/2022",
+    "patient_information": {
+        "patient_id": "C 0123456789 | 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Packed Cell Volume (PCV)": 37.8,
+                "Mean Corpuscular Volume (MCV)": 5.2,
+                "MCH": 87.75,
+                "MCHC": 32.8,
+                "Total RBC count": 4.0,
+                "WBC count": 9000,
+                "Neutrophils": 13.6,
+                "Lymphocytes": 70.0,
+                "Eosinophils": 11.6,
+                "Monocytes": 3.0,
+                "Platelet Count": 250
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Total RBC count": "10^6/µL",
+                "WBC count": "10^3/µL",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0 - 17.0 g/dL",
+                "Packed Cell Volume (PCV)": "",
+                "Mean Corpuscular Volume (MCV)": "45 - 55 fL",
+                "MCH": "27 - 33 pg",
+                "MCHC": "32 - 36 g/dL",
+                "Total RBC count": "4.0 - 6.1 10^6/µL",
+                "WBC count": "",
+                "Neutrophils": "32.5 - 34.5%",
+                "Lymphocytes": "58 - 79%",
+                "Eosinophils": "11.6 - 14.0%",
+                "Monocytes": "4 - 10%",
+                "Platelet Count": "150,000 - 400,000/µL"
+            }
+        }
+    ]
+}

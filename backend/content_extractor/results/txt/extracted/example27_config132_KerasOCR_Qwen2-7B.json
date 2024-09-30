@@ -1,0 +1,23 @@
+{
+    "Date": "12/30/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "Jane Smith",
+        "patient_sex": "F",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7.0, RBC: 4.5, HGB: 13.2, HCT: 39%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 200 mg/dL, HDL-Cholesterol: 50 mg/dL, LDL-Cholesterol: 130 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

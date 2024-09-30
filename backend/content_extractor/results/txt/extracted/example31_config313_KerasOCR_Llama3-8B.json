@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "pce",
+            "reference_range": "4.3-10.1"
+        },
+        {
+            "test_name": "ESR",
+            "result_value": 20,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Sugar (Fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Liver Function Test - ALT",
+            "result_value": 60,
+            "unit_of_measurement": "IU/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Kidney Function Test - Urea",
+            "result_value": 40,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

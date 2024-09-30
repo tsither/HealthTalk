@@ -1,0 +1,26 @@
+{
+    "Date": "02.12.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12.5, RBC count: 5.2 mill/cumm, Packed Cell Volume (PCV): 57.5%, Mean Corpuscular Volume (MCV): 87.75 fL, Calculated MCH: 27.2 pg, Calculated MCHC: 32.8 g/dL",
+            "unit_of_measurement": "g/dL, mill/cumm, % fo fL, pg, g/dL",
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.e g/dL",
+                "RBC count": "4.5 - 5.5 mill/cumm"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000 cumm",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150,000 - 410,000 cumm"
+        }
+    ]
+}

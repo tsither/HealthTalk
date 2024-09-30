@@ -1,0 +1,61 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin Hbj 1306",
+                "Low Giol RBC count tolal rbc 52",
+                "Total RBC 458",
+                "Mean Caeos Mich 272"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Hemoglobin Hbj: 13.06-17.0 g/dL",
+                "RBC count: 458-52 million cells/mcL",
+                "Mean Caeos Mich: 272-32 pg"
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": [
+                "PCV (Packed Cell Volume): 57.1%",
+                "Corpuscular Volume MCV: 87.7%",
+                "CMC Hg: 328-345 g/dL"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "PCV (Packed Cell Volume): 38.8 - 50 %",
+                "Corpuscular Volume MCV: 80 - 106 fL"
+            ]
+        },
+        {
+            "test_name": "White Blood Cells Differential Count",
+            "result_value": [
+                "Neulrophils (ED): 40%",
+                "Lymphocytes: 51%",
+                "Eosinophils: 6%"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "Borderline Plt count soo00 t00 cumm 50000"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

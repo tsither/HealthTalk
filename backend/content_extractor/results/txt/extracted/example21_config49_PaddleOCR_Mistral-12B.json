@@ -1,0 +1,52 @@
+{
+    "Date": "20XX-XX-XX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.89578,
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 10.727,
+            "reference_range": "4.0 - 11.0 thousand/cumm"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 27.2
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 63.6
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 4.5,
+            "reference_range": "1 - 4 %"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 32.8
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0.9
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 83,
+            "reference_range": "150 - 450 thousand/cumm"
+        }
+    ]
+}

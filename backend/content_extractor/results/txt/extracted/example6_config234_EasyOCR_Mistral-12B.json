@@ -1,0 +1,49 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 13,
+                "high": 17
+            }
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 5.25,
+            "unit_of_measurement": "million/cumm blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": 40
+            }
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 12300,
+            "unit_of_measurement": "/cumm blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 400000,
+            "unit_of_measurement": "/cumm blood",
+            "reference_range": {
+                "low": 150000,
+                "high": 400000
+            }
+        }
+    ]
+}

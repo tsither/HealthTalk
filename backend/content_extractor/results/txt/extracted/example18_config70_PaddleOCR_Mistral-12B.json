@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "410000",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WHITE BLOOD CELL COUNT",
+            "result_value": "57.5",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.5 - 10.5"
+        },
+        {
+            "test_name": "RED BLOOD CELL COUNT",
+            "result_value": "689578",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

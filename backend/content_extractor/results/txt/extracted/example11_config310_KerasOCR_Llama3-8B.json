@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-15 g/dL"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Electrolytes (Sodium, Potassium)",
+            "result_value": [
+                400,
+                3.5
+            ],
+            "unit_of_measurement": [
+                "mmol/L",
+                "mmol/L"
+            ],
+            "reference_range": [
+                "135-145 mmol/L",
+                "3.5-4.5 mmol/L"
+            ]
+        },
+        {
+            "test_name": "Liver Function Tests (ALT, AST)",
+            "result_value": [
+                20,
+                25
+            ],
+            "unit_of_measurement": [
+                "U/L",
+                "U/L"
+            ],
+            "reference_range": [
+                "0-40 U/L",
+                "0-35 U/L"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Date": "22/01/2022",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 5.4,
+                "Hb": 12.3,
+                "PLT": 250,
+                "NEU%": 60,
+                "LYM%": 30,
+                "MONO%": 10
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "PLT": "10^9/L",
+                "NEU%": "%",
+                "LYM%": "%",
+                "MONO%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

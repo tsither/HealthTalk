@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "57"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "10.17",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[A]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "3.15",
+            "unit_of_measurement": "Million/μL",
+            "reference_range": "[A]"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "7.42",
+            "unit_of_measurement": "Thousand/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": "Neutrophils 62%, Lymphocytes 30%",
+            "unit_of_measurement": "%",
+            "reference_range": "[A]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "140",
+            "unit_of_measurement": "Thousand/μL",
+            "reference_range": null
+        }
+    ]
+}

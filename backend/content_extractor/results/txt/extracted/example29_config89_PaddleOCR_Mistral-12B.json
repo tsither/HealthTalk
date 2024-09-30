@@ -1,0 +1,76 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": "13.0 - 17.0"
+                },
+                "RBC COUNT %": {
+                    "value": 57.5,
+                    "unit": "%",
+                    "reference_range": "40-50%"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 87.75,
+                    "unit": "%",
+                    "reference_range": "27 - 32%"
+                },
+                "MCH.d %": {
+                    "value": 13.6,
+                    "unit": "pg",
+                    "reference_range": "32.5 - 34.5"
+                },
+                "RDW": {
+                    "value": 9000,
+                    "unit": "",
+                    "reference_range": "4000-11000"
+                }
+            },
+            "Total WBC count": {
+                "value": 60,
+                "unit": "cells/µL",
+                "reference_range": "50 - 62"
+            },
+            "Neutrophils": {
+                "value": 31,
+                "unit": "%",
+                "reference_range": "31.0-06%"
+            },
+            "Lymphocytes": {
+                "value": 0,
+                "unit": "%",
+                "reference_range": "00 - 02"
+            },
+            "Eosinophils": {
+                "value": 0,
+                "unit": "%",
+                "reference_range": "00 - 02"
+            },
+            "Monocytes": {
+                "value": 0,
+                "unit": "%",
+                "reference_range": ""
+            },
+            "Basophils": {
+                "value": 0,
+                "unit": "%",
+                "reference_range": ""
+            },
+            "Platelet Count": {
+                "value": null,
+                "unit": "",
+                "reference_range": ""
+            }
+        }
+    ]
+}

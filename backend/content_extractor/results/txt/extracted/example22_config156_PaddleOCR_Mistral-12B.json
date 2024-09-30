@@ -1,0 +1,46 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": "I yo I a6ed",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "31",
+            "unit_of_measurement": "09 7P/6",
+            "reference_range": "150,000 - 410,000"
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "value": "57.5"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "value": "32.8"
+                },
+                {
+                    "type": "Monocytes",
+                    "value": "13.6"
+                },
+                {
+                    "type": "Eosinophils",
+                    "value": "4.5"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

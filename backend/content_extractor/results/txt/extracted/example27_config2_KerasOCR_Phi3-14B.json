@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_eange": null
+        },
+        {
+            "test_name": "recuento globular formula",
+            "result_value": null,
+            "unit_of_measurement": "mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "leucocitaria",
+            "result_value": 18.0,
+            "unit_of_measurement": "x 10^9 / L",
+            "reference_range": [
+                4.5,
+                11
+            ]
+        },
+        {
+            "test_name": "hematies",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophilos",
+            "result_value": 0.19,
+            "unit_of_measurement": "x 10^9 / L",
+            "reference_range": [
+                0,
+                0.7
+            ]
+        },
+        {
+            "test_name": "hematocrito",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                38.3,
+                48.6
+            ]
+        },
+        {
+            "test_name": "hemoglobina",
+            "result_value": 17.1,
+            "unit_of_measurement": "g / dl",
+            "reference_range": [
+                13.5,
+                17.5
+            ]
+        },
+        {
+            "test_name": "segmentados",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

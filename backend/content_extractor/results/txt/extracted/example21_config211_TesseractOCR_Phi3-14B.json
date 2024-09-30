@@ -1,0 +1,29 @@
+{
+    "Date": "02-Dec-202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel MAAN",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Cakuisio’s MCH": 27.2,
+                "MCHC": 32.8,
+                "WBC COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": null,
+                    "Monocytes": 7,
+                    "Basophils": 1
+                },
+                "Platelet Count": 150000
+            }
+        }
+    ]
+}

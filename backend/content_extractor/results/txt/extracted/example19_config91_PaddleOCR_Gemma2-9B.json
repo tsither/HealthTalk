@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "PID -101",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "40 - 50",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5 - 5.5 g/dL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32.8",
+            "unit_of_measurement": "pg",
+            "reference_range": "50-6.40 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.5",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "12.5",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

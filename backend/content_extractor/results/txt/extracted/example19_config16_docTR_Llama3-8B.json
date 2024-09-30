@@ -1,0 +1,47 @@
+{
+    "Date": "2024-02-24",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4000000000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[3.90-5.10] x 10^12 cells/L"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 85.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80.00-100.00]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 30.0,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": 0.37,
+            "unit_of_measurement": "%",
+            "reference_range": "[0.80-2.50]"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7250.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[3.50-10.50] x 10^9 cells/L"
+        }
+    ]
+}

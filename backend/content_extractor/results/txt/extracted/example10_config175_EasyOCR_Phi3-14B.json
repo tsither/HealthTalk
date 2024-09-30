@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_e": null,
+            "result_value": 0.586,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HbA1c",
+            "result_value": 9.23,
+            "unit_of_measurement": "%",
+            "reference_range": "4-5.6%"
+        },
+        {
+            "test_name": "Total cholesterol",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-199"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 35,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40-60"
+        }
+    ]
+}

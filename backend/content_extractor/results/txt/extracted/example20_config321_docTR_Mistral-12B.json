@@ -1,0 +1,23 @@
+{
+    "Date": "01/05/2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": 5.0,
+            "unit_of_measurement": "cells x10^3/uL",
+            "reference_range": "3.8 - 10.8"
+        },
+        {
+            "test_name": "BUN",
+            "result_value": 20,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6 - 25"
+        }
+    ]
+}

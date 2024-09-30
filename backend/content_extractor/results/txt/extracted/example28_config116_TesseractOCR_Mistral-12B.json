@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 x 109 /",
+                "Hemoglobina": "14.3 g/L",
+                "HMC": "29 pg",
+                "Leucicitos": "10.2 x 106"
+            },
+            "unit_of_measurement": {
+                "/L": null,
+                "pg": null,
+                "x 106": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.8* mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteina": "66 g/L",
+                "Hierro (Fe+)": "65 ug/L",
+                "Ferritina": "20 ng/mL",
+                "Hemoglobina Aic": "4.5%",
+                "Got": "80 U/L",
+                "Gpt": "80 U/L",
+                "Cet": "100 U/L",
+                "Silirrubina total": "28 mg/dL",
+                "Bilirrubina directa (Esterificada)": "1.5 mg/dL",
+                "Fostatasa Alcalina": "50 U/L",
+                "Albumina": "2.3 g/dL"
+            },
+            "unit_of_measurement": {
+                "mg/dL": null,
+                "g/dL": null,
+                "U/L": null,
+                "ng/mL": null,
+                "%": null
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110.0)",
+                "Creatinina": "<240.0",
+                "Colesterol": "65.0 — 8.0",
+                "Proteina": "(65.0 — 135.0)",
+                "Hierro (Fe+)": "(20.0 - 120.0)",
+                "Ferritina": "(7-33)",
+                "Hemoglobina Aic": "(0.2-1)",
+                "Got": "(0.05 - 0.4)",
+                "Gpt": "(30-110)",
+                "Cet": "(40 - 4.80)",
+                "Silirrubina total": null,
+                "Bilirrubina directa (Esterificada)": null,
+                "Fostatasa Alcalina": null,
+                "Albumina": null
+            }
+        }
+    ]
+}

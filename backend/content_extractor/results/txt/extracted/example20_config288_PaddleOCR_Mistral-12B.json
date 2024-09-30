@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "3456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 9000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4100-10800"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 5.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

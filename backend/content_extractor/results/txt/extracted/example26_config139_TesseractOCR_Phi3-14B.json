@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 12.0,
+            "unit_of_measurement": "%",
+            "reference_range": "400 - 950"
+        },
+        {
+            "test_name": "Velocidad de Crecimiento de las Plaquetas (VCP)",
+            "result_value": 12.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematecrito",
+            "result_value": 36.0,
+            "unit_of_measurement": "%",
+            "reference_range": "27.0 - 32"
+        },
+        {
+            "test_name": "Velocidad de Crecimiento Medio (VCM)",
+            "result_value": 80,
+            "unit_of_measurement": "fl/mm3",
+            "reference_range": "4.0 - 95"
+        }
+    ]
+}

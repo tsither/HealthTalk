@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": "7.2",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "15.3",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        }
+    ]
+}

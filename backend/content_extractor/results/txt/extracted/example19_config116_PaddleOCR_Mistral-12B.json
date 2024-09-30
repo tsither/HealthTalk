@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.XXXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 5
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "11.6",
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 4.5"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "328",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "36",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MOGLOBIN",
+            "result_value": "0000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

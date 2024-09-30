@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "o",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 328,
+            "unit_of_measurement": "count",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "202X-05-02",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hgb (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 89689,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "13.0 - 17.0 x 10^9 cells/L"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "x10^9 /L",
+            "reference_range": "4.5 - 11 x 10^9/L"
+        }
+    ]
+}

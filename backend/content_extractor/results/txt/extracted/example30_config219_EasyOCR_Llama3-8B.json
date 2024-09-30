@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "Low (116-345)"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 3.5,
+            "unit_of_measurement": "millions/mm^3",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "thousand/cu mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 75,
+                "Lymphocytes": 20,
+                "Monocytes": 5,
+                "Eosinophils": 0.1,
+                "Basophils": 0
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/cu mm",
+            "reference_range": "Normal"
+        }
+    ]
+}

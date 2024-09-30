@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 8.9689,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Blood Corpuscular Volume (MCV)",
+            "result_value": 12.5,
+            "unit_of_measurement": "RDW",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "4.5 - 5.5 Unit"
+        },
+        {
+            "test_name": "Neutrophils count",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes count",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 60,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "11.6 - 34.5"
+        }
+    ]
+}

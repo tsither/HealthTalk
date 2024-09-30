@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 52.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 8775.0,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

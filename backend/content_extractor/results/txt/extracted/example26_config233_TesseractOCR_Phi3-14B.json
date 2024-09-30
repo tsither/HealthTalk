@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoiglobina",
+            "result_value": 13.3,
+            "unit_of_measurement": "- g/dl",
+            "reference_range": "[12 - 15] g/dl"
+        },
+        {
+            "test_name": "Células eritrocytas",
+            "result_value": 473,
+            "unit_of_measurement": "/mcL",
+            "reference_range": "[150 - 260] x 10^9/L"
+        },
+        {
+            "test_name": "Homotocito",
+            "result_value": 30.5,
+            "unit_of_measurement": "/MCM",
+            "reference_range": "[27 - 61]%"
+        }
+    ]
+}

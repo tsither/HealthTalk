@@ -1,0 +1,86 @@
+{
+    "Date": "02.De.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "M",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 13.0,
+                    "unit": "g/dL"
+                },
+                "Hematocrit (PCV)": {
+                    "value": 45.2,
+                    "unit": "%"
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": 90,
+                    "unit": "fL"
+                },
+                "Mean Corpuscular Hemoglobin (MCH)": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+                    "value": null,
+                    "unit": null
+                },
+                "Red Blood Cell Distribution Width (RDW)": {
+                    "value": null,
+                    "unit": null
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": 12.5,
+                    "high": 17.0,
+                    "unit": "g/dL"
+                },
+                "Hematocrit (PCV)": {
+                    "low": 40,
+                    "high": 62,
+                    "unit": "%"
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "low": 83,
+                    "high": 101,
+                    "unit": "fL"
+                },
+                "Mean Corpuscular Hemoglobin (MCH)": {
+                    "low": 27,
+                    "high": 32,
+                    "unit": "pg"
+                }
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": {
+                "value": null,
+                "unit": null
+            },
+            "reference_range": {
+                "low": null,
+                "high": null,
+                "unit": null
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": null,
+                "unit": null
+            },
+            "reference_range": {
+                "low": null,
+                "high": null,
+                "unit": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (ICBC)",
+            "result_value": "Low",
+            "unit_of_measurement": null,
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Red Blood Cell count",
+            "result_value": "5.2 million/mcL",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Blood Count",
+            "result_value": "130,000/mm^3",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count - Neutrophils",
+            "result_value": "60%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

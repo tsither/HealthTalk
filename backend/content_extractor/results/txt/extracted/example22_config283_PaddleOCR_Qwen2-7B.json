@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Albumin",
+            "result_value": "4.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.8 - 5.0"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": "1.6",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Uric Acid",
+            "result_value": "424",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Pacene vacn",
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 4.8,
+                "VCM": 43,
+                "H.MC.": 39
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "x109",
+                "VCM": "g",
+                "H.MC.": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 8.6,
+            "unit_of_measurement": "x106/L",
+            "reference_range": {
+                "min": 4500,
+                "max": 11000
+            }
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 0.6,
+                "max": 1.2
+            }
+        },
+        {
+            "test_name": "Colesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

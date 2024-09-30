@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.4-5.9 million/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 185,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150-450 thousand/µL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.8-10.8 thousand/µL"
+        }
+    ]
+}

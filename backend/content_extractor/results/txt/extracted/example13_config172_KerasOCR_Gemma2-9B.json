@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Red Blood Cells (RBC)": 4.5,
+                "Hematocrit": 42,
+                "Hemoglobin": 14.0,
+                "White Blood Cells (WBC)": 7.8,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "Red Blood Cells (RBC)": "million/uL",
+                "Hematocrit": "%",
+                "Hemoglobin": "g/dL",
+                "White Blood Cells (WBC)": "thousand/uL",
+                "Platelets": "thousand/uL"
+            },
+            "reference_range": {
+                "Red Blood Cells (RBC)": "4.0 - 5.5 million/uL",
+                "Hematocrit": "37% - 52%",
+                "Hemoglobin": "12.0 - 16.0 g/dL",
+                "White Blood Cells (WBC)": "4.5 - 11.0 thousand/uL",
+                "Platelets": "150 - 450 thousand/uL"
+            }
+        }
+    ]
+}

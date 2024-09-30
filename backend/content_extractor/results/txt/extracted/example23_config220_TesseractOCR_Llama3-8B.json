@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "8-10 g/dL"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": "2.1",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": "[ 130, 3.5, 34 ]",
+            "unit_of_measurement": "[ mEq/L, mEq/L, mg/dL ]",
+            "reference_range": "{ Na: 135-145, K: 3.5-5, Cl: 96-106 }"
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": "[ 60, 40, 100 ]",
+            "unit_of_measurement": "[ IU/L, IU/L, mg/dL ]",
+            "reference_range": null
+        }
+    ]
+}

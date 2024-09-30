@@ -1,0 +1,23 @@
+{
+    "Date": "07.23.2021",
+    "patient_information": {
+        "patient_id": "PAT987654",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 37
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglo# A:",
+            "result_value": 14.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "Hematocrit%",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38-50%"
+        }
+    ]
+}

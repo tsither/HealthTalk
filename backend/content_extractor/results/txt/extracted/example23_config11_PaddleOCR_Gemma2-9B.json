@@ -1,0 +1,59 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "HGB",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 15.5 g/dL"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.5",
+            "unit_of_measurement": "millions/cmm",
+            "reference_range": "4.0 - 5.5 millions/cmm"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "40",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "86.8",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": "27",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 13.6%"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "108",
+            "unit_of_measurement": "thousands/cmm",
+            "reference_range": "4000-11000 thousands/cmm"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "27",
+            "unit_of_measurement": "thousands/cmm",
+            "reference_range": null
+        }
+    ]
+}

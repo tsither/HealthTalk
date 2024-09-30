@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Vash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Low": 13.0,
+                "High": 17.0
+            }
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": 4.2,
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 60,
+            "unit_of_measurement": "cell/cumm"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 31,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 270,
+            "unit_of_measurement": "cell/cumm"
+        }
+    ]
+}

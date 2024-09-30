@@ -1,0 +1,23 @@
+{
+    "Date": "18/04/23",
+    "patient_information": {
+        "patient_id": "A1234567",
+        "patient_name": "Jane Smith",
+        "patient_sex": "F",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 8.0,
+            "unit_of_measurement": "x10^3/ul",
+            "reference_range": "4-11 x10^3/ul"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120-160 g/dL"
+        }
+    ]
+}

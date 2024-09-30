@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "HCA ROAD COMPLEX",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "Hb": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "MCV": {
+                    "value": 87.75,
+                    "unit": "fL",
+                    "reference_range": "45-55"
+                }
+            }
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": {
+                "Total WBC count": {
+                    "value": 9000,
+                    "unit": "cumm"
+                },
+                "NEUT": {
+                    "value": 73.6,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                }
+            }
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": {
+                "Platelet count": {
+                    "value": 209000,
+                    "unit": "cumm"
+                },
+                "MPV": {
+                    "value": 7.5,
+                    "unit": "fL",
+                    "reference_range": "7-14"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7-1.3"
+        },
+        {
+            "test_name": "Urea Nitrogen",
+            "result_value": 22,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-24"
+        },
+        {
+            "test_name": "Bilirubin, Total",
+            "result_value": 1.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.3-1.2"
+        },
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "result_value": 14.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "11-14.5"
+        }
+    ]
+}

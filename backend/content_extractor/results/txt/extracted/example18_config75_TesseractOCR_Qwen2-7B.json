@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-26",
+    "patient_information": {
+        "patient_id": "001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "6.2",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 30, AST: 27",
+            "unit_of_measurement": "",
+            "reference_range": "ALT: <40, AST: <40"
+        }
+    ]
+}

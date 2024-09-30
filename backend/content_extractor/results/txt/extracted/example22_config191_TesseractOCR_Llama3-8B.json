@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.9,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 290,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 25.4,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6.0-24.0"
+        }
+    ]
+}

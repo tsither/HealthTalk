@@ -1,0 +1,47 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "",
+        "patient_sex": "",
+        "patient_age": ""
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 150,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

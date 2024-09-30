@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "0123456169",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count",
+            "result_value": "Hemoglobin: 12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "RBC count (total RBC)",
+            "result_value": "52,151,550",
+            "unit_of_measurement": "millicumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (packed cell volume)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "High"
+        }
+    ]
+}

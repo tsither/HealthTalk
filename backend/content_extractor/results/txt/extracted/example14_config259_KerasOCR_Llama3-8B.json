@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 11
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Smear",
+            "result_value": "Normocytic",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Morphology",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": "Reference normal"
+        },
+        {
+            "test_name": "Pao2",
+            "result_value": 31,
+            "unit_of_measurement": "x",
+            "reference_range": "Norma (5-10)x"
+        }
+    ]
+}

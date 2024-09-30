@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "millions/microL",
+            "reference_range": "3.5-5.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "79-94"
+        }
+    ]
+}

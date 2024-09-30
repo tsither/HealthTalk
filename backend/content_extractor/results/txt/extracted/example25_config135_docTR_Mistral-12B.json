@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": 251000,
+                "VPM": null
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10°/IL",
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": "10°/IL",
+                "VPM": null
+            },
+            "reference_range": {
+                "Leucocitos": "(4,00 10,80)",
+                "Hematies": null,
+                "Hemoglobina": null,
+                "Hematocrito": null,
+                "V.C.M.": null,
+                "H.C.M.": null,
+                "C.H.C.M.": null,
+                "R.D.W.": null,
+                "Plaquetas": "(35,0 80,0)",
+                "VPM": null
+            }
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": {
+                "Neutrofilos": 70.1,
+                "Linfocitos": 12.4,
+                "Monocitos": 13.7,
+                "Eosinofilos": 3.1,
+                "Basofilos": 0.7
+            },
+            "unit_of_measurement": {
+                "Neutrofilos": "%",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Eosinofilos": "%",
+                "Basofilos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

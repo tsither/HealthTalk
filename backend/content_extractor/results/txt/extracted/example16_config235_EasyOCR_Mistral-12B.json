@@ -1,0 +1,37 @@
+{
+    "Date": "21 Dec 2021",
+    "patient_information": {
+        "patient_id": "091",
+        "patient_name": "Jos Pa",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC Total Count": "6.06",
+                "Hb Concentration": "52 g/L",
+                "HCT": "32%",
+                "MCV": "89 fL",
+                "MCH": "32 pg",
+                "MCHC": "31.72 g/L",
+                "RDW-CV": "14.0%",
+                "RBC Total Count": "5.55 T/L",
+                "Platelet Count": "300 x 10^9/L"
+            },
+            "unit_of_measurement": {
+                "WBC Total Count": "10^9/L",
+                "Hb Concentration": "g/L",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/L",
+                "RDW-CV": "%",
+                "RBC Total Count": "T/L",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

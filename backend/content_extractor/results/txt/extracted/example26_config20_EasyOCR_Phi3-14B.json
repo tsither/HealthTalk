@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HIEMOGRAMA",
+            "result_value": 4.75,
+            "unit_of_measurement": "1OE6/L",
+            "reference_range": "4 00 - 650"
+        },
+        {
+            "test_name": "HEMOGLOBINA",
+            "result_value": 13.0,
+            "unit_of_measurement": null,
+            "reference_range": "(ldl 12.0 - 710.0 hornalocrilo 39.5 % - 47.0)"
+        },
+        {
+            "test_name": "VCM",
+            "result_value": 83.1,
+            "unit_of_measurement": null,
+            "reference_range": "(27.9 pg - 32.0 pg)"
+        },
+        {
+            "test_name": "IL",
+            "result_value": 80.0,
+            "unit_of_measurement": "pg/mL",
+            "reference_range": "(98.0 - 320.0)"
+        },
+        {
+            "test_name": "HDL",
+            "result_value": 16.2,
+            "unit_of_measurement": "%",
+            "reference_range": "(15.6 % - 18.4 %)"
+        }
+    ]
+}

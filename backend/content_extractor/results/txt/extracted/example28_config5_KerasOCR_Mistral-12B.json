@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Anoss Obeson",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 48.5,
+                "hemoglobina": 13.9,
+                "glóbulos rojos": 4.76,
+                "hemoglobina A1C": 5.2,
+                "creatinina": 0.9,
+                "colesterol total": 220
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dl",
+                "glóbulos rojos": "10^6/µL",
+                "hemoglobina A1C": "%",
+                "creatinina": "mg/dl",
+                "colesterol total": "mg/dl"
+            },
+            "reference_range": null
+        }
+    ]
+}

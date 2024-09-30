@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "/microL",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 FL",
+            "unit_of_measurement": null,
+            "reference_range": "78 - 98 FL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.5 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": "32.5 - 34.5 g/dL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": "37 - 51%"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "4.5 - 5.5 million/ microL",
+            "unit_of_measurement": "/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

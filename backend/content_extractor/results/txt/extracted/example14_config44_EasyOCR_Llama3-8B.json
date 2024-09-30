@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Dr. Logypathlabadrlogs",
+        "patient_sex": "Male",
+        "patient_age": "125"
+    },
+    "test_results": [
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": "30-45% for males and 34-44% for females"
+        },
+        {
+            "test_name": "Red Blood Cell Index (RB CI)",
+            "result_value": "1.05",
+            "unit_of_measurement": null,
+            "reference_range": "0.8-1.2"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": "4,500-11,000 cells/mm3"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250,000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "150,000-450,000/μL"
+        }
+    ]
+}

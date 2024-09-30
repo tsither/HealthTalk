@@ -1,0 +1,23 @@
+{
+    "Date": "20.10.2022",
+    "patient_information": {
+        "patient_id": "TNE789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 54
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 10.171,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "8.2 - 9.6"
+        },
+        {
+            "test_name": "Metabolic Panel",
+            "result_value": 54,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

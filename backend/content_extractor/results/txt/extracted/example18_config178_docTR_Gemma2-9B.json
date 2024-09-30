@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "13.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": "82",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "red blood cell count (RBC)",
+            "result_value": "4.7",
+            "unit_of_measurement": "millions/uL",
+            "reference_range": "4.2-5.9 millions/uL"
+        },
+        {
+            "test_name": "hematocrit (Hct)",
+            "result_value": "41.6",
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-50.0%"
+        },
+        {
+            "test_name": "platelets (PLT)",
+            "result_value": "278",
+            "unit_of_measurement": "thousands/uL",
+            "reference_range": "150-450 thousands/uL"
+        },
+        {
+            "test_name": "white blood cell count (WBC)",
+            "result_value": "7.8",
+            "unit_of_measurement": "thousands/uL",
+            "reference_range": "4.5-11.0 thousands/uL"
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": "63%",
+            "unit_of_measurement": "%",
+            "reference_range": "40-70%"
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": "28%",
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": "7%",
+            "unit_of_measurement": "%",
+            "reference_range": "2-8%"
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": "2%",
+            "unit_of_measurement": "%",
+            "reference_range": "1-4%"
+        },
+        {
+            "test_name": "basophils",
+            "result_value": "0%",
+            "unit_of_measurement": "%",
+            "reference_range": "0-1%"
+        }
+    ]
+}

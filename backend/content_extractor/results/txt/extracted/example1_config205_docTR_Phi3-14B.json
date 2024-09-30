@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel SSs Penunra",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBCI (Complete Blood Count with Immunology)",
+            "result_value": {
+                "WBC count": null,
+                "RBC count": "840001",
+                "Mean Cell Mobility": "7.5",
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "WBC count": "cells/uL",
+                "RBC count": "million cells/mcL",
+                "Mean Cell Mobility": "% of normal value",
+                "Platelet Count": "million cells/mcL"
+            },
+            "reference_range": {
+                "WBC count": null,
+                "RBC count": null,
+                "Mean Cell Mobility": null,
+                "Platelet Count": null
+            }
+        }
+    ]
+}

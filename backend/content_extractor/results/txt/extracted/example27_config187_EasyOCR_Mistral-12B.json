@@ -1,0 +1,23 @@
+{
+    "Date": "20.03.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 43
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 125,
+            "unit_of_measurement": "Wbc/uL",
+            "reference_range": "4.0-10.8"
+        },
+        {
+            "test_name": "White Blood Cell Differential",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "45-70"
+        }
+    ]
+}

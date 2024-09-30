@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "5550",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "1308",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "50",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "high indices"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "27",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "15",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "4000",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "60% Neutrophils, 30% Lymphocytes, 5% Eosinophils, 5% Monocytes, 1% Basophils",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "200000",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        }
+    ]
+}

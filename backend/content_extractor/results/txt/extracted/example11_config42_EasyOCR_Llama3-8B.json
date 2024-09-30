@@ -1,0 +1,58 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 11.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 31,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": 2.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 12.57,
+            "unit_of_measurement": "thousand cells/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count",
+            "result_value": {
+                "Neutrophils": 70.01,
+                "Lymphocytes": 20.2,
+                "Eosinophils": 0.5,
+                "Monocytes": 9
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 400000,
+            "unit_of_measurement": "per cubic mm (cmm)",
+            "reference_range": "150-450"
+        }
+    ]
+}

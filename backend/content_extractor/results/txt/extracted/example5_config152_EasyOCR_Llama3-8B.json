@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": 2000000.0,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "15.0e+06 - 450.0e+06 per microliter"
+        },
+        {
+            "test_name": "platelet crit",
+            "result_value": 9.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

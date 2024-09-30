@@ -1,0 +1,97 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 4.46,
+                "Hematies": {
+                    "Globulos Rojos": 3.27,
+                    "Hemoglobina": 129.8,
+                    "Hematocrito": 34.6,
+                    "Globulos Blancos": {
+                        "Segmentados": 55
+                    },
+                    "Plaquetas": {
+                        "Placaetas/mm^3": 150000
+                    }
+                },
+                "Velocidad de Sedimentacion": {}
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "/mm^3",
+                "Globulos Rojos": "/mm^3",
+                "Hemoglobina": "g/dl",
+                "Hematocrito": "%",
+                "Plaquetas": "/mm^3",
+                "Velocidad de Sedimentacion": ""
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometria sanguinea",
+            "result_value": {
+                "Glucosa": 70,
+                "Colesterol": 169,
+                "HDL": 69,
+                "LDL": "mayor de 140",
+                "Trigliceridos": 50
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Colesterol": "mg/dl",
+                "HDL": "mg/dl",
+                "LDL": "mg/dl",
+                "Trigliceridos": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas bioquímicas",
+            "result_value": {
+                "Uric acid": 4.5,
+                "Hierro": 50,
+                "Creatinina": 0.5,
+                "Cisteína": 5.46
+            },
+            "unit_of_measurement": {
+                "Uric acid": "mg/dl",
+                "Hierro": "%",
+                "Creatinina": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas enzimáticas",
+            "result_value": {
+                "GOT": 40,
+                "GPT": 43
+            },
+            "unit_of_measurement": {
+                "GOT": "U/l",
+                "GPT": "U/l"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 141,
+                "Cloro": 98,
+                "Potasio": 4.02
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/l",
+                "Cloro": "mEq/l",
+                "Potasio": "mEq/l"
+            },
+            "reference_range": null
+        }
+    ]
+}

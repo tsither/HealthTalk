@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr.Hiren Shahe",
+        "patient_sex": "Male",
+        "patient_age": "Old"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 3280.75,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3227,
+            "unit_of_measurement": null,
+            "reference_range": "<200000"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 222,
+            "unit_of_measurement": null,
+            "reference_range": "12.5-22.7"
+        },
+        {
+            "test_name": "Monocyte Count",
+            "result_value": 87.75,
+            "unit_of_measurement": null,
+            "reference_range": "3.0-8.5"
+        }
+    ]
+}

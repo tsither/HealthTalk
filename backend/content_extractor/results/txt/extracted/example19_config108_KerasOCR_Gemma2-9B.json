@@ -1,0 +1,29 @@
+{
+    "Date": "202x.05.00",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "s s shah",
+        "patient_sex": "male",
+        "patient_age": "81"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin count",
+            "result_value": "125",
+            "unit_of_measurement": "g/L",
+            "reference_range": "110-140 g/L"
+        },
+        {
+            "test_name": "total RBC count",
+            "result_value": "4.1",
+            "unit_of_measurement": "million/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "8.175",
+            "unit_of_measurement": "thousand/cmm",
+            "reference_range": null
+        }
+    ]
+}

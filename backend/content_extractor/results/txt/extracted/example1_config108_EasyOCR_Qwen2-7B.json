@@ -1,0 +1,59 @@
+{
+    "Date": "02/12/20X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count CBC",
+            "result_value": 9000,
+            "unit_of_measurement": "4000-1000 count cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "130f-170 IDL",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Count",
+            "result_value": 52451.55,
+            "unit_of_measurement": "milliy count cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "high"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculation of MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "[32, 8; 34.5-116]"
+        },
+        {
+            "test_name": "Calculation of MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "-",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "[116-140; oo] "
+        }
+    ]
+}

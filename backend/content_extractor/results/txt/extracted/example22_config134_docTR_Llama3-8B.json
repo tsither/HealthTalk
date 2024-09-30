@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%o",
+            "reference_range": "27-32%"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 5.2,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "40-50 g/dL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 13.6,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 35.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%o",
+            "reference_range": "14.5-16%"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 6100,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": "4000-11000 cells/cumm"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300000,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        }
+    ]
+}

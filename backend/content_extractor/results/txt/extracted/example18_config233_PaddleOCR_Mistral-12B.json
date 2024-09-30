@@ -1,0 +1,54 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Shivam Bungalow, S G Road",
+        "patient_sex": "Male",
+        "patient_age": "Age : 21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": "13.6",
+                "RBC_count": "12.5",
+                "Hb": "87.75",
+                "HCT": "57.5"
+            },
+            "unit_of_measurement": {
+                "WBC_count": "cells/µL",
+                "RBC_count": "cells/µL",
+                "Hb": "g/dL",
+                "HCT": "%"
+            },
+            "reference_range": {
+                "Total_WBC_count": "11.6 - 14.0",
+                "RBC_count": "4.5 - 5.5",
+                "Hb": "83 - 101",
+                "HCT": "40-50"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Z0",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "57.2%",
+                "Lymphocytes": "%",
+                "Monocytes": "90 - 00",
+                "Eosinophils": "%"
+            },
+            "unit_of_measurement": {
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

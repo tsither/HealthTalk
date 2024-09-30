@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "WBC: 10.2",
+                "RBC: 4.58",
+                "Hemoglobin: 13.9"
+            ],
+            "unit_of_measurement": [
+                "x10^9/L",
+                "x10^12/L",
+                "g/dL"
+            ],
+            "reference_range": [
+                "4-11 x1e+9/L",
+                "4.5-6 x1e+12/L",
+                "13.8-17.2 g/dL"
+            ]
+        },
+        {
+            "test_name": "Chemistry Panel (CMP)",
+            "result_value": [
+                "Glucose: 95",
+                "BUN: 14"
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mg/dL"
+            ],
+            "reference_range": [
+                "70-99 mg/dL",
+                "6-20 mg/dL"
+            ]
+        }
+    ]
+}

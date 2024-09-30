@@ -1,0 +1,56 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglon(hb)": 12.5,
+                "RBC COUNT": 5.2,
+                "Packed Cell Volume(PCV)": 7.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Caketated MCH": 27.2,
+                "Cakcutatot me ROW": 13.6,
+                "WBC COUNT": 7.0,
+                "Lymphocytes Percntn": null,
+                "Eosinophils Percentage": 1.0,
+                "Monocytes Percntn": 7.0,
+                "Basophils Percetnt": 1.0,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglon(hb)": "g/dl",
+                "RBC COUNT": "mill/cumm",
+                "Packed Cell Volume(PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Caketated MCH": "pg",
+                "Cakcutatot me ROW": "%",
+                "WBC COUNT": null,
+                "Lymphocytes Percntn": null,
+                "Eosinophils Percentage": "%",
+                "Monocytes Percntn": "%",
+                "Basophils Percetnt": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglon(hb)": "[13.0-17.0] g/dl",
+                "RBC COUNT": "[45-55] mill/cumm",
+                "Packed Cell Volume(PCV)": "[40-50] %",
+                "Mean Corpuscular Volume (MCV)": "[83-101] fl",
+                "Caketated MCH": "[27-32] pg",
+                "Cakcutatot me ROW": "[11.6-14.0] %",
+                "WBC COUNT": null,
+                "Lymphocytes Percntn": null,
+                "Eosinophils Percentage": null,
+                "Monocytes Percntn": null,
+                "Basophils Percetnt": null,
+                "Platelet Count": "[150000-410000] cumm"
+            }
+        }
+    ]
+}

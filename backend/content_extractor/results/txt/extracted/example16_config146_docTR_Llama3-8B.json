@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Rakesh",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 5.12,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb (Hemoglobin)",
+            "result_value": 105,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.8,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 78.2,
+            "unit_of_measurement": "fl",
+            "reference_range": "65-100"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 3.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (Total)",
+            "result_value": 7.2,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

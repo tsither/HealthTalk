@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": [
+                    "325",
+                    "81"
+                ],
+                "hematocrit": [
+                    "215",
+                    "345"
+                ]
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Differential",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "neutrophils": [
+                    "50"
+                ],
+                "lymphocytes": [
+                    "101"
+                ],
+                "eosinophils": null,
+                "monocytes": [
+                    "500"
+                ],
+                "basophils": null
+            }
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "51",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

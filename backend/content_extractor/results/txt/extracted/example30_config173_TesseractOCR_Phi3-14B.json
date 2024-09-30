@@ -1,0 +1,40 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "YashM. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 5.2,
+                "BLOOD INDICES": {
+                    "PCV": 57.5,
+                    "MCV": 87.75,
+                    "MCH": 27.2,
+                    "MCHC": 32.8
+                },
+                "WBC COUNT": null,
+                "PLATELET COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "BLOOD INDICES": null,
+                "WBC COUNT": null,
+                "PLATELET COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.e",
+                "RBC COUNT": "4.5 - 5.5 mill/cumm",
+                "BLOOD INDICES": null,
+                "WBC COUNT": null,
+                "PLATELET COUNT": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 6800,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "4,500 - 11,000 /mm³"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 239,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "150,000 - 400,000 /mm³"
+        }
+    ]
+}

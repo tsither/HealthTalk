@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": "144",
+            "unit_of_measurement": "U/L",
+            "reference_range": "(16.5-109)"
+        },
+        {
+            "test_name": "AST (GOT)",
+            "result_value": "13",
+            "unit_of_measurement": null,
+            "reference_range": "(10-40)"
+        },
+        {
+            "test_name": "ALT (GPT)",
+            "result_value": "27",
+            "unit_of_measurement": "U/L",
+            "reference_range": "(13.4-58)"
+        },
+        {
+            "test_name": "Gamma GT",
+            "result_value": "96",
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        }
+    ]
+}

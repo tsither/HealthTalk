@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "serum creatinine",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7-1.2"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 150,
+            "unit_of_measurement": "U/L",
+            "reference_range": "8-20"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 80,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40"
+        },
+        {
+            "test_name": "albumin",
+            "result_value": 2.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.4-5.4"
+        },
+        {
+            "test_name": "total bilirubin",
+            "result_value": 1.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2"
+        },
+        {
+            "test_name": "glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        }
+    ]
+}

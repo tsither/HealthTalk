@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "4.5 - 5.5"
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36"
+        }
+    ]
+}

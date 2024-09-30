@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 7
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_eange": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5750000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.2-5.4 million cells/microlitre"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 8400,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4500-11000 cells/microlitre"
+        },
+        {
+            "test_name": "Neutrophils percentage",
+            "result_value": 57.3,
+            "unit_of_measurement": "%",
+            "reference_range": "40-60%"
+        },
+        {
+            "test_name": "Lymphocytes percentage",
+            "result_value": 21.8,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Monocytes percentage",
+            "result_value": 6.9,
+            "unit_of_measurement": "%",
+            "reference_range": "2-8%"
+        },
+        {
+            "test_name": "Eosinophils percentage",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "1-4%"
+        },
+        {
+            "test_name": "Basophils percentage",
+            "result_value": 5.0,
+            "unit_of_measurement": "%",
+            "reference_range": "<1%"
+        }
+    ]
+}

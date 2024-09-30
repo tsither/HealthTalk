@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "NMOGLODINA",
+            "result_value": 3,
+            "unit_of_measurement": "warts/thousand red blood cells (Ko/uL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": 208,
+            "unit_of_measurement": "cel·l/mm3 (Critical Limit)",
+            "reference_range": [
+                156,
+                400
+            ]
+        },
+        {
+            "test_name": "SERIE BLANCA LEUCOCITOS",
+            "result_value": 420,
+            "unit_of_measurement": "cells/mm3 (x10^9 cells)",
+            "reference_range": [
+                4.0
+            ]
+        }
+    ]
+}

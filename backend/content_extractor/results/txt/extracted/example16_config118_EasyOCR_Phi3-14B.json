@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "M Patel",
+        "patient_sex": "male",
+        "patient_age": 11
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Total Red Blood Cell Count (RBC)",
+            "result_value": 5.75,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 8775,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": [
+                4000,
+                11000
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count (PM)",
+            "result_value": null,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 55,
+        "patient_blood_type": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 105,
+            "unit_of_measurement": "by reference ref gidl blood cumm patel complete mill",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8775,
+            "unit_of_measurement": "ghb",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 272,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": [
+                {
+                    "name": "Red Blood Cell Volume",
+                    "value": 328
+                },
+                {
+                    "name": "Corpuscular Volume",
+                    "value": 10.5
+                },
+                {
+                    "name": "Packed Cell Volume",
+                    "value": 136
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin A",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

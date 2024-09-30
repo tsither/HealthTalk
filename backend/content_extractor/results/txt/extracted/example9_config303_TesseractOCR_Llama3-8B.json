@@ -1,0 +1,29 @@
+{
+    "Date": "20-02-2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8200.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4e3-10e3"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": 25,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20"
+        }
+    ]
+}

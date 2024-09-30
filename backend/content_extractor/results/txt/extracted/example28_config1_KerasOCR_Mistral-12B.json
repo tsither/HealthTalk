@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 45.5,
+                "hemoglobina": 13.9,
+                "VHC": 89,
+                "MCV": 29,
+                "PAG": 6,
+                "leucocitos": 10106
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dL",
+                "VHC": "fL",
+                "MCV": "fL",
+                "PAG": "pg",
+                "leucocitos": "/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": {
+                "glucosa": 98,
+                "creatinina": 1.2,
+                "colesterol": 150,
+                "proteina_total": 6.6,
+                "albumina": 4.4
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol": "mg/dL",
+                "proteina_total": "g/dL",
+                "albumina": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Funcional hepática",
+            "result_value": {
+                "got": 80,
+                "gpt": 25,
+                "ggt": 99,
+                "bilirrubina_total": 1.6,
+                "bilirrubina_directa_esttotal": 0.7
+            },
+            "unit_of_measurement": {
+                "got": "U/L",
+                "gpt": "U/L",
+                "ggt": "U/L",
+                "bilirrubina_total": "mg/dL",
+                "bilirrubina_directa_esttotal": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

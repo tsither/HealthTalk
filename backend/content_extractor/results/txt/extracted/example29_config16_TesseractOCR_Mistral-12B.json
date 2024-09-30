@@ -1,0 +1,95 @@
+{
+    "Date": "2022-03-15",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 5.2,
+                "Hb": 13.5,
+                "Hct": 40.8,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.6,
+                    "max": 8.2
+                },
+                "Hb": {
+                    "min": 13.5,
+                    "max": 17.5
+                },
+                "Hct": {
+                    "min": 39,
+                    "max": 49
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        },
+        {
+            "test_name": "CMP (Comprehensive Metabolic Panel)",
+            "result_value": {
+                "Glucose": 98,
+                "BUN": 12,
+                " Creatinine": 0.9,
+                "Sodium": 138,
+                "Potassium": 4.2,
+                "CO2": 25
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L",
+                "CO2": "mmol/L"
+            },
+            "reference_range": {
+                "Glucose": {
+                    "min": 74,
+                    "max": 105
+                },
+                "BUN": {
+                    "min": 6,
+                    "max": 20
+                },
+                "Creatinine": {
+                    "min": 0.6,
+                    "max": 1.2
+                },
+                "Sodium": {
+                    "min": 135,
+                    "max": 145
+                },
+                "Potassium": {
+                    "min": 3.6,
+                    "max": 5.2
+                },
+                "CO2": {
+                    "min": 23,
+                    "max": 30
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "91 Patel",
+        "patient_name": "Shivam Mumba",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Thrombocyte count",
+            "result_value": 231,
+            "unit_of_measurement": "cells/fL",
+            "reference_range": {
+                "adults": {
+                    "min": 150,
+                    "max": 450
+                },
+                "children": {
+                    "min": 140,
+                    "max": 440
+                }
+            }
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.12,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "adults": {
+                    "min": 12,
+                    "max": 16
+                },
+                "children": {
+                    "min": 9.5,
+                    "max": 13
+                }
+            }
+        }
+    ]
+}

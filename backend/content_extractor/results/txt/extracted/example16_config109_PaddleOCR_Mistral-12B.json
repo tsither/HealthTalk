@@ -1,0 +1,32 @@
+{
+    "Date": "03.XX.XXX",
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 25
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": 10.1,
+                "HCT": 43.6,
+                "HGB": 14.8,
+                "PLT": 259
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "10^9/L",
+                "HCT": "%",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC COUNT": "4.5 - 11.0",
+                "HCT": "42.0 - 52.0",
+                "HGB": "13.0 - 17.0",
+                "PLT": "150 - 400"
+            }
+        }
+    ]
+}

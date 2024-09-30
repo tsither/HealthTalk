@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "HGB": "13.2",
+                "HCT": "42.0",
+                "PLT": "270"
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "x10^9/L"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.0",
+                "RBC": "4.4-6.2",
+                "HGB": "13.5-17.5",
+                "HCT": "37.0-47.0",
+                "PLT": "150-400"
+            }
+        },
+        {
+            "test_name": "Blood Culture",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

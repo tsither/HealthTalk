@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 87.75,
+                "Hemoglobin (Hb)": 12.5,
+                "Packed Cell Volume (PCV)": 37.5,
+                "Total RBC count": 4.69,
+                "Mean Corpuscular Volume (MCV)": 32.8,
+                "Platelet Count": 0.06
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "x10^9/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Total RBC count": "x10^12/L",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Platelet Count": "x10^9/L"
+            },
+            "reference_range": {
+                "Total WBC count": "4.5 - 11.0",
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Packed Cell Volume (PCV)": "36 - 46",
+                "Total RBC count": "4.0 - 6.1",
+                "Mean Corpuscular Volume (MCV)": "83 - 101",
+                "Platelet Count": "150,000 - 410,000"
+            }
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": {
+                "Lymphocytes (DMLT)": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {},
+            "reference_range": {}
+        }
+    ]
+}

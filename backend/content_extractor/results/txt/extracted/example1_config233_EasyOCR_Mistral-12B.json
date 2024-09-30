@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "13.0 g/dl",
+                "rbc_count": "5.2 x10^6/uL",
+                "hct": "47%",
+                "mcv": "97 fl",
+                "mch": "28 pg",
+                "mchc": "32 g/dl",
+                "rdw": "12.0%",
+                "wbc_count": "6,000/uL",
+                "neutrophils": "60%",
+                "lymphocytes": "31%",
+                "eosinophils": "0%",
+                "monocytes": "0%",
+                "basophils": "0%",
+                "platelet_count": "250,000/uL"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dl",
+                "rbc_count": "x10^6/uL",
+                "hct": "%",
+                "mcv": "fl",
+                "mch": "pg",
+                "mchc": "g/dl",
+                "rdw": "%",
+                "wbc_count": "/uL",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%",
+                "platelet_count": "/uL"
+            },
+            "reference_range": {
+                "hemoglobin": "12-18 g/dl",
+                "rbc_count": "4.5-6.0 x10^6/uL",
+                "hct": "37-47%",
+                "mcv": "80-100 fl",
+                "mch": "27-31 pg",
+                "mchc": "32-36 g/dl",
+                "rdw": "11.5-14.5%",
+                "wbc_count": "4,500-11,000/uL",
+                "neutrophils": "50-70%",
+                "lymphocytes": "20-45%",
+                "eosinophils": "0-5%",
+                "monocytes": "0-10%",
+                "basophils": "0-3%",
+                "platelet_count": "150,000-450,000/uL"
+            }
+        }
+    ]
+}

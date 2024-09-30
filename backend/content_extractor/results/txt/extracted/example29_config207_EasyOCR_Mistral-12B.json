@@ -1,0 +1,29 @@
+{
+    "Date": "02 DEC",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "MEL M PATEL",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-18 g/dl"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.24,
+            "unit_of_measurement": "million/uL",
+            "reference_range": "4.5-5.5 million/uL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 13600,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

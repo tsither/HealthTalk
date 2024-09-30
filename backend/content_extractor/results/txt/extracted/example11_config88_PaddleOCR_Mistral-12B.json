@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "12.5 g/dL",
+                "Total RBC count": "4.84 million/µL",
+                "Blood Indices": {
+                    "MCV": "77.75 fL",
+                    "MCH": "20.06 pg",
+                    "MCHC": "32.8 g/dL",
+                    "RDW": "13.6%"
+                },
+                "Total WBC count": "5.9 K/µL",
+                "Platelet Count": "274 K/µL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Total RBC count": "million/µL",
+                "Blood Indices": {
+                    "MCV": "fL",
+                    "MCH": "pg",
+                    "MCHC": "g/dL",
+                    "RDW": "%"
+                },
+                "Total WBC count": "K/µL",
+                "Platelet Count": "K/µL"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0-17.0 g/dL",
+                "Total RBC count": "4.5-6.2 million/µL",
+                "Blood Indices": {
+                    "MCV": "83 - 101 fL",
+                    "MCH": "27 - 32 pg",
+                    "MCHC": "30 - 36 g/dL",
+                    "RDW": "11.5-14.5%"
+                },
+                "Total WBC count": "4,500-11,000 K/µL",
+                "Platelet Count": "150-400 K/µL"
+            }
+        }
+    ]
+}

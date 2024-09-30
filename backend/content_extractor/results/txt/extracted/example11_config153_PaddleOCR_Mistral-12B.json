@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 87.75,
+                "Neutrophils": 57.5,
+                "Lymphocytes": 27.2,
+                "Eosinophils": 32.8,
+                "Monocytes": 13.6
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Total WBC count": "4.5 - 10.5",
+                "Neutrophils": "40 - 50",
+                "Lymphocytes": "27 - 32",
+                "Eosinophils": "50 - 62",
+                "Monocytes": "20 - 40"
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

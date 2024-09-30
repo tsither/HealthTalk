@@ -1,0 +1,105 @@
+{
+    "Date": "02 Dec, 2x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "mary Sample EMOGL op",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.55,
+            "unit_of_measurement": "/L",
+            "reference_range": {
+                "High": 40,
+                "Mean": 57.5,
+                "Ca": 83
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Min": 83,
+                "Max": 107
+            }
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Min": 27,
+                "Max": 32
+            }
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/L",
+            "reference_range": {
+                "Min": 4000,
+                "Max": 1000
+            }
+        },
+        {
+            "test_name": "Neutrophil Percentage",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Min": 50,
+                "Max": 62
+            }
+        },
+        {
+            "test_name": "Lymphocyte Percentage",
+            "result_value": 37,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Min": 20,
+                "Max": 40
+            }
+        },
+        {
+            "test_name": "Eosinophil Percentage",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Min": 0.0,
+                "Max": 0.6
+            }
+        },
+        {
+            "test_name": "Monocyte Percentage",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Min": 0.0,
+                "Max": 1.9
+            }
+        },
+        {
+            "test_name": "Basophil Percentage",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Min": 0.0,
+                "Max": 0.2
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

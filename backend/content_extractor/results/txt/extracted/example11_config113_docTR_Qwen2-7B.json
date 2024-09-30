@@ -1,0 +1,115 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "DRLOGY PATHOLOGY LAB R 0123456789",
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCH",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated RDW",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "DOFFERENTIAL WBC COUNT",
+            "result_value": [
+                {
+                    "Neutrophils": 57.5
+                },
+                {
+                    "lymphocytes": 27.2
+                },
+                {
+                    "Eosinophils": 32.8
+                },
+                {
+                    "Monocytes": 13.6
+                },
+                {
+                    "Basophils": null
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": [
+                {
+                    "Neutrophils": [
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "lymphocytes": [
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "Eosinophils": [
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "Monocytes": [
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "Basophils": null
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/mill/cumm",
+            "reference_range": null
+        }
+    ]
+}

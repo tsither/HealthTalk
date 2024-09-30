@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma completo",
+            "result_value": {
+                "Hb": 120,
+                "Hct": 36,
+                "Vcm": 85,
+                "Rbc": 4.5,
+                "Wbc": 6500,
+                "Neut": 52,
+                "Lymph": 38,
+                "Eos": 1,
+                "Baso": 1
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Vcm": "fL",
+                "Rbc": "x10^6/uL",
+                "Wbc": "x10^3/uL",
+                "Neut": "%",
+                "Lymph": "%",
+                "Eos": "%",
+                "Baso": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

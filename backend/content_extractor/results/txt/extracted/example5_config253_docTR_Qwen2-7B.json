@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6 - 1.2 mg/dL"
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea Nitrogen",
+            "result_value": 15.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7 - 20 mg/dL"
+        }
+    ]
+}

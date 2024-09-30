@@ -1,0 +1,65 @@
+{
+    "Date": "Dec 02, 2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125 x 10^12",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Type Registereds",
+            "result_value": "52 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "35%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.5 pg",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14%",
+            "unit_of_measurement": "",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "15.3 x 10^9",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count of WBC",
+            "result_value": {
+                "Neutrophils": "76%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "2%",
+                "Monocytes": "1%",
+                "Basophils": "1%"
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "5.2 x 10^11",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

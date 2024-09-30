@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "10912345678",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 40,
+            "unit_of_measurement": "TLC/mm3",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "PACKED CELL VOLUME (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MEAN CORPUSCULAR HEAMATOCRIT (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 60,
+            "unit_of_measurement": "TLC/mm3",
+            "reference_range": null
+        }
+    ]
+}

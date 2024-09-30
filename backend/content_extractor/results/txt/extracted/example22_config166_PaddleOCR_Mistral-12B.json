@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "ICARE COMPLEX",
+        "patient_sex": null,
+        "patient_age": "0.06 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 13.5,
+                "White Blood Cell": 8.3,
+                "Red Blood Cell": 4.1,
+                "Platelet": 229
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "White Blood Cell": "K/μL",
+                "Red Blood Cell": "M/μL",
+                "Platelet": "K/μL"
+            },
+            "reference_range": null
+        }
+    ]
+}

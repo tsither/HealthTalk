@@ -1,0 +1,52 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "sample_collected_at": "Age: 21 Years",
+        "registered_on": null,
+        "collected_on": "03:11 PM 02 Dec. 2X PID : 555 Ref. By: Dr. Hiren Shah"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "Total RBC count 5.2 mill/cumm",
+            "unit_of_measurement": "milliliters per cubic millimeter (mm3)",
+            "reference_range": "[4.5 - 5.5] mm3"
+        }
+    ],
+    "reporting_lab": {
+        "name": "DRLOGy PATHOLOGy LAB",
+        "address": "105 -108, SMART VISION COMPLEX, HEALTHCARE ROAD, OPPOSITE HEALTHCARE COMPLEX. MUMBAI - ebsa",
+        "contact_info": {
+            "phone": null,
+            "email": "drlogypathlab@drlogy.com"
+        }
+    },
+    "reported_by": {
+        "technician": {
+            "name": "Dr. Payal Shah",
+            "title": "Medical Lab Technician (MDLt)"
+        },
+        "pathologist": [
+            {
+                "name": "Dr. Vimal Shah",
+                "title": "(DmLt. BmLT)"
+            },
+            {
+                "name": null,
+                "title": "(MD, Pathologist) (MD. Pathologist)"
+            }
+        ]
+    },
+    "report_date": "04:35 PM 02 Dec",
+    "instruments_used": [
+        {
+            "name": "Fully automated cell counter - Mindray 300"
+        }
+    ],
+    "comments": null,
+    "endorsement": null
+}

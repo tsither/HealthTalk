@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 689578,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 575,
+                "Lymphocytes": 8775,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 130,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

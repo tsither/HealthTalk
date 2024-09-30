@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1234567",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White blood cells (WBC)": 7.5,
+                "Red blood cells (RBC)": 4.8,
+                "Hemoglobin (Hgb)": 14.0,
+                "Platelets (PLT)": 250.0
+            },
+            "unit_of_measurement": {
+                "White blood cells (WBC)": "x10^9/L",
+                "Red blood cells (RBC)": "x10^12/L",
+                "Hemoglobin (Hgb)": "g/dL",
+                "Platelets (PLT)": "x10^9/L"
+            },
+            "reference_range": {
+                "White blood cells (WBC)": "4.5-11.0 x10^9/L",
+                "Red blood cells (RBC)": "4.0-5.5 x10^12/L",
+                "Hemoglobin (Hgb)": "12.0-16.0 g/dL",
+                "Platelets (PLT)": "150.0-450.0 x10^9/L"
+            }
+        }
+    ]
+}

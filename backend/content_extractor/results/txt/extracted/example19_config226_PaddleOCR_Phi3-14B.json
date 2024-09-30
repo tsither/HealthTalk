@@ -1,0 +1,37 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total R8C count": 5.2,
+                "BLOOD INDICES Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (Mcv)": 87.75,
+                "Mean Corpuscular Hemoglobin (MCH)": null,
+                "Mean Corpuscular Hemoglobin Concentration (MCHS)": 32.8,
+                "WBC COUNT Total WBC count I": 9000,
+                "Platelet Count Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": null,
+                "RBC COUNT Total R8C count": "mill/cumm",
+                "BLOOD INDICES Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (Mcv)": "fL",
+                "WBC COUNT Total WBC count I": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0",
+                "RBC COUNT Total R8C count": "4.5 - 5.5",
+                "BLOOD INDICES Packed Cell Volume (PCV)": "40-50 %",
+                "Mean Corpuscular Volume (Mcv)": "83 - 101 fL"
+            }
+        }
+    ]
+}

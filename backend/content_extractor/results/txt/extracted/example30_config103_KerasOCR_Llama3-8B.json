@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Sample",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4690000000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4-5x10^12 cells/L"
+        },
+        {
+            "test_name": "Hematocrit (Packed Cell Volume)",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 30.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.3,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7750000000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4-10x10^9 cells/L"
+        },
+        {
+            "test_name": "Neutrophils (Absolute)",
+            "result_value": 5750000000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "1.5-7.0x10^9 cells/L"
+        },
+        {
+            "test_name": "Lymphocytes (Absolute)",
+            "result_value": 877500000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "0.8-4.0x10^9 cells/L"
+        },
+        {
+            "test_name": "Eosinophils (Absolute)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils (Absolute)",
+            "result_value": 30000000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "<0.02x10^9 cells/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 326000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "1.50-4.70x10^5 cells/uL"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count",
+            "result_value": 13.6,
+            "unit_of_measurement": "x10^9/L (mcV)",
+            "reference_range": "4 - 5.5 x10^9/L"
+        },
+        {
+            "test_name": "White Blood Cell COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil COUNT",
+            "result_value": 7.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "1.8 - 6.3 x10^9/L"
+        },
+        {
+            "test_name": "Lymphocyte COUNT",
+            "result_value": 4.2,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "0.9 - 3.5 x10^9/L"
+        }
+    ]
+}

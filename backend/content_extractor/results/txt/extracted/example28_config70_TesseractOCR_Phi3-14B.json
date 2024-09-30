@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "colesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-200 mg/dL"
+        },
+        {
+            "test_name": "protein",
+            "result_value": 6.6,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        }
+    ]
+}

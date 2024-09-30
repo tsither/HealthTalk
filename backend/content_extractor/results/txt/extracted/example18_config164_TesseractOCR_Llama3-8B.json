@@ -1,0 +1,29 @@
+{
+    "Date": "11/15/2022",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count Test",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-15 g/dL"
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": 22,
+            "unit_of_measurement": "U/L",
+            "reference_range": "15-40 U/L"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.2 mg/dL"
+        }
+    ]
+}

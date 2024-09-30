@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": 57.5,
+                "RBC_count": null,
+                "Hb": 13.6,
+                "HCT": 32.8,
+                "Platelet_count": 27.2
+            },
+            "unit_of_measurement": {
+                "WBC_count": "10^9/L",
+                "RBC_count": null,
+                "Hb": "g/dL",
+                "HCT": "%",
+                "Platelet_count": "10^9/L"
+            },
+            "reference_range": {
+                "WBC_count": "4.5-11.6",
+                "RBC_count": null,
+                "Hb": "13.0-17.0",
+                "HCT": "32.5-34.5",
+                "Platelet_count": "150,000-410,000"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Date": "20XX",
+    "patient_information": {
+        "patient_id": "1s!60",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4,000 - 11,000"
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "count": "78%"
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "count": "22%"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes Absolute Count",
+            "result_value": "40",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

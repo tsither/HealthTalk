@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Vash Serin",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.0,
+            "unit_of_measurement": "Million cells per microliter (M/cu.mm)",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80.0,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 28.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1.75,
+            "unit_of_measurement": "Lakhs/ cu.mm",
+            "reference_range": "1.5-3.5 Lakhs"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 13600.0,
+            "unit_of_measurement": "cells/cu.mm",
+            "reference_range": null
+        }
+    ]
+}

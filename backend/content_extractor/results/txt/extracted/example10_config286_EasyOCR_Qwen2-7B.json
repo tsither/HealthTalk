@@ -1,0 +1,35 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "6.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal range: <7% for non-diabetics, up to 8% for those with diabetes"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": [
+                "Total cholesterol: 205 mg/dL",
+                "HDL cholesterol: 45 mg/dL",
+                "LDL cholesterol: 120 mg/dL",
+                "Triglycerides: 130 mg/dL"
+            ],
+            "unit_of_measurement": [
+                "mg/dL"
+            ],
+            "reference_range": {
+                "Total cholesterol": "Normal range: <200 mg/dL",
+                "HDL cholesterol": "Ideal range: >60 mg/dL; Normal range: 40-59 mg/dL",
+                "LDL cholesterol": "Normal range: <130 mg/dL",
+                "Triglycerides": "Normal range: <150 mg/dL"
+            }
+        }
+    ]
+}

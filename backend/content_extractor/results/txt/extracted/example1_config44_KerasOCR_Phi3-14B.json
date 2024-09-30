@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin primary hb",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV count",
+            "result_value": 60,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 34,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MPV count",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

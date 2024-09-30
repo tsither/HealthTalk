@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiroashah Patel",
+        "patient_sex": "Male",
+        "patient_age": 78
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 5.2,
+                "RBC": 4.5,
+                "HGB": 12.0,
+                "PLT": 320
+            },
+            "unit_of_measurement": {
+                "WBC": "K/µL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "PLT": "K/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125.0,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "Reference Value: Low"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": 4.0123456789,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 13.0,
+            "unit_of_measurement": "-",
+            "reference_range": "Reference Value: Low (13.0 - 17.0)"
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": 9000.0,
+            "unit_of_measurement": "COUNT",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 328.0,
+            "unit_of_measurement": "-",
+            "reference_range": "Reference Value: Low"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 40.0,
+            "unit_of_measurement": null,
+            "reference_range": "Reference Value: Low (31 - 50)"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 20.0,
+            "unit_of_measurement": null,
+            "reference_range": "Reference Value: High"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 62.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 10.0,
+            "unit_of_measurement": "-",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bands",
+            "result_value": 50000.0,
+            "unit_of_measurement": "-",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Date": "Dec. 2",
+    "patient_information": {
+        "patient_id": "A56 78 0917",
+        "patient_name": "alamn anopan",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Low": 13,
+                "High": 18
+            }
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 8725,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 40,
+                "High": 62
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "Low": 76,
+                "High": 100
+            }
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "ID: 123456789",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": "56"
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose (Blood)",
+            "result_value": "100 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-120 mg/dL"
+        },
+        {
+            "test_name": "Cholesterol Total",
+            "result_value": "240 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-200 mg/dL"
+        }
+    ]
+}

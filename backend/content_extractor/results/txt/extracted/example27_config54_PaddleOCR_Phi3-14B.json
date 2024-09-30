@@ -1,0 +1,112 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 4.96,
+            "unit_of_measurement": "mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitario",
+            "result_value": 270,
+            "unit_of_measurement": "mm/3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematrito",
+            "result_value": 44,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eritropoyesis",
+            "result_value": 14.8,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Monocitos",
+            "result_value": 10,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular (VSG)",
+            "result_value": 2.73,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica Seria V.N.",
+            "result_value": [
+                {
+                    "Glucosa": 87,
+                    "unit_of_measurement": "mg%",
+                    "reference_range": null
+                },
+                {
+                    "Colesterol Total": 169,
+                    "unit_of_measurement": "mg/dL",
+                    "reference_range": null
+                },
+                {
+                    "HDL": 40,
+                    "unit_of_measurement": "mg%",
+                    "reference_range": null
+                },
+                {
+                    "LDL": 1.56,
+                    "unit_of_measurement": "",
+                    "reference_range": ""
+                },
+                {
+                    "Triglicéridos": 45,
+                    "unit_of_measurement": "mg/dL",
+                    "reference_range": null
+                },
+                {
+                    "Urea": 19,
+                    "unit_of_measurement": "mg%",
+                    "reference_range": null
+                }
+            ]
+        },
+        {
+            "test_name": "Pruebas enzimáticas V.N.",
+            "result_value": [
+                {
+                    "GOT": 40,
+                    "unit_of_measurement": "U/L",
+                    "reference_range": null
+                },
+                {
+                    "GT": 43,
+                    "unit_of_measurement": "",
+                    "reference_range": null
+                }
+            ]
+        },
+        {
+            "test_name": "Ionograma V.N.",
+            "result_value": [
+                {
+                    "Sodio": 141,
+                    "unit_of_measurement": "mEq/L",
+                    "reference_range": null
+                },
+                {
+                    "Cloro": 86,
+                    "unit_of_measurement": "mEq/L",
+                    "reference_range": null
+                }
+            ]
+        }
+    ]
+}

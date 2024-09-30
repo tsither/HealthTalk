@@ -1,0 +1,87 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin 12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "$.2 4.5-5.5",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": [
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": "57.5",
+                    "units": "%"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": "87.75",
+                    "units": "fL"
+                },
+                {
+                    "name": "MCH",
+                    "value": "27.2",
+                    "units": "Pg"
+                },
+                {
+                    "name": "MCHC",
+                    "value": "32.8",
+                    "units": "g/dL"
+                },
+                {
+                    "name": "Cell count",
+                    "value": "13.6",
+                    "units": "%"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "percentage": "60 | 750-6205 %"
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "percentage": "31 ( OG) YU o Gaga! U "
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "percentage": "1 00 - 06 %"
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "percentage": "7 00-10 %"
+                },
+                {
+                    "cell_type": "Basophils",
+                    "percentage": "1 00 - 02 %"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Platelet Count 150000",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

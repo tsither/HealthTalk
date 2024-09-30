@@ -1,0 +1,70 @@
+{
+    "Date": "Not Available",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "shivam sungalows s g rond, mumbai",
+        "patient_collected_ref": {
+            "collection_date": "03 cn by 11 pit 02",
+            "collector": "dr cca hiren"
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbcy investigation result",
+            "result_value": 125,
+            "unit_of_measurement": "low 1301 170 rbc gidl count total ribic count",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volurme pcvi",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "0 s0"
+        },
+        {
+            "test_name": "mean corpuscular x volume imcvy",
+            "result_value": 87,
+            "unit_of_measurement": "cucll",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mchc",
+            "result_value": 328,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 13.16,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc count wbcoumart pathologuoono total boratory differential wbc count",
+            "result_value": {
+                "neutrophils": 60,
+                "lymphocytes": 3.31,
+                "eosinophils": 0.06,
+                "monocytes": 0.05,
+                "basophils": 0.2
+            },
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count plalelet count",
+            "result_value": 100000,
+            "unit_of_measurement": "iso000 a10000 cumm",
+            "reference_range": null
+        }
+    ]
+}

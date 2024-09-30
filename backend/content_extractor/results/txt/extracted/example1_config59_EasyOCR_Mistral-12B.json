@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "125 Shivam Bungalows, S.G. Road, Mumbai",
+        "patient_name": "Yash M Patel",
+        "patient_age": 21,
+        "patient_sex": "Male"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-17"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 5.25,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "85-101"
+        },
+        {
+            "test_name": "Calculated MCH",
+            "result_value": 27.13,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34-36"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 18.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        }
+    ]
+}

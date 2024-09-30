@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 130,
+            "unit_of_measurement": "1/μL",
+            "reference_range": "45-100"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 173,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 45,
+            "unit_of_measurement": "1/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 101,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 118,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 149,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

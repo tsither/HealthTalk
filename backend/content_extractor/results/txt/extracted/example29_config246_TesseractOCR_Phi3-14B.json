@@ -1,0 +1,27 @@
+{
+    "Date": "12.02.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "YashM Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 40.8,
+                "BLOOD INDICES": [
+                    7.5
+                ],
+                "WBC COUNT": null,
+                "PLATELET COUNT": 150000
+            }
+        },
+        {
+            "test_name": "Interpretation",
+            "result_value": "Further confirm for Anemia"
+        }
+    ]
+}

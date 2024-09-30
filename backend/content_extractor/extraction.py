@@ -1,15 +1,12 @@
-from dotenv import load_dotenv
 from openai import OpenAI
 import pytesseract
-import numpy as np
 import cv2
 import os
 import json
 import argparse
-
-import json
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
+from pdf2image import convert_from_path
 
 def main():
     @staticmethod
@@ -17,70 +14,8 @@ def main():
         return cv2.imread(path)
 
     @staticmethod
-    def is_grayscale(image):
-        return len(image.shape) == 2
-
-    @staticmethod
-    def to_grayscale(image):
-        if not is_grayscale(image):
-            return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        return image
-
-    @staticmethod
-    def adaptive_gaussian(image):
-        gray = to_grayscale(image)
-        medblur = cv2.medianBlur(gray, 5)
-        return cv2.adaptiveThreshold(medblur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
-
-    @staticmethod
-    def moments(image):
-        gray = to_grayscale(image)
-        _, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY_INV)
-        # Calculate image moments
-        moments = cv2.moments(binary)
-
-        # Compute the skew angle
-        skew_angle = 0.5 * \
-            np.arctan2(2 * moments['mu11'], moments['mu20'] - moments['mu02'])
-        skew_angle = np.degrees(skew_angle)
-
-        # Rotate the image to correct skew
-        (h, w) = image.shape[:2]
-        center = (w // 2, h // 2)
-        M = cv2.getRotationMatrix2D(center, skew_angle, 1.0)
-        # Adjust the bounding box size to fit the entire rotated image
-        cos = np.abs(M[0, 0])
-        sin = np.abs(M[0, 1])
-        new_w = int((h * sin) + (w * cos))
-        new_h = int((h * cos) + (w * sin))
-        M[0, 2] += (new_w / 2) - center[0]
-        M[1, 2] += (new_h / 2) - center[1]
-
-        # Rotate the image to correct skew
-        rotated = cv2.warpAffine(
-            image, M, (new_w, new_h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
-        return rotated
-
-    @staticmethod
-    def conservative_filter(image, kernel_size=3):
-        pad_size = kernel_size // 2
-        padded = np.pad(image, pad_size, mode='edge')
-        result = np.zeros_like(image)
-
-        for i in range(pad_size, padded.shape[0] - pad_size):
-            for j in range(pad_size, padded.shape[1] - pad_size):
-                region = padded[i - pad_size:i + pad_size +
-                                1, j - pad_size:j + pad_size + 1]
-                min_val = np.min(region)
-                max_val = np.max(region)
-                if image[i - pad_size, j - pad_size] < min_val:
-                    result[i - pad_size, j - pad_size] = min_val
-                elif image[i - pad_size, j - pad_size] > max_val:
-                    result[i - pad_size, j - pad_size] = max_val
-                else:
-                    result[i - pad_size, j - pad_size] = image[i -
-                                                               pad_size, j - pad_size]
-        return result
+    def median_filter(image, kernel_size=3):
+        return cv2.medianBlur(image, kernel_size)
 
     @staticmethod
     def process(image):
@@ -91,23 +26,9 @@ def main():
     @staticmethod
     def chat_completion(prompt, question):
 
-        # ANYSCALE_API_KEY = os.getenv("ANYSCALE_API_KEY").strip()
-
-        # client = OpenAI(
-        #     base_url="https://api.endpoints.anyscale.com/v1",
-        #     api_key=ANYSCALE_API_KEY
-        # )
-
-        # chat_completion = client.chat.completions.create(
-        #     model='meta-llama/Meta-Llama-3-8B-Instruct',
-        #     messages=[{"role": "system", "content": prompt},
-        #               {"role": "user", "content": question}],
-        #     temperature=0.1
-        # )
-
         client = OctoAI()
         completion = client.text_gen.create_chat_completion(
-        model="meta-llama-3-8b-instruct",
+        model="gemma2-7b",
         messages=[
             ChatMessage(
                 role="system",
@@ -176,10 +97,15 @@ def main():
     parser.add_argument('-f', '--file', type=str, required=True, help='Path to the input file')
     args = parser.parse_args()
     file_path = args.file
+    
+    if ".pdf" in file_path:
+    	pages = convert_from_path(file_path)
+    	file_path = file_path.replace(".pdf", ".tiff")
+    	#print("Creating:",file_path)
+    	pages[0].save(file_path, "tiff")
 
     image = read_image(str(file_path))
-    image = moments(adaptive_gaussian(image)) # faster, but original is line 164
-    # image = conservative_filter(moments(adaptive_gaussian(image)))
+    image = median_filter(image)    
     text = process(image)
     answer = extract_test_results(text)
 

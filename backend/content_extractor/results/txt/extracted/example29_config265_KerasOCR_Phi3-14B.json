@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation Result",
+            "result_value": {
+                "Hemoglobin (Hb)": 125,
+                "Red Blood Cell (RBC) count total": 5700000,
+                "Mean Corpuscular Volume (MCV)": 86.9,
+                "MCHC": 34.5
+            },
+            "unit_of_measurement": {
+                "Hb": "g/L",
+                "RBC count total": "cells/µL",
+                "MCV": "µm³",
+                "MCHC": "%"
+            },
+            "reference_range": {
+                "Hb": "15-17 g/L",
+                "RBC count total": "4.5-5.9 x 10^6 cells/µL for males, 3.8-5.2 x 10^6 cells/µL for females",
+                "MCV": "78-98 fL",
+                "MCHC": "31.1% to 34.9%"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

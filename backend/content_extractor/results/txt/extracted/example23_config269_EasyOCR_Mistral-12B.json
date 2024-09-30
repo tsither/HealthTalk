@@ -1,0 +1,57 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6.2,
+                "Red Blood Cells": 4.8,
+                "Hemoglobin": 13.5,
+                "Platelets": 250
+            },
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": {
+                "White Blood Cells": [
+                    3.5,
+                    10.5
+                ],
+                "Red Blood Cells": [
+                    4.5,
+                    6.0
+                ],
+                "Hemoglobin": [
+                    12.0,
+                    16.0
+                ],
+                "Platelets": [
+                    150,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "Alanine Transaminase (ALT)": 35,
+                "Aspartate Transaminase (AST)": 28
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "Alanine Transaminase (ALT)": [
+                    10,
+                    40
+                ],
+                "Aspartate Transaminase (AST)": [
+                    5,
+                    35
+                ]
+            }
+        }
+    ]
+}

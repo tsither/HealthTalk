@@ -1,0 +1,23 @@
+{
+    "Date": "12.05.2023",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": "50"
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "165",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "120-200"
+        },
+        {
+            "test_name": "Cholesterol, HDL",
+            "result_value": "45",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "35-60"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": {
+                    "count": 5000,
+                    "differential": {
+                        "neutrophils": 68,
+                        "lymphocytes": 23,
+                        "eosinophils": 1,
+                        "monocytes": 7,
+                        "basophils": 1
+                    }
+                },
+                "RBC": {
+                    "count": 5.0,
+                    "Hb": 14,
+                    "HCT": 40,
+                    "MCV": 86,
+                    "MCH": 28,
+                    "MCHC": 32
+                },
+                "PLT": 272
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/uL",
+                "RBC": "cells/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "cells/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 10.5",
+                "RBC": "4.8 - 6.2",
+                "Hb": "13.5 - 17.5",
+                "HCT": "41 - 50%",
+                "MCV": "78 - 99",
+                "MCH": "27 - 33",
+                "MCHC": "32 - 36",
+                "PLT": "150 - 450"
+            }
+        }
+    ]
+}

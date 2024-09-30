@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 588,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils percentage",
+            "result_value": 130,
+            "unit_of_measurement": "%",
+            "reference_range": "45-60%"
+        },
+        {
+            "test_namenamename_type": "Eosinophils percentage",
+            "result_valuetype_value": 178,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils count",
+            "result_value": 0.45,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 180000,
+            "unit_of_measurement": "platelets/uL",
+            "reference_range": null
+        }
+    ]
+}

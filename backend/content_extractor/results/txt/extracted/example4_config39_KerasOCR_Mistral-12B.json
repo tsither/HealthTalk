@@ -1,0 +1,35 @@
+{
+    "Date": "202X-XX-XX",
+    "patient_information": {
+        "patient_id": "09123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear",
+            "result_value": "Normal",
+            "unit_of_measurement": "Not specified",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.6 million/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4.4 - 5.9"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "6,000 cells/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4,500 - 10,000"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "2.5 million/mm³",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "1.5 - 4.0"
+        }
+    ]
+}

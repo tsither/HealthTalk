@@ -1,0 +1,49 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "5.2 g/dL",
+                "Total RBC count": "83 x10^6/uL",
+                "Packed Cell Volume (PCV)": "27.2%",
+                "Mean Corpuscular Hemoglobin (MCH)": "32.8 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "13.6 g/dL",
+                "Red Blood Cell Distribution Width (RDW)": "9000 fl",
+                "Total WBC count": "60 x10^3/uL",
+                "Neutrophils": "<00%",
+                "Lymphocytes": "<00%",
+                "Eosinophils": "<00%",
+                "Monocytes": "<02%",
+                "Basophils": "<02%",
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "/uL",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL",
+                "Red Blood Cell Distribution Width (RDW)": "fl",
+                "Total WBC count": "/uL",
+                "%": null,
+                "/uL": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0 g/dL",
+                "Total RBC count": "40-50 x10^6/uL",
+                "Packed Cell Volume (PCV)": "27 - 32%",
+                "Mean Corpuscular Hemoglobin (MCH)": "11.6-14.0 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null,
+                "Red Blood Cell Distribution Width (RDW)": "4000-11000 fl",
+                "Total WBC count": "50-62 x10^3/uL"
+            }
+        }
+    ]
+}

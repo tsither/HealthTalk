@@ -1,0 +1,41 @@
+{
+    "Date": "150000",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (MCV)",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 1.7,
+            "unit_of_measurement": null,
+            "reference_range": "0.9-2.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 11.6,
+            "unit_of_measurement": null,
+            "reference_range": "150-410"
+        }
+    ]
+}

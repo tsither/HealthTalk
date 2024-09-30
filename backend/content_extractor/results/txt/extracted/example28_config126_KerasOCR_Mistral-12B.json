@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Juan",
+        "patient_sex": "Masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 48,
+                "vcm": 143,
+                "hmc": 89,
+                "leucocitos": 29,
+                "pg": 102
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "vcm": "fl",
+                "hmc": "%",
+                "leucocitos": "x10^3/µL",
+                "pg": "pg"
+            }
+        },
+        {
+            "test_name": "Quimica sanguinea",
+            "result_value": {
+                "glucosa": 2,
+                "creatinina": 1.5,
+                "colesterol": 220,
+                "trigliceridos": 51,
+                "ferritina": 5,
+                "hemoglobina": 16,
+                "albumina": 4
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol": "mg/dL",
+                "trigliceridos": "mg/dL",
+                "ferritina": "ng/mL",
+                "hemoglobina": "g/dL",
+                "albumina": "g/dL"
+            }
+        },
+        {
+            "test_name": "Funcion hepatica",
+            "result_value": {
+                "got": 20,
+                "sgot": 45,
+                "ggt": 80,
+                "bilirrubina_total": 1,
+                "bilirrubina_directa": 0.838,
+                "fosfatasa_alkalina": 15
+            },
+            "unit_of_measurement": {
+                "got": "U/g",
+                "sgot": "U/g",
+                "ggt": "U/g",
+                "bilirrubina_total": "mg/dL",
+                "bilirrubina_directa": "mg/dL",
+                "fosfatasa_alkalina": "U/L"
+            }
+        }
+    ]
+}

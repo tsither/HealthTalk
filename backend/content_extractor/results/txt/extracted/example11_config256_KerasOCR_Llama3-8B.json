@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "45 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "120-150 g/L"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": "4.5 x 10^12 cells/L",
+            "unit_of_measurement": "x 10^12 cells/L",
+            "reference_range": "4.32-5.72 x 10^12 cells/L"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "80 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "34 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5-36 g/dL"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "0.41 L/L",
+            "unit_of_measurement": "L/L",
+            "reference_range": "0.37-0.45 L/L"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "13,000 cells/L",
+            "unit_of_measurement": "cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "23%",
+                "Lymphocytes": "64%",
+                "Monocytes": "10%",
+                "Eosinophils": "1%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "325,500 cells/L",
+            "unit_of_measurement": "cells/L",
+            "reference_range": "150-450 x 10^9 cells/L"
+        }
+    ]
+}

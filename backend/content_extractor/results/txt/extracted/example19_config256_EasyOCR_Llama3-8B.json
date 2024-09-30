@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Patel",
+        "patient_sex": "Male",
+        "patient_age": 125
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin count",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        },
+        {
+            "test_name": "Red blood cell (RBC) count",
+            "result_value": 4.32,
+            "unit_of_measurement": "×10^12/L",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin (MCH)",
+            "result_value": 28.6,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed cell volume (PCV) or Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54"
+        },
+        {
+            "test_name": "White blood cell (WBC) count",
+            "result_value": 15000,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": 75.5,
+            "unit_of_measurement": "fl.",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Reticulocyte count",
+            "result_value": 0.6,
+            "unit_of_measurement": "% or ×10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential count of WBCs",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 3000000,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "N Almen",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "High"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4500000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 50.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 17200,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 4000000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.7,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": 12.0,
+                "Hematocrito": 36.0,
+                "H.C.M.": 329.0,
+                "C.H.C.M.": 4.6,
+                "R.D.W.": 0.9,
+                "Plaquetas": {
+                    "Conteo": 288.0,
+                    "%": 100.0
+                },
+                "V.P.M.": 70.1,
+                "Linfocitos": {
+                    "Conteo": 690.0,
+                    "%": 13.7
+                },
+                "Neutrofilos": {
+                    "Conteo": 540.0,
+                    "%": 31.0
+                },
+                "Monocitos": {
+                    "Conteo": 180.0,
+                    "%": 9.0
+                },
+                "Eosinofilos": {
+                    "Conteo": 70.0,
+                    "%": 0.2
+                },
+                "Basofilos": {
+                    "Conteo": 40.0,
+                    "%": null
+                }
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "H.C.M.": "fL",
+                "C.H.C.M.": "100/fL",
+                "R.D.W.": "%",
+                "Plaquetas": {
+                    "Conteo": "/IL",
+                    "%": "%"
+                },
+                "V.P.M.": "L/min",
+                "Linfocitos": {
+                    "Conteo": "/IL",
+                    "%": "%"
+                },
+                "Neutrofilos": {
+                    "Conteo": "/IL",
+                    "%": "%"
+                },
+                "Monocitos": {
+                    "Conteo": "/IL",
+                    "%": "%"
+                },
+                "Eosinofilos": {
+                    "Contee": "/IL",
+                    "%": "%"
+                },
+                "Basofilos": {
+                    "Conteo": "/IL",
+                    "%": null
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

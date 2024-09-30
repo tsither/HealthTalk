@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematios": "40.0",
+                "hemoglobina": "14.4",
+                "homatocrito": "30.5"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "VSG",
+            "result_value": "47.0",
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        },
+        {
+            "test_name": "Placaquetas",
+            "result_value": {
+                "plaquetas": "208",
+                "plaquetocrito": "18.9"
+            },
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos serie blanca",
+            "result_value": {
+                "neu": "42.0",
+                "lin": "58.0"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "i 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": [
+                {
+                    "name": "Hemoglobin",
+                    "value": 12.5
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": 57.5
+                },
+                {
+                    "name": "MCH",
+                    "value": 27.2
+                },
+                {
+                    "name": "MCHC",
+                    "value": 32.5
+                },
+                {
+                    "name": "RDW",
+                    "value": 13.6
+                },
+                {
+                    "name": "Total wBC count",
+                    "value": 4000
+                },
+                {
+                    "name": "Neutrophils",
+                    "value": 60
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": 31
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": 20
+                },
+                {
+                    "name": "Monocytes",
+                    "value": 40
+                },
+                {
+                    "name": "Basophils",
+                    "value": 0
+                },
+                {
+                    "name": "Platelet Count",
+                    "value": 150000
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "measurement": "g/dL",
+                    "test_name": [
+                        "MCHC"
+                    ]
+                },
+                {
+                    "measurement": "pg",
+                    "test_name": [
+                        "MCH"
+                    ]
+                },
+                {
+                    "measurement": "%",
+                    "test_name": [
+                        "PCV",
+                        "RDW"
+                    ]
+                },
+                {
+                    "measurement": "mill/cumm",
+                    "test_name": [
+                        "Total RBC count"
+                    ]
+                },
+                {
+                    "measurement": "-",
+                    "test_name": [
+                        "Neutrophils",
+                        "Lymphocytes",
+                        "Eosinophils",
+                        "Monocytes",
+                        "Basophils"
+                    ]
+                }
+            ],
+            "reference_range": [
+                {
+                    "range": "13.0- 17.0 g/dL",
+                    "test_name": [
+                        "Hemoglobin"
+                    ]
+                },
+                {
+                    "range": "4.5 - 5.5 mill/cumm",
+                    "test_name": [
+                        "Total RBC count"
+                    ]
+                },
+                {
+                    "range": "40-50 %",
+                    "test_name": [
+                        "PCV"
+                    ]
+                },
+                {
+                    "range": "27 - 32 pg",
+                    "test_name": [
+                        "MCH"
+                    ]
+                },
+                {
+                    "range": "32.5 - 34.5 g/dL",
+                    "test_name": [
+                        "MCHC"
+                    ]
+                },
+                {
+                    "range": "11.6 - 14.0",
+                    "test_name": [
+                        "RDW"
+                    ]
+                },
+                {
+                    "range": "50 : 62",
+                    "test_name": [
+                        "Neutrophils"
+                    ]
+                },
+                {
+                    "range": "31 dP gP dP ge",
+                    "test_name": [
+                        "Lymphocytes"
+                    ]
+                },
+                {
+                    "range": "20 : 40",
+                    "test_name": [
+                        "Eosinophils"
+                    ]
+                },
+                {
+                    "range": "7 00 - 10",
+                    "test_name": [
+                        "Monocytes"
+                    ]
+                },
+                {
+                    "range": "00 - 02",
+                    "test_name": [
+                        "Basophils"
+                    ]
+                },
+                {
+                    "range": "150000 - 410000 cumm unier",
+                    "test_name": [
+                        "Platelet Count"
+                    ]
+                }
+            ]
+        }
+    ]
+}

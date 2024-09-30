@@ -1,0 +1,99 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0-17.0 g/dl"
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "45-55 mill/cumm"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": [
+                {
+                    "test_name": "Packed Cell Volume (PCV)",
+                    "value": 7.5,
+                    "unit": "%",
+                    "range": "High 40-50 %"
+                },
+                {
+                    "test_name": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit": "fl",
+                    "range": "83-101 fl"
+                },
+                {
+                    "test_name": "MCH",
+                    "value": null,
+                    "unit": "pg",
+                    "range": "27-32 pg"
+                },
+                {
+                    "test_name": "MCHC",
+                    "value": 32.8,
+                    "unit": "%",
+                    "range": "32,5-34.5 g/d ROW"
+                }
+            ]
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "Ld",
+            "reference_range": "1a Sew} €4000:11000"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": [
+                {
+                    "test_name": "Neutrophils",
+                    "value": 60,
+                    "unit": "%",
+                    "range": "(750-62-€ ‘7 %"
+                },
+                {
+                    "test_name": "Lymphocytes",
+                    "value": 31,
+                    "unit": "%",
+                    "range": "Wo! M26 6 20-40 bi %"
+                },
+                {
+                    "test_name": "Eosinophils",
+                    "value": 1,
+                    "unit": "%",
+                    "range": "1 00 - 06 %"
+                },
+                {
+                    "test_name": "Monocytes",
+                    "value": 7,
+                    "unit": "%",
+                    "range": "7 00-10 %"
+                },
+                {
+                    "test_name": "Basophils",
+                    "value": 1,
+                    "unit": "%",
+                    "range": "1 00 - 02 %"
+                }
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": null,
+            "unit_of_measurement": "cumm",
+            "reference_range": "Borderline 150000 - 410000 cumm"
+        }
+    ]
+}

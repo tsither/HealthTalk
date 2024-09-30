@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "M1 Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 8.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.3 - 10.5"
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 18.5,
+            "unit_of_measurement": "%",
+            "reference_range": "9.0 - 19.0"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 10.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "7.5 - 13.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.55,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.32 - 5.72"
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 14.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8 - 17.2"
+        },
+        {
+            "test_name": "Hematocrit (HT)",
+            "result_value": 42.1,
+            "unit_of_measurement": "%",
+            "reference_range": "40.7 - 50.3"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000 - 300000"
+        }
+    ]
+}

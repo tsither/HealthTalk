@@ -1,0 +1,29 @@
+{
+    "Date": "2022-01-23",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.0,
+                "RBC": 5.0,
+                "Hb": 12.0,
+                "HCT": 40.0,
+                "PLT": 250.0
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": "million/mm^3",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "PLT": "thousands/mm^3"
+            },
+            "reference_range": null
+        }
+    ]
+}

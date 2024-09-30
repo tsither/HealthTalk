@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 5550,
+                "RBC": 4500,
+                "HGB": 12.5,
+                "HCT": 37.5,
+                "PLT": 270,
+                "MCV": 90,
+                "MCH": 32.8,
+                "MCHC": null,
+                "RDW": null
+            },
+            "unit_of_measurement": {
+                "WBC": "g/dL",
+                "RBC": "mill/cumm",
+                "HGB": "g/dL",
+                "HCT": "% me (PCV)",
+                "PLT": "cumm",
+                "MCV": "fl",
+                "MCH": null,
+                "MCHC": null,
+                "RDW": null
+            },
+            "reference_range": {
+                "WBC": "4000-11000",
+                "RBC": "4.5 - 5.5",
+                "HGB": "12.5 - 16.5",
+                "HCT": "32.8 - 47",
+                "PLT": "150000 - 410000",
+                "MCV": "80-96 fl",
+                "MCH": null,
+                "MCHC": null,
+                "RDW": null
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 57.5,
+                "Lymphocytes": 13.6,
+                "Monocytes": 83,
+                "Eosinophils": 87.75,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": null
+            },
+            "reference_range": {
+                "Neutrophils": "40-75%",
+                "Lymphocytes": "20-45%",
+                "Monocytes": "2-10%",
+                "Eosinophils": "<3% (absolute count <500)",
+                "Basophils": null
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

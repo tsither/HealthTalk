@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_sex": "varon",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 x 10^9/L",
+                "Hemoglobina": "14.3 g/l",
+                "VCM": "89 fl",
+                "H.M.C": "29 pg",
+                "Leucicitos": "10.2 x 10^6/L (68N, 1B, SE, 24L 2M)"
+            },
+            "unit_of_measurement": {
+                "Hematies": "/L",
+                "Hemoglobina": "g/l",
+                "VCM": "fl",
+                "H.M.C": "pg",
+                "Leucicitos": "/L"
+            }
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "102 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteina": "65 g/dL",
+                "Hierro (II+III)": "47 ug/dL",
+                "Ferritina": "80 ng/mL",
+                "Hemoglogina A1c": "5.5%",
+                "GOT": "<240 U/L",
+                "GPT": "6.6 U/L",
+                "GGT": "20 U/L",
+                "Bilirrubina total": "0.8 mg/dL",
+                "Fostatasa Alcalina": "U/L",
+                "Albumina": "45 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (II+III)": "ug/dL",
+                "Ferritina": "ng/mL",
+                "Hemoglogina A1c": "%",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Fostatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            }
+        },
+        {
+            "test_name": "Bilirrubina directa (Estenficada)",
+            "result_value": "1.5*"
+        }
+    ]
+}

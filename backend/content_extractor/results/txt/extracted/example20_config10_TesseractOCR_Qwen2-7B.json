@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 32
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Urea Nitrogen",
+            "result_value": 18,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-23"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "65-108"
+        }
+    ]
+}

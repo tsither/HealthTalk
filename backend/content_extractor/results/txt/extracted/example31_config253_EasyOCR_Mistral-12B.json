@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 4.53,
+            "unit_of_measurement": "million/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 8775,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500 - 11000"
+        }
+    ]
+}

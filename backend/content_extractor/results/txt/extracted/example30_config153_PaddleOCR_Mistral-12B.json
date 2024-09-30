@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Sex PID Years 555 Instant",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "DAD, D (Hb)",
+            "result_value": "25",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "9.0",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5 - 11"
+        },
+        {
+            "test_name": "Neutrophil count",
+            "result_value": "72.8",
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 80"
+        },
+        {
+            "test_name": "Eosinophil count",
+            "result_value": "32",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophil count",
+            "result_value": "0.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

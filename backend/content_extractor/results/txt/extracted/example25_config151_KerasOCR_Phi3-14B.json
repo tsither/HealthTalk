@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leukocyte",
+            "result_value": 17000,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "[2500-4500] cells/mcL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 104,
+            "unit_of_measurement": "%",
+            "reference_range": "[38.3-48.6]%"
+        }
+    ]
+}

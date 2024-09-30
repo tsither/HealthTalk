@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA COMPLETO",
+            "result_value": {
+                "Hemoglobina": 14.3,
+                "Hematocrito": 42.0,
+                "Leucocitos": 6800,
+                "Placaets": 298000,
+                "Velocidad Sedimentacion Globular (VSG)": 15
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "Leucocitos": "/mm3",
+                "Placaets": "/mm3",
+                "Velocidad Sedimentacion Globular (VSG)": "mm/hr"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SEROLOGICA",
+            "result_value": {
+                "Glucemia": 87,
+                "Creatinina": 1.4,
+                "Uremia": 39.0
+            },
+            "unit_of_measurement": {
+                "Glucemia": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Uremia": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

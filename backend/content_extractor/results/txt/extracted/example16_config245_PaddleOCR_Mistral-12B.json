@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 202x",
+    "patient_information": {
+        "patient_id": "84924721601",
+        "patient_name": "L jo I",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell (WBC) Count": "87.75",
+                "Hemoglobin (Hb)": "13.6",
+                "Platelet Count": "27.2"
+            },
+            "unit_of_measurement": {
+                "White Blood Cell (WBC) Count": "cells/mm³",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelet Count": "cells/mm³"
+            },
+            "reference_range": {
+                "White Blood Cell (WBC) Count": "4.5 - 11.0",
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Platelet Count": "150000 - 410000"
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8 x 109 A.",
+                "Hemoglobina": "143 gf VOM",
+                "VGM": "89 fl",
+                "HMC": "29 pg"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica Basica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.1 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteina": "66 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro y Ferritina",
+            "result_value": {
+                "Hierro": "@ 6",
+                "Ferritina": "20 ng/mL"
+            },
+            "unit_of_measurement": {
+                "Hierro": null,
+                "Ferritina": "ng/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina Aic",
+            "result_value": "4.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "F uncionalidades Hepaticas",
+            "result_value": {
+                "GPT": "80 U/L",
+                "GOT": "100 U/L"
+            },
+            "unit_of_measurement": {
+                "GPT": "U/L",
+                "GOT": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina",
+            "result_value": {
+                "Total": "28 mg/dL",
+                "Directa (Esterificada)": "1.5 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Total": "mg/dL",
+                "Directa (Esterificada)": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Proteinas en Sangre",
+            "result_value": {
+                "Albumina": "2.3 g/dL",
+                "Globulos Blancos": "10.2 x 106 (68N, 1B, SE, 24L)"
+            },
+            "unit_of_measurement": {
+                "Albumina": "g/dL",
+                "Globulos Blancos": null
+            },
+            "reference_range": null
+        }
+    ]
+}

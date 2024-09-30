@@ -1,0 +1,47 @@
+{
+    "Date": "12/05/2023",
+    "patient_information": {
+        "patient_id": "0912645676",
+        "patient_name": "Yash",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "555",
+            "unit_of_measurement": "count",
+            "reference_range": {
+                "upper": "50",
+                "lower": "45"
+            }
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "cumm",
+            "reference_range": {
+                "upper": "160",
+                "lower": "130"
+            }
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32",
+            "unit_of_measurement": "volume pg cell",
+            "reference_range": {
+                "upper": "40",
+                "lower": "8.5"
+            }
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "50",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "upper": "11",
+                "lower": ""
+            }
+        }
+    ]
+}

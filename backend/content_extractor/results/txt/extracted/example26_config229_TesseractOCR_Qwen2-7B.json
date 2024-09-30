@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "- a 120 . 109"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "~ 279 6 27.0 - 320"
+        },
+        {
+            "test_name": "Chloride",
+            "result_value": 100,
+            "unit_of_measurement": "%",
+            "reference_range": "148 - 16.0"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 203,
+            "unit_of_measurement": "k/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquotecrito",
+            "result_value": 0.189,
+            "unit_of_measurement": "%",
+            "reference_range": "0.445 - 0.408"
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": 420,
+            "unit_of_measurement": "k/μL",
+            "reference_range": "4.00 - 10.00"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01224s6769",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-18 g/dl"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.7,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0-6.0 million/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "platelets/µL",
+            "reference_range": "150,000-450,000 platelets/µL"
+        }
+    ]
+}

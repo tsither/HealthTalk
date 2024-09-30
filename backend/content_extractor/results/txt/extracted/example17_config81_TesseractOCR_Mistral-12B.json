@@ -1,0 +1,48 @@
+{
+    "Date": "25.09.2023",
+    "patient_information": {
+        "patient_id": "OOT000789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "White Blood Cells": "7.8",
+                "Red Blood Cells": "5.2",
+                "Hemoglobin": "13.6",
+                "Platelets": "240"
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "x10^9/L",
+                "Red Blood Cells": "x10^12/L",
+                "Hemoglobin": "g/dL",
+                "Platelets": "x10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cells": "4.5 - 11",
+                "Red Blood Cells": "4.4 - 6.2",
+                "Hemoglobin": "13.5 - 17.5",
+                "Platelets": "150 - 400"
+            }
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": {
+                "Total Cholesterol": "220",
+                "Triglycerides": "160",
+                "HDL Cholesterol": "55",
+                "LDL Cholesterol": "135"
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL",
+                "HDL Cholesterol": "mg/dL",
+                "LDL Cholesterol": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

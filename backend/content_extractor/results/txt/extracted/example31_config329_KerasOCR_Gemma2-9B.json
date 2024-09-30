@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red Blood Cells: 4.5 million/µL\nWhite Blood Cells: 7,500/µL\nPlatelets: 250,000/µL",
+            "unit_of_measurement": "million/µL, /µL, /µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": "Sodium: 138 mEq/L\nPotassium: 4.2 mEq/L\nChloride: 102 mEq/L\nGlucose: 95 mg/dL",
+            "unit_of_measurement": "mEq/L, mEq/L, mEq/L, mg/dL",
+            "reference_range": null
+        }
+    ]
+}

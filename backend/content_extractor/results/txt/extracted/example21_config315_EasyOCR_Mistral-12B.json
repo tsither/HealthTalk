@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_range": "36-46%"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.12,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6400,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 212,
+            "unit_of_measurement": "K/µL",
+            "reference_range": null
+        }
+    ]
+}

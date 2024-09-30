@@ -1,0 +1,118 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                {
+                    "component": "Hematies",
+                    "value": 4.8,
+                    "unit": "X109/l"
+                },
+                {
+                    "component": "Hemoglobina",
+                    "value": 14.3,
+                    "unit": "g/l"
+                },
+                {
+                    "component": "VCM",
+                    "value": 89,
+                    "unit": "fl"
+                },
+                {
+                    "component": "H.M.C.",
+                    "value": 29,
+                    "unit": "pg"
+                },
+                {
+                    "component": "Leucicitos",
+                    "value": 10.2,
+                    "unit": "X106/l"
+                },
+                {
+                    "component": "Leucocyte differential count",
+                    "value": "{68N, 1B, 5E, 24L ,2M}",
+                    "unit": null
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": [
+                {
+                    "component": "Glucosa",
+                    "value": 65.0,
+                    "unit": "mg/dL"
+                },
+                {
+                    "component": "Creatinina",
+                    "value": 1.15,
+                    "unit": "*"
+                },
+                {
+                    "component": "Colesterol",
+                    "value": 220,
+                    "unit": "mg/dL"
+                },
+                {
+                    "component": "Proteína",
+                    "value": 65,
+                    "unit": "g/dL"
+                },
+                {
+                    "component": "Hierro (II+III)",
+                    "value": 800,
+                    "unit": "*"
+                },
+                {
+                    "component": "Ferritina",
+                    "value": 800,
+                    "unit": "-"
+                },
+                {
+                    "component": "Hemoglobina A1c",
+                    "value": 100,
+                    "unit": "*"
+                },
+                {
+                    "component": "GOT",
+                    "value": 2.8,
+                    "unit": "*"
+                },
+                {
+                    "component": "GPT",
+                    "value": 50,
+                    "unit": "-"
+                },
+                {
+                    "component": "GGT",
+                    "value": 4.5,
+                    "unit": "U/L"
+                },
+                {
+                    "component": "Bilirrubina total",
+                    "value": 800,
+                    "unit": "*"
+                },
+                {
+                    "component": "Fosfatasa Alcalina",
+                    "value": 20,
+                    "unit": "U/L"
+                },
+                {
+                    "component": "Albumina",
+                    "value": 4.5,
+                    "unit": "mg/dL"
+                }
+            ],
+            "reference_range": null
+        }
+    ]
+}

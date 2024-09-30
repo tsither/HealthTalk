@@ -1,0 +1,96 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "low: 13.0-17.e",
+                "high: 9.8-16.2"
+            ]
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                "low: 4.5-5.5 million/mL",
+                "high: <3.0 million/mL"
+            ]
+        },
+        {
+            "test_name": "BLOOD INDICES Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "low: <30%",
+                "high: >62%"
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                "low: <60 fL",
+                "high: >94 fL"
+            ]
+        },
+        {
+            "test_name": "Calculated MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": [
+                "low: <26 pg",
+                "high: >34 pg"
+            ]
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "low: <16%, high: >45%"
+            ]
+        },
+        {
+            "test_name": "Calculated RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "low: <12.7%, high: >15%"
+            ]
+        },
+        {
+            "test_name": "WBC COUNT Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": [
+                "low: <4.0x10^9/L",
+                "high: >25x10^9/L"
+            ]
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": []
+        },
+        {
+            "test_name": "Platelet Count Platelet count",
+            "result_value": 9000,
+            "unit_of_measurement": "a",
+            "reference_range": [
+                "low: <150x10^9/L",
+                "high: >450x10^9/L"
+            ]
+        }
+    ]
+}

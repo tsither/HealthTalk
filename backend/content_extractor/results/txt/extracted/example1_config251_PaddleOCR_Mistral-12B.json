@@ -1,0 +1,59 @@
+{
+    "Date": "03/12",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": "4.80 million/cumm",
+                "Hemoglobin (Hb)": "13.6 g/dL",
+                "Hematocrit (HCT)": "42%",
+                "MCV": "90 fL",
+                "MCH": "27.2 pg",
+                "RDW": "13.6 %",
+                "Total WBC count": "87.75 thousand/cumm",
+                "Neutrophils": "57.5 %",
+                "Lymphocytes": "27.2%",
+                "Monocytes": "5.2%",
+                "Eosinophils": null,
+                "Basophils": null,
+                "Platelet count": "328 thousand/cumm"
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "million/cumm",
+                "Hemoglobin (Hb)": "g/dL",
+                "Hematocrit (HCT)": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "RDW": "%",
+                "Total WBC count": "thousand/cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": null,
+                "Basophils": null,
+                "Platelet count": "thousand/cumm"
+            },
+            "reference_range": {
+                "Total RBC count": "3.5 - 6.0 million/cumm",
+                "Hemoglobin (Hb)": "12.0 - 18.0 g/dL",
+                "Hematocrit (HCT)": "40.0 - 52.0%",
+                "MCV": "76.0 - 96.0 fL",
+                "MCH": "27.0 - 33.0 pg",
+                "RDW": "11.5 - 14.5 %",
+                "Total WBC count": "4,500 - 11,000 thousand/cumm",
+                "Neutrophils": "40.0 - 75.0%",
+                "Lymphocytes": "20.0 - 45.0%",
+                "Monocytes": "2.0 - 8.0%",
+                "Eosinophils": null,
+                "Basophils": null,
+                "Platelet count": "150,000 - 400,000 thousand/cumm"
+            }
+        }
+    ]
+}

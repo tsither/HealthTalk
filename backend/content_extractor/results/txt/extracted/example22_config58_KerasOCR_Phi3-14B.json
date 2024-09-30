@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 55.5
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 8775,
+            "unit_of_measurement": "A/c",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 50,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Neutrophils Percentage",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "55-72%"
+        },
+        {
+            "test_name": "Lymphocytes Percentage",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "28-40%"
+        },
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": 55.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 410000,
+            "unit_of_measurement": "platelets / microliter",
+            "reference_range": "150,000-450,000"
+        },
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": 105,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        }
+    ]
+}

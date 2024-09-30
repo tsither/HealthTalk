@@ -1,0 +1,64 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Eritrocitos": {
+                    "Value": 4.57,
+                    "Unit": "/L"
+                },
+                "Hematocrito": {
+                    "Value": 28,
+                    "Unit": "%"
+                },
+                "Hemoglobina": {
+                    "Value": 9.1,
+                    "Unit": "g/L"
+                },
+                "VCM": {
+                    "Value": 69,
+                    "Unit": "fl"
+                },
+                "HCM": {
+                    "Value": 33,
+                    "Unit": "dl"
+                },
+                "RDW": {
+                    "Value": 17.8
+                },
+                "Plaquetas": {
+                    "Value": 329,
+                    "Unit": "/L"
+                },
+                "Neutrofilos": {
+                    "Value": 70,
+                    "Unit": "%"
+                },
+                "Linfocitos": {
+                    "Value": 12.4,
+                    "Unit": "%"
+                },
+                "Monocitos": {
+                    "Value": 13,
+                    "Unit": "%"
+                },
+                "Eosinofilos": {
+                    "Value": 1,
+                    "Unit": "/L"
+                },
+                "Basofilos": {
+                    "Value": 7,
+                    "Unit": "%"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

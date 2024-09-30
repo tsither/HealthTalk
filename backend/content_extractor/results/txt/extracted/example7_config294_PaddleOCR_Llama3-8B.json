@@ -1,0 +1,35 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": 1234,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4.5-11.0 cells/μL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.1,
+            "unit_of_measurement": "millions/μL",
+            "reference_range": "4.32-5.72 millions/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 280,
+            "unit_of_measurement": "thousand/μL",
+            "reference_range": "150-450 thousand/μL"
+        },
+        {
+            "test_name": "Glucose Level",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

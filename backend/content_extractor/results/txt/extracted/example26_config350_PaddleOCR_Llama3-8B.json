@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "pH",
+            "result_value": 7.35,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[7.35-8.0]"
+        },
+        {
+            "test_name": "Na",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[135-145]"
+        },
+        {
+            "test_name": "K",
+            "result_value": 4.3,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[3.5-5.0]"
+        },
+        {
+            "test_name": "Cl",
+            "result_value": 95,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[98-106]"
+        },
+        {
+            "test_name": "HCO3",
+            "result_value": 20,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[22-28]"
+        },
+        {
+            "test_name": "pO2",
+            "result_value": 70,
+            "unit_of_measurement": "%",
+            "reference_range": "[75-100]"
+        },
+        {
+            "test_name": "pCO2",
+            "result_value": 30,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "[25-35]"
+        }
+    ]
+}

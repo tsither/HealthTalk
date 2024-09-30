@@ -1,0 +1,29 @@
+{
+    "Date": "01.01.2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-15 g/dL"
+        },
+        {
+            "test_name": "Glucose Test",
+            "result_value": 100,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Creatinine Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.2 mg/dL"
+        }
+    ]
+}

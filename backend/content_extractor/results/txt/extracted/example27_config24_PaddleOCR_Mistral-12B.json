@@ -1,0 +1,98 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.96,
+                "Hematocrito": 37,
+                "Hemoglobina": 14.8,
+                "Leucocitos": 44,
+                "Plquetas": 280
+            },
+            "unit_of_measurement": {
+                "Hematies": "mm3",
+                "Hematocrito": "%",
+                "Hemoglobina": "%",
+                "Leucocitos": "/mm3",
+                "Plquetas": "/mm3"
+            },
+            "reference_range": {
+                "Hematies": null,
+                "Hematocrito": "42-52%",
+                "Hemoglobina": "12-16 g/dL",
+                "Leucocitos": "4,000-10,800/mm3",
+                "Plquetas": "150,000-400,000/mm3"
+            }
+        },
+        {
+            "test_name": "Bioquímica Sérica",
+            "result_value": {
+                "Glucosa": 2,
+                "Colesterol total": 87,
+                "HDL": null,
+                "LDL": null,
+                "Trigliceridos": 60,
+                "Urea": 100,
+                "Ac.úrico": 45
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol total": "mg/dL",
+                "HDL": null,
+                "LDL": null,
+                "Trigliceridos": "mg/dL",
+                "Urea": "mg/dL",
+                "Ac.úrico": "mg/dL"
+            },
+            "reference_range": {
+                "Glucosa": "74-99 mg/dL",
+                "Colesterol total": "125-200 mg/dL",
+                "HDL": ">60 mg/dL",
+                "LDL": "<130 mg/dL",
+                "Trigliceridos": "40-150 mg/dL",
+                "Urea": "7-18 mg/dL",
+                "Ac.úrico": "3.5-7.2 mg/dL"
+            }
+        },
+        {
+            "test_name": "Pruebas Enzimáticas",
+            "result_value": {
+                "GOT": 43,
+                "GPT": 45
+            },
+            "unit_of_measurement": {
+                "GOT": "U/I",
+                "GPT": "U/I"
+            },
+            "reference_range": {
+                "GOT": "6-29 U/L",
+                "GPT": "7-51 U/L"
+            }
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 141,
+                "Cloro": null,
+                "Potasio": 98
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/L",
+                "Cloro": null,
+                "Potasio": "mEq/L"
+            },
+            "reference_range": {
+                "Sodio": "135-145 mEq/L",
+                "Cloro": null,
+                "Potasio": "98-110 mEq/L"
+            }
+        }
+    ]
+}

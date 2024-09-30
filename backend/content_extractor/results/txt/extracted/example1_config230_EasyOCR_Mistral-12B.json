@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Mo",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.5-5.5 M/cmm",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Differential WBC Count",
+            "result_value": [
+                {
+                    "Neutrophils": 50
+                },
+                {
+                    "Lymphocytes": 35
+                },
+                {
+                    "Eosinophils": 10
+                },
+                {
+                    "Monocytes": 4
+                },
+                {
+                    "Basophils": 1
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        }
+    ]
+}

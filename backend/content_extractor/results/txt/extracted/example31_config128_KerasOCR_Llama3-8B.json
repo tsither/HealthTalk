@@ -1,0 +1,53 @@
+{
+    "Date": "Dec 03, 2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "10.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "31.1 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.51 x 10^12/L",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "3.75 x 10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count: Neutrophils",
+            "result_value": "32.8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count: Lymphocytes",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "140 x 10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "150-400 x 10^9/L"
+        }
+    ]
+}

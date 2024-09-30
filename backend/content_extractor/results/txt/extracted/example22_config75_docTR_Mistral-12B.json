@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "09123",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HGB (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.75,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.5-6.5"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 60,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "4-11"
+        }
+    ]
+}

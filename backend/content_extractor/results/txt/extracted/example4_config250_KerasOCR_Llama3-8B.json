@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 8.5,
+            "unit_of_measurement": "s/d",
+            "reference_range": "0.1-10"
+        },
+        {
+            "test_name": "SGOT",
+            "result_value": 55,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40"
+        },
+        {
+            "test_name": null,
+            "result_value": 50000000.0,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 7.8,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.8,
+            "unit_of_measurement": "M/uL",
+            "reference_range": null
+        }
+    ]
+}

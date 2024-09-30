@@ -1,0 +1,34 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "410000",
+        "patient_name": "Paate (MD)",
+        "patient_sex": "Male",
+        "patient_age": "55 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 79,
+            "unit_of_measurement": "%",
+            "reference_range": "150000 - 400000"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 4.5,
+            "unit_of_measurement": "*10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 69,
+            "unit_of_measurement": "%",
+            "reference_range": "32.5 - 47.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 17.0"
+        }
+    ]
+}

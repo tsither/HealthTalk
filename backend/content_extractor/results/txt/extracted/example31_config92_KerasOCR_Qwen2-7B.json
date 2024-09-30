@@ -1,0 +1,48 @@
+{
+    "Date": "02/08/202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Complete Hiren Shah",
+        "patient_sex": "male",
+        "patient_age": null,
+        "patient_years": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "3.1",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[08-16]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "x 10^2/mm3",
+            "reference_range": "[4351 - null]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "13.08%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "57.5",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[null]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "x 10^3/μL",
+            "reference_range": "[null - null]"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "02.12.20xx",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result",
+            "result_value": null,
+            "unit_of_measurement": "Various Units",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood HEMOGLOBIN Unit Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT Low Total RBC count",
+            "result_value": 5,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "BLOOD INDICES Mean Corpuscular Volume (McV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH Calculated High 20% of Hemoglobin by Weight",
+            "result_value": 9.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW pg WBC Count",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Platelet Count % Platelet Count",
+            "result_value": 278,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150000-410000"
+        }
+    ]
+}

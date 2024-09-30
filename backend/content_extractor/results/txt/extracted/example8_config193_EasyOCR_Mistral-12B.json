@@ -1,0 +1,23 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": 7.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "6.4-8.3"
+        }
+    ]
+}

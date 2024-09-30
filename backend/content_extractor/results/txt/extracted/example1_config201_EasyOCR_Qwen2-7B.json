@@ -1,0 +1,54 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "drlogy accurate os ias pathology soart yash caring vision age m com patel",
+        "patient_name": "m com patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_location": "shah blood lab, mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "9.1 g/dL",
+                "MCV": "81 fL",
+                "MCHC": "32 s/d",
+                "RDW": "13.5%",
+                "RBC count": "6 x 10^12/L",
+                "WBC count": "8175 cells/uL",
+                "Neutrophils": "328 g/L",
+                "Lymphocytes": "136 cells/ul",
+                "Eosinophils": "17 cells/ul",
+                "Basophils": "17 cells/ul",
+                "Monocytes": "52 cells/uL"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "/dL",
+                "MCV": "fL",
+                "MCHC": "s/d",
+                "RDW": "%",
+                "RBC count": "/L",
+                "WBC count": "cells/uL",
+                "Neutrophils": "g/L",
+                "Lymphocytes": "cells/ul",
+                "Eosinophils": "cells/ul",
+                "Basophils": "cells/ul",
+                "Monocytes": "cells/uL"
+            },
+            "reference_range": {
+                "hemoglobin": "12.5-16.0 g/dL",
+                "MCV": "74-98 fL",
+                "MCHC": "31.2-35.5 s/d",
+                "RDW": "4-16%",
+                "RBC count": "4.5 x 10^12/L to 5.5 x 10^12/L",
+                "WBC count": "4,500 to 11,000 cells/uL",
+                "Neutrophils": "38%-67%",
+                "Lymphocytes": "20%-40% of WBC",
+                "Eosinophils": "0%-5% of WBC",
+                "Basophils": "0%-1% of WBC",
+                "Monocytes": "2%-8% of WBC"
+            }
+        }
+    ]
+}

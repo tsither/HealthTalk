@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 121,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-400 x10^3/μL"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 7.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

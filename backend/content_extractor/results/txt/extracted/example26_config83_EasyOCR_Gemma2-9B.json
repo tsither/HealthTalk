@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": "4.75",
+            "unit_of_measurement": "10f 6,ut 4 (16)",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMATOCRITO",
+            "result_value": "30.5",
+            "unit_of_measurement": "%",
+            "reference_range": "36 0 47 6"
+        },
+        {
+            "test_name": "VCM",
+            "result_value": "83.1",
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 98.0"
+        },
+        {
+            "test_name": "HCM",
+            "result_value": "27,.9",
+            "unit_of_measurement": "Pa",
+            "reference_range": "27.0 32.0"
+        },
+        {
+            "test_name": "CACM",
+            "result_value": "33.6",
+            "unit_of_measurement": "QdL",
+            "reference_range": "320 380"
+        }
+    ]
+}

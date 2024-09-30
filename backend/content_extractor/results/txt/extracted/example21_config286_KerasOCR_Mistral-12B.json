@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 125,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-99"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 200,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<200"
+        }
+    ]
+}

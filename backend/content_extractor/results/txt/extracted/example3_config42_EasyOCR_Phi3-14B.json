@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "com drlogypathlabadrlogy",
+        "patient_sex": "m",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "glucose level",
+            "result_value": "150",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "white blood cell count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

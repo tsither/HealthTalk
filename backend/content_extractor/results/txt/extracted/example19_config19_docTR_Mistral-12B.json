@@ -1,0 +1,62 @@
+{
+    "Date": "02Dec.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC Total count": 57.5,
+                "Packed Cell Volume (PCV)": 87.75,
+                "Mean Corpuscular Volume (MCV)": 90.0,
+                "Mean Corpuscular Hemoglobin (MCH)": 32.8,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": 14.0,
+                "Red Blood Cell Distribution Width (RDW)": null,
+                "Total WBC count": 60.0,
+                "Neutrophils": 31.0,
+                "Lymphocytes": 7.0,
+                "Monocytes": 8.0,
+                "Eosinophils": 2.0,
+                "Basophils": 15.0,
+                "Platelet count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC Total count": "milicumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL",
+                "Red Blood Cell Distribution Width (RDW)": null,
+                "Total WBC count": "cells/mm3",
+                "Neutrophils": "cells/mm3",
+                "Lymphocytes": "cells/mm3",
+                "Monocytes": "cells/mm3",
+                "Eosinophils": "cells/mm3",
+                "Basophils": "cells/mm3",
+                "Platelet count": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC Total count": "27-32 milicumm",
+                "Packed Cell Volume (PCV)": "45-54%",
+                "Mean Corpuscular Volume (MCV)": "82-96 fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "27.0-31.0 pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32-35 g/dL",
+                "Red Blood Cell Distribution Width (RDW)": "null",
+                "Total WBC count": "4,500-11,000 cells/mm3",
+                "Neutrophils": "40-70%",
+                "Lymphocytes": "20-40%",
+                "Monocytes": "2-9%",
+                "Eosinophils": "<2% (absolute count <500)",
+                "Basophils": "<1%",
+                "Platelet count": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "/μL",
+            "reference_range": "4-11"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4820000000000.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "3.9-5.3"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        }
+    ]
+}

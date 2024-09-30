@@ -1,0 +1,101 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "Hb": 13.5,
+                "Hct": 40.2,
+                "Platelets": 250,
+                "Neutrophils": 55,
+                "Lymphocytes": 35,
+                "Monocytes": 7
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%"
+            },
+            "reference_range": {
+                "WBC": [
+                    4,
+                    10
+                ],
+                "RBC": [
+                    4.5,
+                    6.5
+                ],
+                "Hb": [
+                    13.5,
+                    17.5
+                ],
+                "Hct": [
+                    42,
+                    52
+                ],
+                "Platelets": [
+                    150,
+                    450
+                ],
+                "Neutrophils": [
+                    40,
+                    75
+                ],
+                "Lymphocytes": [
+                    20,
+                    45
+                ],
+                "Monocytes": [
+                    2,
+                    8
+                ]
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "AST": 25,
+                "ALT": 30,
+                "ALP": 70,
+                "Total Bilirubin": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "IU/L",
+                "ALT": "IU/L",
+                "ALP": "IU/L",
+                "Total Bilirubin": "mg/dL"
+            },
+            "reference_range": {
+                "AST": [
+                    5,
+                    35
+                ],
+                "ALT": [
+                    5,
+                    40
+                ],
+                "ALP": [
+                    40,
+                    120
+                ],
+                "Total Bilirubin": [
+                    0.3,
+                    1.9
+                ]
+            }
+        }
+    ]
+}

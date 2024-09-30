@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_age": 60,
+        "patient_sex": null,
+        "patient_name": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "48 x 10^9",
+                "Hemoglobina": "14.3 g/dl",
+                "HMC": "29%",
+                "Leucocitos": "10.2 x 10^6",
+                "Neutrofilos": "68%",
+                "Bastones": "1%",
+                "Segmentados": "24%",
+                "Monocitos": "2%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Biochemical",
+            "result_value": {
+                "Glucosa": "65.0 mg/dl",
+                "Creatinina": "<1.0 mg/dl",
+                "Colesterol": "220 mg/dl",
+                "Proteina": "66 g/l"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Creatinina": "mg/dl",
+                "Colesterol": "mg/dl",
+                "Proteina": "g/l"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro (serum)",
+            "result_value": "20 μg/dl",
+            "unit_of_measurement": "μg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina Alc",
+            "result_value": "45 %",
+            "unit_of_measurement": "%",
+            "reference_range": "<8%"
+        },
+        {
+            "test_name": "GPT (ALT)",
+            "result_value": "80 U/l",
+            "unit_of_measurement": "U/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT (AST)",
+            "result_value": "100 U/l",
+            "unit_of_measurement": "U/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sintrubina Total",
+            "result_value": "28 mg/dl",
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirubina Directa (Esterificada)",
+            "result_value": "15 mg/dl",
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": "20 U/l",
+            "unit_of_measurement": "U/l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albúmina",
+            "result_value": "23 g/dl",
+            "unit_of_measurement": "g/dl",
+            "reference_range": "(0.7 - 1.1)g/l"
+        }
+    ]
+}

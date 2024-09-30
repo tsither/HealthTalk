@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Vimal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 95,
+            "unit_of_measurement": "fl",
+            "reference_range": "78-96"
+        },
+        {
+            "test_name": "Platelet count (plt)",
+            "result_value": 205,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

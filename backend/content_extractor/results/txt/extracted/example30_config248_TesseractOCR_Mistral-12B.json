@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec, 2023",
+    "patient_information": {
+        "patient_id": "O123486789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.8,
+                    "status": "Low",
+                    "reference_range": "13.0-17.0 g/dl"
+                },
+                "RBC COUNT": {
+                    "value": 5.245,
+                    "unit_of_measurement": "mill/cumm"
+                },
+                "Hematocrit": {
+                    "value": 37.8,
+                    "status": "High",
+                    "reference_range": "40-50 %"
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": 87.75,
+                    "unit_of_measurement": "fl"
+                },
+                "Calculated Hematocrit": {
+                    "value": 27.2
+                },
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+                    "value": 32.8,
+                    "reference_range": "32.5 - 34.5 g/dl"
+                },
+                "Total WBC count": {
+                    "value": 6820,
+                    "unit_of_measurement": "cumm"
+                }
+            }
+        },
+        {
+            "test_name": "Differential White Cell Count",
+            "result_value": {
+                "Neutrophils": {
+                    "value": 58
+                },
+                "Lymphocytes": {
+                    "value": 37
+                },
+                "Eosinophils": {
+                    "value": 2
+                },
+                "Monocytes": {
+                    "value": 1
+                },
+                "Basophils": {
+                    "value": 0
+                }
+            },
+            "unit_of_measurement": "%"
+        }
+    ]
+}

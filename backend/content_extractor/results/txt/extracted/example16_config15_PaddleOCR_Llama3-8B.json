@@ -1,0 +1,53 @@
+{
+    "Date": "Dec 02, 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "4 Result | 0912345678",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "12.5 MCHO",
+            "unit_of_measurement": "COUNT",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "57.5 Low",
+            "unit_of_measurement": null,
+            "reference_range": "87.75 COUNT : 04:35"
+        },
+        {
+            "test_name": "Hemoglobin (Hb) GLOBIN",
+            "result_value": "27.2 Lymphocytes",
+            "unit_of_measurement": "COUNT",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "32.8 4.5 - 5.5 Unit Monocytes",
+            "unit_of_measurement": "COUNT",
+            "reference_range": "High"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "13.6 PLATELET COUNT",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "83.",
+            "unit_of_measurement": "7P/6 noloc 107",
+            "reference_range": "27. - 32 32.5 - 34.5"
+        }
+    ]
+}

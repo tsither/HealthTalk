@@ -1,0 +1,29 @@
+{
+    "Date": "01.12.2022",
+    "patient_information": {
+        "patient_id": "PT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 13.5 g/dL, Hematocrit: 40%",
+            "unit_of_measurement": null,
+            "reference_range": "12-16 g/dL (Hemoglobin), 40-54% (Hematocrit)"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": "Creatinine: 1.2 mg/dL, eGFR: 90 mL/min/1.73m²",
+            "unit_of_measurement": null,
+            "reference_range": "0.6-1.2 mg/dL (Creatinine), 85-135 mL/min/1.73m² (eGFR)"
+        }
+    ]
+}

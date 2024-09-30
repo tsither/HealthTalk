@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin by Complete Type",
+            "result_value": 68.95,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.0,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.5-5.9"
+        },
+        {
+            "test_name": "Hematocrit (HC)",
+            "result_value": 38.7,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52%"
+        },
+        {
+            "test_name": "MCV - Mean Corpuscular Volume",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "MCHC - Mean Cell Hemoglobin Concentration",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        },
+        {
+            "test_name": "RDW - Red Blood Cell Distribution Width",
+            "result_value": 17.05,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

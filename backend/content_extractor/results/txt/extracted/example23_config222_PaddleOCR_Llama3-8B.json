@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Na%",
+            "result_value": 138,
+            "unit_of_measurement": "%",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "^na%",
+            "result_value": 23,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "^t%",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": "70-180"
+        },
+        {
+            "test_name": "^t% (corrected)",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "u ^na%",
+            "result_value": 3.5,
+            "unit_of_measurement": "mEq/h",
+            "reference_range": "0-2"
+        }
+    ]
+}

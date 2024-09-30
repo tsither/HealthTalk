@@ -1,0 +1,29 @@
+{
+    "Date": "20DEC",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6895,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4000 - 10000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 231,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

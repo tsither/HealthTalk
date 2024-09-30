@@ -1,0 +1,23 @@
+{
+    "Date": "2023-03-14",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": 6.0,
+            "unit_of_measurement": "M/mm3",
+            "reference_range": "4.5 - 11"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8200,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "4500 - 10,500"
+        }
+    ]
+}

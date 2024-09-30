@@ -1,0 +1,41 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "lt complex pn",
+        "patient_name": "",
+        "patient_sex": "male",
+        "patient_age": "80"
+    },
+    "test_results": [
+        {
+            "test_name": " CBC",
+            "result_value": "125",
+            "unit_of_measurement": "cells/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "8775",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "105-170"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "272",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "",
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": "328",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

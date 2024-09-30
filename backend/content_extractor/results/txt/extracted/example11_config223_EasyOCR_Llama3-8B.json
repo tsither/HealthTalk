@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345761",
+        "patient_name": "Shiyam Patel",
+        "patient_sex": "Male",
+        "patient_age": "25"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL (Low)"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "51 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "75%",
+            "unit_of_measurement": "%",
+            "reference_range": "50-80%"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "9000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Neutrophils 62%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "Borderline"
+        }
+    ]
+}

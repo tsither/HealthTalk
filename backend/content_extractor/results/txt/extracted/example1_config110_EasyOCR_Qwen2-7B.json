@@ -1,0 +1,41 @@
+{
+    "Date": "02/02/2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": "Hemoglobin: GBJ 12.5, RBC count: Total RBC 5.2451",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Blood indices",
+            "result_value": "PCVI packed cell volume: 57.5% Mean corpuscular volume (MCV): 87.75 fl, MCH: Calculated 27.2 pg",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "Total WBC: 9000 cells/cumm",
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC differential count",
+            "result_value": "Neutrophils: 50%, Lymphocytes: 31%, Eosinophils: <6%, Monocytes: 10%, Basophils: 1%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "Platelet count: 150000 cells/cumm",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

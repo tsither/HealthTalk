@@ -1,0 +1,31 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": "count/μL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Cwnm",
+            "result_value": 20,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 32,
+            "unit_of_measurement": "10^9/μL",
+            "reference_range": "[null]"
+        }
+    ]
+}

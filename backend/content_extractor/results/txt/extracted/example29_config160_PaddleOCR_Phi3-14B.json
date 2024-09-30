@@ -1,0 +1,35 @@
+{
+    "Date": "02/12/202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "nple count",
+            "result_value": "689578",
+            "unit_of_measurement": "Dif I WBC count Reference Value",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": "32-107"
+        },
+        {
+            "test_name": "Platelet (PLT)",
+            "result_value": 4000,
+            "unit_of_measurement": null,
+            "reference_range": "(DMLT % . BmLT) - Mindray"
+        }
+    ]
+}

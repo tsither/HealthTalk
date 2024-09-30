@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 58
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 12.4, RBC: 5.1, HGB: 16.5, HCT: 0.49",
+            "unit_of_measurement": "",
+            "reference_range": "WBC: 4.0-11.0, RBC: 3.8-5.1, HGB: 12.5-16.0, HCT: 0.37-0.47"
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "GLU: 120 mg/dL, BUN: 18 mg/dL, Creatinine: 1.2 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "GLU: 70-100, BUN: 6-20, Creatinine: 0.6-1.3"
+        }
+    ]
+}

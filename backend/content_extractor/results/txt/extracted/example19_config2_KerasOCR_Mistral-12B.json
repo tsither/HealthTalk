@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC": {
+                    "value": 8,
+                    "unit": "thousand cells/uL"
+                },
+                "RBC": {
+                    "value": 5.77,
+                    "unit": "million cells/uL"
+                },
+                "Hb": {
+                    "value": 13.6,
+                    "unit": "g/dL"
+                },
+                "HCT": {
+                    "value": 40.8,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 85.29,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 27.19,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 32.05,
+                    "unit": "g/dL"
+                },
+                "RDW": {
+                    "value": 14.86,
+                    "unit": "%"
+                },
+                "PLT": {
+                    "value": 325.7,
+                    "unit": "thousand/uL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

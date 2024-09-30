@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 13.6,
+                "Total RBC count": 4.75,
+                "Packed Cell Volume (PCV)": 38.9,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "Total WBC count": 6.1,
+                "Neutrophils": 40.0,
+                "Lymphocytes": 45.0,
+                "Eosinophils": 1.0,
+                "Monocytes": 7.0,
+                "Basophils": 1.0,
+                "Platelet Count": 261
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Total WBC count": "x10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "x10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "12.0-16.0 g/dL",
+                "Total RBC count": "4.5-6.0 mill/cumm",
+                "Packed Cell Volume (PCV)": "37.0-47.0%",
+                "Mean Corpuscular Volume (MCV)": "80.0-100 fl",
+                "MCH": "27.0-31.0 pg",
+                "MCHC": "32.0-36.0 g/dL",
+                "Total WBC count": "4.5-11.0 x10^9/L",
+                "Neutrophils": "40.0-75.0%",
+                "Lymphocytes": "20.0-45.0%",
+                "Eosinophils": "1.0-4.0%",
+                "Monocytes": "3.0-8.0%",
+                "Basophils": "0.0-1.0%",
+                "Platelet Count": "150-400 x10^9/L"
+            }
+        }
+    ]
+}

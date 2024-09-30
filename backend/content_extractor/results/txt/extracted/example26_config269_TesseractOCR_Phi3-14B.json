@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Series Lichoorama",
+            "result_value": 49.8,
+            "unit_of_measurement": "Units",
+            "reference_valuerange": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 210,
+            "unit_of_measurement": "%",
+            "reference_range": "42.0 - 73.e"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        },
+        {
+            "test_name": "Leukocytes (Neutrophils)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "40.0 - 73.e"
+        }
+    ]
+}

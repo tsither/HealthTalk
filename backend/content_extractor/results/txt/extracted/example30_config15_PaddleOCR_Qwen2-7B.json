@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 12.5
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET",
+            "result_value": "150000",
+            "unit_of_measurement": "WBC COUNT WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "0.2%",
+            "unit_of_measurement": null,
+            "reference_range": "[42.5 - 15.5] %"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "98 d Cell",
+            "unit_of_measurement": "count",
+            "reference_range": "[3700-9400] /uL"
+        },
+        {
+            "test_name": "RBC Volume",
+            "result_value": null,
+            "unit_of_measurement": "[MCV]",
+            "reference_range": "81 - 102 fL"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "150 g/L",
+            "unit_of_measurement": null,
+            "reference_range": "[134-176] g/L"
+        }
+    ]
+}

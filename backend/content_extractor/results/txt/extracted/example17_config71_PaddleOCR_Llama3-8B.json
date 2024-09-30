@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Drlogy",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6-17.2"
+        },
+        {
+            "test_name": "Red Cell Count (RCC)",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 12500,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

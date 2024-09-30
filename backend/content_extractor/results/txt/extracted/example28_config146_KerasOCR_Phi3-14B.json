@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_eange": "4.8-5.6%"
+        },
+        {
+            "test_name": "Fasting glucose",
+            "result_value": 102,
+            "unit_of_measurement": "mg/dL",
+            "reference_eange": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Total cholesterol",
+            "result_value": 24,
+            "unit_of_measurement": "mg/dL",
+            "reference_eange": null
+        }
+    ]
+}

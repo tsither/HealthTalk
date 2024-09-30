@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "9.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.21",
+            "unit_of_measurement": "Million / cu.mm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": "25.1",
+            "unit_of_measurement": "Picograms",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": "90.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "12.0",
+            "unit_of_measurement": "Thousand / cu.mm",
+            "reference_range": null
+        }
+    ]
+}

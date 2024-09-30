@@ -1,0 +1,38 @@
+{
+    "Date": "Regist Dec.",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "324",
+            "unit_of_measurement": "K/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": {
+                "Neutrophils": "62",
+                "Eosinophils": "02",
+                "Monocytes": "06",
+                "Basophils": "00"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": {
+                "MCV": "87.75",
+                "PCV": "41",
+                "RDW": "13.0 - 17.0"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

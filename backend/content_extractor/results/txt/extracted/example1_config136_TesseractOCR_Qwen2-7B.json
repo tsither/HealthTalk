@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Ldl_c",
+            "result_value": 68,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[20-00 L, OL-00 Z]"
+        },
+        {
+            "test_name": "Fbs",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[90-00 L]"
+        },
+        {
+            "test_name": "Sgot",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Sgpt",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

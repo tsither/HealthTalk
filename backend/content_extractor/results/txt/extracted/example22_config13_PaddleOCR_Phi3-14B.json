@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb) Level",
+            "result_value": 689578,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17. vice"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": 912345678,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 0.578,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "0 - 40%"
+        }
+    ]
+}

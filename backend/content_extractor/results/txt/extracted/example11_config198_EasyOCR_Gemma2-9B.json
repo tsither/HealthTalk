@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1250123456789",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "t years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "85.957",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "09224s676 at type obin complete by 85957"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "170",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "345",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        }
+    ]
+}

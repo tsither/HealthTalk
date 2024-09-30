@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555 KC QR",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "reference_range": {
+                        "low": 13.0,
+                        "high": 17.0
+                    },
+                    "unit": "g/dL"
+                },
+                "RBC_COUNT": {
+                    "value": 5.2,
+                    "reference_range": {
+                        "low": 4.5,
+                        "high": 5.5
+                    },
+                    "unit": "mill/cumm"
+                },
+                "BLOOD_INDICES": {
+                    "PACKED_CELL_VOLUME": {
+                        "value": 57.5,
+                        "reference_range": {
+                            "low": 40,
+                            "high": 50
+                        },
+                        "unit": "%"
+                    },
+                    "MEAN_CORPUSCULAR_VOLUME": {
+                        "value": 87.75,
+                        "reference_range": {
+                            "low": 83,
+                            "high": 101
+                        },
+                        "unit": "fL"
+                    }
+                },
+                "WBC_COUNT": {
+                    "value": 13.6,
+                    "reference_range": {
+                        "low": 11.6,
+                        "high": 14.0
+                    },
+                    "unit": "wec/cumm"
+                },
+                "PLATELET_COUNT": {
+                    "value": 150000,
+                    "reference_range": {
+                        "low": 150000,
+                        "high": 410000
+                    },
+                    "unit": "sary af/gf"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Too",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.75,
+            "unit_of_measurement": "× 10^12/L",
+            "reference_range": "4.32-5.72 × 10^12/L"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 69,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.4,
+            "unit_of_measurement": "%",
+            "reference_range": "11-14%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 3.5,
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 57.5%, Lymphocytes: 27.75%, Eosinophils: 2.75%, Basophils: 0.32%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1.36,
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": "150-400 × 10^9/L"
+        }
+    ]
+}

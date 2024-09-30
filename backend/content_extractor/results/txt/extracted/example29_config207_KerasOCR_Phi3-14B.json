@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "150-170 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 52,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV)",
+            "result_value": 78.25,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "140,000",
+            "unit_of_measurement": "/mcL",
+            "reference_range": null
+        }
+    ]
+}

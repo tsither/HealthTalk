@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.0%"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "poo|g",
+            "reference_range": null
+        },
+        {
+            "test_n ame": "Platelet Count",
+            "result_value": 27.0,
+            "unit_of_measurement": "% of Hematocrit (HCT)",
+            "reference_range": null
+        }
+    ]
+}

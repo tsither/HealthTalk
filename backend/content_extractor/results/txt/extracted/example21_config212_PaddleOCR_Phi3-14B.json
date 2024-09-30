@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_namenam": "MEMOGLODIN",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                13.0,
+                8
+            ],
+            "unit_of_measurement": [
+                "x",
+                "%"
+            ],
+            "reference_range": [
+                [
+                    null,
+                    null
+                ],
+                [
+                    17.0,
+                    null
+                ]
+            ]
+        },
+        {
+            "test_name": "Red Blood Cell (RBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "[mcl/µL]",
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 17.0,
+            "unit_of_measurement": "[g/dL]",
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 84.65,
+            "unit_of_measurement": "[fL]",
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "[g/dL]",
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 13.0,
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": [
+                [
+                    null
+                ],
+                [
+                    17.0
+                ]
+            ]
+        }
+    ]
+}

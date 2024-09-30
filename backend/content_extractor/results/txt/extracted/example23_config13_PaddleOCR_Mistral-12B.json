@@ -1,0 +1,27 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel Result",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 17.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13 - 18 g/dl"
+        },
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": 6500,
+            "unit_of_measurement": "cells/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 210000,
+            "unit_of_measurement": "cells/µL"
+        }
+    ]
+}

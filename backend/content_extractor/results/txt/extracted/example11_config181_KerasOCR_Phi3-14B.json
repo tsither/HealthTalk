@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "S55",
+        "patient_name": "Shivam Bungaloy",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "low"
+        },
+        {
+            "test_eaname": "RBC count",
+            "result_value": 1308,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 52.4,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 896,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "borderline"
+        }
+    ]
+}

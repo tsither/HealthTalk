@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC WBC count",
+            "result_value": "12.0",
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "4.5 - 5.5 10^3/μL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "17.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[AccuI SMART ofo]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "count/μL",
+            "reference_range": "9000 - 11000 count/μL"
+        }
+    ]
+}

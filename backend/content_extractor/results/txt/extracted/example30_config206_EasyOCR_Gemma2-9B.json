@@ -1,0 +1,71 @@
+{
+    "Date": "2.10.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "patel visions",
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "110-170 g/dL"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": "80",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": "12.5",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5 %"
+        },
+        {
+            "test_name": "white blood cell (WBC) count",
+            "result_value": "7000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500-11000/µL"
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": "60%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": "30%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": "5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": "2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "basophils",
+            "result_value": "3%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "328",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

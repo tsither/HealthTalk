@@ -1,0 +1,178 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "RED BLOOD CELLS (RBC)": 4.96,
+                "HEMATOCRIT": 44,
+                "HEMOGLOBIN": 14.8
+            },
+            "unit_of_measurement": {
+                "RED BLOOD CELLS (RBC)": "/mm³",
+                "HEMATOCRIT": "%",
+                "HEMOGLOBIN": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC FORMULA",
+            "result_value": {
+                "TOTAL LEUCOCYTE COUNT": 54,
+                "NEUTROPHILS": 78.7,
+                "LYMPHOCYTES": 32
+            },
+            "unit_of_measurement": {
+                "TOTAL LEUCOCYTE COUNT": "/mm³",
+                "%": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 138000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "ERThROMOBLAST (BASOPHILS)",
+            "result_value": {
+                "TOTAL LEUCOCYTE COUNT": 54,
+                "%": 8.7
+            },
+            "unit_of_measurement": {
+                "TOTAL LEUCOCYTE COUNT": "/mm³",
+                "%": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "ESR",
+            "result_value": 336,
+            "unit_of_measurement": "mm/hour",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOCHEMICAL TESTS",
+            "result_value": {
+                "GLUCOSE": {
+                    "FASTING": 97,
+                    "POST-PRANDIAL": 220
+                },
+                "CHOLESTEROL": {
+                    "TOTAL": 150,
+                    "%LDL": 65
+                }
+            },
+            "unit_of_measurement": {
+                "GLUCOSE": "mg/dL",
+                "CHOLESTEROL": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "TRIGLYCERIDES",
+            "result_value": {
+                "TOTAL": 50
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "UREIC ACID (URIC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "IRON (FE)",
+            "result_value": {
+                "TOTAL IRON BINDING CAPACITY": 267,
+                "TRANSFERRIN": 145
+            },
+            "unit_of_measurement": {
+                "TOTAL IRON BINDING CAPACITY": "%",
+                "TRANSFERRIN": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "CREATININE",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HOMOCYSTEINE",
+            "result_value": 7.39,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PROTEINS",
+            "result_value": {
+                "ALBUMIN": 4,
+                "TOTAL PROTEIN": 18
+            },
+            "unit_of_measurement": {
+                "ALBUMIN": "g/dL",
+                "TOTAL PROTEIN": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "ALPHA AMYLASE",
+            "result_value": 43,
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "LOWER LIMIT": 0,
+                "UPPER LIMIT": 40
+            }
+        },
+        {
+            "test_name": "ASPARTATE AMINOTRANSFERASE (AST)",
+            "result_value": 45,
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "LOWER LIMIT": 14,
+                "UPPER LIMIT": 36
+            }
+        },
+        {
+            "test_name": "ALANINE AMINOTRANSFERASE (ALT)",
+            "result_value": 45,
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "LOWER LIMIT": 7,
+                "UPPER LIMIT": 56
+            }
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIUM (NA)": 142,
+                "POTASSIUM (K)": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIUM (NA)": "mEq/L",
+                "POTASSIUM (K)": "mEq/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "CHLORIDE",
+            "result_value": 38,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": {
+                "LOWER LIMIT": 5,
+                "UPPER LIMIT": 10
+            }
+        }
+    ]
+}

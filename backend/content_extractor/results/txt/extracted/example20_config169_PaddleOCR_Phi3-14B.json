@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_eaname": "RBC (Red Blood Cell count)",
+            "result_value": 4.5,
+            "unit_of_measurement": "trillion cells/L",
+            "reference_range": "[Reference Range Not Provided]"
+        },
+        {
+            "test_name": "WBC (White Blood Cell count)",
+            "result_value": 17.0,
+            "unit_of_measurement": "thousand cells/uL",
+            "reference_range": "[Reference Range Not Provided]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 345,
+            "unit_of_measurement": "billion platelets/L",
+            "reference_range": null
+        }
+    ]
+}

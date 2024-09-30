@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 39.5,
+                "hemoglobina": 163
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie plaquetar",
+            "result_value": {
+                "plaquetas": 208,
+                "plaquetocrito": 1000
+            },
+            "unit_of_measurement": {
+                "plaquetas": "loeblul",
+                "plaquetocrito": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos blanca serie",
+            "result_value": {
+                "neutrofilos": 75,
+                "monocitos": 12
+            },
+            "unit_of_measurement": {
+                "neutrofilos": "loeblul",
+                "monocitos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

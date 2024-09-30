@@ -1,0 +1,23 @@
+{
+    "Date": "12.03.2023",
+    "patient_information": {
+        "patient_id": "A123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.9 - 5.9"
+        },
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 6.0,
+            "unit_of_measurement": "%",
+            "reference_range": "<5.7"
+        }
+    ]
+}

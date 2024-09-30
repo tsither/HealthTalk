@@ -1,0 +1,23 @@
+{
+    "Date": "05.20.23",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.8-6.2"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

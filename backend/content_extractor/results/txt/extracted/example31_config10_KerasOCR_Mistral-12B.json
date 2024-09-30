@@ -1,0 +1,23 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": "LWA1234",
+        "patient_name": "Leopold Leopald",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 68000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": 19,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0-20"
+        }
+    ]
+}

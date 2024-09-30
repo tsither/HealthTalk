@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120 - 160 g/L"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "38-50%"
+        },
+        {
+            "test_name": "Homatocrito",
+            "result_value": 30.5,
+            "unit_of_measurement": "%",
+            "reference_range": "29-41%"
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular (VSG)",
+            "result_value": 83.1,
+            "unit_of_measurement": "mm/h",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 208,
+            "unit_of_measurement": "/μL",
+            "reference_range": "150-450 /μL"
+        },
+        {
+            "test_name": "Velocidad de hemoconcentración (VC)",
+            "result_value": 3.2,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit en el venoplasma",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

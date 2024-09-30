@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": "150000",
+                "Hemoglobin": "27.2",
+                "Packed Cell Volume (PCV)": "13.6"
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "poo|g",
+                "Hemoglobin": null,
+                "Packed Cell Volume (PCV)": null
+            },
+            "reference_range": {
+                "Total RBC count": {
+                    "Low": 150000,
+                    "High": 410000
+                },
+                "Hemoglobin": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "Packed Cell Volume (PCV)": {
+                    "Low": null,
+                    "High": null
+                }
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "Lymphocytes": 555
+            },
+            "unit_of_measurement": {
+                "Lymphocytes": "%"
+            },
+            "reference_range": {
+                "Lymphocytes": {
+                    "Low": null,
+                    "High": null
+                }
+            }
+        }
+    ]
+}

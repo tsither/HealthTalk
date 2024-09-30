@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "M",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemacia": "4,8X 109 /L",
+                "Hemoglobina": "14,3 g/L",
+                "VCM": "29 pg",
+                "Eucicitos": "10,2* 106 /L",
+                "Leucocitos": "68N",
+                "SE": "24%",
+                "NE": "2%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteína Total": "6,0 - 8.0",
+                "Hierro (Fe):": "55.0 - 135.0",
+                "Ferritina": "18.0 - 120.0",
+                "Hemoglobina Alc": "3.8 - 5.5",
+                "OT": "800 U/L",
+                "GPT": "32 U/L",
+                "GGT": "100 UL",
+                "Bilirrubina Total": "2,8 mg/dL",
+                "Bilirrubina Directa (Esferobilirrubina)": "1.5 mg/dL",
+                "Fosfatasa Alcalina": "50 U/L",
+                "Albumina": "2,3 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteína Total": null,
+                "Hierro (Fe):": null,
+                "Ferritina": null,
+                "Hemoglobina Alc": null,
+                "OT": "U/L",
+                "GPT": "U/L",
+                "GGT": "UL",
+                "Bilirrubina Total": "mg/dL",
+                "Bilirrubina Directa (Esferobilirrubina)": "mg/dL",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110.0)",
+                "Creatinina": "(0,70 - 1.10)",
+                "Colesterol": "<240.0",
+                "Proteína Total": null,
+                "Hierro (Fe):": "(55.0 - 135.0)",
+                "Ferritina": "(18.0 - 120.0)",
+                "Hemoglobina Alc": "(3.8 - 5.5)",
+                "OT": null,
+                "GPT": null,
+                "GGT": "(10 - 41)",
+                "Bilirrubina Total": "(0.2 - 1)",
+                "Bilirrubina Directa (Esferobilirrubina)": null,
+                "Fosfatasa Alcalina": "(30 - 118)",
+                "Albumina": "(40 - 80)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 7500,
+                "RBC": 4.8,
+                "Hb": 12.5,
+                "Hct": 39,
+                "Plt": 250000
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": "millions/mm^3",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "thousands/mm^3"
+            },
+            "reference_range": {
+                "WBC": [
+                    4500,
+                    11000
+                ],
+                "RBC": [
+                    4.5,
+                    6
+                ],
+                "Hb": [
+                    12,
+                    16
+                ],
+                "Hct": [
+                    37,
+                    47
+                ],
+                "Plt": [
+                    150,
+                    450
+                ]
+            }
+        }
+    ]
+}

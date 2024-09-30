@@ -1,0 +1,35 @@
+{
+    "Date": "01.12.20XX",
+    "patient_information": {
+        "patient_id": "0912315676",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 87
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "14.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "45.7 %",
+            "unit_of_measurement": "%",
+            "reference_range": "37-47%"
+        },
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": "8,000/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4,500-11,000/uL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "272 x 10^3/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "150-450 x 10^3/uL"
+        }
+    ]
+}

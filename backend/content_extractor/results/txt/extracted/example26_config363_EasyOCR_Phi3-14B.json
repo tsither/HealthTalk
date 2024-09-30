@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_n ame": "Red Blood Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "[3.9-5.7] million/mcL"
+        },
+        {
+            "test_name": "Hemoglobin Level",
+            "result_value": 14,
+            "unit_of_measurement": "gm/dl",
+            "reference_range": "[13-17] gm/dl"
+        },
+        {
+            "test_name": "Hematocrit Level",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "[38.5-50]%"
+        }
+    ]
+}

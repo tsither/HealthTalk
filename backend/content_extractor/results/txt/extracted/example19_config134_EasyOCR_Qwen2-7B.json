@@ -1,0 +1,84 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "XXX",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_details_missing": true
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 5.45,
+            "unit_of_measurement": "millions/mm³",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 83,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 7.12,
+            "unit_of_measurement": "millions/mm³",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 30,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fl",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27,
+            "unit_of_measurement": "pg",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "k/mm³",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "k/mm³",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 50,
+            "unit_of_measurement": "k/mm³",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null,
+            "unit_of_measurement": "k/mm³",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0,
+            "unit_of_measurement": "k/mm³",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

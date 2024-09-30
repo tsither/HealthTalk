@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CE (Total)",
+            "result_value": 0.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "0.8-1.2 g/dL"
+        },
+        {
+            "test_name": "S (Direct)",
+            "result_value": 15.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "5-40 mg/dL"
+        },
+        {
+            "test_name": "S (Total)",
+            "result_value": 90.1,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-400 mg/dL"
+        }
+    ]
+}

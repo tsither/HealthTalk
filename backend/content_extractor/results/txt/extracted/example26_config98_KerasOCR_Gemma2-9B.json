@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobina",
+            "result_value": "113",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15 g/dL"
+        },
+        {
+            "test_name": "hematocrito",
+            "result_value": "31",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "volumen corpuscular medio (VCM)",
+            "result_value": "83",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobina corpuscular media (HCM)",
+            "result_value": "27.9",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "concentración de hemoglobina corpuscular media (CHCM)",
+            "result_value": "338",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

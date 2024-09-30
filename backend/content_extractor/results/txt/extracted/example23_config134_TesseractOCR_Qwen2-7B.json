@@ -1,0 +1,23 @@
+{
+    "Date": "12/03/2023",
+    "patient_information": {
+        "patient_id": "P12345678",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": "WBC: 7.2, RBC: 5.1, HGB: 13.5, MCHC: 360",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Cholesterol Level",
+            "result_value": "Total Cholesterol: 240 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal range is <200 mg/dL"
+        }
+    ]
+}

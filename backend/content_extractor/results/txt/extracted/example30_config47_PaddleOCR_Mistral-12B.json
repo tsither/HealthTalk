@@ -1,0 +1,29 @@
+{
+    "Date": "20XX/05/05",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "13.6 - 17.7"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 32.8,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

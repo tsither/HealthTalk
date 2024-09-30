@@ -1,0 +1,71 @@
+{
+    "Date": "2023-05-00",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.69,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.1,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 27.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "27-31 fL"
+        },
+        {
+            "test_name": "Packed Cell Volume",
+            "result_value": 0.41,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 13.69,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 7.27,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "1.5-7.0 x 10^9/L"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 2.3,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "1.0-4.0 x 10^9/L"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 0.42,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "0.04-0.40 x 10^9/L"
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

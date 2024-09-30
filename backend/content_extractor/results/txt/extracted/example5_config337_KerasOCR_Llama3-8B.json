@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 4500000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "150000-3000000 cells/μL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.8%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "150000-300000 cells/μL"
+        },
+        {
+            "test_name": "Mean Platelet Volume",
+            "result_value": 10.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "9.5-11.1 fL"
+        }
+    ]
+}

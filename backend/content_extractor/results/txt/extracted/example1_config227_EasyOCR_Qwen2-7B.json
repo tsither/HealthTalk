@@ -1,0 +1,54 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash m Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_dob": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low: <130; high: >170"
+        },
+        {
+            "test_name": "rbc count toial rsc",
+            "result_value": null,
+            "unit_of_measurement": "52 tss 55 million/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv s0 packed cell volume",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "high: >90"
+        },
+        {
+            "test_name": "mcvy mean corpuscular volume",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "mch mean cell hemoglobin concentration",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.4-32"
+        },
+        {
+            "test_name": "mchc packed cell volume",
+            "result_value": 251,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3a5-328"
+        },
+        {
+            "test_name": "rdw coefficient of variation",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "116-1a0"
+        }
+    ]
+}

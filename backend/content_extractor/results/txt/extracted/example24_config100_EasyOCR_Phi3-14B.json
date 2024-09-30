@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RBC count (packed cell volume)",
+            "result_value": null,
+            "unit_of_measurement": "X/l",
+            "reference_range": "120-165 X/L"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 80,
+            "unit_of_measurement": "X/L",
+            "reference_range": "150-400 X/L"
+        }
+    ]
+}

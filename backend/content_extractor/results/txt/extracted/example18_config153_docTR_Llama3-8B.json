@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Vimal Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 4501000000.0,
+            "unit_of_measurement": "(cells/uL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.3,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MEAN CELL VOLUME (MCV)",
+            "result_value": 80.6,
+            "unit_of_measurement": "(fl)",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.3,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 8520000000.0,
+            "unit_of_measurement": "(cells/uL)",
+            "reference_range": "4-10"
+        }
+    ]
+}

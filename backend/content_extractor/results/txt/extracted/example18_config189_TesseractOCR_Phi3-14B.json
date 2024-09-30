@@ -1,0 +1,60 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "One33",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin (Hb): 12.#",
+                "Total RBC count: 5.2 #",
+                "Packed Cell Volume (PCV): 57.#%",
+                "Mean Corpuscular Volume (MCV): 87.# fl",
+                "MCH: 27.# pg",
+                "MCHC: 32.8 g/dL"
+            ],
+            "unit_of_measurement": [
+                "g/dl",
+                "mill/cumm",
+                "%",
+                "fl",
+                "pg",
+                "g/d"
+            ],
+            "reference_range": [
+                "13.0-17.0 #",
+                "45-55 #",
+                "40-50 %",
+                "83-101 fl",
+                "27 - 32 pg",
+                "32.5-34.5 g/d"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                "Neutrophils: 60%",
+                "Lymphocytes: 31%",
+                "Eosinophils: 1%",
+                "Monocytes: 7%",
+                "Basophils: 1%"
+            ],
+            "unit_of_measurement": [
+                "%",
+                "%",
+                "%",
+                "%",
+                "%"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000 #",
+            "reference_range": "Borderline"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin",
+                "45"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "reference range 12-15 g/dL",
+                "investigation unit blood"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count Total",
+            "result_value": [
+                "5.4x10^6/uL",
+                "reference range 4.2-6.1x10^6/uL",
+                "investigation unit blood"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": [
+                "52%",
+                "reference range 37-48%",
+                "investigation unit blood"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": [
+                "87fL",
+                "reference range 80-96 fL",
+                "investigation unit blood"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": [
+                "13.6%",
+                "reference range 11-15%",
+                "investigation unit blood"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count Total",
+            "result_value": [
+                "9000/uL",
+                "reference range 4000-10000/uL",
+                "investigation unit blood"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "150x10^9/L",
+                "reference range 150-400x10^9/L",
+                "investigation unit blood"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

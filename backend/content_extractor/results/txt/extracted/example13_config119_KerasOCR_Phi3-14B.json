@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-16] for men; [14-17] for women"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 6.8,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_e range": "[4.5-5.9] x10^6/uL for men; [4.2-5.4] x10^6/uL for women"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 38,
+            "unit_of_measurement": "%",
+            "reference_range": "[38.5-50]% for men; [34.9-44.6]% for women"
+        }
+    ]
+}

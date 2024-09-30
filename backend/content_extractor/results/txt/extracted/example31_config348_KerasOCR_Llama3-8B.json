@@ -1,0 +1,29 @@
+{
+    "Date": "12.05.2023",
+    "patient_information": {
+        "patient_id": "PAT-001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7900.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4e3 - 11e3"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        }
+    ]
+}

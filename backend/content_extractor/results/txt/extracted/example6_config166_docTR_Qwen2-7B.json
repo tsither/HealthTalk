@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "[Low:13.0- High:17.0]"
+        },
+        {
+            "test_name": "Hemoglobin (Hb) RBC COUNT",
+            "result_value": 12.5,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count BLOOD INDICES",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[Low:4.5- High:5.5]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "[Low:9000- High:13.6]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[Low:32.8- High:34.5]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[Low:11.6- High:1]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[Low:40- High:50]"
+        },
+        {
+            "test_name": "Total WBC count DIFFERENTIAL WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[Neutrophils: Low:60 - High:83.1%, Lymphocytes: Low:27- High:31%, Eosinophils: Low:1- High:7%, Monocytes: Low:1- High:1%, Basophils: Low:1- High:0.2%]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "",
+            "reference_range": "[Low:410000 - High:400000]"
+        }
+    ]
+}

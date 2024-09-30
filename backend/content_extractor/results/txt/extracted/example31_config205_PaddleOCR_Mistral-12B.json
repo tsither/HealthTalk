@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555 Patel",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "2 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "13.0 g/dL",
+                "Hematocrit": "25%",
+                "MCV": "68 fL",
+                "MCH": "18 pg",
+                "MCHC": "27 g/dL",
+                "Platelets": "328 x 10^9/L",
+                "WBC": "4.5 - 5.5 x 10^9/L",
+                "Neutrophils": "63%",
+                "Lymphocytes": "29%",
+                "Monocytes": "4%"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelets": "x 10^9/L",
+                "WBC": "x 10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

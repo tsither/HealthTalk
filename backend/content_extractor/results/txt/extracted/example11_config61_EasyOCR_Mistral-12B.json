@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.245,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5 - 6.0 million/µL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 50 %"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "83 - 101 fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27 - 31 pg"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4,000 - 10,000 cells/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 500000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150,000 - 450,000 cells/µL"
+        }
+    ]
+}

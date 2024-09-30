@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 55.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-18]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 40.0,
+            "unit_of_measurement": "",
+            "reference_range": "[150-400 x 10^9/L]"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_nme": "MCV (Mean Corpuscular Volume)",
+            "result_value": 102.4,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-96]"
+        },
+        {
+            "test_name": "Total RBC (Red Blood Cell count)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

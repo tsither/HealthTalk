@@ -1,0 +1,86 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "PID: : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT Total",
+            "result_value": "5.2 mill/cumm",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5 %",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Calculated MCH",
+            "result_value": "27.2 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Calculated Calculated MCHC",
+            "result_value": "32.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13.6 %",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT Total",
+            "result_value": "9000 /microl",
+            "unit_of_measurement": "/microl",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Neutrophils",
+                    "value": "60 %"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": "31 %"
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": null
+                },
+                {
+                    "name": "Monocytes",
+                    "value": "1 %"
+                },
+                {
+                    "name": "Basophils",
+                    "value": "7 %"
+                }
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "150000 /microl",
+            "unit_of_measurement": "/microl",
+            "reference_range": null
+        }
+    ]
+}

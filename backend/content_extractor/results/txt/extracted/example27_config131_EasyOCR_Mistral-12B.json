@@ -1,0 +1,140 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Formula leucocitaria",
+            "result_value": "4.960.000",
+            "unit_of_measurement": "celdas/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma completo",
+            "result_value": {
+                "hematocrito": 37,
+                "hemoglobina": 148,
+                " leucocitos": 3270,
+                "neutrofilos": 56.8,
+                "linfocitos": 33.6,
+                "monocitos": 6,
+                "plaquetas": 138000
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dl",
+                " leucocitos": "mm³",
+                "neutrofilos": "%",
+                "linfocitos": "%",
+                "monocitos": "%",
+                "plaquetas": "mm³"
+            },
+            "reference_range": {
+                "hematocrito": null,
+                "hemoglobina": null,
+                " leucocitos": null,
+                "neutrofilos": null,
+                "linfocitos": null,
+                "monocitos": null,
+                "plaquetas": {
+                    "min": 96,
+                    "max": 98
+                }
+            }
+        },
+        {
+            "test_name": "Pruebas bioquímicas",
+            "result_value": {
+                "glucosa": 87,
+                "colesterol": 35,
+                "hdl": null,
+                "LDL": null,
+                "trigliceridos": 45,
+                "urea": 19,
+                "urico": 45,
+                "creatinina": 0.6
+            },
+            "unit_of_measurement": {
+                "glucosa": "%",
+                "colesterol": "mg%",
+                "hdl": null,
+                "LDL": null,
+                "trigliceridos": "mg%",
+                "urea": "mg%",
+                "urico": "μg%",
+                "creatinina": "mg%"
+            },
+            "reference_range": {
+                "glucosa": {
+                    "min": 70,
+                    "max": 110
+                },
+                "colesterol": {
+                    "min": 35,
+                    "max": 65
+                },
+                "hdl": null,
+                "LDL": null,
+                "trigliceridos": {
+                    "max": 40
+                },
+                "urea": {
+                    "min": 2.5,
+                    "max": 7.1
+                },
+                "urico": {
+                    "min": 4,
+                    "max": 8
+                },
+                "creatinina": {
+                    "min": 0.6,
+                    "max": 1.6
+                }
+            }
+        },
+        {
+            "test_name": "Pruebas enzimáticas",
+            "result_value": {
+                "got": 40,
+                "gpt": 43,
+                "gt": null
+            },
+            "unit_of_measurement": "Ufl",
+            "reference_range": {
+                "got": {
+                    "max": 40
+                },
+                "gpt": {
+                    "min": 11,
+                    "max": 50
+                },
+                "gt": null
+            }
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "sodio": 141,
+                "potasio": null,
+                "cloro": null
+            },
+            "unit_of_measurement": {
+                "sodio": "mmol/L",
+                "potasio": null,
+                "cloro": null
+            },
+            "reference_range": {
+                "sodio": {
+                    "min": 135,
+                    "max": 145
+                },
+                "potasio": null,
+                "cloro": null
+            }
+        }
+    ]
+}

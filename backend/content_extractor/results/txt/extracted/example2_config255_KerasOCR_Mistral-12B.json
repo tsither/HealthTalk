@@ -1,0 +1,23 @@
+{
+    "Date": "23/04/2021",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 4.2,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.4 - 6.0"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 36,
+            "unit_of_measurement": "%",
+            "reference_range": "42 - 52%"
+        }
+    ]
+}

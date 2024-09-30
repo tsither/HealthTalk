@@ -1,0 +1,23 @@
+{
+    "Date": "21.04.2023",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 0.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1 - 1.2"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 3.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5 - 5.2"
+        }
+    ]
+}

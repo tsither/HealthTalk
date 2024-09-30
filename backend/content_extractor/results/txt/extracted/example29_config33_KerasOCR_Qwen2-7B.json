@@ -1,0 +1,35 @@
+{
+    "Date": "0251",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin (hgb) and hematocrit (hct)",
+            "result_value": "5.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[4.6-15.7]"
+        },
+        {
+            "test_name": "mean corpuscular volume (mcv)",
+            "result_value": "81.7 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-93]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": "27 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "[31.5-34.6]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (mch)",
+            "result_value": "32.8 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "[27-34]"
+        }
+    ]
+}

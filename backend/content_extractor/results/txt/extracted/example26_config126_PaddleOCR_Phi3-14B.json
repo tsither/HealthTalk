@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Series Roja Hemática",
+            "result_value": 4.75,
+            "unit_of_measurement": "10E",
+            "reference_range": null
+        },
+        {
+            "test_namae": "Hemoglobina",
+            "result_value": 13.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                9.0,
+                16.5
+            ]
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 30.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                38.0,
+                52.9
+            ]
+        },
+        {
+            "test_name": "VCM (Volumen Corpuscular Medio)",
+            "result_value": 83.1,
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                76.0,
+                95.4
+            ]
+        },
+        {
+            "test_name": "HB (Hemoglobina Corpuscular Média)",
+            "result_value": 27.9,
+            "unit_of_measurement": "P9",
+            "reference_range": [
+                18.0,
+                45.5
+            ]
+        },
+        {
+            "test_name": "CHCM (Hemoglobina Corpuscular Média)",
+            "result_value": 33.0,
+            "unit_of_measurement": null,
+            "reference_range": [
+                24.8,
+                35.1
+            ]
+        }
+    ]
+}

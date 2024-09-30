@@ -1,0 +1,29 @@
+{
+    "Date": "02 DEC 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "PATEL SHIVAM",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (Hb)",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "RED BLOOD CELL COUNT (RBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "WHITE BLOOD CELL COUNT (WBC)",
+            "result_value": 7.1,
+            "unit_of_measurement": "thousand/mm³",
+            "reference_range": "4.5-11.0"
+        }
+    ]
+}

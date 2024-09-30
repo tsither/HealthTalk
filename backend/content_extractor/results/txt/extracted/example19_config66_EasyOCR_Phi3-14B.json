@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": [
+            "0123456789"
+        ],
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 7
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "5.55",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cell Count (RBC)",
+            "result_value": 478,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 94,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

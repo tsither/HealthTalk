@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Protein",
+            "result_value": 8.0,
+            "unit_of_measurement": "g/dL",
+            "reference_e n range": "6.4-8.3"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Globulin",
+            "result_value": 2.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "1.8-3.5"
+        },
+        {
+            "test_name": "A / G Ratio (Albumin / Globulin)",
+            "result_value": 4,
+            "unit_of_measurement": null,
+            "reference_range": "1.1-2.5"
+        },
+        {
+            "test_name": "A / T Ratio (Albumin / Total Protein)",
+            "result_value": 0.24,
+            "unit_of_measurement": null,
+            "reference_range": "0.2-0.35"
+        },
+        {
+            "test_name": "A1C",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

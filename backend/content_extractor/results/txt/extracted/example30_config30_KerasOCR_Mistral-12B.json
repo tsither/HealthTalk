@@ -1,0 +1,41 @@
+{
+    "Date": "2022-12-01",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.5"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.55,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.6 - 6.2"
+        },
+        {
+            "test_name": "PCV (HCT)",
+            "result_value": 0.8175,
+            "unit_of_measurement": "fraction",
+            "reference_range": "0.39 - 0.53"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 93.25,
+            "unit_of_measurement": "fL",
+            "reference_range": "78 - 100"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4.1,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "3.5 - 10.5"
+        }
+    ]
+}

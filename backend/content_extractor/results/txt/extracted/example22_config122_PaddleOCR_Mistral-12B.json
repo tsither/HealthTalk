@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Packed Cell Volume (PCV)": 8.9689,
+                "Mean Blood Corpuscular Volume (MCV)": 12.5,
+                "Red Blood Cell Distribution Width (RDW)": 5.2,
+                "RBC Count": 57.5,
+                "WBC Count": 87.75,
+                "Neutrophils": 32.8,
+                "Lymphocytes": 102,
+                "Monocytes": 13.6,
+                "Eosinophils": 40,
+                "Basophils": 0.1,
+                "Platelet Count": 83
+            },
+            "unit_of_measurement": {
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Blood Corpuscular Volume (MCV)": "fl",
+                "Red Blood Cell Distribution Width (RDW)": "%",
+                "RBC Count": "mill/cumm",
+                "WBC Count": "10^3/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Platelet Count": "10^3/uL"
+            },
+            "reference_range": {
+                "RBC Count": "4.5 - 6.2 mill/cumm",
+                "WBC Count": "4.5 - 10.5 10^3/uL",
+                "Neutrophils": "40 - 75%",
+                "Lymphocytes": "20 - 45%",
+                "Monocytes": "2 - 8%",
+                "Eosinophils": "<2%",
+                "Basophils": "<2%",
+                "Platelet Count": "150000 - 410000 10^3/uL"
+            }
+        }
+    ]
+}

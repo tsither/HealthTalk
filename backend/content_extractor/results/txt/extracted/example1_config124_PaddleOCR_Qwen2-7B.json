@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC count",
+            "result_value": "130000",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Date": "30.06.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Juan Pérez",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Profile",
+            "result_value": {
+                "Total Cholesterol": 200,
+                "HDL Cholesterol": 45,
+                "LDL Cholesterol": 130,
+                "Triglycerides": 160
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "Total Cholesterol": "<200 mg/dL",
+                "HDL Cholesterol": ">40 mg/dL",
+                "LDL Cholesterol": "<130 mg/dL",
+                "Triglycerides": "<150 mg/dL"
+            }
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

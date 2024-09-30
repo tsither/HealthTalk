@@ -1,0 +1,36 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": null,
+        "patient_care": "caring"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "rbc",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 125,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell (wbc) count",
+            "result_value": 68578,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 130,
+            "unit_of_measurement": "×10^3/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemograma",
+            "result_value": 8.1,
+            "unit_of_measurement": "aa",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "leucoclilos",
+            "result_value": 5600,
+            "unit_of_measurement": "lod",
+            "reference_range": null
+        },
+        {
+            "test_name": "hematies es",
+            "result_value": 50.4,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "hemoglobina",
+            "result_value": 127,
+            "unit_of_measurement": "o",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "hematocrito",
+            "result_value": 65.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "leucocitaria formula",
+            "result_value": {
+                "neutrofilos": 6070,
+                "linfocitos": 812,
+                "monocitos": 9.16,
+                "eosinofilos": 1,
+                "basofilos": 70
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "plaquetas",
+            "result_value": 529,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

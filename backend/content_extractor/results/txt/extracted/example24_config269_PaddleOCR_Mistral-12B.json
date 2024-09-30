@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "5.0",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "150000 - 450000"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0"
+        }
+    ]
+}

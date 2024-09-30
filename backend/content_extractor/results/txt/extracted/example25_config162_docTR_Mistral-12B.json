@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematocrito": 65.6,
+                "V.C.M.": 94.0,
+                "C.N.": 30.7,
+                "C.H.C.M.": 28.4,
+                "K.2.M.": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 190,
+            "unit_of_measurement": "g/L",
+            "reference_range": "(150 - 450)"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 8.6,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrofilos",
+            "result_value": 52.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinofilos",
+            "result_value": 1.7,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basófilos",
+            "result_value": 0.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "NA",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BLOOD COUNT",
+            "result_value": 4.8,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "MEAN CORPUSCULAR VOLUME",
+            "result_value": 76,
+            "unit_of_measurement": "fL",
+            "reference_range": "72-86"
+        },
+        {
+            "test_name": "RED CELL DISTRIBUTION WIDTH",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "13.8-14.5"
+        }
+    ]
+}

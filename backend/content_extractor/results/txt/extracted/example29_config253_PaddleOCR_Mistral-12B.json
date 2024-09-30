@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Tiga",
+        "patient_sex": null,
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC": 5.5,
+                "HGB": 13.6,
+                "HCT": 40.8,
+                "MCV": 87.2,
+                "MCH": 30.0,
+                "MCHC": 34.5,
+                "PLT": 272,
+                "WBC": 11.6
+            },
+            "unit_of_measurement": {
+                "RBC": "10^6/μL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/μL",
+                "WBC": "10^3/μL"
+            },
+            "reference_range": null
+        }
+    ]
+}

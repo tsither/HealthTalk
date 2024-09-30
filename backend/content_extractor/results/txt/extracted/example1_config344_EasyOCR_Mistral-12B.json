@@ -1,0 +1,33 @@
+{
+    "Date": "23.02.2023",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.0",
+                "RBC": "5.0",
+                "HGB": "12.0",
+                "PLT": "250",
+                "NEU": "48%",
+                "LYM": "39%",
+                "MONO": "13%"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

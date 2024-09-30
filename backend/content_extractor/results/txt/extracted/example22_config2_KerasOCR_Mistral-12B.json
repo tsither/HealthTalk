@@ -1,0 +1,29 @@
+{
+    "Date": "12.09.23",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah, Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 325,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

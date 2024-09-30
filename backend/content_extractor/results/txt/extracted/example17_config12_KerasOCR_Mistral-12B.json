@@ -1,0 +1,35 @@
+{
+    "Date": "17-03-2012",
+    "patient_information": {
+        "patient_id": "456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "4.1",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "3.5-10.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "5.2",
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4.5-5.9"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "136",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "202",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

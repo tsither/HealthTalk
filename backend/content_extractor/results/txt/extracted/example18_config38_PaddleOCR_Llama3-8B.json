@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Counte",
+            "result_value": 150000,
+            "unit_of_measurement": "count RUN",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT MACHC",
+            "result_value": 125,
+            "unit_of_measurement": "1000 cells/cumm",
+            "reference_range": "4000-410000"
+        },
+        {
+            "test_name": "RUN DIFFERENTIAL WBC COUNT",
+            "result_value": 90,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC ",
+            "result_value": 32.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "31-34"
+        },
+        {
+            "test_name": "MCV ",
+            "result_value": 79,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

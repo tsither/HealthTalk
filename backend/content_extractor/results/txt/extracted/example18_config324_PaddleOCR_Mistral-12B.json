@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.5,
+                "Hct": 39,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^3/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

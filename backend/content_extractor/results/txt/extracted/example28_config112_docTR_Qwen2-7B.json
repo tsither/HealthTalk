@@ -1,0 +1,94 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Caso hipotético",
+        "patient_sex": "male",
+        "patient_age": 60,
+        "patient_weight_status": "obese"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": null,
+                "Hemoglobina VCM H.M.C.": 89,
+                "Leucicitos": {
+                    "total": 4.8,
+                    "10^9/": null
+                },
+                "89 fl": null,
+                "29 Pg": null,
+                "10,2 X 106": null,
+                "1 (68N, 1B, 5 E, 24L 2M)": null
+            },
+            "unit_of_measurement": {
+                "Hematies": null,
+                "Hemoglobina VCM H.M.C.": "fl",
+                "Leucicitos": {
+                    "total": "/.109",
+                    "10^9/": null
+                },
+                "29 Pg": null,
+                "10,2 X 106": null,
+                "1 (68N, 1B, 5 E, 24L 2M)": null
+            },
+            "reference_range": {
+                "Hematies": null,
+                "Hemoglobina VCM H.M.C.": "fl",
+                "Leucicitos": {
+                    "total": "[4.0-10.0] /109",
+                    "10^9/": null
+                },
+                "29 Pg": null,
+                "10,2 X 106": null,
+                "1 (68N, 1B, 5 E, 24L 2M)": null
+            }
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": 1.15,
+                "Colesterol": 220,
+                "Proteina": null,
+                "Hierro (I+I)": null,
+                "Ferriuna HemogloginaAlc": null,
+                "GOT": null,
+                "GPT": null,
+                "GGT": null,
+                "Bilirrubina total": 4.5,
+                "Fostatasa Alcalina": null,
+                "Albumina": 800
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "mg/dL",
+                "Hierro (I+I)": null,
+                "Ferriuna HemogloginaAlc": null,
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Fostatasa Alcalina": null,
+                "Albumina": "mg/dL"
+            },
+            "reference_range": {
+                "Glucosa": "[70.0 - 110.0] mg/dL",
+                "Creatinina": "[0.70 - 1.10] mg/dL",
+                "Colesterol": "<240.0 mg/dL",
+                "Proteina": null,
+                "Hierro (I+I)": null,
+                "Ferriuna HemogloginaAlc": null,
+                "GOT": null,
+                "GPT": null,
+                "GGT": null,
+                "Bilirrubina total": "[50 - 23] mg/dL",
+                "Fostatasa Alcalina": null,
+                "Albumina": "[3.8 - 5.5] mg/dL"
+            }
+        }
+    ]
+}

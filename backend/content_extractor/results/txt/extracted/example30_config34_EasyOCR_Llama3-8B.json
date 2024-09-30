@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456759",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC - Complete Blood Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 55,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count (Red Blood Cell)",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.32-5.72 million/cumm"
+        },
+        {
+            "test_name": "PCV/Packed Cell Volume",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 80.15,
+            "unit_of_measurement": "fL",
+            "reference_range": "70-96 fL"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "26-32 pg/cell"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "WBC Count (White Blood Cell)",
+            "result_value": 4.0,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "3,500-10,000 thousand/cumm"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 40.0,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "1,50,000-5,00,000 thousand/cumm"
+        }
+    ]
+}

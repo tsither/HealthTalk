@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "2X",
+        "patient_sex": "M",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "13.0",
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.6",
+            "unit_of_measurement": null,
+            "reference_range": "11.6 - "
+        },
+        {
+            "test_name": "Red Cell Count (RCC)",
+            "result_value": "5.0",
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4.0 - 5.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "50",
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - "
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "15.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.8",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "4.0",
+            "unit_of_measurement": "10^5/cumm",
+            "reference_range": "1.5 - 3.0"
+        }
+    ]
+}

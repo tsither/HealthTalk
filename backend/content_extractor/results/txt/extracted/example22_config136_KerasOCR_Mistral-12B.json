@@ -1,0 +1,29 @@
+{
+    "Date": "13/01/2017",
+    "patient_information": {
+        "patient_id": "912345673",
+        "patient_name": "Shah Shivam Smart",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.64,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 202,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah",
+        "patient_sex": null,
+        "patient_age": "(15;60) Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "9.5689",
+                "HGB": "13.0",
+                "HCT": "41.0",
+                "PLT": "25"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": null,
+                "HGB": "13.0 - 17.0 g/dL",
+                "HCT": null,
+                "PLT": "150 - 450 x10^9/L"
+            }
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count and indices",
+            "result_value": {
+                "MCV": "91",
+                "MCH": "28",
+                "MCHC": "32.5"
+            },
+            "unit_of_measurement": {
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null
+            }
+        }
+    ]
+}

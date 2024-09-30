@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "116",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "272",
+            "unit_of_measurement": "fl",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "150",
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

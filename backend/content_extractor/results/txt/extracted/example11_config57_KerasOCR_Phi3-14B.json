@@ -1,0 +1,76 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 125 g/l"
+            ],
+            "unit_of_measurement": "[g/l]",
+            "reference_range": "[130-170]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": [
+                "Total RBC: 5.2 million/uL"
+            ],
+            "unit_of_measurement": "[million/ul]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": [
+                "S75: 40%"
+            ],
+            "unit_of_measurement": "[%]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": [
+                "32 pg/cell"
+            ],
+            "unit_of_measurement": "[pg/cell]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": [
+                "32 g/dl"
+            ],
+            "unit_of_measurement": "[g/dl]",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": [
+                "Total WBC: 9,000"
+            ],
+            "unit_of_measurement": "[cells/ul]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                "Neutrophils: 60%",
+                "Lymphocytes: 31%"
+            ],
+            "unit_of_measurement": "[%]",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "20,000 platelets/mm³"
+            ],
+            "unit_of_measurement": "[platelets/mm³]",
+            "reference_range": null
+        }
+    ]
+}

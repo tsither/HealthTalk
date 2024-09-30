@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "MCH",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Total wBC",
+            "result_value": null,
+            "unit_of_measurement": "count! /s",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Lymphocyies",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Monocyies",
+            "result_value": null,
+            "unit_of_measurement": "/%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 9000,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 32.5,
+            "unit_of_measurement": "mill/ Plaiclet Count",
+            "reference_range": "11.6 - 14.0"
+        }
+    ]
+}

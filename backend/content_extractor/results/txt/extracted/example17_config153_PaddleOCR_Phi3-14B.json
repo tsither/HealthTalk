@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Bas Lymph COUNT",
+            "result_value": 15,
+            "unit_of_measurement": "counts",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 300,
+            "unit_of_measurement": null,
+            "reference_range": "4500-11000 WBCs/mcl"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 31,
+            "unit_of_measurement": null,
+            "reference_range": "4.7 - 6.1 million cells/mcL (male), 4.2 - 5.4 million cells/mcL (female)"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 83,
+            "unit_of_measurement": null,
+            "reference_range": "13.5 - 17.5 g/dL (male), 12.0-15.5 g/dL (female)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

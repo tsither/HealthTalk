@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 14.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Men: 13.5-17.5 g/dL; Women: 12.0-15.5 g/dL"
+        },
+        {
+            "test_name": "CBC",
+            "result_value": "White Blood Cells (WBC): 7,200 cells/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4,500-11,000 cells/µL"
+        },
+        {
+            "test_name": "CBC",
+            "result_value": "Platelets: 280,000 platelets/µL",
+            "unit_of_measurement": "platelets/µL",
+            "reference_range": "150,000-450,000 platelets/µL"
+        }
+    ]
+}

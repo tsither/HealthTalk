@@ -1,0 +1,50 @@
+{
+    "Date": "15.02.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells (WBC)": "6.2",
+                "Red Blood Cells (RBC)": "4.8",
+                "Hemoglobin (Hb)": "13.5",
+                "Platelets": "220"
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "10^9/L",
+                "Red Blood Cells (RBC)": "10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cells (WBC)": "4.5 - 10",
+                "Red Blood Cells (RBC)": "4.4 - 6.2",
+                "Hemoglobin (Hb)": "13.5 - 17.5",
+                "Platelets": "150 - 400"
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "Alanine Aminotransferase (ALT)": "28",
+                "Aspartate Aminotransferase (AST)": "35",
+                "Alkaline Phosphatase (ALP)": "100"
+            },
+            "unit_of_measurement": {
+                "Alanine Aminotransferase (ALT)": "U/L",
+                "Aspartate Aminotransferase (AST)": "U/L",
+                "Alkaline Phosphatase (ALP)": "U/L"
+            },
+            "reference_range": {
+                "Alanine Aminotransferase (ALT)": "7 - 56",
+                "Aspartate Aminotransferase (AST)": "8 - 30",
+                "Alkaline Phosphatase (ALP)": "45 - 115"
+            }
+        }
+    ]
+}

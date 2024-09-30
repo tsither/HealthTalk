@@ -1,0 +1,29 @@
+{
+    "Date": "2022 Dec 2",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah, Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6000,
+            "unit_of_measurement": "/microliter (mcL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "grams/deciliter (g/dL)",
+            "reference_range": "[12.0-16.0]"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

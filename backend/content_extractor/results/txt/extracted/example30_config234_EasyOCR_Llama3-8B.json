@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivom Munbal",
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.02",
+            "unit_of_measurement": "million cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "52",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "30.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "10.5",
+            "unit_of_measurement": "thousand cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "32%",
+                "Lymphocytes": "65%",
+                "Eosinophils": "3%",
+                "Monocytes": "1%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "8.2",
+            "unit_of_measurement": "lakh cells/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Pate",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 13.0,
+                "RBC_COUNT": 57,
+                "MCV": 83.101,
+                "WBC_COUNT": 11.6,
+                "PLT_COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC_COUNT": "mill/cumm",
+                "MCV": null,
+                "WBC_COUNT": "I9000.",
+                "PLT_COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": [
+                    13.0,
+                    17.0
+                ],
+                "RBC_COUNT": [
+                    45.0,
+                    5.5
+                ],
+                "MCV": null,
+                "WBC_COUNT": [
+                    2.0,
+                    8.0
+                ],
+                "PLT_COUNT": [
+                    150000,
+                    410000
+                ]
+            }
+        }
+    ]
+}

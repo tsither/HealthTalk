@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "80"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "10.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "3.8",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "31.5",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "35",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34-37 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": "14.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "9.7",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": "70 Neutrophils, 20 Lymphocytes, 5 Eosinophils, 2 Monocytes, 1 Basophils",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.45",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

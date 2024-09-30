@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "s55t",
+        "patient_name": "shivam singh",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count (cbc)",
+            "result_value": {
+                "hemoglobin": 12,
+                "rbc_count": 5.7,
+                "wbc_count": 11.6,
+                "platelet_count": 300000
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "10^6/µL",
+                "wbc_count": "10^3/µL",
+                "platelet_count": "10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

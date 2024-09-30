@@ -1,0 +1,35 @@
+{
+    "Date": "234567",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (White Blood Cell Count)",
+            "result_value": 8725,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4000-10,000 cells/uL"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell Count)",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hb (Hemoglobin)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL"
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": "02/12/22",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "45-55"
+        },
+        {
+            "test_name": "RBC COUNT (Hb)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-8"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "325-345"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 11.6,
+            "unit_of_measurement": null,
+            "reference_range": "14.0 Pg 60 g/dL"
+        },
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": 9000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "20-40 cumm"
+        },
+        {
+            "test_name": "Platelet PLATEETO COUNT Count",
+            "result_value": 15000,
+            "unit_of_measurement": null,
+            "reference_range": "00-06 %"
+        }
+    ]
+}

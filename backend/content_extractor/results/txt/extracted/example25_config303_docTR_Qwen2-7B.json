@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "PT123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 52
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Profile",
+            "result_value": 170,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[150-200]"
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": 300,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[160-240]"
+        }
+    ]
+}

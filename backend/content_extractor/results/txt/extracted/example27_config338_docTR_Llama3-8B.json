@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-16.9 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4050000.0,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "3.90-5.10 cells/μL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7500.0,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "3.50-9.80 cells/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 220000.0,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "1.50-4.70 cells/μL"
+        }
+    ]
+}

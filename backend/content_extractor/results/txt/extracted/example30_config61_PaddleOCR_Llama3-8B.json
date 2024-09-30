@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "52"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "27-107"
+        },
+        {
+            "test_name": "WBC DIF count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Reference Value not available"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 9000,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "DIF count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

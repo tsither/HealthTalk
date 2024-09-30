@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Gral Type)",
+            "result_value": 55,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Hemoglo < sub > obin (Cumm)",
+            "result_value": 45,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count (Totar)",
+            "result_value": 50,
+            "unit_of_measurement": "MCHC - g/dL < sub >",
+            "reference_range": null
+        }
+    ]
+}

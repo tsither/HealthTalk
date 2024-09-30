@@ -1,0 +1,95 @@
+{
+    "Date": "20/03/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 230,
+                "NEU": 45,
+                "LYM": 40,
+                "MONO": 5
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 16
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 350
+                },
+                "NEU": {
+                    "min": 40,
+                    "max": 70
+                },
+                "LYM": {
+                    "min": 20,
+                    "max": 50
+                },
+                "MONO": {
+                    "min": 2,
+                    "max": 10
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "AST": 25,
+                "ALT": 30,
+                "ALP": 70,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": {
+                    "min": 5,
+                    "max": 34
+                },
+                "ALT": {
+                    "min": 7,
+                    "max": 52
+                },
+                "ALP": {
+                    "min": 40,
+                    "max": 150
+                },
+                "TBIL": {
+                    "min": 0.3,
+                    "max": 1
+                }
+            }
+        }
+    ]
+}

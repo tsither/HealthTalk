@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "689578",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb",
+            "result_value": "12.5",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "27.2",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "13.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "40",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "62",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "328",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "14.0 - 410000"
+        }
+    ]
+}

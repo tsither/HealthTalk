@@ -1,0 +1,90 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "Obese",
+        "travel_history": "recently travelled to tropical country"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": "Hematies 4,8 x 109 / L",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica bdsica",
+            "result_value": [
+                "Glucosa 65.0 mg/dL",
+                "Creatinina 1.15 mg/dL",
+                "Colesterol 220 mg/dL",
+                "Proteina 6.6 g/dL",
+                "Hierro (II+III) 65,0 ng/mL",
+                "Ferritina ng/mL",
+                "Hemoglogina Alc 3,8 - 5,5"
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mg/dL",
+                "mg/dL",
+                "g/dL",
+                "ng/mL",
+                "ng/mL",
+                ""
+            ],
+            "reference_range": [
+                "(70,0 _ 110,0)",
+                "(0.70 1.10)",
+                "<240,0",
+                "(6,0 - 8.0)",
+                "(65,0 _ 135,0)",
+                "(10,0 - 120.0)",
+                "(3,8 5,5)"
+            ]
+        },
+        {
+            "test_name": "Functiones Enzimaticas",
+            "result_value": [
+                "GOT 800 UIC",
+                "GPT 800 UIC"
+            ],
+            "unit_of_measurement": [
+                "U/L",
+                "U/L"
+            ],
+            "reference_range": [
+                "(32) ",
+                "(33) "
+            ]
+        },
+        {
+            "test_name": "Enzimas Hepaticas",
+            "result_value": [
+                "GGT 100 UIC",
+                "Bilirrubina total 2.8 mg/dL",
+                "Fostatasa Alcalina 50 UIC",
+                "Albumina 2,3 g/dL"
+            ],
+            "unit_of_measurement": [
+                "U/L",
+                "mg/dL",
+                "UIC",
+                "g/dL"
+            ],
+            "reference_range": [
+                "(10 - 41)",
+                "(0.2)",
+                "(30 _ 110)",
+                "(3,40 80]"
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": "",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

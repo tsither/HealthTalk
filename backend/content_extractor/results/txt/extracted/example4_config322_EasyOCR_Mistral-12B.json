@@ -1,0 +1,23 @@
+{
+    "Date": "2021-03-15",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 6.0,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 12.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        }
+    ]
+}

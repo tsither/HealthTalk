@@ -1,0 +1,81 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "S55 S 02311",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "location": "Shivam Bungalots, Road Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count CBC",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low hemoglobin"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 130,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RSC Count",
+            "result_value": 51.2,
+            "unit_of_measurement": "kPa/s",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "(83-101) fl"
+        },
+        {
+            "test_name": "Mean High Corpuscular os Volurne (MCHC)",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 11.9,
+            "unit_of_measurement": "%",
+            "reference_range": "(11.5-14.5) %"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 11000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "percentage": 60
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "percentage": 40
+                }
+            ],
+            "unit_of_measurement": "% of WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 115,
+            "unit_of_measurement": "/µL",
+            "reference_range": "(125-350) /µL"
+        }
+    ]
+}

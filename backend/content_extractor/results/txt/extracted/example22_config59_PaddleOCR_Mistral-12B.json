@@ -1,0 +1,25 @@
+{
+    "Date": "30/12/2000",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel",
+        "patient_age": 125
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": 17.0,
+                "RBC": 4.5,
+                "HGB": 13.0,
+                "PLT": 5.5
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": "millions/mm^3",
+                "HGB": "g/dL",
+                "PLT": "thousands/mm^3"
+            }
+        }
+    ]
+}

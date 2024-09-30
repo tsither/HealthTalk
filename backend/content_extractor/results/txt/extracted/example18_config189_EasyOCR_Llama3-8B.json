@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SS-S-6",
+            "result_value": "0.4",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.9"
+        },
+        {
+            "test_name": "CRP-U-UN",
+            "result_value": "<0.8",
+            "unit_of_measurement": "mg/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "ESR-S-UN",
+            "result_value": "2 mm",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "NEUT-U-8",
+            "result_value": "%",
+            "unit_of_measurement": "0.1%",
+            "reference_range": "45-75"
+        },
+        {
+            "test_name": "JP-D-8",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

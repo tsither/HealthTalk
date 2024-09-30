@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 52,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 3.51,
+            "unit_of_measurement": "mil/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 15.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 30.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80.5,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 12.58,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4-50 x10^9/L"
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 5.08,
+            "unit_of_measurement": "x10^5/μL",
+            "reference_range": "150-500 x10^9/L"
+        }
+    ]
+}

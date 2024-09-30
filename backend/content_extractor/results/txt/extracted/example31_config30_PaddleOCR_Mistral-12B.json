@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 5.2,
+                    "unit": "milligram/deciliter (mg/dL)"
+                },
+                "rbc_count": {
+                    "value": 57.5,
+                    "unit": "femtoliter (fL)"
+                },
+                "packed_cell_volume": {
+                    "value": 27.2,
+                    "unit": "%"
+                },
+                "mch": {
+                    "value": 13.6,
+                    "unit": "picogram (pg)"
+                },
+                "rdw": {
+                    "value": 9000,
+                    "unit": "%"
+                },
+                "wbc_count": {
+                    "value": 60,
+                    "unit": "per microliter (/µL)"
+                }
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "min": 4.5,
+                    "max": 5.5
+                },
+                "rbc_count": {
+                    "min": 3700,
+                    "max": 5100
+                },
+                "packed_cell_volume": {
+                    "min": 27,
+                    "max": 32
+                },
+                "mch": {
+                    "min": 11.6,
+                    "max": 14
+                },
+                "rdw": {
+                    "min": 4000,
+                    "max": 11000
+                },
+                "wbc_count": {
+                    "min": 50,
+                    "max": 62
+                }
+            }
+        }
+    ]
+}

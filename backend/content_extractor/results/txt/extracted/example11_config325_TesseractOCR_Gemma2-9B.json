@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "P23456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Red Blood Cells (RBC)": 4.5,
+                "Hemoglobin (Hgb)": 14.0,
+                "Hematocrit (Hct)": 42.0,
+                "Mean Corpuscular Volume (MCV)": 80.0,
+                "Mean Corpuscular Hemoglobin (MCH)": 29.0,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": 36.0,
+                "Red Cell Distribution Width (RDW)": 12.5,
+                "White Blood Cells (WBC)": 7.8,
+                "Platelets": 250.0
+            },
+            "unit_of_measurement": {
+                "RBC": "x10^6/µL",
+                "Hgb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC": "x10^3/µL",
+                "Platelets": "x10^3/µL"
+            },
+            "reference_range": {
+                "RBC": "4.0 - 5.5 x10^6/µL",
+                "Hgb": "12.0 - 16.0 g/dL",
+                "Hct": "38.3 - 50.0%",
+                "MCV": "79 - 95 fL",
+                "MCH": "27.0 - 32.0 pg",
+                "MCHC": "31.5 - 36.0 g/dL",
+                "RDW": "11.5 - 14.5%",
+                "WBC": "4.5 - 11.0 x10^3/µL",
+                "Platelets": "150.0 - 450.0 x10^3/µL"
+            }
+        }
+    ]
+}

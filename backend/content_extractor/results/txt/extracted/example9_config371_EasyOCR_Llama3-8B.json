@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 6500,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.3-10.8 K/ul"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 28.9,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.3-10.8 K/ul"
+        }
+    ]
+}

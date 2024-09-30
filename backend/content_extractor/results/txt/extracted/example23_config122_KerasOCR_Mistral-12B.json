@@ -1,0 +1,29 @@
+{
+    "Date": "05.11.20xx",
+    "patient_information": {
+        "patient_id": "0112345675",
+        "patient_name": "Scom driogypathlabadrliogy",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 18.0"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7500,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500 - 11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 271320,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

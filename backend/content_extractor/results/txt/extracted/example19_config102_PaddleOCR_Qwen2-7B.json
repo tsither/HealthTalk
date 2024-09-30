@@ -1,0 +1,35 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "87.75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "31",
+            "unit_of_measurement": "09/6",
+            "reference_range": "7P/6"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "32.8",
+            "unit_of_measurement": "",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

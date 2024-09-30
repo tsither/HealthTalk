@@ -1,0 +1,23 @@
+{
+    "Date": "10/25/23",
+    "patient_information": {
+        "patient_id": "A12345678",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 12.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "3.5-10.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": 180.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-200"
+        }
+    ]
+}

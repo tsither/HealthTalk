@@ -1,0 +1,78 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "unit": "mill/cumm"
+                },
+                "RBC COUNT": {
+                    "value": 57.5,
+                    "unit": "%",
+                    "reference_range": "40-50 fL"
+                },
+                "BLOOD INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "value": 27.2,
+                        "unit": "g/dL"
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "value": 87.75,
+                        "unit": "%",
+                        "reference_range": "27-32 pg"
+                    },
+                    "Mean Corpuscular Hemoglobin (MCH)": {
+                        "value": 32.8,
+                        "unit": "%",
+                        "reference_range": "11.6-14.0"
+                    },
+                    "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+                        "value": 13.6,
+                        "unit": "g/dL"
+                    },
+                    "Red Blood Cell Distribution Width (RDW)": {
+                        "value": 27.2,
+                        "unit": "%"
+                    }
+                },
+                "Total RBC count": {
+                    "value": 57.5
+                },
+                "WBC COUNT": {
+                    "value": 9000,
+                    "reference_range": "50-62"
+                },
+                "Differential WBC COUNT": {
+                    "Neutrophils": {
+                        "value": 60,
+                        "reference_range": "20-40"
+                    },
+                    "Lymphocytes": {
+                        "value": 31
+                    },
+                    "Eosinophils": {
+                        "value": 7
+                    },
+                    "Monocytes": {
+                        "value": 150000
+                    },
+                    "Basophils": {
+                        "value": 1
+                    }
+                },
+                "PLATELET COUNT": {
+                    "value": 300,
+                    "unit": "cell counter"
+                }
+            }
+        }
+    ]
+}

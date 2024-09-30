@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "GLUCOSA SERICA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "ENZIMATICAS V.n.",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "Sodio": "145 mEq/l",
+                "Potasio": "10 mEq/l"
+            },
+            "unit_of_measurement": "mEq/l",
+            "reference_range": null
+        }
+    ]
+}

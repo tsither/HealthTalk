@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "heal",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "rbc",
+            "result_value": null,
+            "unit_of_measurement": "million per microliter",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "osin dec count pmoz",
+            "result_value": 1.0,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "cbcy osin dec count pmoz",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        }
+    ]
+}

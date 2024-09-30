@@ -1,0 +1,77 @@
+{
+    "Date": "Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-15 g/dL"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.57,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "70-100 fL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) / Hematocrit",
+            "result_value": 41,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 29.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 1.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 3.0,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "1.5-7.5 x 10^9/L"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 2.0,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "1.0-3.5 x 10^9/L"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 0.05,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "0.01-0.05 x 10^9/L"
+        },
+        {
+            "test_name": "Monocyte Count",
+            "result_value": 0.2,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": 0.01,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "0-0.05 x 10^9/L"
+        }
+    ]
+}

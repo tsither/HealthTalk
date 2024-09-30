@@ -1,0 +1,65 @@
+{
+    "Date": "02.12.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Akka Sodans",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: Low",
+            "unit_of_measurement": null,
+            "reference_range": "12-17 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "5.2 million/microlitre",
+            "unit_of_measurement": "millicumm/microlitre",
+            "reference_range": "4.5-5.5 million/microlitre"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": "36-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "78 fL",
+            "unit_of_measurement": "fl",
+            "reference_range": "83-101 fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "gidl low",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "136 fL",
+            "unit_of_measurement": "fl",
+            "reference_range": "10-15%"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "9,000 cells/microlitre",
+            "unit_of_measurement": "cells/microlitre",
+            "reference_range": "4,000-11,000 cells/microlitre"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "Lymphocytes: 31%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

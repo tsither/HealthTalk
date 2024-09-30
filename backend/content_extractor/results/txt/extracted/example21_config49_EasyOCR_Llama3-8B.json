@@ -1,0 +1,77 @@
+{
+    "Date": "2022-01-31",
+    "patient_information": {
+        "patient_id": "555-1234-56789",
+        "patient_name": "Yash Smart Patel",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "Milion/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.5,
+            "unit_of_measurement": "g/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": 1.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 4.3,
+            "unit_of_measurement": "Thousand/cumm",
+            "reference_range": "Normal"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 2.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 1.9,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 0.32,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0.05,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

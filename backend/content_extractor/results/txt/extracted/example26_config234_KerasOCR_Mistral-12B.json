@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 12.0,
+                "HCM": 38.0,
+                "VCM": 95.0,
+                "MCV": 74.0,
+                "MCH": 27.0,
+                "MCHC": 36.0
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "HCM": "%",
+                "VCM": "fL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucograma",
+            "result_value": {
+                "Total Leucocytes": 7500,
+                "Neutrophils": 62.0,
+                "Eosinophils": 3.0,
+                "Basophils": 0.5,
+                "Lymphocytes": 28.0,
+                "Monocytes": 8.0
+            },
+            "unit_of_measurement": {
+                "Total Leucocytes": "/μL",
+                "%": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

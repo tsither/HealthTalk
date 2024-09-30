@@ -1,0 +1,84 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "0123458769",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "reference_range": {
+                        "low": 13,
+                        "high": 17
+                    }
+                },
+                "rbc_count_total": {
+                    "value": 5.25,
+                    "unit_of_measurement": "million/µL",
+                    "reference_range": {
+                        "low": 4.5,
+                        "high": 5.5
+                    }
+                },
+                "hct": {
+                    "value": 57.5,
+                    "reference_range": {
+                        "low": 40,
+                        "high": 50
+                    }
+                },
+                "mcv": {
+                    "value": 87.75,
+                    "unit_of_measurement": "fl",
+                    "reference_range": {
+                        "low": 85.4,
+                        "high": 101
+                    }
+                },
+                "mch": {
+                    "value": 27.1,
+                    "reference_range": {
+                        "low": 27,
+                        "high": 32
+                    }
+                },
+                "mchc": {
+                    "value": 32.1,
+                    "reference_range": {
+                        "low": 32,
+                        "high": 36
+                    }
+                },
+                "rdw": {
+                    "value": 16,
+                    "unit_of_measurement": "%",
+                    "reference_range": {
+                        "low": 11.6,
+                        "high": 14
+                    }
+                }
+            },
+            "wbc_count_total": {
+                "value": 7000,
+                "unit_of_measurement": "/µL",
+                "reference_range": {
+                    "low": 4000,
+                    "high": 10000
+                }
+            },
+            "platelet_count": {
+                "value": 250000,
+                "unit_of_measurement": "/µL",
+                "reference_range": {
+                    "low": 150000,
+                    "high": 450000
+                }
+            }
+        }
+    ]
+}

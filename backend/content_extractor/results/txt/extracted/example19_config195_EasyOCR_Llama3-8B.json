@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8500,
+            "unit_of_measurement": "/microliter (mcL)",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5050000000000.0,
+            "unit_of_measurement": "/liter (L)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 145,
+            "unit_of_measurement": "grams/deciliter (g/dL)",
+            "reference_range": "140-180"
+        }
+    ]
+}

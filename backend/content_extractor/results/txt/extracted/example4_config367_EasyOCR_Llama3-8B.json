@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red Blood Cell count: 4.32 x 10^12 cells/L, Hemoglobin: 13.5 g/dL, Hematocrit: 0.415, Mean Corpuscular Volume: 69 fL, Mean Corpuscular Hemoglobin: 19.2 pg/cell",
+            "unit_of_measurement": null,
+            "reference_range": "Male: 4.37-5.72 x 10^12 cells/L (RBC), 13.8-17.2 g/dL (Hb); Female: 3.90-5.03 x 10^12 cells/L (RBC), 11.7-15.3 g/dL (Hb)"
+        },
+        {
+            "test_name": "Peripheral Smear",
+            "result_value": "Polycythemia Vera with 5% reticulocytes",
+            "unit_of_measurement": null,
+            "reference_range": "0-1% reticulocytes"
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": "Hemoglobin: 13.5 g/dL, Mean Corpuscular Volume: 69 fL",
+            "unit_of_measurement": null,
+            "reference_range": "Male: 13.8-17.2 g/dL (Hb); Female: 11.7-15.3 g/dL (Hb)"
+        },
+        {
+            "test_name": "Coagulation",
+            "result_value": "Prothrombin Time: 14.5 seconds, Activated Partial Thromboplastin Time: 34.2 seconds",
+            "unit_of_measurement": null,
+            "reference_range": "9-16 seconds (PT); 25-37 seconds (aPTT)"
+        }
+    ]
+}

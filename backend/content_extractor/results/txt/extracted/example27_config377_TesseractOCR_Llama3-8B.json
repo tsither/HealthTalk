@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": "123.45",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "80-120 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.5-15.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "7000",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "4000-11000 cells/mm^3"
+        }
+    ]
+}

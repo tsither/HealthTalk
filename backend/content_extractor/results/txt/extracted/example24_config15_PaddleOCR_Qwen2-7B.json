@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BLOOD TEST",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 31107,
+            "unit_of_measurement": "platelets/cumm",
+            "reference_range": "[7P/6 69.20 - 150000 4000-11000 bd]"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": "[13.6 ut 13.0 - 17.0]"
+        }
+    ]
+}

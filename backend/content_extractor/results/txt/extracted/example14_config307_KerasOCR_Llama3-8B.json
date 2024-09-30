@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 1234567890,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Kidney Function Test (BUN and Creatinine)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 10000.5,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "7000-250000"
+        }
+    ]
+}

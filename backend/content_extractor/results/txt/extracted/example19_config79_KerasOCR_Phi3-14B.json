@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin count",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 170,
+            "unit_of_measurement": "x10^9/L",
+            "reference_vealue": null
+        },
+        {
+            "test_name": "WBC differential count",
+            "result_value": [
+                5.0,
+                345
+            ],
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                "neutrophils: 2-8 ng (%)",
+                "lymphocytes: 1-6 ng (%)",
+                "eosinophils: 0.5-4 ng (%)",
+                "monocytes: 0-1 ng (%)"
+            ]
+        }
+    ]
+}

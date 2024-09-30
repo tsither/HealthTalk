@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456169",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "unknown"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (cbj)",
+            "result_value": "12",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "52",
+            "unit_of_measurement": "millicumm/microLitre (mcumm/μL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (pcv)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "38-48"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (mcve)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fl/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell count",
+            "result_value": "1306 x 10^6/L (or 2.72 x 10^12/L)",
+            "unit_of_measurement": "x 10^6 / L (x 10^12 / L)",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell count",
+            "result_value": "5.9 x 10^3/μL (or 5.9 x 10^9/L)",
+            "unit_of_measurement": "x 10^3 / μL (x 10^9 / L)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "5.7%",
+            "unit_of_measurement": "% of WBC",
+            "reference_range": null
+        }
+    ]
+}

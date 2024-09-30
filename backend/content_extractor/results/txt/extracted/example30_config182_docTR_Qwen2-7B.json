@@ -1,0 +1,86 @@
+{
+    "Date": "0231",
+    "patient_information": {
+        "patient_id": "S5S",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Mereoleson (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Low": "40",
+                "High": "42"
+            }
+        },
+        {
+            "test_name": "Blood Total COUNT RBC",
+            "result_value": 435,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed INDICES Cell Mean Corpuscular volume (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": "40",
+                "High": "51"
+            }
+        },
+        {
+            "test_name": "Mean Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "Low": "72",
+                "High": "93"
+            }
+        },
+        {
+            "test_name": "RBC COUNT Total WBC",
+            "result_value": 32.8,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "% COunterent ercsganaes WBC IL COUNT",
+            "result_value": 9,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Low": "4",
+                "High": "10"
+            }
+        },
+        {
+            "test_name": "Eosinophiles",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Low": "0.3-4%",
+                "High": "3%"
+            }
+        },
+        {
+            "test_name": "% Basophil",
+            "result_value": 1,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Low": "<0.5%",
+                "High": ">0.8%"
+            }
+        },
+        {
+            "test_name": "Platelet Count COUNT",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Low": "150-450",
+                "High": "300-500"
+            }
+        }
+    ]
+}

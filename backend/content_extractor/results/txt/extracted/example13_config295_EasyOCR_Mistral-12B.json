@@ -1,0 +1,71 @@
+{
+    "Date": "10/08/2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "Hb": 13.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    11
+                ],
+                "RBC": [
+                    4.4,
+                    6.2
+                ],
+                "Hb": [
+                    13,
+                    18
+                ],
+                "PLT": [
+                    150,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": {
+                "Glucose": 95,
+                "Cholesterol": 172,
+                "Triglycerides": 85
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL"
+            },
+            "reference_range": {
+                "Glucose": [
+                    74,
+                    106
+                ],
+                "Cholesterol": [
+                    125,
+                    200
+                ],
+                "Triglycerides": [
+                    35,
+                    150
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02:31",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": "5.00",
+                "Hb": "13.6",
+                "PCV": "42.8",
+                "WBC count": "87.75",
+                "Platelet count": "27.2"
+            },
+            "unit_of_measurement": {
+                "RBC count": "mill/cumm",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "WBC count": "10^9/L",
+                "Platelet count": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Date": "16.03.2023",
+    "patient_information": {
+        "patient_id": "OVE ORLOS LJ0",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 9.8,
+                "HGB": 13.5,
+                "PLT": 254,
+                "RDW-CV": 14.5,
+                "MCV": 97,
+                "MCH": 30,
+                "MCHC": 32
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "HGB": "g/dL",
+                "PLT": "x10^9/L",
+                "RDW-CV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

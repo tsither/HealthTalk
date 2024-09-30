@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 89689,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 5.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5 - 107"
+        }
+    ]
+}

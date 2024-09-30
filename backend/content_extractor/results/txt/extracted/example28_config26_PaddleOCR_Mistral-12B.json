@@ -1,0 +1,183 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Glóbulos Rojos (Eritrocitos)": "4.8x10^9",
+                "VCM": "14.3g/H",
+                "H.M.C.": "89"
+            },
+            "unit_of_measurement": {
+                "Glóbulos Rojos (Eritrocitos)": "/L",
+                "VCM": "H",
+                "H.M.C.": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": {
+                "Total": "29pg/10^6/L",
+                "N": "68%",
+                "I": "5E",
+                "B": "24%",
+                "L": "2M"
+            },
+            "unit_of_measurement": {
+                "Total": "/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica Básica",
+            "result_value": {
+                "Glucosa": "65.0*",
+                "Creatinina": "70.0-110.0",
+                "Colesterol": "135.0*",
+                "Proteína Total": "1.15*"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteína Total": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro",
+            "result_value": {
+                "Hierro": "+220 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Hierro": "mg/dL"
+            },
+            "reference_range": {
+                "Hierro": "70.0-110.0"
+            }
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": {
+                "Ferritina": "6.6 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Ferritina": "mg/dL"
+            },
+            "reference_range": {
+                "Ferritina": "7.0-140.0"
+            }
+        },
+        {
+            "test_name": "Hemoglobina A1C",
+            "result_value": {
+                "Hemoglobina A1C": "65 g/dL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobina A1C": "%"
+            },
+            "reference_range": {
+                "Hemoglobina A1C": "<240.0"
+            }
+        },
+        {
+            "test_name": "GOT",
+            "result_value": {
+                "GOT": "20 g/dL"
+            },
+            "unit_of_measurement": {
+                "GOT": "g/L"
+            },
+            "reference_range": {
+                "GOT": "6.0-8.0"
+            }
+        },
+        {
+            "test_name": "GPT",
+            "result_value": {
+                "GPT": "45 ng/mL"
+            },
+            "unit_of_measurement": {
+                "GPT": "/mL"
+            },
+            "reference_range": {
+                "GPT": "55.0-135.0"
+            }
+        },
+        {
+            "test_name": "GGT",
+            "result_value": {
+                "GGT": "80 U/L"
+            },
+            "unit_of_measurement": {
+                "GGT": "/L"
+            },
+            "reference_range": {
+                "GGT": "733"
+            }
+        },
+        {
+            "test_name": "Bilirrubina Total",
+            "result_value": {
+                "Bilirrubina Total": "%"
+            },
+            "unit_of_measurement": {
+                "Bilirrubina Total": "%"
+            },
+            "reference_range": {
+                "Bilirrubina Total": "0.8-1.2"
+            }
+        },
+        {
+            "test_name": "Bilirrubina Directa (Esterificada)",
+            "result_value": {
+                "Bilirrubina Directa": "100 U/L"
+            },
+            "unit_of_measurement": {
+                "Bilirrubina Directa": "/L"
+            },
+            "reference_range": {
+                "Bilirrubina Directa": "5-32"
+            }
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": {
+                "Fosfatasa Alcalina": "2.8* U/L"
+            },
+            "unit_of_measurement": {
+                "Fosfatasa Alcalina": "/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": {
+                "Albumina": "1.5 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Albumina": "30-50"
+            }
+        },
+        {
+            "test_name": "Globulinas Totales",
+            "result_value": {
+                "Globulinas Totales": "2.3* g/dL"
+            },
+            "unit_of_measurement": {
+                "Globulinas Totales": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

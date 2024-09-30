@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "XXX",
+        "patient_name": "Juan Pérez",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 120,
+            "unit_of_measurement": "g/L",
+            "reference_range": "13-18 g/L"
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

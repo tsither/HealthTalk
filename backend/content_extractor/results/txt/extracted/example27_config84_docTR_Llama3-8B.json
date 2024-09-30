@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lactate",
+            "result_value": 8.4,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0.5-2.2 mmol/L"
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.3,
+            "unit_of_measurement": null,
+            "reference_range": "7.35-7.45"
+        },
+        {
+            "test_name": "PCO2",
+            "result_value": 34,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "35-45 mmHg"
+        },
+        {
+            "test_name": "PO2",
+            "result_value": 89,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "75-100 mmHg"
+        }
+    ]
+}

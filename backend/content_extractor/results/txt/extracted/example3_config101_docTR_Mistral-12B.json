@@ -1,0 +1,53 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells (WBC)": "6.0",
+                "Red Blood Cells (RBC)": "4.8",
+                "Hemoglobin (Hb)": "13.5",
+                "Platelets": "220"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "Min": 4.5,
+                    "Max": 11
+                },
+                "RBC": {
+                    "Min": 4.5,
+                    "Max": 6
+                },
+                "Hb": {
+                    "Min": 12,
+                    "Max": 16
+                },
+                "Platelets": {
+                    "Min": 150,
+                    "Max": 300
+                }
+            }
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": "18",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "Min": 6,
+                "Max": 20
+            }
+        }
+    ]
+}

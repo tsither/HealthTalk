@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "55",
+        "patient_name": "Patel Thcarei",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "11.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.31 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.0-5.2 x 10^12/L"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "38%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.5 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "26-32 pg"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "16.3 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "13.6%",
+                "Lymphocytes": "51.2%",
+                "Eosinophils": "3.5%",
+                "Monocytes": "1.2%",
+                "Basophils": "0.1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "62 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        }
+    ]
+}

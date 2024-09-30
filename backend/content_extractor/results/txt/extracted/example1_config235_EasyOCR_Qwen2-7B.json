@@ -1,0 +1,117 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_location": "mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbc",
+            "result_value": 125,
+            "unit_of_measurement": "gbj",
+            "reference_range": {
+                "low": 130,
+                "high": 170
+            }
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc count total resc count",
+            "result_value": 52955,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume pcv",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume mcv",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": 83.4,
+                "high": 101
+            }
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin mch",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": 27.4,
+                "high": 32
+            }
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration mchc",
+            "result_value": 328,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell distribution width rdw",
+            "result_value": 136,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": 116.4,
+                "high": 150
+            }
+        },
+        {
+            "test_name": "white blood count wbc",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 0.6,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "basophils",
+            "result_value": 0.2,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": "/μL",
+            "reference_range": {
+                "low": 150000,
+                "high": 410000
+            }
+        }
+    ]
+}

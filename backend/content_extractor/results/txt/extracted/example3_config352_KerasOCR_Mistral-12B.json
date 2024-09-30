@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 13.2,
+                "PLT": 250,
+                "NEU": 45,
+                "LYM": 40,
+                "MONO": 8,
+                "EOS": 3,
+                "BASO": 1
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%",
+                "EOS": "%",
+                "BASO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

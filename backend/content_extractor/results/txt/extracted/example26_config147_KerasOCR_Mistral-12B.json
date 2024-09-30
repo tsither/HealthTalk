@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobina": 47.5,
+                "homatocrito": 11.3,
+                "vcm": 12.3,
+                "s d": null,
+                "leucocitos": 38.0,
+                "neutrofilos": 87.4,
+                "linfocitos": 11.0,
+                "monocitos": null,
+                "eosinofilos": null
+            },
+            "unit_of_measurement": {
+                "hemoglobina": "g/dL",
+                "homatocrito": "%",
+                "vcm": "fl",
+                "leucocitos": "x10^3/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

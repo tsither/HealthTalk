@@ -1,0 +1,72 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "category": "Low"
+                },
+                "RBC COUNT": {
+                    "value": 5.2,
+                    "reference_range": "4.5 - 5.5 mill/cumm"
+                },
+                "PACKED CELL VOLUME (PCV)": {
+                    "value": 57.5,
+                    "category": "High",
+                    "reference_range": "40-50 %"
+                },
+                "MEAN CORPUSCULAR VOLUME (MCV)": {
+                    "value": 87.75,
+                    "reference_range": "83 - 101 fL"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "calculated": 32.8,
+                    "reference_range": "27 - 32 pg",
+                    "calculated_reference_range": "32.5 - 34.5 g/dL"
+                },
+                "RDW": {
+                    "value": 13.6,
+                    "reference_range": "11.6 - 14.0 %"
+                },
+                "TOTAL WBC COUNT": {
+                    "value": "4000-11000",
+                    "unit": "corr/cumm"
+                },
+                "NEUTROPHILS": {
+                    "value": 60,
+                    "reference_range": "50 - 62 %"
+                },
+                "LYMPHOCYTES": {
+                    "value": 31,
+                    "reference_range": "20 - 40 %"
+                },
+                "EOSINOPHILS": {
+                    "value": 1,
+                    "reference_range": "00 - 06 %"
+                },
+                "MONOCYTES": {
+                    "value": 7,
+                    "reference_range": "00 - 10 %"
+                },
+                "BASOPHILS": {
+                    "value": 1,
+                    "reference_range": "00 - 02 %"
+                },
+                "PLATELET COUNT": {
+                    "value": 150000,
+                    "category": "Borderline",
+                    "reference_range": "150000 - 410000 cumm"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "24/12/21",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Sugar",
+            "result_value": "575",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "83-100 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "8725",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "400-1000 cells/mm3"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "90",
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "31",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "5000-9000 cells/mm3"
+        }
+    ]
+}

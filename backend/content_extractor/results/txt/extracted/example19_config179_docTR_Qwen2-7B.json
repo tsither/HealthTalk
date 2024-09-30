@@ -1,0 +1,87 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "DRLOGY PATHOLOGY LAB 4 0123456789 - 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb) RBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cakusted MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cakueted MCHC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": [
+                {
+                    "Neutrophils": null,
+                    "Lymphocytes": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": [
+                {
+                    "Neutrophils": "20-40%",
+                    "Lymphocytes": "00-06%",
+                    "Eosinophils": "00-10%",
+                    "Monocytes": "00-02%",
+                    "Basophils": ""
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

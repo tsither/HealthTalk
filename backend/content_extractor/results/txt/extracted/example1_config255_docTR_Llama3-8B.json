@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count (Mb)",
+            "result_value": 840001,
+            "unit_of_measurement": "Mb",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[27-32]"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 13775,
+            "unit_of_measurement": null,
+            "reference_range": "[4-10] x 10^3/µL"
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": 3120000,
+            "unit_of_measurement": null,
+            "reference_range": "[150-450] x 10^3/µL"
+        }
+    ]
+}

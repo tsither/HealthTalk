@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "www.125.555@driogy.com",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal (Male): 13.5-17.5 g/dL; Normal (Female): 12-16 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.85,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "Normal: 4.32-5.72 million/cumm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "Normal: 26-32 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 55,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "Normal: 4-11 x10^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 15.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

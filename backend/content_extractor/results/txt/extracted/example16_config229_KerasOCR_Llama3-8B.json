@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "pid": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "Low",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": "5.55 million",
+            "unit_of_measurement": "/cmm",
+            "reference_range": "4.32-5.72 million/cmm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "0.5775 litre",
+            "unit_of_measurement": "/100ml blood",
+            "reference_range": "0.34-0.42 litre/100ml blood"
+        },
+        {
+            "test_name": "Mean Corpuscular Haemoglobin (MCH)",
+            "result_value": "21 pg",
+            "unit_of_measurement": null,
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "77.75 fl",
+            "unit_of_measurement": "/cmm",
+            "reference_range": "80-96 fl/cmm"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50000 per cmm",
+            "unit_of_measurement": null,
+            "reference_range": "1.5-3.0 lakhs per cmm"
+        }
+    ]
+}

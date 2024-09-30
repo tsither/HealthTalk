@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "AB1234CD",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 47
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_eange": "[4.7-6.1] x10^3/uL"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13-17] g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-50]%"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "12.2",
+                "HCT": "38.9",
+                "MCV": "72.0",
+                "MCH": "25.2",
+                "MCHC": "35.0",
+                "Platelets": "245",
+                "Neutrophils": "55",
+                "Lymphocytes": "35",
+                "Monocytes": "8",
+                "Eosinophils": "2"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelets": "10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.4 - 6.2",
+                "Hb": "12.0 - 16.0",
+                "HCT": "37.0 - 47.0",
+                "MCV": "80.0 - 100.0",
+                "MCH": "26.0 - 32.0",
+                "MCHC": "32.0 - 36.0",
+                "Platelets": "150 - 450",
+                "Neutrophils": "40 - 75",
+                "Lymphocytes": "20 - 45",
+                "Monocytes": "2 - 8",
+                "Eosinophils": "1 - 6"
+            }
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": "0.9",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7 - 1.3"
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.3,
+                "HCT": 39.2,
+                "MCV": 78.5,
+                "MCH": 25.6,
+                "MCHC": 32.6,
+                "RDW": 14.8,
+                "PLT": 250,
+                "MPV": 9.2
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "PLT": "10^9/L",
+                "MPV": "fL"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10
+                ],
+                "RBC": [
+                    4.5,
+                    6.0
+                ],
+                "Hb": [
+                    13.0,
+                    18.0
+                ],
+                "HCT": [
+                    42,
+                    52
+                ],
+                "MCV": [
+                    78,
+                    98
+                ],
+                "MCH": [
+                    27,
+                    33
+                ],
+                "MCHC": [
+                    32,
+                    36
+                ],
+                "RDW": [
+                    11.5,
+                    14.5
+                ],
+                "PLT": [
+                    150,
+                    400
+                ],
+                "MPV": [
+                    8,
+                    12
+                ]
+            }
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": {
+                "Glucose": 95,
+                "BUN": 15,
+                "Creatinine": 1.2,
+                "Sodium": 138,
+                "Potassium": 4.2,
+                "Chloride": 102,
+                "CO2": 26
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L",
+                "Chloride": "mmol/L",
+                "CO2": "mmol/L"
+            },
+            "reference_range": {
+                "Glucose": [
+                    70,
+                    99
+                ],
+                "BUN": [
+                    6,
+                    18
+                ],
+                "Creatinine": [
+                    0.6,
+                    1.2
+                ],
+                "Sodium": [
+                    135,
+                    145
+                ],
+                "Potassium": [
+                    3.6,
+                    5.2
+                ],
+                "Chloride": [
+                    98,
+                    107
+                ],
+                "CO2": [
+                    22,
+                    32
+                ]
+            }
+        }
+    ]
+}

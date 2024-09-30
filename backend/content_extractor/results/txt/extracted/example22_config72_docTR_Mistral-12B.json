@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": "C912X658 com",
+        "patient_name": "Vimal shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 130,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 575,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4.0-6.2"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 328,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 85.1,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 6000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

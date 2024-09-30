@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin count",
+            "result_value": 140,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[Reference range not provided]"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27,
+            "unit_of_measurement": "pg",
+            "reference_range": "[Reference range not provided]"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) count",
+            "result_value": null,
+            "unit_of_measurement": "million/mcL",
+            "reference_eanage": "[Reference range not provided]"
+        },
+        {
+            "test_name": "WBC (White Blood Cell) differential count",
+            "result_value": null,
+            "unit_of_measurement": "percentage",
+            "reference_range": "[Reference range not provided]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 325,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[Reference range not provided]"
+        }
+    ]
+}

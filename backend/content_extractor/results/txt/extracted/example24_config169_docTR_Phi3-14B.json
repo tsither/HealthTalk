@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 5.8,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[4.5-11] x1 0 ^9 / L"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12-17] g / d L"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 40.3,
+            "unit_of_measurement": "%",
+            "reference_range": "[36-50] %"
+        }
+    ]
+}

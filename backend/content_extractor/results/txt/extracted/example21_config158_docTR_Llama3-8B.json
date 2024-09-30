@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.6,
+            "unit_of_measurement": "M/m^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 28,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "G/L",
+            "reference_range": null
+        }
+    ]
+}

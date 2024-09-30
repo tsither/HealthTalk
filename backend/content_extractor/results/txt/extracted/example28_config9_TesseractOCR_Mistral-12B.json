@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 48,
+                "Hemoglobina": 14.3,
+                "H.M.C.": 29,
+                "Leucicitos": 10.2
+            },
+            "unit_of_measurement": {
+                "Hematies": "x 109/l",
+                "Hemoglobina": "g/dl",
+                "H.M.C.": "pg",
+                "Leucicitos": "x 106 /l"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica sanguinea",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": 1.15,
+                "Colesterol": 220,
+                "Proteina": 66,
+                "Hierro (Fe)": "<11+!",
+                "Ferritina": 20,
+                "Hemoglogina Alc": 48,
+                "GoT": 800,
+                "GPT": 800,
+                "Got": 100,
+                "Bilirrubina total": 28,
+                "Bilirrubina directa (Esterificada)": 1.5,
+                "Fosfatasa Alcalina": 50,
+                "Albumina": 2.3
+            },
+            "unit_of_measurement": {
+                "Glucosa": "*",
+                "Creatinina": "*",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (Fe)": "",
+                "Ferritina": "ng/mL",
+                "Hemoglogina Alc": "%",
+                "GoT": "U/L",
+                "GPT": "U/L",
+                "Got": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Bilirrubina directa (Esterificada)": "*",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

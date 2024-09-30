@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Leucocitos": 56,
+                "Hemat_": 4.0,
+                "Hemoglobina": 17.0,
+                "Hematocrito": 38.2,
+                "V.C.M_": 14.8,
+                "H.C.M_": 69,
+                "C.H.C.M_": 23,
+                "R.D.W": 33,
+                "VPM": 329
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "/TL",
+                "Hemat_": "%",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "g/dL",
+                "V.C.M_": "fl",
+                "H.C.M_": "fL",
+                "C.H.C.M_": "%",
+                "R.D.W": "pg",
+                "VPM": "/I1"
+            },
+            "reference_range": null
+        }
+    ]
+}

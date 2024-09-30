@@ -1,0 +1,21 @@
+{
+    "Date": "02 DEC",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Male": "13.5-17.5 g/dL",
+                "Female": "12.0-15.5 g/dL"
+            },
+            "interpretation": "Normal"
+        }
+    ]
+}

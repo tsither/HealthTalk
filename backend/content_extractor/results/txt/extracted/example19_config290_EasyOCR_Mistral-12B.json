@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 170,
+            "unit_of_measurement": "WBC/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 220,
+            "unit_of_measurement": "K/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": {
+                "Neutrophils": 15.9,
+                "Lymphocytes": 76.3,
+                "Monocytes": 4.8,
+                "Eosinophils": 0.9,
+                "Basophils": 0.1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

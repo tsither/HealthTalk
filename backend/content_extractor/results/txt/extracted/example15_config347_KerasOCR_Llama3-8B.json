@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "23456769",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "(150-400 x 10^9 cells/l)"
+        },
+        {
+            "test_name": "ESR (Erythrocyte Sedimentation Rate)",
+            "result_value": 30,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "(0-20 mm/h)"
+        },
+        {
+            "test_name": "D-dimer",
+            "result_value": "<0.5",
+            "unit_of_measurement": "mg/l",
+            "reference_range": "<0.5 mg/L"
+        },
+        {
+            "test_name": "Fibrinogen",
+            "result_value": 350,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "(200-450 mg/dL)"
+        }
+    ]
+}

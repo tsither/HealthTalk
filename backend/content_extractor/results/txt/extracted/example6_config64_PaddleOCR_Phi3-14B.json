@@ -1,0 +1,48 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT RDW Mean Corpuscular Volume (MCV) Total RBC count Hemoglobin (Hb) HEMOGLOBIN",
+            "result_value": [
+                "87.75",
+                "2",
+                "13.6"
+            ],
+            "unit_of_measurement": [
+                "None",
+                "Count",
+                "g/dL",
+                "p/m",
+                "g/dL"
+            ],
+            "reference_range": [
+                null,
+                null,
+                "[4.5 - 5.5]",
+                "32.8",
+                "[00-17.0]"
+            ]
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) Investigation Primary Sample Type :(DMLT, BMLT)",
+            "result_value": [
+                "None",
+                "Primary"
+            ],
+            "unit_of_measurement": [
+                null,
+                "Type"
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

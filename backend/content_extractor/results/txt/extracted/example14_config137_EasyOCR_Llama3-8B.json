@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 6.5,
+            "unit_of_measurement": "Million per Microliter",
+            "reference_range": "4.32-5.72 Million per Microliter"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.1,
+            "unit_of_measurement": "Grams per Deciliter",
+            "reference_range": "13.8-17.2 Grams per Deciliter"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 75.6,
+            "unit_of_measurement": "Femtoliters",
+            "reference_range": "68-92 Femtoliters"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 26.3,
+            "unit_of_measurement": "Picograms",
+            "reference_range": "27-31 Picograms"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "Thousands per Microliter",
+            "reference_range": "1.5-4.6 Thousand per Microliter"
+        }
+    ]
+}

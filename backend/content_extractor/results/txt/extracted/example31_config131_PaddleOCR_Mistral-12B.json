@@ -1,0 +1,28 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": "5550123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14 - 18 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 4.5,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5 - 6.0 mill/cumm"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 73.6,
+            "unit_of_measurement": "%",
+            "reference_range": "50 - 62 %"
+        }
+    ]
+}

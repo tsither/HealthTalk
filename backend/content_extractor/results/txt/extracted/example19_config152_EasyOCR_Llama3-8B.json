@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as678 com",
+        "patient_name": "drilogypathlabadrlogy",
+        "patient_sex": "male",
+        "patient_age": "30 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "9.5 cmm",
+            "unit_of_measurement": "cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.8 million/cumm",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "71 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "10.5 k/ul",
+            "unit_of_measurement": "k/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count",
+            "result_value": {
+                "Neutrophils": "70%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "5%",
+                "Monocytes": "3%",
+                "Basophils": "2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1.55 lac/cumm",
+            "unit_of_measurement": "lac/cumm",
+            "reference_range": "1.5-3.5 lac/cumm"
+        }
+    ]
+}

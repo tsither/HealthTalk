@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Calcium",
+            "result_value": 13.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "2.25 - 2.75 mmol/L"
+        },
+        {
+            "test_name": "Alkaline Phosphatase (ALKP)",
+            "result_value": 85,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Chloride",
+            "result_value": 4.3,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "95 - 110 mmol/L"
+        },
+        {
+            "test_name": "Sodium (Na)",
+            "result_value": 27,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135 - 145 mmol/L"
+        },
+        {
+            "test_name": "Potassium (K)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "-101",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 13,
+                "Hematocrit": 40.8,
+                "Mean Corpuscular Volume (MCV)": 90,
+                "Red Cell Distribution Width (RDW)": null,
+                "Total White Blood Count": 5200,
+                "Neutrophils Absolute": 3250,
+                "Lymphocytes Absolute": 1750,
+                "Monocytes Absolute": null,
+                "Eosinophils Absolute": null,
+                "Basophils Absolute": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Red Cell Distribution Width (RDW)": null,
+                "Total White Blood Count": "/uL",
+                "Neutrophils Absolute": "/uL",
+                "Lymphocytes Absolute": "/uL",
+                "Monocytes Absolute": null,
+                "Eosinophils Absolute": null,
+                "Basophils Absolute": null
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0 - 17.0 g/dL",
+                "Hematocrit": "40 - 50%",
+                "Mean Corpuscular Volume (MCV)": "80 - 96 fL",
+                "Red Cell Distribution Width (RDW)": null,
+                "Total White Blood Count": "4500 - 11000 /uL",
+                "Neutrophils Absolute": "2700 - 3500 /uL",
+                "Lymphocytes Absolute": "1000 - 3000 /uL",
+                "Monocytes Absolute": null,
+                "Eosinophils Absolute": null,
+                "Basophils Absolute": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "03 Dec 2021",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "4.35 M/2",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB concentration",
+            "result_value": "130 g/L",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14-18 g/dL"
+        },
+        {
+            "test_name": "MCV volume",
+            "result_value": "97.5 fl",
+            "unit_of_measurement": "fl",
+            "reference_range": "80-100 fl"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "32.8 K/µL",
+            "unit_of_measurement": "K/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "750,620/µL",
+            "unit_of_measurement": "platelets/µL",
+            "reference_range": null
+        }
+    ]
+}

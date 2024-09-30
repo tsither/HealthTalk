@@ -1,0 +1,76 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": [
+                        "13.0-18.0"
+                    ]
+                },
+                "RBC COUNT Total RBC count": {
+                    "value": 8000,
+                    "unit": "cells/mm³"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 47.5,
+                    "unit": "%",
+                    "reference_range": [
+                        "40-50"
+                    ]
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": 87.75,
+                    "unit": "fL"
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "WBC COUNT Total WBC count": {
+                    "value": 9000,
+                    "unit": "cells/mm³",
+                    "reference_range": [
+                        "4000-11000"
+                    ]
+                },
+                "Neutrophils": {
+                    "value": 60,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 7,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 27.2,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "Platelet Count": {
+                    "value": 800000,
+                    "unit": "cells/mm³",
+                    "reference_range": [
+                        "150000-400000"
+                    ]
+                }
+            }
+        }
+    ]
+}

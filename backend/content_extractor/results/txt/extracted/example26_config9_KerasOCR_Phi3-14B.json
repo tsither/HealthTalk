@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 164,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "SS0 - 16"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 395,
+            "unit_of_measurement": "",
+            "reference_range": "42% - 52%"
+        },
+        {
+            "test_name": "VCM (Diameter Medio de los Eritrocitos)",
+            "result_value": 81.1,
+            "unit_of_measurement": "fl",
+            "reference_range": "80 - 96"
+        },
+        {
+            "test_name": "HMCE (Alta Masa Celular Eritroide)",
+            "result_value": 279,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 81.3,
+            "unit_of_measurement": "",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

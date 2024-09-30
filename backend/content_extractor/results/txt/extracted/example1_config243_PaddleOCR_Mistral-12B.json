@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0133456789",
+        "patient_name": "wwdrloyycom",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": "5.67",
+                "Hemoglobin (Hb)": "13.0",
+                "Packed Cell Volume (PCV)": "42%",
+                "WBC Count": "8.775",
+                "Differential WBC Count": {
+                    "Lymphocytes": "57.5",
+                    "Neutrophils": "27.2",
+                    "Monocytes": "9.0",
+                    "Eosinophils": "32.8",
+                    "Basophils": "13.6"
+                },
+                "Platelet Count": "136",
+                "Mean Corpuscular Volume (MCV)": "150",
+                "Mean Corpuscular Hemoglobin (MCH)": "47.5",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32%"
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "mill/cumm",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "WBC Count": "thou/cumm",
+                "Differential WBC Count": "%",
+                "Platelet Count": "thou/cumm",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL"
+            },
+            "reference_range": {
+                "Total RBC count": null,
+                "Hemoglobin (Hb)": "13.0- 17.0 g/dL",
+                "Packed Cell Volume (PCV)": "42%-56%",
+                "WBC Count": "4500 - 11000 thou/cumm",
+                "Differential WBC Count": {
+                    "Lymphocytes": "4.5 - 5.5 thou/cumm",
+                    "Neutrophils": "83 : 101 thou/cumm",
+                    "Monocytes": null,
+                    "Eosinophils": null,
+                    "Basophils": null
+                },
+                "Platelet Count": "150000 - 410000 thou/cumm",
+                "Mean Corpuscular Volume (MCV)": null,
+                "Mean Corpuscular Hemoglobin (MCH)": null,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": null
+            }
+        }
+    ]
+}

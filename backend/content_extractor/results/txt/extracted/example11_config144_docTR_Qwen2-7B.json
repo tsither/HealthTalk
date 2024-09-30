@@ -1,0 +1,25 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "S555",
+        "patient_name": "Carine Patel",
+        "patient_sex": "Female",
+        "patient_age": "2 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count (CBC)",
+            "result_value": 120,
+            "unit_of_measurement": "/uL",
+            "reference_range": {
+                "low": "130",
+                "high": "43:93"
+            }
+        },
+        {
+            "test_name": "Red Blood Cells (RBCs) Count",
+            "result_value": 84000,
+            "unit_of_measurement": "/uL"
+        }
+    ]
+}

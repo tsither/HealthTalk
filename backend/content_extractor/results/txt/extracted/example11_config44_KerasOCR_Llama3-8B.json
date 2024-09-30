@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "9.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-15 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "72",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "3.25",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4-5 x 10^12/L"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "30",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "34",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RdW Distribution Width",
+            "result_value": "14.2",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "15,000",
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential count of White Blood Cells",
+            "result_value": "70 Neutrophils, 25 Lymphocytes, 5 Eosinophils",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1.4",
+            "unit_of_measurement": "x 10^5/cmm",
+            "reference_range": null
+        }
+    ]
+}

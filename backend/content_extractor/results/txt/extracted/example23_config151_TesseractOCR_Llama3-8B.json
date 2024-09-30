@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": 20,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "0.6-1.2"
+        }
+    ]
+}

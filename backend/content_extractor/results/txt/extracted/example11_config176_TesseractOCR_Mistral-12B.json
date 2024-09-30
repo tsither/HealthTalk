@@ -1,0 +1,59 @@
+{
+    "Date": "04/05/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yasn M. Pate",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin {Hb}": 12.5,
+                "Total RBC count": 8.2,
+                "Packed Cell Volume [PCV]": 7.5,
+                "Mean Corpuscular Volume (MCV)": 87.8,
+                "MCH": 27.2,
+                "MCHC": 32.5,
+                "Total WBC count": null,
+                "Neutrophils": 60,
+                "Lymphocytes": 30,
+                "Eosinophils": 1,
+                "Monocytes": 9,
+                "Basophils": 0,
+                "Platelet Count": 250000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin {Hb}": "g/dl",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume [PCV]": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dl",
+                "Total WBC count": null,
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin {Hb}": "13.0-17.0 g/dl",
+                "Total RBC count": "45-55 mill/cumm",
+                "Packed Cell Volume [PCV]": "40-50%",
+                "Mean Corpuscular Volume (MCV)": "82.101 fl",
+                "MCH": "27-32 pg",
+                "MCHC": "34.6 g/dl",
+                "Total WBC count": null,
+                "Neutrophils": "50-62%",
+                "Lymphocytes": "28-45%",
+                "Eosinophils": "1-3%",
+                "Monocytes": "4-10%",
+                "Basophils": "0.5-1%",
+                "Platelet Count": "180,000 - 410,000 cumm"
+            }
+        }
+    ]
+}

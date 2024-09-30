@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "total white blood cell count",
+            "result_value": "10.712",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": "4.28",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": "145",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "hematocrit",
+            "result_value": "42.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

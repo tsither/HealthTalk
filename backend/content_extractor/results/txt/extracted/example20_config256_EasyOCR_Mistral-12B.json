@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "HGB": "12.0",
+                "PLT": "250",
+                " Neutrophils": "45%",
+                "Lymphocytes": "40%",
+                "Monocytes": "10%",
+                "Eosinophils": "5%"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "PLT": "10^3/uL",
+                "%": "percent"
+            },
+            "reference_range": null
+        }
+    ]
+}

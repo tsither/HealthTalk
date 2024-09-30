@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1105,
+            "unit_of_measurement": "/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Bleeding Time",
+            "result_value": 175,
+            "unit_of_measurement": "seconds",
+            "reference_range": null
+        },
+        {
+            "test_name": "Thromboplastin Time",
+            "result_value": 35,
+            "unit_of_measurement": "seconds",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet Aggregation",
+            "result_value": null,
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

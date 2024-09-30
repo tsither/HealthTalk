@@ -1,0 +1,143 @@
+{
+    "Date": "05/15/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "Hb": 13.5,
+                "HCT": 40.5,
+                "MCV": 88,
+                "MCH": 27.5,
+                "MCHC": 31.2,
+                "RDW-CV": 13.6,
+                "RDW-SD": 45.2
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "million/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "fL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6
+                },
+                "Hb": {
+                    "min": 12,
+                    "max": 16
+                },
+                "HCT": {
+                    "min": 37,
+                    "max": 47
+                },
+                "MCV": {
+                    "min": 80,
+                    "max": 100
+                },
+                "MCH": {
+                    "min": 26,
+                    "max": 34
+                },
+                "MCHC": {
+                    "min": 32,
+                    "max": 36
+                },
+                "RDW-CV": {
+                    "min": 11.5,
+                    "max": 14.5
+                },
+                "RDW-SD": {
+                    "min": 38,
+                    "max": 50
+                }
+            }
+        },
+        {
+            "test_name": "Comprehensive Metabolic Panel (CMP)",
+            "result_value": {
+                "Glucose": 92,
+                "BUN": 14,
+                "Cr": 1.2,
+                "Na": 138,
+                "K": 4.2,
+                "CO2": 26,
+                "Ca": 10.5,
+                "Total Protein": 7.8,
+                "Albumin": 4.2,
+                "Total Bilirubin": 0.9
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "BUN": "mg/dL",
+                "Cr": "mg/dL",
+                "Na": "mEq/L",
+                "K": "mEq/L",
+                "CO2": "mmol/L",
+                "Ca": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "Total Bilirubin": "mg/dL"
+            },
+            "reference_range": {
+                "Glucose": {
+                    "min": 70,
+                    "max": 99
+                },
+                "BUN": {
+                    "min": 6,
+                    "max": 20
+                },
+                "Cr": {
+                    "min": 0.8,
+                    "max": 1.5
+                },
+                "Na": {
+                    "min": 135,
+                    "max": 145
+                },
+                "K": {
+                    "min": 3.6,
+                    "max": 5.2
+                },
+                "CO2": {
+                    "min": 22,
+                    "max": 30
+                },
+                "Ca": {
+                    "min": 8.5,
+                    "max": 10.5
+                },
+                "Total Protein": {
+                    "min": 6.4,
+                    "max": 8.3
+                },
+                "Albumin": {
+                    "min": 3.5,
+                    "max": 5.2
+                },
+                "Total Bilirubin": {
+                    "min": 0.3,
+                    "max": 1
+                }
+            }
+        }
+    ]
+}

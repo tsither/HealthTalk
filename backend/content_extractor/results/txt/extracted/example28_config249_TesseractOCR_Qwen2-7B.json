@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2K/μL, RBC: 5.3M/μL, HGB: 13.8g/dL",
+            "unit_of_measurement": "per μL and per μL and g/dL respectively",
+            "reference_range": "Normal range for WBC is 4000-11000/μL, RBC is 4.5-5.5M/μL, HGB is 12-16g/dL"
+        },
+        {
+            "test_name": "Liver Function Tests (LFTs)",
+            "result_value": "ALT: 38U/L, AST: 30U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "Normal range for ALT is <40U/L, for AST is <45U/L"
+        }
+    ]
+}

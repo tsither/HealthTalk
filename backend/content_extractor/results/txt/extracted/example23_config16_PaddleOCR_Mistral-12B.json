@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel Result",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "12.5 - 16.5"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7890,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 254000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

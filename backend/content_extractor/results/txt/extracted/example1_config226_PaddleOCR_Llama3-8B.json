@@ -1,0 +1,68 @@
+{
+    "Date": "03/11/2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "result_value": 12.5,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "[13.0-17.0]"
+                },
+                "RBC COUNT": {
+                    "result_value": 5.2,
+                    "unit_of_measurement": "mill/cumm",
+                    "reference_range": "[4.5-5.5]"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "result_value": 57.5,
+                    "unit_of_measurement": "%",
+                    "reference_range": "[40.50]"
+                },
+                "Mean Corpuscular Volume (McV)": {
+                    "result_value": 87.75,
+                    "unit_of_measurement": "fl.",
+                    "reference_range": "[83-101]"
+                },
+                "MCH": {
+                    "result_value": 27.2,
+                    "unit_of_measurement": "pg",
+                    "reference_range": "[27:32]"
+                },
+                "MCHC": {
+                    "result_value": 32.8,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "[32.5-34.5]"
+                },
+                "Platelet Count": {
+                    "result_value": 150000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "[150000:410000]"
+                }
+            },
+            "differential_white_blood_cell_count": {
+                "neutrophils": {
+                    "percent": 31
+                },
+                "lymphocytes": {
+                    "percent": 60
+                },
+                "eosinophils": {
+                    "percent": 1
+                },
+                "monocytes": {
+                    "percent": 7
+                },
+                "basophils": {
+                    "percent": 1
+                }
+            }
+        }
+    ]
+}

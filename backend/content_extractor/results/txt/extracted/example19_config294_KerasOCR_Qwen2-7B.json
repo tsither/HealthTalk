@@ -1,0 +1,41 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 58
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2, RBC: 5.1, HGB: 13.6, MCV: 80",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "4-11 K/μL",
+                "RBC": "4-5.5 x 10^12/L",
+                "HGB": "12.5-16 g/dL",
+                "MCV": null
+            }
+        },
+        {
+            "test_name": "Serum Electrolytes",
+            "result_value": "[Na]: 142, [K]: 3.9, [Cl]: 104",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "[Na]": "135-145 mEq/L",
+                "[K]": "3.6-5.1 mEq/L",
+                "[Cl]": "97-108 mEq/L"
+            }
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "Fasting: 84 mg/dL, Postprandial: 122 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Fasting": "[70-99] mg/dL",
+                "Postprandial": "[130-150] mg/dL"
+            }
+        }
+    ]
+}

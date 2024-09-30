@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": "g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "52 * 10^9 /L",
+            "unit_of_measurement": "*10^9/L",
+            "reference_range": "4.5 - 11.6"
+        },
+        {
+            "test_name": "Neut (%)",
+            "result_value": "32.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphs (%)",
+            "result_value": "60",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monos (%)",
+            "result_value": "5.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils (%)",
+            "result_value": "2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils (%)",
+            "result_value": "0.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

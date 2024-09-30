@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": 7.2,
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "null",
+        "patient_name": "null",
+        "patient_sex": "null",
+        "patient_age": "null"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "White blood cells (WBC): 10,500/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4,500-11,000/µL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "14.2 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "42.0%",
+            "unit_of_measurement": "%",
+            "reference_range": "38.3%-50.0%"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": "350,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-450,000/µL"
+        }
+    ]
+}

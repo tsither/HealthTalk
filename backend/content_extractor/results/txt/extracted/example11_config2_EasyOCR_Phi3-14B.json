@@ -1,0 +1,40 @@
+{
+    "Date": "02.12.2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin",
+                "RBC count",
+                "WBC count",
+                "Platelet count"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "millicumm",
+                "count",
+                "count"
+            ],
+            "reference_range": [
+                [
+                    "12.0-17.5"
+                ],
+                [
+                    "4.0-6.0"
+                ],
+                [
+                    "3.4-10.8"
+                ],
+                [
+                    "150,000-450,000"
+                ]
+            ]
+        }
+    ]
+}

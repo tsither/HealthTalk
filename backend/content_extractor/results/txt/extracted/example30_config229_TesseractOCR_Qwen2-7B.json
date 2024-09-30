@@ -1,0 +1,87 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": [
+                    "Low",
+                    "13.0-17.0 g/dl"
+                ],
+                "Total RBC count": [
+                    5.2,
+                    "4.5-5.5 mill/cumm"
+                ],
+                "Packed Cell Volume (PCV)": [
+                    "High",
+                    "40-50 %"
+                ],
+                "Mean Corpuscular Volume (MCV)": [
+                    87.75,
+                    "83-101 fl"
+                ],
+                "Cakcutated MCH": [
+                    "== 27.2 pg",
+                    "27-32 pg"
+                ],
+                "Cakcuteted MCHC": [
+                    "32.8 g/d",
+                    "32.5-34.5 g/d"
+                ],
+                "Cakcuteted ROW": [
+                    13.6,
+                    "% WBC COUNT"
+                ],
+                "Total wac count": [
+                    null
+                ],
+                "Differential WBC COUNT": [
+                    {
+                        "Neutrophils": [
+                            "60 (Ty § 1780F625 5) %",
+                            null
+                        ]
+                    },
+                    {
+                        "Lymphocytes": [
+                            "31 5° eo Oe 20-40 Lo %",
+                            null
+                        ]
+                    },
+                    {
+                        "Eosinophils": [
+                            null,
+                            "1 00 - 06 %"
+                        ]
+                    },
+                    {
+                        "Monocytes": [
+                            null,
+                            "7 00-10 %"
+                        ]
+                    },
+                    {
+                        "Basophils": [
+                            null,
+                            "1 00 - 02 %"
+                        ]
+                    }
+                ],
+                "Platelet Count": [
+                    "Borderline",
+                    "150000 - 410000 cumm"
+                ]
+            }
+        }
+    ]
+}

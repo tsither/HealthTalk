@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_eame": "oxygen saturation",
+            "result_value": 20.0,
+            "unit_of_measurement": "%",
+            "reference_range": "95-100%"
+        },
+        {
+            "test_name": "blood pressure (systolic)",
+            "result_value": 120,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "90-120"
+        },
+        {
+            "test_name": "blood pressure (diastolic)",
+            "result_value": 80,
+            "unit_of_measurement": "mmHg",
+            "reference_range": "60-80"
+        }
+    ]
+}

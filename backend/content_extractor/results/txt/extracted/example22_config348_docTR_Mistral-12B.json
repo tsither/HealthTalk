@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "5.2",
+                "RBC": "4.8",
+                "Hb": "13.5",
+                "Hct": "40.2",
+                "Plt": "267"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "K/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5-11",
+                "RBC": "4.4-6.2",
+                "Hb": "13.5-17.5",
+                "Hct": "40-52",
+                "Plt": "150-450"
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Glucose": "98",
+                "Total Protein": "7.2",
+                "Albumin": "4.1",
+                "AST": "25",
+                "ALT": "30"
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "AST": "U/L",
+                "ALT": "U/L"
+            },
+            "reference_range": {
+                "Glucose": "70-99",
+                "Total Protein": "6.4-8.3",
+                "Albumin": "3.5-5.2",
+                "AST": "8-48",
+                "ALT": "7-52"
+            }
+        }
+    ]
+}

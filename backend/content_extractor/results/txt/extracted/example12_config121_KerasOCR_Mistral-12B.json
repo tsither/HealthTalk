@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Electrolytes",
+            "result_value": {
+                "Sodium (Na+)": 137,
+                "Potassium (K+)": 4.2,
+                "Chloride (Cl-)": 104,
+                "Bicarbonate (HCO3-)": 25
+            },
+            "unit_of_measurement": {
+                "Sodium (Na+)": "mmol/L",
+                "Potassium (K+)": "mmol/L",
+                "Chloride (Cl-)": "mmol/L",
+                "Bicarbonate (HCO3-)": "mmol/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

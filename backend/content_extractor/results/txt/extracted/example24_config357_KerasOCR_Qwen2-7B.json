@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "7.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.0-10.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "250",
+            "unit_of_measurement": "thousand/mm^3",
+            "reference_range": "150-450"
+        }
+    ]
+}

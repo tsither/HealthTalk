@@ -1,0 +1,23 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "A0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 2
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "count/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 9800,
+            "unit_of_measurement": "count/cumm",
+            "reference_range": "4500 - 11000"
+        }
+    ]
+}

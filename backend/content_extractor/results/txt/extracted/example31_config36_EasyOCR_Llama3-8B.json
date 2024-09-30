@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID 555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125 x 10^12",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) / Hematocrit (Hct)",
+            "result_value": "1308 ml/dl",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "45 fl",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "272 fL",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "4.0 x 10^3",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": "32% Neutrophils, 57% Lymphocytes, 11% Monocytes",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

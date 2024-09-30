@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "8.5",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": " Liver Function Tests (LFTs)",
+            "result_value": "125",
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-63"
+        },
+        {
+            "test_name": "Kidney Function Tests (KFTs)",
+            "result_value": "1.0",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.3"
+        }
+    ]
+}

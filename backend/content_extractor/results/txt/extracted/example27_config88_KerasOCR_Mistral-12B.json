@@ -1,0 +1,47 @@
+{
+    "Date": "10/06/2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 120,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "<150"
+        },
+        {
+            "test_name": "Pruebas Enzimaticas",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica",
+            "result_value": 25,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<30"
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hamocositena",
+            "result_value": 18,
+            "unit_of_measurement": "%",
+            "reference_range": "<20"
+        },
+        {
+            "test_name": "Rotlinast",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456739",
+        "patient_name": "drilogy shah",
+        "patient_sex": "male",
+        "patient_age": "30 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "11.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80",
+            "unit_of_measurement": "fL",
+            "reference_range": "35-100 fL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "3.52",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32-5.72 x 10^12/L"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17.3",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count of WBC",
+            "result_value": {
+                "Neutrophils": "70%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "5%",
+                "Monocytes": "3%",
+                "Basophils": "2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "100000-350000 /µL"
+        }
+    ]
+}

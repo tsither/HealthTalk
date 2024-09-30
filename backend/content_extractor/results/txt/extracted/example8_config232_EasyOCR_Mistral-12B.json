@@ -1,0 +1,27 @@
+{
+    "Date": "02.07.20",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shah, Hiren",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "male": [
+                    13.5,
+                    17.5
+                ],
+                "female": [
+                    12.0,
+                    15.5
+                ]
+            },
+            "interpretation": "Low levels may indicate increased blood loss further testing is necessary to determine the underlying cause or conditions."
+        }
+    ]
+}

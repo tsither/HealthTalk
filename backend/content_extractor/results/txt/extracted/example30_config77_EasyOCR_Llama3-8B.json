@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 105,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.13,
+            "unit_of_measurement": null,
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 52,
+            "unit_of_measurement": null,
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.5,
+            "unit_of_measurement": null,
+            "reference_range": "30-34"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.74,
+            "unit_of_measurement": null,
+            "reference_range": "11.6-14.6"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 17.0,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-10 x10^9/L"
+        },
+        {
+            "test_name": "Differential Count Neutrophils",
+            "result_value": 52.6,
+            "unit_of_measurement": "%",
+            "reference_range": "45-70%"
+        },
+        {
+            "test_name": "Differential Count Lymphocytes",
+            "result_value": 30.0,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.15,
+            "unit_of_measurement": "x10^11/L",
+            "reference_range": "1.5-4.5 x10^11/L"
+        }
+    ]
+}

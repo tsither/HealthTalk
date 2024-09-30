@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "cbc",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "normal (1500-3500)"
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": 86,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (115-155)"
+        },
+        {
+            "test_name": "mcv",
+            "result_value": 32,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv",
+            "result_value": "55.5",
+            "unit_of_measurement": "%",
+            "reference_range": "normal (34-44)"
+        },
+        {
+            "test_name": "rbc",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (11-14)"
+        },
+        {
+            "test_name": "wbc",
+            "result_value": 15000,
+            "unit_of_measurement": "/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 70,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (55-75)"
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": 20,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (18-40)"
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 2,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (0.5-5)"
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": 3,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (1-10)"
+        },
+        {
+            "test_name": "basophils",
+            "result_value": 0.5,
+            "unit_of_measurement": "%",
+            "reference_range": "normal (0-1)"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 250000,
+            "unit_of_measurement": "/cmm",
+            "reference_range": null
+        }
+    ]
+}

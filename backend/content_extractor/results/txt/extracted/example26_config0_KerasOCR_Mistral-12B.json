@@ -1,0 +1,60 @@
+{
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 120,
+                "hemoglobina": 84,
+                "eritrocitos": 75,
+                "vcm": 81.1,
+                "fl": 39.5,
+                "mch": 279,
+                "pg": 21
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Coagulación",
+            "result_value": {
+                "trombocitos": 140,
+                "thrombopexto": 75,
+                "aapt": 91,
+                "placa": 236,
+                "pct": null
+            },
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Química",
+            "result_value": {
+                "glucemia": 520,
+                "creatinina": 35.1,
+                "sodio": 140,
+                "potasio": 4,
+                "urea": 16
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucograma",
+            "result_value": {
+                "neutrofilos": 53.8,
+                "eosinofilos": 0.6,
+                "basofilos": 0.4,
+                "linfocitos": 37,
+                "monocitos": 12
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

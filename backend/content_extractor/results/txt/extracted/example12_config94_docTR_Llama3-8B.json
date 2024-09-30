@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5050000.0,
+            "unit_of_measurement": "per microliter (µL)",
+            "reference_range": "4.3 to 5.9 x 10^12 per liter"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 89.0,
+            "unit_of_measurement": null,
+            "reference_range": "80 to 100 fL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "grams per deciliter (g/dL)",
+            "reference_range": "13.5 to 17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "40 to 54%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12500.0,
+            "unit_of_measurement": "per microliter (µL)",
+            "reference_range": "4.0 to 11.0 x 10^9 per liter"
+        }
+    ]
+}

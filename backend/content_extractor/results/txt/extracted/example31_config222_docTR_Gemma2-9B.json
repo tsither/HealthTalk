@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-26",
+    "patient_information": {
+        "patient_id": "P78459",
+        "patient_name": "Jane Doe",
+        "patient_sex": "Female",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 12000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 350000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-450000 cells/µL"
+        }
+    ]
+}

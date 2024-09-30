@@ -1,0 +1,83 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.0,
+                "RBC": 4.8,
+                "HGB": 12.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "PLT": "10^3/µL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10.0
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.2
+                },
+                "HGB": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 350
+                }
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 12.5,
+                "CREA": 0.8,
+                "NA+": 140,
+                "K+": 4.5
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL",
+                "NA+": "mmol/L",
+                "K+": "mmol/L"
+            },
+            "reference_range": {
+                "GLU": {
+                    "min": 70,
+                    "max": 99
+                },
+                "BUN": {
+                    "min": 6.0,
+                    "max": 23.0
+                },
+                "CREA": {
+                    "min": 0.5,
+                    "max": 1.2
+                },
+                "NA+": {
+                    "min": 136,
+                    "max": 145
+                },
+                "K+": {
+                    "min": 3.5,
+                    "max": 5.3
+                }
+            }
+        }
+    ]
+}

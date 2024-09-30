@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5 - 5.5 mill/cumm"
+        },
+        {
+            "test_name": "Blood Indices: Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40.5% - 9%"
+        },
+        {
+            "test_name": "Blood Indices: Mean Corpuscular Volume (Mcv)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": "83 - 101 fL"
+        },
+        {
+            "test_name": "Blood Indices: Mean Corpuscular Hemoglobin (Mch)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Blood Indices: Mean Cell Hemoglobin Concentration (Mchc)",
+            "result_value": 32.8,
+            "unit_of_measurement": "",
+            "reference_range": "32.5 - 34.5 g/dL"
+        },
+        {
+            "test_name": "Blood Indices: Red Cell Distribution Width (Rwd)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6% - 14%"
+        },
+        {
+            "test_name": "WBC Count: Differential WBC Count (Neutrophils)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "WBC Count: Differential WBC Count (Lymphocytes)",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": ""
+        },
+        {
+            "test_name": "WBC Count: Differential WBC Count (Monocytes)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 : 410000 cumm"
+        }
+    ]
+}

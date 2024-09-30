@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine Blood Test",
+            "result_value": 5.0,
+            "unit_of_measurement": "SI units/L",
+            "reference_range": "[Reference Range Placeholder]"
+        },
+        {
+            "test_name": "Blood Sodium Levels Test (Sodium Blood Test)",
+            "result_value": 140.0,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "[Reference Range Placeholder]"
+        },
+        {
+            "test_name": "Potassium Blood Test (Blood Potassium Levels)",
+            "result_value": 4.5,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "[Reference Range Placeholder]"
+        },
+        {
+            "test_name": "Chloride Blood Test (Blood Chloride Levels)",
+            "result_value": 105.0,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "[Reference Range Placeholder]"
+        }
+    ]
+}

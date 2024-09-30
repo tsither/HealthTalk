@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "borderline"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 52,
+            "unit_of_measurement": "count/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 130,
+            "unit_of_measurement": "count/µL",
+            "reference_range": null
+        }
+    ]
+}

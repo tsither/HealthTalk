@@ -1,0 +1,23 @@
+{
+    "Date": "23.08.2022",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 8.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6 - 1.2"
+        },
+        {
+            "test_name": "EGFR",
+            "result_value": 95.2,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "XXX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shah Bungalow Ole Instant Road",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": "125",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.0 - 11.0"
+        },
+        {
+            "test_name": "HGB (Hemoglobin)",
+            "result_value": "13.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.5 - 16.5"
+        },
+        {
+            "test_name": "PLT (Platelet Count)",
+            "result_value": "325",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150,000 - 450,000"
+        }
+    ]
+}

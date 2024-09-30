@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": 16
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": "6.0",
+                "RBC": "5.0",
+                "HGB": "14.0",
+                "PLT": "250"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "HGB": "g/dL",
+                "PLT": "/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

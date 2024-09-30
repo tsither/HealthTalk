@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-10",
+    "patient_information": {
+        "patient_id": "P0987654",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "3.5",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[4.2-11]"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "160",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-150]"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LDL",
+            "result_value": 150,
+            "unit_of_measurement": "mg %",
+            "reference_range": "100-190"
+        },
+        {
+            "test_name": "HDL",
+            "result_value": 62,
+            "unit_of_measurement": "mg %",
+            "reference_range": "40-80"
+        },
+        {
+            "test_name": "Triglyceridos",
+            "result_value": 150,
+            "unit_of_measurement": "mg %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa serica",
+            "result_value": 98,
+            "unit_of_measurement": "mg %",
+            "reference_range": null
+        }
+    ]
+}

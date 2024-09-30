@@ -1,0 +1,23 @@
+{
+    "Date": "20/12/2023",
+    "patient_information": {
+        "patient_id": "P007",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2, RBC: 5.1, HGB: 13.8, HCT: 0.39",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "Fasting: 76 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal range: 70-100 mg/dL"
+        }
+    ]
+}

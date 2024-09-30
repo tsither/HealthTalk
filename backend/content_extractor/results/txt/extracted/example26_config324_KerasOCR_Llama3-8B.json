@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lactate",
+            "result_value": 3.2,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0.5-2.2 mmol/L"
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.45,
+            "unit_of_measurement": null,
+            "reference_range": "7.35-7.45"
+        },
+        {
+            "test_name": "Calcium",
+            "result_value": 2.1,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "2.2-2.6 mmol/L"
+        },
+        {
+            "test_name": "Magnesium",
+            "result_value": 1.8,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0.8-1.3 mmol/L"
+        }
+    ]
+}

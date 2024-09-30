@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "01235675",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "platelets",
+            "result_value": "555",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "170,000 to 450,000"
+        },
+        {
+            "test_name": "Plateletcrit (PCT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean platelet volume (MPV)",
+            "result_value": "10s",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet distribution width (PDW)",
+            "result_value": "75.1 fl",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.5-15.5"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "76-98"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8000,
+            "unit_of_measurement": "/μL",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

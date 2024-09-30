@@ -1,0 +1,35 @@
+{
+    "Date": "28.06.20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 13.0,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "ABG",
+            "result_value": {
+                "pH": "7.40",
+                "PaCO2": "36 mmHg",
+                "PaO2": "100 mmHg",
+                "SaO2": "98%",
+                "HCO3": "24 mEq/L"
+            },
+            "unit_of_measurement": {
+                "pH": null,
+                "PaCO2": "mmHg",
+                "PaO2": "mmHg",
+                "SaO2": "%",
+                "HCO3": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

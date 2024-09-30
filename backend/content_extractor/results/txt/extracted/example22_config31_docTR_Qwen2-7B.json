@@ -1,0 +1,35 @@
+{
+    "Date": "Dec. 2X",
+    "patient_information": {
+        "patient_id": "345678",
+        "patient_name": "com",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-140"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 57.5,
+            "unit_of_measurement": "cumm",
+            "reference_range": "325-620"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8725,
+            "unit_of_measurement": "per μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PACR",
+            "result_value": 31,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": 51,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "70-110 mm/hr"
+        },
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hemoglobina": {
+                    "Result": 14.8,
+                    "Unit": "g/dL"
+                },
+                "Hematocrito": {
+                    "Result": 40.5,
+                    "Unit": "%"
+                },
+                "Leucocitos": {
+                    "Result": 7.39,
+                    "Unit": "x10^3/uL"
+                },
+                "Plaquetas": {
+                    "Result": 261,
+                    "Unit": "x10^3/uL"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "Colesterol Total": 154,
+                "Trigliceridos": 127,
+                "Glucosa": 98,
+                "HDL": 36,
+                "LDL": null,
+                "Hemoglobina A1C": 5.7
+            },
+            "unit_of_measurement": {
+                "Colesterol Total": "mg/dL",
+                "Trigliceridos": "mg/dL",
+                "Glucosa": "mg/dL",
+                "HDL": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

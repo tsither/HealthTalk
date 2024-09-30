@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912645678",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC": {
+                    "count": 50,
+                    "differential": {
+                        "Neutrophils": 60,
+                        "Lymphocytes": 30,
+                        "Eosinophils": 10,
+                        "Monocytes": 2,
+                        "Basophils": 0
+                    }
+                },
+                "RBC": {
+                    "total_count": 4.55,
+                    "Hb": 8.1175,
+                    "HCT": 27,
+                    "MCV": 32,
+                    "MCH": 8,
+                    "MCHC": 13,
+                    "RDW-CV": 9000
+                },
+                "Platelet": {
+                    "count": 40
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": {
+                    "count": "/µL",
+                    "differential": "%"
+                },
+                "RBC": {
+                    "total_count": "/µL",
+                    "Hb": "g/dL",
+                    "HCT": "%",
+                    "MCV": "fL",
+                    "MCH": "pg",
+                    "MCHC": "g/dL",
+                    "RDW-CV": "%"
+                },
+                "Platelet": {
+                    "count": "/µL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

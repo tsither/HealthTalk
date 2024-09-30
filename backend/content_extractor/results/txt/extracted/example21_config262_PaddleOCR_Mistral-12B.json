@@ -1,0 +1,28 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "C 0123456789 | 0912345678 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "parameter": "White Blood Cell Count",
+                    "value": 150000,
+                    "unit": "cells/cumm",
+                    "reference_range": "4.5 - 11.0"
+                },
+                {
+                    "parameter": "Hemoglobin",
+                    "value": 13.6,
+                    "unit": "g/dL",
+                    "reference_range": "13.0-17.0"
+                }
+            ]
+        }
+    ]
+}

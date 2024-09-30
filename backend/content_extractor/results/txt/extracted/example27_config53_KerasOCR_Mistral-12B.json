@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 8270,
+                "Eosinofilos": 981,
+                "Hematies": 53,
+                "Hemoglobina": 148,
+                "Hematocrito": 44,
+                "Linfocitos": 36,
+                "Monocitos": null,
+                "Plaquetas": 138000
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "uds",
+                "Eosinofilos": "%",
+                "Hematies": "mmi",
+                "Hemoglobina": "g/dl",
+                "Hematocrito": "%",
+                "Linfocitos": "%",
+                "Plaquetas": "uas"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica sérica",
+            "result_value": {
+                "Glucosa": 220,
+                "Colesterol total": 65,
+                "HDL": 140,
+                "LDL": 150,
+                "Trigliceridos": 50,
+                "Urea": 2516,
+                "Creatinina": 546
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Colesterol total": "mg/dl",
+                "HDL": "mg/dl",
+                "LDL": "mg/dl",
+                "Trigliceridos": "mg/dl",
+                "Urea": "mg/dl",
+                "Creatinina": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 145,
+                "Potasio": 37
+            },
+            "unit_of_measurement": {
+                "Sodio": "meq/l",
+                "Potasio": "meq/l"
+            },
+            "reference_range": null
+        }
+    ]
+}

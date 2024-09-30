@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1250173as97s9",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "2y"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Count",
+            "result_value": "6.1 x 10^9/L",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "212 x 10^9/L",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "32.8%",
+                "Lymphocytes": "17.6%",
+                "Eosinophils": "<1%",
+                "Monocytes": "10.5%",
+                "Basophils": "<1%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "sample_id": "125",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": "90-170",
+                "children": "18-50",
+                "newborns": "90-17,000"
+            }
+        },
+        {
+            "test_name": "Electrical Impedance (Impedence)",
+            "result_value": 91,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "P-DWI Investigation",
+            "result_value": 1700,
+            "unit_of_measurement": "Ohm",
+            "reference_range": null
+        }
+    ]
+}

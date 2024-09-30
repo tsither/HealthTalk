@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "%",
+            "reference_eange": "Male: 13.8-17.2%, Female: 12.1-15.1%"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "Male: 38.3-48.6%, Female: 35.5-44.9%"
+        },
+        {
+            "test_name": "Reticulocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "Male: 0.5-1.5%, Female: 0.4-1.2%"
+        }
+    ]
+}

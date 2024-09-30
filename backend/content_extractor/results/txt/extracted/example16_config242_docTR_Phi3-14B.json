@@ -1,0 +1,64 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": [
+            null
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "COMPLETE BLOOD COUNT (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb) %": 5.2,
+                "RBC Count (million/uL)": 40.1,
+                "MCHC (g/dL)": 32.8,
+                "WBC Count (/uL)": [
+                    null
+                ],
+                "Platelet Count (/uL)": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb) %": "%",
+                "RBC Count (million/uL)": "million/uL",
+                "MCHC (g/dL)": "g/dL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb) %": [
+                    4.5,
+                    5.5
+                ],
+                "RBC Count (million/uL)": null,
+                "MCHC (g/dL)": [
+                    null
+                ]
+            }
+        },
+        {
+            "test_name": "WBC DIFFERENTIAL",
+            "result_value": {
+                "Total WBC Count (/uL)": 60.1,
+                "Neutrophils (%)": null,
+                "Lymphocytes (%)": null,
+                "Monocytes (%)": null,
+                "Eosinophils (%)": null,
+                "Basophils (%)": null
+            },
+            "unit_of_measurement": {
+                "Total WBC Count (/uL)": "/uL",
+                "Neutrophils (%)": "%",
+                "Lymphocytes (%)": "%"
+            },
+            "reference_range": {
+                "Total WBC Count (/uL)": [
+                    0,
+                    6
+                ],
+                "Neutrophils (%)": null,
+                "Lymphocytes (%)": null
+            }
+        }
+    ]
+}

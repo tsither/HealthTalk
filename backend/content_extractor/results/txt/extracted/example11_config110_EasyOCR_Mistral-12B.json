@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Bungalow, S.G. Road",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13 - 18 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.245 million cells/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.5 - 6.0 million cells/uL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "9,000 cells/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4,000 - 10,000 cells/uL"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150,000/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "41,000 - 400,000/uL"
+        }
+    ]
+}

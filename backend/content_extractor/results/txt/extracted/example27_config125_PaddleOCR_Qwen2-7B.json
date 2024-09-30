@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLAQUETAS /mmt",
+            "result_value": 496000,
+            "unit_of_measurement": "/mmt",
+            "reference_range": null
+        },
+        {
+            "test_name": "LEUCOCITOS/mm",
+            "result_value": 141,
+            "unit_of_measurement": "H",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": 4.02,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Hemoglobina": "33-37%",
+                "Hematocrito": "1. V.N."
+            }
+        },
+        {
+            "test_name": "POTASIO",
+            "result_value": 138,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "CLORO",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Cloro": "29,8",
+                "Sodio": "3.270"
+            }
+        },
+        {
+            "test_name": "GLUCOSA",
+            "result_value": 7.39,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        }
+    ]
+}

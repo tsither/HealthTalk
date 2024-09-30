@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma completo",
+            "result_value": {
+                "hematocrito": 48,
+                "hemoglobina": 14.3,
+                "hmc": 89,
+                "leucocitos": 29,
+                "vgm": null,
+                "gl": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Biómica completa",
+            "result_value": {
+                "glucosa": 81,
+                "creatinina": 1.2,
+                "colesterol": 650,
+                "proteinas": 79,
+                "hierro": 220,
+                "ferritina": 60
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol": "mg/dL",
+                "proteinas": "g/dL",
+                "hierro": "μg/dL",
+                "ferritina": "ng/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas hepáticas completas",
+            "result_value": {
+                " bilirrubina_total": 0.8,
+                "bilirrubina_directa": 0.3,
+                "fosfatasa_alisalica": 28,
+                "fosfatasa_esterificadal": 37,
+                "albumina": 41
+            },
+            "unit_of_measurement": {
+                "bilirrubina_total": "mg/dL",
+                "bilirrubina_directa": "mg/dL",
+                "fosfatasa_alisalica": "U/L",
+                "fosfatasa_esterificadal": "U/L",
+                "albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

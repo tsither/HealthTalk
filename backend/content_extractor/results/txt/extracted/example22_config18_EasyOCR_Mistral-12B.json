@@ -1,0 +1,41 @@
+{
+    "Date": "10s",
+    "patient_information": {
+        "patient_id": "091234676",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 10.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 21.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52%"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 575,
+            "unit_of_measurement": "10^6/µL",
+            "reference_range": "4.5-6.0 million cells/microL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "82-99 fL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 10,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "4.5-11 thousand cells/microL"
+        }
+    ]
+}

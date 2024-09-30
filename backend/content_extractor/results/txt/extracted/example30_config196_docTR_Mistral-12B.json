@@ -1,0 +1,29 @@
+{
+    "Date": "23.04.2022",
+    "patient_information": {
+        "patient_id": "U683DE",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8.0,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 251,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150-450"
+        }
+    ]
+}

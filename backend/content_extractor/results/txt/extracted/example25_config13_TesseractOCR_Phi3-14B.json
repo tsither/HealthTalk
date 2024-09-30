@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocytes",
+            "result_value": 6.56,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[4.0 - 11.0] x10^9/L"
+        },
+        {
+            "test_name": "Hematies",
+            "result_value": 4.17,
+            "unit_of_measurement": "%",
+            "reference_range": "[35 - 48]%"
+        },
+        {
+            "test_name": "Hemoglobina Lb",
+            "result_value": 9.7,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[120 - 160] g/L"
+        },
+        {
+            "test_name": "Hematocrito L",
+            "result_value": 28.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[37 - 49]%"
+        }
+    ]
+}

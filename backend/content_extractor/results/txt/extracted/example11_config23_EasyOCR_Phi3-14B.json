@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "low 150",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "low 20 million",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.5-5.9 million cells/uL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "27 32 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "8.1%",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "20,000/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

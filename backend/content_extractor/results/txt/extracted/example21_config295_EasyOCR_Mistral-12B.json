@@ -1,0 +1,29 @@
+{
+    "Date": "20.10.2023",
+    "patient_information": {
+        "patient_id": "P00056789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": 5.2,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "3.8 - 10.8"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6700,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500 - 10,000"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.4 - 17.6"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4,8 x 109 /L",
+                "Hemoglobina": "14,3 g/dL",
+                "VEM": "89%",
+                "HMC": "29 pg",
+                "Leucicitos": "10,2 x 106 /L"
+            },
+            "unit_of_measurement": {
+                "Hematies": "/L",
+                "Hemoglobina": "g/dL",
+                "VEM": "%",
+                "HMC": "pg",
+                "Leucicitos": "/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biogüímica básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.2 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteina": "66 g/dL",
+                "Hierro (II+4II)": "65 ng/mL",
+                "Ferritina": "20 ng/mL",
+                "Hemoglobina Alc": "4.5%",
+                "GoT": "800* UAL",
+                "GPT": "80 UAL",
+                "oct": "100 UAL",
+                "Bilirrubina total": "2.8 mg/dL",
+                "Bilirrubina directa (Esterificada)": "1.5%",
+                "Fosfatasa Alcalina": "50 UAL",
+                "AlbGmina": "2.3 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (II+4II)": "ng/mL",
+                "Ferritina": "ng/mL",
+                "Hemoglobina Alc": "%",
+                "GoT": "UAL",
+                "GPT": "UAL",
+                "oct": "UAL",
+                "Bilirrubina total": "mg/dL",
+                "Bilirrubina directa (Esterificada)": "%",
+                "Fosfatasa Alcalina": "UAL",
+                "AlbGmina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

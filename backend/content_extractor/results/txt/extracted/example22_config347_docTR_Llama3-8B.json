@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "JONES",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CREATININE",
+            "result_value": 0.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "0.8 - 1.4"
+        },
+        {
+            "test_name": "SODIUM",
+            "result_value": 140,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "POTASSIUM",
+            "result_value": 3.8,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "CHLORIDE",
+            "result_value": 98,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "BUN (Blood Urea Nitrogen)",
+            "result_value": 20,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8 - 24"
+        }
+    ]
+}

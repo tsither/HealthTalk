@@ -1,0 +1,69 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente Cllemente informacion",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobin": 14.3,
+                "Leucocytes": 10200,
+                "Platelets": 29
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Leucocytes": "uL",
+                "Platelets": "uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Chemiluminescence",
+            "result_value": {
+                "Uric Acid": 5.8,
+                "Creatinine": 1.0,
+                "Glucose": 65.0
+            },
+            "unit_of_measurement": {
+                "Uric Acid": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Glucose": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Total Protein": 7.8,
+                "Albumin": 4.1
+            },
+            "unit_of_measurement": {
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Iron Studies",
+            "result_value": {
+                "Iron": 70,
+                "Ferritin": 240
+            },
+            "unit_of_measurement": {
+                "Iron": "mcg/dL",
+                "Ferritin": "ng/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 7.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

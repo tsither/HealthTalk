@@ -1,0 +1,42 @@
+{
+    "Date": "01/28/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.8,
+                "RBC": 4.9,
+                "Hemoglon": 15.2,
+                "Hematocrit": 45.0,
+                "MCV": 93.0,
+                "MCH": 31.7,
+                "MCHC": 336,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "/uL",
+                "RBC": "/uL",
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0 /uL",
+                "RBC": "4.7-6.1 /uL",
+                "Hemoglobin": "13.8-17.2 g/dL",
+                "Hematocrit": "40.7-50.3%",
+                "MCV": "80.0-96.0 fL",
+                "MCH": "27.5-33.2 pg",
+                "MCHC": "321-359 g/dL"
+            }
+        }
+    ]
+}

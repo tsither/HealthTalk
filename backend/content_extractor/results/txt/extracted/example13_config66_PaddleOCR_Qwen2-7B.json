@@ -1,0 +1,22 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low_levels": null,
+                "high_levels": [
+                    "Polycythemia vera"
+                ]
+            }
+        }
+    ]
+}

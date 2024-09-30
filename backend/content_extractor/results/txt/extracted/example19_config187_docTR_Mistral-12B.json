@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec.",
+    "patient_information": {
+        "patient_id": "PID:555",
+        "patient_name": "Shivam Bungalow. Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 57.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 87.75,
+            "unit_of_measurement": "% (PCV)",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 32.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": 60000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

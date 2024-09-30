@@ -1,0 +1,62 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "I 0912345678",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC COUNT": 52,
+                "Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH Calculated": 32.8,
+                "MCHC": 13.6,
+                "RDW": null,
+                "Total WBC count": 9000,
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 7,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT": "Total RBC count",
+                "Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "MCH Calculated": "pg",
+                "MCHC": "g/dL",
+                "RDW": null,
+                "Total WBC count": "cells/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": "cells/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC COUNT": "40-50 Total RBC count",
+                "Volume (PCV)": "83-101%",
+                "Mean Corpuscular Volume (MCV)": "27-32 fL",
+                "MCH Calculated": "11.6- 14.0 pg",
+                "MCHC": null,
+                "RDW": "4000-11000",
+                "Total WBC count": "50-62 cells/uL",
+                "Neutrophils": "20-40%",
+                "Lymphocytes": "00-10%",
+                "Eosinophils": "00-02%",
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": "150,000 - 410,000 cells/uL"
+            }
+        }
+    ]
+}

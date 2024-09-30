@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin Level",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_eange": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5750,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8775,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "count": 3280,
+                    "unit": "%"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "count": 67.5,
+                    "unit": "%"
+                }
+            ],
+            "reference_range": [
+                {
+                    "type": "Neutrophils",
+                    "lower_limit": 40,
+                    "upper_limit": 60
+                },
+                {
+                    "type": "Lymphocytes",
+                    "lower_limit": 20,
+                    "upper_limit": 40
+                }
+            ]
+        }
+    ]
+}

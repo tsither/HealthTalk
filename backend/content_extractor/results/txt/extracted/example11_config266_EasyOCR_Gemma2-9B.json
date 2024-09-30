@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "RBC: 4.5 million/uL, WBC: 7,200 cells/uL, Platelets: 280,000 cells/uL",
+            "unit_of_measurement": "million/uL, cells/uL, cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "Sodium: 138 mEq/L, Potassium: 4.2 mEq/L, Chloride: 104 mEq/L, Glucose: 95 mg/dL, BUN: 16 mg/dL, Creatinine: 0.8 mg/dL",
+            "unit_of_measurement": "mEq/L, mEq/L, mEq/L, mg/dL, mg/dL, mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "AST: 25 U/L, ALT: 18 U/L, Total Bilirubin: 0.8 mg/dL",
+            "unit_of_measurement": "U/L, U/L, mg/dL",
+            "reference_range": null
+        }
+    ]
+}

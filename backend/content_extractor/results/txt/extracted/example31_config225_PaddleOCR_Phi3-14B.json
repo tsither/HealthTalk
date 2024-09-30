@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "per microliter of blood (µL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)e",
+            "result_value": 105,
+            "unit_of_measurement": "femtoliter (fL)",
+            "reference_range": [
+                92,
+                108
+            ]
+        },
+        {
+            "test_name": "Hb IEMOGLOBIN",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "pg",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 17.5"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 40.8,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 52"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": "8.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-10"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": "89",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100"
+        }
+    ]
+}

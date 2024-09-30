@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 4.2,
+                "Packed Cell Volume (PCV)": 7.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "WBC COUNT": "> 10",
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dl",
+                "WBC COUNT": "/uM ht! cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Total RBC count": "4.5-5.5",
+                "Packed Cell Volume (PCV)": "40-50%",
+                "Mean Corpuscular Volume (MCV)": "83-101 fL",
+                "MCH": "27-32 pg",
+                "MCHC": "32.5 - 34.5 g/dl",
+                "WBC COUNT": "4000-11000 uM ht! cumm",
+                "Neutrophils": "$0 - 62%",
+                "Lymphocytes": "20-40%",
+                "Platelet Count": "150000 - 410000"
+            }
+        }
+    ]
+}

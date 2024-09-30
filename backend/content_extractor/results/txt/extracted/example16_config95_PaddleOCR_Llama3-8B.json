@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Regie : ",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 105,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.5 - 14.0"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4500000000.0,
+            "unit_of_measurement": null,
+            "reference_range": "4.0 - 5.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 19.4,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

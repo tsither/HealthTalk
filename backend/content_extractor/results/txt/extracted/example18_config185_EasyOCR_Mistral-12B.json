@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": {
+                "Total Cholesterol": 240,
+                "HDL": 35,
+                "LDL": null,
+                "Triglycerides": null
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "Total Cholesterol": "<200 mg/dL",
+                "HDL": ">40 mg/dL (men), >50 mg/dL (women)",
+                "LDL": "<130 mg/dL",
+                "Triglycerides": "<150 mg/dL"
+            }
+        },
+        {
+            "test_name": "Hepatitis Panel",
+            "result_value": {
+                "HBsAg": "Negative",
+                "Total Antibody": null,
+                "Anti-HCV": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "HBsAg": "Negative",
+                "Total Antibody": "Negative",
+                "Anti-HCV": "<1.0 COI"
+            }
+        }
+    ]
+}

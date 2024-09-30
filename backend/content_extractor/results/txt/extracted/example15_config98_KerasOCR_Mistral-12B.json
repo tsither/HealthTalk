@@ -1,0 +1,23 @@
+{
+    "Date": "0231 pm",
+    "patient_information": {
+        "patient_id": "0123a5678",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": 901,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-400"
+        },
+        {
+            "test_name": "Platelet distribution width (PDW)",
+            "result_value": 75.1,
+            "unit_of_measurement": "%",
+            "reference_range": "55-65"
+        }
+    ]
+}

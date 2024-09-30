@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "SUG-0000",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Sugar Test",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Creatinine Test",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea Test",
+            "result_value": 30,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20"
+        }
+    ]
+}

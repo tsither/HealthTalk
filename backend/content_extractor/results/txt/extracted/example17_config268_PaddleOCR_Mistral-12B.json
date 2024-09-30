@@ -1,0 +1,55 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Bungalow, S G Road",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "parameter": "WBC COUNT",
+                    "value": "13.6"
+                },
+                {
+                    "parameter": "RBC COUNTER",
+                    "value": "12.5"
+                },
+                {
+                    "parameter": "HEMOGLOBIN",
+                    "value": "poolg"
+                },
+                {
+                    "parameter": "HCT",
+                    "value": "40-50"
+                },
+                {
+                    "parameter": "MCV",
+                    "value": "87.75"
+                },
+                {
+                    "parameter": "RDW",
+                    "value": "32.8"
+                }
+            ],
+            "unit_of_measurement": [
+                "10^9/L",
+                "10^6/uL",
+                "g/dL",
+                "%",
+                "fL"
+            ],
+            "reference_range": {
+                "WBC COUNT": "3.0 - 10.0",
+                "RBC COUNTER": "4.5 - 5.5",
+                "HEMOGLOBIN": null,
+                "HCT": null,
+                "MCV": "83 - 101",
+                "RDW": "32.5 - 34.5"
+            }
+        }
+    ]
+}

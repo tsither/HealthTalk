@@ -1,0 +1,36 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "drlogy",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": null,
+        "patient_birthday": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130,175]"
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": null,
+            "unit_of_measurement": "k/mcl",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration",
+            "result_value": 29,
+            "unit_of_measurement": "%",
+            "reference_range": "[30,34]"
+        },
+        {
+            "test_name": "red cell distribution width",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[11.5,16]"
+        }
+    ]
+}

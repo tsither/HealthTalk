@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 800,
+            "unit_of_measurement": "uL/mm3",
+            "reference_range": "250 -490 uL/mm3"
+        },
+        {
+            "test_name": "Formula Leucocitaria",
+            "result_value": 16,
+            "unit_of_measurement": "%",
+            "reference_range": "32-45%"
+        },
+        {
+            "test_name": "Neutrofilos",
+            "result_value": null,
+            "unit_of_measurement": "uL/mm3",
+            "reference_range": "1.8-7.0 g/dl"
+        },
+        {
+            "test_name": "Linfocitos",
+            "result_value": 1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocitos (150 -18 Eosinofilos 6,0 Basofilos",
+            "result_value": 70.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas tof VPM",
+            "result_value": 23,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

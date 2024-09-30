@@ -1,0 +1,29 @@
+{
+    "Date": "10-03",
+    "patient_information": {
+        "patient_id": "A0125",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HCT",
+            "result_value": 36.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.12,
+            "unit_of_measurement": "Million/μL",
+            "reference_range": "4.6-5.8"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

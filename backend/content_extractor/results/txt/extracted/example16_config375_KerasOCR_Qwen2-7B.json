@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4-6%"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 200,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "130-200 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.4 mg/dL"
+        }
+    ]
+}

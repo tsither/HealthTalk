@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam S G",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: HbJ - 1304 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "Total RBC - 52 a^58 million cells/uL",
+            "unit_of_measurement": "million cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "Total WBC - 100,000 uL",
+            "unit_of_measurement": "uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "325,000/microL",
+            "unit_of_measurement": "/microL",
+            "reference_range": "borderline"
+        }
+    ]
+}

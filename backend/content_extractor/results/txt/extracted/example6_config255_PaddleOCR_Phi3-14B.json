@@ -1,0 +1,74 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "S.*d on ROW"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "895/6",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count - Complete Blood Count (CBC)",
+            "result_value": 4.7,
+            "unit_of_measurement": "mill/uL",
+            "reference_range": "3.8-5.2"
+        },
+        {
+            "test_name": "WBC Count - Complete Blood Count (CBC)",
+            "result_value": 87.75,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Lymphocytes": 32.8
+                },
+                {
+                    "Monocytes": "7P/6"
+                },
+                {
+                    "Basophils": 900
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "Lymphocytes": "45-55%"
+                },
+                {
+                    "Monocytes": "2.0-10%"
+                },
+                {
+                    "Basophils": "< 1%"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count - Complete Blood Count (CBC)",
+            "result_value": 325,
+            "unit_of_measurement": "mill/uL",
+            "reference_range": [
+                {
+                    "Lower Limit": 140
+                },
+                {
+                    "Upper Limit": 490
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": null,
+            "reference_range": "Male: 13-18 g/dL"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophil count",
+            "result_value": 27.2,
+            "unit_of_measurement": "Mono low",
+            "reference_range": "Low: 1-5% of leukocytes"
+        },
+        {
+            "test_name": "Monocyte count",
+            "result_value": 4.5,
+            "unit_of_measurement": "%",
+            "reference_range": "Reference Value: 2-8%"
+        },
+        {
+            "test_name": "Hill cells",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "-"
+        }
+    ]
+}

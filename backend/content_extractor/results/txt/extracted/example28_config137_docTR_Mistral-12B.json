@@ -1,0 +1,23 @@
+{
+    "Date": "31.05.2023",
+    "patient_information": {
+        "patient_id": "HOSP-001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5.5,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": "3.9-10"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 7200,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "4500-10,800"
+        }
+    ]
+}

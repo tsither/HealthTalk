@@ -1,0 +1,42 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "shivam",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "35",
+        "collection_date": "dec pm 35 dn"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "55-55.5 (50-55)"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": null,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4.7-5.8"
+        },
+        {
+            "test_name": "pcv volume",
+            "result_value": "87%",
+            "unit_of_measurement": "%",
+            "reference_range": "30-56"
+        },
+        {
+            "test_name": "mch count",
+            "result_value": "140",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": null,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "5.0-10.2"
+        }
+    ]
+}

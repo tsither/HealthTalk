@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Shivam",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5,
+            "unit_of_measurement": "billion",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 1300170,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "4500-11000 cells/mcL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 27632,
+            "unit_of_measurement": "gbl",
+            "reference_range": null
+        }
+    ]
+}

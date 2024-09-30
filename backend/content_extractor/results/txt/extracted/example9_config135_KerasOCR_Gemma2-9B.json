@@ -1,0 +1,29 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "null",
+        "patient_name": "null",
+        "patient_sex": "null",
+        "patient_age": "null"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "RBC: 4.5 million/µL, WBC: 7200/µL, PLT: 280,000/µL",
+            "unit_of_measurement": "million/µL, /µL, /µL",
+            "reference_range": "RBC: 4.0-5.5 million/µL, WBC: 4500-11000/µL, PLT: 150,000-450,000/µL"
+        },
+        {
+            "test_name": "Electrolytes",
+            "result_value": "Sodium: 138 mEq/L, Potassium: 4.2 mEq/L, Chloride: 102 mEq/L, Bicarbonate: 25 mEq/L",
+            "unit_of_measurement": "mEq/L, mEq/L, mEq/L, mEq/L",
+            "reference_range": "Sodium: 135-145 mEq/L, Potassium: 3.5-5.0 mEq/L, Chloride: 98-106 mEq/L, Bicarbonate: 22-28 mEq/L"
+        },
+        {
+            "test_name": "Renal Function Tests",
+            "result_value": "Creatinine: 0.8 mg/dL, BUN: 12 mg/dL",
+            "unit_of_measurement": "mg/dL, mg/dL",
+            "reference_range": "Creatinine: 0.6-1.2 mg/dL, BUN: 7-20 mg/dL"
+        }
+    ]
+}

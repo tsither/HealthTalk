@@ -1,0 +1,25 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Cunm uwn",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 150000,
+                    "reference_range": "13.0 - 17.0"
+                },
+                "platelet_count": {
+                    "value": 555,
+                    "reference_range": "32.5 - 34.5"
+                }
+            },
+            "unit_of_measurement": null
+        }
+    ]
+}

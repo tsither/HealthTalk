@@ -1,0 +1,65 @@
+{
+    "Date": "Dec.2X",
+    "patient_information": {
+        "patient_id": "PID 555",
+        "patient_name": "Shiwam Mumbal",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Total RBC COUNT (Hb)",
+            "result_value": "12.5 g/dl",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "low": "13.0",
+                "high": null
+            }
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "52%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": "45-55",
+                "high": null
+            }
+        },
+        {
+            "test_name": "MCH Volume",
+            "result_value": "57.5 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "low": null,
+                "high": "83-101"
+            }
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "32.8 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": {
+                "low": null,
+                "high": "40-50"
+            }
+        },
+        {
+            "test_name": "WBC RDW",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": null,
+                "high": "27-32"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "7 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": {
+                "low": null,
+                "high": "50-62"
+            }
+        }
+    ]
+}

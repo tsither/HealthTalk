@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": 140,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": 3.5,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "beucocilos": {
+                    "min": 4,
+                    "max": 10
+                },
+                "hematies": {
+                    "min": 3.5,
+                    "max": 4.8
+                },
+                "heroglobina": {
+                    "min": 12,
+                    "max": 16
+                },
+                "hematocrito": {
+                    "min": 35,
+                    "max": 52
+                }
+            }
+        },
+        {
+            "test_name": "C.M %",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "min": 80,
+                "max": 99
+            }
+        },
+        {
+            "test_name": "E.C.M",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "min": 25,
+                "max": 35
+            }
+        },
+        {
+            "test_name": "C.H.C.M.",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "min": 33,
+                "max": 36
+            }
+        },
+        {
+            "test_name": "RD.w",
+            "result_value": null,
+            "unit_of_measurement": "/f1",
+            "reference_range": {
+                "min": 17,
+                "max": 8
+            }
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": null,
+            "unit_of_measurement": "/f1",
+            "reference_range": {
+                "min": 150,
+                "max": 500
+            }
+        },
+        {
+            "test_name": "FORMULA LECCOCITARIA",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrofilos": {
+                    "min": 70,
+                    "max": 8
+                },
+                "Linfocitos": {
+                    "min": 12,
+                    "max": 4
+                },
+                "Monocilos": {
+                    "min": 13,
+                    "max": 7
+                },
+                "Eosinofilos": {
+                    "min": 1,
+                    "max": 0.5
+                },
+                "Basofilos": {
+                    "min": 0.5,
+                    "max": 0.5
+                }
+            }
+        }
+    ]
+}

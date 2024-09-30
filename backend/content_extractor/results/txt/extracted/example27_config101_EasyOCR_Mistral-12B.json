@@ -1,0 +1,122 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Glóbulos Rojos": 4.6,
+                "Hemoglobina": 135,
+                "Hematocrito": 41,
+                "Leucocitos": 7.0,
+                "Linfocitos": 27,
+                "Monocitos": 34,
+                "Neutrófilos": 39,
+                "Eosinófilos": 5,
+                "Basófilos": 1
+            },
+            "unit_of_measurement": {
+                "Glóbulos Rojos": "/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "Leucocitos": "/μL",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Neutrófilos": "%",
+                "Eosinófilos": "%",
+                "Basófilos": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de Sedimentación Globular",
+            "result_value": 43.6,
+            "unit_of_measurement": "mm/hora",
+            "reference_range": {
+                "min": 0,
+                "max": 15
+            }
+        },
+        {
+            "test_name": "Bioquímica Sérica",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol Total": 162,
+                "Triglicéridos": 145,
+                "Uric acid": 3.0
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol Total": "mg/dL",
+                "Triglicéridos": "mg/dL",
+                "Uric acid": "mg/dL"
+            },
+            "reference_range": {
+                "Glucosa": {
+                    "min": 70,
+                    "max": 150
+                },
+                "Colesterol Total": {
+                    "min": 120,
+                    "max": 200
+                },
+                "Triglicéridos": {
+                    "min": 40,
+                    "max": 200
+                },
+                "Uric acid": {
+                    "min": 3.5,
+                    "max": 7
+                }
+            }
+        },
+        {
+            "test_name": "Pruebas Enzimáticas",
+            "result_value": {
+                "GOT": "<40 U/L",
+                "GPT": 43,
+                "GT": 45
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 141,
+                "Cloro": 98,
+                "Potasio": 3.72
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/L",
+                "Cloro": "mEq/L",
+                "Potasio": "mmol/L"
+            },
+            "reference_range": {
+                "Sodio": {
+                    "min": 135,
+                    "max": 145
+                },
+                "Cloro": {
+                    "min": 98,
+                    "max": 106
+                },
+                "Potasio": {
+                    "min": 3.6,
+                    "max": 5
+                }
+            }
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.39,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

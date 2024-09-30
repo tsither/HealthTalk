@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10.5,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4-11 /uL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "150000-400000 /uL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "/mM",
+            "reference_range": "4.32-5.72 /mM"
+        }
+    ]
+}

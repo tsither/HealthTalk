@@ -1,0 +1,90 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "LO123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "collected_on": [
+            {
+                "date": "03:01 Pit 02 Cec 2X"
+            },
+            {
+                "date": "05:01 Pit 02 Cec 2X"
+            }
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": {
+                    "low": "13.0",
+                    "normal_min": "13.0",
+                    "normal_max": "17.0",
+                    "high": "12.5"
+                },
+                "total_rbc_count": {
+                    "min": "4.5",
+                    "max": "5.5"
+                },
+                "packed_cell_volume": {
+                    "low": "40",
+                    "normal_min": null,
+                    "normal_max": "50",
+                    "high": "$7.5"
+                },
+                "mean_corpuscular_volume": {
+                    "min": "83",
+                    "max": "101",
+                    "unit": "f"
+                },
+                "mch": {
+                    "min": "27",
+                    "max": "32",
+                    "unit": "6d"
+                },
+                "mchc": {
+                    "min": null,
+                    "max": "$34.5"
+                },
+                "hematocrit": {
+                    "min": null,
+                    "normal_min": "11.6",
+                    "normal_max": "14.0",
+                    "high": null
+                },
+                "total_wbc_count": {
+                    "min": "4000",
+                    "max": "11000"
+                },
+                "neutrophils": {
+                    "min": "50",
+                    "max": "62",
+                    "%_unit": ""
+                },
+                "lymphocytes": {
+                    "min": "20",
+                    "max": "40",
+                    "%_unit": ""
+                },
+                "basophils": {
+                    "min": null,
+                    "max": "$0.2",
+                    "%_unit": ""
+                },
+                "monocytes": {
+                    "min": null,
+                    "max": "10",
+                    "%_unit": ""
+                },
+                "platelet_count": {
+                    "min": "150000",
+                    "max": "410000"
+                }
+            }
+        }
+    ]
+}

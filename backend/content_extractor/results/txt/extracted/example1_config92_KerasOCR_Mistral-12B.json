@@ -1,0 +1,41 @@
+{
+    "Date": "01 Dec",
+    "patient_information": {
+        "patient_id": 575,
+        "patient_name": "Shivam Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "42.0-52.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "80.0-96.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.1,
+            "unit_of_measurement": "million/mm3",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7.2,
+            "unit_of_measurement": "thousand/mm3",
+            "reference_range": "4.5-11.0"
+        }
+    ]
+}

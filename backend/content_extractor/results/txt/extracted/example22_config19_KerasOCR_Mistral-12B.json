@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC count": 6.0,
+                "RBC count": 4.85,
+                "HGB": 13.0,
+                "HCT": 40.0,
+                "MCV": 90.0,
+                "MCH": 27.0,
+                "MCCHC": 30.0,
+                "RDW": 15.0,
+                "PLT count": 286.0
+            },
+            "unit_of_measurement": {
+                "WBC count": "x10^9/L",
+                "RBC count": "x10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "FL",
+                "MCH": "pg",
+                "MCCHC": "%",
+                "RDW": "%",
+                "PLT count": "x10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

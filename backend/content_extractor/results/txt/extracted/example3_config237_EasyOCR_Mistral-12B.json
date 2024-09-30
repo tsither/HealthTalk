@@ -1,0 +1,21 @@
+{
+    "Date": "07/09",
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "13.5-17.5",
+                "female": "12.0-15.5"
+            },
+            "interpretation": "low (may indicate anemia or blood loss)"
+        }
+    ]
+}

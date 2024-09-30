@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash I Patel",
+        "patient_sex": "Male",
+        "patient_age": "34.5"
+    },
+    "test_results": [
+        {
+            "test_name": "(PCV) Erythrocyte Count",
+            "result_value": 4000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "mCV Mean Corpuscular Volume",
+            "result_value": 50,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Type",
+            "result_value": "Old",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 5600,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        }
+    ]
+}

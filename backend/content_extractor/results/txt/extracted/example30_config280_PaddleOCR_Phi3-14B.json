@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012",
+        "patient_name": "Yash",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_n ame": "pH",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": "7.35-7.45"
+        },
+        {
+            "test_name": "Bilirubin Total",
+            "result_value": "2 : :F",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0-1]"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.4-5.4]"
+        }
+    ]
+}

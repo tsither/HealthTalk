@@ -1,0 +1,53 @@
+{
+    "Date": "31/01/2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Bungalow",
+        "sex": "Male",
+        "age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.4-17.0 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "5.2 million cells/μL",
+            "unit_of_measurement": "million cells/μL",
+            "reference_range": "4.50-5.90 million cells/μL"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "37.0-48.0%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "75.0-101.0 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.2 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "28.5-32.5 pg/cell"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "31.5-34.7 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "1.50-10.00 Lakh cells/μL"
+        }
+    ]
+}

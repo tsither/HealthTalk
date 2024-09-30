@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "101",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.52",
+            "unit_of_measurement": "million/cu mm",
+            "reference_range": "4.32-5.72 million/cu mm"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "88.6",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "30.8",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.75",
+            "unit_of_measurement": "lakh/cu mm",
+            "reference_range": "1.50-3.00 lakh/cu mm"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "14.5",
+            "unit_of_measurement": "thousand/cu mm",
+            "reference_range": "4,000-10,500 thousand/cu mm"
+        }
+    ]
+}

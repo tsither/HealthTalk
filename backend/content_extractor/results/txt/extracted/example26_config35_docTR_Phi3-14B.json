@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Platelets (VPM)",
+            "result_value": 208,
+            "unit_of_measurement": "10E3/pL",
+            "reference_range": "75.0 - 450"
+        },
+        {
+            "test_name": "Leukocytes (WBC)",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E3/UL",
+            "reference_range": "1.8 - 7.5"
+        }
+    ]
+}

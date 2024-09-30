@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "3 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "y",
+            "reference_range": null
+        },
+        {
+            "test_name": "Haemoglobin (Hb)",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 60,
+            "unit_of_measurement": "fL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Haemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": 9,
+            "unit_of_measurement": "/d",
+            "reference_range": null
+        }
+    ]
+}

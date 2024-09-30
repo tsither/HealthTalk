@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "3456789",
+        "patient_name": "I P Laod Ad soee",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "190,000",
+            "unit_of_measurement": "/L",
+            "reference_range": "150,000 - 410,000"
+        },
+        {
+            "test_name": "Total White Cell Count",
+            "result_value": "6.8",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.5 - 11.0 x10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 15.0 g/dL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87",
+            "unit_of_measurement": "fL",
+            "reference_range": "76 - 96 fL"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "36.0",
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 47.0 %"
+        }
+    ]
+}

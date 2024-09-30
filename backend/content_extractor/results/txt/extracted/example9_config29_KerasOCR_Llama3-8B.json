@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLUCOSE",
+            "result_value": 126,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "BUN",
+            "result_value": 30,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CREATININE",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CALCIUM",
+            "result_value": 10.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.6-10.3"
+        }
+    ]
+}

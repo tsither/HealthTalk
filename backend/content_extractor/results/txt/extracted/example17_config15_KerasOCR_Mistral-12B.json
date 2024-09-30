@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "drlogyathabadlogcom",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "RBC Count": 4.5,
+                "HGB": 12.5,
+                "HCT": 38.9,
+                "MCV": 86,
+                "MCH": 27.2,
+                "MCHC": 30,
+                "WBC Count": 6.4,
+                "NEU": 55.8,
+                "LYM": 35.7,
+                "EOS": 1.9,
+                "BASO": 0.6,
+                "PLT": 202
+            },
+            "unit_of_measurement": {
+                "RBC Count": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "WBC Count": "10^3/µL",
+                "NEU": "%",
+                "LYM": "%",
+                "EOS": "%",
+                "BASO": "%",
+                "PLT": "10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

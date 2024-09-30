@@ -1,0 +1,62 @@
+{
+    "Date": "23.05.2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "White blood cells (WBC)": "[FILL]",
+                "Red blood cells (RBC)": "[FILL]",
+                "Hemoglobin (HGB)": "[FILL]",
+                "Hematocrit (HCT)": "[FILL]"
+            }
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Alanine transaminase (ALT)": "[FILL]",
+                "Aspartate transaminase (AST)": "[FILL]",
+                "Alkaline phosphatase (ALP)": "[FILL]",
+                "Total bilirubin (TBIL)": "[FILL]"
+            }
+        },
+        {
+            "test_name": "Kidney Function Tests (RFT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Creatinine": "[FILL]",
+                "Blood urea nitrogen (BUN)": "[FILL]"
+            }
+        },
+        {
+            "test_name": "Thyroid Function Tests (TFT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "TSH": "[FILL]",
+                "Free T4": "[FILL]"
+            }
+        },
+        {
+            "test_name": "Lipid Profile (LP)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Total cholesterol (TC)": "[FILL]",
+                "HDL-cholesterol": "[FILL]",
+                "LDL-cholesterol": "[FILL]",
+                "Triglycerides": "[FILL]"
+            }
+        }
+    ]
+}

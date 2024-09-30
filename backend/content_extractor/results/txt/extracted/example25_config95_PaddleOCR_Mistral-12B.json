@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina (Hb)": {
+                    "value": 12.3,
+                    "unit": "g/dL",
+                    "reference_range": "12-16 g/dL"
+                },
+                "Hematocrito (Hct)": {
+                    "value": 40.5,
+                    "unit": "%",
+                    "reference_range": "40-50%"
+                },
+                "Leucocitos (WBC)": {
+                    "value": 7800,
+                    "unit": "cells/mm³",
+                    "reference_range": "4500-10500 cells/mm³"
+                },
+                "Placas (Plt)": {
+                    "value": 250000,
+                    "unit": "cells/mm³",
+                    "reference_range": "150000-350000 cells/mm³"
+                },
+                "Eritrocitos (RBC)": {
+                    "value": 4.89,
+                    "unit": "mill/mm³",
+                    "reference_range": "4.40-6.10 mill/mm³"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Profile",
+            "result_value": 68.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "ALT (SGOT)",
+            "result_value": null,
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "AST (SGPT)",
+            "result_value": 42001,
+            "unit_of_measurement": "U/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": null,
+            "unit_of_measurement": "[FILL]",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

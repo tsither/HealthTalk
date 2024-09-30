@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12.5, RBC count: 5.2 dL^-3, PCV: 75%, MCV: 87 fL, MCH: 27 pg, MCHC: 32 g/dL, WBC count: 40 x 10^9/L, Neutrophils: 62%, Lymphocytes: 31%, Eosinophils: 0.6%, Monocytes: 1%, Basophils: 0.2%",
+            "unit_of_measurement": [
+                "g/dL",
+                "x10^9/L"
+            ],
+            "reference_range": [
+                "Hemoglobin: 13-17 g/dL, RBC count: 4.5-5.9 x 10^12/L, PCV: 38.3-48.6%, MCV: 80-96 fL, MCH: 27-31 pg, MCHC: 32-36 g/dL, WBC count: 3.5-10.5 x 10^9/L"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "180,000 / mm^-3",
+            "unit_of_measurement": [
+                "/mm^-3"
+            ],
+            "reference_range": [
+                "150,000-450,000 / mm^-3"
+            ]
+        }
+    ]
+}

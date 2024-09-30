@@ -1,0 +1,29 @@
+{
+    "Date": "12.12.2024",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.0,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-6.0 million/µL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 5.0,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.5-11 thousand/µL"
+        }
+    ]
+}

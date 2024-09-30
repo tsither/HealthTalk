@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Pate",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count (Complete Blood Count)",
+            "result_value": 6895,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.7-6.1 x 10^6/uL"
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": [
+                {
+                    "MCHC": 32.8,
+                    "Reference Value MCHC": "31-35 g/dL"
+                },
+                {
+                    "RDW": 57.5,
+                    "Low": null,
+                    "High": null,
+                    "Range": "11.0%-14.8%"
+                }
+            ]
+        },
+        {
+            "test_name": "wBC Count (Complete Blood Count)",
+            "result_valuelue": 27.2,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.5-10 x 10^3/uL"
+        },
+        {
+            "test_name": "Platelet Count (Complete Blood Count)",
+            "result_value": 325,
+            "unit_of_measurement": "/cmm",
+            "reference_range": "140-400 x 10^9/L"
+        }
+    ]
+}

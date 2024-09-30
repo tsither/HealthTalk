@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Mematies",
+        "patient_sex": null,
+        "patient_age": "60 anos"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": "14,3 g/dL",
+                "Leucicitos": "89 ane",
+                "H.M.C.": null,
+                "VCM": "48 fL"
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Leucicitos": "ane",
+                "H.M.C.": null,
+                "VCM": "fL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "92 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "200 mg/dL",
+                "Proteina": null,
+                "Hierro (1+)": null
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PATIENT_ID",
+        "patient_name": "Patient Name",
+        "patient_sex": "Sex",
+        "patient_age": "Age"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 7.16,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8775,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "4.5 - 10.9 K/mm³"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 43.35,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52%"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "12.5",
+                "rbc_count": "57.5",
+                "pcv": "27.2",
+                "mch": "32.8",
+                "mchg": "13.6",
+                "rdw": "9000",
+                "wbc_count": "60",
+                "neutrophils": "1%",
+                "lymphocytes": "%NA",
+                "eosinophils": "%NA",
+                "monocytes": "%NA",
+                "basophils": "%NA",
+                "platelet_count": "150000"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "fL",
+                "pcv": "%",
+                "mch": "pg",
+                "mchg": "g/dL",
+                "rdw": "fL",
+                "wbc_count": "%",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%",
+                "platelet_count": "cells/µL"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0-17.0",
+                "rbc_count": "40-50 fL",
+                "pcv": "27 - 32%",
+                "mch": "11.6 - 14.0 pg",
+                "mchg": "%NA",
+                "rdw": "4000-11000 fL",
+                "wbc_count": "50 - 62%",
+                "neutrophils": "31-70%",
+                "lymphocytes": "20-40%",
+                "eosinophils": "%NA",
+                "monocytes": "%NA",
+                "basophils": "0-1%",
+                "platelet_count": "150000 - 410000 cells/µL"
+            }
+        }
+    ]
+}

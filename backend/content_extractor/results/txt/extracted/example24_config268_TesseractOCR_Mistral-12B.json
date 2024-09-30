@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec. 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.5,
+                    "unit": "g/dl",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2,
+                    "unit": "mill/cumm",
+                    "reference_range": "4.5-5.5"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": 7.5,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit": "fl",
+                    "reference_range": "83-101"
+                },
+                {
+                    "name": "Calculated MCH",
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": "27-32"
+                },
+                {
+                    "name": "MCHC",
+                    "value": 32.8,
+                    "unit": "g/dL",
+                    "reference_range": "32.5-34.5"
+                },
+                {
+                    "name": "Calculated RDW",
+                    "value": 13.6,
+                    "unit": "%",
+                    "reference_range": "11.6-14.0"
+                }
+            ],
+            "differential_wbc_count": {
+                "Neutrophils": "60 / 50 - 62 %",
+                "Lymphocytes": "31 % (20-40 %)",
+                "Eosinophils": "1 % (0-6 %)",
+                "Monocytes": "7 % (0-10 %)",
+                "Basophils": "1 % (0-2 %)"
+            },
+            "platelet_count": {
+                "value": 150000,
+                "unit": "cumm",
+                "interpretation": "Borderline (150000 - 410000)"
+            },
+            "instrument_used": "Fully automated cell counter - Mindray 300"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 2021",
+    "patient_information": {
+        "patient_id": "PAT_ID_555",
+        "patient_name": "Shiam eco Mumbai",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC COUNT (Hb)",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        },
+        {
+            "test_name": "Platelet Count COUNT",
+            "result_value": 70,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

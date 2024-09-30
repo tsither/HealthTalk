@@ -1,0 +1,62 @@
+{
+    "Date": "02Dec.2021",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "RBC Total": 57.5,
+                "PCV": 87.75,
+                "MCV": 90,
+                "MCH": 32.8,
+                "MCHC": 32,
+                "RDW": null,
+                "WBC Total": 6000,
+                "Neutrophils": 31,
+                "Lymphocytes": 7,
+                "Eosinophils": 15,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "RBC Total": "milicumm",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": null,
+                "WBC Total": "cumm",
+                "Neutrophils": "cumm",
+                "Lymphocytes": "cumm",
+                "Eosinophils": "%",
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "130-170 g/dl",
+                "RBC Total": "27-32 milicumm",
+                "PCV": "45-55 %",
+                "MCV": "80-96 fL",
+                "MCH": "27-31 pg",
+                "MCHC": "32-36 g/dL",
+                "RDW": null,
+                "WBC Total": "4500-11000 cumm",
+                "Neutrophils": "40-70 %",
+                "Lymphocytes": "20-40 %",
+                "Eosinophils": "<2 %",
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": null
+            }
+        }
+    ]
+}

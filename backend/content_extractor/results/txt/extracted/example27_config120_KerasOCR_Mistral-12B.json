@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "5.97",
+                "RBC": "4.8",
+                "Hb": "12.3",
+                "Hct": "38.6",
+                "MCV": "80",
+                "MCH": "25.6",
+                "MCHC": "32.0",
+                "Platelets": "278",
+                " Neutrophils": "49.1%",
+                "Lymphocytes": "40.2%",
+                "Monocytes": "8.7%",
+                "Eosinophils": "2.0%",
+                "Basophils": "0.6%",
+                "WBC Count Flags": "s s",
+                "RBC Count Flags": "cs c",
+                "Platelet Flags": "sg fs"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelets": "10^9/L",
+                "Percentages": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

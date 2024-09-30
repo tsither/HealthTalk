@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "97",
+        "patient_name": "Ferna L.",
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": "12.0",
+                "Hct": "36.5",
+                "MCV": "89 FL",
+                "MCH": "28 pg",
+                "MCHC": "32 g/dL",
+                "Platelets": "23 x 10^3/µL"
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "FL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelets": "x 10^3/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica sanguinea",
+            "result_value": {
+                "Glucosa": "102 mg/dL",
+                "Colesterol": "150 mg/dL",
+                "Proteina total": "7.8 g/dL",
+                "Hemoglobina A1C": "6.0 %",
+                "Hierro": "+10"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina total": "g/dL",
+                "Hemoglobina A1C": "%",
+                "Hierro": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Función hepatobiliar",
+            "result_value": {
+                "Bilirrubina total": "0.8 mg/dL",
+                "Bilirrubina directa": "<1.0 mg/dL",
+                "Fosfatasa alcalina": "120 U/L"
+            },
+            "unit_of_measurement": {
+                "Bilirrubina total": "mg/dL",
+                "Bilirrubina directa": "mg/dL",
+                "Fosfatasa alcalina": "U/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

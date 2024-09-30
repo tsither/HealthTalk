@@ -1,0 +1,37 @@
+{
+    "Date": "17/5/2021",
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC total": 5.0,
+                "RBC total": 4.55,
+                "HGB": 13.5,
+                "HCT": 42.8,
+                "MCV": 96.7,
+                "MCH": 30.8,
+                "MCHC": 32,
+                "RDW-CV": 14.9,
+                "PLT": 275
+            },
+            "unit_of_measurement": {
+                "WBC total": "10^3 /mm³",
+                "RBC total": "10^6 /mm³",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "10^3 /mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

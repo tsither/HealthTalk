@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White blood cells (WBC)": 12000,
+                "Red blood cells (RBC)": 4.5,
+                "Hemoglobin (HGB)": 14,
+                "Hematocrit (HCT)": 42,
+                "Platelets (PLT)": 300000
+            },
+            "unit_of_measurement": {
+                "White blood cells (WBC)": "cells/µL",
+                "Red blood cells (RBC)": "million/µL",
+                "Hemoglobin (HGB)": "g/dL",
+                "Hematocrit (HCT)": "%",
+                "Platelets (PLT)": "thousand/µL"
+            },
+            "reference_range": {
+                "White blood cells (WBC)": "4500-11000 cells/µL",
+                "Red blood cells (RBC)": "4.0-5.5 million/µL",
+                "Hemoglobin (HGB)": "12-16 g/dL",
+                "Hematocrit (HCT)": "37-49%",
+                "Platelets (PLT)": "150000-450000 thousand/µL"
+            }
+        }
+    ]
+}

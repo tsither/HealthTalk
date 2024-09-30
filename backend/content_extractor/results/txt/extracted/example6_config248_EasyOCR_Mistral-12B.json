@@ -1,0 +1,23 @@
+{
+    "Date": "07.01.2022",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "4.6-5.8"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 8300,
+            "unit_of_measurement": "cells/mL",
+            "reference_range": null
+        }
+    ]
+}

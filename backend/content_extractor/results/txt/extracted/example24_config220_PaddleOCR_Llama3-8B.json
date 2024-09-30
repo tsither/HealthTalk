@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Male",
+        "patient_sex": "M",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Corpuscular Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": null,
+            "reference_range": "34.5%"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": null,
+            "reference_range": "140"
+        }
+    ]
+}

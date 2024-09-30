@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "0.06 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HGB": 13.0,
+                "WBC": 7800,
+                "PLT": 250000
+            },
+            "unit_of_measurement": {
+                "HGB": "g/dL",
+                "WBC": "cells/mm^3",
+                "PLT": "cells/mm^3"
+            },
+            "reference_range": {
+                "HGB": "13.0 - 17.0 g/dL",
+                "WBC": "4500 - 11000 cells/mm^3",
+                "PLT": "150000 - 450000 cells/mm^3"
+            }
+        }
+    ]
+}

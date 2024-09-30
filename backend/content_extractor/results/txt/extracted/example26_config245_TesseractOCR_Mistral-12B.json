@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "5 wear 499",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemo": "12.0",
+                "Hto": "33%",
+                "V.CM": "94"
+            },
+            "unit_of_measurement": {
+                "Hemo": "g/dL",
+                "Hto": "%",
+                "V.CM": "fl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": "208",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": {
+                "min": "149",
+                "max": "400"
+            }
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": "4.2",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": {
+                "min": "4500",
+                "max": "11000"
+            }
+        }
+    ]
+}

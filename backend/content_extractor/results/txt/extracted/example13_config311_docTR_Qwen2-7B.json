@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-14",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "10.2",
+            "unit_of_measurement": "thousands/microliter",
+            "reference_range": "[4.5-11]"
+        },
+        {
+            "test_name": "Lymphocyte Percentage",
+            "result_value": "38%",
+            "unit_of_measurement": "%",
+            "reference_range": "[20-40]"
+        }
+    ]
+}

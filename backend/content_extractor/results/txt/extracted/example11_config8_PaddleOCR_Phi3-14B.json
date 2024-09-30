@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin (Hb) : 12.5 Low, RBC COUNT Total: 5.2 mill/cumm, BLOOD INDICES Packed Cell Volume (PCV): 57.5 High, Mean Corpuscular Volume (MCV): 87.75 fL, MCH: 27.2 pg, MCHC: 32.8%, WBC COUNT Total: 9000 cumm, DIFFERENTIAL WBC COUNT Neutrophils: 60%, Lymphocytes: 31%, Eosinophils: 1%, Monocytes: 7%, Basophils: 1%, PLATELEt COUNT Platelet Count: 150000 borderline",
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/cumm",
+                "%",
+                "fL",
+                "pg",
+                "%"
+            ],
+            "reference_range": [
+                "Hemoglobin (Hb) : 13.0-17.0 g/dL, RBC COUNT Total: 4.5 - 5.5 mill/cumm, BLOOD INDICES Packed Cell Volume (PCV): 40-50 %, Mean Corpuscular Volume (MCV): 83 - 101 fL, MCH: 27 - 32 pg, MCHC: 32.5%-34.5%, WBC COUNT Total: 4000-11000 cumm, DIFFERENTIAL WBC COUNT Neutrophils: 50-62 %, Lymphocytes: 20-40 %, Eosinophils: 0 - 0.6 % , Monocytes: 0-10 % , Basophils: 0-2 %",
+                "PLATELEt COUNT Platelet Count: 150000-410000 cumm"
+            ]
+        }
+    ]
+}

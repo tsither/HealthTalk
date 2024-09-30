@@ -1,0 +1,53 @@
+{
+    "Date": "202X Dec",
+    "patient_information": {
+        "patient_id": "01234567389",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.8 million/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5 - 6.0 million/µL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "42.5 %",
+            "unit_of_measurement": "%",
+            "reference_range": "41.0 - 53.0 %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "91.7 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "82 - 100 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27.5 - 32.5 pg"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "240,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000 - 400,000/µL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "6.2 K/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5 - 11.0 K/µL"
+        }
+    ]
+}

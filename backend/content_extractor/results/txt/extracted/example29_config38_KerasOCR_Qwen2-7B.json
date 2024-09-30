@@ -1,0 +1,59 @@
+{
+    "Date": "02/12/202X",
+    "patient_information": {
+        "patient_id": "drlogyathabadrlogycom",
+        "patient_name": "Hiren Patel",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13, 17]"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Count",
+            "result_value": null,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[2.5x10^9 - 5.5x10^9 /mm^3]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[37, 46] %"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "5.75",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "87.75 g/dL",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[90, 130] %"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "27.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[11.5 - 14.5]%"
+        },
+        {
+            "test_name": "White Blood Cells (WBC) Count",
+            "result_value": null,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[4000 - 11000] /mm^3"
+        }
+    ]
+}

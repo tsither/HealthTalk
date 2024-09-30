@@ -1,0 +1,112 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 48,
+                "Hemogobia": 14.3,
+                "HMC": 29,
+                "Leucicos": 10.2,
+                "6N": 68,
+                "SE": 18,
+                "Eosin": 2
+            },
+            "unit_of_measurement": {
+                "Hematies": "x 10^9/L",
+                "Hemogobia": "%",
+                "HMC": "%",
+                "Leucicos": "x 10^6/L",
+                "6N": "%",
+                "SE": "%",
+                "Eosin": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biqurmica basica",
+            "result_value": {
+                "Glucosa": 5.0,
+                "Creaturina": 1.0,
+                "Colesterol": 220,
+                "Proteina": 66
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creaturina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglogina Alc",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT",
+            "result_value": 800,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "GPT",
+            "result_value": 900,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglogina totala",
+            "result_value": 28,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglogina directa (Estenicada)",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa Alcala",
+            "result_value": 50,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Alborwna",
+            "result_value": 23,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 70.0,
+                "max": 110.0
+            }
+        },
+        {
+            "test_name": "Bilirubina directa",
+            "result_value": 8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirubina indirecta",
+            "result_value": 5.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro (silt) cy nig/d",
+            "result_value": 41,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

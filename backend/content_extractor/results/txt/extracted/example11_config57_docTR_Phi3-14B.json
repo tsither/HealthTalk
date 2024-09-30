@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglo circulation (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": "BLOOD INDICES Packed Cell Volume (PCV)",
+            "unit_of_measurement": "mill/cumm %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "% fL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH Calculated MCHC Calcalates RDW WBC COUNT Total WBC count",
+            "result_value": 57.5,
+            "unit_of_measurement": "% cumm %",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": [
+                50,
+                31,
+                1,
+                7,
+                1
+            ],
+            "unit_of_measurement": "% cumm %",
+            "reference_range": [
+                "20-40",
+                "50-62",
+                "20-40",
+                "00-06",
+                "00-1"
+            ]
+        },
+        {
+            "test_name": "PLATELET COUNT Platelet Count",
+            "result_value": 9000,
+            "unit_of_measurement": "g/dl",
+            "reference_range": [
+                410000
+            ]
+        }
+    ],
+    "investigation_primary_sample_type": "HEMOGLOBIN Hemoglobin (Hb) RBC COUNT Total RBC count BLOOD INDICES Packed Cell Volume (PCV)",
+    "instruments": {
+        "automated_cell_counter": "Mindray 300"
+    }
+}

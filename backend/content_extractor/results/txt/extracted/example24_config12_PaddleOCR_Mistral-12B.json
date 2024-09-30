@@ -1,0 +1,38 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "paate",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": "5.5 million/cumm",
+                "WBC count": "87.75 thousand/cumm",
+                "Platelet count": "240 thousand/cumm"
+            },
+            "unit_of_measurement": {
+                "RBC": "million/cumm",
+                "WBC": "thousand/cumm",
+                "Platelet": "thousand/cumm"
+            },
+            "reference_range": {
+                "RBC": {
+                    "min": 3.5,
+                    "max": 6
+                },
+                "WBC": {
+                    "min": 4,
+                    "max": 17
+                },
+                "Platelet": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        }
+    ]
+}

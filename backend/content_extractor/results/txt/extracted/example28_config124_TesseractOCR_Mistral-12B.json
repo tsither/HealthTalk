@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Hipoteti Paciene",
+        "patient_name": null,
+        "patient_sex": "varon",
+        "patient_age": "&0 ans"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": "13.4 g/dL",
+                "Leu": "10.6 x10^9/L",
+                "AC": "6%",
+                "Baso": "29%",
+                "Eos": "6%",
+                "Neut": "55%",
+                "Mon": "4%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Biqurime",
+            "result_value": {
+                "Glucose": "95 mg/dL",
+                "Creatinine": "0.8 mg/dL",
+                "Uric Acid": "6.2 mg/dL",
+                "Bilirubin": "1.4 mg/dL",
+                "Albumin": "43 g/dL"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

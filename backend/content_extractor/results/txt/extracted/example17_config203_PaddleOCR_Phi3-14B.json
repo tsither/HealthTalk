@@ -1,0 +1,35 @@
+{
+    "Date": "xx-xx-xxxx",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC (White Blood Cell Count)",
+            "result_value": 7,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell Count)",
+            "result_value": 4,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_eanue": 9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": 0.7,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

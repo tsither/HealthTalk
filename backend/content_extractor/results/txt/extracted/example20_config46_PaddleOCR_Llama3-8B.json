@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "34.5"
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 15000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC S INDI He 16.6",
+            "result_value": 4500000,
+            "unit_of_measurement": "cells/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

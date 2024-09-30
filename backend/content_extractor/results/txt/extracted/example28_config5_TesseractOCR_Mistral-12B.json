@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_age": 60,
+        "patient_sex": null,
+        "patient_name": null,
+        "patient_id": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "48 x 109/fl",
+                "Hemoglobina": "14.3 g/dl",
+                "H.M.C.": "29 pg",
+                "Leucicitos": "10,2 x 106 /l (68N, 18 SE, 24L, 2M)"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioguimica basica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dl",
+                "Creatinina": "* mg/dl.",
+                "Colesterol": "220 mg/dl",
+                "Proteina": "66 g/dl",
+                "Hierro (UII)": "65 g/dl",
+                "Fertitina": "20 ng/mL",
+                "Hemoglogina Ac": "45 %",
+                "GoT": "80 u/l",
+                "GPT": "80 u/l",
+                "GGT": "100* ui",
+                "Bilirrubina total": "2.8 mg/dl",
+                "Bilirrubina directa (Esterificada)": "1.57 midi.",
+                "Fosfatasa Alcalina": "50 UL",
+                "Albtimina": "23 g/dl"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Creatinina": null,
+                "Colesterol": "mg/dl",
+                "Proteina": "g/dl",
+                "Hierro (UII)": "g/dl",
+                "Fertitina": "ng/mL",
+                "Hemoglogina Ac": "%",
+                "GoT": "u/l",
+                "GPT": "u/l",
+                "GGT": "ui",
+                "Bilirrubina total": "mg/dl",
+                "Bilirrubina directa (Esterificada)": "midi.",
+                "Fosfatasa Alcalina": "UL",
+                "Albtimina": "g/dl"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110.0)",
+                "Creatinina": null,
+                "Colesterol": "<240.0",
+                "Proteina": "(6.0 - 8.0)",
+                "Hierro (UII)": "(65.0 - 135.0)",
+                "Fertitina": "(40.0 - 120.0)",
+                "Hemoglogina Ac": "(3.8 - 5.5)",
+                "GoT": "(6-32)",
+                "GPT": "(7-33)",
+                "GGT": "(40-41)",
+                "Bilirrubina total": "(0.2-1)",
+                "Bilirrubina directa (Esterificada)": "(0.05 - 0.4)",
+                "Fosfatasa Alcalina": "(30 = 410)",
+                "Albtimina": "(3.40 - 4.80)"
+            }
+        }
+    ]
+}

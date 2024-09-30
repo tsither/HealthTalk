@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "101",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "85"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "10.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "31 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "3.5 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV) or Hematocrit",
+            "result_value": "0.36 L/L",
+            "unit_of_measurement": "L/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": "2% reference range: 0.5-1.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "0.5-1.5%"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.7 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "4.5 x 10^3/μL",
+            "unit_of_measurement": "x 10^3/μL",
+            "reference_range": "4-11 x 10^3/μL"
+        },
+        {
+            "test_name": "Differential Count of White Blood Cells",
+            "result_value": {
+                "Neutrophils": "75%",
+                "Lymphocytes": "20%",
+                "Eosinophils": "1%",
+                "Monocytes": "3%",
+                "Basophils": "0.5%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        }
+    ]
+}

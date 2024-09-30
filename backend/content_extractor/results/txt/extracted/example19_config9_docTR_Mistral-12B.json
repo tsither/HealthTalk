@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.25,
+            "unit_of_measurement": "million/cubic millimeter (mm³)",
+            "reference_range": "4.2 - 6.1"
+        },
+        {
+            "test_name": "HGB Level",
+            "result_value": 13.7,
+            "unit_of_measurement": "grams/deciliter (g/dL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC Ratio",
+            "result_value": 32,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.75,
+            "unit_of_measurement": "thousand/cubic millimeter (K/µL)",
+            "reference_range": null
+        }
+    ]
+}

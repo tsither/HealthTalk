@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 13.0,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4.0 - 5.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 32.8,
+            "unit_of_measurement": "pg",
+            "reference_range": "27- 32"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34 - 36"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 20,
+            "unit_of_measurement": "%",
+            "reference_range": "14.5 - 17.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "micron^3",
+            "reference_range": null
+        }
+    ]
+}

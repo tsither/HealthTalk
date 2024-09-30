@@ -1,0 +1,47 @@
+{
+    "Date": "02.12.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "11.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0 g/dL"
+        },
+        {
+            "test_name": "Neutrophil count",
+            "result_value": "3280",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-11000 cells/µL"
+        },
+        {
+            "test_name": "Lymphocyte count",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocyte count",
+            "result_value": "4.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophil count",
+            "result_value": "2.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophil count",
+            "result_value": "0.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "sedimentacion",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "hemograma",
+            "result_value": {
+                "monocitos": "sameall",
+                "linfocitos": "5"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "enzimaticas",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "bioquimica",
+            "result_value": {
+                "triglicerides": "x 2"
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "pruebas colesitekol",
+            "result_value": {
+                "lomocisteina": "e e s",
+                "globulak": "e"
+            },
+            "unit_of_measurement": "mg/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "proteinas",
+            "result_value": {
+                "grentinina": "s",
+                "proteinast": "s y e"
+            },
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "t s octes",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

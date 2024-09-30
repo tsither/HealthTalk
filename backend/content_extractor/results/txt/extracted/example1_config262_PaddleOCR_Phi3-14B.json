@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 87.75,
+                "RBC count": null,
+                "Platelet count": null,
+                "WBC count": null,
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "RBC count": "million/uL",
+                "Platelet count": "thousand/uL",
+                "WBC count": "thousand/uL",
+                "Lymphocytes": "%",
+                "Neutrophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "Hemoglovee": null,
+                "RBC count": null,
+                "Platelet count": null,
+                "WBC count": null,
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Monocyees": null,
+                "Basophils": null
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                13.0,
+                17.0
+            ]
+        }
+    ]
+}

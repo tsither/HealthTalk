@@ -1,0 +1,65 @@
+{
+    "Date": "02/02/xxxx",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count CBC",
+            "result_value": "Hemoglobin ghbj: 125 (low)",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal range: 130-170 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "Total red blood cell count: 5.2 (a57)",
+            "unit_of_measurement": "millions/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed cell volume PCV",
+            "result_value": "Pcv: 57.5 (high)",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal range: <50%"
+        },
+        {
+            "test_name": "Mean corpuscular volume MCV",
+            "result_value": "Imcvy: 87.75",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte sedimentation rate ESR",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "Total white blood cell count: 5.3 thousand/cumm",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": [
+                "Neutrophils: 60%",
+                "Lymphocytes: 62% (31)",
+                "Monocytes: x 0.00",
+                "Basophils: 10%",
+                "Eosinophils: z 0.00"
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "Platelet count: ts thousand/cumm (borderline)",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

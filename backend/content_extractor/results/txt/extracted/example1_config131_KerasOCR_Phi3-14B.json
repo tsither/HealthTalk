@@ -1,0 +1,71 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 39
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count Total",
+            "result_value": 5.2,
+            "unit_of_measurement": "millicumm^3/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_valuelow": 45.0,
+            "unit_of_measurement": "vol%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Emovement Velocity (MVE)",
+            "result_value": 87.5,
+            "unit_of_measurement": "fl/s",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV)",
+            "result_value": 90.2,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count Total",
+            "result_value": 4567,
+            "unit_of_measurement": "mm^3/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_values": [
+                {
+                    "neutrophils": 60,
+                    "reference_range": "45-70"
+                },
+                {
+                    "lymphocytes": 20,
+                    "reference_range": "18-42"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300000,
+            "unit_of_measurement": "mm^3/mcL"
+        }
+    ]
+}

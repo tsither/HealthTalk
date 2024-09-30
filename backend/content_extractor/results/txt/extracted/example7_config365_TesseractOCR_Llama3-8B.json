@@ -1,0 +1,56 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 32
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7.0-15.0 g/dL"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140 mg/dL"
+        },
+        {
+            "test_name": "Electrolyte Panel (Na, K, Cl)",
+            "result_value": {
+                "Na+": 135,
+                "K+": 4.5,
+                "Cl-": 100
+            },
+            "unit_of_measurement": [
+                null,
+                null,
+                null
+            ],
+            "reference_range": {
+                "Na+": "135-145 mmol/L",
+                "K+": "3.5-5.0 mmol/L",
+                "Cl-": "95-110 mmol/L"
+            }
+        },
+        {
+            "test_name": "Liver Function Tests (ALT, AST)",
+            "result_value": {
+                "ALT": 20,
+                "AST": 30
+            },
+            "unit_of_measurement": [
+                null,
+                null
+            ],
+            "reference_range": {
+                "ALT": "0-40 IU/L",
+                "AST": "0-40 IU/L"
+            }
+        }
+    ]
+}

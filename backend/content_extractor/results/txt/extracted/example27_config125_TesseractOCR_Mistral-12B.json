@@ -1,0 +1,91 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "RECUENTO DE GLÓBULOS ROJOS": "| 4.960.000",
+                "HEMATOCRITO": "| 44%",
+                "HEMOGLOBINA%": "| 148",
+                "LEUCOCITOS /mm³": "| 3270",
+                "EOSINOFILOS": "| 2",
+                "BASOFILOS": "| 1",
+                "SEGMENTADOS": "| 5a",
+                "MONOcITOS": "| 10",
+                "LINEOCITOS": "| 36",
+                "PLAQUETAS /mm³": "| 138.000",
+                "VELOCIDAD DE SEDIMENTACION": "| 2"
+            },
+            "unit_of_measurement": {
+                "RECUENTO DE GLÓBULOS ROJOS": "/mm³",
+                "HEMATOCRITO": "%",
+                "HEMOGLOBINA%": "%",
+                "LEUCOCITOS /mm³": "/mm³",
+                "EOSINOFILOS": "%",
+                "BASOFILOS": "%",
+                "SEGMENTADOS": "%",
+                "MONOcITOS": "%",
+                "LINEOCITOS": "%",
+                "PLAQUETAS /mm³": "/mm³",
+                "VELOCIDAD DE SEDIMENTACION": "mm/hora"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioguimicasérica",
+            "result_value": {
+                "GLUCOSA": "| 87 mg%",
+                "COLESTEROL": "| 469 mg%",
+                "HDL": "| 60 mg%",
+                "LDL": "| 100 mg%",
+                "TRIGLICERIDOS": "| 45 me%",
+                "UREA": "| 49 mg%",
+                "AC. URICO": "| 307 µmol/L",
+                "HIERRO": "| 145 µg%",
+                "CREATININA": "| 6 mg%",
+                "HOMOCISTEINA": "| 7,39 mmol/L",
+                "PROTEINAS TOT": "| 62-82%",
+                "PRUEBAS ENZIMATICAS VN. GoT": "| 40 U/l",
+                "GPT": "| 434 U/l",
+                "GT": "| 45 mg%"
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg%",
+                "COLESTEROL": "mg%",
+                "HDL": "mg%",
+                "LDL": "mg%",
+                "TRIGLICERIDOS": "%",
+                "UREA": "mg%",
+                "AC. URICO": "µmol/L",
+                "HIERRO": "µg%",
+                "CREATININA": "mg%",
+                "HOMOCISTEINA": "mmol/L",
+                "PROTEINAS TOT": "%",
+                "PRUEBAS ENZIMATICAS VN. GoT": "U/l",
+                "GPT": "U/l",
+                "GT": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": "| 235 mEq/L",
+                "POTASIO": "| 402 mEq/L",
+                "CLORO": "| 98 mEq/L"
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "POTASIO": "mEq/L",
+                "CLORO": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

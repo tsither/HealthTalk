@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.9"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": "67.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "@3-101 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "32.5-34.8"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150006",
+            "unit_of_measurement": "cu/mm^3",
+            "reference_range": "150-400"
+        }
+    ]
+}

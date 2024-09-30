@@ -1,0 +1,35 @@
+{
+    "Date": "XXXX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 52
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 32.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT (White Blood Cell Count)",
+            "result_value": 50000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophil COUNT (Absolute Neutrophil Count)",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

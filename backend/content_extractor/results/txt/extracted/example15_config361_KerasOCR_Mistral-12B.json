@@ -1,0 +1,23 @@
+{
+    "Date": "05.06.22",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet distribution width",
+            "result_value": 15.6,
+            "unit_of_measurement": "%",
+            "reference_range": "<20"
+        },
+        {
+            "test_name": "Mean platelet volume",
+            "result_value": 9.8,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

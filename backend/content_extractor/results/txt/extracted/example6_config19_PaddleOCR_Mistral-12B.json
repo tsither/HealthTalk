@@ -1,0 +1,58 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "Age : 21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5 Low",
+                "Total RBC count": "5.2 7P/6",
+                "Packed Cell Volume (PCV)": "4.5",
+                "Mean Corpuscular Volume (McV)": "57.5 High",
+                "MCH": "27.2 fL",
+                "RDW": "32.8 pg",
+                "Total WBC count": "11.6 -14.0 tholog",
+                "Neutrophils": "9000 %",
+                "Lymphocytes": "60 Drlogy",
+                "Eosinophils": "31",
+                "Monocytes": "20 - 40 %",
+                "Basophils": "7",
+                "Platelet Count": "150000 Borderline"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "mill/cumm",
+                "Mean Corpuscular Volume (McV)": "fL",
+                "MCH": "pg",
+                "RDW": "pg",
+                "Total WBC count": "cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Total RBC count": "4.5 - 5.5",
+                "Mean Corpuscular Volume (McV)": "40-50",
+                "MCH": "83 - 101 % Calculated",
+                "RDW": "32.5 - 34.5",
+                "Total WBC count": "4000-11000",
+                "Neutrophils": "50 - 62",
+                "Lymphocytes": "1 - 47",
+                "Eosinophils": "0 - 8",
+                "Monocytes": "3 - 9",
+                "Basophils": "0 - 3",
+                "Platelet Count": "150000 - 410000"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 32.8,
+                "Platelet count": 274000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Platelet count": "/µL"
+            },
+            "reference_range": {
+                "Hemoglobin": "13.0 - 17.0 g/dL",
+                "Hematocrit": "40 - 52%",
+                "Platelet count": "150000 - 450000 /µL"
+            }
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": {
+                "MCV": 90,
+                "MCH": 62
+            },
+            "unit_of_measurement": {
+                "MCV": "fl",
+                "MCH": "pg"
+            },
+            "reference_range": null
+        }
+    ]
+}

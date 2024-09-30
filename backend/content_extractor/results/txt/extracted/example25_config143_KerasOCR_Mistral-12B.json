@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 40,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5 - 11"
+        },
+        {
+            "test_name": "Hematies",
+            "result_value": 16,
+            "unit_of_measurement": "%",
+            "reference_range": "47 - 59%"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12 - 18"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "42 - 52%"
+        },
+        {
+            "test_name": "VGM",
+            "result_value": 89.6,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": "3.0 pg",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": 123456,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 38
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 1.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-1.2"
+        },
+        {
+            "test_name": "Direct Bilirubin",
+            "result_value": 0.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-0.4"
+        },
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": 125,
+            "unit_of_measurement": "U/L",
+            "reference_range": "48-113"
+        }
+    ]
+}

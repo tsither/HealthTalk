@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-10",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 48.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 51.0"
+        },
+        {
+            "test_name": "Lactate Dehydrogenase (LD)",
+            "result_value": 229,
+            "unit_of_measurement": "U/L",
+            "reference_range": "140 - 240"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Sodium",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[136-145]"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": 3.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[3.5-5.0]"
+        },
+        {
+            "test_name": "Chloride",
+            "result_value": 96,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[95-110]"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0.7-1.2]"
+        }
+    ]
+}

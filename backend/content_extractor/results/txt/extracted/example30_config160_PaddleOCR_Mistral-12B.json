@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555 Instant Primary",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "55 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential count",
+            "result_value": "40",
+            "unit_of_measurement": "%",
+            "reference_range": "31 - 62%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "90000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000 - 450,000"
+        }
+    ]
+}

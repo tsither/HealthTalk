@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "H1H1316445",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "Hematies": "4.75",
+                "Hemoglobina": "13.3",
+                "Hematocrito": "12.0",
+                "V.C.M.": "83.1",
+                "H.C.M.": "80.0",
+                "C.H.C.M.": "27.9",
+                "A.D.E.": "16.0"
+            },
+            "unit_of_measurement": {
+                "Hematies": "10E6/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "g/dL",
+                "V.C.M.": "%",
+                "H.C.M.": "fL",
+                "C.H.C.M.": "pg",
+                "A.D.E.": "g/dL"
+            },
+            "reference_range": {
+                "Hematies": null,
+                "Hemoglobina": "13.3",
+                "Hematocrito": null,
+                "V.C.M.": "83.1",
+                "H.C.M.": "80.0",
+                "C.H.C.M.": null,
+                "A.D.E.": null
+            }
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": "208",
+                "V.P.M.": "9.1"
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "10E3/L",
+                "V.P.M.": "fL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": {
+                "LEUCOCITOS": "4.2",
+                "Neu": "2.1",
+                "Lin": "1.5",
+                "Mon": "-0.5",
+                "Eos": "0.1",
+                "Bas": "0.0"
+            },
+            "unit_of_measurement": {
+                "LEUCOCITOS": "10E3/L",
+                "Neu": "10E3/L",
+                "Lin": "10E3/L",
+                "Mon": "10E3/L",
+                "Eos": "10E3/L",
+                "Bas": "10E3/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

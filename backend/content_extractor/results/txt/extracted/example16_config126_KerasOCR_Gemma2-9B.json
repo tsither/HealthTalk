@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "shivam shah",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "32 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "140-170 g/L"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5,450,000",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": "81 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cell count (WBC)",
+            "result_value": "150,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

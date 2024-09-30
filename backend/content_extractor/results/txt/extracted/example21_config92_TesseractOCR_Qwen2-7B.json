@@ -1,0 +1,23 @@
+{
+    "Date": "20/12/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2K/μL, RBC: 4.8M/μL, Hgb: 13.9g/dL",
+            "unit_of_measurement": "/μL or g/dL",
+            "reference_range": "WBC: 4-10K/μL, RBC: 4.5-5.5M/μL, Hgb: 12-16g/dL"
+        },
+        {
+            "test_name": "Serum Electrolyte Panel",
+            "result_value": "Na+: 139mEq/L, K+: 4.0mEq/L, Cl-: 100mEq/L",
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "Na+: 135-145mEq/L, K+: 3.6-5.2mEq/L, Cl-: 98-106mEq/L"
+        }
+    ]
+}

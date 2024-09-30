@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "HemogloBin",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.8-17.2]"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[40.7-50.3%]"
+        }
+    ]
+}

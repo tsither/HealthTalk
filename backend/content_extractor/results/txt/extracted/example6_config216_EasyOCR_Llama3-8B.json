@@ -1,0 +1,71 @@
+{
+    "Date": "02/11/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Regiglored Oz",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal: 14-17 g/dL, Low: < 13 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "5.55 million/mm^3",
+            "unit_of_measurement": "million/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "75%",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 40-50%"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "33.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "1.8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "15,000 cells/mm^3",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "Normal: 4,500-11,000 cells/mm^3"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "62%",
+                "Lymphocytes": "31%",
+                "Eosinophils": "6%",
+                "Monocytes": "10%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.5 million/mm^3",
+            "unit_of_measurement": "million/mm^3",
+            "reference_range": "Normal: 1.5-4.5 million/mm^3"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "Date": "02/12/20xx",
+    "patient_information": {
+        "patient_id": "091 2345678",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 125 gbj; RBC count: 5245155 milliy count; PCVI packed cell volume: 57.5%",
+            "unit_of_measurement": [
+                "g/dL",
+                "milliy count",
+                "%"
+            ],
+            "reference_range": {
+                "hemoglobin": "[130, 170] g/dL",
+                "rbc_count": "[4000000, 6000000] milliy count",
+                "pcvi": "[40, 50] %"
+            }
+        }
+    ]
+}

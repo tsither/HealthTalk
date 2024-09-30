@@ -1,0 +1,25 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 5 g/dL",
+                "Total RBC count: 4.5 million/µL",
+                "Platelet count: 150,000 /µL"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Hemoglobin: 13-18 g/dL (male)",
+                "Total RBC count: 4.7-6.1 million/µL",
+                "Platelet count: 150,000 - 450,000 /µL"
+            ]
+        }
+    ]
+}

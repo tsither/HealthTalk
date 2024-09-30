@@ -1,0 +1,77 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 8.2,
+                "RBC": 5.0,
+                "HGB": 13.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "K/µL",
+                "RBC": "M/µL",
+                "HGB": "g/dL",
+                "PLT": "K/µL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10.0
+                },
+                "RBC": {
+                    "min": 4.5,
+                    "max": 6.0
+                },
+                "HGB": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "AST": 28,
+                "ALT": 35,
+                "ALP": 75,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": {
+                    "min": 8,
+                    "max": 30
+                },
+                "ALT": {
+                    "min": 7,
+                    "max": 56
+                },
+                "ALP": {
+                    "min": 45,
+                    "max": 125
+                },
+                "TBIL": {
+                    "min": 0.3,
+                    "max": 1.2
+                }
+            }
+        }
+    ]
+}

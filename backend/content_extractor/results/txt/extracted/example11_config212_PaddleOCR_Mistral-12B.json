@@ -1,0 +1,38 @@
+{
+    "Date": "03.11.22",
+    "patient_information": {
+        "patient_id": "8L957E2",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC count": 87.75,
+                "RBC count": 4.5,
+                "HGB": 13.0,
+                "HCT": 40.0,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "PLT count": 273,
+                " Neutrophils (%)": 58.0,
+                "Lymphocytes (%)": 31.0,
+                "Monocytes (%)": 8.0,
+                "Eosinophils (%)": 1.0,
+                "Basophils (%)": 2.0
+            },
+            "unit_of_measurement": {
+                "WBC count": "K/μL",
+                "RBC count": "M/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT count": "K/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

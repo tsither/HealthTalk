@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "4.38673",
+            "unit_of_measurement": "10^6/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "41",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "92.5",
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                "78-100",
+                "86-103"
+            ]
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.5",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "12.0",
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "11.5-14.5",
+                "11.7-13.8"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "325",
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "7.75",
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": "62.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Rocco",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "PLT": 456789,
+                "HGB": 11.6,
+                "HCT": 32.5,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "LYM%": null,
+                "LYM#": null,
+                "MONO%": null,
+                "MONO#": null,
+                "GRAN%": null,
+                "GRAN#": null
+            },
+            "unit_of_measurement": {
+                "WBC": " cells/mm³",
+                "PLT": " cells/mm³",
+                "HGB": " g/dL",
+                "HCT": "%",
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "LYM%": "%",
+                "LYM#": "#",
+                "MONO%": "%",
+                "MONO#": "#",
+                "GRAN%": "%",
+                "GRAN#": "#"
+            },
+            "reference_range": {
+                "WBC": "4000-11000",
+                "PLT": null,
+                "HGB": "11.6 - 14.0",
+                "HCT": "32.5 - 34.5",
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "LYM%": null,
+                "LYM#": null,
+                "MONO%": null,
+                "MONO#": null,
+                "GRAN%": null,
+                "GRAN#": null
+            }
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 9.5,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "Reference Value Z8-LZ": "4.5 - 5.5"
+            }
+        },
+        {
+            "test_name": "Platelet Crit (PCT)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

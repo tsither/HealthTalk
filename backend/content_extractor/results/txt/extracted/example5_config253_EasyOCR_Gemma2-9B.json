@@ -1,0 +1,29 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": "125,000",
+            "unit_of_measurement": "per microliter",
+            "reference_range": "170,000 - 450,000 per microliter"
+        },
+        {
+            "test_name": "Mean platelet volume (MPV)",
+            "result_value": "12.5 fl",
+            "unit_of_measurement": "femtoliters",
+            "reference_range": "7.8 - 11.3 fl"
+        },
+        {
+            "test_name": "Platelet distribution width (PDW)",
+            "result_value": "17.0%",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        }
+    ]
+}

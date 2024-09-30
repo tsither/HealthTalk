@@ -1,0 +1,56 @@
+{
+    "Date": "02 Oct, 202x",
+    "patient_information": {
+        "patient_id": "6849275210",
+        "patient_name": "wo3ASoap@qe|q)edA3ojp",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "12.5",
+                "RBC": "4.5",
+                "Hb": "11",
+                "Hct": "37"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/uL",
+                "RBC": "mill/cumm",
+                "Hb": "g/dL",
+                "Hct": "%"
+            },
+            "reference_range": {
+                "WBC": null,
+                "RBC": null,
+                "Hb": "13.0- 17.0 g/dL",
+                "Hct": "40.0-52.0%"
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "37",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (OMLT.8MLT)",
+            "result_value": "27.2",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Basophils": null,
+                "Monocytes": null,
+                "Lymphocytes": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

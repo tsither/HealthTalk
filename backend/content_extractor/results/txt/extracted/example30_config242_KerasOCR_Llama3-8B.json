@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012245679",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "27 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 52,
+            "unit_of_measurement": "× 10^12/L",
+            "reference_range": "4.32-5.72 × 10^12/L"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 35.75,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5.28,
+            "unit_of_measurement": "× 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC",
+            "result_value": {
+                "Neutrophils": 52,
+                "Lymphocytes": 90.0,
+                "Eosinophils": 1.64,
+                "Monocytes": 5.45,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "× 10^9/L"
+        }
+    ]
+}

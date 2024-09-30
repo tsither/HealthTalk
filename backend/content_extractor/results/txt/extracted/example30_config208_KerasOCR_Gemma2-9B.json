@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "RBC count total RBC",
+            "result_value": "5.245 x 10^6",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.5-5.5 x 10^6 cells/µL"
+        },
+        {
+            "test_name": "PCV (packed volume)",
+            "result_value": "51.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (corpuscular volume)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCH (mean corpuscular hemoglobin)",
+            "result_value": "27.2 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0-32.0 pg"
+        },
+        {
+            "test_name": "MCHC (mean corpuscular hemoglobin concentration)",
+            "result_value": "32.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0-36.0 g/dL"
+        },
+        {
+            "test_name": "RDW (red cell distribution width)",
+            "result_value": "14.0%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "9.0 x 10^3",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": "Neutrophils: 60%, Lymphocytes: 20%, Eosinophils: 10%, Monocytes: 8%, Basophils: 2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150,000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150,000-450,000 cells/µL"
+        }
+    ]
+}

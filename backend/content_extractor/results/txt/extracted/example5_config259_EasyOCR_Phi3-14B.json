@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Mumbai",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "blood platelet count",
+            "result_value": 125,
+            "unit_of_measurement": "platelets/nL",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell count",
+            "result_value": 4.87,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                3.5,
+                10.5
+            ]
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 42.5,
+            "unit_of_measurement": "g/dt",
+            "reference_range": "13.0- 47.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "x10° cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed ivolume",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 9000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "5,000 - 10,000"
+        }
+    ]
+}

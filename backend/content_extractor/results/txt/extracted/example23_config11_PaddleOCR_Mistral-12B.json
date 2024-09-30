@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Vimal Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": "4.5 - 5.5 K/uL",
+                "RBC COUNT": "4.0 - 8.3 M/uL",
+                "HGB": "12.5 g/dL",
+                "HCT": "37 %",
+                "PLT COUNT": "150,000 - 450,000/uL"
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "K/uL",
+                "RBC COUNT": "M/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT COUNT": "/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

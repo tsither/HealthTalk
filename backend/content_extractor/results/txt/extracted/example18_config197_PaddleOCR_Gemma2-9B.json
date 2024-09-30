@@ -1,0 +1,41 @@
+{
+    "Date": "02Dec, 202x 05:00 PM",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 10.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "11.6 - 14.0 x10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 69576,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0- 17.0 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 410000 /mm^3"
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "27 - 32 pg"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 32.1,
+            "unit_of_measurement": "%",
+            "reference_range": "32.5 - 34.5 %"
+        }
+    ]
+}

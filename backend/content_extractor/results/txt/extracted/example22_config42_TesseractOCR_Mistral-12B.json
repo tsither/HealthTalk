@@ -1,0 +1,23 @@
+{
+    "Date": "01.03.2023",
+    "patient_information": {
+        "patient_id": "P20230301-001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 7.5,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "4.5-11.0 10^3/µL"
+        }
+    ]
+}

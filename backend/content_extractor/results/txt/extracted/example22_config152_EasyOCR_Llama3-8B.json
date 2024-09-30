@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456739",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "105",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-16.5 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.20x10^12/L",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "29.5 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31 pg/cell"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.8%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17.3x10^9/L",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "4.5-11.0x10^9/L"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "350x10^9/L",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "150-450x10^9/L"
+        }
+    ]
+}

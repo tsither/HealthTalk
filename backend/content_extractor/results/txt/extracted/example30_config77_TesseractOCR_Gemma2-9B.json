@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "4.50",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.0-5.5 x10^12/L"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "7.80",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0-10.0 x10^9/L"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "275",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

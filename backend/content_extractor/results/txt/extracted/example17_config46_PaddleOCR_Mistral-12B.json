@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec COUNT",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 2,
+            "unit_of_measurement": "00 x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-17 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "m",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PCM (Prothrombin Time)",
+            "result_value": "12.5",
+            "unit_of_measurement": "(m)",
+            "reference_eange": "null"
+        },
+        {
+            "test_name": "CDC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": "mt",
+            "reference_range": "(acv)"
+        },
+        {
+            "test_name": "ACV (Anticoagulant Control Value)",
+            "result_value": 27.2,
+            "unit_of_measurement": null,
+            "reference_eange": "null"
+        },
+        {
+            "test_name": "Bordontine",
+            "result_value": 0.1,
+            "unit_of_measurement": "I Lab Tech",
+            "reference_range": null
+        }
+    ]
+}

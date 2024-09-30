@@ -1,0 +1,23 @@
+{
+    "Date": "01.02.23",
+    "patient_information": {
+        "patient_id": "PAT123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 6.0,
+            "unit_of_measurement": "s/ss",
+            "reference_range": null
+        },
+        {
+            "test_name": "HbA1c",
+            "result_value": 8.5,
+            "unit_of_measurement": "%",
+            "reference_range": "<5.7"
+        }
+    ]
+}

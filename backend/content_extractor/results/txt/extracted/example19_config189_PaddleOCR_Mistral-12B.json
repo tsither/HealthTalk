@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Jo L",
+        "patient_sex": null,
+        "patient_age": "360d"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 87.75,
+                "HGB": 12.5,
+                "PLT": 57.5,
+                "PCV": 32.8,
+                "RDW": 13.6
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "PCV": "%",
+                "RDW": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

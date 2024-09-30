@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 5.2; RBC: 4.8; HGB: 13.6; HCT: 0.41; MCV: 88",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 210; HDL-Cholesterol: 65; LDL-Cholesterol: 140",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Ms Patel",
+        "patient_sex": "Female",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": 130,
+                    "high": 170
+                },
+                "RBC count": {
+                    "low": 4.5,
+                    "high": 5.5
+                },
+                "Total RSC count": {
+                    "low": 3.92,
+                    "high": 5.04
+                },
+                "Packed Cell Volume (PCV)": {
+                    "low": 0.4,
+                    "high": 0.5
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "low": 80,
+                    "high": 100
+                },
+                "Mean Corpuscular Hemoglobin (MCH)": {
+                    "low": 27,
+                    "high": 32
+                },
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": {
+                    "low": 31.5,
+                    "high": 35
+                },
+                "Red Cell Distribution Width (RDW)": {
+                    "low": 11.6,
+                    "high": 14.6
+                },
+                "Total White Blood Cell (WBC) count": {
+                    "low": 0.4,
+                    "high": 10.8
+                },
+                "Differential WBC count": {
+                    "Neutrophils": {
+                        "low": 50,
+                        "high": 62
+                    },
+                    "Lymphocytes": {
+                        "low": 20,
+                        "high": 40
+                    },
+                    "Eosinophils": {
+                        "low": 0,
+                        "high": 6
+                    },
+                    "Monocytes": {
+                        "low": 0,
+                        "high": 8
+                    },
+                    "Basophils": {
+                        "low": 0,
+                        "high": 2
+                    }
+                },
+                "Platelet count": {
+                    "low": 1.5,
+                    "high": 4.5
+                }
+            }
+        }
+    ]
+}

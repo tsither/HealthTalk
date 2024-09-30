@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Erythrocyte Count Q",
+            "result_value": 4.0,
+            "unit_of_measurement": "millions per microliter",
+            "reference_range": "3.5-5.5 millions per microliter"
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.7,
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90.0,
+            "unit_of_measurement": "femtoliters per cell",
+            "reference_range": "80-100 femtoliters per cell"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.3-14.4%"
+        }
+    ]
+}

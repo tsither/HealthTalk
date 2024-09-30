@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "105",
+        "patient_name": "Yash Smart Patel",
+        "patient_sex": "Male",
+        "patient_age": "17 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.2 (total) / 4.31 (packed)",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.32 - 5.72 x10^12/L"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27.8",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32 - 36 g/dL"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": "37-48%"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "5750",
+            "unit_of_measurement": null,
+            "reference_range": "4500 - 11000 cells/μL"
+        },
+        {
+            "test_name": "RBC count differential",
+            "result_value": {
+                "Neutrophils": "75.0%",
+                "Lymphocytes": "17.0%",
+                "Eosinophils": "3.2%",
+                "Monocytes": "4.5%",
+                "Basophils": "0.5%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "35000",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150000 - 400000 x10^9/L"
+        }
+    ]
+}

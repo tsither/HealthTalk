@@ -1,0 +1,35 @@
+{
+    "Date": "not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 125,
+            "unit_of_measurement": "mL of blood",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 860,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL] g/dL"
+        },
+        {
+            "test_name": "High Range Hb (Ferritin)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "170 - 1504 ng/mL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL] /L"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test",
+            "result_value": 0.8,
+            "unit_of_measurement": "% Hemoglobin",
+            "reference_range": "37-52"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 4500,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        }
+    ]
+}

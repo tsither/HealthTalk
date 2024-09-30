@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Ellzai Yash Ma Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 4.54,
+            "unit_of_measurement": "Million/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "High PCV, low MCV",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 37.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 11.6,
+            "unit_of_measurement": "Thousand/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 60,
+                "Lymphocytes": 41,
+                "Eosinophils": 0.6,
+                "Monocytes": 10,
+                "Basophils": 0.2
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "Per Microliter",
+            "reference_range": "normal"
+        }
+    ]
+}

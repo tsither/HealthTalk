@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "B987654",
+        "patient_name": "Jane Smith",
+        "patient_sex": "F",
+        "patient_age": 32
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "thousands/mm3",
+            "reference_range": "4.0-5.5"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": 162,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "90-200"
+        }
+    ]
+}

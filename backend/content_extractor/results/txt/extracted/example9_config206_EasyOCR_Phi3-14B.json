@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematology",
+            "result_value": 125.0,
+            "unit_of_measurement": "%",
+            "reference_range": "36-48%"
+        },
+        {
+            "test_name": "Reticiculocytes",
+            "result_value": 0.1,
+            "unit_of_measurement": "percent",
+            "reference_range": "0.5 - 2.5%"
+        }
+    ]
+}

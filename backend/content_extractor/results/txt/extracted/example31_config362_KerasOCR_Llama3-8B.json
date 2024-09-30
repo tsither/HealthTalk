@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Oxidized Coenzyme Q10 (CoQ10) level",
+            "result_value": 80,
+            "unit_of_measurement": "%",
+            "reference_range": "50-150"
+        },
+        {
+            "test_name": "D-dimer",
+            "result_value": 55,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "C-Reactive Protein (CRP)",
+            "result_value": 8,
+            "unit_of_measurement": "mg/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Coenzyme Q10 (CoQ10) level",
+            "result_value": 80,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

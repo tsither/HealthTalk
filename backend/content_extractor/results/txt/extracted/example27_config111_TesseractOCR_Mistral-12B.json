@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA RECUENTO GLOBULAR Y FORMULA LEUCOCITARIA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": 12,
+            "unit_of_measurement": "mm/hora",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "TRIGLICERIDOS": 45,
+                "COLESTEROL": 286,
+                "HOMOCISTEINA": 1.739
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "TRIGLICERIDOS": "mg/dL",
+                "COLESTEROL": "mg/dL",
+                "HOMOCISTEINA": "mmol/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "PROTEINAS TOTALES",
+            "result_value": 62,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "CLORO": 98,
+                "POTASIO": 4.92
+            },
+            "unit_of_measurement": {
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "thcarei 0123456789",
+        "patient_name": "age m complex patel instant",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 8.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell (RBC) count",
+            "result_value": null,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 81.3,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell distribution width (RDW)",
+            "result_value": 13.7,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell (WBC) count",
+            "result_value": 2.7245,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential WBC counts",
+            "result_value": [
+                {
+                    "type": "neutrophils",
+                    "percentage": 55
+                },
+                {
+                    "type": "lymphocytes",
+                    "percentage": 40.136
+                },
+                {
+                    "type": "eosinophils",
+                    "count": 27
+                },
+                {
+                    "type": "monocytes",
+                    "count": 27
+                },
+                {
+                    "type": "basophils",
+                    "count": 5
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 345.1,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

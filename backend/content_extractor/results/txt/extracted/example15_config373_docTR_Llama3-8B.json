@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "LDH",
+            "result_value": 245,
+            "unit_of_measurement": "U/L",
+            "reference_range": "40-250"
+        },
+        {
+            "test_name": "CK-MB",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "AST",
+            "result_value": 22,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-40"
+        },
+        {
+            "test_name": "GOT",
+            "result_value": 55,
+            "unit_of_measurement": "U/L",
+            "reference_range": "8-32"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "15.0",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-6"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "75",
+            "unit_of_measurement": "g/l",
+            "reference_range": "130-180"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "240",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-400"
+        }
+    ]
+}

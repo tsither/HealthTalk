@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CO2",
+            "result_value": 35,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "(21-32 mmol/L)"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plts",
+            "result_value": 235,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "(140-400 x10^9/L)"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell (WBC) Count": 5200,
+                "Red Blood Cell (RBC) Count": 4100000,
+                "Hemoglobin (Hb) Concentration": 13.6,
+                "Hematocrit (HCT)": 37.2,
+                "Mean Corpuscular Volume (MCV)": 83.5,
+                "Platelet Count": 272000
+            },
+            "unit_of_measurement": {
+                "White Blood Cell (WBC) Count": "/cu mm",
+                "Red Blood Cell (RBC) Count": "mill/cu mm",
+                "Hemoglobin (Hb) Concentration": "g/dL",
+                "Hematocrit (HCT)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Platelet Count": "/cu mm"
+            },
+            "reference_range": {
+                "White Blood Cell (WBC) Count": "4000-11000 /cu mm",
+                "Red Blood Cell (RBC) Count": "4.5-6.2 mill/cu mm",
+                "Hemoglobin (Hb) Concentration": "13.6-17.2 g/dL",
+                "Hematocrit (HCT)": "40%-50%",
+                "Mean Corpuscular Volume (MCV)": "80-100 fl",
+                "Platelet Count": "150000-400000 /cu mm"
+            }
+        }
+    ]
+}

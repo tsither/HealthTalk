@@ -1,0 +1,69 @@
+{
+    "Date": "202x/05/05",
+    "patient_information": {
+        "patient_id": "drlogy",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": 55,
+        "patient_care": "primary thcare"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "rbc",
+            "reference_range": "normal"
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": null,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc volume",
+            "result_value": 0.912345678,
+            "unit_of_measurement": "mcvy",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": 6895,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 130,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": [
+                "low",
+                "borderline"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "01234s6789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "27 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "130",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "95-17 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.5t",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "52",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential",
+            "result_value": " neutrophils 50%, lymphocytes 45%, monocytes 3%, eosinophils 2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "4007t",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

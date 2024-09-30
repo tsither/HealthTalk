@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "0006",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "555 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "13.0 - 17.0",
+            "unit_of_measurement": "Neutr count",
+            "reference_range": "27.2"
+        },
+        {
+            "test_name": "Mean Blood MCe",
+            "result_value": "12.5",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "689578",
+            "unit_of_measurement": "(Hb)",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "5.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

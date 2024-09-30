@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2,
+                    "unit": "mill/cumm",
+                    "reference_range": "4.5-5.5"
+                },
+                {
+                    "name": "% Packed Cell Volume (PCV)",
+                    "value": 57.5,
+                    "unit": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit": "fl",
+                    "reference_range": "83-101"
+                },
+                {
+                    "name": "MCH",
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": "627-32"
+                },
+                {
+                    "name": "% MCHC",
+                    "value": 32.8,
+                    "unit": "%",
+                    "reference_range": "32.5 - 34.5"
+                },
+                {
+                    "name": "Total WBC count",
+                    "value": 5.8,
+                    "unit": "mill/cumm"
+                },
+                {
+                    "name": "Neutrophils (%)",
+                    "value": 60
+                },
+                {
+                    "name": "Lymphocytes (%)",
+                    "value": 21
+                },
+                {
+                    "name": "Platelet Count",
+                    "value": 150000,
+                    "unit": "cumm",
+                    "reference_range": "150000 - 410000"
+                }
+            ]
+        }
+    ]
+}

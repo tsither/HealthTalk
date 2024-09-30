@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "d-dimer",
+            "result_value": 1.11,
+            "unit_of_measurement": "ug/mL",
+            "reference_range": "0-10"
+        },
+        {
+            "test_name": "Ionized Osmolality",
+            "result_value": -10,
+            "unit_of_measurement": "mOsm/kg",
+            "reference_range": "140-300"
+        },
+        {
+            "test_name": "Lactate",
+            "result_value": 9.1,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0.5-2.3"
+        }
+    ]
+}

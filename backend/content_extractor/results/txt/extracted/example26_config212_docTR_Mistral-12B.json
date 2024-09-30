@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 14.7,
+                "HCT": 43.8,
+                "MCV": 93.0,
+                "MCH": 30.2,
+                "MCHC": 32.6,
+                "RDW": 14.0
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 270,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": {
+                "Total": 6.8,
+                "Neut": 52.4,
+                "Eos": 1.4,
+                "Bas": 0.6,
+                "Lym": 43.6,
+                "Mon": 2.7
+            },
+            "unit_of_measurement": {
+                "Total": "x10^3/uL",
+                "Neut": "%",
+                "Eos": "%",
+                "Bas": "%",
+                "Lym": "%",
+                "Mon": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

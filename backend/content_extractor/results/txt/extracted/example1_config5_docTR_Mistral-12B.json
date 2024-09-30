@@ -1,0 +1,74 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Low": 13.0,
+                "High": 17.0
+            }
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 87.75
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL"
+        },
+        {
+            "test_name": "Calculated MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "Calculated MCHC",
+            "result_value": null,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "Calculated RDW",
+            "result_value": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 9000,
+            "reference_range": {
+                "Low": 4000,
+                "High": 11000
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_values": {
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 7,
+                "Monocytes": 1,
+                "Basophils": 1
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "reference_range": {
+                "Low": 150000,
+                "High": 410000
+            }
+        }
+    ]
+}

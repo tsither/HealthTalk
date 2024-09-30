@@ -1,0 +1,42 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": 55,
+        "patient_gender": "male"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 91,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 130,
+            "unit_of_measurement": "platelets/uL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

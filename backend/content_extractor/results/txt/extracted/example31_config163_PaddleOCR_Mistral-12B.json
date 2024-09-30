@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555 Instant",
+        "patient_name": "Sam",
+        "patient_sex": null,
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": 13.6,
+                "HGB": 125,
+                "MCV": 12.5,
+                "PLT COUNT": 40,
+                "NEUTROPHILS": 52,
+                "LYMPHOCYTES": 31,
+                "MONOCYTES": 7,
+                "EOSINOPHILS": 0,
+                "BASEOPHILS": 0
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "10^9/L",
+                "HGB": "g/dL",
+                "MCV": "fl",
+                "PLT COUNT": "10^9/L",
+                "NEUTROPHILS": "%",
+                "LYMPHOCYTES": "%",
+                "MONOCYTES": "%",
+                "EOSINOPHILS": "%",
+                "BASEOPHILS": "%"
+            },
+            "reference_range": {
+                "WBC COUNT": "4.5 - 10.8",
+                "HGB": "13.6 - 17.2",
+                "MCV": "80 - 96",
+                "PLT COUNT": "150,000 - 410,000",
+                "NEUTROPHILS": "40 - 75%",
+                "LYMPHOCYTES": "23 - 50%",
+                "MONOCYTES": "2 - 9%",
+                "EOSINOPHILS": "1 - 6%",
+                "BASEOPHILS": "<1%"
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Low": 13.1,
+                "High": 17
+            }
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 41,
+                "High": 60
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cakusaled MCH",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "pg",
+            "reference_range": {
+                "Low": 32.5,
+                "High": 34.5
+            }
+        },
+        {
+            "test_name": "Red blood cell distribution width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 10,
+                "High": 16
+            }
+        },
+        {
+            "test_name": "Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 320001,
+            "unit_of_measurement": "/µL",
+            "reference_range": {
+                "Low": 150000,
+                "High": 410000
+            }
+        }
+    ]
+}

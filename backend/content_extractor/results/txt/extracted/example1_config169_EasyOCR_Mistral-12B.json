@@ -1,0 +1,41 @@
+{
+    "Date": "07/31",
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 4.95,
+            "unit_of_measurement": "million/mm^3",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "HCT (Packed Cell Volume)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 6000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4500-11000"
+        }
+    ]
+}

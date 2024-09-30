@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Result M",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0 g/dL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "90 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "34.5 %",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "279,000 /µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000 - 400,000 /µL"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": "12.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": "37%",
+            "unit_of_measurement": "%",
+            "reference_range": "35.0% - 45.0%"
+        },
+        {
+            "test_name": "V.C.M.",
+            "result_value": "92 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "28.4 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0 - 31.0 pg"
+        }
+    ]
+}

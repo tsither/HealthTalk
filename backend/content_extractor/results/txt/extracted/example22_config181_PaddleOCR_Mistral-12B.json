@@ -1,0 +1,69 @@
+{
+    "Date": "02 Dec 2X",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 5.2,
+                    "unit": "g/dL",
+                    "reference_range": null
+                },
+                "RBC COUNT": {
+                    "value": 87.75,
+                    "unit": "10^6/uL",
+                    "reference_range": null
+                },
+                "Packed CellVolume (PCV)": {
+                    "value": 32.8,
+                    "unit": "%",
+                    "reference_range": null
+                }
+            }
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": {
+                "Neutrophils": {
+                    "value": "1",
+                    "unit": "10^3/uL",
+                    "reference_range": null
+                },
+                "Lymphocytes": {
+                    "value": "1",
+                    "unit": "10^3/uL",
+                    "reference_range": null
+                },
+                "Eosinophils": {
+                    "value": "1",
+                    "unit": "10^3/uL",
+                    "reference_range": null
+                },
+                "Monocytes": {
+                    "value": "150000",
+                    "unit": "10^3/uL",
+                    "reference_range": null
+                },
+                "Basophlls": {
+                    "value": "150000",
+                    "unit": "10^3/uL",
+                    "reference_range": null
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "value": 278,
+                "unit": "10^3/uL",
+                "reference_range": null
+            }
+        }
+    ]
+}

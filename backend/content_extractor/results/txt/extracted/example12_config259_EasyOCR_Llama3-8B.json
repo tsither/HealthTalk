@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.125,
+            "unit_of_measurement": "Million per Microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 71.56,
+            "unit_of_measurement": "Cubic Micrometers",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 26.35,
+            "unit_of_measurement": "Picograms per Cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.9,
+            "unit_of_measurement": "Grams per Deciliter",
+            "reference_range": "34-36"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 1250000,
+            "unit_of_measurement": "Per Microliter",
+            "reference_range": null
+        }
+    ]
+}

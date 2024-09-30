@@ -1,0 +1,29 @@
+{
+    "Date": "2022-09-01",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "thousand cells per microliter",
+            "reference_range": "4.0-11.0 thousand cells per microliter"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 18.2,
+            "unit_of_measurement": "milligrams per deciliter",
+            "reference_range": "6.0-24.0 milligrams per deciliter"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.3,
+            "unit_of_measurement": "milligrams per deciliter",
+            "reference_range": "0.8-1.4 milligrams per deciliter"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Total Titratable Alkalinity",
+            "result_value": 124,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "80-120 mg/L"
+        },
+        {
+            "test_name": "pH",
+            "result_value": 7.5,
+            "unit_of_measurement": "",
+            "reference_range": "7.1-8.3"
+        },
+        {
+            "test_name": "Ammonia (NH3)",
+            "result_value": 0,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "<0.5 mg/L"
+        },
+        {
+            "test_name": "Nitrite (NO2-)",
+            "result_value": 0,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "<0.5 mg/L"
+        },
+        {
+            "test_name": "Total Kjeldahl Nitrogen",
+            "result_value": 18.14,
+            "unit_of_measurement": "mg/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Orthophosphate (PO4-3)",
+            "result_value": 1.5,
+            "unit_of_measurement": "mg/L",
+            "reference_range": "<0.5 mg/L"
+        },
+        {
+            "test_name": "Total Phosphorus",
+            "result_value": 2.8,
+            "unit_of_measurement": "mg/L",
+            "reference_range": null
+        }
+    ]
+}

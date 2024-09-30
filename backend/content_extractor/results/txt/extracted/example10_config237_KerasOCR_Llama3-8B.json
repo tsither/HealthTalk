@@ -1,0 +1,22 @@
+{
+    "Date": null,
+    "patient_information": {
+        "sample_collection_date": "09/13/2023",
+        "patient_id": 555,
+        "patient_name": "Shivam Sungalow S G Road",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 1700,
+            "unit_of_measurement": "Whole Blood",
+            "reference_range": {
+                "normal_range_adults": "900-1701",
+                "children": "754-1350",
+                "newborns_to_8_days": "170-1708"
+            }
+        }
+    ]
+}

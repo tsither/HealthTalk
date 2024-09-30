@@ -1,0 +1,29 @@
+{
+    "Date": "Dec 27",
+    "patient_information": {
+        "patient_id": "555 83 PID",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "13.0",
+            "unit_of_measurement": "1p/6",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.5 High"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "87.75",
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

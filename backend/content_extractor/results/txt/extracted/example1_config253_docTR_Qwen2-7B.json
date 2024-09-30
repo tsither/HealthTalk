@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Count (Mb)",
+            "result_value": 4.5,
+            "unit_of_measurement": "cells",
+            "reference_range": "[3.5-5]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH) Content",
+            "result_value": 125,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells Total Count",
+            "result_value": 7.3,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[4-10]"
+        },
+        {
+            "test_name": "Platelets Total Count",
+            "result_value": 255,
+            "unit_of_measurement": "thousands",
+            "reference_range": null
+        }
+    ]
+}

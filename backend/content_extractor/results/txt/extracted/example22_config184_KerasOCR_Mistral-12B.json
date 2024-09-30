@@ -1,0 +1,42 @@
+{
+    "Date": "Dec 20",
+    "patient_information": {
+        "patient_id": "04123as675",
+        "patient_name": "Shah Mumbat Patel Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC": {
+                    "total": 10,
+                    "differential": {
+                        "Neutrophils": 51,
+                        "Lymphocytes": 2,
+                        "Eosinophils": 0,
+                        "Monocytes": 0,
+                        "Basophils": 0
+                    }
+                },
+                "RBC": {
+                    "count": 4.87,
+                    "Hb": 13.1,
+                    "HCT": 40.5
+                },
+                "Platelets": 206
+            },
+            "unit_of_measurement": {
+                "WBC": " cells/µL",
+                "RBC": {
+                    "count": "/µL",
+                    "Hb": "g/dL",
+                    "HCT": "%"
+                },
+                "Platelets": "cells/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

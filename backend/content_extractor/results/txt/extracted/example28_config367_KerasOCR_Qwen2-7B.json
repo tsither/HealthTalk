@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "B123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Glucose",
+            "result_value": 8.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: <100"
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": 254,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: <200"
+        }
+    ]
+}

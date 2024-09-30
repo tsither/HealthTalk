@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": "LOI23456789",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 15000,
+            "unit_of_measurement": "per mm3",
+            "reference_range": [
+                "4100",
+                "41000"
+            ]
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.03,
+            "unit_of_measurement": "million/mm3",
+            "reference_range": [
+                "4.5",
+                "5.5"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 49,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "37",
+                "52"
+            ]
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90.3,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 275,
+            "unit_of_measurement": "thousand/mm3",
+            "reference_range": [
+                "140",
+                "440"
+            ]
+        }
+    ]
+}

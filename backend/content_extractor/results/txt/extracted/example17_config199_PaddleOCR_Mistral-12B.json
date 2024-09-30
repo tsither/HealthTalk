@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Jo mpleCollection",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell (WBC)",
+            "result_value": "6.0",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC)",
+            "result_value": "4.8",
+            "unit_of_measurement": "mill/(cumm)",
+            "reference_range": "3.9 - 6.2"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 17.0"
+        },
+        {
+            "test_name": "Platelet (PLT)",
+            "result_value": "288",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

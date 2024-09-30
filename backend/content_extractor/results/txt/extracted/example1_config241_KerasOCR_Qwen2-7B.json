@@ -1,0 +1,53 @@
+{
+    "Date": "02/02/2023",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Shivam Sungalow",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count CBC",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130-170]"
+        },
+        {
+            "test_name": "RBC count (total red blood cell count)",
+            "result_value": 52.45,
+            "unit_of_measurement": "millions/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[40-50]"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin Content)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "[27-31]"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[320-345]"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (White Blood Cell Count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[4500-11000]"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 MEK",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "component": "HEMOGLOBIN",
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                {
+                    "component": "RBC COUNT",
+                    "value": 82,
+                    "unit": "mill/cumm"
+                },
+                {
+                    "component": "PACKED CELL VOLUME (PCV)",
+                    "value": 77.5
+                },
+                {
+                    "component": "MEAN CORPUSCULAR VOLUME (MCV)",
+                    "value": 87.75,
+                    "unit": "fl"
+                },
+                {
+                    "component": "MCH",
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                {
+                    "component": "MCHC",
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                {
+                    "component": "ROW",
+                    "value": 13.6
+                },
+                {
+                    "component": "WBC COUNT",
+                    "value": 5000
+                },
+                {
+                    "component": "NEUTROPHILS",
+                    "value": 60
+                },
+                {
+                    "component": "LYMPHOCYTES",
+                    "value": 31
+                }
+            ],
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "MEAN CORPUSCULAR VOLUME (MCV)": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "ROW": null,
+                "WBC COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": [
+                    13.0,
+                    17.0
+                ],
+                "RBC COUNT": [
+                    45,
+                    55
+                ],
+                "MEAN CORPUSCULAR VOLUME (MCV)": [
+                    83,
+                    101
+                ],
+                "MCH": [
+                    27,
+                    32
+                ],
+                "MCHC": [
+                    32.5,
+                    34.5
+                ],
+                "ROW": [
+                    11.6,
+                    14.0
+                ],
+                "WBC COUNT": [
+                    4000,
+                    11000
+                ]
+            }
+        }
+    ]
+}

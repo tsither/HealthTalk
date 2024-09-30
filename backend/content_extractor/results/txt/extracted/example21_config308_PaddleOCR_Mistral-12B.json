@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0"
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 10.1,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Direct Bilirubin",
+            "result_value": 4.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.8"
+        }
+    ]
+}

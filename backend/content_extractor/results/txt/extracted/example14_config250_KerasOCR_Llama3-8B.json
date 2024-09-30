@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x10^9/L"
+        },
+        {
+            "test_name": null,
+            "result_value": 135,
+            "unit_of_measurement": "mmol/mol",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": 138,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "Creatine Kinase",
+            "result_value": 9,
+            "unit_of_measurement": "UKU/L",
+            "reference_range": null
+        }
+    ]
+}

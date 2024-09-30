@@ -1,0 +1,110 @@
+{
+    "Date": "31.03.2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                13.0,
+                18.0
+            ]
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 5.6,
+            "unit_of_measurement": "million/µL",
+            "reference_range": [
+                4.5,
+                6.0
+            ]
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 97.0,
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                80.0,
+                100.0
+            ]
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.5,
+            "unit_of_measurement": "pg",
+            "reference_range": [
+                27.0,
+                31.0
+            ]
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                32.0,
+                36.0
+            ]
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7150,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": [
+                4500,
+                11000
+            ]
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 51.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                37.0,
+                68.0
+            ]
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                22.0,
+                49.0
+            ]
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 5.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                1.0,
+                6.0
+            ]
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 2.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                3.0,
+                9.0
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 450000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": [
+                150000,
+                400000
+            ]
+        }
+    ]
+}

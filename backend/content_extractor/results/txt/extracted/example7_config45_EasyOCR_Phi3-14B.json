@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "GLU",
+            "result_value": 5.6,
+            "unit_of_measurement": "mmol/L",
+            "reference_nrange": "3.9-7.1"
+        },
+        {
+            "test_name": "CREA",
+            "result_value": 82,
+            "unit_of_measurement": "umol/L",
+            "reference_nrange": "45-90"
+        },
+        {
+            "test_name": "NA+",
+            "result_value": 137.6,
+            "unit_of_measurement": "mmol/L",
+            "reference_nrange": "136-142"
+        }
+    ]
+}

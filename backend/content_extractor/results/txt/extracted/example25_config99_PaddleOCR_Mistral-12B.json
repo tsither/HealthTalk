@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Glóbulos Vermelhos (RBC)": {
+                    "value": "5.20",
+                    "unit": "T/BL"
+                },
+                "Hemoglobina (Hb)": {
+                    "value": "14.8",
+                    "unit": "g/DL"
+                },
+                "Hematocrito (HCT)": {
+                    "value": "43.6%",
+                    "unit": "%"
+                },
+                "Hematócrito (PCT)": {
+                    "value": null,
+                    "unit": null
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

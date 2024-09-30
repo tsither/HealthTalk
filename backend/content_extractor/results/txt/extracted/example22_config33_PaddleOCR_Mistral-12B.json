@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": "36 - 46"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "5700",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500 - 11000"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": "41.0%",
+                "hemoglobina": "13.0 g/dL",
+                "leucocitos": "9600/mm³",
+                "neutrofilos": "71.0%",
+                "eosinofilos": "7.1%",
+                "basofilos": "1.4%",
+                "monocitos": "5.8%",
+                "linfocitos": "13.2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": {
+                "glucosa": "96 mg/dL",
+                "colesterol": "179 mg/dL",
+                "trigliceridos": "145 mg/dL",
+                "urea": "20 mg/dL",
+                "creatinina": "0.8 mg/dL"
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas enzimáticas",
+            "result_value": {
+                "sgot": "73 U/L",
+                "sgtp": "102 U/L"
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "sodio": "138 mEq/L",
+                "potasio": "4.2 mEq/L"
+            },
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

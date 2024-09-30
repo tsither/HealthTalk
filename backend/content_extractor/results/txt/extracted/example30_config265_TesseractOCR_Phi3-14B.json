@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": "Hemoglobin (Hb) 12.5",
+                "RBC COUNT": "Total RBC count 5.2 mill/cumm",
+                "BLOOD INDICES": "Packed Cell Volume (PCV) 57.5% Mean Corpuscular Volume (MCV) 87.75 fl Calculated MCH 27.2 pg Catculated MCHC 32.8 g/dl ROW 13.6 %",
+                "WBC COUNT": null,
+                "PLATELET COUNT": "Platelet Count 150000"
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dl",
+                "RBC COUNT": "mill/cumm",
+                "BLOOD INDICES": "% fl pg cumm %",
+                "WBC COUNT": null,
+                "PLATELET COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.0 g/dl",
+                "RBC COUNT": "4.5-5.5 mill/cumm",
+                "BLOOD INDICES": "PCV 40-50 % MCV 83-101 fl MCHC 32.5-34.5 g/dl ROW 11.6 - 14.0 %",
+                "WBC COUNT": null,
+                "PLATELET COUNT": "150000 - 410000 cumm"
+            }
+        }
+    ]
+}

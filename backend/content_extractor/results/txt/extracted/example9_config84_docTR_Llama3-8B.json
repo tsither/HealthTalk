@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "10.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.52",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "3.90-5.10"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration",
+            "result_value": "31.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0-36.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": "89.1",
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-96.0"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "7.5",
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "3.50-10.50"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "180000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

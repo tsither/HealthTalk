@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 9.029409,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[3-10]"
+        },
+        {
+            "test_name": "Alkaline Phosphatase",
+            "result_value": 68,
+            "unit_of_measurement": "U/L",
+            "reference_range": "[39-117]"
+        },
+        {
+            "test_name": "Aspartate Aminotransferase (AST)",
+            "result_value": 40,
+            "unit_of_measurement": "U/L",
+            "reference_range": "[0-40]"
+        },
+        {
+            "test_name": "Alanine Aminotransferase (ALT)",
+            "result_value": 29,
+            "unit_of_measurement": "U/L",
+            "reference_range": "[0-40]"
+        }
+    ]
+}

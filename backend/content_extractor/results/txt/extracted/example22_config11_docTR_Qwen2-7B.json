@@ -1,0 +1,37 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Red Blood Cells (RBC)": 5.0,
+                "Mean Corpuscular Volume (MCV)": 62.0,
+                "Mean Cell Hemoglobin concentration (MCHC)": null,
+                "Erythrocyte Distribution Width (RDW)": 125,
+                "Platelets": null
+            },
+            "unit_of_measurement": {
+                "RBC": "/µL",
+                "MCV": "fl",
+                "MCHC": "%",
+                "RDW": "%",
+                "Platelets": "/µL"
+            },
+            "reference_range": [
+                {
+                    "RBC": "[4.5-5.5] /µL",
+                    "MCV": "[80-100] fl",
+                    "MCHC": "[32-36]%",
+                    "RDW": "[11-15]%",
+                    "Platelets": "[150-400]/µL"
+                }
+            ]
+        }
+    ]
+}

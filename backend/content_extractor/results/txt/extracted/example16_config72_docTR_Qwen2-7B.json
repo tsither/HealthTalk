@@ -1,0 +1,35 @@
+{
+    "Date": "02/31/2024",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "34.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "34-50"
+        },
+        {
+            "test_name": "Red blood cell count (RBC)",
+            "result_value": 57.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": "83-140",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 300,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

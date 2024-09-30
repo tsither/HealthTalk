@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 5.2,
+                "PACKED CELL VOLUME (PCV)": 7.5,
+                "mean corpuscular volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RBC DIFFERENTIAL COUNT": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 1,
+                    "Monocytes": 7,
+                    "Basophils": 1
+                },
+                "PLATELET COUNT": 150000
+            }
+        }
+    ]
+}

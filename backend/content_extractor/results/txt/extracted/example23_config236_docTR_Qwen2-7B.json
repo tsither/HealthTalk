@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": 200,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[150-200]"
+        },
+        {
+            "test_name": "Cholesterol, HDL",
+            "result_value": 42,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[40-60]"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 190,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[50-200]"
+        },
+        {
+            "test_name": "Cholesterol, LDL",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": 193,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[150-200]"
+        }
+    ]
+}

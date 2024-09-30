@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red Blood Cells: 4.5 million/mcL",
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "Reference range for red blood cells is 4.0-5.5 million/mcL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "14 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Reference range for hemoglobin is 13-17 g/dL for men and 12-16 g/dL for women."
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "250,000/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": "Reference range for platelets is 150,000-450,000/mcL."
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": "7,500/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": "Reference range for white blood cells is 4,500-11,000/mcL."
+        }
+    ]
+}

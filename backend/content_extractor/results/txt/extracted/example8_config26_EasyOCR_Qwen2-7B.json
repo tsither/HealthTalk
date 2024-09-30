@@ -1,0 +1,23 @@
+{
+    "Date": "02/Dec/202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBJ)",
+            "result_value": 124.5,
+            "unit_of_measurement": "g/L",
+            "reference_range": {
+                "male": [
+                    1351,
+                    175
+                ],
+                "female": null
+            }
+        }
+    ]
+}

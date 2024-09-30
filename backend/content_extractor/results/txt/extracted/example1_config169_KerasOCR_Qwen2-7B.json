@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "Yash M",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count investigation",
+            "result_value": "12.5",
+            "unit_of_measurement": "gdl",
+            "reference_range": "low hemoglobin"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "95",
+            "unit_of_measurement": "count/ml",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (packed cell volume)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "high"
+        },
+        {
+            "test_name": "MCV (mean corpuscular volume)",
+            "result_value": "8775",
+            "unit_of_measurement": "fl",
+            "reference_range": "[83, 101] fl"
+        },
+        {
+            "test_name": "MCHC (mean corpuscular hemoglobin concentration)",
+            "result_value": "328",
+            "unit_of_measurement": "gidl",
+            "reference_range": "[325.1, 345] gidl"
+        },
+        {
+            "test_name": "RDW (red cell distribution width)",
+            "result_value": "136",
+            "unit_of_measurement": "%",
+            "reference_range": "[116, 140] pathology"
+        }
+    ]
+}

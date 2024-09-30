@@ -1,0 +1,40 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Rogy Patabaoyo",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 17 g/dL, RBC count: 5.5 million /uL, PCV: 47%, MCH: 27 pg, MCHC: 32%",
+            "unit_of_measurement": [
+                "g/dL",
+                "/uL",
+                "%",
+                "pg"
+            ],
+            "reference_range": [
+                "null"
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "400,000 /uL",
+            "unit_of_measurement": "/uL",
+            "reference_ange range": [
+                "150,000 - 450,000 /uL"
+            ]
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "7.2 thousand/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": [
+                "4.5 - 10.0 thousand/mcL"
+            ]
+        }
+    ]
+}

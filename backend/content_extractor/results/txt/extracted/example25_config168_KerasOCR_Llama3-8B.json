@@ -1,0 +1,29 @@
+{
+    "Date": "20/02/2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 32
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "/mL",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "/mM",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine Level",
+            "result_value": 1.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        }
+    ]
+}

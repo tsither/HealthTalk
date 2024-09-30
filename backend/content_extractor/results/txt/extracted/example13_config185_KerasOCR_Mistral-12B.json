@@ -1,0 +1,21 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "mion od",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 121
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 12.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "13.1-17.0 g/dL",
+                "female": "12.0-15.5 g/dL"
+            },
+            "interpretation": "mildly decreased, may indicate anemia or post-further testing may be necessary to determine the underlying cause. It may also indicate conditions such as polycythemia vera."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 5.0,
+            "unit_of_measurement": "millions/µL",
+            "reference_range": "4.0-5.5 millions/µL"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 123,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120-160 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "37%-54%"
+        }
+    ]
+}

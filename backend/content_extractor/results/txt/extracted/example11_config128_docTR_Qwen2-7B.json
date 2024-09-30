@@ -1,0 +1,74 @@
+{
+    "Date": "02/Dec/202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "MEMOGLOBN RBC COUNT (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": "130-170",
+                "high": "40-50"
+            }
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed INDICES Cell Mean Volume Calculated Compusculans (PCV)",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": "40-55",
+                "high": null
+            }
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "Pg",
+            "reference_range": {
+                "low": null,
+                "high": "32.5-34.5"
+            }
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": 9000,
+            "unit_of_measurement": "/uL",
+            "reference_range": {
+                "low": "4000-11000",
+                "high": "50-62"
+            }
+        },
+        {
+            "test_name": "NeutrenRirm DOFFERANTIALA",
+            "result_value": 31,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 7,
+            "unit_of_measurement": "/uL",
+            "reference_range": {
+                "low": "0-6",
+                "high": "10"
+            }
+        }
+    ]
+}

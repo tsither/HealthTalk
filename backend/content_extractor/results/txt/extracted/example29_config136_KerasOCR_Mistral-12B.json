@@ -1,0 +1,50 @@
+{
+    "Date": "12/12/2025",
+    "patient_information": {
+        "patient_id": "0912645676",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC Total": "5.0 x10^9/L",
+                "HGB": "55 g/dL",
+                "HCT": "17.5%",
+                "MCV": "32 fL",
+                "MCH": "8 pg",
+                "MCHC": "13 g/dL",
+                "RDW-CV": "14%",
+                "PLT": "200 x10^9/L"
+            },
+            "unit_of_measurement": {
+                "WBC Total": "/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "/L"
+            },
+            "reference_range": {
+                "WBC Total": "4.0 - 10.0 x10^9/L",
+                "HGB": "13 - 18 g/dL",
+                "HCT": "40 - 52%",
+                "MCV": "76 - 96 fL",
+                "MCH": "27 - 32 pg",
+                "MCHC": "32 - 36 g/dL",
+                "RDW-CV": "11.5 - 14.5%",
+                "PLT": "150 - 450 x10^9/L"
+            }
+        },
+        {
+            "test_name": "ESR",
+            "result_value": "<20 mm/hr",
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "<20 mm/hr"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 125,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "3.45 - 5.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 130,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

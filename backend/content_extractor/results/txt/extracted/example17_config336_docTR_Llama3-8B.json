@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 8.8,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 260,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450 x10^3/μL"
+        },
+        {
+            "test_name": "Urea",
+            "result_value": 25.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-24 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-130 mg/dL"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": 3.9,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": 141,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

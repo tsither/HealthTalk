@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC COUNT": 272,
+                "HGB": 12.5,
+                "PCV": null,
+                "MCV": null
+            },
+            "unit_of_measurement": {
+                "WBC COUNT": "K/μL",
+                "HGB": "g/dL"
+            },
+            "reference_range": {
+                "WBC COUNT": "4.5 - 11.0 K/μL"
+            }
+        }
+    ]
+}

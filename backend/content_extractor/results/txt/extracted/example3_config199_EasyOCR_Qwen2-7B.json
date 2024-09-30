@@ -1,0 +1,23 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "patel counex patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "shivan mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 175,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male_min": "135 g/dL",
+                "male_max": "19 oz",
+                "female_min": null,
+                "female_max": null
+            }
+        }
+    ]
+}

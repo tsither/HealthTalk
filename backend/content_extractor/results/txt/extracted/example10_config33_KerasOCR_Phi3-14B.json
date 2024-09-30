@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.8,
+            "unit_of_measurement": "g/dL",
+            "reference_eange": "[6.0 - 7.5 g/dL]"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 49,
+            "unit_of_measurement": "%",
+            "reference_range": "[38.8-50%] for males"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.9,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[4.5 - 5.5 x10^6/uL]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[4.5 - 11 x10^3/uL]"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 267,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[150 - 450 x10^3/uL]"
+        }
+    ]
+}

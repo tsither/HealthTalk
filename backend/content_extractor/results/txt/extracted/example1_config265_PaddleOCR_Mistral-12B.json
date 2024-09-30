@@ -1,0 +1,56 @@
+{
+    "Date": "03 Oct 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": 4.5,
+                "Hemoglobin (Hb)": 13.6,
+                "Hematocrit (HCT)": 37.2,
+                "MCV": 90.0,
+                "MCH": 27.3,
+                "MCHC": 30.3,
+                "Platelet count": 245,
+                "WBC count": 8.775,
+                "Lymphocytes": 67.2,
+                "Monocytes": 19.0,
+                "Eosinophils": 2.8,
+                "Basophils": 1.0
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "M/μL",
+                "Hemoglobin (Hb)": "g/dL",
+                "Hematocrit (HCT)": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelet count": "K/μL",
+                "WBC count": "K/μL",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "Total RBC count": null,
+                "Hemoglobin (Hb)": null,
+                "Hematocrit (HCT)": null,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "Platelet count": null,
+                "WBC count": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            }
+        }
+    ]
+}

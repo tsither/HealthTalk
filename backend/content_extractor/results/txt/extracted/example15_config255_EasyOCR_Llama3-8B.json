@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012316789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "1250000",
+            "unit_of_measurement": "cells/ul",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": "12.5",
+            "unit_of_measurement": "seconds",
+            "reference_range": "10.8-14.1"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time",
+            "result_value": "31.3",
+            "unit_of_measurement": "seconds",
+            "reference_range": "23.1-36.9"
+        },
+        {
+            "test_name": "Blood Grouping",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

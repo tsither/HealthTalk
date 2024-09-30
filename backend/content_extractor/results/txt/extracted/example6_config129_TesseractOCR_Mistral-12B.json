@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Mary Sample",
+        "patient_sex": "MNOglobin (Hb)",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.55,
+            "unit_of_measurement": "/L",
+            "reference_range": "High"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/L",
+            "reference_range": "4000-10000"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 37,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        }
+    ]
+}

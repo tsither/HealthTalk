@@ -1,0 +1,58 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collected_on": "02 dca"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "gdl",
+            "reference_range": {
+                "low": true
+            }
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": 5.2,
+            "unit_of_measurement": "ds7 55 million cells per microm",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "high": true
+            }
+        },
+        {
+            "test_name": "mcv",
+            "result_value": 87.75,
+            "unit_of_measurement": "10^-1 picoliters (pl)",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mchc",
+            "result_value": 328,
+            "unit_of_measurement": "1/gdl",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 136,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

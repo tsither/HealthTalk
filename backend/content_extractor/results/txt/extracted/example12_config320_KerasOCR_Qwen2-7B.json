@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "6.0",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.0-10.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "240",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

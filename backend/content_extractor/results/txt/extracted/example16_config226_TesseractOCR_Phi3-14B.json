@@ -1,0 +1,71 @@
+{
+    "Date": "02/12/202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "Hemoglobin (Hb)": 12.5
+                },
+                {
+                    "Total RBC count": 5.2
+                },
+                {
+                    "Packed Cell Volume (PCV)": 7.5
+                },
+                {
+                    "Mean Corpuscular Volume (MCV)": 87.75
+                },
+                {
+                    "Caleutated IV A MCH": 27.2
+                },
+                {
+                    "Caleutated ~ MCHC": 32.8
+                }
+            ],
+            "unit_of_measurement": [
+                "g/dl",
+                "mill/cumm",
+                "%",
+                "%",
+                "fl",
+                "%"
+            ],
+            "reference_range": [
+                {
+                    "Hemoglobin (Hb)": "13.0-17.0"
+                },
+                {
+                    "Total RBC count": "4.5-5.5"
+                },
+                {
+                    "Packed Cell Volume (PCV)": "40-50"
+                },
+                {
+                    "Mean Corpuscular Volume (MCV)": "83-101"
+                },
+                {
+                    "Caleutated IV A MCH": null
+                },
+                {
+                    "Caleutated ~ MCHC": null
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": [
+                150000,
+                410000
+            ]
+        }
+    ]
+}

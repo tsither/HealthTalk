@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0281 pat",
+        "patient_name": "patel yash ms",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "platelet distribution width (PDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "low": 17,
+                    "high": 48
+                },
+                "children": {
+                    "low": 29,
+                    "high": 58
+                },
+                "neonates": {
+                    "low": 17.0,
+                    "high": 70
+                }
+            }
+        }
+    ]
+}

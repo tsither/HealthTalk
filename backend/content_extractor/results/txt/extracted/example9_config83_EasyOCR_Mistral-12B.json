@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "12.3",
+                "HCT": "39.5",
+                "MCV": "88.0",
+                "MCH": "27.3",
+                "MCHC": "31.2",
+                "RDW-CV": "14.6",
+                "RDW-SD": "42.3",
+                "PLT": "250",
+                "NEU": "58.9%",
+                "LYM": "32.7%",
+                "MON": "7.4%",
+                "EO": "0.9%",
+                "BASO": "0.1%"
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "fL",
+                "PLT": "x10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MON": "%",
+                "EO": "%",
+                "BASO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

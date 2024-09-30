@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": "9-17% adults, 7.5-13.5% children, >17% newborns"
+        },
+        {
+            "test_name": "Platelet Crit",
+            "result_value": "Normal",
+            "unit_of_measurement": "N/A",
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrical Impedance Group",
+            "result_value": "Normal",
+            "unit_of_measurement": "N/A",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M",
+        "patient_sex": "male",
+        "patient_age": "age years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "normal_male": "135-175",
+                "normal_female": "120-155"
+            }
+        }
+    ]
+}

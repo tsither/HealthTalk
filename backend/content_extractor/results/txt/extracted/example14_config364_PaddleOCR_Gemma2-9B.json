@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": "1.2",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2 mg/dL"
+        },
+        {
+            "test_name": "Direct Bilirubin",
+            "result_value": "0.4",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-0.2 mg/dL"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": "3.9",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.0 g/dL"
+        },
+        {
+            "test_name": "Globulin",
+            "result_value": "2.4",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "A/G Ratio",
+            "result_value": "1.63",
+            "unit_of_measurement": null,
+            "reference_range": "0.8-1.5"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "C 0123456789",
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin (Hb): 02 Hemoglobin",
+                "Total RBC count: 03 Total RBC count"
+            ],
+            "unit_of_measurement": [
+                "Unit: g/dL",
+                "Unit: millions per micro Lt."
+            ],
+            "reference_range": [
+                "Reference Value for Hb: 13.0-17. 5 (mg/dL)",
+                "Total RBC count reference range: 4.5 - 5.5"
+            ]
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": [
+                "PCV: 0123456789 Packed Cell Volume (PCV)",
+                "RDW g/dL: 0123456789 RDW g/dL"
+            ],
+            "unit_of_measurement": [
+                "Unit : %",
+                "Unit : g/dL"
+            ],
+            "reference_range": [
+                "Reference Range for PCV: 13.0-17.0 (%)",
+                "Reference range for RDW: 40 - 50 (g/dL)"
+            ]
+        },
+        {
+            "test_name": "Blood Counts",
+            "result_value": [
+                "Total WBC count mill/cumm: 0123456789 Total WBC count",
+                "RBC COUNT poog Reported on: 02 Dec, 2X RBC COUNT"
+            ],
+            "unit_of_measurement": [
+                "Unit : millions per micro Lt.",
+                "Unit: cumm."
+            ],
+            "reference_range": [
+                "Total WBC count reference range: 83-101",
+                "RBC COUNT poog Reported on: 02 Dec, 2X RBC COUNT"
+            ]
+        },
+        {
+            "test_name": "Differential Blood Counts",
+            "result_value": [
+                "WBC DIFFERENTIAL WBC COUNT Neutrophils % Lymphocytes: 0123456789 Percentage"
+            ],
+            "unit_of_measurement": [
+                "Unit : %"
+            ],
+            "reference_range": [
+                "Neutrophils reference range: 27 - 32",
+                "Lymphocytes reference range: 34.5 - 60 (%)"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                "% Platelet Count: 0123456789 Percentage"
+            ],
+            "unit_of_measurement": [
+                "Unit : %"
+            ],
+            "reference_range": [
+                "Platelet count reference range: 50 - 62 cumm"
+            ]
+        }
+    ]
+}

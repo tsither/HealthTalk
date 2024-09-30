@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "8775",
+        "patient_name": "Shah Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential Count",
+            "result_value": {
+                "WBC": {
+                    "value": 8500,
+                    "unit": "cells/µL"
+                },
+                "RBC": {
+                    "value": 4.93,
+                    "unit": "million cells/mm³"
+                },
+                "HGB": {
+                    "value": 15,
+                    "unit": "g/dL"
+                },
+                "PCV": {
+                    "value": 47,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 90,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 30.6,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "PLT": {
+                    "value": 257,
+                    "unit": "cells/mm³"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

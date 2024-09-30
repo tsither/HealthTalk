@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "SMART Age",
+        "patient_sex": "Male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "Blood",
+            "reference_range": "32.5 - 7P/6"
+        },
+        {
+            "test_name": "WBC DIF count",
+            "result_value": 13.0,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^3 /μL",
+            "reference_range": null
+        }
+    ]
+}

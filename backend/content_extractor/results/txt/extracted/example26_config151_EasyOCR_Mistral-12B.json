@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "RBC": 4.75,
+                "HGB": 13.3,
+                "HCT": 0,
+                "MCV": 92.6,
+                "MCH": 30.0,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "PLT": null,
+                "WBC": null,
+                "NEU": null,
+                "LYM": null,
+                "MON": null,
+                "EOS": null,
+                "BASO": null
+            },
+            "unit_of_measurement": {
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "fL",
+                "PLT": "10^3/µL",
+                "WBC": "10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

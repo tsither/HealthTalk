@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 8.2, RBC: 5.1 x 10^6/μL, HGB: 13.7 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "WBC: 4-11 x 10^3/µL, RBC: 4.5-5.8 x 10^6/µL, HGB: 12-16 g/dL"
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "AST: 30 U/L, ALT: 17 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "AST: 0-40 U/L, ALT: 0-32 U/L"
+        }
+    ]
+}

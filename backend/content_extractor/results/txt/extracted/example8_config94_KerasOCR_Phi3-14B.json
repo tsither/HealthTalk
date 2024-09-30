@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345678",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Gas Lift) by Photometry",
+            "result_value": 125,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[98-108; ref: 'Healthcare']"
+        },
+        {
+            "test_name": "Bone Marrow Smear (Oil Red O)",
+            "result_value": 1357,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

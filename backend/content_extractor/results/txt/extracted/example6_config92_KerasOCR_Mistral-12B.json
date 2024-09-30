@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8.7,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.1,
+            "unit_of_measurement": "million/µL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "202X-05-20",
+    "patient_information": {
+        "patient_id": "555 roads lab",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.89578,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 42.31,
+            "unit_of_measurement": "%",
+            "reference_range": "41-53"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "76-97"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "26-34"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 7500,
+            "unit_of_measurement": "/µL",
+            "reference_range": "3.5-11.0"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 225000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

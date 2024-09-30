@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red blood cells",
+            "result_value": 4.5,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0 - 5.5 million/µL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3 - 52.6 %"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "fL",
+            "reference_range": "79 - 100 fL"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin (MCH)",
+            "result_value": 28,
+            "unit_of_measurement": "pg",
+            "reference_range": "26.5 - 33.5 pg"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 34,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32 - 36 g/dL"
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": 12,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "White blood cells",
+            "result_value": 7.5,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.0 - 11.0 thousand/µL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150 - 450 thousand/µL"
+        }
+    ]
+}

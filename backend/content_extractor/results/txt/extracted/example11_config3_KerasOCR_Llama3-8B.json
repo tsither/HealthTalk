@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash MS Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "125/130/170",
+            "unit_of_measurement": "g/dL, RBC count: 52-457 mill/cumm",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "high, 40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75/83/101 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27-32 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.5-34.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13/6/11.6-14%",
+            "unit_of_measurement": "%",
+            "reference_range": "0.o thco"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "9000-40000/1000 count/cumm",
+            "unit_of_measurement": "count/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": "50-62/60% Neutrophils, 31-20% Lymphocytes, 0.6% Eosinophils, 1% Monocytes, 0.2% Basophils",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "40-100000/410000",
+            "unit_of_measurement": "/μm³",
+            "reference_range": "borderline"
+        }
+    ]
+}

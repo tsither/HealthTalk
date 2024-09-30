@@ -1,0 +1,97 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematíes",
+            "result_value": 4.96,
+            "unit_of_measurement": "mill/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 14.8,
+                "Hematocrito": 44.5,
+                "Leucocitos": 3270,
+                "Plaquetas": 138
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubinemia Total",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica Sanguinea",
+            "result_value": {
+                "Glucosa": "8?",
+                "Colesterol": 169,
+                "HDL": 60,
+                "LDL": 100,
+                "Trigliceridos": 45,
+                "Urea": 49,
+                "Ac. Urico": 7
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro",
+            "result_value": 44.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 7,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Homocisteina",
+            "result_value": 7.39,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Proteinas Totales",
+            "result_value": 775,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT/GPT/GT",
+            "result_value": 0.6,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Formula Leucocitaria",
+            "result_value": {
+                "Eosinofilos": 2,
+                "Bastones": 1,
+                "Segmentados": 60,
+                "Linfocitos": 36,
+                "Monocitos": 10,
+                "Basofilos": 1
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de Sedimentacion",
+            "result_value": "< hora",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

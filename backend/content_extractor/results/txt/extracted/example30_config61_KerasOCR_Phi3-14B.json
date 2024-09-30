@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin test",
+            "result_value": "125",
+            "unit_of_measurement": "packed cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_eange": null
+        },
+        {
+            "test_name": "blood sample",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC volume",
+            "result_value": "52 683.578",
+            "unit_of_measurement": "µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential count",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": [
+                null
+            ],
+            "reference_range": [
+                "neutrophils",
+                "lymphocytes",
+                "eosinophils",
+                "basophils"
+            ]
+        },
+        {
+            "test_name": "platelet count (PLT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

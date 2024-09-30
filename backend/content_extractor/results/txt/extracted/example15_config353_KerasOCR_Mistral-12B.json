@@ -1,0 +1,23 @@
+{
+    "Date": "23.05.23",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 38
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 7.0,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "3.5 - 11"
+        },
+        {
+            "test_name": "ESR (Erythrocyte Sedimentation Rate)",
+            "result_value": 12,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0 - 20"
+        }
+    ]
+}

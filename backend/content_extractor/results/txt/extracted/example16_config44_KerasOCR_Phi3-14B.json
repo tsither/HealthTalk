@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBL)",
+            "result_value": 140,
+            "unit_of_measurement": "g/L",
+            "reference_range": "80-92"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 95.7,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 480000000000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_val ue": 25000000000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 12500000000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 835,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        }
+    ]
+}

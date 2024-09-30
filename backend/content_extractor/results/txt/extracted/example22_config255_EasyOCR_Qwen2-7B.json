@@ -1,0 +1,36 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "patel",
+        "patient_name": "Yash S R",
+        "patient_sex": "male",
+        "patient_age": 41,
+        "phone_number": "+9123456189"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Count",
+            "result_value": 150,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "136 bordline obin ipcv gmad"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": "100"
+        }
+    ]
+}

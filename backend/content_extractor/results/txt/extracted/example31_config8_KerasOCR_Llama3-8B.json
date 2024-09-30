@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.0 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "90 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-100] fL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "14.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "42%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "3.5 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "[4-11] x 10^9/L"
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (WBC)",
+            "result_value": "Neutrophils: 75%, Lymphocytes: 20%, Eosinophils: 2.5%, Monocytes: 2.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "3.1 x 10^11/L",
+            "unit_of_measurement": "x 10^11/L",
+            "reference_range": "[150-450] x 10^9/L"
+        }
+    ]
+}

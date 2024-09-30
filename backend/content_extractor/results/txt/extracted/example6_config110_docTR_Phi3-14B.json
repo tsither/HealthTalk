@@ -1,0 +1,45 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "87.75"
+            ],
+            "unit_of_measurement": [
+                "% fL pg g/dL % cumm % % % % % cumm"
+            ],
+            "reference_range": [
+                "40-50 83-101 27-32 32.5-34.5 11.6-1 14.0 4000-11000 g/dL mill/cumm % fL pg g/dL % cumm % % % % cumm"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": [
+                "5.2"
+            ],
+            "unit_of_measurement": [
+                "g/dL"
+            ],
+            "reference_range": [
+                "13.0-17.0"
+            ]
+        },
+        {
+            "test_name": "Total Red Blood Cell (RBC) count",
+            "result_value": [
+                "57.5"
+            ],
+            "unit_of_measurement": [
+                "mill/cumm"
+            ],
+            "reference_range": null
+        }
+    ]
+}

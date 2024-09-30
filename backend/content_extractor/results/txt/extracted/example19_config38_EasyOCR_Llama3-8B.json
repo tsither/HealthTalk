@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "09123415673",
+        "patient_name": "DrLogy Path Lab DrLogy Com Wws 689578 Lab Mumbai",
+        "patient_sex": "Male",
+        "patient_age": "31 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": "86 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 17.0 g/dL (M)"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.20 M/cmm",
+            "unit_of_measurement": "M/cmm",
+            "reference_range": "4.32 - 5.72 M/cmm"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "82 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 96 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "28 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27.5 - 32.0 pg/cell"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "2.00 lac/ cu.mm.",
+            "unit_of_measurement": "lac/ cu.mm.",
+            "reference_range": "1.50 - 3.50 lac/cu.mm."
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": {
+                "RDW": "14.5%",
+                "PCT": "42.2%",
+                "CORPSULCULAR CELL COUNT": "0.4 m/cumm"
+            },
+            "unit_of_measurement": "% or m/cumm",
+            "reference_range": "10.9 - 30.6%"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": "50%",
+                "Lymphocytes": "40%",
+                "Eosinophils": "2%",
+                "Monocytes": "8%",
+                "Basophils": "0.2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": "-"
+        }
+    ]
+}

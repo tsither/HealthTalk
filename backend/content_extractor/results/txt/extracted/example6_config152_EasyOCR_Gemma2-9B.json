@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "125",
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": "8 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "Reference range available in lab report"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": "1304 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": "80-180 g/L"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "5.2 x 10^12 /L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.0-5.5 x 10^12 /L"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "8.32 x 10^9 /L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.0-11.0 x 10^9 /L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "328 x 10^9 /L",
+            "unit_of_measurement": "/L",
+            "reference_range": "150-450 x 10^9 /L"
+        }
+    ]
+}

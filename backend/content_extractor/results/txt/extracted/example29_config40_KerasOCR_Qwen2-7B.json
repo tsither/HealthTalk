@@ -1,0 +1,84 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": null,
+        "patient_birthday": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130-170]"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": null,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "[4.5-5.5] x 10^9"
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": "13.08%",
+            "unit_of_measurement": "%",
+            "reference_range": "[36-56]"
+        },
+        {
+            "test_name": "mean corpuscular volume (mcv)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[77.5-97]"
+        },
+        {
+            "test_name": "red cell distribution width (rdw)",
+            "result_value": "13.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "[11.5-14.5]"
+        },
+        {
+            "test_name": "white blood cell (wbc) count",
+            "result_value": "8353 cells/μL",
+            "unit_of_measurement": "/mL",
+            "reference_range": "[4000-11000] /μL"
+        },
+        {
+            "test_name": "neutrophils percentage",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[50-70]"
+        },
+        {
+            "test_name": "lymphocytes count",
+            "result_value": null,
+            "unit_of_measurement": "/mL",
+            "reference_range": "[1200-3000] /mL"
+        },
+        {
+            "test_name": "eosinophils count",
+            "result_value": "1161 cells/μL",
+            "unit_of_measurement": "/mL",
+            "reference_range": "[50-400] /mL"
+        },
+        {
+            "test_name": "monocytes count",
+            "result_value": null,
+            "unit_of_measurement": "/mL",
+            "reference_range": "[200-800] /mL"
+        },
+        {
+            "test_name": "basophils count",
+            "result_value": null,
+            "unit_of_measurement": "/mL",
+            "reference_range": "[10-100] /mL"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "62,000 cells/μL",
+            "unit_of_measurement": "/mL",
+            "reference_range": "[150,000-450,000] /mL"
+        }
+    ]
+}

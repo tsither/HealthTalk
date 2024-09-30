@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "serum sodium",
+            "result_value": 0.5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "glucose",
+            "result_value": 6.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "creatinine",
+            "result_value": 9.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.8-1.2"
+        },
+        {
+            "test_name": "calcium",
+            "result_value": 8.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "alkaline phosphatase",
+            "result_value": 35.5,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "total bilirubin",
+            "result_value": 3.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

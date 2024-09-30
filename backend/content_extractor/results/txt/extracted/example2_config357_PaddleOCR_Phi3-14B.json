@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "% Hb/L",
+            "reference_e_range": "[12-16] %"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.7,
+            "unit_of_measurement": "% Hct/L",
+            "reference_e_range": "[38-50] %"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 92.1,
+            "unit_of_measurement": "fL",
+            "reference_e_range": "[80-95] fL"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 31.2,
+            "unit_of_measurement": "pg",
+            "reference_e_range": "[27-34] pg"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 34.9,
+            "unit_of_measurement": "%",
+            "reference_e_range": "[32-36] %"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_e_range": "[[%12.0-16.0]"
+        }
+    ]
+}

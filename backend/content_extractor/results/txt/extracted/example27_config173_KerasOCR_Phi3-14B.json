@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 86,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[REFERENCE RANGE]"
+        },
+        {
+            "test_name": "ESR (Erythrocyte Sedimentation Rate)",
+            "result_value": 89,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "[REFERENCE RANGE]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

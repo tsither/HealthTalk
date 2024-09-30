@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": "6.3",
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.6%"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "125",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": "245",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "125-200 mg/dL"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": "187",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "40-150 mg/dL"
+        }
+    ]
+}

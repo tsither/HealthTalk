@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "PID Years 555",
+        "patient_name": "Shivam",
+        "patient_sex": null,
+        "patient_age": "555"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb) Mumbai count",
+            "result_value": "125",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "4.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "[27.2 Low 13.0 - 17.0 hils 13.6]"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "12.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": "9000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4.5- 11000]"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "RBC COUNT": 4.5,
+                "PCV": 37.0,
+                "MCV": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RDW": 13.6,
+                "WBC COUNT": 9000,
+                "Neutrophils": 57.5,
+                "Lymphocytes": 27.2,
+                "Eosinophils": 3.1,
+                "Monocytes": 1,
+                "Basophils": 1,
+                "Platelet COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC COUNT": "cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet COUNT": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "RBC COUNT": {
+                    "Low": 4.5,
+                    "High": 5.5
+                },
+                "PCV": {
+                    "Low": 37.0,
+                    "High": 47.0
+                },
+                "MCV": {
+                    "Low": 82.0,
+                    "High": 100.0
+                },
+                "MCH": {
+                    "Low": 27.0,
+                    "High": 32.5
+                },
+                "MCHC": {
+                    "Low": 32.5,
+                    "High": 36.0
+                },
+                "RDW": {
+                    "Low": 11.6,
+                    "High": 14.0
+                },
+                "WBC COUNT": {
+                    "Low": 4000,
+                    "High": 11000
+                },
+                "Neutrophils": {
+                    "Low": 50.0,
+                    "High": 62.0
+                },
+                "Lymphocytes": {
+                    "Low": 20.0,
+                    "High": 40.0
+                },
+                "Eosinophils": {
+                    "Low": 0.0,
+                    "High": 6.0
+                },
+                "Monocytes": {
+                    "Low": 0.0,
+                    "High": 10.0
+                },
+                "Basophils": {
+                    "Low": 0.0,
+                    "High": 2.0
+                },
+                "Platelet COUNT": {
+                    "Low": 150000,
+                    "High": 410000
+                }
+            }
+        }
+    ]
+}

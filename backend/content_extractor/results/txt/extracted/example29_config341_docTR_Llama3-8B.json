@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 8.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7-10 g/dL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "Cells/μL",
+            "reference_range": "150000-400000 Cells/μL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 9000,
+            "unit_of_measurement": "Cells/μL",
+            "reference_range": "3500-11000 Cells/μL"
+        }
+    ]
+}

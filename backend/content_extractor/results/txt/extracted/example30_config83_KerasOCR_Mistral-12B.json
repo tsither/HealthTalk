@@ -1,0 +1,37 @@
+{
+    "Date": "23.01.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC Total": 5.0,
+                "RBC Total": 4.55,
+                "HGB": 13.0,
+                "HCT": 40.0,
+                "MCV": 85.0,
+                "MCH": 27.5,
+                "MCHC": 32.0,
+                "RDW": 14.0,
+                "PLT": 200000
+            },
+            "unit_of_measurement": {
+                "WBC Total": "10^9/L",
+                "RBC Total": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

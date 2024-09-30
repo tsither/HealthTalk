@@ -1,0 +1,35 @@
+{
+    "Date": "Dec 689578",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "MUMBAI Unit",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "40 101 40 3 34.5",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "485",
+            "unit_of_measurement": "count",
+            "reference_range": "[13.0 - 17.0]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "38",
+            "unit_of_measurement": "(qH)",
+            "reference_range": "[4.5 - 5.5]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[130]"
+        }
+    ]
+}

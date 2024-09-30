@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.2,
+            "unit_of_measurement": "%",
+            "reference_range": "41.0-53.0%"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.65,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.50-5.50 million/µL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 86.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-95.0 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0-36.0 g/dL"
+        }
+    ]
+}

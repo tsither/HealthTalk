@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": 12.1,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[4-11]"
+        },
+        {
+            "test_name": "Neutrophils Percentage",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[52-76]"
+        },
+        {
+            "test_name": "Lymphocytes Count",
+            "result_value": 1.88,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[1.2-3]"
+        }
+    ]
+}

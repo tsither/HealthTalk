@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": "6,56",
+                "Hematies": "100/iL",
+                "Hemoglobina": "14.00",
+                "Hematocrito": "339",
+                "V.C.M.": "4,17",
+                "H.C.M.": "9,7",
+                "C.H.C.M.": "288 gr/dl",
+                "R.D.W": "69",
+                "Plaquetas": {
+                    "L": "23 fL",
+                    "V.P.M.": "33.8",
+                    "bd": "5.40"
+                },
+                "VPM": "35,0 bd",
+                "IP/6": "52.0",
+                "Neutrofilos": {
+                    "f1": "110",
+                    "36,0": ""
+                },
+                "Linfocitos": "150",
+                "Monocitos": "16,0",
+                "Eosinofilos": "70.1",
+                "Basofiios": "12.4"
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "/L",
+                "Hematies": "/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "FL",
+                "H.C.M.": "FL",
+                "C.H.C.M.": "gr/dL",
+                "R.D.W": "%",
+                "Plaquetas": {
+                    "L": "fL",
+                    "V.P.M.": "",
+                    "bd": ""
+                },
+                "VPM": "bd",
+                "IP/6": "",
+                "Neutrofilos": {
+                    "f1": "",
+                    "36,0": "%"
+                },
+                "Linfocitos": "/L",
+                "Monocitos": "/L",
+                "Eosinofilos": "%",
+                "Basofiios": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

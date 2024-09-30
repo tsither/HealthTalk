@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.7,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cell Count",
+            "result_value": 5.55,
+            "unit_of_measurement": "10^6/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Indices",
+            "result_value": {
+                "MCV": 90.0,
+                "MCH": 328.0,
+                "MCHC": 30.0
+            },
+            "unit_of_measurement": {
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 272,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Date": "Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW) Investigation PDW, Whole Blood Electrical Impedance Age Group Adults Children Newborns",
+            "result_value": 15.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "normal_range": [
+                    9.0,
+                    17.0
+                ],
+                "adults_newborns": [
+                    9.0,
+                    17.0
+                ],
+                "children": [
+                    9.0,
+                    13.5
+                ]
+            }
+        }
+    ]
+}

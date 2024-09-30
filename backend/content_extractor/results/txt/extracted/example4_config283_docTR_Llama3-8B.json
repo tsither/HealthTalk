@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[80-100] g/dL"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-140] mg/dL"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/mL",
+            "reference_range": "[0.8-1.4] mg/mL"
+        }
+    ]
+}

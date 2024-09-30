@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_eName": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "pood pg g/dL",
+            "reference_range": "40 - 50"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "50 - 62"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": "cumm",
+            "reference_range": "00~ MCH: [FILL] - 02"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "00 - 02"
+        }
+    ]
+}

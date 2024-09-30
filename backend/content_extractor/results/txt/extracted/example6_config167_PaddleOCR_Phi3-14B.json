@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12.5, RBC count: 5.2 million/cumm, BLOOD IndiCeS PCV: 57.  5%, Mean Corpuscular Volume MCV: 83 fL, MCH: 27.2 pg, MCHC: 32 g/dL, ROW: 13.6 g/dL",
+            "unit_of_measurement": "g/dL or million/cumm or % or fL or pg or g/dL",
+            "reference_range": {
+                "Hemoglobin (hb)": "12-17.0 g/dL",
+                "RBC count": "4.5-5.5 million/cumm",
+                "Packed Cell Volume (PCV)": "40-50%",
+                "Mean Corpuscular Volume MCV": "83-101 fL",
+                "MCH": "27-32 pg",
+                "MCHC": "32-36 g/dL",
+                "ROW": "11.5-14.0 g/dL"
+            }
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": null,
+            "unit_of_measurement": "x10^3 /uL or cumm",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": "50%",
+                "Lymphocytes": "31%",
+                "Fosinophils": "1.00%",
+                "Monocyles": "7.00 - 10.00%",
+                "Basophils": "1.00 - 2.00%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "cumm or x10^9 /L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

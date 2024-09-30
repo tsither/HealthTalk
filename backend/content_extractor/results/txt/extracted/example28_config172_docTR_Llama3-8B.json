@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HB",
+            "result_value": 8.2,
+            "unit_of_measurement": "%",
+            "reference_range": "11.1 - 14.5"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 4.32,
+            "unit_of_measurement": "M/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 68.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 24.1,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PDW",
+            "result_value": 15.1,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 2.52,
+            "unit_of_measurement": "Lac/L",
+            "reference_range": "1.5 - 3.5"
+        }
+    ]
+}

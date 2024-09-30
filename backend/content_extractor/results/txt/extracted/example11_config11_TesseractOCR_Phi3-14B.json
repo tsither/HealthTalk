@@ -1,0 +1,77 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": [
+                {
+                    "HEMOGLOBIN Hemoglobin (Hb)": "12.5"
+                },
+                {
+                    "Total RBC count": "5.2 mill/cumm"
+                },
+                {
+                    "Packed Cell Volume (PCV)": "57. 5%"
+                },
+                {
+                    "Mean Corpuscular Volume (MCV)": "87.75 fL"
+                },
+                {
+                    "Calculated MCH": "27.2 pg"
+                },
+                {
+                    "Calculated MCHC": "32.8 g/dL"
+                },
+                {
+                    "Calculated RDW": "13.6%"
+                }
+            ],
+            "reference_range": [
+                {
+                    "HEMOGLOBIN Hemoglobin (Hb)": "13.0- 17.0 g/dL"
+                },
+                {
+                    "Total RBC count": "4.5 - 5.5 mill/cumm"
+                },
+                {
+                    "Packed Cell Volume (PCV)": "40-50%"
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "HEMOGLOBIN Hemoglobin (Hb)": "g/dL"
+                },
+                {
+                    "Total RBC count": "mill/cumm"
+                },
+                {
+                    "Packed Cell Volume (PCV)": "%"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                {
+                    "Platelet Count": "150000 cumm"
+                }
+            ],
+            "reference_range": [
+                {
+                    "Platelet Count": "150000 - 410000 cumm"
+                }
+            ],
+            "unit_of_measurement": [
+                {
+                    "Platelet Count": "cumm"
+                }
+            ]
+        }
+    ]
+}

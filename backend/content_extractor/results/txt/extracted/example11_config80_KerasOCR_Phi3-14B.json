@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "23456739",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "blood count investigation",
+            "result_value": "hemoglobin",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": "low",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "total red blood cell (RBC) count",
+            "result_value": 170,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "corpuscular volume (MCV)",
+            "result_value": "high",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 32,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

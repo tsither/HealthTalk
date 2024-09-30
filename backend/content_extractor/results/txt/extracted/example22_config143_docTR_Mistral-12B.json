@@ -1,0 +1,29 @@
+{
+    "Date": "02Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "HCT",
+            "result_value": 40.2,
+            "unit_of_measurement": "%",
+            "reference_range": "36-46"
+        },
+        {
+            "test_name": "RBC Total",
+            "result_value": 57.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.4-5.8"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 32.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        }
+    ]
+}

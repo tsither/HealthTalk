@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 125500,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 6895,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (PCV)",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54"
+        }
+    ]
+}

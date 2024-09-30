@@ -1,0 +1,69 @@
+{
+    "Date": "2023-10-17",
+    "patient_information": {
+        "patient_id": "patel",
+        "patient_name": "hiren coit prnc",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "blood count",
+            "result_value": "oo0 packed onoices",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "55s"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": "212",
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": "325",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential count",
+            "result_value": [
+                {
+                    "neutrophils": 328
+                },
+                {
+                    "lymphocytes": 176
+                },
+                {
+                    "eosinophils": "gidl"
+                },
+                {
+                    "monocytes": 105
+                },
+                {
+                    "platelets": null
+                }
+            ],
+            "unit_of_measurement": [
+                "cells/μL",
+                "cells/μL",
+                "cells/μL",
+                "cells/μL",
+                "/mm^3"
+            ],
+            "reference_range": null
+        }
+    ]
+}

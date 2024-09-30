@@ -1,0 +1,29 @@
+{
+    "Date": "04",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Acci curate PID Male P",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 12.5,
+            "unit_of_measurement": "W",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 689578,
+            "unit_of_measurement": "",
+            "reference_range": "[27.2, Low Basop, 13.0 - 17.0]"
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": 32.5,
+            "unit_of_measurement": "/dL",
+            "reference_range": "[300 - 620]"
+        }
+    ]
+}

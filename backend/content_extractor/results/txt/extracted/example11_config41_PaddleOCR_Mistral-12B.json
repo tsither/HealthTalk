@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "889689",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 40,
+                "Red Cell Distribution Width": 13.6,
+                "Mean Corpuscular Volume": 97.7,
+                "Platelet Count": 272
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dl",
+                "Hematocrit": "%",
+                "Red Cell Distribution Width": "",
+                "Mean Corpuscular Volume": "fl",
+                "Platelet Count": "10^3/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

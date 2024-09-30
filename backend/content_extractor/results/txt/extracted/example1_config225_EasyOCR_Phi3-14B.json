@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin Hbj: 125 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "Total RBC count: 52 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC) Total Differential",
+            "result_value": "Total WBC count: 60 x10^9/L, Neutrophils: 31%, Lymphocytes: 25%, Monocytes: 7.5%, Eosinophils: 0%",
+            "unit_of_measurement": "x10^9/L and %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250 x10^9/L",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

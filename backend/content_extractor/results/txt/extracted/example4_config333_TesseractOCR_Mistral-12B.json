@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.3,
+                "Hct": 40.2,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 5.4
+                },
+                "Hb": {
+                    "min": 12,
+                    "max": 16
+                },
+                "Hct": {
+                    "min": 37,
+                    "max": 47
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "CBC Differential",
+            "result_value": {
+                "Neutrophils": 62,
+                "Lymphocytes": 30,
+                "Monocytes": 8,
+                "Eosinophils": 2,
+                "Basophils": 1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": {
+                    "min": 40,
+                    "max": 75
+                },
+                "Lymphocytes": {
+                    "min": 20,
+                    "max": 50
+                },
+                "Monocytes": {
+                    "min": 3,
+                    "max": 12
+                },
+                "Eosinophils": {
+                    "min": 0,
+                    "max": 6
+                },
+                "Basophils": {
+                    "min": 0,
+                    "max": 2
+                }
+            }
+        }
+    ]
+}

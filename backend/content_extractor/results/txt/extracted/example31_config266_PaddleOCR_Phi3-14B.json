@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 72.5,
+                "Reticulocyte count": 5.2,
+                "Total R8C count": 4.5,
+                "Packed Cell Volume (PCV)": 57.5,
+                "White blood cell count (WBC):": null,
+                "Differential WSC count": {
+                    "Neutrophlls": null,
+                    "Lymphocyies": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "Platelet count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Reticulocyte count": "mill/cumm",
+                "Total R8C count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "White blood cell count (WBC)": "WBC Count",
+                "Differential WSC count": {
+                    "Neutrophlls": null,
+                    "Lymphocyies": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "Platelet count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "Reticulocyte count": [
+                    4.5,
+                    5.5
+                ],
+                "Total R8C count": null,
+                "Packed Cell Volume (PCV)": [
+                    40,
+                    50
+                ],
+                "White blood cell count (WBC)": "4000-11000",
+                "Differential WSC count": {
+                    "Neutrophlls": null,
+                    "Lymphocyies": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "Platelet count": [
+                    150000,
+                    410000
+                ]
+            }
+        }
+    ]
+}

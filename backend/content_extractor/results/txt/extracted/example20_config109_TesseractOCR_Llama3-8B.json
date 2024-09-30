@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "P1234",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8.2,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-11.0 x10^3/uL"
+        },
+        {
+            "test_name": "Creatinine (CR)",
+            "result_value": 1.7,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

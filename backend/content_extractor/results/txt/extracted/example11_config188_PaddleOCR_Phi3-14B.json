@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Blood HEMOGLOBIN Hemoglobin (Hb)": "12.5",
+                "RBC COUNT Low Total RBC count": "7p/6",
+                "MCH": "27.2"
+            },
+            "unit_of_measurement": {
+                "Blood HEMOGLOBIN Hemoglon (Hb)": null,
+                "RBC COUNT Low Total RBC count": null,
+                "MCH": null
+            },
+            "reference_range": {
+                "Blood HEMOGLOBIN Hemoglobin (Hb)": "13.0- 17.e",
+                "RBC COUNT Low Total RBC count": "5.7 - 5.5",
+                "MCH": null
+            }
+        },
+        {
+            "test_name": "Blood INDICES",
+            "result_value": {
+                "Packed Cell Volume (PCV)": "57.5%",
+                "Mean Corpuscular.Volume (MCV) High": null,
+                "MCHC": null
+            },
+            "unit_of_measurement": {
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular.Volume (MCV) High": null,
+                "MCHC": null
+            },
+            "reference_range": {
+                "Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular.Volume (MCV) High": "40-50",
+                "MCHC": null
+            }
+        },
+        {
+            "test_name": "WBC COUnT t 11.6-14.0 Differential wBc Count Neutrophils lymphocytes Fosinophils Monocyies Basophils % PlateLet count 00 - 02",
+            "result_value": {
+                "WBC COUnT t 11.6-14.0 Differential wBc Count Neutrophils lymphocytes Fosinophils Monocyies Basophils % PlateLet count 00 - 02": null
+            },
+            "unit_of_measurement": {
+                "WBC COUnT t 11.6-14.0 Differential wBc Count Neutrophils lymphocytes Fosinophils Monocyies Basophils % PlateLet count 00 - 02": null
+            },
+            "reference_range": {
+                "WBC COUnT t 11.6-14.0 Differential wBc Count Neutrophils lymphocytes Fosinophils Monocyies Basophils % PlateLet count 00 - 02": null
+            }
+        },
+        {
+            "test_name": "PlateLeT count",
+            "result_value": "150000/mm3",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "250000 - 400000"
+        }
+    ]
+}

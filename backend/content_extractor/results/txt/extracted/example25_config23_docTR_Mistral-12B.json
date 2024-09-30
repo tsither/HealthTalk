@@ -1,0 +1,81 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 6.56,
+                "Hematies": {
+                    "VPM": 4.17
+                },
+                "Hemoglobina": {
+                    "Val.Ref.": {
+                        "Min": 3.5,
+                        "Max": 12.0
+                    }
+                },
+                "Hematocrito": {
+                    "V.C.M": {
+                        "Val.Ref.": {
+                            "Min": 80,
+                            "Max": 99
+                        }
+                    },
+                    "HCM": {
+                        "Val.Ref.": {
+                            "Min": 25,
+                            "Max": 36
+                        }
+                    },
+                    "CHCM": {
+                        "Val.Ref.": {
+                            "Min": 10,
+                            "Max": 18
+                        }
+                    },
+                    "R.D.W": {
+                        "Val.Ref.": {
+                            "Min": 52,
+                            "Max": 60
+                        }
+                    }
+                },
+                "Plaquetas": {
+                    "VPM": {
+                        "Val.Ref.": {
+                            "Min": 150,
+                            "Max": 350
+                        }
+                    }
+                }
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "100/1L",
+                "Hematies.VPM": "100/1L",
+                "Hemoglobina.Val.Ref.": "g/dL",
+                "Hematocrito.V.C.M.Val.Ref.": "%",
+                "Hematocrito.HCM.Val.Ref.": "%",
+                "Hematocrito.CHCM.Val.Ref.": "%",
+                "Hematocrito.R.D.W.Val.Ref.": "%",
+                "Plaquetas.VPM.Val.Ref.": "100/1L"
+            }
+        },
+        {
+            "test_name": "Formula Leucocitaria",
+            "result_value": {
+                "Neutrofilos": 70.1,
+                "Linfocitos": 12.4,
+                "Monocitos": 6.0,
+                "Eosinofilos": 3.1,
+                "Basofilos": 0.8
+            },
+            "unit_of_measurement": "%"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 6.36,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "NEU",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "(37-54)%"
+        },
+        {
+            "test_name": "LYM",
+            "result_value": 26.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MON",
+            "result_value": 8.3,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "EO",
+            "result_value": 0.428,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "(30-38) x 10^9/L"
+        },
+        {
+            "test_name": "BASO",
+            "result_value": 5.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Plt",
+            "result_value": 250,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": ">150 x 10^9/L"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "PCV Count Sample",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Path count!",
+            "result_value": 150000,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 45.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40.7 - 50.3 Ref."
+        }
+    ]
+}

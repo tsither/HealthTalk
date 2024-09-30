@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Corine",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "4,000,001",
+            "unit_of_measurement": "cell/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.23",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.32",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": "6,800",
+            "unit_of_measurement": "cell/microliter",
+            "reference_range": "4,000-11,000 cell/microliter"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "190,000",
+            "unit_of_measurement": "cells per microliter",
+            "reference_range": null
+        }
+    ]
+}

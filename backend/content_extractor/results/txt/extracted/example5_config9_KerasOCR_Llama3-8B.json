@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SGOT",
+            "result_value": 98.4,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40"
+        },
+        {
+            "test_name": "SGPT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "BILIRUBIN",
+            "result_value": 1.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2"
+        },
+        {
+            "test_name": "ALK PHOSPHATASE",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

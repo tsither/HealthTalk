@@ -1,0 +1,31 @@
+{
+    "Date": "02 DEC 202X",
+    "patient_information": {
+        "patient_id": "111-23456189",
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "min": 9.0,
+                    "max": 17.0
+                },
+                "children": {
+                    "min": 7.5,
+                    "max": 13.5
+                },
+                "newborns": {
+                    "min": 8.0,
+                    "max": 17.0
+                }
+            },
+            "interpretation": "Normal"
+        }
+    ]
+}

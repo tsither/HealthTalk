@@ -1,0 +1,83 @@
+{
+    "Date": "23.05.2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.9,
+                "Hb": 13.5,
+                "Hct": 40.5,
+                "Plt": 256
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "10^3/uL"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10.0
+                ],
+                "RBC": [
+                    4.4,
+                    6.2
+                ],
+                "Hb": [
+                    12.0,
+                    16.0
+                ],
+                "Hct": [
+                    37.0,
+                    47.0
+                ],
+                "Plt": [
+                    150,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": {
+                "Total Cholesterol": 205,
+                "Triglycerides": 135,
+                "LDL": 128,
+                "HDL": 48
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL",
+                "LDL": "mg/dL",
+                "HDL": "mg/dL"
+            },
+            "reference_range": {
+                "Total Cholesterol": [
+                    0,
+                    240
+                ],
+                "Triglycerides": [
+                    0,
+                    150
+                ],
+                "LDL": [
+                    0,
+                    130
+                ],
+                "HDL": [
+                    40,
+                    60
+                ]
+            }
+        }
+    ]
+}

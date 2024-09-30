@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "12.5",
+            "unit_of_measurement": "",
+            "reference_range": "4.3-5.8 x 10^6/µL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "57.5",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "13.6",
+            "unit_of_measurement": "",
+            "reference_range": "4.0-11.0 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "200,000",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

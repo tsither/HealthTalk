@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 60,
+        "patient_body_mass_index": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                4.8,
+                14.3,
+                10.2
+            ],
+            "unit_of_measurement": [
+                "X 109/.",
+                "g/l",
+                "/1"
+            ],
+            "reference_range": "[68N, 1B, 5E, 24L 2M]"
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": [
+                65.0,
+                1.15,
+                -220,
+                6.6,
+                65,
+                20,
+                4.5,
+                800
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mg/dL",
+                "mg/dL",
+                "g/dL",
+                "ug/dL",
+                "ng/mL",
+                "%",
+                "U/L"
+            ],
+            "reference_range": "[70.0 - 110.0] (mg/dL), [0.70 - 1.10] (mg/dL), (<240.0) (mg/dL), [6.0 - 8.0] (g/dL), [55.0 - 135.0] (ug/dL), [10.0 -120.0] (ng/mL), [3.8-5] (mg/dL), [2,3] (mg/dL)"
+        }
+    ]
+}

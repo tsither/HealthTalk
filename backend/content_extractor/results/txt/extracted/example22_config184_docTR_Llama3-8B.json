@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": "125.5",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "83-101 Total RBC, 57.5 g/dL BLOOD INDICES Volume (PCV), 87.75 Packed Cell Volume",
+            "unit_of_measurement": "g/dL, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "32.8 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "27-32 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "13.6 pg/cell",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW) COUNT",
+            "result_value": "20%",
+            "unit_of_measurement": "%",
+            "reference_range": "15-30%"
+        },
+        {
+            "test_name": "Total White Blood Cell count",
+            "result_value": "31,000 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4.5-10.5 x 10^9/L"
+        },
+        {
+            "test_name": "Differential Count (Neutrophils)",
+            "result_value": "60%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils COUNT",
+            "result_value": "1,500 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "0-10% of WBC"
+        },
+        {
+            "test_name": "Monocytes COUNT",
+            "result_value": "150 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "3.0 x 10^11/L",
+            "unit_of_measurement": "x 10^11/L",
+            "reference_range": "150-450 x 10^9/L"
+        }
+    ]
+}

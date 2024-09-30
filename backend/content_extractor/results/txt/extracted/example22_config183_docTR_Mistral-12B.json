@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec. 2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel Mumbal",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 5.55,
+            "unit_of_measurement": "milivcumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB (Hemoglobin)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT (Red Blood Cell Count)",
+            "result_value": 57.5,
+            "unit_of_measurement": " trilions/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (Hematocrit)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": "36-46"
+        },
+        {
+            "test_name": "WBC COUNT (White Blood Cell Count)",
+            "result_value": 60,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

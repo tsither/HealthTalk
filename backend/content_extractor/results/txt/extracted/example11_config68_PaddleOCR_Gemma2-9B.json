@@ -1,0 +1,77 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4000-11000",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "11.6",
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "13.6",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "00 - 02"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "27.2",
+            "unit_of_measurement": "fl",
+            "reference_range": "27 - 32"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "87.75",
+            "unit_of_measurement": null,
+            "reference_range": "81 - 101"
+        },
+        {
+            "test_name": "NEUTROPHILS",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": "5.2",
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "MONOCYTES",
+            "result_value": "12.5",
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "EOSINOPHILS",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "8 - 1"
+        },
+        {
+            "test_name": "BASOPHILS",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "00 - 06"
+        }
+    ]
+}

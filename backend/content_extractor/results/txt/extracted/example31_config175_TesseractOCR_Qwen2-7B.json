@@ -1,0 +1,67 @@
+{
+    "Date": "02/12/2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02:31 PM, 02 Dec, 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.5,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "13.0-17.0 g/dL"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 5.2,
+                    "unit_of_measurement": "mill/cumm",
+                    "reference_range": "4.5-5.5 mill/cumm"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": 57.5,
+                    "unit_of_measurement": "%",
+                    "reference_range": "40-50 %"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit_of_measurement": "fl",
+                    "reference_range": "83-101 fl"
+                },
+                {
+                    "name": "MCH",
+                    "value": null
+                },
+                {
+                    "name": "MCHC",
+                    "value": 32.8,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "32.5-34.5 g/dL"
+                },
+                {
+                    "name": "WBC count",
+                    "value": 4000,
+                    "unit_of_measurement": "F",
+                    "reference_range": "4000-11000 F"
+                },
+                {
+                    "name": null,
+                    "value": null
+                },
+                {
+                    "name": "Platelet Count",
+                    "value": 150000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "150000 - 410000 cumm"
+                }
+            ]
+        }
+    ]
+}

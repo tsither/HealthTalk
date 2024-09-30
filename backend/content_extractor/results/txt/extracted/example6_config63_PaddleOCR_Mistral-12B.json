@@ -1,0 +1,50 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 87.75,
+                "RBC": 40.6,
+                "Hb": 13.6,
+                "HCT": 32.8,
+                "MCV": 90.0,
+                "MCH": 27.2,
+                "MCHC": 30.5,
+                "PLT": 254.0
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "million/uL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.4 - 6.2",
+                "Hb": "13.0 - 17.0",
+                "HCT": "40.0 - 52.0",
+                "MCV": "83.0 - 97.0",
+                "MCH": "27.0 - 31.0",
+                "MCHC": "32.5 - 36.5",
+                "PLT": "150,000 - 450,000"
+            }
+        },
+        {
+            "test_name": "Peripheral Smear",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

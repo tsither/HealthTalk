@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "50000",
+            "unit_of_measurement": null,
+            "reference_range": "9-32 G/dL"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": "34-44%"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "9000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "3000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

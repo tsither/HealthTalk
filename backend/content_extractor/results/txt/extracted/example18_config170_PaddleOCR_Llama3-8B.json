@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "COUNT (White Blood Cell Count)",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/microL",
+            "reference_range": "4.5 - 11.6 x 10^9 cells/L"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 50000,
+            "unit_of_measurement": "femtoL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count (Red Blood Cell Count)",
+            "result_value": 555,
+            "unit_of_measurement": "cells/microL",
+            "reference_range": null
+        }
+    ]
+}

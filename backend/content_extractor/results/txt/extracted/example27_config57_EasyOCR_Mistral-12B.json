@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "R! (.l N,4)1",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HB": "16.5 g/dl",
+                "HCM": "48%",
+                "HCT": "45%",
+                "PLT": "255,000 /mm³",
+                "WBC": "7,300 /mm³"
+            },
+            "unit_of_measurement": {
+                "HB": "g/dl",
+                "HCM": "%",
+                "HCT": "%",
+                "PLT": "/mm³",
+                "WBC": "/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica S!rica",
+            "result_value": {
+                "Glucosa": "98 mg/dl",
+                "Uric Acid": "4.02 mg/dl"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Uric Acid": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma Venoso",
+            "result_value": {
+                "Sodio": "145 mEq/l",
+                "Potasio": "4.02 mEq/l"
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/l",
+                "Potasio": "mEq/l"
+            },
+            "reference_range": null
+        }
+    ]
+}

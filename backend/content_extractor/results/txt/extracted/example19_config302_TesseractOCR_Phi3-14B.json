@@ -1,0 +1,104 @@
+{
+    "Date": "03.21.2023",
+    "patient_information": {
+        "patient_id": "987654321",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.5,
+                "RBC": 4.8,
+                "Hemoglon": 14.2,
+                "Hematocrit": 43.0,
+                "MCV": 90.0,
+                "MCHC": 33.5,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "MCV": "fL",
+                "MCHC": "g/dL",
+                "Platelets": "x10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    11.0
+                ],
+                "RBC": [
+                    4.7,
+                    6.1
+                ],
+                "Hemoglobin": [
+                    13.8,
+                    17.2
+                ],
+                "Hematocrit": [
+                    "40.7",
+                    "50.3"
+                ],
+                "MCV": [
+                    80.0,
+                    96.0
+                ],
+                "MCHC": [
+                    32.0,
+                    36.0
+                ],
+                "Platelets": [
+                    150,
+                    450
+                ]
+            }
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": {
+                "Total Cholesterol": 210.0,
+                "HDL Cholesterol": 60.0,
+                "LDL Cholesterol": 130.0,
+                "Triglycerides": 150.0
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "HDL Cholesterol": "mg/dL",
+                "LDL Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL"
+            },
+            "reference_range": {
+                "Total Cholesterol": [
+                    0,
+                    200
+                ],
+                "HDL Cholesterol": [
+                    40,
+                    60
+                ],
+                "LDL Cholesterol": [
+                    0,
+                    130
+                ],
+                "Triglycerides": [
+                    0,
+                    150
+                ]
+            }
+        },
+        {
+            "test_name": "Fasting Blood Glucose",
+            "result_value": 95.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": [
+                70,
+                100
+            ]
+        }
+    ]
+}

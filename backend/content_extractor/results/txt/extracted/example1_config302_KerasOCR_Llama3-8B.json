@@ -1,0 +1,29 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-15 g/dL"
+        },
+        {
+            "test_name": "Kidney Function Test (KFT)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/mL",
+            "reference_range": "80-140 mg/mL"
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": 50,
+            "unit_of_measurement": "IU/L",
+            "reference_range": "20-100 IU/L"
+        }
+    ]
+}

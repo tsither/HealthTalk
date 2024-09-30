@@ -1,0 +1,41 @@
+{
+    "Date": "202x.12.05",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "shah",
+        "patient_sex": "male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "10.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11000-14000"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": "325",
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.1",
+            "unit_of_measurement": "millions/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "8.75",
+            "unit_of_measurement": "thousands/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150",
+            "unit_of_measurement": "thousands/mcL",
+            "reference_range": null
+        }
+    ]
+}

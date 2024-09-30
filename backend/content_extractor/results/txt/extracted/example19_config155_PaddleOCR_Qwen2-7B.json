@@ -1,0 +1,29 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "ald"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "Platelet count: 150000 - 410000; Basophils: 4.5 - 5.5 High; Mean Corpuscular Volume (MCV): Complete Blood Count (CBC)"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "13.6",
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

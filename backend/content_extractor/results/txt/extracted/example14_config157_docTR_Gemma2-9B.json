@@ -1,0 +1,47 @@
+{
+    "Date": "2023.10.26",
+    "patient_information": {
+        "patient_id": "P12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "RBC": 4.8,
+                "WBC": 7.2,
+                "Platelets": 300
+            },
+            "unit_of_measurement": {
+                "RBC": "x10^6/µL",
+                "WBC": "x10^3/µL",
+                "Platelets": "x10^3/µL"
+            },
+            "reference_range": {
+                "RBC": "4.5-5.5 x10^6/µL",
+                "WBC": "4.5-11 x10^3/µL",
+                "Platelets": "150-450 x10^3/µL"
+            }
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": {
+                "Glucose": 98,
+                "Sodium": 138,
+                "Potassium": 4.2
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Sodium": "mEq/L",
+                "Potassium": "mEq/L"
+            },
+            "reference_range": {
+                "Glucose": "70-110 mg/dL",
+                "Sodium": "135-145 mEq/L",
+                "Potassium": "3.5-5 mEq/L"
+            }
+        }
+    ]
+}

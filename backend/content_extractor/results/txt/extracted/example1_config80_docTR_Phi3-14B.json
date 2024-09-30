@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN (Hb)",
+            "result_value": 5.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 57.5,
+            "unit_e of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PACKED CELL VOLUME (PCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "% cumm",
+            "reference_range": "Low: 13.0-17.0 High: 40-50"
+        },
+        {
+            "test_name": "MEAN CALCULATED CORPUSCULAR VOLUME (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHA COUNT",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MEAN CALCULATED MCHC",
+            "result_value": 32.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "High: 40-50 Low: null"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells (WBC) Count Total",
+            "result_value": 9000,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        }
+    ]
+}

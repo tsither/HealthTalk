@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "HMGR001",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": {
+                    "value": "13.4",
+                    "unit": "g/dL"
+                },
+                "Hematocrito": {
+                    "value": "40.6",
+                    "unit": "%"
+                },
+                "Leucocitos": {
+                    "value": "7.52",
+                    "unit": "x10^3/uL"
+                },
+                "Placa": {
+                    "value": "298",
+                    "unit": "x10^3/uL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 41,
+            "unit_of_measurement": "%",
+            "reference_range": "37-48"
+        },
+        {
+            "test_name": "Red cell count",
+            "result_value": 4.6,
+            "unit_of_measurement": "millions/mm^3",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": 89,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 155,
+            "unit_of_measurement": "thousands/mm^3",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Total bilirubin",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-1.2"
+        },
+        {
+            "test_name": "Direct bilirubin",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-0.5"
+        },
+        {
+            "test_name": "Aspartate aminotransferase (AST)",
+            "result_value": 32,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-40"
+        },
+        {
+            "test_name": "Alanine aminotransferase (ALT)",
+            "result_value": 27,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-40"
+        },
+        {
+            "test_name": "Gamma-glutamyltransferase (GGT)",
+            "result_value": 55,
+            "unit_of_measurement": "U/L",
+            "reference_range": "10-50"
+        },
+        {
+            "test_name": "Alkaline phosphatase (ALP)",
+            "result_value": 65,
+            "unit_of_measurement": "U/L",
+            "reference_range": "30-120"
+        }
+    ]
+}

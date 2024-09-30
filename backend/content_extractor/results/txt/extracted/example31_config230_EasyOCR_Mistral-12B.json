@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 12.7,
+                "PLT": 230,
+                "NEU": 48,
+                "LYM": 39,
+                "MON": 7
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "PLT": "K/uL",
+                "NEU": "%",
+                "LYM": "%",
+                "MON": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.0 K/uL",
+                "RBC": "4.4-5.4 M/uL",
+                "HGB": "13.5-17.5 g/dL",
+                "PLT": "150-450 K/uL",
+                "NEU": "40-65%",
+                "LYM": "25-45%",
+                "MON": "3-11%"
+            }
+        },
+        {
+            "test_name": "CMP",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 10,
+                "CR": 0.9,
+                "NA+": 142,
+                "K+": 3.5
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CR": "mg/dL",
+                "NA+": "mmol/L",
+                "K+": "mmol/L"
+            },
+            "reference_range": {
+                "GLU": "70-99 mg/dL",
+                "BUN": "6-24 mg/dL",
+                "CR": "0.5-1.5 mg/dL",
+                "NA+": "136-145 mmol/L",
+                "K+": "3.5-5.3 mmol/L"
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "40-50 g/dL"
+        },
+        {
+            "test_name": "RBC Count (Low)",
+            "result_value": "13 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count (GIDL)",
+            "result_value": "52 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "457",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV) High",
+            "result_value": "50 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "40-50 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "31 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Reference)",
+            "result_value": "13.6%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count (Countart)",
+            "result_value": "11.61 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "60%",
+                "Lymphocytes": "50%",
+                "Eosinophils": "20-40%",
+                "Monocytes": "0-6%",
+                "Basophils": "0%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (Borderline)",
+            "result_value": "150,000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "150,000-410,000/μL"
+        }
+    ]
+}

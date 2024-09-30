@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 1304,
+            "unit_of_measurement": "1000 cells/microliter (GIDL)",
+            "reference_range": "4.32 - 5.72 million cells/mcL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 40,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-101 fl"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27,
+            "unit_of_measurement": null,
+            "reference_range": "28.5-32 pg/cell"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 3257,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 1161,
+            "unit_of_measurement": "1000 cells/microliter (GIDL)",
+            "reference_range": "4.5-11.0 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": "1.5-3.5 lac/cumm (borderline)"
+        }
+    ]
+}

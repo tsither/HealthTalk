@@ -1,0 +1,83 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "125 shiyam sungalow s g road",
+        "patient_city": "mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "low",
+            "reference_range": "[1310, 170] rbc count"
+        },
+        {
+            "test_name": "total rbc count",
+            "result_value": 52954,
+            "unit_of_measurement": "55 millicumm blood indices packed cell volume pcv",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 57.5,
+            "unit_of_measurement": "high ao 50",
+            "reference_range": "[83, 101]"
+        },
+        {
+            "test_name": "mean corpuscular volume (mcv)",
+            "result_value": 87.75,
+            "unit_of_measurement": "corioeg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch",
+            "result_value": 272,
+            "unit_of_measurement": "cstos",
+            "reference_range": null
+        },
+        {
+            "test_name": "mchc",
+            "result_value": 328,
+            "unit_of_measurement": "ceous 3254 3a5",
+            "reference_range": null
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 13.16,
+            "unit_of_measurement": "slao wbc count tolal wsc l count",
+            "reference_range": "[11, 16]"
+        },
+        {
+            "test_name": "differential wec (white blood cell) count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "neutrophils": [
+                        60,
+                        62
+                    ],
+                    "lymphocytes": [
+                        31,
+                        20
+                    ],
+                    "eosinophils": [
+                        0.6
+                    ],
+                    "monocytos": [],
+                    "basophils": []
+                }
+            ]
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": null,
+            "unit_of_measurement": "borderline isoo00 10000 cumm",
+            "reference_range": null
+        }
+    ]
+}

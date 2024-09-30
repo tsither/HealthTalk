@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "S P Mozocc",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count (Packed)",
+            "result_value": 1500000,
+            "unit_of_measurement": null,
+            "reference_range": "450000-3200000"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 40000000,
+            "unit_of_measurement": "cells/mul",
+            "reference_range": "42000000-52000000"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 140,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "120-180"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.32,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "26-31"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 88.75,
+            "unit_of_measurement": "fL/cell",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 12500,
+            "unit_of_measurement": "cells/mul",
+            "reference_range": "4000-10000"
+        },
+        {
+            "test_name": "Reticulocyte Count (RDW)",
+            "result_value": 13.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.4"
+        },
+        {
+            "test_name": "Differential White Blood Cell count",
+            "result_value": {
+                "Neutrophils": null,
+                "Lymphocytes": 75,
+                "Eosinophils": null,
+                "Monocytes": 10,
+                "Basophils": null
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 375000,
+            "unit_of_measurement": "cells/mul",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

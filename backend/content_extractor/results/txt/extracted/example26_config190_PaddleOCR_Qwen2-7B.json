@@ -1,0 +1,29 @@
+{
+    "Date": "Not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HEMO)",
+            "result_value": 12.037,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[11-16] g/dL"
+        },
+        {
+            "test_name": "Platelets (PLAQ)",
+            "result_value": 181,
+            "unit_of_measurement": "10E3 / μL",
+            "reference_range": "[150-400] 10E3 / μL"
+        },
+        {
+            "test_name": "White blood cells (WBC)",
+            "result_value": 2.1,
+            "unit_of_measurement": "10E3 / μL",
+            "reference_range": "[3.5-9] 10E3 / μL"
+        }
+    ]
+}

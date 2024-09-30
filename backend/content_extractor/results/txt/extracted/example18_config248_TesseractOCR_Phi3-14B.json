@@ -1,0 +1,35 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hd)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0-17.e"
+        },
+        {
+            "test_name": "Mean Cell Volume (MCH)",
+            "result_value": 2,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": 32.8,
+            "unit_of_measurement": "gid",
+            "reference_range": "22.5-34.8"
+        },
+        {
+            "test_name": "Calibrated Red Cell Distribution Width (CRDW)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0"
+        }
+    ]
+}

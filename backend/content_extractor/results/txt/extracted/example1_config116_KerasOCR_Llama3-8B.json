@@ -1,0 +1,83 @@
+{
+    "Date": "02 Dec 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 52.45,
+            "unit_of_measurement": "G/L",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 4.51,
+            "unit_of_measurement": "Milli/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices - Packed Cell Volume (PCV)",
+            "result_value": 55,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "FL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Calculated)",
+            "result_value": 32.8,
+            "unit_of_measurement": "PG",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCHC (Calculated)",
+            "result_value": 34.5,
+            "unit_of_measurement": "G/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Calculated)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "14-16"
+        },
+        {
+            "test_name": "WBC Count (Total)",
+            "result_value": 9.0,
+            "unit_of_measurement": "1000/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 6,
+                "Monocytes": 10,
+                "Basophils": 1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 50.0,
+            "unit_of_measurement": "1000/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "M Blood PLEX 0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hematocrit (PCV)",
+            "result_value": "41%",
+            "unit_of_measurement": "%",
+            "reference_range": "36% - 50%"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "89689",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "34.5",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "150,000 - 450,000"
+        }
+    ]
+}

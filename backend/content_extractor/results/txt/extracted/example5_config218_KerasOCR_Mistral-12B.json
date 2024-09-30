@@ -1,0 +1,26 @@
+{
+    "Date": "21.07.2022",
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Shivam Singh",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "min": 10,
+                    "max": 17
+                },
+                "children": {
+                    "min": 75,
+                    "max": 13
+                }
+            }
+        }
+    ]
+}

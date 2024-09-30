@@ -1,0 +1,29 @@
+{
+    "Date": "23.09.2022",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 6.5,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "×10^12/L",
+            "reference_range": "(4.5-6.0) ×10^12/L"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

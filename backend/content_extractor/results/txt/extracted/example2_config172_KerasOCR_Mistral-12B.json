@@ -1,0 +1,23 @@
+{
+    "Date": "24.06.2022",
+    "patient_information": {
+        "patient_id": "PAT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 18.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8.2,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.5 - 10.5"
+        }
+    ]
+}

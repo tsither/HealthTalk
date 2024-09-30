@@ -1,0 +1,53 @@
+{
+    "Date": "2022-03-15",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells (WBC)": 6.5,
+                "Red Blood Cells (RBC)": 5.2,
+                "Hemoglobin (Hb)": 14.0,
+                "Platelets": 230
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "10^9/L",
+                "Red Blood Cells (RBC)": "10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cells (WBC)": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "Red Blood Cells (RBC)": {
+                    "min": 4.8,
+                    "max": 6.2
+                },
+                "Hemoglobin (Hb)": {
+                    "min": 13.0,
+                    "max": 17.5
+                },
+                "Platelets": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 70,
+                "max": 100
+            }
+        }
+    ]
+}

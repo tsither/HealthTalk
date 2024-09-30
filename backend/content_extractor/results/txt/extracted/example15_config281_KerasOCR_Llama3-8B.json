@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10.5,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4,000-11,000 cells/μL"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.2,
+            "unit_of_measurement": "millions/μL",
+            "reference_range": "3.5-6.5 millions/μL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "150,000-450,000 cells/μL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.5 mg/dL"
+        }
+    ]
+}

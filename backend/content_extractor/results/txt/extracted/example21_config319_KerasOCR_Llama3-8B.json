@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Oxygen Saturation",
+            "result_value": 94,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 56500000000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "4-11 x 10^9 cells/ul"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4580000000000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 145,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 251000000000.0,
+            "unit_of_measurement": "/ul",
+            "reference_range": "150-450 x 10^9 cells/ul"
+        }
+    ]
+}

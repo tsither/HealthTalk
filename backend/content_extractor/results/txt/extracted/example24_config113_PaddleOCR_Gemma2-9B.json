@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash",
+        "patient_sex": "Male",
+        "patient_age": "00 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet (DIFFERENTIAL count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "32.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "34.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "01234567689",
+        "patient_name": "Yash ms",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_registration_number": "0281 pil 02"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "1315-175",
+                "female": "120"
+            },
+            "comment": "low levels may indicate anemia, blood loss; further testing might be necessary to determine the cause or if it's due to polycythemia"
+        }
+    ]
+}

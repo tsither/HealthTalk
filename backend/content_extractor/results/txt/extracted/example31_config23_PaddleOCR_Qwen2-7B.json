@@ -1,0 +1,113 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555 L 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "field": "Hemoglobin",
+                    "value": "BLOOd InDices",
+                    "unit_of_measurement": "Unit"
+                },
+                {
+                    "field": "Packed Cell Volume (PCV)",
+                    "value": 72.5,
+                    "unit_of_measurement": "% Low"
+                },
+                {
+                    "field": "RDW",
+                    "value": null
+                },
+                {
+                    "field": "Total WBC count",
+                    "value": 32.8,
+                    "unit_of_measurement": "mill/cumm"
+                },
+                {
+                    "field": "Differential wBc count",
+                    "value": null
+                },
+                {
+                    "field": "Neutrophils",
+                    "value": 13.6,
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "field": "Lymphocytes",
+                    "value": null
+                },
+                {
+                    "field": "Eosinophils",
+                    "value": 27.2,
+                    "unit_of_measurement": "High"
+                },
+                {
+                    "field": "Monocytes",
+                    "value": 11.6,
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "field": "Basophils",
+                    "value": null
+                },
+                {
+                    "field": "Platelet count",
+                    "value": 37,
+                    "unit_of_measurement": "platelets/6"
+                }
+            ],
+            "reference_range": [
+                {
+                    "field": "Hemoglobin",
+                    "range": "[13.0- 17.0]"
+                },
+                {
+                    "field": "PCV",
+                    "range": null
+                },
+                {
+                    "field": "RDW",
+                    "range": null
+                },
+                {
+                    "field": "Total WBC count",
+                    "range": "[40-50] mill/cumm"
+                },
+                {
+                    "field": "Differential wBc count",
+                    "range": null
+                },
+                {
+                    "field": "Neutrophils",
+                    "range": "[27- 32] %"
+                },
+                {
+                    "field": "Lymphocytes",
+                    "range": null
+                },
+                {
+                    "field": "Eosinophils",
+                    "range": "[32.5 - 34.5] fL"
+                },
+                {
+                    "field": "Monocytes",
+                    "range": "[11.6 - 14.0] %"
+                },
+                {
+                    "field": "Basophils",
+                    "range": null
+                },
+                {
+                    "field": "Platelet count",
+                    "range": "[4000-11000] platelets/6"
+                }
+            ]
+        }
+    ]
+}

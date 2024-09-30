@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "RBC Count Total RBC",
+            "result_value": "5.24",
+            "unit_of_measurement": "x10^6 /µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count Total WBC",
+            "result_value": "9.00",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4.0-11.0 x10^3/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "/mm3",
+            "reference_range": "150,000-400,000 /mm3"
+        },
+        {
+            "test_name": "HCV Antibody",
+            "result_value": "Negative",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

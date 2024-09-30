@@ -1,0 +1,29 @@
+{
+    "Date": "02/16/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-16.9"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7000,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "3500-10000"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 250000,
+            "unit_of_measurement": "platelets/μL",
+            "reference_range": "150000-400000"
+        }
+    ]
+}

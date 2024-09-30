@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "11.6 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34.5-40- 0006"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": "12.5 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "5.2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell COUNT",
+            "result_value": "57.5 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "83 - 107 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": null
+        }
+    ]
+}

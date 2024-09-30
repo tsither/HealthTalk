@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Labcustomer",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete Reference Value",
+            "result_value": "13.0-17.9",
+            "unit_of_measurement": "U",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Volume Primary Type",
+            "result_value": "125",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-160"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "27.2",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

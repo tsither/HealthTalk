@@ -1,0 +1,23 @@
+{
+    "Date": "01.03.2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6 - 1.2"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 17.0"
+        }
+    ]
+}

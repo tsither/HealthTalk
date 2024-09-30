@@ -1,0 +1,90 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8,
+                "Hemoglobina": 14.3,
+                "HMC.": 29,
+                "Leucicitos": 10.2
+            },
+            "unit_of_measurement": {
+                "Hematies": "x10^9",
+                "Hemoglobina": "g/dl",
+                "HMC.": "pg",
+                "Leucicitos": "x10^6/l"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica Basica",
+            "result_value": {
+                "Glucosa": 65.0,
+                "Creatinina": "115*",
+                "Colesterol": 220,
+                "Proteina": 6.6
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro",
+            "result_value": {
+                "H+": 65,
+                "Ferritina": 20,
+                "Hemoglogina Ac": 45
+            },
+            "unit_of_measurement": {
+                "H+": null,
+                "Ferritina": null,
+                "Hemoglogina Ac": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Funcion Hepatica",
+            "result_value": {
+                "GOT": 80.0,
+                "GPT": 80.0,
+                "GGT": 200
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L"
+            },
+            "reference_range": {
+                "GOT": "(7-55)",
+                "GPT": "(6-32)",
+                "GGT": "(7-33)"
+            }
+        },
+        {
+            "test_name": "Bilirrubina",
+            "result_value": {
+                "Total": 2.8,
+                "Directa (Esterificada)": 1.5
+            },
+            "unit_of_measurement": {
+                "Total": "mg/dL",
+                "Directa (Esterificada)": "mg/dL"
+            },
+            "reference_range": {
+                "Total": "(0.2-1)",
+                "Directa (Esterificada)": "(0.05 - 0.4)"
+            }
+        }
+    ]
+}

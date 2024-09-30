@@ -1,0 +1,43 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 5750,
+                "RBC": 4830,
+                "Hb": 12.5,
+                "Hct": 39.4,
+                "Platelet": 298,
+                "Neutrophils": 67.75,
+                "Lymphocytes": 22.7,
+                "Monocytes": 8.3,
+                "Eosinophils": 1.2
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/uL",
+                "RBC": "cells/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelet": "cells/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%"
+            },
+            "reference_range": {
+                "WBC": "4000-11000",
+                "RBC": "4.5 - 5.5",
+                "Hb": "13.0-17.0",
+                "Hct": "32.8 - 46.4",
+                "Platelet": "150000 - 410000"
+            }
+        }
+    ]
+}

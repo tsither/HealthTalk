@@ -1,0 +1,23 @@
+{
+    "Date": "02 DEC 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "YASH M PATEL",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 170,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-400"
+        },
+        {
+            "test_name": "PLATELET DISTRIBUTION WIDTH",
+            "result_value": 9.0,
+            "unit_of_measurement": "%",
+            "reference_range": "9-25"
+        }
+    ]
+}

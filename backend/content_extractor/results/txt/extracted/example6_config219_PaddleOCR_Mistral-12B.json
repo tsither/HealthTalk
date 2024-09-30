@@ -1,0 +1,93 @@
+{
+    "Date": "03 Dec. 2x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "PACKED CELL VOLUME (PCV)",
+            "result_value": 47.5,
+            "reference_range": {
+                "low": 40,
+                "high": 50
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "MEAN CORPUSCULAR VOLUME (MCV)",
+            "result_value": 87.75,
+            "reference_range": {
+                "low": 83.1,
+                "high": 100
+            },
+            "unit_of_measurement": "fl"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 272,
+            "reference_range": {
+                "low": 27.32,
+                "high": null
+            },
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "reference_range": {
+                "low": 11.6,
+                "high": 14
+            },
+            "unit_of_measurement": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 9000,
+            "reference_range": {
+                "low": 4000,
+                "high": 11000
+            },
+            "unit_of_measurement": "cumm"
+        },
+        {
+            "test_name": "NEUTROPHILS",
+            "result_value": 60,
+            "reference_range": {
+                "low": 50,
+                "high": 62
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": 31,
+            "reference_range": {
+                "low": 20.4,
+                "high": null
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 150000,
+            "reference_range": {
+                "low": 150000,
+                "high": 410000
+            },
+            "unit_of_measurement": "cumm"
+        }
+    ]
+}

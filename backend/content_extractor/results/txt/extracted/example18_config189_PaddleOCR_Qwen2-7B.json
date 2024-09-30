@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Latelet count",
+            "result_value": null,
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 32.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

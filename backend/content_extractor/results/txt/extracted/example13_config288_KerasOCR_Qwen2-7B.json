@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit, VCS",
+            "result_value": 50.2,
+            "unit_of_measurement": "%",
+            "reference_range": "41 - 53"
+        },
+        {
+            "test_name": "Lipase, Pancreatic",
+            "result_value": 98.3,
+            "unit_of_measurement": "U/L",
+            "reference_range": "26 - 100"
+        }
+    ]
+}

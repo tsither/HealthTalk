@@ -1,0 +1,71 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result Reference Value Unit Primary Sample Type Blood",
+            "result_value": [
+                "Hemoglobin (Hb): 12.5 Low",
+                "RBC COUNT: Total RBC count: 5.2",
+                "BLOOD INDICES Packed Cell Volume (PCV): 57.Cumulative Hemoglobin (Hb):",
+                "MCH: 27.2",
+                "MCHC: 32.8"
+            ],
+            "unit_of_measurement": [
+                "Low",
+                "mill/cumm",
+                "%",
+                "fL",
+                "pg"
+            ],
+            "reference_range": [
+                "13.0-17.0",
+                "4.5 - 5.5 mill/cumm",
+                "40-50 %",
+                "27 - 32 pg",
+                "32.5 - 34.5"
+            ]
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result Reference Value Unit Primary Sample Type Blood",
+            "result_value": [
+                "WBC COUNT: Total WBC count: 9000",
+                "DIFFERENTIAL WBC COUNT Neutrophils:",
+                "Lymphocytes:",
+                "Eosinophils:",
+                "Monocytes:"
+            ],
+            "unit_of_measurement": [
+                "cumm",
+                "%",
+                "%",
+                "%",
+                "%"
+            ],
+            "reference_range": [
+                "4000-11000 cumm",
+                "50 - 62 %",
+                "20 - 40 %",
+                "00 - 06 %",
+                "00 - 10 %"
+            ]
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result Reference Value Unit Primary Sample Type Blood",
+            "result_value": [
+                "PLATELET COUNT: Platelet Count"
+            ],
+            "unit_of_measurement": [
+                "cumm"
+            ],
+            "reference_range": [
+                "150000 - 410000 cumm"
+            ]
+        }
+    ]
+}

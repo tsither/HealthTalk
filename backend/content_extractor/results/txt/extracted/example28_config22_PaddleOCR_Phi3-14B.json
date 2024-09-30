@@ -1,0 +1,110 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma: articulares y que ha viajado",
+            "result_value": [
+                "Hematies",
+                "Hemoglobina 4.8109",
+                "VCM 14,3 g/ H.M.C.",
+                "Creatinine",
+                "Colesterol 65.0*",
+                "Protein 1.15 * mg/dL",
+                "Iron (II+I) 220 mg/dL",
+                "Ferritina 6,6 mg/dL"
+            ],
+            "unit_of_measurement": [
+                "número de glóbulos rojos",
+                "Hemoglobina g/L",
+                "VCM (volume corpuscular medio) fl.",
+                "Creatinine *mg/dL",
+                "*mg/dL",
+                "Proteína mg/dL",
+                "*mg/dL",
+                "Iron mg/dL"
+            ],
+            "reference_range": [
+                "número de glóbulos rojos: normal",
+                "Hemoglobina: 13,5-17.0 g/L",
+                "VCM: 80-96 fL",
+                "*mg/dL: normal",
+                "*mg/dL: 220-420 mg/dL",
+                "Proteína: 40-85 mg/dL",
+                "*mg/dL: 300-400 mcg/dL",
+                "*mg/dL: normal"
+            ]
+        },
+        {
+            "test_name": "Glucosa, Creatinina",
+            "result_value": [
+                "Creat",
+                "65.0*"
+            ],
+            "unit_of_measurement": [
+                "mg/dl",
+                "*mg/dL"
+            ],
+            "reference_range": [
+                "< 126 mg/dL *mg/dL: normal"
+            ]
+        },
+        {
+            "test_name": "Colesterol, Proteina, Ferritina, Hemoglobina A1c",
+            "result_value": [
+                "Colesterol 65.0*",
+                "Protein 1.15 * mg/dL",
+                "Ferritina 6,6 mg/dL",
+                "Hemoglobina A1c 65 g/dL"
+            ],
+            "unit_of_measurement": [
+                "mg/dl",
+                "*mg/dL",
+                "mg/dL",
+                "glycated hemoglobin %"
+            ],
+            "reference_range": [
+                "Desirable: <200 mg/dL *<5.7%: normal"
+            ]
+        },
+        {
+            "test_name": "GOT, GPT, GGT",
+            "result_value": [
+                "GOT 20 g/dL",
+                "GPT 4.5 ng/mL",
+                "GGT 800"
+            ],
+            "unit_of_measurement": [
+                "g/dl",
+                "*ng/mL",
+                "U/l"
+            ],
+            "reference_range": [
+                "10-40 U/l *<30%: normal"
+            ]
+        },
+        {
+            "test_name": "Bilirrubina total, Directa, Fosfatasa Alcalina, Albumina",
+            "result_value": [
+                "Bilirrubina total 800* U/L",
+                "Directa (Esterificada) 100* U/L",
+                "Fosfatasa Alcalina 2.8 * U/L",
+                "Albumina 1.5 * mg/dL"
+            ],
+            "unit_of_measurement": [
+                "U/l",
+                "*U/L",
+                "*U/L",
+                "*mg/dL"
+            ],
+            "reference_range": [
+                "< 20,0 U/l *<1.0 %: normal"
+            ]
+        }
+    ]
+}

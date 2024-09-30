@@ -1,0 +1,71 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 5.0,
+                "HGB": 13.5,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.5,
+                    "max": 6
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 16
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": {
+                "GLU": 98,
+                "PROT": 7.2,
+                "ALB": 4.4
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "PROT": "g/dL",
+                "ALB": "g/dL"
+            },
+            "reference_range": {
+                "GLU": {
+                    "min": 70,
+                    "max": 110
+                },
+                "PROT": {
+                    "min": 6.5,
+                    "max": 8.3
+                },
+                "ALB": {
+                    "min": 3.5,
+                    "max": 5
+                }
+            }
+        }
+    ]
+}

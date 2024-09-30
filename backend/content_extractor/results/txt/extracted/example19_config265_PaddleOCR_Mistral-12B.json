@@ -1,0 +1,60 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 12.5,
+                "RBC": 47.2,
+                "HGB": 130000,
+                "PLT": 27
+            },
+            "unit_of_measurement": {
+                "WBC": "G/L",
+                "RBC": "M/L",
+                "HGB": "g/dL",
+                "PLT": "G/L"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.2 - 6.2",
+                "HGB": "13.0-17.0 g/dL",
+                "PLT": "150,000 - 450,000"
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 130000,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 27,
+            "unit_of_measurement": "G/L",
+            "reference_range": "150,000 - 450,000"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[Yash Patel]",
+        "patient_sex": "[Male]",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "Total RBC: 5.2 gs",
+            "unit_of_measurement": "millions/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": "PCV: 50",
+            "unit_of_measurement": "%",
+            "reference_range": "45-55%"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": "87.75 FL",
+            "unit_of_measurement": "",
+            "reference_range": "85-101 FL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "328",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "Normal",
+            "unit_of_measurement": "1000/µL",
+            "reference_range": "[4-11] 10^3/µL"
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": [
+                "Neutrophils: 60%",
+                "Lymphocytes: ?%",
+                "Eosinophils: 0.6%",
+                "Monocytes: 1%",
+                "Basophils: 0.2%"
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "500,000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[140-400] 10^3/uL"
+        }
+    ]
+}

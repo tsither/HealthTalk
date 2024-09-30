@@ -1,0 +1,29 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": "PT1234",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Cholesterol (Total)",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-300 mg/dL"
+        }
+    ]
+}

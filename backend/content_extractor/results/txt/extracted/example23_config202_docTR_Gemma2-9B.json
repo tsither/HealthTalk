@@ -1,0 +1,41 @@
+{
+    "Date": "06.06.2009",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 7.8,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "4.5-11.0 K/uL"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 4.2,
+            "unit_of_measurement": "M/uL",
+            "reference_range": "4.0-5.5 M/uL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 38.1,
+            "unit_of_measurement": "%",
+            "reference_range": "37%-49%"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "150-450 K/uL"
+        }
+    ]
+}

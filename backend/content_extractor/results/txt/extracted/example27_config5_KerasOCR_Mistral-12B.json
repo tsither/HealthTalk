@@ -1,0 +1,58 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematocrito": "45%",
+                "Hemoglobina": "12.0 g/dl",
+                "Placa": "10.0 x 10^3 /mm³",
+                "Leucocitos": "7.8 x 10^3/mm³",
+                "Eosinófilos": "<1%",
+                "Bastonocitos": "56%",
+                "Segmentados": "39%",
+                "Neutrofilos": "24%",
+                "Monocitos": "8%",
+                "Basófilos": "<1%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Química sérica",
+            "result_value": {
+                "Glucosa": "70 mg/dl",
+                "Colesterol total": "169 mg/dl",
+                "Triglicéridos": "80 mg/dl",
+                "HDL colesterol": "45 mg/dl",
+                "LDL colesterol": "100 mg/dl",
+                "Proteínas totales": "7.2 g/dl"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Colesterol total": "mg/dl",
+                "Triglicéridos": "mg/dl",
+                "HDL colesterol": "mg/dl",
+                "LDL colesterol": "mg/dl",
+                "Proteínas totales": "g/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolitos",
+            "result_value": {
+                "Sodio": "141 meq/l",
+                "Potasio": "3.8 meq/l",
+                "Cloro": "109 meq/l"
+            },
+            "unit_of_measurement": "meq/l",
+            "reference_range": null
+        }
+    ]
+}

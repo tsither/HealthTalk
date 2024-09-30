@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White blood cell count",
+            "result_value": "11.4",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4.0 - 10.0 x 10^9/L"
+        },
+        {
+            "test_name": "Red blood cell count",
+            "result_value": "4.10",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "16.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

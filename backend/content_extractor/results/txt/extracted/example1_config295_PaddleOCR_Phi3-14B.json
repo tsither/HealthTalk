@@ -1,0 +1,23 @@
+{
+    "Date": "2021-08-30",
+    "patient_information": {
+        "patient_id": "ABCD1234567",
+        "patient_name": "John Doe",
+        "patient_sex": "male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglopsi",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8 - 17.2"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "45 - 52%"
+        }
+    ]
+}

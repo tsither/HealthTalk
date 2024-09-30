@@ -1,0 +1,24 @@
+{
+    "Date": "02/Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collected_sample_date_time": [
+            "02/Dec at 12:50 PM",
+            "02/Dec at 03:11 PM"
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBj)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "13.5-17.5",
+                "female": "12-15.5"
+            }
+        }
+    ]
+}

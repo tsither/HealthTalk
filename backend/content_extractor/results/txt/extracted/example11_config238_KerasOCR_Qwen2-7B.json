@@ -1,0 +1,28 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "Mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": [
+                125,
+                130,
+                null,
+                51.2
+            ],
+            "unit_of_measurement": [
+                "hemoglobin",
+                "RBC count",
+                null,
+                "total RSC count"
+            ],
+            "reference_range": null
+        }
+    ]
+}

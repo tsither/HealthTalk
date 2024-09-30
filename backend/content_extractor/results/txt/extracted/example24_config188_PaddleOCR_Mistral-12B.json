@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec. 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "000000",
+            "unit_of_measurement": "(cells/fL)",
+            "reference_range": "150,000 - 410,000"
+        },
+        {
+            "test_name": "WBC Differential (%)",
+            "result_value": {
+                "Basophils": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Lymphocytes": "Z0 - Z0 L",
+                "Neutrophils": "31 00 - 70 %"
+            },
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": {
+                "MCV": "87.75 fL",
+                "MCH": "32.8 pg",
+                "MCHC": "32.5 - 34.5 g/dL",
+                "Reticulocytes": "Zd - ZL"
+            },
+            "unit_of_measurement": {
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Reticulocytes": "(cells/fL)"
+            }
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "6.83 - 10.1 million/uL",
+            "unit_of_measurement": "/uL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL"
+        }
+    ]
+}

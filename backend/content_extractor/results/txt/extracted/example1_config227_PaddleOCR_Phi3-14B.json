@@ -1,0 +1,64 @@
+{
+    "Date": "03/02",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total R8C count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "Caneha ROW": 13.6,
+                "Pathology.....boratary Toial wBc count U DIFFERENTIAL WBC COUNT Drlogy.cam Neutrophils Lymphocyies Eosinophils Monocytes Basophils Platelet count Plaielet Count": {
+                    "Neutrophils": 0,
+                    "Lymphocyes": 31,
+                    "Eosinophils": 1,
+                    "Monocytes": 7,
+                    "Basophils": 1,
+                    "Platelet count": 150000
+                }
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT Total R8C count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Caneha ROW": "%"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "RBC COUNT Total R8C count": [
+                    4.5,
+                    5.5
+                ],
+                "Packed Cell Volume (PCV)": [
+                    40.5,
+                    ""
+                ],
+                "Mean Corpuscular Volume (MCV)": "",
+                "MCH": "",
+                "MCHC": [
+                    "32.5",
+                    "34.5"
+                ],
+                "Caneha ROW": [
+                    "11.6",
+                    "14"
+                ]
+            }
+        }
+    ]
+}

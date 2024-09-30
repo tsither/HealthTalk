@@ -1,0 +1,47 @@
+{
+    "Date": "Dec 20, 2024",
+    "patient_information": {
+        "patient_id": "945678",
+        "patient_name": "MANI",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 10.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "lower": 4.5,
+                "upper": 11
+            }
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 5.23,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": {
+                "lower": 4.4,
+                "upper": 5.9
+            }
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 170,
+            "unit_of_measurement": "g/L",
+            "reference_range": {
+                "lower": 130,
+                "upper": 180
+            }
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 250,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "lower": 140,
+                "upper": 350
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": 7.2,
+                "RBC": 4.5,
+                "HGB": 13.5,
+                "PLT": 280,
+                " Neutrophils": 55,
+                "Lymphocytes": 35,
+                "Monocytes": 8,
+                "Eosinophils": 2
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "% Neutrophils": "%",
+                "% Lymphocytes": "%",
+                "% Monocytes": "%",
+                "% Eosinophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

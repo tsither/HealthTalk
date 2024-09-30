@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 12.5 g/dL, RBC count: 5.2 x 10^12/L, Packed Cell Volume (PCV): 55%",
+            "unit_of_measurement": null,
+            "reference_range": "Low"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal (130-170 g/dL)"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.2 x 10^12/L",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "55%",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal (40-50%)"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "31 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "345 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "IDH",
+            "result_value": "6.1%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "9,000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "Normal (4-11,000/μL)"
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": "Neutrophils: 60%, Lymphocytes: 31%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "50,000/μL",
+            "unit_of_measurement": "/μL",
+            "reference_range": "Normal (150-450,000/μL)"
+        }
+    ]
+}

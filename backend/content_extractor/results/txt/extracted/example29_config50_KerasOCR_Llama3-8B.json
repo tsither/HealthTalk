@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "108"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "4.31",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "31.4",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "84.3",
+            "unit_of_measurement": "fL",
+            "reference_range": "76-98"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "15.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "75.5",
+            "unit_of_measurement": "%",
+            "reference_range": "45-70"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "17.8",
+            "unit_of_measurement": "%",
+            "reference_range": "20-50"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "136",
+            "unit_of_measurement": "x 10^3/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

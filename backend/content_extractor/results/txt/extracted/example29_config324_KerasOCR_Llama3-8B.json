@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Prothrombin Time",
+            "result_value": 13.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "10-14 seconds"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (aPTT)",
+            "result_value": 30.2,
+            "unit_of_measurement": "seconds",
+            "reference_range": "25-35 seconds"
+        },
+        {
+            "test_name": "International Normalized Ratio (INR)",
+            "result_value": 1.3,
+            "unit_of_measurement": null,
+            "reference_range": "0.9-1.1"
+        },
+        {
+            "test_name": "ESOVD Count",
+            "result_value": 5,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Imart Pathology Sample Collection Date",
+            "result_value": "2023-02-15",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

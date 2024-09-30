@@ -1,0 +1,23 @@
+{
+    "Date": "dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 125,
+            "unit_of_measurement": "thousands per microliter",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "PDW",
+            "result_value": 75.7,
+            "unit_of_measurement": "%",
+            "reference_range": "90-170"
+        }
+    ]
+}

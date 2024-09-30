@@ -1,0 +1,64 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) investigation result",
+            "result_value": {
+                "hemoglobin": 125,
+                "rbc count low": 3.1,
+                "total rbc count gidl": null,
+                "blood indices": null,
+                "packed milicumm cell volume pcv": null,
+                "mean corpuscular volume high calculated mcv": 40,
+                "mch": 831,
+                "calculated": 272,
+                "fl mchc": 277,
+                "pg rdw": 325
+            },
+            "unit_of_measurement": {
+                "hemoglobin": null,
+                "rbc count low": "1.0",
+                "total rbc count gidl": null,
+                "blood indices": null,
+                "packed milicumm cell volume pcv": null,
+                "mean corpuscular volume high calculated mcv": 40,
+                "mch": 831,
+                "calculated": 272,
+                "fl mchc": null,
+                "pg rdw": null
+            },
+            "reference_range": {
+                "hemoglo <|endofgeneration|>n": "null",
+                "rbc count low": [
+                    1.0,
+                    3.6
+                ],
+                "total rbc count gidl": null,
+                "blood indices": null,
+                "packed milicumm cell volume pcv": null,
+                "mean corpuscular volume high calculated mcv": null,
+                "mch": null,
+                "calculated": null,
+                "fl mchc": null,
+                "pg rdw": [
+                    23.0,
+                    47.6
+                ]
+            }
+        },
+        {
+            "test_name": "Differential White Blood Cell (WBC) count",
+            "result_value": [
+                4000
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

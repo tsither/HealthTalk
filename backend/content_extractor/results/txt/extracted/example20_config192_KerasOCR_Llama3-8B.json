@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "",
+            "reference_range": "4.3-10.6"
+        },
+        {
+            "test_name": "Glucose, Blood",
+            "result_value": 126,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-140"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.3"
+        },
+        {
+            "test_name": "Urea Nitrogen (BUN)",
+            "result_value": 22,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-20"
+        },
+        {
+            "test_name": "Calcium, Serum",
+            "result_value": 8.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.5-10.3"
+        }
+    ]
+}

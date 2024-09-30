@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "12.5",
+            "unit_of_measurement": "Total RBC count",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "7P/6",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4000-11000"
+        }
+    ]
+}

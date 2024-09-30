@@ -1,0 +1,68 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total R8C count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (Mcv)": 87.75,
+                "Mean Corpuscular Hemoglobin (Mchw)": 27.2,
+                "Mean Corpuscular Hemoglobin Concentration (mhcC)": 32.8,
+                "Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "millicumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (Mcv)": "fl",
+                "Mean Corpuscular Hemoglobin (Mchw)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (mhcC)": "g/dL",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglo vice (Hb)": "[13.0-17.0] g/dL",
+                "Total RBC count": "[4.5-5.5] millicumm",
+                "Packed Cell Volume (PCV)": "[40-50] %",
+                "Mean Corpuscular Volume (Mcv)": "[83-101] fl",
+                "Mean Corpuscular Hemoglobin (Mchw)": "[27-32] pg",
+                "Mean Corpuscular Hemoglobin Concentration (mhcC)": "[32.5-34.5] g/dL",
+                "Platelet Count": "[150,000-410,000] cumm"
+            }
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": {
+                "Neutrophils": 60,
+                "Lymphocytes": null,
+                "Eosinophlls": null,
+                "Monocytes": null,
+                "Basophls": null,
+                "Platelet Count": null
+            },
+            "unit_of_measurement": {
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophlls": "%",
+                "Monocytes": "%",
+                "Basophls": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Neutrophils": "[0-6] %",
+                "Lymphocytes": "[20-40]%",
+                "Eosinophlls": "[1.5-6]%",
+                "Monocytes": "[3-8]%",
+                "Basophls": "[0-1]%",
+                "Platelet Count": "[150,000-410,000] cumm"
+            }
+        }
+    ]
+}

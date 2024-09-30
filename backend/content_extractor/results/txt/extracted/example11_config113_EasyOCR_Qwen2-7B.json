@@ -1,0 +1,23 @@
+{
+    "Date": "02/Dec/202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (ICBC)",
+            "result_value": "WBC: 9000, RBC: 52.45, HGB: 12.5, MCV: 87.75",
+            "unit_of_measurement": "",
+            "reference_range": "WBC: 4000-10000, RBC: (4.5-6), HGB: 13.5-17.0, MCV: 75-95"
+        },
+        {
+            "test_name": "Cumm Blood Indices",
+            "result_value": "PCV: high 57.5%, MCH: 27.1, MCHC: 32b/5, RDW: 16.6%",
+            "unit_of_measurement": "",
+            "reference_range": "PCV: 40-50%, MCH: 27-34pg, MCHC: 32-36g/dl, RDW: <14%"
+        }
+    ]
+}

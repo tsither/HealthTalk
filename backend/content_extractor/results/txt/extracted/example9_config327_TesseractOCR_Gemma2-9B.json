@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin: 15.2 g/dL, White Blood Cells: 7800 cells/µL",
+            "unit_of_measurement": "g/dL, cells/µL",
+            "reference_range": "Hemoglobin: 13.5-17.5 g/dL; White Blood Cells: 4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "102 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

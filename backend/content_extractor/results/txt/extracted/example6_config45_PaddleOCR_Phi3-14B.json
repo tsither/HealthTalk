@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 40.65,
+            "unit_of_measurement": "%",
+            "reference_range": "38-52%"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_eValue": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 6.5,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.0-11.0"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.8,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.7-6.1"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5.9,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes (DMLT)",
+            "result_value": 2.8,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

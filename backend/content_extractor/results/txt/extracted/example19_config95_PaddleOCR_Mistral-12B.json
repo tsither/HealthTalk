@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "pooja",
+        "patient_sex": "F",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6200,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500 - 10800"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 477,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4.4 - 6.2 millions/mm³"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "130000 - 400000"
+        }
+    ]
+}

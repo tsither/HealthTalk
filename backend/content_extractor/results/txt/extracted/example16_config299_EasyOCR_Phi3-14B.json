@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "unknown",
+            "unit_of_measurement": "units/liter or similar",
+            "reference_range": null
+        },
+        {
+            "test_e_name": "Blood Chemistry",
+            "result_value": "unknown",
+            "unit_of_measurement": "mg/dL or similar",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "unspecified value",
+            "unit_of_measurement": "x10^9/L or equivalent units",
+            "reference_range": "[20-45 x10^9/L]"
+        },
+        {
+            "test_name": "Sodium Levels",
+            "result_value": "unspecified value",
+            "unit_of_measurement": "mEq/L or equivalent units",
+            "reference_range": "[135-145 mEq/L]"
+        },
+        {
+            "test_name": "Potassium Levels",
+            "result_value": "unspecified value",
+            "unit_of_measurement": "mEq/L or equivalent units",
+            "reference_range": "[3.5-5.0 mEq/L]"
+        },
+        {
+            "test_name": "Creatinine Levels",
+            "result_value": "unspecified value",
+            "unit_of_measurement": "mg/dL or equivalent units",
+            "reference_range": "[0.6-1.2 mg/dL]"
+        }
+    ]
+}

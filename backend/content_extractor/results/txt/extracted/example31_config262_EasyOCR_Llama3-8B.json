@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 130,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "170"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 157,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4.50-5.50"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27132,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 52.1,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

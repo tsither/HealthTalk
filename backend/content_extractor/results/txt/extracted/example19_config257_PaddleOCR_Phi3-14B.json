@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "30"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon A1C",
+            "result_value": "5.7",
+            "unit_of_measurement": null,
+            "reference_range": "4.0 - 6.0"
+        },
+        {
+            "test_name": "Cholesterol Total",
+            "result_value": "200",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "125 - 200"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": "45",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "38 - 62"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": "105",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74 - 136"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

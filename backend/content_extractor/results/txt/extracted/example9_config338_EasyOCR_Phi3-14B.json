@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "ISS",
+            "result_value": 8,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "SOBS",
+            "result_value": 150,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "80-270"
+        },
+        {
+            "test_name": "COO",
+            "result_value": 6.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

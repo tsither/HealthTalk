@@ -1,0 +1,44 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "Shiwam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 52,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "low": 37.0,
+                "high": 47.0
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fl",
+            "reference_range": {
+                "low": 80.0,
+                "high": 100.0
+            }
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 32.8,
+            "unit_of_measurement": "thousands/cumm"
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": 7,
+            "unit_of_measurement": "lakhs/cumm"
+        }
+    ]
+}

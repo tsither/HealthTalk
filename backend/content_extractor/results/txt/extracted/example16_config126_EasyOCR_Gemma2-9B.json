@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "35",
+        "patient_name": "shivam shah",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "140 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "110 - 170 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.5 x 10^6 /µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "150,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "83 x 10^9 /L",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": "Hemoglobin: 0.251 g/dL, WBC count: 40 x10^3/uL",
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "WBC": "x10^3/uL"
+            },
+            "reference_range": {
+                "hemoglobin": "[FILL] g/dL",
+                "WBC": "[FILL] x10^3/uL"
+            }
+        }
+    ]
+}

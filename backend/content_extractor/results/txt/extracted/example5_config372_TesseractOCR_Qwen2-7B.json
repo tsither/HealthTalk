@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "001",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130-160] g/dL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5500,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "[4,000-11,000] /mm³"
+        }
+    ]
+}

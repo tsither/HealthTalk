@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "ALTNO",
+            "result_value": 212,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-328"
+        },
+        {
+            "test_name": "DDTON",
+            "result_value": 10.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CDUMT cel",
+            "result_value": 1000000000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Total",
+            "result_value": 4550000000000.0,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.32-5.72"
+        }
+    ]
+}

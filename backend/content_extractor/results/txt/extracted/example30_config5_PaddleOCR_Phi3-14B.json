@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID",
+        "patient_name": "Patel I",
+        "patient_sex": "M",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blo (Hb) - Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "I",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.6,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Neutrophil (Nhils) count",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": "[13.0 - 17.**]"
+        },
+        {
+            "test_name": "Lymphocyte (I) count",
+            "result_value": 4.5,
+            "unit_of_measurement": "",
+            "reference_range": "[4.0 - 5.5]"
+        }
+    ]
+}

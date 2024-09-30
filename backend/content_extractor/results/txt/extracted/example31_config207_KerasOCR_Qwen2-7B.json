@@ -1,0 +1,64 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "shivom patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_location": "shivom bungalow s g rood"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count investigation",
+            "result_value": [
+                "125",
+                null,
+                null
+            ],
+            "unit_of_measurement": [
+                "a 1310a",
+                "gidl",
+                "pg"
+            ],
+            "reference_range": [
+                "low",
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": [
+                null,
+                null,
+                null
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": [
+                "8775",
+                null,
+                null
+            ],
+            "unit_of_measurement": [
+                "b3s 101 l"
+            ],
+            "reference_range": [
+                "low"
+            ]
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": [
+                null,
+                null,
+                null
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Corin Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 12-16, Increased in essential thrombocythemia and iron deficiency disorders, Higher than normal indicative of liver disease, May be seen in marrow failure or 170 x thrombocytopenia conditions"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 754.0,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "Normal: 1.80-4.50, Increased in essential thrombocythemia and iron deficiency disorders"
+        },
+        {
+            "test_name": "Anisocytosis",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "May be seen in conditions such as thrombocytopenia and platelet disorders"
+        }
+    ]
+}

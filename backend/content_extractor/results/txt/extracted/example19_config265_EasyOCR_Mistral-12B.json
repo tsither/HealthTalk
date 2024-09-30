@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.0",
+                "RBC": "4.5",
+                "HGB": "12.0",
+                "PLT": "250"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biochemistry Profile",
+            "result_value": {
+                "GLU": "95",
+                "BUN": "12",
+                "CREA": "0.8"
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

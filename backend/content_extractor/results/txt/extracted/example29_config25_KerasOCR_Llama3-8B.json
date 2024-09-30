@@ -1,0 +1,71 @@
+{
+    "Date": "02/11/2023",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin count",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Ref: Packed Cell Volume (PCV) 35-45%"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "52",
+            "unit_of_measurement": null,
+            "reference_range": "Ref: Total RBC count 4.51-5.02 x10^12/L"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": "130",
+            "unit_of_measurement": "fl.",
+            "reference_range": "Ref: MCV 80-94 fl."
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin (MCH)",
+            "result_value": "170",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": "55",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "40-50",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "15",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes count",
+            "result_value": "52",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "62",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

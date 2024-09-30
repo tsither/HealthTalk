@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 8.9,
+            "unit_of_measurement": "e/10",
+            "reference_range": "3-12"
+        },
+        {
+            "test_name": "Glucose (Fasting)",
+            "result_value": 105.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 220.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-300"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 160.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-400"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 40.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "30-80"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.5-1.3"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 34
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.0,
+            "unit_of_measurement": "%",
+            "reference_range": "5.0-6.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": [
+                162,
+                187
+            ],
+            "unit_of_measurement": "mg/dL",
+            "reference_range": [
+                "VLDL: <35",
+                "LDL: 70-130",
+                "HDL: >40",
+                "Triglycerides: 70-200"
+            ]
+        }
+    ]
+}

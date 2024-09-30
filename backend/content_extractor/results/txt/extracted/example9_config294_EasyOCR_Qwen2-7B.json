@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit, Blood by Microtubule Open-tube Method",
+            "result_value": 38.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-50"
+        },
+        {
+            "test_name": "Mean Platelet Volume (MPV)",
+            "result_value": 12.6,
+            "unit_of_measurement": "fL",
+            "reference_range": "8-14"
+        }
+    ]
+}

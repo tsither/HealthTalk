@@ -1,0 +1,95 @@
+{
+    "Date": "02.12.202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel Yash M",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBY)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL"
+        },
+        {
+            "test_name": "RBC Count (Total RBC)",
+            "result_value": "5.21 x 10^6",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.51-5.5 x 10^6 cells/µL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "27.2 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "32.8 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34.5-36%"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0%"
+        },
+        {
+            "test_name": "WBC Count (Total WBC)",
+            "result_value": "9000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-10000 cells/µL"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "60%",
+            "unit_of_measurement": "%",
+            "reference_range": "50-62%"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "0%",
+            "unit_of_measurement": "%",
+            "reference_range": "0-6%"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "0%",
+            "unit_of_measurement": "%",
+            "reference_range": "0-10%"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "1%",
+            "unit_of_measurement": "%",
+            "reference_range": "0-2%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "500000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "410000-1000000 cells/µL"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": [
+                "Hemoglobin: 12.0 g/dL",
+                "RBC count: 5 x 10^6 /uL",
+                "PCV: 37%",
+                "MCV: 90 fL"
+            ],
+            "unit_of_measurement": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "reference_range": [
+                "Hemoglobin: 12.5-15.5 g/dL",
+                "RBC count: 4.5-6 x 10^6 /uL",
+                "PCV: 38-47%",
+                "MCV: 80-96 fL"
+            ]
+        }
+    ]
+}

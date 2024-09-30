@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PCV",
+            "result_value": "52",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCv",
+            "result_value": "13.0",
+            "unit_of_measurement": "fL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": "4.5",
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "4.0 - 5.5"
+        },
+        {
+            "test_name": "Hgb",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "40 - 50"
+        },
+        {
+            "test_name": "% Hct",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "27 - 32"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "10.1",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "60 - 32.5"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "11.6",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "14.0"
+        }
+    ]
+}

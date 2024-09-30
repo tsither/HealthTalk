@@ -1,0 +1,23 @@
+{
+    "Date": "01.01.2022",
+    "patient_information": {
+        "patient_id": "PAT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Kidney Function Test",
+            "result_value": 120,
+            "unit_of_measurement": "mOsm/kgH2O",
+            "reference_range": "300-600 mOsm/kgH2O"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "A5159",
+        "patient_name": "Payal",
+        "patient_sex": "Female",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "13900",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500 - 11000 cells/µL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "52",
+            "unit_of_measurement": "millions/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hgb",
+            "result_value": "10.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        }
+    ]
+}

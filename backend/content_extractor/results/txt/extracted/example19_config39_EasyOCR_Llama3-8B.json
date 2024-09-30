@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "25"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "86",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal: 13.5-17.5 g/dL, Low: < 13.5 g/dL, High: > 17.5 g/dL"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "50",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": "20",
+            "unit_of_measurement": "pg",
+            "reference_range": "Normal: 27-31 pg, Low: < 27 pg, High: > 31 pg"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": null,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "Normal: 4.32-5.72 x10^12/L, Low: < 4.32 x10^12/L, High: > 5.72 x10^12/L"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 0.34-0.45, Low: < 0.34, High: > 0.45"
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "Normal: 1.5-4.5 x10^12/L, Low: < 1.5 x10^12/L, High: > 4.5 x10^12/L"
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": null,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "Normal: 4-11 x10^9/L, Low: < 4 x10^9/L, High: > 11 x10^9/L"
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: Neutrophils: 45-70%, Lymphocytes: 20-40%, Monocytes: 5-10%, Eosinophils: 1-4%, Basophils: < 1%"
+        }
+    ]
+}

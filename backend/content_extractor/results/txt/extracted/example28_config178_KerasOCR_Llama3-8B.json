@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "SGOT",
+            "result_value": 42,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-60"
+        },
+        {
+            "test_name": "LDH",
+            "result_value": 120,
+            "unit_of_measurement": "U/L",
+            "reference_range": "50-200"
+        },
+        {
+            "test_name": "BILIRUBIN DIRECT",
+            "result_value": 1.2,
+            "unit_of_measurement": "MG/DL",
+            "reference_range": "0.1-1.2"
+        }
+    ]
+}

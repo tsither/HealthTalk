@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Dr. Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Low",
+            "unit_of_measurement": null,
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 32.5,
+            "unit_of_measurement": "- 34.5",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "T",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 11.6,
+            "unit_of_measurement": "- 14.0",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "- 5.5",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 27,
+            "unit_of_measurement": "-32",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "Dec, count",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "125",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32.8",
+            "unit_of_measurement": "fL",
+            "reference_range": "[41-83]"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "50%",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[32.5-34.5]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "13.6",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

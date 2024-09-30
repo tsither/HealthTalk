@@ -1,0 +1,29 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": "+",
+        "patient_name": "Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.5 - 10.5"
+        },
+        {
+            "test_name": "HGB Level",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 17.7"
+        },
+        {
+            "test_name": "PLT Count",
+            "result_value": 270000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

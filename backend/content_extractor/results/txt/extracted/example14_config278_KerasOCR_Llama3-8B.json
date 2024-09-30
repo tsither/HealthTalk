@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": null,
+            "result_value": 234.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: 70-140"
+        },
+        {
+            "test_name": null,
+            "result_value": 12.2,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 35-55"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 7.1,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglo([CONTEXT: Hemoglobin]",
+            "result_value": 140.325,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[CONTEXT: Normal range for males is generally around 135 to 170 g/L]"
+        },
+        {
+            "test_name": "Hematocrit([CONTEXT: Hematocrit]",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[CONTEXT: Normal range for males is generally around 38% to 49%]"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration([CONTEXT: MCHC]",
+            "result_value": 101,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[CONTEXT: Normal range is generally around 32 to 36 g/L]"
+        }
+    ]
+}

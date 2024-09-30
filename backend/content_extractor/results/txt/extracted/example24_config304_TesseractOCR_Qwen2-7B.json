@@ -1,0 +1,29 @@
+{
+    "Date": "12.03.2024",
+    "patient_information": {
+        "patient_id": "B6759",
+        "patient_name": "Mary Smith",
+        "patient_sex": "Female",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "10.2",
+            "unit_of_measurement": "×10^3/μL",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": "0.9",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Aldosterone",
+            "result_value": null,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "[No data]"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "not available",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": 555,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "not available"
+        },
+        {
+            "test_name": "Mean platelet volume (MPV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "7.5 - 11.0 fL"
+        },
+        {
+            "test_name": "Plateletcrit (PC) %",
+            "result_value": null,
+            "unit_of_measurement": "% of total blood volume",
+            "reference_range": "not available"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "150000",
+            "unit_of_measurement": "End of F",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (PCV)",
+            "result_value": "45.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "11.6",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.5-34.5"
+        },
+        {
+            "test_name": "PLT COUNT",
+            "result_value": "210000",
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

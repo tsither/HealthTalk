@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "012345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 18
+    },
+    "test_results": [
+        {
+            "test_name": "platelets",
+            "result_value": 555,
+            "unit_of_measurement": "thousand/uL",
+            "reference_range": "1350-9017"
+        },
+        {
+            "test_name": "PDW",
+            "result_value": "751",
+            "unit_of_measurement": null,
+            "reference_range": "normal range 90170 - 202x"
+        }
+    ]
+}

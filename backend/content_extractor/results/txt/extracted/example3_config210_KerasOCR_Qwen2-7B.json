@@ -1,0 +1,27 @@
+{
+    "Date": "21.21.2121",
+    "patient_information": {
+        "patient_id": "drlopatlabdlogycorn",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "registration_date": "07/09/2023"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": [
+                    135,
+                    175
+                ],
+                "female": [
+                    120,
+                    155
+                ]
+            }
+        }
+    ]
+}

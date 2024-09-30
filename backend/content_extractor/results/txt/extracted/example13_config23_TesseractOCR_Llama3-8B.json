@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 12.8,
+            "unit_of_measurement": "/dL",
+            "reference_range": {
+                "Primary Sample Type": "Blood",
+                "Male": "13.5-17.5 /dL",
+                "Female": "12.0-15.5 /dL"
+            }
+        },
+        {
+            "test_name": "Investigation Result Ref erence Value Unit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Photometry Comment : Imag / Gender Nommal Range (g/dL)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Male": "13.5-17.5 g/dL",
+                "Female": "12.0-15.5 g/dL"
+            }
+        },
+        {
+            "test_name": "Hemaglobin Interpretation Low Levels May indicate anemia or blood loss.",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "High Levele May indicate conditions such as polycythemia vera, a bone marrow disorder that causes the production a of too many red blood cells.",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

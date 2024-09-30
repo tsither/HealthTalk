@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Dos Patel",
+        "patient_sex": "Male",
+        "patient_age": "10"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "90",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-15.5 g/dL"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "3.50",
+            "unit_of_measurement": "million cells/μL",
+            "reference_range": "4.32-5.72 million cells/μL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "34.8",
+            "unit_of_measurement": "%",
+            "reference_range": "36-48%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "26.5",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-32 pg/cell"
+        },
+        {
+            "test_name": "RBC Indices (MCV)",
+            "result_value": "79.3",
+            "unit_of_measurement": "fL",
+            "reference_range": "76-96 fL"
+        },
+        {
+            "test_name": "RdW",
+            "result_value": "14.5",
+            "unit_of_measurement": "%",
+            "reference_range": "11.1-14.6%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "17223",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4.5-13.2 x 10^9 cells/L"
+        },
+        {
+            "test_name": "Differential White Blood Cell Count:",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "328000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "150-450 x 10^9 cells/L"
+        }
+    ]
+}

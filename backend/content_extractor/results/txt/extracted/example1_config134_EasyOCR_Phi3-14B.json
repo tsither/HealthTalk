@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "o.e.",
+            "reference_range": "131-170"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 457,
+            "unit_of_measurement": "millicumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "high",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 831,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 140.5,
+            "unit_of_measurement": "o",
+            "reference_range": "11-16"
+        }
+    ]
+}

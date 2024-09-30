@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Mullalji Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.32",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "3.90-5.20"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "82.1",
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-100.0"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "8.50",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4.00-11.00"
+        }
+    ]
+}

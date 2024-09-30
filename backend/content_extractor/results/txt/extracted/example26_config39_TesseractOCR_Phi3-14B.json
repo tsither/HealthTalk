@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 120,
+            "unit_of_measurement": "g/L",
+            "reference_range": "40 - 50"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 36.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "VCM (Volumen Corpuscular Medio)",
+            "result_value": 80.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "27 - 32"
+        }
+    ]
+}

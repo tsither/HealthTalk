@@ -1,0 +1,23 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "B001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 38.2,
+            "unit_of_measurement": "%",
+            "reference_range": "37-50"
+        },
+        {
+            "test_name": "Lymphocytes Percentage",
+            "result_value": 16,
+            "unit_of_measurement": "%",
+            "reference_range": "15-40"
+        }
+    ]
+}

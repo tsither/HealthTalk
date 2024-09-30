@@ -1,0 +1,56 @@
+{
+    "Date": "02Dec.2",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hb": 12.5,
+                "RBC": 57.5,
+                "PCV": 87.75,
+                "MCH": 32.8,
+                "MCHC": 90,
+                "RDW": null,
+                "WBC": 60,
+                "NEU": 41,
+                "LYM": 31,
+                "EOS": 15,
+                "BASO": 15,
+                "PLT": 300
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "RBC": "10^6/uL",
+                "PCV": "%",
+                "MCH": "pg",
+                "MCHC": "pg",
+                "RDW": null,
+                "WBC": "10^3/uL",
+                "NEU": "10^9/L",
+                "LYM": "10^9/L",
+                "EOS": "10^9/L",
+                "BASO": "10^9/L",
+                "PLT": "10^3/uL"
+            },
+            "reference_range": {
+                "Hb": "13-17 g/dL",
+                "RBC": "4.5-5.5 million cells/uL",
+                "PCV": "32.5-34.5%",
+                "MCH": "83-101 pg",
+                "MCHC": "90-100 g/L",
+                "RDW": null,
+                "WBC": "4-10 thousand cells/uL",
+                "NEU": "2-7 thousand cells/uL",
+                "LYM": "1.5-3 thousand cells/uL",
+                "EOS": "0.04-0.44 thousand cells/uL",
+                "BASO": "0.01-0.06 thousand cells/uL",
+                "PLT": "150-450 thousand/uL"
+            }
+        }
+    ]
+}

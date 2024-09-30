@@ -1,0 +1,23 @@
+{
+    "Date": "12.03.2023",
+    "patient_information": {
+        "patient_id": "P12345678",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 6.0, RBC: 4.8, HGB: 13.2, MCV: 87",
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 19, AST: 20",
+            "unit_of_measurement": "U/L",
+            "reference_range": "Normal"
+        }
+    ]
+}

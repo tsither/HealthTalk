@@ -1,0 +1,40 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": 87.75,
+                "RBC_count": null,
+                "Hb": 12.5,
+                "HCT": 57.5,
+                "MCV": 32.8,
+                "MCH": 0,
+                "PLT": 23,
+                "WBC_diff": {
+                    "Lymphocytes": 13.6,
+                    "Neutrophils": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                }
+            },
+            "unit_of_measurement": "cells x 10^9/L",
+            "reference_range": {
+                "WBC_count": "4.5 - 11.6",
+                "RBC_count": null,
+                "Hb": "13.0-17.0",
+                "HCT": "40-50",
+                "MCV": "78 - 96 fL",
+                "MCH": "27 - 32 pg",
+                "PLT": "150000 - 410000 plt/mm^3"
+            }
+        }
+    ]
+}

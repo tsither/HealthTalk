@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HBj)",
+            "result_value": 125.0,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "range_type": "normal",
+                "male": [
+                    13,
+                    17.5
+                ],
+                "female": [
+                    12,
+                    15.5
+                ]
+            }
+        },
+        {
+            "test_name": "Hemoglobin (Ghbj)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "Reference not available"
+            ]
+        },
+        {
+            "test_name": "Photometry",
+            "result_value": "IGLDly",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

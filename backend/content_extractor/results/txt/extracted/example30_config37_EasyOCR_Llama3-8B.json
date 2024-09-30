@@ -1,0 +1,63 @@
+{
+    "Date": "02/11",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.08,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14.0-17.5 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.51,
+            "unit_of_measurement": "million/microliter",
+            "reference_range": "4.32-5.72 million/microliter"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.8,
+            "unit_of_measurement": "%",
+            "reference_range": "40.0-50.0%"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.5-32.5 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "34.0-36.0 g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.5%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 13.56,
+            "unit_of_measurement": "thousand/microliter",
+            "reference_range": "4.0-10.5 thousand/microliter"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": "Neutrophils: 52.0%, Lymphocytes: 34.57%, Eosinophils: 11.66%, Monocytes: 1.16%, Basophils: 0.60%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 5.08,
+            "unit_of_measurement": "lac/hour",
+            "reference_range": ""
+        }
+    ]
+}

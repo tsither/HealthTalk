@@ -1,0 +1,26 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "sample_collected_at": "Shivam Bungalow, S G Road. Mumbai",
+        "collected_on": {
+            "date": "03 11 Plt 02"
+        },
+        "register_on": "02 31 Pi,t 02 Doc. 2X",
+        "ref_by": "Or. Hiren Shah"
+    },
+    "test_results": [
+        {
+            "test_name": "RED BLOOD CELL (RBC) COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": {
+                "low": "4.5",
+                "high": "5.5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "PT12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "10-16 g/dL"
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": 42,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-40 U/L"
+        },
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": 3.5,
+            "unit_of_measurement": "mEq/dL",
+            "reference_range": "3.2-4.8 mEq/dL"
+        }
+    ]
+}

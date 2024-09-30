@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-50.0 %"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 4.7,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.20-5.40 million/mcL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90.1,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 31.0,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 34.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 11.8,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5 %"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 7.2,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "4.5-11.0 thousand/mcL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 263,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "150-450 thousand/mcL"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Erythrocytes",
+            "result_value": "4.50",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "3.90 - 5.50 x10^12/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "140",
+            "unit_of_measurement": "g/L",
+            "reference_range": "130 - 170 g/L"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "42.00",
+            "unit_of_measurement": "%",
+            "reference_range": "38.00 - 52.00 %"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80.00",
+            "unit_of_measurement": "fL",
+            "reference_range": "79.00 - 100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "28.00",
+            "unit_of_measurement": "pg",
+            "reference_range": "26.00 - 32.00 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "348",
+            "unit_of_measurement": "g/L",
+            "reference_range": "320 - 360 g/L"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "12.50",
+            "unit_of_measurement": "%",
+            "reference_range": "11.50 - 14.50 %"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": "7.20",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.00 - 11.00 x10^9/L"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "280",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150 - 450 x10^9/L"
+        }
+    ]
+}

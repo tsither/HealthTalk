@@ -1,0 +1,25 @@
+{
+    "Date": "2x Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "Total WBC count": 5000,
+                "Neutrophils (%)": 60,
+                "Lymphocytes (%)": 30,
+                "Eosinophils (%)": 2,
+                "Monocytes (%)": 8,
+                "Basophils (%)": 0,
+                "Platelet count": 250000
+            },
+            "unit_of_measurement": "% or cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

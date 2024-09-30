@@ -1,0 +1,49 @@
+{
+    "Date": "03/11/22",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Hemoglobin": 13.7,
+                "Total RBC": 5.5,
+                "Hb": 13.7,
+                "HCT": 40.8,
+                "MCV": 87.1,
+                "MCH": 27.12,
+                "MCHC": 32.8,
+                "Platelet Count": 250000,
+                "Total WBC": 9000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Total RBC": "10^6/µL",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "Platelet Count": "10^3/µL",
+                "Total WBC": "10^3/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": 62,
+                "Lymphocytes": 40,
+                "Eosinophils": 20,
+                "Monocytes": 70,
+                "Basophils": 2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

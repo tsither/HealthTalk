@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2; RBC: 4.8; HGB: 13.5; HCT: 37%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 20 U/L; AST: 28 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "[6-40] [5-35]"
+        },
+        {
+            "test_name": "Kidney Function Tests",
+            "result_value": "Serum Creatinine: 1.2 mg/dL; eGFR: 90 mL/min/1.73m²",
+            "unit_of_measurement": null,
+            "reference_range": "[0.6-1.2] [45-125]"
+        }
+    ]
+}

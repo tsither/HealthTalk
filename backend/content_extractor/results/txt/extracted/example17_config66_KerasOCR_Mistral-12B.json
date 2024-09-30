@@ -1,0 +1,29 @@
+{
+    "Date": "27/03/2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Patel DP",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        },
+        {
+            "test_name": "Total White Cell Count",
+            "result_value": 8775,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 272000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150000-450000"
+        }
+    ]
+}

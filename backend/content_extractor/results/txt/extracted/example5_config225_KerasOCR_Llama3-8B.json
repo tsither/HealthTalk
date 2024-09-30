@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Electrolyte Panel",
+            "result_value": "8.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.5-8.5] g/dL"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "150 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-140] mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": "5.0 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0.5-1.2] mg/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "18,000 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "[3,500-10,500] cells/μL"
+        }
+    ]
+}

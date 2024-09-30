@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "cin patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count",
+            "result_value": 8.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7-11 g/dL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Red Cell Count",
+            "result_value": 4.8,
+            "unit_of_measurement": "M/μL",
+            "reference_range": "4.0-6.0 M/μL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 80.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "78-98 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin",
+            "result_value": 24.1,
+            "unit_of_measurement": "pg",
+            "reference_range": "21-31 pg"
+        }
+    ]
+}

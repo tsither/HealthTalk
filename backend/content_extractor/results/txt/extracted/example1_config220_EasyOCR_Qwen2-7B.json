@@ -1,0 +1,60 @@
+{
+    "Date": "07/11",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "Yash M",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collected_sample_date": "02/11"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[125-130,170]"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 52,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mid-ficomm Blood Indices",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[83-101]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 272,
+            "unit_of_measurement": "pg",
+            "reference_range": "[275,32]"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[87.75-91]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 328,
+            "unit_of_measurement": null,
+            "reference_range": "[325,345]"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 130,
+            "unit_of_measurement": "%",
+            "reference_range": "[119-110]"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

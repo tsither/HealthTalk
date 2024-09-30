@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": -0.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "-1 to 1"
+        },
+        {
+            "test_name": "Ferritin",
+            "result_value": 200,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Iron",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

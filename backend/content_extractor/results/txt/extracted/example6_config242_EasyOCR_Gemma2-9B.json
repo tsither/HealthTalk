@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "yash ms patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": "5.2",
+            "unit_of_measurement": "million cells /µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (pcv)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (mcv)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (mch)",
+            "result_value": 32.8,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": 32.55,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell distribution width (rdw)",
+            "result_value": 13.1,
+            "unit_of_measurement": "%",
+            "reference_range": "11.8-110%"
+        },
+        {
+            "test_name": "white blood cell count (wbc)",
+            "result_value": "7.0",
+            "unit_of_measurement": "thousand cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential wbc count",
+            "result_value": "neutrophils 60%, lymphocytes 31%, monocytes 2%, eosinophils 0.6%, basophils 0.2%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "271",
+            "unit_of_measurement": "thousand cells/µL",
+            "reference_range": "150,000-450,000"
+        }
+    ]
+}

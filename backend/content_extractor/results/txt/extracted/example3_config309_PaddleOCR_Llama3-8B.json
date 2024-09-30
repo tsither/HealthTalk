@@ -1,0 +1,29 @@
+{
+    "Date": "2022-07-25",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 42
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 10.5,
+            "unit_of_measurement": "thousand/ul",
+            "reference_range": "4-11 thousand/ul"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "thousand/ul",
+            "reference_range": "150-450 thousand/ul"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "6-20 mg/dl"
+        }
+    ]
+}

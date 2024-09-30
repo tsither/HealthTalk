@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "11",
+            "unit_of_measurement": null,
+            "reference_range": "normocylic"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.7",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "normal (32-36)"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "77.3",
+            "unit_of_measurement": "fL",
+            "reference_range": "normal (70-92)"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

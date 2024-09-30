@@ -1,0 +1,23 @@
+{
+    "Date": "07.15.2022",
+    "patient_information": {
+        "patient_id": 123456,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 7.2,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "3.9-10.8"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.4-17.6"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC Count": "10.0 K/uL",
+                "RBC Count": "4.55 M/uL",
+                "HGB": "12.1 g/dL",
+                "HCT": "37.5%",
+                "MCV": "81.7 fL",
+                "MCH": "32.8 pg",
+                "MCHC": "34.5 g/dL",
+                "RDW-CV": "14.0%",
+                "PLT Count": "300 K/uL",
+                " Neutrophils": "75.0 %",
+                "Lymphocytes": "15.0 %",
+                "Eosinophils": "5.0 %",
+                "Monocytes": "5.0 %"
+            },
+            "unit_of_measurement": {
+                "WBC Count": "K/uL",
+                "RBC Count": "M/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT Count": "K/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

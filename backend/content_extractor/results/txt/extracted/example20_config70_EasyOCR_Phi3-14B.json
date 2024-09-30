@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "1.23 x 10^9/L",
+            "unit_of_measurement": "/L",
+            "reference_range": "4.5-11.0 x e6/l"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "9 g/dL",
+            "unit_of_measurement": "/dL",
+            "reference_range": "13.5-17.5 / dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "80 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "79-106 fL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.5 x 10^12/L",
+            "unit_of_measurement": "/e12/l",
+            "reference_range": "4.7-6.1 e12 / l"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150 x 10^9/L",
+            "unit_of_measurement": "/e9/l",
+            "reference_range": "150-450 e9 / l"
+        }
+    ]
+}

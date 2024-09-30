@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin value",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": "x10^6/μL",
+            "reference_range": "low 130n blood"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "52 packed cells volume gidl mean pcvy 55"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "high 4g s0 mchc"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "272 calculated 53"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "FL",
+            "reference_range": "52 wbc count total"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 10.5,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[3.5-11]"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 240,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[160-200]"
+        }
+    ]
+}

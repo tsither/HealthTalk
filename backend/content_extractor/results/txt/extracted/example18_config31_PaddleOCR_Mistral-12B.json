@@ -1,0 +1,63 @@
+{
+    "Date": "02 Dec, 2020",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "Basophils",
+            "reference_range": "150000 - 400000"
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "value": "31"
+                },
+                {
+                    "cell_type": "Eosinophils",
+                    "value": "57.5"
+                },
+                {
+                    "cell_type": "Basophils",
+                    "value": "09"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": [
+                {
+                    "index": "RBC COUNT",
+                    "value": "87.75"
+                },
+                {
+                    "index": "Hemoglobin",
+                    "value": "12.5"
+                },
+                {
+                    "index": "PCe",
+                    "value": "32.5"
+                }
+            ],
+            "unit_of_measurement": [
+                "fL",
+                "g/dL",
+                "%"
+            ],
+            "reference_range": {
+                "RBC COUNT": "4.0 - 6.0 mill/cumm",
+                "Hemoglobin": "125 - 165 g/dL",
+                "PCe": "32 - 37%"
+            }
+        }
+    ]
+}

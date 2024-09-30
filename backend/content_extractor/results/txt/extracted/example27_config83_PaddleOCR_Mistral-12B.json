@@ -1,0 +1,64 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Velocidad de sedimentacion formula",
+            "result_value": "<5",
+            "unit_of_measurement": "mm/h",
+            "reference_range": "<140 mg %"
+        },
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                {
+                    "component": "H3",
+                    "value": "7.2 M2,56 %"
+                },
+                {
+                    "component": "V.N.",
+                    "value": "09ms"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": [
+                {
+                    "ion": "Sodio",
+                    "value": "141 mEq/L"
+                },
+                {
+                    "ion": "Potasio",
+                    "value": "138.000 mEq/L"
+                }
+            ],
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Biografia serica N'A pruebas enzimatacas",
+            "result_value": [
+                {
+                    "enzyme": "Ac.URICO",
+                    "value": "4.9"
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Recuentoglobular",
+            "result_value": "88,7 CLECsSA",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": "com drlogypathlabodrlogy 0123456769 com driogy www",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Value Dra Count",
+            "result_value": 105,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "parameter": "Hemoglobin",
+                    "result_value": 170,
+                    "unit_of_measurement": "g/L"
+                },
+                {
+                    "parameter": "Red Blood Cell Count (RBC)",
+                    "result_value": 5.5,
+                    "unit_of_measurement": "x10^12/L"
+                },
+                {
+                    "parameter": "Platelet Count",
+                    "result_value": null,
+                    "unit_of_measurement": null
+                }
+            ],
+            "reference_range": [
+                {
+                    "parameter": "Hemoglobin",
+                    "lower_limit": 130,
+                    "upper_limit": null
+                },
+                {
+                    "parameter": "Red Blood Cell Count (RBC)",
+                    "lower_limit": 4.5,
+                    "upper_limit": null
+                },
+                {
+                    "parameter": "Platelet Count",
+                    "lower_limit": 150,
+                    "upper_limit": 400
+                }
+            ]
+        }
+    ]
+}

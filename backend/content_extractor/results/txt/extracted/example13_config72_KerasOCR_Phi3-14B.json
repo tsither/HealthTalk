@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hb)",
+            "result_value": 135,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose (gld) - fasting",
+            "result_value": 70,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": [
+                3.9,
+                6.1
+            ]
+        },
+        {
+            "test_name": "Glucose (glu) - fasting",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

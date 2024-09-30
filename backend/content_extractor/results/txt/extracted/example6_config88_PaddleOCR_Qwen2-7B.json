@@ -1,0 +1,31 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5, 87.75, 57.5, 27.2, 32.8, 13.6",
+            "unit_of_measurement": [
+                "Blood",
+                "%",
+                "cells/uL",
+                "%",
+                "cells/uL",
+                "cells/uL"
+            ],
+            "reference_range": [
+                "-",
+                "40-50",
+                "83-101",
+                "27 - 32",
+                "50 - 62",
+                "20 - 40"
+            ]
+        }
+    ]
+}

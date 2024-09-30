@@ -1,0 +1,52 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Logic Os Accurate Yash Too Age Smart Sex",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11-16 g/dL"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 4.69,
+            "unit_of_measurement": "Million/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 27.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "26-32 pg/cell"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.15,
+            "unit_of_measurement": "Lakh/ cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": 4.69,
+            "unit_of_measurement": "Thousand/cmm",
+            "reference_range": "4-10 Thousand/cmm"
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 57.5,
+                "Lymphocytes": 27.2,
+                "Eosinophils": 0.3,
+                "Basophils": 0.1
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

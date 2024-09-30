@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HemogloB",
+            "result_value": 17.0,
+            "unit_of_measurement": "%",
+            "reference_range": "3 - 45%"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38 - 52%"
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

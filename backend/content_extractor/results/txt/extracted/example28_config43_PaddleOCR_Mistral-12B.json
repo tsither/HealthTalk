@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon",
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.81",
+                "VCM": "97 fl",
+                "H.M.C": "32 fL",
+                "Leucicitos": "6.8 d/µL",
+                "Eritrocitos": "5.0 x 10^6 / µL"
+            },
+            "unit_of_measurement": {
+                "Hematies": "/L",
+                "VCM": "fl",
+                "H.M.C": "fL",
+                "Leucicitos": "d/µL",
+                "Eritrocitos": "/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "10.2 mmol/L",
+                "Creatinina": "80 µmol/L",
+                "Colesterol": "3.40 mmol/L",
+                "Proteina total": "70 g/dL",
+                "Hierro (II+I)": "1.15 µmol/L"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mmol/L",
+                "Creatinina": "µmol/L",
+                "Colesterol": "mmol/L",
+                "Proteina total": "g/dL",
+                "Hierro (II+I)": "µmol/L"
+            },
+            "reference_range": {
+                "Glucosa": "3.9-5.8 mmol/L",
+                "Creatinina": "50-110 µmol/L",
+                "Colesterol": null,
+                "Proteina total": null,
+                "Hierro (II+I)": null
+            }
+        },
+        {
+            "test_name": "Hemoglogina A1c",
+            "result_value": "220 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<5.7%"
+        },
+        {
+            "test_name": "GOT (AST)",
+            "result_value": "6.6 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "10-40 U/L"
+        },
+        {
+            "test_name": "GPT (ALT)",
+            "result_value": "<240.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7-56 U/L"
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": "800 ng/mL",
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "<240.0 mg/dL"
+        },
+        {
+            "test_name": "Bilirrubina directa (Esterificada)",
+            "result_value": "<55.0 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": "80",
+            "unit_of_measurement": "U/L",
+            "reference_range": "55.0-135.0 U/L"
+        },
+        {
+            "test_name": "Albumina %",
+            "result_value": "<240.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

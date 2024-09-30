@@ -1,0 +1,26 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "Vimal Shah",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "m",
+        "patient_age": 150000
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Cell Volume (PCV)": "[< 12.5]",
+                "WBC": "[689578]",
+                "Neutrophils": "[9000]",
+                "Lymphocytes": "[13.6]",
+                "Monocytes": "[4.5 - 5.5]",
+                "Eosinophils": "[32.8]",
+                "Basophils": "[17.0]",
+                "Platelets": "[27.2]"
+            }
+        }
+    ]
+}

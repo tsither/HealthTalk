@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "Jane Smith",
+        "patient_sex": "Female",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": 180,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[<160]"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "mm/h",
+            "reference_range": "[3.5-5.5]"
+        }
+    ]
+}

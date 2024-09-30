@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "TNNUnconjugated Bilirubin",
+            "result_value": 6.2,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Direct Bilirubin (D bilirubin)",
+            "result_value": 0.5,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC count)",
+            "result_value": 111,
+            "unit_of_measurement": "/L",
+            "reference_range": [
+                4.5,
+                6.0
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 120,
+            "unit_of_measurement": "g/L",
+            "reference_range": [
+                135,
+                170
+            ]
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Cell Volume)",
+            "result_value": 98,
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                80,
+                100
+            ]
+        },
+        {
+            "test_name": "Hemoglobin Distribution Width (HDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": "",
+            "reference_range": [
+                11.6,
+                14.8
+            ]
+        },
+        {
+            "test_name": "Platelets (Plt)",
+            "result_value": 125,
+            "unit_of_measurement": "/L",
+            "reference_range": [
+                150,
+                450
+            ]
+        }
+    ]
+}

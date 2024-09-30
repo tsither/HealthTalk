@@ -1,0 +1,41 @@
+{
+    "Date": "04.10.23",
+    "patient_information": {
+        "patient_id": "223879",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 12000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0-5.5 million/µL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-450000 cells/µL"
+        }
+    ]
+}

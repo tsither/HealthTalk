@@ -1,0 +1,35 @@
+{
+    "Date": "21/10/2021",
+    "patient_information": {
+        "patient_id": "23as675",
+        "patient_name": "Patel Mumbal Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": " RBC Count",
+            "result_value": 4.75,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.4-6.1 million/µL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.06,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "4.5-11 thousand/µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150-450 thousand/µL"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 240,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "125-200"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-150"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "drlogy",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_n ame": "Hb (Hemoglobin)",
+            "result_value": 125.0,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (White Blood Cell Count)",
+            "result_value": 32800.0,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[13.0 - 17.0]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

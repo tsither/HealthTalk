@@ -1,0 +1,90 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HGB": {
+                    "value": 125,
+                    "unit": "g/dL"
+                },
+                "WBC": {
+                    "value": 6000,
+                    "unit": "/uL"
+                },
+                "PLT": {
+                    "value": 270000,
+                    "unit": "/uL"
+                },
+                "RBC": {
+                    "value": 4500000,
+                    "unit": "/uL"
+                },
+                "HCT": {
+                    "value": 38.9,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 87,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 29.4,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "RDW-SD": {
+                    "value": 50.6,
+                    "unit": "fL"
+                }
+            },
+            "reference_range": {
+                "HGB": {
+                    "min": 13.0,
+                    "max": 17.0
+                },
+                "WBC": {
+                    "min": 4500,
+                    "max": 11000
+                },
+                "PLT": {
+                    "min": 150000,
+                    "max": 450000
+                },
+                "RBC": {
+                    "min": 4000,
+                    "max": 6100000
+                },
+                "HCT": {
+                    "min": 37.0,
+                    "max": 47.0
+                },
+                "MCV": {
+                    "min": 80.0,
+                    "max": 95.0
+                },
+                "MCH": {
+                    "min": 26.0,
+                    "max": 32.0
+                },
+                "MCHC": {
+                    "min": 31.0,
+                    "max": 34.0
+                },
+                "RDW-SD": {
+                    "min": 40.0,
+                    "max": 56.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "131-170"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RSC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "10^12/L",
+            "reference_range": "4-10"
+        },
+        {
+            "test_name": "Packed cell volume (PCV)",
+            "result_value": 55,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": 13.5,
+            "unit_of_measurement": "%",
+            "reference_range": "11-14.5"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC count",
+            "result_value": {
+                "Neutrophils": 60,
+                "S0": 62,
+                "Lymphocytes A": 31,
+                "20": 20,
+                "Eosinophils": 0.6,
+                "Monocytes": 0,
+                "Basophils": 0.2
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 1.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

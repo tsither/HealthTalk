@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "roja",
+        "patient_sex": null,
+        "patient_age": 75
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobina",
+            "result_value": 14.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "hématocrito",
+            "result_value": 39.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "plaquetas",
+            "result_value": 208,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": {
+                "min": 140,
+                "max": 400
+            }
+        },
+        {
+            "test_name": "leucocitos",
+            "result_value": 6.2,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": null
+        }
+    ]
+}

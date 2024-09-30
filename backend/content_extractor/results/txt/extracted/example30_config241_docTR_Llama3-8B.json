@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC MCH COUNT (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "37-49 g/dL"
+        },
+        {
+            "test_name": "Packed Cell VOLUME",
+            "result_value": 45.55,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "30-36 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell COUNT",
+            "result_value": 5.2,
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell COUNT",
+            "result_value": 13.6,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Differential count WBC",
+            "result_value": "45.55 Neutrophils, 27.32 Lymphocytes, 13.6 Monocytes, 31 Basophils, 60 Eosinophils",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": 150000,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        }
+    ]
+}

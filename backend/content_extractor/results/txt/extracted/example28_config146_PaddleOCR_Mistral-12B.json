@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "varon",
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "obeso",
+                "Hemoglobina": {
+                    "VCM": 4.8,
+                    "g/dL": 109
+                },
+                "H.M.C.": 14.3,
+                "Leucicitos": 46829
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioguimica basica",
+            "result_value": {
+                "Glucosa": 10.2,
+                "Creatinina": 567890,
+                "Colesterol": 70
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": null,
+                "Colesterol": null
+            },
+            "reference_range": {
+                "Glucosa": "<240.0",
+                "Creatinina": "(0.70 - 1.10) mg/dL",
+                "Colesterol": "(E-L 50)"
+            }
+        },
+        {
+            "test_name": "Proteina Hierro (II+II1I)",
+            "result_value": {
+                "Hierro": 65,
+                "Ferritina": 1.15
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglogina A1c",
+            "result_value": {
+                "GOT": 6.6,
+                "GPT": 65
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L"
+            },
+            "reference_range": {
+                "GOT": "(0.70 - 1.10)",
+                "GPT": "(E-L 50)"
+            }
+        },
+        {
+            "test_name": "Bilirrubina directa (Esterificada)",
+            "result_value": {
+                "Silirrubina total": 4.5,
+                "Albumina %": 28
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Fostatasa Alcalina": "(0.2 - 1)",
+                "U/L": "<0.4"
+            }
+        }
+    ]
+}

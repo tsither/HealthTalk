@@ -1,0 +1,35 @@
+{
+    "Date": "Dec, 2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": 34
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC (PCV)",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "32.5 - 40.7"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 9500.0,
+            "unit_of_measurement": "COUNT ytes",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 4600000.0,
+            "unit_of_measurement": "COUNT ytes",
+            "reference_range": "4.32 - 5.72"
+        }
+    ]
+}

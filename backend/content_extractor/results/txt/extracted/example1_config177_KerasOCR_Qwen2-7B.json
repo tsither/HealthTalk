@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 8.0, RBC: 5.2, HGB: 13.5, HCT: 40%",
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4.0-11.0, RBC: 4.0-5.5, HGB: 11.5-16.0, HCT: 37%-51%"
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "Glucose: 82 mg/dL",
+            "unit_of_measurement": "/dL",
+            "reference_range": "60-100 mg/dL"
+        }
+    ]
+}

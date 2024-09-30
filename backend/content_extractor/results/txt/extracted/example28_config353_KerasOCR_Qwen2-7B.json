@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "B123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "7.8",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": " Liver Function Tests (LFT)",
+            "result_value": "ALT 22 U/L, AST 26 U/L",
+            "unit_of_measurement": "",
+            "reference_range": "ALT: 0-39 U/L, AST: 0-41 U/L"
+        },
+        {
+            "test_name": "Kidney Function Tests (KFT)",
+            "result_value": "Serum Creatinine 0.7 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": "0.6-1.2 mg/dL"
+        }
+    ]
+}

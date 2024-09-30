@@ -1,0 +1,35 @@
+{
+    "Date": "10/03/00",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 265,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7.4,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        }
+    ]
+}

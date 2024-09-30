@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID",
+        "patient_name": "Vision Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 125,
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 681575,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 275000,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

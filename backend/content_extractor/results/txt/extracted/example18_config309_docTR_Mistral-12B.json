@@ -1,0 +1,23 @@
+{
+    "Date": "26.08.2021",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Urine Test",
+            "result_value": "<0.5",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": "4",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(0.6 - 1.2)"
+        }
+    ]
+}

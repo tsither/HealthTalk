@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "949S7E21601",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (g/dL)": 13.0,
+                "Red Blood Cell count (/mm^3)": null,
+                "White Blood Cell count (/mm^3)": 4.5
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (g/dL)": "g/dL",
+                "Red Blood Cell count (/mm^3)": "/mm^3",
+                "White Blood Cell count (/mm^3)": "/mm^3"
+            },
+            "reference_range": {
+                "Hemoglobin (g/dL)": [
+                    150000,
+                    410000
+                ],
+                "Red Blood Cell count (/mm^3)": null,
+                "White Blood Cell count (/mm^3)": [
+                    8.0,
+                    11.0
+                ]
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 275,
+            "unit_of_measurement": "/L",
+            "reference_range": [
+                430000,
+                null
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 125,
+            "unit_of_measurement": "mL",
+            "reference_range": "Not Available"
+        },
+        {
+            "test_name": "Blood Glucose (Fasting)",
+            "result_value": 83,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[40-125]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[140-17z]"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 11000,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

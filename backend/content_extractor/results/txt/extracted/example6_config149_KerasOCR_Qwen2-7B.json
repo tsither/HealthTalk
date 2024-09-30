@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glycated hemoglobin count",
+            "result_value": 127,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[105-170]"
+        },
+        {
+            "test_name": "Hemoglobin level",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red blood cell count",
+            "result_value": 125000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[400,11000]"
+        },
+        {
+            "test_name": "Mean corpuscular volume",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

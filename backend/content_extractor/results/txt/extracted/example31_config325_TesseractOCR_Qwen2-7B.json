@@ -1,0 +1,23 @@
+{
+    "Date": "19/02/2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "LDH (Lactate Dehydrogenase)",
+            "result_value": 290,
+            "unit_of_measurement": "U/L",
+            "reference_range": "110-238"
+        },
+        {
+            "test_name": "ALP (Alkaline Phosphatase)",
+            "result_value": 56,
+            "unit_of_measurement": "U/L",
+            "reference_range": "45-135"
+        }
+    ]
+}

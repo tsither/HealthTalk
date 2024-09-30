@@ -1,0 +1,30 @@
+{
+    "Date": "2x Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC Total": 5.8,
+                "Neutrophils": 60,
+                "Lymphocytes": 30,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

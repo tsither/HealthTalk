@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_eange": null
+        },
+        {
+            "test_name": "Recuento de Plaquetas (Plt)",
+            "result_value": 44,
+            "unit_of_measurement": "x10^3 /mcL",
+            "reference_range": "[15-45]"
+        },
+        {
+            "test_name": "Recuento de Glóbulos Rojos (RBC)",
+            "result_value": 5.1,
+            "unit_of_measurement": "x10^6 /mcL",
+            "reference_range": "[4.7-6.1]"
+        },
+        {
+            "test_name": "Hematocrito (HCT)",
+            "result_value": 51,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-50%]"
+        }
+    ]
+}

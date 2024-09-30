@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 9.0,
+            "unit_of_measurement": "%",
+            "reference_range": "4-5% (MCv)"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "-7.4 - 15 g/dl"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": null,
+            "unit_of_measurement": "% Wopaog",
+            "reference_range": "9-23%"
+        }
+    ]
+}

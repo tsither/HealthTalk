@@ -1,0 +1,23 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test Result",
+            "result_value": 100.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "80-120"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-16.5"
+        }
+    ]
+}

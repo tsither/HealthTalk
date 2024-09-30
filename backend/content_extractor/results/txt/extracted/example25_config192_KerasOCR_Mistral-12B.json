@@ -1,0 +1,38 @@
+{
+    "Date": "15.09.2023",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6000,
+                "Red Blood Cells": 5000000,
+                "Hemoglobin": 14.5,
+                "Platelets": 250000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cells/mm³",
+                "Red Blood Cells": "cells/mm³",
+                "Hemoglobin": "g/dL",
+                "Platelets": "cells/mm³"
+            },
+            "reference_range": {
+                "White Blood Cells": "4500-11000 cells/mm³",
+                "Red Blood Cells": "4.5-6.0 million cells/mm³",
+                "Hemoglobin": "13.5-17.5 g/dL",
+                "Platelets": "150,000-450,000 cells/mm³"
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100 mg/dL"
+        }
+    ]
+}

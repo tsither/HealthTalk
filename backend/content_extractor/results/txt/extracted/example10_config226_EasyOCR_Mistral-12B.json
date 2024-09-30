@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "Shivam Singh",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": "9-17%",
+                "children": "75-13.5%"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": {
+                "adults": "150-450 x10^9/L"
+            }
+        }
+    ]
+}

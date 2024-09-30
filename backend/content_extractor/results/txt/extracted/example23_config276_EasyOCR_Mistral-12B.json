@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 12.7,
+                "PLT": 230
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Chemistry Panel",
+            "result_value": {
+                "Glucose": 95,
+                "Total Protein": 7.2,
+                "Albumin": 4.5,
+                "BUN": 12,
+                "Creatinine": 0.8
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

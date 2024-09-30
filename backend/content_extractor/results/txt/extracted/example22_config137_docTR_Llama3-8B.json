@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "(CBC)",
+            "result_value": 5000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 4500000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (HB)",
+            "result_value": 140,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 30.6,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 159000,
+            "unit_of_measurement": "/µL",
+            "reference_range": "150-400"
+        }
+    ]
+}

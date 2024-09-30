@@ -1,0 +1,38 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "KYON",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "87.75 g/L",
+                "Total RBC count": "4.03 M/mm³",
+                "Wbc count": "12.5 K/mm³",
+                "Platelet Count": "27.2 K/mm³",
+                "Mean Corpuscular Volume (MCV)": "90 fL",
+                "Packed Cell Volume (PCV)": "32.8 %"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/L",
+                "Total RBC count": "M/mm³",
+                "Wbc count": "K/mm³",
+                "Platelet Count": "K/mm³",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Packed Cell Volume (PCV)": "%"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0 g/L",
+                "Total RBC count": "4.5 - 5.5 M/mm³",
+                "Wbc count": "4.5 - 11.0 K/mm³",
+                "Platelet Count": "150000 - 410000/mm³",
+                "Mean Corpuscular Volume (MCV)": "83 - 101 fL",
+                "Packed Cell Volume (PCV)": "27-32%"
+            }
+        }
+    ]
+}

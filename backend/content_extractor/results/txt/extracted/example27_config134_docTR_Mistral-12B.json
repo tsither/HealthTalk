@@ -1,0 +1,140 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "LEUCOCITOS": 4.96,
+                "HEMATOCRITO": 36,
+                "HEMOGLOBINA": 10,
+                "PLAQUETAS": 251
+            },
+            "unit_of_measurement": {
+                "LEUCOCITOS": "/mma",
+                "HEMATOCRITO": "%",
+                "HEMOGLOBINA": "g/dL",
+                "PLAQUETAS": "/nims"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE SEDIMENTACION",
+            "result_value": 15,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": {
+                "min": 70,
+                "max": 110
+            }
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": {
+                "GLUCOSA": 87,
+                "COLESTEROL": 169,
+                "HDL": 60,
+                "LDL": 100,
+                "TRIGLICERIDOS": 45
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLESTEROL": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "TRIGLICERIDOS": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "UREA",
+            "result_value": 19,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 8,
+                "max": 25
+            }
+        },
+        {
+            "test_name": "AC. URICO",
+            "result_value": 4.5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 3.7,
+                "max": 5.8
+            }
+        },
+        {
+            "test_name": "HIERRO",
+            "result_value": 145,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CREATININA",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 0.5,
+                "max": 1
+            }
+        },
+        {
+            "test_name": "HOMOCISTEINA",
+            "result_value": 7.39,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PROTEINAST",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "GOT",
+            "result_value": 40,
+            "unit_of_measurement": "mEa/L",
+            "reference_range": {
+                "min": 135,
+                "max": 145
+            }
+        },
+        {
+            "test_name": "GPT",
+            "result_value": 43,
+            "unit_of_measurement": "mEa/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "GT",
+            "result_value": {
+                "A": 45,
+                "V.N.": 135
+            },
+            "unit_of_measurement": {
+                "A": "%",
+                "V.N.": ""
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 98,
+                "POTASIO": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIO": "mmol/L",
+                "CLORO": "mmol/L",
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

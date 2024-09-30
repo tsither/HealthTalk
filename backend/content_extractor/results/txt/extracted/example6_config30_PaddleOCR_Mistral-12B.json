@@ -1,0 +1,108 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dL"
+                },
+                "Total RBC count": {
+                    "value": 470,
+                    "unit": "10^6/µL"
+                },
+                "Total WBC count": {
+                    "value": 8.775,
+                    "unit": "10^3/µL"
+                },
+                "Platelet Count": {
+                    "value": 270,
+                    "unit": "10^3/µL"
+                },
+                "MCV": {
+                    "value": 96,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 28.5,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "RDW": {
+                    "value": 13.6,
+                    "unit": "%"
+                }
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "low": 11.6,
+                    "high": 14
+                },
+                "Total RBC count": {
+                    "low": 400,
+                    "high": 550
+                },
+                "Total WBC count": {
+                    "low": 4.5,
+                    "high": 11
+                },
+                "Platelet Count": {
+                    "low": 27,
+                    "high": 40
+                },
+                "MCV": {
+                    "low": 78,
+                    "high": 96
+                },
+                "MCH": {
+                    "low": 26,
+                    "high": 34
+                },
+                "MCHC": {
+                    "low": 31,
+                    "high": 35
+                },
+                "RDW": {
+                    "low": 11.5,
+                    "high": 14.5
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC COUNT",
+            "result_value": {
+                "Lymphocytes": {
+                    "value": 0,
+                    "unit": "%"
+                },
+                "Neutrophils": {
+                    "value": 73,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 15,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 8,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 2,
+                    "unit": "%"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

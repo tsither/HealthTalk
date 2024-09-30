@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glu (Blood)",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "60-110"
+        },
+        {
+            "test_name": "Calcium (Serum)",
+            "result_value": 9.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "8.5-10.5"
+        },
+        {
+            "test_name": "Phosphorus (Serum)",
+            "result_value": 4.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "2.5-4.5"
+        }
+    ]
+}

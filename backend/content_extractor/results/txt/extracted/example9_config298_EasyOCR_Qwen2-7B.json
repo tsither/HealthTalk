@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "56"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7.8, RBC: 4.9, HGB: 13.2, HCT: 38.6, MCV: 85, MCH: 28.5, RDW: 11.2",
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4-10K/µL, RBC: 4.2-5.3M/L, HGB: 11.6-15.6g/dL, HCT: 38-49%, MCV: 75-96fl, MCH: 26-34pg, RDW: 0-14%"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "BUN: 15, Creatinine: 1.2, Glucose: 85, Potassium: 4.2, Sodium: 139, Chloride: 103",
+            "unit_of_measurement": null,
+            "reference_range": "BUN: 7-22mg/dL, Creatinine: <1.3mg/dL, Glucose: 80-105mg/dL, Potassium: 3.6-5.1mEq/L, Sodium: 134-146mEq/L, Chloride: 98-107mEq/L"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "LDL-C (Bad Cholesterol)",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "2.6 - 159 mg/dL"
+        },
+        {
+            "test_name": "HbA1c (Sugar)",
+            "result_value": 5.8,
+            "unit_of_measurement": "%",
+            "reference_range": "3.4 - 5.6%"
+        }
+    ]
+}

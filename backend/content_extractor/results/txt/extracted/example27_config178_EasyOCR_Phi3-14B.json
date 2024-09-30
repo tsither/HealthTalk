@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13-17] for men; [12-15] for women"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[38-46] for men; [37-44] for women"
+        },
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 5.6,
+            "unit_of_measurement": "%",
+            "reference_range": "[4-5.9]"
+        }
+    ]
+}

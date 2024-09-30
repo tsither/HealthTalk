@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "0123456789",
+        "patient_sex": "2",
+        "patient_age": "10"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Instant P9",
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "4.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5 - 5.5 Ref."
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "50",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "40",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "3",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "32.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "(PCV)",
+            "result_value": "328",
+            "unit_of_measurement": "mL/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "smith",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[4.7-6.1 x10^6/uL]"
+        },
+        {
+            "test_name": "Hemogloam (g/dL)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13-18 g/dL]"
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": 40.2,
+            "unit_of_measurement": "%",
+            "reference_range": "[38.3-48.6%]"
+        }
+    ]
+}

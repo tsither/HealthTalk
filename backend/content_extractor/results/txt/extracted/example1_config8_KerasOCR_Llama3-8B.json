@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (HB)": "12.5 g/dL",
+                "RBC count": "4.51 x 10^12 cells/mm^3",
+                "Packed Cell Volume (PCV)": "55% High",
+                "Mean Corpuscular Volume (MCV)": "87.75 fL",
+                "MCH": "27 pg",
+                "MCHC": "32.5 g/dL",
+                "Reticulocyte Count": "13.6 x 10^9 cells/L",
+                "White Blood Cell (WBC) count": "40,001 cells/mm^3",
+                "Differential WBC count": {
+                    "Neutrophils": "62%",
+                    "Lymphocytes": "31%",
+                    "Eosinophils": "0%",
+                    "Monocytes": "10%",
+                    "Basophils": "2%"
+                },
+                "Platelet Count": "150,000 cells/mm^3"
+            },
+            "unit_of_measurement": "g/dL, x 10^12 cells/mm^3, %, fL, pg, g/dL, x 10^9 cells/L, cells/mm^3, %",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "Mumbai, India"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hbj)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "13.5-17.5 g/dL",
+                "female": "12.0-15.5 g/dL"
+            }
+        }
+    ]
+}

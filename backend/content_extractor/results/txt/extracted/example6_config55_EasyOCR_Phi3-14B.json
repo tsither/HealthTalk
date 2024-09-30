@@ -1,0 +1,38 @@
+{
+    "Date": "null",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: low",
+                "RBC count: normal",
+                "Blood indices - Packed Cell Volume (PCV): high",
+                "Mean Corpuscular Volume (MCV): normal",
+                "Calculated MCH: normal",
+                "Calculated MCHC: normal"
+            ],
+            "unit_of_measurement": [
+                "Hemoglobin: g/dL",
+                "RBC count: million/uL",
+                "Blood indices - Packed Cell Volume (PCV): %",
+                "Mean Corpuscular Volume (MCV): fL",
+                "Calculated MCH: pg",
+                "Calculated MCHC: g/dL"
+            ],
+            "reference_range": [
+                "Hemoglobin: 13-17g/dL",
+                "RBC count: 4.5-6 million/uL",
+                "Blood indices - Packed Cell Volume (PCV): 40-50%",
+                "Mean Corpuscular Volume (MCV): 80-96fL",
+                "Calculated MCH: 27-31pg",
+                "Calculated MCHC: 33-36g/dL"
+            ]
+        }
+    ]
+}

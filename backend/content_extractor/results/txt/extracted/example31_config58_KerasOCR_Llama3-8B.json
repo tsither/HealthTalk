@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "28"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "million cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 31.5,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": "[27-32]"
+        },
+        {
+            "test_name": "Red Blood Cell Volume (RBCV)",
+            "result_value": 2.8,
+            "unit_of_measurement": "mL/100 mL blood",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 13.5,
+            "unit_of_measurement": "thousand cells/μL",
+            "reference_range": "[4-10]"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 7.15,
+            "unit_of_measurement": "% of WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 6.75,
+            "unit_of_measurement": "% of WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3.2,
+            "unit_of_measurement": "lakh cells/μL",
+            "reference_range": "[1.5-4]"
+        }
+    ]
+}

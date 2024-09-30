@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel P",
+        "patient_sex": null,
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 36,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 4100,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

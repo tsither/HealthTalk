@@ -1,0 +1,55 @@
+{
+    "Date": "2023-10-25",
+    "patient_information": {
+        "patient_id": "A123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 38
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 190 mg/dL, HDL Cholesterol: 45 mg/dL, LDL Cholesterol: 120 mg/dL, Triglycerides: 175 mg/dL",
+            "unit_of_measurement": [
+                {
+                    "name": "mg/dL",
+                    "test": "Total Cholesterol"
+                },
+                {
+                    "name": "mg/dL",
+                    "test": "HDL Cholesterol"
+                },
+                {
+                    "name": "mg/dL",
+                    "test": "LDL Cholesterol"
+                },
+                {
+                    "name": "mg/dL",
+                    "test": "Triglycerides"
+                }
+            ],
+            "reference_range": [
+                {
+                    "lower_limit": 150,
+                    "upper_limit": 200,
+                    "test": "Total Cholesterol"
+                },
+                {
+                    "lower_limit": 40,
+                    "upper_limit": 60,
+                    "test": "HDL Cholesterol"
+                },
+                {
+                    "lower_limit": 100,
+                    "upper_limit": 130,
+                    "test": "LDL Cholesterol"
+                },
+                {
+                    "lower_limit": 50,
+                    "upper_limit": 150,
+                    "test": "Triglycerides"
+                }
+            ]
+        }
+    ]
+}

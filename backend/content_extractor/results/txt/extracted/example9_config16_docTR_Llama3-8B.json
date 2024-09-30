@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Globulin",
+            "result_value": 30.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 3.4,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "result_value": 14.5,
+            "unit_of_measurement": "seconds",
+            "reference_range": "10.5-14.5"
+        },
+        {
+            "test_name": "Activated Partial Thromboplastin Time (APTT)",
+            "result_value": 40.8,
+            "unit_of_measurement": "seconds",
+            "reference_range": "25.2-38.4"
+        },
+        {
+            "test_name": "Fibrinogen",
+            "result_value": 300,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "D-Dimer",
+            "result_value": 0.5,
+            "unit_of_measurement": "ug/mL",
+            "reference_range": "<0.5"
+        }
+    ]
+}

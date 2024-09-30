@@ -1,0 +1,23 @@
+{
+    "Date": "12/04/2023",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.2-1.2"
+        },
+        {
+            "test_name": "Direct Bilirubin",
+            "result_value": 0.3,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-0.3"
+        }
+    ]
+}

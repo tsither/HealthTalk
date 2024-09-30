@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Test Result 1",
+            "result_value": 123.45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: 70-140"
+        },
+        {
+            "test_name": "Blood Test Result 2",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Test Result 3",
+            "result_value": 0.98765,
+            "unit_of_measurement": "%",
+            "reference_range": "Normal: 70-100"
+        }
+    ]
+}

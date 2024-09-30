@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "roja": "400",
+                "hemoglobina": "144",
+                "homatocrito": "39.5%",
+                "vcm": "81.1",
+                "bbd": null,
+                "hcm": "21.9",
+                "pg": null,
+                "chcm": null
+            },
+            "unit_of_measurement": {
+                "roja": "fL",
+                "hemoglobina": "g/dL",
+                "homatocrito": "%",
+                "vcm": "fL",
+                "bbd": null,
+                "hcm": "fL",
+                "pg": null,
+                "chcm": null
+            },
+            "reference_range": {
+                "roja": null,
+                "hemoglobina": null,
+                "homatocrito": null,
+                "vcm": null,
+                "bbd": null,
+                "hcm": null,
+                "pg": null,
+                "chcm": null
+            }
+        },
+        {
+            "test_name": "Serie plaquetar",
+            "result_value": {
+                "plaquetas": "208",
+                "vp": "91"
+            },
+            "unit_of_measurement": {
+                "plaquetas": "fL",
+                "vp": "m"
+            },
+            "reference_range": {
+                "plaquetas": null,
+                "vp": null
+            }
+        },
+        {
+            "test_name": "Serie leucocitaria blanca",
+            "result_value": {
+                "neut": "780",
+                "lin": "15",
+                "mon": "120"
+            },
+            "unit_of_measurement": {
+                "neut": "fL",
+                "lin": "o",
+                "mon": "o"
+            },
+            "reference_range": {
+                "neut": null,
+                "lin": null,
+                "mon": null
+            }
+        }
+    ]
+}

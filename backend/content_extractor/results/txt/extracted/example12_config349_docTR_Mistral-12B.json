@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "Yach L. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "FULL BLOOD COUNT",
+            "result_value": {
+                "WBC": "6.0",
+                "RBC": "4.5",
+                "Hb": "12.0",
+                "HCT": "38.0",
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

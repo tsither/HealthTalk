@@ -1,0 +1,32 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02:31 PM 02 Dec, 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET DISTRIBUTION WIDTH (PDW)",
+            "result_value": 15.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Electrical Impedence Age Group Normal PDW Range Adults": "9.0 - 17.0%",
+                "Children": "7.5 - 13.5%",
+                "Newborns": "9.0 - 17.0%"
+            }
+        },
+        {
+            "test_name": "PDW % Interpretation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "<9.0": "Lower than normal range; may indicate iron or B12 deficiency, bone marrow disorders",
+                "9.0 - 17.0": "Normal range; indicates a normal variation in the size of platelets in the blood",
+                ">17.0": "Higher than normal range; may indicate liver disease, bone marrow disorders, or immune thrombocytopenia"
+            }
+        }
+    ]
+}

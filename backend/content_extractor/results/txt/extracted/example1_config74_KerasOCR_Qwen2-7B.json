@@ -1,0 +1,122 @@
+{
+    "Date": "02/dec/202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "CBCY",
+            "result_value": "low",
+            "unit_of_measurement": "rbc",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": "ghbl",
+            "unit_of_measurement": "rbc",
+            "reference_range": null
+        },
+        {
+            "test_name": "total rbc",
+            "result_value": 131,
+            "unit_of_measurement": "os",
+            "reference_range": 170
+        },
+        {
+            "test_name": "GIDL blood indices",
+            "result_value": 457,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": 55,
+            "unit_of_measurement": "cell volume",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 8775,
+            "unit_of_measurement": "mcm",
+            "reference_range": null
+        },
+        {
+            "test_name": "calculated volume (MCH)",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 277,
+            "unit_of_measurement": "3",
+            "reference_range": null
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": "high",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell count (WBC)",
+            "result_value": 345,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "total WBC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "GIDL WBC count",
+            "result_value": 116,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential WBC count",
+            "result_value": [
+                {
+                    "neutrophils": 40001,
+                    "lymphocytes cumm": 60,
+                    "eosinophils": 31.5,
+                    "monocytes": 20,
+                    "basophils": 0.6
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": [
+                {
+                    "primary": 150000,
+                    "automated cell counter": "fully",
+                    "count": 410000,
+                    "instrument": "mindray"
+                }
+            ],
+            "unit_of_measurement": "platelet",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": [
+                {
+                    "sample_type": "blood",
+                    "count": 10,
+                    "reference": null
+                }
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45.17,
+            "unit_of_measurement": "mL/hk2b",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 105,
+            "unit_of_measurement": "g/l",
+            "reference_**range": null
+        },
+        {
+            "test_name": "Leukocytes",
+            "result_value": 6.9,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                4.5,
+                11
+            ]
+        }
+    ]
+}

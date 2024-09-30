@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123466789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 18.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 6700,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500 - 11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 32.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

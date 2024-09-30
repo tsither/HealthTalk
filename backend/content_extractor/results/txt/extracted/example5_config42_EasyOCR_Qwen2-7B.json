@@ -1,0 +1,24 @@
+{
+    "Date": "XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 18,
+        "patient_age_units": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": 555,
+            "unit_of_measurement": "platelets",
+            "reference_range": null
+        },
+        {
+            "test_name": "PDLW (PDW)",
+            "result_value": 751,
+            "unit_of_measurement": "%",
+            "reference_range": "[90, 135]"
+        }
+    ]
+}

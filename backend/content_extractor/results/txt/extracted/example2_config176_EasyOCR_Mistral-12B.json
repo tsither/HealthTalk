@@ -1,0 +1,23 @@
+{
+    "Date": "2023-08-01",
+    "patient_information": {
+        "patient_id": "XYZ123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Glucose",
+            "result_value": 90,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-106"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2"
+        }
+    ]
+}

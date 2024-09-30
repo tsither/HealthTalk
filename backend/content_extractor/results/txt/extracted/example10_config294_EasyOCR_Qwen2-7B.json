@@ -1,0 +1,34 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "35"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": "WBC: 8.2, RBC: 4.9, HGB: 13.6, HCT: 0.41",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "[4-11] K/μL",
+                "RBC": "[4.2-5.8] x 10^9/L",
+                "HGB": "[130-170] mg/dL",
+                "HCT": "[0.36-0.44]"
+            }
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": "250 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[150-200] mg/dL"
+        },
+        {
+            "test_name": "Glucose, Fasting",
+            "result_value": "80 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-99] mg/dL"
+        }
+    ]
+}

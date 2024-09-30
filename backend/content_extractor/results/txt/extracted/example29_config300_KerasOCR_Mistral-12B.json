@@ -1,0 +1,29 @@
+{
+    "Date": "01/12/2023",
+    "patient_information": {
+        "patient_id": "s77",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin, Creatinine",
+            "result_value": [
+                "5.8",
+                "0.8"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "mg/dL"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12,
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        }
+    ]
+}

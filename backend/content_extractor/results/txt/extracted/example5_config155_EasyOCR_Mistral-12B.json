@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "s x x",
+        "patient_name": null,
+        "patient_sex": "m",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "creatinine",
+            "result_value": 0.6,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<1.3"
+        },
+        {
+            "test_name": "eGFR",
+            "result_value": 85,
+            "unit_of_measurement": "mL/min/1.73m2",
+            "reference_range": ">90"
+        }
+    ]
+}

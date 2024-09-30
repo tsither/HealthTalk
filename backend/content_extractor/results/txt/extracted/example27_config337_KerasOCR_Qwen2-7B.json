@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 8.2",
+            "unit_of_measurement": "/mm³",
+            "reference_range": "4.0-11.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 225",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "150-200"
+        }
+    ]
+}

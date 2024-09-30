@@ -1,0 +1,85 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "[FILL]",
+                "Hemog C globina": 14.3,
+                "VCM": 89,
+                "H.M.C.": 29,
+                "Leucicitos": 4.8,
+                "Eosinófilos": 5
+            },
+            "unit_of_measurement": {
+                "Hematies": "[FILL]",
+                "Hemog C globina": "g/l",
+                "VCM": "fl",
+                "H.M.C.": "pg",
+                "Leucicitos": "X 109/.",
+                "Eosinófilos": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": 65,
+                "Creatinina": 1.15,
+                "Colesterol": 20,
+                "Proteina": 4.5,
+                "Hierro (II+I11)": 800,
+                "Ferritina": "<30",
+                "Hemoglogina.Alc": "<70.0",
+                "GOT": "<40",
+                "GPT": "<60",
+                "GGT": "<50",
+                "Bilirrubina total": 8,
+                "Fosfatasa Alcalina": 2.3,
+                "Albumina": 3.9
+            },
+            "unit_of_measurement": {
+                "Glucosa": "* mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL",
+                "Hierro (II+I11)": "ug/dL",
+                "Ferritina": "<30 ng/mL",
+                "Hemoglogina.Alc": "<70.0 %",
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L",
+                "Bilirrubina total": "mg/dL",
+                "Fosfatasa Alcalina": "* U/L",
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110.0)",
+                "Creatinina": "(0.70 - 1.10)",
+                "Colesterol": "<240.0",
+                "Proteina": "[FILL]",
+                "Hierro (II+I11)": "[FILL]",
+                "Ferritina": "[FILL]",
+                "Hemoglogina.Alc": "[FILL]",
+                "GOT": "<40 U/L",
+                "GPT": "<60 U/L",
+                "GGT": "<50 U/L",
+                "Bilirrubina total": "(0.2-1) mg/dL",
+                "Fosfatasa Alcalina": "[FILL]",
+                "Albumina": "[FILL]"
+            }
+        },
+        {
+            "test_name": "Bilirubina drecta (Esterificada)",
+            "result_value": 1.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

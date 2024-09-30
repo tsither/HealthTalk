@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.5 - 5.5 pg g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "27.2 - 32"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 15000,
+            "unit_of_measurement": "/microliter (µL)",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 150000,
+            "unit_of_measurement": "/microliter (µL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 7,
+            "unit_of_measurement": "/microliter (µL)",
+            "reference_range": "0 - 02"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "thousand cells per microliter (x10^3/μL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 11.6,
+            "unit_of_measurement": "picograms (pg)",
+            "reference_range": "27 - 32"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "femtoliters (fl)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "20 - 9000"
+        }
+    ]
+}

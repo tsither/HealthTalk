@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 87.75,
+                "Red Blood Cells": 4.5,
+                "Platelets": 27.2,
+                "Hemoglobin": 13.6,
+                "Total WBC count": 12.5,
+                "RBC COUNT": 57.5,
+                "WBC COUNT": null
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cells/mm^3",
+                "Red Blood Cells": "%",
+                "Platelets": "cells/mm^3",
+                "Hemoglobin": "g/dL",
+                "Total WBC count": "cells/mm^3",
+                "RBC COUNT": null,
+                "WBC COUNT": null
+            },
+            "reference_range": {
+                "White Blood Cells": "4.5 - 10.0",
+                "Red Blood Cells": "32.5 - 34.5",
+                "Platelets": "150,000 - 400,000",
+                "Hemoglobin": "12.6 - 14.8",
+                "Total WBC count": "4,500 - 11,000",
+                "RBC COUNT": null,
+                "WBC COUNT": null
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

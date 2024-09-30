@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hesfalia",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin serie roja",
+            "result_value": 4.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "homatocrito",
+            "result_value": 113,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                40,
+                52
+            ]
+        },
+        {
+            "test_name": "Síntesis de hemoglobina",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

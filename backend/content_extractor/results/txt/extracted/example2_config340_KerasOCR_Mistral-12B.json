@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "Red Blood Cells (RBC)": {
+                    "value": null,
+                    "unit": "million/µL"
+                },
+                "Hemoglobin (Hb)": {
+                    "value": null,
+                    "unit": "g/dL"
+                },
+                "White Blood Cells (WBC)": {
+                    "value": null,
+                    "unit": "thousand/µL"
+                },
+                "Platelets": {
+                    "value": null,
+                    "unit": "thousand/µL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

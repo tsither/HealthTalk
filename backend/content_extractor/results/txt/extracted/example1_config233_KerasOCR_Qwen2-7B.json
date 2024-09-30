@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "lott",
+            "reference_range": "[130, 170]"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 52,
+            "unit_of_measurement": "as",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed cell volume (PCV)",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": "[high to so]"
+        },
+        {
+            "test_name": "Corpuscular volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": "[83-101]"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": 212,
+            "unit_of_measurement": "pg",
+            "reference_range": "[27-32]"
+        },
+        {
+            "test_name": "Red cell distribution width (RDW)",
+            "result_value": 120,
+            "unit_of_measurement": "%",
+            "reference_range": "[118, 110]"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total differential WBC count",
+            "result_value": [
+                60,
+                31,
+                0.06,
+                0
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 30000,
+            "unit_of_measurement": "",
+            "reference_range": [
+                150000,
+                450000
+            ]
+        }
+    ]
+}

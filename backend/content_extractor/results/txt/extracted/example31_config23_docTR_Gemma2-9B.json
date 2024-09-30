@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Mean Cell Volume (MCV)",
+            "result_value": "52.5",
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101 fL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "72.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "4.10 x 10^6",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "87.75%",
+            "unit_of_measurement": "%",
+            "reference_range": "45-85%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "37 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "27.2 x 10^3",
+            "unit_of_measurement": "/µL",
+            "reference_range": "40-50 x 10^3 /µL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "250,000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150,000-400,000 /µL"
+        }
+    ]
+}

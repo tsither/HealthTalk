@@ -1,0 +1,47 @@
+{
+    "Date": "04/03/21",
+    "patient_information": {
+        "patient_id": "10912465578",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count (Total)",
+            "result_value": 12.5,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (Total)",
+            "result_value": 6.5,
+            "unit_of_measurement": "/L",
+            "reference_range": "3.9-10.7"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 224,
+            "unit_of_measurement": "*10^9/L",
+            "reference_range": null
+        }
+    ]
+}

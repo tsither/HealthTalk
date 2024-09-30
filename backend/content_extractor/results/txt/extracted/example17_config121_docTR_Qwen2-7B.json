@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0-200]"
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "LDL-C Cholesterol",
+            "result_value": 67,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[30-130]"
+        },
+        {
+            "test_name": "HDL-C Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": 4379,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[0-150]"
+        }
+    ]
+}

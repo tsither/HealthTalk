@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Unknown test",
+            "result_value": 5.45,
+            "unit_of_measurement": "some unit",
+            "reference_range": "N/A"
+        },
+        {
+            "test_name": "Another unknown test",
+            "result_value": 6.78,
+            "unit_of_measurement": "other unit",
+            "reference_range": null
+        }
+    ]
+}

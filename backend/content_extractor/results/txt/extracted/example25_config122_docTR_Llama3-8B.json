@@ -1,0 +1,41 @@
+{
+    "Date": "2023-02-20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.4-17.1 g/dL"
+        },
+        {
+            "test_name": "Erythrocyte count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea (Blood)",
+            "result_value": 2.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7-21 g/dL"
+        },
+        {
+            "test_name": "Glucose (Venous)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Alkaline Phosphatase",
+            "result_value": 0.0,
+            "unit_of_measurement": "IU/L",
+            "reference_range": "39-126 IU/L"
+        }
+    ]
+}

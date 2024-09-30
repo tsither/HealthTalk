@@ -1,0 +1,69 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon",
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4.8109 g/dL",
+                "VCM": "14.3 fL",
+                "H.M.C.": "89%",
+                "Leucicitos": "10,210/µL (N: 68%, L: 18.5%, E: 24%)"
+            },
+            "unit_of_measurement": {
+                "Hematies": "g/dL",
+                "VCM": "fL",
+                "H.M.C.": "%",
+                "Leucicitos": "/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "70.0 mg/dL",
+                "Colesterol": "110.0 mg/dL",
+                "Proteina total": "1.15 g/dL",
+                "Hierro (II+I)": "220 mg/dL",
+                "Ferritina": "6.6 ng/mL",
+                "Hemoglobina A1c": "65.0%",
+                "GOT": "20 g/dL",
+                "GPT": "4.5 ng/mL",
+                "GGT": "800 U/L",
+                "Bilirrubina total": "800 U/L",
+                "Bilirrubina directa (Esterificada)": "100 U/L",
+                "Fosfatasa Alcalina": "2.8 U/L",
+                "Albumina": "1.5 mg/dL",
+                "Trigliceridos": "50 mg/dL",
+                "LDL": "2,3*",
+                "HDL": "4.80 mg/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina total": "g/dL",
+                "Hierro (II+I)": "mg/dL",
+                "Ferritina": "ng/mL",
+                "Hemoglobina A1c": "%",
+                "GOT": "g/L",
+                "GPT": "ng/mL",
+                "GGT": "U/L",
+                "Bilirrubina total": "U/L",
+                "Bilirrubina directa (Esterificada)": "U/L",
+                "Fosfatasa Alcalina": "U/L",
+                "Albumina": "mg/dL",
+                "Trigliceridos": "mg/dL",
+                "LDL": "",
+                "HDL": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cell Count)",
+            "result_value": "3.88",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": "4.32-5.72"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "34.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "90.3",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": "30.1",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": "34.3",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "14.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "130000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150000-450000"
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": "3270",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": "755",
+                "Lymphocytes": "575",
+                "Eosinophils": "75",
+                "Monocytes": "35",
+                "Basophils": "5"
+            },
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

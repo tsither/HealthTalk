@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Patel 105",
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 10000,
+            "unit_of_measurement": "count/ul",
+            "reference_range": "4.5 - 13.0"
+        },
+        {
+            "test_name": "RBC (PCV)",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.0,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 14.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 100,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.5 - 17.5"
+        }
+    ]
+}

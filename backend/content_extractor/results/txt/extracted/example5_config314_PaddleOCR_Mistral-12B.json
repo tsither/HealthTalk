@@ -1,0 +1,50 @@
+{
+    "Date": "2023-01-05",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell (WBC)": 6.2,
+                "Red Blood Cell (RBC)": 5.0,
+                "Hemoglobin (Hb)": 14.5,
+                "Platelet": 250
+            },
+            "unit_of_measurement": {
+                "White Blood Cell (WBC)": "10^9/L",
+                "Red Blood Cell (RBC)": "10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelet": "10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cell (WBC)": "4.5 - 11.0",
+                "Red Blood Cell (RBC)": "4.5 - 6.0",
+                "Hemoglobin (Hb)": "13.5 - 17.5",
+                "Platelet": "150 - 450"
+            }
+        },
+        {
+            "test_name": "Liver Function Test (LFT)",
+            "result_value": {
+                "Alanine Aminotransferase (ALT)": 28,
+                "Aspartate Aminotransferase (AST)": 35,
+                "Total Protein": 7.8
+            },
+            "unit_of_measurement": {
+                "Alanine Aminotransferase (ALT)": "U/L",
+                "Aspartate Aminotransferase (AST)": "U/L",
+                "Total Protein": "g/dL"
+            },
+            "reference_range": {
+                "Alanine Aminotransferase (ALT)": "7 - 56",
+                "Aspartate Aminotransferase (AST)": "5 - 40",
+                "Total Protein": "6.4 - 8.3"
+            }
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC COUNT",
+            "result_value": 4.78,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 18.0"
+        },
+        {
+            "test_name": "HCT (PACKED CELL VOLUME)",
+            "result_value": 40.7,
+            "unit_of_measurement": "%",
+            "reference_range": "36.0 - 52.0"
+        },
+        {
+            "test_name": "MCV (MEAN CORPUSCULAR VOLUME)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0 - 100.0"
+        },
+        {
+            "test_name": "MCH (MEAN CORPUSCULAR HEAMOGLOBIN)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (MEAN CORPUSCULAR HEAMOGLOBIN CONCENTRATION)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 275000,
+            "unit_of_measurement": "/uL",
+            "reference_range": "150000 - 450000"
+        },
+        {
+            "test_name": "WBC COUNT (WHITE BLOOD CELL COUNT)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": {
+                "Neutrophils": 62,
+                "Lymphocytes": 30.5,
+                "Monocytes": 4,
+                "Eosinophils": 1.7,
+                "Basophils": 1.8
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

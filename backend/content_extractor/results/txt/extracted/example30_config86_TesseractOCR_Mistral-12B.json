@@ -1,0 +1,119 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": 12.5,
+                    "unit_of_measurement": "g/dl",
+                    "reference_range": "13.0-17.0"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": 52,
+                    "unit_of_measurement": "million/cumm",
+                    "reference_range": "4.5-5.5"
+                }
+            ]
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": [
+                {
+                    "name": "Packed Cell volume (PCV)",
+                    "value": 57.5,
+                    "unit_of_measurement": "%",
+                    "reference_range": "40-50"
+                },
+                {
+                    "name": "Mean corpuscular volume (MCV)",
+                    "value": 87.75,
+                    "unit_of_measurement": "fl",
+                    "reference_range": "83-101"
+                }
+            ]
+        },
+        {
+            "test_name": "Calculated Values",
+            "result_value": [
+                {
+                    "name": "Calculated MCH",
+                    "value": 27.2,
+                    "unit_of_measurement": "pg",
+                    "reference_range": "97 - 32"
+                },
+                {
+                    "name": "Calculated MCHC",
+                    "value": 32.8,
+                    "unit_of_measurement": "%",
+                    "reference_range": "39.5-34.5"
+                }
+            ]
+        },
+        {
+            "test_name": "RBC Morphology",
+            "result_value": [
+                {
+                    "name": "Calculated RDW",
+                    "value": 13.6,
+                    "unit_of_measurement": "%",
+                    "reference_range": "41.6-14.0"
+                }
+            ]
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": [
+                {
+                    "name": "Neutrophils",
+                    "value": 60,
+                    "unit_of_measurement": "%",
+                    "reference_range": "50 - 62"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": 31,
+                    "unit_of_measurement": "%",
+                    "reference_range": "20 - 40"
+                },
+                {
+                    "name": "Eosinophils",
+                    "value": 4,
+                    "unit_of_measurement": "%",
+                    "reference_range": "0.0-6"
+                },
+                {
+                    "name": "Monocytes",
+                    "value": null,
+                    "unit_of_measurement": "%",
+                    "reference_range": "9-10"
+                },
+                {
+                    "name": "Basophils",
+                    "value": null,
+                    "unit_of_measurement": "%",
+                    "reference_range": "0.0-2"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                {
+                    "name": "Platelet Count",
+                    "value": 450000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "150000-450000"
+                }
+            ]
+        }
+    ]
+}

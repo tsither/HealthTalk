@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 36,
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5 Count"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 52,
+            "unit_of_measurement": null,
+            "reference_range": "27.2 Low reference range is 32-36, value is borderline high"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

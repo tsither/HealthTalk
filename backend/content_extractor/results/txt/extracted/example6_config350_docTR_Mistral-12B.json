@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Bummn",
+        "patient_name": "L - CamED",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "5.6",
+                "RBC": "4.8",
+                "HGB": "12.3",
+                "PLT": "270",
+                "NEU": "45",
+                "LYM": "40",
+                "MONO": "8"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/µL",
+                "RBC": "M/mm³",
+                "HGB": "g/dL",
+                "PLT": "K/µL",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

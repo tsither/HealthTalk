@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "4.40",
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "4.0-5.5 x10^6/µL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "8",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4.0-10.0 x10^3/µL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "220",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "150-450 x10^3/µL"
+        },
+        {
+            "test_name": "Hb",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hct",
+            "result_value": "37.9",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "86.1",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": "12.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW-SD",
+            "result_value": "48.7",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

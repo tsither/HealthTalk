@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "White Blood Cells (WBC)": 9.2,
+                "Red Blood Cells (RBC)": 4.8,
+                "Hemoglobin (Hb)": 13.5,
+                "Platelets": 270,
+                "Eosinophils": 6.2,
+                "Basophils": 0.5,
+                "Monocytes": 8.5,
+                "Lymphocytes": 45
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "10^9/L",
+                "Red Blood Cells (RBC)": "10^12/L",
+                "Hemoglobin (Hb)": "g/dL",
+                "Platelets": "10^9/L",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Monocytes": "%",
+                "Lymphocytes": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

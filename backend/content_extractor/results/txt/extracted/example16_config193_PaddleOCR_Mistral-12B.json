@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec. 202x 08:00 PM",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "HGB": 12.5,
+                "HCT": 37.2,
+                "PLT": 136
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "cells/uL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "Low": 4500,
+                    "High": 11000
+                },
+                "HGB": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "HCT": {
+                    "Low": 36.0,
+                    "High": 46.0
+                },
+                "PLT": {
+                    "Low": 150,
+                    "High": 450
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 0.5,
+                "High": 4.8
+            }
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 0.1,
+                "High": 1.6
+            }
+        }
+    ]
+}

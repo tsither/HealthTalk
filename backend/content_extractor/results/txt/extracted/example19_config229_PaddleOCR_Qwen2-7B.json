@@ -1,0 +1,48 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "date_of_collection": "02 Dec. 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "12.5",
+                "rbc_count": "5.2",
+                "packed_cell_volume": "57.5",
+                "mean_corpuscular_volume": "87.75",
+                "mch": "27.2",
+                "mchc": "32.8",
+                "rdw": "13.6",
+                "total_wbc_count": "9000",
+                "platelet_count": "150000"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "mill/cumm",
+                "packed_cell_volume": "%",
+                "mean_corpuscular_volume": "fl",
+                "mch": "pg",
+                "mchc": "%",
+                "rdw": "%",
+                "total_wbc_count": "cells/cumm",
+                "platelet_count": "cells/cumm"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0- 17.0",
+                "rbc_count": "4.5 - 5.5 mill/cumm",
+                "packed_cell_volume": "40-50%",
+                "mean_corpuscular_volume": "83-101 fl",
+                "mch": "27 : 32 pg",
+                "mchc": "32.5 - 34.5%",
+                "rdw": "11.6 - 14.0%",
+                "total_wbc_count": "4000-1.1000 cells/cumm",
+                "platelet_count": "150000 - 410000 cells/cumm"
+            }
+        }
+    ]
+}
