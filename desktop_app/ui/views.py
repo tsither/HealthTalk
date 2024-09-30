@@ -64,8 +64,10 @@ PREMAI_API_KEY = os.getenv("PREMAI_API_KEY")
 #######################################################################
 ########### #CHANGE HERE FOR DIFFERENT KEYS + query method ############
 
-API_KEY = PREMAI_API_KEY
-MODEL = "gpt-4o"
+API_KEY = PREMAI_API_KEY 
+API_KEY = "NuiFrtAZwP8Kc7qlRJl07St0YKebTKyR4L"
+# MODEL = "gpt-4o"
+MODEL = "claude-3-haiku"
 sql_query_gen_method = False            #False: converts database to json file, queries database as dictionary (JSON METHOD - NO SQL QUERY GENERATION)
                                         #True: generate SQL queries to access database info (sqlite3)
 #############################################################
