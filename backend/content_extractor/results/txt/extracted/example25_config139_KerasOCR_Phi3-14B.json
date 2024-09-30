@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 104,
+            "unit_of_measurement": "unidades ref. val.",
+            "reference_range": "80-120"
+        },
+        {
+            "test_name": "Leucocitos (TST50)",
+            "result_value": 40,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4.0-11.0"
+        },
+        {
+            "test_name": "Hematies (O S)",
+            "result_value": 16,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Quotiente globulo rojo a hematocrito (QGH)",
+            "result_value": 9.0,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

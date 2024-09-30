@@ -1,0 +1,55 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5",
+                "RBC COUNT %": "57.5",
+                "Packed Cell Volume (PCV)": "7P/6",
+                "MCHed %": "32.8",
+                "RDW": "9000",
+                "Total WBC count": "60",
+                "Neutrophils %": "1",
+                "Lymphocytes": "7",
+                "Eosinophils": "1",
+                "Monocytes": "0",
+                "Basophils": "Borderline",
+                "Platelet Count": "150000"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "mill/cumm",
+                "RBC COUNT %": "%",
+                "Packed Cell Volume (PCV)": "7P/6",
+                "MCHed %": "%",
+                "RDW": "fL",
+                "Total WBC count": "%",
+                "Neutrophils %": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "RBC COUNT %": "40-50 fL",
+                "Packed Cell Volume (PCV)": "27 - 32",
+                "MCHed %": "11.6 - 14.0",
+                "RDW": "4000-11000",
+                "Total WBC count": "50 - 62 %",
+                "Neutrophils %": "00 -10",
+                "Lymphocytes": "7 00 - 02",
+                "Eosinophils": "00 -10",
+                "Monocytes": "1 cumm",
+                "Basophils": "Borderline 150000 - 410000"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "9.0",
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Serum Electrolyte Panel",
+            "result_value": "Na: 142, K: 4.6, Cl: 108",
+            "unit_of_measurement": "[mEq/L]",
+            "reference_range": "Na: 135-145, K: 3.6-5.0, Cl: 97-110"
+        }
+    ]
+}

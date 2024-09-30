@@ -1,0 +1,42 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 12.5,
+                "RBC": 5.0,
+                "HGB": 15.0,
+                "PLT": 400,
+                "MCV": 89,
+                "PCV": 32.8,
+                "NEUT": null,
+                "LYMPH": null,
+                "MONO": null,
+                "EOSIN": null
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "MCV": "fL",
+                "PCV": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": null,
+                "HGB": "13.0 - 17.0 g/dL",
+                "PLT": "150,000 - 450,000/µL",
+                "MCV": null,
+                "PCV": null
+            }
+        }
+    ]
+}

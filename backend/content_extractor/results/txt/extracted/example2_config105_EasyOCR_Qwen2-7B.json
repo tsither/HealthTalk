@@ -1,0 +1,60 @@
+{
+    "Date": "2023-10-17",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "5.8",
+            "unit_of_measurement": "%",
+            "reference_range": "3.6-6.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": [
+                {
+                    "item": "Total Cholesterol",
+                    "value": "195",
+                    "unit": "mg/dL"
+                },
+                {
+                    "item": "HDL Cholesterol",
+                    "value": "60",
+                    "unit": "mg/dL"
+                },
+                {
+                    "item": "LDL Cholesterol",
+                    "value": "120",
+                    "unit": "mg/dL"
+                },
+                {
+                    "item": "Triglycerides",
+                    "value": "85",
+                    "unit": "mg/dL"
+                }
+            ],
+            "reference_range": [
+                {
+                    "item": "Total Cholesterol",
+                    "range": "[100-200] mg/dL"
+                },
+                {
+                    "item": "HDL Cholesterol",
+                    "range": "[40-60] mg/dL"
+                },
+                {
+                    "item": "LDL Cholesterol",
+                    "range": "[70-130] mg/dL"
+                },
+                {
+                    "item": "Triglycerides",
+                    "range": "[50-200] mg/dL"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "109",
+        "patient_name": null,
+        "patient_sex": "f1",
+        "patient_age": "29"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": "14.3 g/dl",
+                "HCt": "40%",
+                "MCV": "89 fl",
+                "MCH": "27 pg"
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dl",
+                "HCt": "%",
+                "MCV": "fl",
+                "MCH": "pg"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica",
+            "result_value": {
+                "Glucosa": "106 mg/dl",
+                "Creatinina": "0.8 mg/dl",
+                "Colesterol": "157 mg/dl",
+                "Proteina": "7.4 g/dl"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Creatinina": "mg/dl",
+                "Colesterol": "mg/dl",
+                "Proteina": "g/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": "12.5 g/dl",
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        }
+    ]
+}

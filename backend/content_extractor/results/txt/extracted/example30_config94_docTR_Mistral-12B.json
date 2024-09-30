@@ -1,0 +1,32 @@
+{
+    "Date": "21 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "1"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Total RBC COUNT (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "Packed Cell Volume (%)",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 32.8,
+            "unit_of_measurement": "Count (CBC)",
+            "reference_range": {
+                "Low": 13.0,
+                "High": 40
+            }
+        },
+        {
+            "test_name": "Platelet COUNT",
+            "result_value": 7,
+            "unit_of_measurement": "Count",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02.DEC.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shah Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.56",
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.7 - 6.1 million/mm³"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "5.75",
+            "unit_of_measurement": "thousand/mm³",
+            "reference_range": "4.5 - 11 thousand/mm³"
+        }
+    ]
+}

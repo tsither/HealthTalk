@@ -1,0 +1,38 @@
+{
+    "Date": "25.08.2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "White Blood Cells": 7800,
+                "Red Blood Cells": 4.95,
+                "Hemoglobin": 12.3,
+                "Platelets": 256000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cells/mm³",
+                "Red Blood Cells": "trillion cells/L",
+                "Hemoglobin": "g/dL",
+                "Platelets": "cells/mm³"
+            },
+            "reference_range": {
+                "White Blood Cells": "4.5-10.5",
+                "Red Blood Cells": "4.4-5.9",
+                "Hemoglobin": "13.2-17.6",
+                "Platelets": "150-450"
+            }
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 1.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7-1.3"
+        }
+    ]
+}

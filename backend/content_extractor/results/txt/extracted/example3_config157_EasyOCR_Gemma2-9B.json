@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Red Blood Cells: 4.5 Million/mcL",
+            "unit_of_measurement": "Million/mcL",
+            "reference_range": "4.0-5.5 Million/mcL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "White Blood Cells: 7,200/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": "4,500-11,000/mcL"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Platelets: 250,000/mcL",
+            "unit_of_measurement": "/mcL",
+            "reference_range": "150,000-450,000/mcL"
+        }
+    ]
+}

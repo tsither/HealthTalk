@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": 206,
+            "unit_of_measurement": "10^6/uL",
+            "reference_range": "4.5-5.5 * 10^6/uL"
+        },
+        {
+            "test_name": "Hgb",
+            "result_value": 720,
+            "unit_of_measurement": "g/L",
+            "reference_range": "90-300 g/L"
+        },
+        {
+            "test_name": "Hct",
+            "result_value": 44,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 10.5,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4-11 * 10^9/L"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 258,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450 * 10^9/L"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 8.5, RBC: 5.2, HGB: 13.7, HCT: 0.39",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "TC: 160 mg/dL, LDL: 90 mg/dL, HDL: 45 mg/dL, Triglycerides: 120 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

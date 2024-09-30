@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 1380,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 4600,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hgb",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hct",
+            "result_value": 44.3,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 95,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 34.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": 12.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 309,
+            "unit_of_measurement": "x10^3/mm^3",
+            "reference_range": null
+        }
+    ]
+}

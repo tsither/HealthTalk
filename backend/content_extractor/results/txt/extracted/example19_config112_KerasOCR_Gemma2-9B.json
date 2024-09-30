@@ -1,0 +1,83 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "s shah",
+        "patient_sex": "male",
+        "patient_age": "81"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.10",
+            "unit_of_measurement": "x 10^6/uL",
+            "reference_range": "4.5 - 5.5 x 10^6/uL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "130",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "40.0",
+            "unit_of_measurement": "%",
+            "reference_range": "40-54%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "81.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "32.5",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.0",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "10.5",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4,500 - 11,000 x 10^9/L"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "68.8",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "21.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "6.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "2.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "2.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

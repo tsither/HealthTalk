@@ -1,0 +1,47 @@
+{
+    "Date": "20.06.10",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash Shah",
+        "patient_sex": "Male",
+        "patient_age": "5 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "11.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "105 - 125  "
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "32 - 41 %"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "13.6",
+            "unit_of_measurement": "fL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4000000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "150000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "57.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

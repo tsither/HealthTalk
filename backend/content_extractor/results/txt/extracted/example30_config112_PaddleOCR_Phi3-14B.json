@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "Sample Type DAD",
+            "result_value": 25,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_n ame": "D (Hb)",
+            "result_value": 13.0,
+            "unit_of_measurement": null,
+            "reference_range": "89689"
+        },
+        {
+            "test_name": "DIF count",
+            "result_value": 7,
+            "unit_of_measurement": "%",
+            "reference_range": "14.0 - 11.0"
+        }
+    ]
+}

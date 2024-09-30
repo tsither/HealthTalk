@@ -1,0 +1,45 @@
+{
+    "Date": "02.12.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count §.2": null,
+                "Packed Cell Volume (PCV) $7.5": null,
+                "Mean Corpuscular Volume (MCV) 87.75 f": null,
+                "MCH 27.2 ete": null,
+                "MCHC 32.8 . , ": null,
+                "Calculated i . ROW 13.6 11,.6-14.0 % WBC COUNT) pre oo pants Dey woe. f OP we fp ee a at POS: rane Total wac countl JU h reg00 fb Gal cai. d 4000-114 yooo FEL | ses umm U uf OIFFERENTIAL WBC COUNT": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count §.2": "mill/cumm",
+                "Packed Cell Volume (PCV) $7.5": "%",
+                "Mean Corpuscular Volume (MCV) 87.75 f": "fL",
+                "MCH 27.2 ete": "pg",
+                "MCHC 32.8 . , ": "g/dL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count §.2": "4.5-5.5 mill/cumm",
+                "Packed Cell Volume (PCV) $7.5": "40-50 %",
+                "Mean Corpuscular Volume (MCV) 87.75 f": "83-101 fL",
+                "MCH 27.2 ete": null,
+                "MCHC 32.8 . , ": "32.5 - 34.5 g/dl"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000 cumm"
+        }
+    ]
+}

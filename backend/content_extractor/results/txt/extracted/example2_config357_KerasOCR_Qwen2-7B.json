@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[4.2-9.6]"
+        },
+        {
+            "test_name": "Liver Function Tests (LFTs)",
+            "result_value": 18,
+            "unit_of_measurement": "IU/L",
+            "reference_range": "[0-130]"
+        }
+    ]
+}

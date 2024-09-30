@@ -1,0 +1,67 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 5.2,
+                    "unit_of_measurement": "g/dL"
+                },
+                "RBC COUNT": {
+                    "value": 60,
+                    "unit_of_measurement": "%",
+                    "reference_range": {
+                        "min": 40,
+                        "max": 50
+                    }
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 27.2,
+                    "unit_of_measurement": "%"
+                },
+                "MCHed %": {
+                    "value": 32.8
+                },
+                "MCHe": {
+                    "value": 13.6,
+                    "unit_of_measurement": "pg"
+                },
+                "RDW": {
+                    "value": 9000
+                },
+                "Total WBC count": {
+                    "value": 60,
+                    "reference_range": {
+                        "min": 50,
+                        "max": 62
+                    }
+                },
+                "Neutrophils %": {
+                    "value": 31
+                },
+                "Lymphocytes %": {
+                    "value": 1
+                },
+                "Eosinophils %": {
+                    "value": 7
+                },
+                "Monocytes %": {
+                    "value": 0
+                },
+                "Basophils %": {
+                    "value": 0
+                },
+                "Platelet Count": {
+                    "value": "Instruments: Fully automated cell counter - Mindray 300"
+                }
+            }
+        }
+    ]
+}

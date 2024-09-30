@@ -1,0 +1,35 @@
+{
+    "Date": "02-Dec-202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Sample e",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "n Bungalow"
+        },
+        {
+            "test_name": "WBC DIF count",
+            "result_value": 27.2,
+            "unit_of_measurement": "Monoc Low VWI",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_e_value": 136,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "4.5 - 5.5 COUNT"
+        }
+    ]
+}

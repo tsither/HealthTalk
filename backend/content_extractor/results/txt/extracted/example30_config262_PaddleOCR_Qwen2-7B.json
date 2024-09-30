@@ -1,0 +1,120 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglobin 12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low 13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT Total R8C count",
+            "result_value": "5.2 mill/cumm",
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Blood Indices",
+            "result_value": [
+                {
+                    "test_name": "Packed Cell Volume (PCV)",
+                    "value": "57.5",
+                    "unit": "%"
+                },
+                {
+                    "test_name": "MCH",
+                    "value": "27.2 pg"
+                },
+                {
+                    "test_name": "MCHC",
+                    "value": "32.5- 34.5 g/dL"
+                },
+                {
+                    "test_name": "RDW",
+                    "value": "13.6"
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "test_name": "Packed Cell Volume (PCV)",
+                    "range": "40-50 %"
+                },
+                {
+                    "test_name": "MCH",
+                    "range": "27 - 32 pg"
+                },
+                {
+                    "test_name": "MCHC",
+                    "range": "32.5- 34.5 g/dL"
+                },
+                {
+                    "test_name": "RDW",
+                    "range": "11.6 - 14.0"
+                }
+            ]
+        },
+        {
+            "test_name": "WBC COUNT Total w8C count",
+            "result_value": ":9000",
+            "unit_of_measurement": null,
+            "reference_range": "4000-1.1000"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "value": "60"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "value": null
+                },
+                {
+                    "type": "Eosinophils",
+                    "value": null
+                },
+                {
+                    "type": "Monocytes",
+                    "value": "7"
+                },
+                {
+                    "type": "Basophils",
+                    "value": null
+                }
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "type": "Neutrophils",
+                    "range": "[0-6]%"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "range": "[0-1]%"
+                },
+                {
+                    "type": "Eosinophils",
+                    "range": "[0-1]%"
+                },
+                {
+                    "type": "Monocytes",
+                    "range": "[0-1]%"
+                }
+            ]
+        },
+        {
+            "test_name": "PLATELET COUnt",
+            "result_value": "Platelet Count 150000",
+            "unit_of_measurement": null,
+            "reference_range": "Borderline 150000 - 410000"
+        }
+    ]
+}

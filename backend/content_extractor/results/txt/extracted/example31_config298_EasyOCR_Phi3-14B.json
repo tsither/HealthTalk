@@ -1,0 +1,40 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": [
+                "128",
+                "5.0",
+                "36%"
+            ],
+            "unit_of_measurement": [
+                "Moolon",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Sedimentation Rate (ESR)",
+            "result_value": "15",
+            "unit_of_measurement": "mm/hr",
+            "reference_eange": [
+                null
+            ]
+        },
+        {
+            "test_name": "Lactic Acid",
+            "result_value": "2.0",
+            "unit_of_measurement": "[mol/L or mmol/L depending on lab standard]",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

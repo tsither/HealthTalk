@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 6.05,
+            "unit_of_measurement": "10^9 /L",
+            "reference_range": "[4;10] x[10^9 /L]"
+        },
+        {
+            "test_name": "Hematias",
+            "result_value": 0.47,
+            "unit_of_measurement": "g/dL (masculino) ou % de Ht (feminino)",
+            "reference_range": "[37;52]"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 16.0,
+            "unit_of_measurement": "g/dL (masculino) ou % de Ht (feminino)",
+            "reference_range": "[12;16]"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 28.0,
+            "unit_of_measurement": "% de Ht (masculino) ou g/dL (feminino)",
+            "reference_range": "[35;52]"
+        },
+        {
+            "test_name": "VCM",
+            "result_value": 9.0,
+            "unit_of_measurement": "fm^3"
+        },
+        {
+            "test_name": "CMC",
+            "result_value": null,
+            "unit_of_measurement": "dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 17.0,
+            "unit_of_measurement": "% de VCM"
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": null,
+            "unit_of_measurement": "/uL (masculino) ou % de PLT/Ht (feminino)"
+        }
+    ]
+}

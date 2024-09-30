@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells (WBC)": 10500,
+                "Red Blood Cells (RBC)": 4.2,
+                "Hemoglobin (Hgb)": 13.5,
+                "Hematocrit (Hct)": 41.5,
+                "Mean Corpuscular Volume (MCV)": 98,
+                "Mean Corpuscular Hemoglobin (MCH)": 32.2,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": 32.8,
+                "Red Cell Distribution Width (RDW)": 14.5,
+                "Platelets (PLT)": 275000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells (WBC)": "cells/mm3",
+                "Red Blood Cells (RBC)": "million/mm3",
+                "Hemoglobin (Hgb)": "g/dL",
+                "Hematocrit (Hct)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL",
+                "Red Cell Distribution Width (RDW)": "%",
+                "Platelets (PLT)": "thousands/mm3"
+            },
+            "reference_range": {
+                "White Blood Cells (WBC)": "4500-11000",
+                "Red Blood Cells (RBC)": "4.0-5.5",
+                "Hemoglobin (Hgb)": "12.0-16.0",
+                "Hematocrit (Hct)": "37.0-50.0",
+                "Mean Corpuscular Volume (MCV)": "80-100",
+                "Mean Corpuscular Hemoglobin (MCH)": "27-31",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "32-36",
+                "Red Cell Distribution Width (RDW)": "11.5-14.5",
+                "Platelets (PLT)": "150000-450000"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Date": "20/12/2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 10.5, RBC: 4.8, HGB: 13.2",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Serum Chemistry",
+            "result_value": "BUN: 17 mg/dL, Creatinine: 0.9 mg/dL",
+            "unit_of_measurement": {
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "AST: 45 U/L, ALT: 30 U/L",
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L"
+            },
+            "reference_range": {
+                "AST": "10-40",
+                "ALT": "10-32"
+            }
+        }
+    ]
+}

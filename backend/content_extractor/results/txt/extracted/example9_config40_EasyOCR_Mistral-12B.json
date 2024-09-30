@@ -1,0 +1,35 @@
+{
+    "Date": "20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah, Shivam Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Peripheral Blood Smear Examination",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "Million/cmm",
+            "reference_range": "4.0 - 6.1"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 7800,
+            "unit_of_measurement": "/cmm",
+            "reference_range": "4500 - 11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 2.36,
+            "unit_of_measurement": "Lakh/cmm",
+            "reference_range": "1.5 - 4.5"
+        }
+    ]
+}

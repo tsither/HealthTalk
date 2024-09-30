@@ -1,0 +1,37 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "Hemoglobin (Hb)": "[150-410] g/dL",
+                "HEMOGLOBIN": "[150000 - 328000] cells/μL",
+                "Total RBC count": "[3.25 - 3.45]%",
+                "BLOOD INDICES": "[11.6 - 14.0] %",
+                "Total WBC count": "[4.5 - 5.5] k/uL",
+                "PLATELET COUNT": "[83 - 101] k/uL",
+                "RBC COUNT": "[4000 - 11000] cells/μL"
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

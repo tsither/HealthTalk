@@ -1,0 +1,23 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "BUN",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20"
+        },
+        {
+            "test_name": "CrCl",
+            "result_value": 75,
+            "unit_of_measurement": "mL/min",
+            "reference_range": "80-120"
+        }
+    ]
+}

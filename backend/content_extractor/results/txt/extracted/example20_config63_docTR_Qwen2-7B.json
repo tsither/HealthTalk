@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "140/90 mmHg",
+            "unit_of_measurement": "mmHg",
+            "reference_range": "Normal range"
+        },
+        {
+            "test_name": "Cholesterol Total",
+            "result_value": "250 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal range"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result_value": "67 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "High-density Lipoprotein (HDL) Cholesterol",
+            "result_value": "40 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        }
+    ]
+}

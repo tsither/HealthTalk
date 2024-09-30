@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "8.5",
+                "RBC": "4.7",
+                "HGB": "12.6",
+                "HCT": "39.8",
+                "MCV": "86",
+                "MCH": "28",
+                "MCHC": "32",
+                "RDW-CV": "15.4",
+                "PLT": "230",
+                "MPV": "8.7",
+                "PDW": "14.5"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "K/uL",
+                "MPV": "fL",
+                "PDW": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.8",
+                "RBC": "4.4-6.2",
+                "HGB": "12.0-17.0",
+                "HCT": "39-52",
+                "MCV": "80-100",
+                "MCH": "27-31",
+                "MCHC": "31-36",
+                "RDW-CV": "11.5-14.5",
+                "PLT": "150-400",
+                "MPV": "7.0-11.0",
+                "PDW": "12-18"
+            }
+        },
+        {
+            "test_name": "Sodium",
+            "result_value": "136",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "Potassium",
+            "result_value": "4.2",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.6-5.2"
+        }
+    ]
+}

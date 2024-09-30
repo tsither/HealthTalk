@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912315678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 170.0,
+            "unit_of_measurement": "l",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4550.0,
+            "unit_of_measurement": "x10^6/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_evalue": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                108,
+                162
+            ]
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "Percentage(%)",
+            "reference_range": null
+        }
+    ]
+}

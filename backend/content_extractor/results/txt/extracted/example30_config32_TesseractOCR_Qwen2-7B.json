@@ -1,0 +1,33 @@
+{
+    "Date": "02 Dec, 2K",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Bungalow",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_time": "02:31 PM"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) investigation",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": "Hemoglobin (Hb): Low 13.0-17.0 g/dL",
+                "total_rbc_count": "Total RBC count: 45-5.9 million/cmm",
+                "packed_cell_volume": "PCV: High 40-50%",
+                "mean_corpuscular_volume": "MCV: 83-101 fL",
+                "mch": "Calculated MCH: 27.2 pg",
+                "mchc": "MCHC: 32.8 g/dL",
+                "rdw": "RDW: 41.6-14.0%",
+                "total_wbc_count": "Total WBC count: 4,000-11,000 cells/cmm",
+                "neutrophils": "Neutrophils: 50-62%",
+                "lymphocytes": "Lymphocytes: 20-40%",
+                "eosinophils": "Eosinophils: 0-0.6%",
+                "monocytes": "Monocytes: 0-10%",
+                "basophils": "Basophils: 0-0.2%",
+                "platelet_count": "Platelet Count: 410,000 cells/cmm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 6.2,
+            "unit_of_measurement": "×10^3/μL",
+            "reference_range": "4.5-11.5"
+        },
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 20,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-20"
+        },
+        {
+            "test_name": "Glucose, Fasting",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "69-104"
+        }
+    ]
+}

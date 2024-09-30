@@ -1,0 +1,78 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "5.0",
+                "RBC": "4.8",
+                "Hb": "12.5",
+                "Hct": "37.5",
+                "plt": "220"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "plt": "K/uL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.0,
+                    "max": 10.0
+                },
+                "RBC": {
+                    "min": 4.5,
+                    "max": 6.0
+                },
+                "Hb": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "Hct": {
+                    "min": 37.0,
+                    "max": 47.0
+                },
+                "plt": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "CBC Differential",
+            "result_value": {
+                "Neutrophils": "60%",
+                "Lymphocytes": "30%",
+                "Monocytes": "8%",
+                "Eosinophils": "2%"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": {
+                    "min": 40,
+                    "max": 75
+                },
+                "Lymphocytes": {
+                    "min": 20,
+                    "max": 50
+                },
+                "Monocytes": {
+                    "min": 2,
+                    "max": 10
+                },
+                "Eosinophils": {
+                    "min": 0,
+                    "max": 6
+                }
+            }
+        }
+    ]
+}

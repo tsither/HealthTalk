@@ -1,0 +1,23 @@
+{
+    "Date": "01/01/2022",
+    "patient_information": {
+        "patient_id": "PATIENT_001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.5-16"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "150-450"
+        }
+    ]
+}

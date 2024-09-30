@@ -1,0 +1,29 @@
+{
+    "Date": "19-04-2023",
+    "patient_information": {
+        "patient_id": "PT_12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "9.8",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "[4.5-11]"
+        },
+        {
+            "test_name": "Serum Electrolytes",
+            "result_value": "Na+ 142 mEq/L, K+ 5.2 mEq/L, Cl- 103 mEq/L",
+            "unit_of_measurement": "",
+            "reference_range": "[136-146 for Na+, 3.6-5.2 for K+, 98-110 for Cl-]"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "TC 200 mg/dL, LDL-C 140 mg/dL",
+            "unit_of_measurement": "",
+            "reference_range": "[<200 for TC, <130 for LDL-C]"
+        }
+    ]
+}

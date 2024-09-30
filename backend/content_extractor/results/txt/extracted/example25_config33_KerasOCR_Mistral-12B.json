@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": 5.0,
+            "unit_of_measurement": "o lil",
+            "reference_range": "16-18"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 3610,
+            "unit_of_measurement": "t o",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 12.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 38.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47"
+        },
+        {
+            "test_name": "Placas",
+            "result_value": 90.0,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        }
+    ]
+}

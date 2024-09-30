@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLODINA",
+            "result_value": 4.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                2,
+                6
+            ]
+        },
+        {
+            "test_name": "PLAQUETAS",
+            "result_value": 208,
+            "unit_of_measurement": "10E3ut",
+            "reference_range": [
+                140,
+                400
+            ]
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E3pL",
+            "reference_range": [
+                4,
+                10
+            ]
+        }
+    ]
+}

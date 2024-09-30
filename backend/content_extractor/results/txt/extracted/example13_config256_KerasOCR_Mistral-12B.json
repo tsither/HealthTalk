@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "125 0123216789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "<14.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null,
+            "interpretation": "Low value may indicate anemia, iron deficiency or other blood loss conditions etc."
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "<40%",
+            "unit_of_measurement": "%",
+            "reference_range": null,
+            "interpretation": "Low value may indicate anemia, iron deficiency or other blood loss conditions etc."
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": ">150 x 10^3/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": null,
+            "interpretation": "High value may indicate platelet disorders such as polycythemia vera, necessary for further testing and determining underlying medical causes."
+        }
+    ]
+}

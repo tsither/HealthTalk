@@ -1,0 +1,76 @@
+{
+    "Date": "02.12.XX",
+    "patient_information": {
+        "patient_id": "555 0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "Count": 57.5
+                },
+                {
+                    "MCV": 87.75
+                }
+            ],
+            "unit_of_measurement": [
+                "cumm",
+                "%"
+            ],
+            "reference_range": [
+                "40-50",
+                "32-36"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "40-50"
+            ]
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": 9000,
+            "unit_of_measurement": "millcumm %",
+            "reference_range": [
+                "60-75"
+            ]
+        },
+        {
+            "test_name": "WBC Total COUNT WBC count",
+            "result_value": 31,
+            "unit_of_measurement": "",
+            "reference_range": [
+                "4000-11000"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Neutrophis Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": [
+                7,
+                20
+            ],
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": [
+                "41-65",
+                "18-45"
+            ]
+        },
+        {
+            "test_name": "Platelet Count Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "",
+            "reference_range": [
+                "150000-400000"
+            ]
+        }
+    ]
+}

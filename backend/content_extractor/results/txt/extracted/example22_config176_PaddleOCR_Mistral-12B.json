@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 37.75,
+                "MCHC": 32.8,
+                "WBC count": 11.6,
+                "Differential WBC count": {
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 7,
+                    "Monocytes": 0,
+                    "Basophils": 0
+                },
+                "Platelet count": 150000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "RBC/uL",
+                "Packed Cell Volume (PCV)": "%",
+                "MCHC": "g/dL",
+                "WBC count": "10^3/uL",
+                "Differential WBC count": {
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                },
+                "Platelet count": "cells/uL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0 - 17.0 g/dL",
+                "Total RBC count": "4.5 - 5.5 RBC/uL",
+                "Packed Cell Volume (PCV)": "40-50 %",
+                "MCHC": "32.5 - 34.5 g/dL",
+                "WBC count": "4.5 - 10.0 WBC/uL",
+                "Differential WBC count": {
+                    "Neutrophils": "50-62 %",
+                    "Lymphocytes": "20-40 %",
+                    "Eosinophils": "<8%",
+                    "Monocytes": "<10%",
+                    "Basophils": "<2%"
+                },
+                "Platelet count": "150,000 - 410,000 cells/uL"
+            }
+        }
+    ]
+}

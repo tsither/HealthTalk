@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec, 2K2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 52,
+                "Packed Cell volume (PCV)": 57.5,
+                "Mean corpuscular volume (MCV)": 87.75,
+                "Calculated MCH": 27.2,
+                "Calculated MCHC": 32.8,
+                "Total WBC count": 9900,
+                "Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 4,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": 450000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "Total RBC count": "million/µL",
+                "Packed Cell volume (PCV)": "%",
+                "Mean corpuscular volume (MCV)": "fL",
+                "Calculated MCH": "pg",
+                "Calculated MCHC": "g/dL",
+                "Total WBC count": "cells/mm³",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "cells/mm³"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0 g/dl",
+                "Total RBC count": "45-55 million/µL",
+                "Packed Cell volume (PCV)": "40- 50 %",
+                "Mean corpuscular volume (MCV)": "83-101 fL",
+                "Calculated MCH": "27.2 g/dL",
+                "Calculated MCHC": "39.5 -34.5 g/dL",
+                "Total WBC count": "4900-11000 cells/mm³",
+                "Neutrophils": "50 - 62 %",
+                "Lymphocytes": "20 - 40 %",
+                "Eosinophils": "00 - 06 %",
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": "150,000-410,000 cells/mm³"
+            }
+        }
+    ]
+}

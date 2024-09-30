@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Caso Rocce",
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma completo",
+            "result_value": {
+                "Hb": 14.3,
+                "Hto": 47.8,
+                "Hct": 29,
+                "Plt": 102,
+                "Wbc": 8700,
+                "Neut": 65,
+                "Linf": 20,
+                "Eos": 4.6
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "Hto": "%",
+                "Hct": "%",
+                "Plt": "10^3/uL",
+                "Wbc": "10^3/uL",
+                "Neut": "%",
+                "Linf": "%",
+                "Eos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

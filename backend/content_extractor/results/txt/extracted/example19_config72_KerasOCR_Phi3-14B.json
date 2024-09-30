@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1234567689",
+        "patient_name": "Shivam Shah",
+        "patient_sex": "male",
+        "patient_age": 20
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 170,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (Cumm)",
+            "result_value": 258000,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                150000,
+                450000
+            ]
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 7800,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                4000,
+                11000
+            ]
+        },
+        {
+            "test_name": "Differential Count (Neutrophils)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                2500,
+                8000
+            ]
+        },
+        {
+            "test_name": "Differential Count (Lymphocytes)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                1500,
+                4000
+            ]
+        },
+        {
+            "test_name": "Differential Count (Eosinophils)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                15,
+                600
+            ]
+        },
+        {
+            "test_name": "Differential Count (Monocytes)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                0,
+                1300
+            ]
+        },
+        {
+            "test_name": "Differential Count (Basophils)",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": [
+                0,
+                250
+            ]
+        }
+    ]
+}

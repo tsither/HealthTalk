@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 72
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volure (PCV)": 7.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Mean Corpuscular Hemoglobin (MCH)": 27.2,
+                "Mean Corpuscular Hemoglo cuen Factor (MCHC)": 32.8,
+                "Red Blood Cell Distribution Width (RDW)": null,
+                "White Blood Count (WBC)": 4.5,
+                "Isoband count": null,
+                "Neutrophils %": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volure (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl.",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglo cuen Factor (MCHC)": "g/dl",
+                "Red Blood Cell Distribution Width (RDW)": null,
+                "White Blood Count (WBC)": "cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": [
+                    13.0,
+                    17.9
+                ],
+                "Total RBC count": [
+                    45,
+                    55
+                ],
+                "Packed Cell Volure (PCV)": [
+                    40,
+                    50
+                ],
+                "Mean Corpuscular Volume (MCV)": [
+                    83,
+                    101
+                ],
+                "Mean Corpuscular Hemoglobin (MCH)": [
+                    27,
+                    32
+                ],
+                "Mean Corpuscular Hemoglo cuen Factor (MCHC)": [
+                    32.5,
+                    34.5
+                ],
+                "Red Blood Cell Distribution Width (RDW)": null,
+                "White Blood Count (WBC)": [
+                    4000,
+                    12000
+                ]
+            }
+        }
+    ]
+}

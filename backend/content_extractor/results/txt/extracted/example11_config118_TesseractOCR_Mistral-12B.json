@@ -1,0 +1,87 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "13.0-17.0"
+                },
+                "RBC_COUNT": {
+                    "value": 5.2,
+                    "unit_of_measurement": "mill/cumm",
+                    "reference_range": "45-55"
+                },
+                "PACKED_CELL_VOLUME(PCV)": {
+                    "value": 57.5,
+                    "unit_of_measurement": "%",
+                    "reference_range": "40-50"
+                },
+                "MEAN_CORPUSCULAR_VOLUME(MCV)": {
+                    "value": 87.75,
+                    "unit_of_measurement": "fL",
+                    "reference_range": "83-101"
+                },
+                "CALCULATED_MCH": {
+                    "value": 27.2,
+                    "unit_of_measurement": "pg",
+                    "reference_range": "27 - 32"
+                },
+                "CALCULATED_MCHC": {
+                    "value": 32.8,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "32.5-34.5"
+                },
+                "CALCULATED_RDW": {
+                    "value": 13.6,
+                    "unit_of_measurement": "%",
+                    "reference_range": "11.6-14.0"
+                },
+                "WBC_COUNT": {
+                    "value": 9000,
+                    "unit_of_measurement": "cumm",
+                    "reference_range": "4000-11000"
+                },
+                "DIFFERENTIAL_WBC_COUNT": {
+                    "NEUTROPHILS": {
+                        "value": 60,
+                        "unit_of_measurement": "%",
+                        "reference_range": "50 - 62"
+                    },
+                    "LYMPHOCYTES": {
+                        "value": 31,
+                        "unit_of_measurement": "%",
+                        "reference_range": "20-40"
+                    },
+                    "EOSINOPHILS": {
+                        "value": 1,
+                        "unit_of_measurement": "%",
+                        "reference_range": "00 - 06"
+                    },
+                    "MONOCYTES": {
+                        "value": 7,
+                        "unit_of_measurement": "%",
+                        "reference_range": "00-10"
+                    },
+                    "BASOPHILS": {
+                        "value": 1,
+                        "unit_of_measurement": "%",
+                        "reference_range": "00 - 02"
+                    }
+                },
+                "PLATELET_COUNT": {
+                    "value": "150000 - 410000",
+                    "unit_of_measurement": "cumm"
+                }
+            }
+        }
+    ]
+}

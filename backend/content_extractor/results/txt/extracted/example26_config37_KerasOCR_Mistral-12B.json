@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Rojo": {
+                    "Valores": {
+                        "HCM": 89,
+                        "HCT": 21.7
+                    }
+                },
+                "Blanca": {
+                    "Valores": {
+                        "NEU": 49.8,
+                        "LYM": 35.0,
+                        "MON": 11.2,
+                        "EOS": 2.8
+                    }
+                },
+                "Placaetar": {
+                    "Valores": {
+                        "PLA": 200000,
+                        "PCT": 18.9
+                    }
+                }
+            },
+            "unit_of_measurement": {
+                "Rojo": {
+                    "HCM": "%",
+                    "HCT": "l/l"
+                },
+                "Blanca": {
+                    "NEU": "%",
+                    "LYM": "%",
+                    "MON": "%",
+                    "EOS": "%"
+                },
+                "Placaetar": {
+                    "PLA": "vpm",
+                    "PCT": "l/l"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

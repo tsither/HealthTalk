@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 4000,
+            "unit_of_measurement": "e (PCV)",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "TOTAL WBC COUNT",
+            "result_value": 9.6,
+            "unit_of_measurement": "WBC/cumm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "HCT (Hemoglobin)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "36-46"
+        }
+    ]
+}

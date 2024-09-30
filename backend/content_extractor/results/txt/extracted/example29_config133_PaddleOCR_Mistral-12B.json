@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 87.75,
+            "unit_of_measurement": "Total RBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 27.2,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "4.5 - 11.0"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Emátorreo",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitaria",
+            "result_value": 7.08,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Velocidad de sedimentación",
+            "result_value": 26,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": {
+                "glucosa serica": 87,
+                "colestekol": 1270,
+                "idl": 100,
+                "loidl": null,
+                "triglicéridos": 150,
+                "me t": null,
+                "urea": 35,
+                "mg/dL": null
+            },
+            "unit_of_measurement": {
+                "glucosa serica": "mg/dl",
+                "colestekol": "mmol/l",
+                "idl": "mg/dl",
+                "loidl": null,
+                "triglicéridos": "mg/dl",
+                "me t": null,
+                "urea": "mg/dl",
+                "mg/dL": null
+            },
+            "reference_range": {
+                "glucosa serica": "[FILL]",
+                "colestekol": "[FILL]",
+                "idl": "[FILL]",
+                "loidl": "[FILL]",
+                "triglicéridos": "[FILL]",
+                "me t": null,
+                "urea": "[FILL]",
+                "mg/dL": null
+            }
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "sodio": 141,
+                "cloro": 98
+            },
+            "unit_of_measurement": "mmol/l",
+            "reference_eange": {
+                "sodio": "[FILL]",
+                "cloro": "[FILL]"
+            }
+        }
+    ]
+}

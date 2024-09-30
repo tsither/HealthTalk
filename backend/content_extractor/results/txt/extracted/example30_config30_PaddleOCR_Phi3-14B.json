@@ -1,0 +1,41 @@
+{
+    "Date": "02.02.20xx",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "5.2 g/dL",
+                "RBC count": "83 million per cubic millimeter",
+                "Packed Cell Volume (PCV)": "7p/6"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "RBC count": "million per cubic millimeter",
+                "Packed Cell Volume (PCV)": null
+            },
+            "reference_range": {
+                "Hemoglobin": "4.5 - 5.5 g/dL",
+                "RBC count": "38-62 million per cubic millimeter",
+                "Packed Cell Volume (PCV)": "39%-49%"
+            }
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 60,
+            "unit_of_measurement": null,
+            "reference_range": "50 - 62"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

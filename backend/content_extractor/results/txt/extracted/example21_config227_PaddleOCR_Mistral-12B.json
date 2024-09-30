@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC count",
+            "result_value": "13.6",
+            "unit_of_measurement": "000/μL",
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "12.5",
+            "unit_of_measurement": "000/μL",
+            "reference_range": "3.8 - 6.2"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "14.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        }
+    ]
+}

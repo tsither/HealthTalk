@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": "52"
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.10 x 10^6",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5 - 5.5 x 10^6 /µL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "13.6 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "88 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

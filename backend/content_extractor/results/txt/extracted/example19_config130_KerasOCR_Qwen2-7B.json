@@ -1,0 +1,42 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "170",
+        "patient_age_units": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "83",
+            "unit_of_measurement": "hbl hemoglobin",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": "8775",
+            "unit_of_measurement": "cumm rbc",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Total Red Blood Cell Volume Index (PCV)",
+            "result_value": "1165",
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "83",
+            "unit_of_measurement": "cl volume blood cell",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "140",
+            "unit_of_measurement": "count",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

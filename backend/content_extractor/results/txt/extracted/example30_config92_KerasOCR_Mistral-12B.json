@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 2021",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.08,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 5.23,
+            "unit_of_measurement": "million/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 45.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 6.25,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 198,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        }
+    ]
+}

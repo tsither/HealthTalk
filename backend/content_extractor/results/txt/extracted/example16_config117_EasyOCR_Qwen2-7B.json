@@ -1,0 +1,99 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": 17,
+        "patient_address": {
+            "heal thcare road": [
+                "opposite primary sample hemoglo heal",
+                "lab"
+            ],
+            "city": "mumbai",
+            "sample_collected_by": "shivam obin rbc type complex"
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 555,
+            "unit_of_measurement": "ml",
+            "reference_range": null
+        },
+        {
+            "test_name": "complete blood count (CBC)",
+            "result_value": {
+                "rbc_count": [
+                    "125",
+                    "count"
+                ],
+                "packed_cell_volume": [
+                    "012345678",
+                    "%"
+                ],
+                "mean_corpuscular_volume": [
+                    null,
+                    "fl"
+                ]
+            },
+            "unit_of_measurement": {
+                "rbc_count": "cells/µL",
+                "packed_cell_volume": "Mcv",
+                "mean_corpuscular_volume": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell (WBC) count",
+            "result_value": [
+                575,
+                "cells/µL"
+            ],
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "differential white blood cell count",
+            "result_value": {
+                "neutrophils": [
+                    689573,
+                    "%"
+                ],
+                "lymphocytes": [
+                    170,
+                    "%"
+                ],
+                "eosinophils": [
+                    null,
+                    "%"
+                ],
+                "monocytes": [
+                    null,
+                    "%"
+                ],
+                "basophils": [
+                    null,
+                    "%"
+                ]
+            },
+            "unit_of_measurement": {
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "%",
+                "basophils": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": [
+                101,
+                "thousand/µL"
+            ],
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        }
+    ]
+}

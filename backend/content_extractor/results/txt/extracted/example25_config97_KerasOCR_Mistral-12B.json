@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Emograme",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.59,
+                "HGB": 13.8,
+                "HCT": 40.5,
+                "MCV": 87.6,
+                "MCH": 29.8,
+                "MCHC": 33.8,
+                "PLT": 281,
+                "NEUT": 55.5,
+                "LYMPH": 30.4,
+                "MONO": 6.7,
+                "EOS": 6.9,
+                "BASO": 0.5
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^9/L",
+                "NEUT": "%",
+                "LYMPH": "%",
+                "MONO": "%",
+                "EOS": "%",
+                "BASO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

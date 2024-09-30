@@ -1,0 +1,29 @@
+{
+    "Date": "410000",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 34.5,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[87.75-83 M07]"
+        },
+        {
+            "test_name": "LYMPHOCYTE PERCENTAGE",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

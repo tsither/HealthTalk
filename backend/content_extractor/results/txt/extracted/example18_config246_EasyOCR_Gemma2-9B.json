@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 12.5,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "4.5 - 11.0 K/uL"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 4.8,
+            "unit_of_measurement": "M/uL",
+            "reference_range": "4.0 - 5.5 M/uL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 43.9,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 52.0 %"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 286.0,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "150.0 - 450.0 K/uL"
+        }
+    ]
+}

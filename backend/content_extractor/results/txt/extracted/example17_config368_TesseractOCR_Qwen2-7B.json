@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "B12345678",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 9.5,
+            "unit_of_measurement": "×10^3/μL",
+            "reference_range": "4-10 ×10^3/μL"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 86,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

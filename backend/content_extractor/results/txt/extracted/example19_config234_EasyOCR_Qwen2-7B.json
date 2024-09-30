@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 21,
+            "unit_of_measurement": "reference complete blood count",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

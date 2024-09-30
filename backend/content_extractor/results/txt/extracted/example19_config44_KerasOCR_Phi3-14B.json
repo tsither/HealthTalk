@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4500,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4700-6100"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": 200,
+            "unit_of_measurement": "/uL",
+            "reference_eange: range": "45-70"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.6,
+            "unit_of_measurement": "/uL",
+            "reference_range": "3.9-5.7"
+        }
+    ]
+}

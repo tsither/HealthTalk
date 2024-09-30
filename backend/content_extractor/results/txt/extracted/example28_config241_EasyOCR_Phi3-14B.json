@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test A",
+            "result_value": 0.81,
+            "unit_of_measurement": "AU/mL",
+            "reference_range": "{45-230}*3"
+        },
+        {
+            "test_name": "Test B",
+            "result_value": null,
+            "unit_of_measurement": "n/a",
+            "reference_range": null
+        }
+    ]
+}

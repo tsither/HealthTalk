@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 105,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "550-950"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.6-17.4"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "36-46"
+        },
+        {
+            "test_name": "RBC (Red Blood Cells)",
+            "result_value": 272,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "4500-5500"
+        }
+    ]
+}

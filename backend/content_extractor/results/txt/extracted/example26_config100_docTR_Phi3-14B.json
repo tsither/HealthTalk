@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_eame": "Hemoglobina",
+            "result_value": 13.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 47.5,
+            "unit_of_measurement": "%",
+            "reference_range": "36.0-47.0"
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular (VSG)",
+            "result_value": 1,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": null
+        },
+        {
+            "test_name": "Volumen Corpuscular Medio (VCM)",
+            "result_value": 83.1,
+            "unit_of_measurement": "fL",
+            "reference_range": "90-96"
+        },
+        {
+            "test_name": "Hemoglobina corpuscular media (HCM)",
+            "result_value": 27.9,
+            "unit_of_measurement": "pg",
+            "reference_range": "25-34"
+        },
+        {
+            "test_name": "Concentración de hemoglobina corpuscular media (CHCM)",
+            "result_value": 33.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eritrocytes en sangre periférica (ESP)",
+            "result_value": 5.0,
+            "unit_of_measurement": "/ uL",
+            "reference_range": "4.2-5.8"
+        },
+        {
+            "test_name": "Eritropoyesis",
+            "result_value": 16.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0-49.0"
+        }
+    ]
+}

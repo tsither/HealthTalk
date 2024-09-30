@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "result_value": 135,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "3-125 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 248,
+            "unit_of_measurement": "g/L",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 6.0578,
+            "unit_of_measurement": "millions/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": null,
+            "unit_of_measurement": "thousands/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 2,
+            "unit_of_measurement": "hundreds of thousands/mcL",
+            "reference_range": null
+        }
+    ]
+}

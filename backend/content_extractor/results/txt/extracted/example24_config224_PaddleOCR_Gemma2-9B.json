@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec.",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 13.0,
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 34.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 140,
+            "unit_of_measurement": "fl",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

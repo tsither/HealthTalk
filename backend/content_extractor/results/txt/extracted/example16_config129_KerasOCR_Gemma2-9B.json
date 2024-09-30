@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "shivam shah",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "32",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "125-165 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.80",
+            "unit_of_measurement": "millions/µL",
+            "reference_range": "4.2-5.9 millions/µL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "32%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "85.4 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.9 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "15%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "150,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5-11.0 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "215,000/µL",
+            "unit_of_measurement": "/µL",
+            "reference_range": "150-450 x 10^9/L"
+        }
+    ]
+}

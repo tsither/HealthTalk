@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "poog",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC (Red Blood Cells Total)",
+            "result_value": null,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Corpuscular Volume)",
+            "result_value": 12.5,
+            "unit_of_measurement": "femtoliters (fl)",
+            "reference_range": "80 - 96 fL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": null,
+            "unit_of_measurement": "%S.D.",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cells count)",
+            "result_value": 57.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0 - 11.0 x10^9/L"
+        },
+        {
+            "test_name": "RBC (Red Blood Cells count)",
+            "result_value": null,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": null
+        }
+    ]
+}

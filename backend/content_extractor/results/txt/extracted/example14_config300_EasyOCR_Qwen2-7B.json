@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 68
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 7.9,
+            "unit_of_measurement": "×10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": " Liver Function Tests (LFT) - ALT (SGPT)",
+            "result_value": 32,
+            "unit_of_measurement": "U/L",
+            "reference_range": "0-60"
+        },
+        {
+            "test_name": "Kidney Function Test - Blood Urea Nitrogen (BUN)",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-20"
+        }
+    ]
+}

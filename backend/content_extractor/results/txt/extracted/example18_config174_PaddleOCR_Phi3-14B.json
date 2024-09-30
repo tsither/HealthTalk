@@ -1,0 +1,77 @@
+{
+    "Date": "02.02",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "3.58*10^9/L",
+            "unit_of_measurement": "per liter",
+            "reference_range": "4.5-11*10^9/L"
+        },
+        {
+            "test_name": "Hemogloe (Hb)",
+            "result_value": "83g/l",
+            "unit_of_measurement": "grams per liter",
+            "reference_range": "130-170g/L"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "milliliters per cubic centimeter",
+            "reference_range": "45-50%"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "millions per microliter",
+            "reference_range": "13.8-17.2 million/uL"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": "6d",
+            "unit_of_measurement": null,
+            "reference_range": "12.7% - 14.5%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "femtoliters",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "picograms",
+            "reference_range": "27.5-31 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "31-36%"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "14-20 pg"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC) (Post Smear)",
+            "result_value": null,
+            "unit_of_measurement": "millions per microliter",
+            "reference_range": "4.2-5.9 million/uL"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "Date": "02.12.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                12.5,
+                5.2,
+                0.47,
+                32.8
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/cumm",
+                "%",
+                "g/dL"
+            ],
+            "reference_range": [
+                "Hb: 13.0-17.n g/dL",
+                "RBC count: 4.5-5.5 million cells/mcL",
+                "PCV: 40-50 %",
+                "MCV: 80-96 fL"
+            ]
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                60,
+                31,
+                1,
+                7
+            ],
+            "unit_of_measurement": [
+                "%"
+            ],
+            "reference_range": [
+                "Neutrophils: 45-80 %",
+                "Lymphocytes: 20-45 %"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                150000
+            ],
+            "unit_of_measurement": [
+                "cumm"
+            ],
+            "reference_range": [
+                "150,000 - 410,000 cumm"
+            ]
+        }
+    ]
+}

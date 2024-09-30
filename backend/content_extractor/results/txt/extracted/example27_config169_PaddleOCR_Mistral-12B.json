@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "HB": 14.6,
+                "HCt": 40,
+                "CHCM": 34
+            },
+            "unit_of_measurement": {
+                "HB": "g/dL",
+                "HCt": "%",
+                "CHCM": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "Glucosa": 146
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "HOMOCSTTIMA",
+            "result_value": {
+                "Homocisteina": 7.19
+            },
+            "unit_of_measurement": {
+                "Homocisteina": "µmol/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

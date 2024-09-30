@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "hospital_registration_date": "02/31 Pit 02"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "12.5",
+                "rbc_count": "5.2",
+                "packed_cell_volume": "$7.5",
+                "mean_corpuscular_volume": "87.75",
+                "mch": "27.2",
+                "wbc_count": {
+                    "low_range": "13.0-1 g/dl",
+                    "high_range": "45-55 mill/cumm"
+                },
+                "pcv": "$7.5",
+                "mean_corpuscular_hemoglobin": "32.8",
+                "mcv": "27 - 32 Pg",
+                "wbc_count_units": {
+                    "low": "11.6-14.0 roa wae"
+                },
+                "platelet_count": "150000"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "mill/cumm",
+                "packed_cell_volume": "%",
+                "mean_corpuscular_volume": "Pg",
+                "mch": "pg",
+                "wbc_count_units": {
+                    "low_range": "g/dl",
+                    "high_range": "mill/cumm"
+                },
+                "pcv": "%",
+                "mean_corpuscular_hemoglobin": "g/dL",
+                "mcv": "ft =——_",
+                "wbc_count": "",
+                "platelet_count": "cumm"
+            },
+            "reference_range": {
+                "hemoglobin": "[FILL]",
+                "rbc_count": "[FILL]",
+                "packed_cell_volume": "[FILL]",
+                "mean_corpuscular_volume": "[FILL]",
+                "mch": "[FILL]",
+                "wbc_count_units": {
+                    "low_range": "[FILL] - [FILL]",
+                    "high_range": "[FILL] - [FILL]"
+                },
+                "pcv": "[FILL]",
+                "mean_corpuscular_hemoglobin": "[FILL]",
+                "mcv": "[FILL]",
+                "wbc_count": "[FILL]",
+                "platelet_count": "[FILL]-[FILL] cumm"
+            }
+        }
+    ]
+}

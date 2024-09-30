@@ -1,0 +1,66 @@
+{
+    "Date": "0123466780",
+    "patient_information": {
+        "patient_id": "0012346678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Dr.",
+        "patient_age": "21",
+        "patient_dob": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": [
+                {
+                    "component": "Leukocyte",
+                    "value": "130 - 178 U"
+                },
+                {
+                    "component": "Hemoglobin",
+                    "value": "12.5 g/dL"
+                },
+                {
+                    "component": "Count",
+                    "value": "52 Totel ROC Med"
+                },
+                {
+                    "component": "Bleeding time",
+                    "value": "57.5 sec"
+                },
+                {
+                    "component": "Platelet count",
+                    "value": "323000"
+                }
+            ],
+            "unit_of_measurement": [
+                null,
+                "g/dL",
+                "sec",
+                "mL",
+                "/mm^3"
+            ],
+            "reference_range": [
+                {
+                    "component": "Leukocyte",
+                    "range": "45-5.5 NC"
+                },
+                {
+                    "component": "Hemoglobin",
+                    "range": "11.6-14.0 g/dL"
+                },
+                {
+                    "component": "Count",
+                    "range": "50-62 Totel ROC Med"
+                },
+                {
+                    "component": "Bleeding time",
+                    "range": "-101 Packad Coll vohame (PCV)"
+                },
+                {
+                    "component": "Platelet count",
+                    "range": "300 a oell oun"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-06-15",
+    "patient_information": {
+        "patient_id": "PT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 7.2,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "6.8-9.0"
+        },
+        {
+            "test_name": "Alanine Aminotransferase (ALT)",
+            "result_value": 35,
+            "unit_of_measurement": "U/L",
+            "reference_range": "<41"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 12 g/dL",
+                "Glycated Hemoglobin (HbA1c): 5.0%"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "%"
+            ],
+            "reference_range": [
+                "Hemoglobin: 13-17 g/dL",
+                "Glycated Hemoglobin (HbA1c): <5.7%"
+            ]
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.2 million cells/mcL",
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "4.7-6.1 million cells/mcL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "85 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "170,000/cumm",
+            "unit_of_measurement": "/cumm",
+            "reference_range": null
+        }
+    ]
+}

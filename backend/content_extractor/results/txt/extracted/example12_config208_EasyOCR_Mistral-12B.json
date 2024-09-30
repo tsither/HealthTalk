@@ -1,0 +1,23 @@
+{
+    "Date": "20.05.23",
+    "patient_information": {
+        "patient_id": "XYZ123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Serum Glucose",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-105"
+        }
+    ]
+}

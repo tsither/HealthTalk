@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Electrolytes",
+            "result_value": {
+                "Sodium (Na+)": "138",
+                "Potassium (K+)": "4.2",
+                "Chloride (Cl-)": "103"
+            },
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": "98",
+            "unit_of_measurement": "µmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Urine Creatinine",
+            "result_value": "<0.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

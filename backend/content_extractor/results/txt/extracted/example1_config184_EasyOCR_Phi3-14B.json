@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Rohan Singh Rond",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation Result",
+            "result_value": "Hemoglobin: 125, RBC count: 5.2, MCHC: 328 g/dL, Platelet count: 200,000/uL",
+            "unit_of_measurement": "g/dL and uL",
+            "reference_range": {
+                "Hemoglon": "130-170 g/dL",
+                "RBC count": "4.5-5.5 Million cells/mcL",
+                "MCHC": "320-360 g/DL",
+                "Platelet count": "150,000 to 400,000 platelets per microliter"
+            }
+        },
+        {
+            "test_name": "WBC Count Differential Result",
+            "result_value": "Neutrophils: 60%, Lymphocytes: 31%, Monocytes: 4%, Eosinophils: <1%",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": "50-70%",
+                "Lymphocytes": "20-40%",
+                "Monocytes": "3-10%",
+                "Eosinophils": "<6%"
+            }
+        },
+        {
+            "test_name": "MCH Ratio Result",
+            "result_value": "MCH: 275, MCV: 84 fL",
+            "unit_of_measurement": "g/dL and fL",
+            "reference_range": {
+                "MCH": "27-31 g/dL",
+                "MCV": "80-95 fL"
+            }
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW) Result",
+            "result_value": "RDW: 14.1%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        }
+    ]
+}

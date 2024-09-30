@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Varon de trae",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobin VCm": 14.2,
+                "Leucocytes": 10.2,
+                "Basophils": 0,
+                "Eosinophils": 5,
+                "Monocytes": 8,
+                "Lymphocytes": 24
+            },
+            "unit_of_measurement": {
+                "Hemoglobin VCm": "g/dL",
+                "Leucocytes": "10^3/uL",
+                "Basophils": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Lymphocytes": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 110.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70 - 99 mg/dL"
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 65.0,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": "55 - 135 µmol/L"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": 80.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 41,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5 - 5 g/dL"
+        }
+    ]
+}

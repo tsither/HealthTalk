@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "VELOCIDAD DE HEMATOCRITOS",
+            "result_value": 24.2,
+            "unit_of_measurement": "%",
+            "reference_range": "16-38%"
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "HOMOCISTEINA",
+            "result_value": 1.39,
+            "unit_of_measurement": "μmol/L",
+            "reference_range": "<5 μmol/L"
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "SODIO": 141,
+                "CLORO": 86,
+                "POTASIO": 4.02
+            },
+            "unit_of_measurement": {
+                "SODIO": "mEq/L",
+                "CLORO": "mEq/L",
+                "POTASIO": "mEq/L"
+            },
+            "reference_range": {
+                "SODIO": "135-145 mEq/L",
+                "CLORO": "98-110 mEq/L",
+                "POTASIO": "3.7-5.4 mEq/L"
+            }
+        }
+    ]
+}

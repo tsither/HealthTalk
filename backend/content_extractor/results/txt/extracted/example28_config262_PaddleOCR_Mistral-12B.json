@@ -1,0 +1,23 @@
+{
+    "Date": "08.06.23",
+    "patient_information": {
+        "patient_id": "VRF123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": " Creatinine, Serum",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2"
+        },
+        {
+            "test_name": "Glucose, Serum",
+            "result_value": 95,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-105"
+        }
+    ]
+}

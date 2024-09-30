@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "101",
+        "patient_name": "yash gidl",
+        "patient_sex": "male",
+        "patient_age": "45 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.55 million cells/µL",
+            "unit_of_measurement": "million cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin ALC",
+            "result_value": "8775 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC indices",
+            "result_value": "MCH: 32.8 pg, MCHC: 150 g/dL, RDW: 12%",
+            "unit_of_measurement": "pg, g/dL, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "6.8 thousand cells/µL",
+            "unit_of_measurement": "thousand cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC differential",
+            "result_value": "Neutrophils: 30%, Lymphocytes: 60%, Monocytes: 5%, Eosinophils: 2%, Basophils: 3%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "275 thousand cells/µL",
+            "unit_of_measurement": "thousand cells/µL",
+            "reference_range": null
+        }
+    ]
+}

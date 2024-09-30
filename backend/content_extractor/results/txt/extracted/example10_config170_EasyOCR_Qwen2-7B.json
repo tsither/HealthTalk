@@ -1,0 +1,30 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456761",
+        "patient_name": "Shivam Sungalow",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "pow whole blood investigation",
+            "result_value": "170x",
+            "unit_of_measurement": "",
+            "reference_range": {
+                "adults": [
+                    90,
+                    170
+                ],
+                "children": [
+                    754,
+                    136
+                ],
+                "newborns": [
+                    90,
+                    170
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": "02 Dec, 7:00 PM",
+    "patient_information": {
+        "patient_id": "I Jo l d#0d",
+        "patient_name": "XZ oo0 zo wid sc'vo uo pody mill/cumm",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cell count": "150000",
+                "Hemoglobin": "13.6 g/dL",
+                "Packed Cell Volume (PCV)": "42%",
+                "Platelet count": "276 x 10^9/L"
+            },
+            "unit_of_measurement": {
+                "White Blood Cell count": "cells/uL",
+                "Hemoglobin": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Platelet count": "x 10^9/L"
+            },
+            "reference_range": {
+                "White Blood Cell count": "4.5 - 11.0 cells/uL",
+                "Hemoglobin": "13.0 - 17.0 g/dL",
+                "Packed Cell Volume (PCV)": "36 - 46%",
+                "Platelet count": "150 - 400 x 10^9/L"
+            }
+        }
+    ]
+}

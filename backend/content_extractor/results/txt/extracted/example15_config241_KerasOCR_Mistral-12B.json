@@ -1,0 +1,26 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "o211-ons-pn02-cee",
+        "patient_name": "Shivom Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": {
+                    "low": 9,
+                    "high": 17
+                },
+                "children": {
+                    "low": 13,
+                    "high": 20
+                }
+            }
+        }
+    ]
+}

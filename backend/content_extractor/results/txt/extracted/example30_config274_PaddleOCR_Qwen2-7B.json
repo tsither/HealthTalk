@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit",
+            "result_value": 125,
+            "unit_of_measurement": "%",
+            "reference_range": "[37-50]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 12.5,
+            "unit_of_measurement": "t (MCV)",
+            "reference_range": "[80-94 fL]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "t? | 001",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[32-36]"
+        }
+    ]
+}

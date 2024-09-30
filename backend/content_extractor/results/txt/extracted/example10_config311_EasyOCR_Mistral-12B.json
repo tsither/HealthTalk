@@ -1,0 +1,65 @@
+{
+    "Date": "08.15.23",
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6.2,
+                "Red Blood Cells": 5.2,
+                "Platelets": 270
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "10^3/uL",
+                "Red Blood Cells": "10^6/uL",
+                "Platelets": "10^3/uL"
+            },
+            "reference_range": {
+                "White Blood Cells": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "Red Blood Cells": {
+                    "min": 4.4,
+                    "max": 5.9
+                },
+                "Platelets": {
+                    "min": 160,
+                    "max": 382
+                }
+            }
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": {
+                "Total Cholesterol": 220,
+                "Triglycerides": 150,
+                "HDL Cholesterol": 45
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "Triglycerides": "mg/dL",
+                "HDL Cholesterol": "mg/dL"
+            },
+            "reference_range": {
+                "Total Cholesterol": {
+                    "min": 130,
+                    "max": 240
+                },
+                "Triglycerides": {
+                    "min": 0,
+                    "max": 200
+                },
+                "HDL Cholesterol": {
+                    "min": 35,
+                    "max": 60
+                }
+            }
+        }
+    ]
+}

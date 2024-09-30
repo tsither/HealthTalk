@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Smart",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hemo)",
+            "result_value": 555,
+            "unit_of_measurement": "g/L",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Total Red Blood Cell Count (RBC)",
+            "result_value": 155,
+            "unit_of_measurement": "x10^6/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 345,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 575,
+            "unit_of_measurement": "x10^3/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (PM)",
+            "result_value": 84,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "Date": "02.1.1 PM 02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "field": "Hemoglobin (Hb)",
+                    "value": 12.5,
+                    "unit_of_measurement": "g/db"
+                },
+                {
+                    "field": "Total RBC count",
+                    "value": 5.2,
+                    "unit_of_measurement": "mill/cumm"
+                },
+                {
+                    "field": "Packed Cell Volume (PCV)",
+                    "value": "$7.5",
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "field": "Mean Corpuscular Volume (MCV)",
+                    "value": 87.75,
+                    "unit_of_measurement": "fl"
+                },
+                {
+                    "field": "MCH",
+                    "value": 27.2,
+                    "unit_of_measurement": "pg"
+                },
+                {
+                    "field": "MCHC",
+                    "value": 32.8,
+                    "unit_of_measurement": "g/dL"
+                },
+                {
+                    "field": "Calcraated ROW",
+                    "value": 13.6,
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "field": "Total WBC count",
+                    "value": null
+                },
+                {
+                    "field": "Differential WBC COUNT",
+                    "value": null
+                },
+                {
+                    "field": "Platelet Count",
+                    "value": 150000,
+                    "unit_of_measurement": "cumm"
+                }
+            ],
+            "reference_range": [
+                {
+                    "field": "Hemoglobin (Hb)",
+                    "range": "13.0- 17.0 g/db"
+                },
+                {
+                    "field": "Total RBC count",
+                    "range": "45-55 mill/cumm"
+                },
+                {
+                    "field": "Packed Cell Volume (PCV)",
+                    "range": "40-50 %"
+                },
+                {
+                    "field": "Mean Corpuscular Volume (MCV)",
+                    "range": "83-101 fl"
+                },
+                {
+                    "field": "MCH",
+                    "range": "27-32 pg"
+                },
+                {
+                    "field": "MCHC",
+                    "range": "32.5-34,5 g/dL"
+                },
+                {
+                    "field": "Calcraated ROW",
+                    "range": null
+                },
+                {
+                    "field": "Total WBC count",
+                    "range": "[4,000 - 10,000] /cumm"
+                },
+                {
+                    "field": "Differential WBC COUNT",
+                    "range": null
+                },
+                {
+                    "field": "Platelet Count",
+                    "range": "150000 - 410000 cumm"
+                }
+            ]
+        }
+    ]
+}

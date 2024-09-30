@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": [
+            "X",
+            "Y"
+        ],
+        "patient_name": [
+            "Shoolie Parekh",
+            "Shivam Mumbai"
+        ],
+        "patient_sex": [
+            null,
+            "Male"
+        ],
+        "patient_age": [
+            21
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": [
+                "Complete Blood Count (CBC)",
+                "Reticulocyte Count",
+                "Peripheral Smear Examination"
+            ],
+            "result_value": [
+                null,
+                null,
+                null
+            ],
+            "unit_of_measurement": [
+                null,
+                null,
+                null
+            ],
+            "reference_range": [
+                [
+                    "4.5-10 x 10^9/L",
+                    "36 - 52% male"
+                ],
+                [
+                    "30-80 x 10^9/L"
+                ],
+                [
+                    null
+                ]
+            ]
+        },
+        {
+            "test_name": [
+                "Hematology Morphology",
+                "Platelet Count"
+            ],
+            "result_value": [
+                [
+                    "Normocytic",
+                    "Normal RBC distribution, No evidence of anemia or thrombosis."
+                ],
+                [
+                    150
+                ]
+            ],
+            "unit_of_measurement": [
+                null,
+                null
+            ],
+            "reference_range": [
+                [
+                    "3.7 - 6 x 10^9/L",
+                    "Microcytic"
+                ],
+                [
+                    "140-400 x 10^9/L"
+                ]
+            ]
+        }
+    ]
+}

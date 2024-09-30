@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 4900,
+                "Eosinofilos": 4,
+                "Hematies": 3753,
+                "Hematocrito": 44.51,
+                "Segmentados": 11517,
+                "Hemoglobina": 148,
+                "Linfocitos": 3270,
+                "Monocitos": null,
+                "Plaquetas": 138000
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "mmm",
+                "Eosinofilos": "%",
+                "Hematies": "mmm",
+                "Hematocrito": "%",
+                "Segmentados": null,
+                "Hemoglobina": "g/dL",
+                "Linfocitos": "mmm",
+                "Monocitos": null,
+                "Plaquetas": "uas"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biómica serica",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol": 65,
+                "Trigliceridos": 50,
+                "Urea": 256,
+                "Urico": 160,
+                "Hierro": 12,
+                "Creatinina": null
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Trigliceridos": "mg/dL",
+                "Urea": "mg/dL",
+                "Urico": "mg/dL",
+                "Hierro": null,
+                "Creatinina": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas enzimaticas",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 145,
+                "Potasio": 48,
+                "Cloro": 141
+            },
+            "unit_of_measurement": {
+                "Sodio": "meq/L",
+                "Potasio": null,
+                "Cloro": "meq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

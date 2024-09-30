@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec. 202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "COUNT",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basoph",
+            "result_value": 9,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": 62,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "40.0 - 85.0"
+        }
+    ]
+}

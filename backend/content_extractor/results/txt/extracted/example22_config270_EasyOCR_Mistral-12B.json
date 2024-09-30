@@ -1,0 +1,23 @@
+{
+    "Date": "20.10.2023",
+    "patient_information": {
+        "patient_id": "2456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.7 - 1.3"
+        },
+        {
+            "test_name": "HbA1c",
+            "result_value": 5.5,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0 - 5.6"
+        }
+    ]
+}

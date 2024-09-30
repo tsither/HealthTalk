@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec., 202x",
+    "patient_information": {
+        "patient_id": "a00d90123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": "12.5",
+                "Red Blood Cells": "87.75",
+                "Hemoglobin": "13.6"
+            },
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "White Blood Cells": "4.5-11.6",
+                "Red Blood Cells": "4.2-7.8",
+                "Hemoglobin": "13.0-17.0"
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "32.5",
+            "unit_of_measurement": "%",
+            "reference_range": "32 - 46"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "57.5",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150,000-410,000"
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": "%"
+        }
+    ]
+}

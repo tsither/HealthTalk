@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC",
+            "result_value": "4.2",
+            "unit_of_measurement": "x10^6/µL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "11.6",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0 - 30"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "17.0",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "15 - 400"
+        }
+    ]
+}

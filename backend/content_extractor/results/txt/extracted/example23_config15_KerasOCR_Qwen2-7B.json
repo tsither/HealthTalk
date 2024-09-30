@@ -1,0 +1,47 @@
+{
+    "Date": "140325",
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": "com drlogypathlabadrlogys com",
+        "patient_sex": "male",
+        "patient_age": 40
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[12.5, 16.0]"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin (mch)",
+            "result_value": "27.8",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (mchc)",
+            "result_value": "345",
+            "unit_of_measurement": "%",
+            "reference_range": "[320, 360]"
+        },
+        {
+            "test_name": "red blood cell count (rbc)",
+            "result_value": "5.000e+05",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[4.7e+05, 6.1e+05]"
+        },
+        {
+            "test_name": "white blood cell count (wbc)",
+            "result_value": "9.000e+03",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[4.8e+03, 11.2e+03]"
+        },
+        {
+            "test_name": "platelet count (plt)",
+            "result_value": null,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        }
+    ]
+}

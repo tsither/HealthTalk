@@ -1,0 +1,75 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 13.5,
+                "WBC": 6.8,
+                "Platelets": 270,
+                "RBC": 4.9,
+                "HCT": 16.8,
+                "MCV": 93,
+                "MCH": 28.5,
+                "MCHC": null,
+                "RDW": null,
+                "Neutrophils (%)": 50.6,
+                "Lymphocytes (%)": 40,
+                "Monocytes (%)": 5,
+                "Eosinophils (%)": 1,
+                "Basophils (%)": 0
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "WBC": "K/uL",
+                "Platelets": "K/uL",
+                "RBC": "M/uL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "RDW": null,
+                "Neutrophils (%)": "%",
+                "Lymphocytes (%)": "%",
+                "Monocytes (%)": "%",
+                "Eosinophils (%)": "%",
+                "Basophils (%)": "%"
+            },
+            "reference_range": {
+                "Hemoglobin": [
+                    13.0,
+                    17.0
+                ],
+                "WBC": [
+                    4.5,
+                    11.0
+                ],
+                "Platelets": [
+                    150,
+                    450
+                ],
+                "RBC": null,
+                "HCT": null,
+                "MCV": [
+                    80,
+                    100
+                ],
+                "MCH": [
+                    27,
+                    31
+                ],
+                "RDW": null,
+                "Neutrophils (%)": null,
+                "Lymphocytes (%)": null,
+                "Monocytes (%)": null,
+                "Eosinophils (%)": null,
+                "Basophils (%)": null
+            }
+        }
+    ]
+}

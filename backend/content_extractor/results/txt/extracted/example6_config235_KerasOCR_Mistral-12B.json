@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "rbc_count": {
+                    "value": 5.295455,
+                    "unit": "million/uL",
+                    "range": {
+                        "lower": 3.8,
+                        "upper": 6.2
+                    }
+                },
+                "pcv": {
+                    "value": 57.5,
+                    "status": "high"
+                },
+                "mcv": {
+                    "value": 87.75
+                },
+                "mch": {
+                    "value": 27.2
+                },
+                "mchc": {
+                    "value": 32.8
+                },
+                "rdw": {
+                    "value": 13.6
+                }
+            },
+            "wbc_count": {
+                "total": {
+                    "value": 8000,
+                    "unit": "cells/uL"
+                },
+                "differential": {
+                    "neutrophils": {
+                        "value": 60
+                    },
+                    "lymphocytes": {
+                        "value": 31
+                    },
+                    "eosinophils": {
+                        "value": 0
+                    },
+                    "monocytes": {
+                        "value": 2
+                    },
+                    "basophils": {
+                        "value": 7
+                    }
+                }
+            },
+            "platelet_count": {
+                "value": 295,
+                "status": "borderline"
+            }
+        }
+    ]
+}

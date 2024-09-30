@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test A",
+            "result_value": 56.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<80"
+        },
+        {
+            "test_name": "Test B",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": "04:35",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": "Shivam Bungalow, S G Road.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "SampleCollection Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": "150000",
+                    "unit": "pooi8"
+                },
+                "Packed Cell Volume": {
+                    "value": "47.5"
+                },
+                "Platelet count": {
+                    "value": "27.2"
+                },
+                "RBC count": {
+                    "value": "5.2",
+                    "unit": "million/cumm"
+                },
+                "WBC count": {
+                    "value": "87.75",
+                    "unit": "thousand/cumm"
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": "13.0- 17.0",
+                    "high": "40-50"
+                },
+                "Packed Cell Volume": {
+                    "low": "32.5- 34.5"
+                },
+                "Platelet count": {
+                    "low": "90 -00 00",
+                    "high": "10 00 - 02"
+                },
+                "RBC count": {
+                    "low": "11.6-140"
+                },
+                "WBC count": {
+                    "low": "4.5 - 5.5",
+                    "high": "83 : 101"
+                }
+            },
+            "differential_wbc_count": {
+                "Lymphocytes": {
+                    "value": "57.5"
+                },
+                "Neutrophils": {
+                    "value": "32.8"
+                },
+                "Eosinophils": {
+                    "value": "13.6"
+                }
+            }
+        }
+    ]
+}

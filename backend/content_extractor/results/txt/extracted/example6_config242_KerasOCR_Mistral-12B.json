@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "rbc_count": {
+                    "value": 4.57,
+                    "unit": "million cells/mm3"
+                },
+                "wbc_count": {
+                    "value": 8100,
+                    "unit": "cells/mm3"
+                },
+                "platelet_count": {
+                    "value": 200000,
+                    "status": "borderline"
+                }
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "rbc_count": {
+                    "low": 4.5,
+                    "high": 6.5
+                },
+                "wbc_count": {
+                    "low": 4000,
+                    "high": 11000
+                },
+                "platelet_count": {
+                    "low": 150000,
+                    "high": 450000
+                }
+            }
+        }
+    ]
+}

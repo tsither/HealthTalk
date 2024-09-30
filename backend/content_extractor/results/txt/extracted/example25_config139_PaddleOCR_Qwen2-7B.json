@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 9.7,
+            "unit_of_measurement": "gr/dL",
+            "reference_range": "[12.0-16.0]"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 35.0,
+            "unit_of_measurement": "%",
+            "reference_range": "[52,0V.C.M.]"
+        },
+        {
+            "test_name": "Leucocitos Hematies",
+            "result_value": 4.17,
+            "unit_of_measurement": "100/IL",
+            "reference_range": "[350-5,40]"
+        },
+        {
+            "test_name": "Hematin Count (H.C.M.)",
+            "result_value": 288,
+            "unit_of_measurement": "%",
+            "reference_range": "[30,0-36,0]"
+        }
+    ]
+}

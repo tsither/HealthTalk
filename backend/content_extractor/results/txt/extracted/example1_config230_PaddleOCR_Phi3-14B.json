@@ -1,0 +1,52 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Pate!",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "R8C COUNT Total R8c coun!": 5.2,
+                "BLOod inoices Packed Cell Volume (PCV) $7.5": 7.5,
+                "MCH 27.2": 27.2,
+                "MCHC 32.8": 32.8,
+                "R8C Count Drlogy.c:om Neutrophis % Lymphocytes Eosinophls": [
+                    null
+                ],
+                "Platelet count Platelei Count": null
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dL",
+                "R8C COUNT Total R8c coun!": "mIl/cumm",
+                "BLOod inoices Packed Cell Volume (PCV) $7.5": "%",
+                "MCH 27.2": "pg",
+                "MCHC 32.8": "g/L"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "R8C COUNT Total R8c coun!": [
+                    4.5,
+                    null
+                ],
+                "BLOod inoices Packed Cell Volume (PCV) $7.5": [
+                    null,
+                    50
+                ],
+                "MCH 27.2": [
+                    null
+                ],
+                "MCHC 32.8": [
+                    null
+                ]
+            }
+        }
+    ]
+}

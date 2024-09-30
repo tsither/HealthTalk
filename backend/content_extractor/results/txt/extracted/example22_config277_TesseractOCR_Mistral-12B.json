@@ -1,0 +1,23 @@
+{
+    "Date": "08/12/2022",
+    "patient_information": {
+        "patient_id": "PT-123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6500,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500 - 11000"
+        }
+    ]
+}

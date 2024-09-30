@@ -1,0 +1,29 @@
+{
+    "Date": "123456789",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel o0 M.",
+        "patient_sex": "Male",
+        "patient_age": 2
+    },
+    "test_results": [
+        {
+            "test_name": "Ref. - 17.0 g/dL",
+            "result_value": 17,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[4.5 - 5.5]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13,
+            "unit_of_measurement": null,
+            "reference_range": "[105 - 150]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "[150 - 400]"
+        }
+    ]
+}

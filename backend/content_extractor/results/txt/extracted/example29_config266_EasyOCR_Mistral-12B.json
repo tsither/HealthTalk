@@ -1,0 +1,63 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "sss",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation Result",
+            "result_value": {
+                "hemoglobin": {
+                    "value": "12.3",
+                    "unit": "g/dL"
+                },
+                "leucocyte count": {
+                    "total": {
+                        "value": "5.6",
+                        "unit": "×10^9/L"
+                    },
+                    "differential": {
+                        "neutrophils": {
+                            "value": "40%",
+                            "unit": "%"
+                        }
+                    }
+                },
+                "platelet count": {
+                    "value": "278",
+                    "unit": "×10^9/L"
+                },
+                "red cell indices": {
+                    "MCV": {
+                        "value": "85",
+                        "unit": "fL"
+                    },
+                    "MCH": {
+                        "value": "30.4",
+                        "unit": "pg"
+                    },
+                    "MCHC": {
+                        "value": "36",
+                        "unit": "g/dL"
+                    }
+                },
+                "RBC count": {
+                    "value": "5.2",
+                    "unit": "×10^12/L"
+                },
+                "HCT": {
+                    "value": "42.3",
+                    "unit": "%"
+                },
+                "PCV": {
+                    "value": "0.423",
+                    "unit": "L/L"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

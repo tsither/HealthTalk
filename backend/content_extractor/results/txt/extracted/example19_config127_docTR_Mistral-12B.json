@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "912 23 4567",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC": {
+                    "Total": {
+                        "Value": "31",
+                        "Unit": "G/L"
+                    },
+                    "Neutrophils": {
+                        "Value": "60%",
+                        "Unit": "%"
+                    }
+                },
+                "RBC": {
+                    "Count": {
+                        "Value": "57.5",
+                        "Unit": "T/L"
+                    },
+                    "Hct": {
+                        "Value": "32.8",
+                        "Unit": "%"
+                    },
+                    "Hb": {
+                        "Value": "13.6",
+                        "Unit": "g/dL"
+                    }
+                },
+                "Platelets": {
+                    "Value": "9000",
+                    "Unit": "L/µL"
+                }
+            }
+        }
+    ]
+}

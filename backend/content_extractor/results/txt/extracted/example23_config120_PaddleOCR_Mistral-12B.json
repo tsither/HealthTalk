@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Age Male",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HCT (Hematocrit)",
+            "result_value": 40.8,
+            "unit_of_measurement": "%",
+            "reference_range": "-108"
+        },
+        {
+            "test_name": "HGB (Hemoglobin)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT (Platelet count)",
+            "result_value": 250000,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC (White Blood Cell count)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

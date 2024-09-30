@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 5.2,
+                "Hematocrit": 27.2,
+                "Red Blood Cell count": 328000,
+                "MCV": 94,
+                "MCH": 27,
+                "MCHC": 31,
+                "RDW": null,
+                "White Blood Cell count": 5750,
+                "Neutrophils": 32.5,
+                "Lymphocytes": 57.75,
+                "Monocytes": 8.4,
+                "Eosinophils": 1.3,
+                "Basophils": null,
+                "Platelet count": 136000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Red Blood Cell count": "mill/(cumm)",
+                "MCV": "FL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": null,
+                "White Blood Cell count": "10^3/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": null,
+                "Platelet count": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": "12.5 - 16.5 g/dL",
+                "Hematocrit": "40.0 - 52.0 %",
+                "Red Blood Cell count": "4.5 - 8.5 mill/cumm",
+                "MCV": "78 - 99 FL",
+                "MCH": "27 - 31 pg",
+                "MCHC": "32.5 -34.5 g/dL",
+                "RDW": null,
+                "White Blood Cell count": "4000-11000 cells/uL",
+                "Neutrophils": "40.0 - 75.0 %",
+                "Lymphocytes": "20.0 - 45.0 %",
+                "Monocytes": "3.0 - 10.0 %",
+                "Eosinophils": "0.5 - 5.0 %",
+                "Basophils": null,
+                "Platelet count": "150000 - 410000 cells/uL"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": "20.10.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": "42 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Sugar Count (CaC)",
+            "result_value": "120.130",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "60-50, 83-100"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "222",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0-10.0 x10^9/L"
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": "73.6",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": "15.0",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes (%)",
+            "result_value": "8.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils (%)",
+            "result_value": "3.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

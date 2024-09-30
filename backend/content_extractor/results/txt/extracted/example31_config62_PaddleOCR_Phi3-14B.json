@@ -1,0 +1,46 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": [
+                "Male: 138-174 g/L",
+                "Female: 120-160 g/L"
+            ]
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 89.6,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "Male: 37-49%",
+                "Female: 35-46%"
+            ]
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "Male: 38-50%",
+                "Female: 34-44%"
+            ]
+        },
+        {
+            "test_name": "Platelet (on)",
+            "result_value": 27,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

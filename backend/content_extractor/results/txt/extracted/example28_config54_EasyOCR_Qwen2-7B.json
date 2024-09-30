@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": 4.8,
+                "Hemoglobina": 14.3,
+                "VCM": 89,
+                "A.M.c": 29,
+                "eucicitos": 10.2,
+                "68N 1B_ SE": null,
+                "Bioquimca basica Gluccsa": 65.0
+            },
+            "unit_of_measurement": {
+                "Hematies": "/l",
+                "Hemoglobina": "gl",
+                "VCM": "fl",
+                "A.M.c": "pg",
+                "eucicitos": "/l",
+                "68N 1B_ SE": null,
+                "Bioquimca basica Gluccsa": "moldL"
+            },
+            "reference_range": {
+                "Hematies": "[70.0 _ 110.0)",
+                "Hemoglobina": "",
+                "VCM": "",
+                "A.M.c": "",
+                "eucicitos": null,
+                "68N 1B_ SE": null,
+                "Bioquimca basica Gluccsa": "(70.0 _ 110.0)"
+            }
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 0.15,
+            "unit_of_measurement": "mgidL",
+            "reference_range": "[0,70 1.10]"
+        },
+        {
+            "test_name": "Colesterol",
+            "result_value": 220,
+            "unit_of_measurement": "mgldL",
+            "reference_range": "<240,0"
+        },
+        {
+            "test_name": "Proteina",
+            "result_value": 6.0,
+            "unit_of_measurement": "",
+            "reference_range": "[6.0 _ 8.0]"
+        },
+        {
+            "test_name": "Hierro (U+III)",
+            "result_value": 55.0,
+            "unit_of_measurement": "",
+            "reference_range": "(55.0 _ 135.0)"
+        },
+        {
+            "test_name": "Ferricina ng ML",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "(18.0 120.0)"
+        },
+        {
+            "test_name": "Hemoglogina Alc",
+            "result_value": 3.8,
+            "unit_of_measurement": "",
+            "reference_range": "(3,8 5,5)"
+        }
+    ]
+}

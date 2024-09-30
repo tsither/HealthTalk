@@ -1,0 +1,86 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 7.1,
+                "RBC": 5.0,
+                "HGB": 14.2,
+                "HCT": 43.0,
+                "MCV": 86.0,
+                "MCH": 28.1,
+                "MCHC": 32.7,
+                "PLT": 250,
+                "NEU": 49.0,
+                "LYM": 40.0,
+                "MON": 8.0
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/µL",
+                "NEU": "%",
+                "LYM": "%",
+                "MON": "%"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10.0
+                ],
+                "RBC": [
+                    4.5,
+                    6.0
+                ],
+                "HGB": [
+                    12.0,
+                    16.0
+                ],
+                "HCT": [
+                    37.0,
+                    47.0
+                ],
+                "MCV": [
+                    80.0,
+                    100.0
+                ],
+                "MCH": [
+                    25.0,
+                    33.0
+                ],
+                "MCHC": [
+                    31.0,
+                    35.0
+                ],
+                "PLT": [
+                    150.0,
+                    450.0
+                ],
+                "NEU": [
+                    40.0,
+                    70.0
+                ],
+                "LYM": [
+                    20.0,
+                    50.0
+                ],
+                "MON": [
+                    2.0,
+                    10.0
+                ]
+            }
+        }
+    ]
+}

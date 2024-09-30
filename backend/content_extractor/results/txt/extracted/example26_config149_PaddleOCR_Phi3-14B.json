@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 7.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 13.3,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52%"
+        },
+        {
+            "test_name": "Velocidad de circulación media (VCM)",
+            "result_value": 30.5,
+            "unit_of_measurement": "mm/h",
+            "reference_range": null
+        }
+    ]
+}

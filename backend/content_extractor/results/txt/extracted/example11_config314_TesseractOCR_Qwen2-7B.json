@@ -1,0 +1,23 @@
+{
+    "Date": "2023-09-15",
+    "patient_information": {
+        "patient_id": "12345678",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 9.1,
+            "unit_of_measurement": "mm/dL",
+            "reference_range": "4.5-12"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200,
+            "unit_of_measurement": "k/mcL",
+            "reference_range": "150-350"
+        }
+    ]
+}

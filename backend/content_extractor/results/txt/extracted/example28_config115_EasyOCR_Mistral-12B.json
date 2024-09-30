@@ -1,0 +1,46 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 48.1,
+                "hemoglobina": 15,
+                "neutrofilos": 29,
+                "linfocitos": 10.2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Biquimiestria completa",
+            "result_value": {
+                "sodio": 140,
+                "potasio": 3.5,
+                "cloro": 108,
+                "creatinina": 1.15,
+                "selenium": 120
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "sodio": "136 - 145",
+                "potasio": "3.5 - 5.3",
+                "cloro": "98 - 107"
+            }
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 25,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": {
+                "ferritina": "10.6 - 20.0"
+            }
+        }
+    ]
+}

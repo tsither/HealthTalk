@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "65 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": [
+                {
+                    "TestItem": "White Blood Cell Count (WBC)",
+                    "value": "11,000/uL",
+                    "unit_of_measurement": "cells/μL",
+                    "reference_range": null
+                },
+                {
+                    "TestItem": "Packed Cell Volume (PCV)",
+                    "value": "27.2%",
+                    "unit_of_measurement": "%",
+                    "reference_range": null
+                },
+                {
+                    "TestItem": "Red Blood Cells (RBC)",
+                    "value": "4,000/uL",
+                    "unit_of_measurement": "cells/μL",
+                    "reference_range": null
+                }
+            ]
+        }
+    ]
+}

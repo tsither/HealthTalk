@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 8.0, RBC: 5.2, HGB: 13.5, HCT: 39%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Serum Glucose",
+            "result_value": "120 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-110]"
+        }
+    ]
+}

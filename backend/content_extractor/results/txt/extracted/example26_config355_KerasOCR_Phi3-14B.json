@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "ILE",
+            "result_value": 105.2,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "[7-49] ng/mL"
+        },
+        {
+            "test_name": "ATTLE",
+            "result_value": 150.3,
+            "unit_of_measurement": "ng/dL",
+            "reference_range": "[<12] ng/dL"
+        },
+        {
+            "test_name": "CERETR",
+            "result_value": 80.9,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[<150] mmol/L"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 9.0,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.9-6.1 mmol/L"
+        },
+        {
+            "test_name": "Sodium (Na)",
+            "result_value": 250,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "136-145 mmol/L"
+        },
+        {
+            "test_name": "Potassium (K)",
+            "result_value": 0.2,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.5-5 mmol/L"
+        },
+        {
+            "test_name": "Chloride (Cl)",
+            "result_value": 106,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "98-107 mmol/L"
+        },
+        {
+            "test_name": "Sulfate (SO4)",
+            "result_value": 5,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        }
+    ]
+}

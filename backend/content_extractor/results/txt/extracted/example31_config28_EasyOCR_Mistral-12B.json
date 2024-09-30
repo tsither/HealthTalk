@@ -1,0 +1,31 @@
+{
+    "Date": "12/05",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC count": 6.2,
+                "RBC count": 5.0,
+                "HGB": 12.5,
+                "MCV": 87.5,
+                "MCH": 32.8,
+                "Platelet count": 410
+            },
+            "unit_of_measurement": {
+                "WBC count": "x10^9/L",
+                "RBC count": "x10^12/L",
+                "HGB": "g/dL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "Platelet count": "x10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

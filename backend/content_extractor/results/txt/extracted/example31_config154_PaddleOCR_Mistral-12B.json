@@ -1,0 +1,29 @@
+{
+    "Date": "20XX-05-XX",
+    "patient_information": {
+        "patient_id": "PID Years Male",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 5.2,
+            "unit_of_measurement": "count",
+            "reference_range": "13.0 - 17.0 PAEEEET"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 83,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

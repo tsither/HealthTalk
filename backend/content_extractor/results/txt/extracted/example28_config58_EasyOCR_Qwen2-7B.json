@@ -1,0 +1,49 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "Varon ancs",
+        "patient_name": "[FILL]",
+        "patient_sex": "Masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": "Hematies 4,8x109 /, Hemoglobina 14,3gl VCM 89 fl A.M.c 29 pg eucicitos 10,2*106 /1 68N 1B_",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": "Gluccsa 65.0 muldL (70.0 _ 110.0), Creatinina .15 mgidL (0,70 1.10), Colesterol 220 mgldL (<240,0)",
+            "unit_of_measurement": [
+                "muldL",
+                "mgidL",
+                "mgldL"
+            ],
+            "reference_range": [
+                "70.0 _ 110.0",
+                "0,70 1.10",
+                "<240,0"
+            ]
+        },
+        {
+            "test_name": "Proteina",
+            "result_value": "6,0 _ 8.0",
+            "unit_of_measurement": [
+                "mg/L"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro (U+III)",
+            "result_value": "(55.0 _ 135.0)",
+            "unit_of_measurement": [
+                "ng ML"
+            ],
+            "reference_range": [
+                "18.0 120.0"
+            ]
+        }
+    ]
+}

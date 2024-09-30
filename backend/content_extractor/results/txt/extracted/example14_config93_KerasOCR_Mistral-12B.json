@@ -1,0 +1,29 @@
+{
+    "Date": "mumbai",
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": "patel shivam hiren",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "5.55",
+            "unit_of_measurement": "M/mm^3",
+            "reference_range": "4.4-6.0"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "8912",
+            "unit_of_measurement": "K/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "256",
+            "unit_of_measurement": "K/μL",
+            "reference_range": null
+        }
+    ]
+}

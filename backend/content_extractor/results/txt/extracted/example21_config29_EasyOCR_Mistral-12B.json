@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Bilirubin Total",
+            "result_value": 0.7,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<1.2"
+        },
+        {
+            "test_name": "Alanine Transaminase (ALT)",
+            "result_value": 19,
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-56"
+        },
+        {
+            "test_name": "Aspartate Transaminase (AST)",
+            "result_value": 24,
+            "unit_of_measurement": "U/L",
+            "reference_range": "5-32"
+        }
+    ]
+}

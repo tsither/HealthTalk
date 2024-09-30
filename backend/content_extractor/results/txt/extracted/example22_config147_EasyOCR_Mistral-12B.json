@@ -1,0 +1,45 @@
+{
+    "Date": "sr dec",
+    "patient_information": {
+        "patient_id": "101",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 8,
+                    "unit": "g/dL"
+                },
+                "HCT": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 90,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": 27,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 41,
+                    "unit": "g/dL"
+                },
+                "Platelet Count": {
+                    "value": 355,
+                    "unit": "k/μL"
+                },
+                "WBC Count": {
+                    "value": 8.675,
+                    "unit": "k/μL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

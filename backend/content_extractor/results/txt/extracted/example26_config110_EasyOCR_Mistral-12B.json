@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina": 4.75,
+                "Hematocrito": 13.3,
+                "VCM": 39.5,
+                "HCm": 83.1,
+                "ChCN": 27.9
+            },
+            "unit_of_measurement": {
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "VCM": "fL",
+                "HCm": "%",
+                "ChCN": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

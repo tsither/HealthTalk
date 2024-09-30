@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 9.0,
+            "unit_of_measurement": null,
+            "reference_range": "75-13 sx newborns"
+        },
+        {
+            "test_name": "Platelet Count (PC)",
+            "result_value": 2071,
+            "unit_of_measurement": "platelets/uL",
+            "reference_range": "9.5-37 x 10^9/L"
+        }
+    ]
+}

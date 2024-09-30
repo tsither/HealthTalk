@@ -1,0 +1,42 @@
+{
+    "Date": "Not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 17,
+        "patient_details": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": "83000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4500-11000]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17]"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "87",
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-96]"
+        },
+        {
+            "test_name": "WBC (White Blood Cell) Count",
+            "result_value": "11000",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": "3.28",
+            "unit_of_measurement": "L/L",
+            "reference_range": null
+        }
+    ]
+}

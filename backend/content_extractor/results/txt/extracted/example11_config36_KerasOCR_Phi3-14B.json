@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Ghbj)",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV) - RBC Volume Low",
+            "result_value": 328,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Bone Marrow Output (Bd)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": 410000
+        }
+    ]
+}

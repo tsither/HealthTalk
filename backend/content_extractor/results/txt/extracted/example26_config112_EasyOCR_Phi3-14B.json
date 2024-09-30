@@ -1,0 +1,34 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_nme": "Hemoorama Serie Roja Humislios",
+            "result_value": 4.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 13.3,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Homatocrito",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                36.0,
+                47.0
+            ]
+        }
+    ]
+}

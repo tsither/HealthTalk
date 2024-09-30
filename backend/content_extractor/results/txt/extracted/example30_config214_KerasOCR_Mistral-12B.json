@@ -1,0 +1,35 @@
+{
+    "Date": "09/12/2024",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Bungalow",
+        "patient_age": 21,
+        "patient_sex": "Male"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13-17 g/dl"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 5.245,
+            "unit_of_measurement": "M/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/ul",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "/ul",
+            "reference_range": "150,000-410,000"
+        }
+    ]
+}

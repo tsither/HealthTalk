@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "12.5 g/dL",
+                "total_rbc_count": 5.2,
+                "platelet_count": null,
+                "wbc_count": 13.6
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "total_rbc_count": "million per microliter (mcmm)",
+                "platelet_count": "thousands per micro liter (k/μL)",
+                "wbc_count": "x10^9 cells per liter"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0-17.0 g/dL",
+                "total_rbc_count": "4.5 - 5.5 million/mcmm",
+                "platelet_count": "150,000 - 410,000 / μL",
+                "wbc_count": "4.5-11 x10^9 cells per liter"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

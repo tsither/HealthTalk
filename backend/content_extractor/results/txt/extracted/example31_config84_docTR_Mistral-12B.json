@@ -1,0 +1,63 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "unit": "g/dl"
+                },
+                "RBC COUNT": {
+                    "value": 52,
+                    "unit": "Total"
+                },
+                "BLOOD INDICES": {
+                    "Volume (PCV)": {
+                        "value": 83.5
+                    },
+                    "MCV": {
+                        "value": 87.75,
+                        "unit": "fl"
+                    },
+                    "MCH": {
+                        "value": 27.2,
+                        "unit": "g/dL"
+                    },
+                    "MCHC": {
+                        "value": 13.6,
+                        "unit": "g/dL"
+                    },
+                    "RDW": {
+                        "value": 14
+                    }
+                },
+                "WBC COUNT": {
+                    "value": 9000,
+                    "unit": "Total"
+                },
+                "Differential WBC COUNT": {
+                    "Neutrophils": {
+                        "value": 60
+                    },
+                    "Lymphocytes": {
+                        "value": 31
+                    },
+                    "Eosinophils": {
+                        "value": 7
+                    }
+                },
+                "PLATELET COUNT": {
+                    "value": 150000,
+                    "unit": "cumm"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 5400,
+            "unit_of_measurement": "cumm",
+            "reference_range": "3800-10800"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 9.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 285,
+            "unit_of_measurement": null,
+            "reference_range": "150-400"
+        }
+    ]
+}

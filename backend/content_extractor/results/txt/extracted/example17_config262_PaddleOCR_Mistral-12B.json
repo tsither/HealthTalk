@@ -1,0 +1,44 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Jeewanl",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": "13.6",
+                "RDW": "32.8",
+                "MCH": "27.2",
+                "MCV": "87.75",
+                "HGB": "57.5",
+                "PCV": "5.2",
+                "Total RBC count": "12.5",
+                "Platelet Count": "4050"
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "10^9/L",
+                "RDW": "%",
+                "MCH": "pg",
+                "MCV": "fL",
+                "HGB": "g/dL",
+                "PCV": "L/L",
+                "Total RBC count": "10^12/L",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": {
+                "Total WBC count": "11.6 - 14.0",
+                "RDW": "32.5- 34.5",
+                "MCH": "27 - 32",
+                "MCV": "83 - 101",
+                "HGB": "4050 (Low)",
+                "PCV": "4.5- 5.5",
+                "Total RBC count": "13.0- 17.0 (Low)",
+                "Platelet Count": null
+            }
+        }
+    ]
+}

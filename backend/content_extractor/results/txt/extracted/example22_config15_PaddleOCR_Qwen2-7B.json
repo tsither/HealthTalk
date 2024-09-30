@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X 05:00 PM",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 57.5,
+            "unit_of_measurement": "Lymphocytes",
+            "reference_range": "[27.2 - 31.4] %"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80 - 95] fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[31 Interpretation: Further confirm for Anemia]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": "[00.15 - 00.19] %"
+        }
+    ]
+}

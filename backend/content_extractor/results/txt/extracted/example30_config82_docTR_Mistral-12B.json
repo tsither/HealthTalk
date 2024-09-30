@@ -1,0 +1,56 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5",
+                "Total RBC count": "57.5%",
+                "Mean Corpuscular Volume (MCV)": "87.75 fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "27.2 pg",
+                "MCHC": "32.8 g/dL",
+                "Red Cell Distribution Width (RDW)": null,
+                "Total WBC count": "9000 cells/cumm",
+                "Neutrophils": "60%",
+                "Lymphocytes": "1%",
+                "Eosinophils": "7%",
+                "Monocytes Basophils": null,
+                "Platelet Count": "150055 cell/cumm"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "mill/g/dL",
+                "Total RBC count": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "MCHC": "g/dL",
+                "Red Cell Distribution Width (RDW)": null,
+                "Total WBC count": "cells/cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes Basophils": null,
+                "Platelet Count": "cell/cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "Total RBC count": "40-50%",
+                "Mean Corpuscular Volume (MCV)": "27-32 fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "32.5-34.5 pg",
+                "MCHC": "11.6-14.0 g/dL",
+                "Red Cell Distribution Width (RDW)": null,
+                "Total WBC count": "50-62 cells/cumm",
+                "Neutrophils": "20-40%",
+                "Lymphocytes": "1-10%",
+                "Eosinophils": "0-6%",
+                "Monocytes Basophils": null,
+                "Platelet Count": "410000 cells/cumm"
+            }
+        }
+    ]
+}

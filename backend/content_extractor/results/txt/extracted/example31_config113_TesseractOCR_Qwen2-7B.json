@@ -1,0 +1,23 @@
+{
+    "Date": "12.03.2024",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "Alice Smith",
+        "patient_sex": "F",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.4-1.2"
+        },
+        {
+            "test_name": "Urea",
+            "result_value": 35,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-26"
+        }
+    ]
+}

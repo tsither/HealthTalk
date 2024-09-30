@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": "L/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 4.5,
+            "unit_of_measurement": "poo/aL",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Hemoglobin (Hb) level",
+            "result_value": 12.5,
+            "unit_of_measurement": "pg/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Hematocrit (Hct) level",
+            "result_value": 40,
+            "unit_of_measurement": ".0%",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 81,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 15.0,
+            "unit_of_measurement": "mol/mol Hb",
+            "reference_range": null
+        }
+    ]
+}

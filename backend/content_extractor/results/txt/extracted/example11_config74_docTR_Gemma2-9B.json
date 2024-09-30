@@ -1,0 +1,95 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "4.5",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "Packed Cell Volume (PCV)",
+            "unit_of_measurement": "%",
+            "reference_range": "40-50"
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "Mean Corpuscular Volume (MCV)",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "Mean Corpuscular Hemoglobin (MCH)",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "BLOOD INDICES",
+            "result_value": "Red Cell Distribution Width (RDW)",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "Total WBC count",
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Neutrophils",
+            "unit_of_measurement": "%",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Lymphocytes",
+            "unit_of_measurement": "%",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Eosinophils",
+            "unit_of_measurement": "%",
+            "reference_range": "00-06"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Monocytes",
+            "unit_of_measurement": "%",
+            "reference_range": "00-10"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": "Basophils",
+            "unit_of_measurement": "%",
+            "reference_range": "00-02"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "Platelet Count",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 410000"
+        }
+    ]
+}

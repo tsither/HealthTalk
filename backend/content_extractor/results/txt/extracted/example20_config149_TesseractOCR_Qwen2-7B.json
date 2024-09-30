@@ -1,0 +1,23 @@
+{
+    "Date": "10.25.2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2 K/µL, RBC: 5.1 M/µL, HGB: 14.3 g/dL",
+            "unit_of_measurement": "",
+            "reference_range": "WBC: 4-10 K/µL, RBC: 4-6 M/µL, HGB: 12-16 g/dL"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 195 mg/dL, HDL: 50 mg/dL, LDL: 110 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Total Cholesterol: <200 mg/dL, HDL: >40 mg/dL, LDL: <130 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count (#/µL)",
+            "result_value": 8990,
+            "unit_of_measurement": "#/µL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count (M/µL)",
+            "result_value": 160,
+            "unit_of_measurement": "M/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": 68.9,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV) (fL)",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Serie Roja",
+            "result_value": {
+                "Hematies": 4.75,
+                "Hemoglobina": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C.M": 27.9,
+                "C.H.C.M": 33.6,
+                "A.D.E": 4.0
+            },
+            "unit_of_measurement": {
+                "Hematies": "%",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C.M": "pg",
+                "C.H.C.M": "gldL",
+                "A.D.E": ":"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie Plaquetar",
+            "result_value": {
+                "Plaquetas": 208,
+                "V.P.M.": 9.1,
+                "A.D.P.": 0.189,
+                "Plaquetocrito": 16.2
+            },
+            "unit_of_measurement": {
+                "Plaquetas": "10E3/pL",
+                "V.P.M.": "fL",
+                "A.D.P.": "%",
+                "Plaquetocrito": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie Blanca",
+            "result_value": {
+                "Leucocitos": 4.2,
+                "Neu Lin Mon Eos Bas": {
+                    "Neu": 49.8,
+                    "Lin": 35.0,
+                    "Mon": 11.2,
+                    "Eos": 2.8,
+                    "Bas": 1.2
+                }
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10E3/UL",
+                "Neu Lin Mon Eos Bas": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 12.5,
+            "unit_of_measurement": "thousands per microliter",
+            "reference_range": "4.5 to 11.0 thousands per microliter"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "13.5 to 17.5 grams per deciliter"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.8,
+            "unit_of_measurement": "percent",
+            "reference_range": "39 to 54 percent"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 280,
+            "unit_of_measurement": "thousands per microliter",
+            "reference_range": "150 to 450 thousands per microliter"
+        }
+    ]
+}

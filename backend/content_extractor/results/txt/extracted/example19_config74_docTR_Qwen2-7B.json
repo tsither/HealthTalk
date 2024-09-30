@@ -1,0 +1,35 @@
+{
+    "Date": "03:11 1PM020",
+    "patient_information": {
+        "patient_id": "4567",
+        "patient_name": "athl abe adriogy driogypat",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": "5.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[40-83]"
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[27-32]"
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": "118",
+            "unit_of_measurement": "fL",
+            "reference_range": "[90-105]"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "300",
+            "unit_of_measurement": "thousands per mm³",
+            "reference_range": "[150-400]"
+        }
+    ]
+}

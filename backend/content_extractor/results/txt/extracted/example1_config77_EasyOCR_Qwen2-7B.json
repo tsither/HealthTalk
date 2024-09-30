@@ -1,0 +1,35 @@
+{
+    "Date": "02.12.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": "27 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": "10 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "13.5-17 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "4.2 * 10^6 cells/uL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "4.5-6 million/uL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "83 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": "80-97 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": "27.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        }
+    ]
+}

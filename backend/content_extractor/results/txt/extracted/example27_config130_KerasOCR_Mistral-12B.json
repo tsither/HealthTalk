@@ -1,0 +1,88 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 44,
+                "Eosinofilos": 51,
+                "Hematies": 3270,
+                "Hematocrito": 10,
+                "Linfocitos": 60,
+                "Monocitos": 80,
+                "Basofilos": null,
+                "Plaquetas": null
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10^3/μL",
+                "Hematies": "g/dL",
+                "Hematocrito": "%",
+                "Linfocitos": "%",
+                "Monocitos": "%",
+                "Basofilos": null,
+                "Plaquetas": null
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de sedimentación globular",
+            "result_value": 27,
+            "unit_of_measurement": "mm/hora",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica sérica",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol": 165,
+                "HDL": 45,
+                "LDL": 90,
+                "Triglicéridos": 50
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "Triglicéridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas enzimáticas",
+            "result_value": {
+                "AST": 40,
+                "ALT": 45,
+                "GGT": 50,
+                "ALP": 110
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "GGT": "U/L",
+                "ALP": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 145,
+                "Potasio": 30,
+                "Cloro": 102
+            },
+            "unit_of_measurement": {
+                "Sodio": "meq/L",
+                "Potasio": "meq/L",
+                "Cloro": "meq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

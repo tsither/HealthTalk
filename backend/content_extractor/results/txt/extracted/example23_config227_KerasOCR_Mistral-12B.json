@@ -1,0 +1,53 @@
+{
+    "Date": "21.03.2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 5.2,
+                "HGB": 13.8,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "HGB": "g/dL",
+                "PLT": "cells/mm³"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.0,
+                    "max": 10.0
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.2
+                },
+                "HGB": {
+                    "min": 13.5,
+                    "max": 17.5
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 0.6,
+                "max": 1.2
+            }
+        }
+    ]
+}

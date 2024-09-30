@@ -1,0 +1,109 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": [
+                "Hematies por mm 4.960.000 CAYADOS"
+            ],
+            "unit_of_measurement": "mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMATOCRITO",
+            "result_value": [
+                "44"
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": [
+                "51 111%"
+            ]
+        },
+        {
+            "test_n ame": "SEGMENTADOS HEMOGI.OBINA%",
+            "result_value": [
+                "14,8"
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "LINFOCITOS LEUCOCITOS/mm3",
+            "result_value": [
+                "3.270"
+            ],
+            "unit_of_measurement": "/mm^3",
+            "reference_range": [
+                "10"
+            ]
+        },
+        {
+            "test_name": "MONOCITOS PLAQUETAS/mm 138.000 1",
+            "result_value": [
+                "1"
+            ],
+            "unit_of_measurement": "/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "BASOFILOS V.C.M",
+            "result_value": [
+                "88,7"
+            ],
+            "unit_of_measurement": "HCM",
+            "reference_range": [
+                "29,8 32"
+            ]
+        },
+        {
+            "test_name": "V.N. BIOQUIMICA SERICA",
+            "result_value": [
+                {
+                    "GLUCOSA": "87"
+                },
+                {
+                    "COLESTEROL": "169"
+                },
+                {
+                    "HDL": "null"
+                },
+                {
+                    "LDL": "null"
+                },
+                {
+                    "TRIGLICERIDOS": "45"
+                },
+                {
+                    "UREA": "19"
+                },
+                {
+                    "HIERRO": "145"
+                },
+                {
+                    "CREATININA": "0.6"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "V.N. IONOGRAMA mEq/L",
+            "result_value": [
+                {
+                    "SODIO": "141"
+                },
+                {
+                    "CLORO": "86"
+                }
+            ],
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

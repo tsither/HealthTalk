@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red blood cell count",
+            "result_value": 4.5,
+            "unit_of_measurement": "millions/µL",
+            "reference_range": "4.0 - 5.5 millions/µL"
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": 8,
+            "unit_of_measurement": "thousands/µL",
+            "reference_range": "4.5 - 11 thousands/µL"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "PID123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon A1c",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4-5.6%"
+        },
+        {
+            "test_name": "Fasting glucose",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

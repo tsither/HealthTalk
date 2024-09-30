@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin(Hb)": 12.5,
+                "RBC COUNT poolg": 87.75,
+                "Packed Cell Volume (PCV)": 32.8,
+                "Mean Corpuscular Volume (MCV)": {
+                    "Value": 5.2,
+                    "Unit": "fL",
+                    "Reference Value BLOOD INDICES Low High": "4.5 - 5.5"
+                },
+                "MCHS": 57.5,
+                "RDW": {
+                    "Value": 27.2,
+                    "Unit": "",
+                    "Reference Value BLOOD INDICES Low High": "40-50"
+                },
+                "Total WBC count": 9000,
+                "WBC COUNT mill/cumm Differential WBC Count % Neutrophils Lymphocytes Eosinophils Monocytes Basophils": {
+                    "Neutrophils": 32.5,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 60,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "Platelet Count % Platelet Count cumm Instruments used Fully automated cell counter - Mindray 300 00 - 06 00 - 10 % Interpretation Further confirm for Anemia Thanks Reference Borderline AS otatiy Medical Lab Technician": {
+                    "Percentage": null,
+                    "Value": 27.5,
+                    "Unit": "%"
+                }
+            },
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

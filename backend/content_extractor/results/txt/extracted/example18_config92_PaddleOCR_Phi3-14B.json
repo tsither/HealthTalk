@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 40000000,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count - MCHC",
+            "result_value": 1.659,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood I3:28e (MCV) Count",
+            "result_value": 74.159,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96"
+        }
+    ]
+}

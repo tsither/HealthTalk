@@ -1,0 +1,29 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "SampleCollection",
+        "patient_name": "Payal Shah",
+        "patient_sex": "Female",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 90.7,
+            "unit_of_measurement": "/6 00 - 62 -os.",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": 14.0,
+            "unit_of_measurement": "- 34.5",
+            "reference_range": "10001 wwn dp"
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

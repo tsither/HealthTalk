@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "40001",
+        "patient_name": "J0 Patel",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Hb (Hemoglobin)",
+            "result_value": "11.6",
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "32.5",
+            "unit_of_measurement": null,
+            "reference_range": "14.0 - 34.5"
+        },
+        {
+            "test_name": "N (Neutrophils)",
+            "result_value": "10",
+            "unit_of_measurement": "150000",
+            "reference_range": null
+        }
+    ]
+}

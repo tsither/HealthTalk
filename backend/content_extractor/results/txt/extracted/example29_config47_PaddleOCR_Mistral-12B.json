@@ -1,0 +1,23 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "PID Patel",
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "40-60"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 35,
+            "unit_of_measurement": "count",
+            "reference_range": "150,000-400,000"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": "18-03-2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 555,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "lower": 150,
+                "upper": 450
+            }
+        },
+        {
+            "test_name": "Platelet Volume Distribution Width (PDW)",
+            "result_value": 17,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Crit",
+            "result_value": 0.45,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

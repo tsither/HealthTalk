@@ -1,0 +1,56 @@
+{
+    "Date": "20XX-05-06",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 34.5,
+                "Red Blood Cell Count": 4.7,
+                "Mean Corpuscular Volume": 89,
+                "White Blood Cell Count": 6.3,
+                "Platelet Count": 202
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Red Blood Cell Count": "10^6/uL",
+                "Mean Corpuscular Volume": "fL",
+                "White Blood Cell Count": "10^3/uL",
+                "Platelet Count": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": [
+                    13.0,
+                    17.0
+                ],
+                "Hematocrit": [
+                    40.0,
+                    62.0
+                ],
+                "Red Blood Cell Count": [
+                    4.5,
+                    5.5
+                ],
+                "Mean Corpuscular Volume": [
+                    80,
+                    100
+                ],
+                "White Blood Cell Count": [
+                    4.5,
+                    11.0
+                ],
+                "Platelet Count": [
+                    150,
+                    450
+                ]
+            }
+        }
+    ]
+}

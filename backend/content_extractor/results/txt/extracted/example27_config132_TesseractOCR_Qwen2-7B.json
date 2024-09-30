@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": "WBC: 7.8 x10^3/uL, RBC: 5.2 x10^6/uL, Hb: 14.5 g/dL, HCT: 42%",
+            "unit_of_measurement": "",
+            "reference_range": "WBC (4-10 x10^3/uL), RBC (4.5-5.5 x10^6/uL), Hb (13-17 g/dL), HCT (38%-42%)"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "TC: 190 mg/dL, HDL-C: 50 mg/dL, LDL-C: 110 mg/dL, Triglycerides: 130 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "TC <200 mg/dL, HDL-C >=40 mg/dL, LDL-C <100 mg/dL, Triglycerides <150 mg/dL"
+        }
+    ]
+}

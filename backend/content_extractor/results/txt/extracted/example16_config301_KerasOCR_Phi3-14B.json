@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "1.10 x 10^9/L",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cell count (WBC)",
+            "result_evelue": "6.8 x 10^9/L",
+            "unit_of_measurement": "",
+            "reference_range": "[3.5-10] x 10^9/L"
+        },
+        {
+            "test_name": "Red blood cell count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[4.5-6] x 10^12/L"
+        }
+    ]
+}

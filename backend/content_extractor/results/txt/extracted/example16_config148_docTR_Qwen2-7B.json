@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count",
+            "result_value": "212",
+            "unit_of_measurement": "RBC",
+            "reference_range": "[20-620] /mcL"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) Total",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[328-500] cells/μL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "97.1 fL",
+            "unit_of_measurement": "",
+            "reference_range": "[60-100] fL"
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[11.5-14.5]% (A) [21.9-32.7]% (B)"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "170 N. 130 comper Vash",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "212",
+            "unit_of_measurement": "",
+            "reference_range": "[4100-8500] /μL"
+        }
+    ]
+}

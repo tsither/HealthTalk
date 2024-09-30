@@ -1,0 +1,48 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[MALE]",
+        "patient_age": "[70 YEARS OLD]",
+        "patient_care": "[CARRING]"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125 g/L",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell (RBC) count",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": "8775 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobin concentration (MCHC)",
+            "result_value": "20 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "136000/μL",
+            "unit_of_measurement": "/uL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

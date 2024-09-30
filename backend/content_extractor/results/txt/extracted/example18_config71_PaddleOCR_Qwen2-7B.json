@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Payal Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Anemia",
+            "result_value": "90 ` 00 %",
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6 - 14.0] %"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "7P/6 <e 107 0006",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT",
+            "result_value": "34.5",
+            "unit_of_measurement": "cells",
+            "reference_range": "[3:28 13.0 - 17.0] cells"
+        },
+        {
+            "test_name": "WBC COUNT (COMPLETE BLOOD COUNT CBC)",
+            "result_value": "12.5",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[689578]"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "varon",
+        "patient_age": [
+            60
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina A1c",
+            "result_value": 65.0,
+            "unit_of_measurement": "*",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina Directa (Esterificada)",
+            "result_value": 14.3,
+            "unit_of_measurement": "g/L",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Bilirrubina total",
+            "result_value": [
+                89
+            ],
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hierro (+II)",
+            "result_value": 4.5,
+            "unit_of_measurement": "Paciente",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

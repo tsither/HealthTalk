@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "White blood cell count: 12000/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Red blood cell count: 4.2 million/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4.0-5.5 million cells/µL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Hemoglobin: 14 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Platelet count: 350,000/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150,000-450,000 cells/µL"
+        }
+    ]
+}

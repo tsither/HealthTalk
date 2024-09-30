@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 13.2,
+                "PLT": 220
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 6
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 16
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 350
+                }
+            }
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": 87,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": {
+                "min": 62,
+                "max": 106
+            }
+        }
+    ]
+}

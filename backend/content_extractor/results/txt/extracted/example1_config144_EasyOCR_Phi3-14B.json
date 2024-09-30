@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 80
+    },
+    "test_results": [
+        {
+            "test_name": "GIDL Count",
+            "result_value": 457,
+            "unit_of_measurement": "units/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Primary GBL",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC Count Calculated",
+            "result_value": 32,
+            "unit_of_measurement": "% MCV",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "21.12.23",
+    "patient_information": {
+        "patient_id": "HOSP09876",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 54
+    },
+    "test_results": [
+        {
+            "test_name": "Haemoglobin (Hb)",
+            "result_value": 12.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 7500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000 cells/mm³"
+        }
+    ]
+}

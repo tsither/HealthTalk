@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "245678",
+        "patient_name": "MARI",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "15155",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000 - 10000 cells/µL"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "5725",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "8725",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "328",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "59",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "136",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        }
+    ]
+}

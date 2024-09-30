@@ -1,0 +1,47 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": "912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "pg/gdL",
+            "reference_range": "[32.5 - 34.5]"
+        },
+        {
+            "test_name": "% Packed Cell Volume (PCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": "[87.75, 100]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

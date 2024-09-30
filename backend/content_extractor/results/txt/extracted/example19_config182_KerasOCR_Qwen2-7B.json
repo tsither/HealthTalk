@@ -1,0 +1,53 @@
+{
+    "Date": "Dec 2, 2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Mumbal Shah",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 5.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[36-17]"
+        },
+        {
+            "test_name": "Hematocrit (Hct) or Hemoglobin (%)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[35-50]"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 8.35,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[4.26-5.76]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-100]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[31.7-34.9]"
+        },
+        {
+            "test_name": "Reticulocyte Count",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "[0.5-2]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[150-450]"
+        }
+    ]
+}

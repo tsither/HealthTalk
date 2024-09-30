@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123116769",
+        "patient_name": "yash m",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_collected_sample_at": "125 shivom sungolows s g road"
+    },
+    "test_results": [
+        {
+            "test_name": "pdw (platelet distribution width)",
+            "result_value": 1550,
+            "unit_of_measurement": "whole blood",
+            "reference_range": {
+                "agc_group_adults": [
+                    900,
+                    11700
+                ],
+                "chilldren": [
+                    755,
+                    13
+                ]
+            }
+        }
+    ]
+}

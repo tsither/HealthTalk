@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC count",
+            "result_value": 388,
+            "unit_of_measurement": "C",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 4.52,
+            "unit_of_measurement": "%",
+            "reference_range": "[43 - 52]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 32.3,
+            "unit_of_measurement": "pg",
+            "reference_range": "[27 - 31]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 87.73,
+            "unit_of_measurement": "%",
+            "reference_range": "[45 - 50]"
+        }
+    ]
+}

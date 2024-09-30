@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "684578",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 18
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "555",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null,
+            "comments": "Increased, indicative of thrombocythemia. Normal range for adults: 150-450 x10^9/L"
+        },
+        {
+            "test_name": "Platelet Volume (MPV)",
+            "result_value": "755",
+            "unit_of_measurement": "fL",
+            "reference_range": null,
+            "comments": "Normal range for adults: 60-140 fL"
+        },
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": "90.5",
+            "unit_of_measurement": "%",
+            "reference_range": null,
+            "comments": "Normal range for adults: 35-55%"
+        }
+    ]
+}

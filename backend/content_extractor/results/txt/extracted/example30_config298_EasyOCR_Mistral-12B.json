@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "001271675",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 8.2,
+                "RBC": 5.01,
+                "HGB": 17.0,
+                "HCT": 49.0,
+                "MCV": 97.6,
+                "MCH": 34.3,
+                "MCHC": 35.2,
+                "PLT": 284.0,
+                "NEU": 62.1,
+                "LYM": 27.4,
+                "MONO": 9.6
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/uL",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "80"
+    },
+    "test_results": [
+        {
+            "test_name": "Glycated Hemoglobin (HbA1C)",
+            "result_value": 57,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total Red Blood Cell Count",
+            "result_value": 4200000000000.0,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Concentration (MCV)",
+            "result_value": 80.6,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Volume Distribution Width (RDW-CV)",
+            "result_value": 15.4,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

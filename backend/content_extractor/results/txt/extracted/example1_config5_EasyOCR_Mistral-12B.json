@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.2 - 5.5 million/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "4,000 - 11,000 cells/μL",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "50,000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": "150,000 - 470,000"
+        }
+    ]
+}

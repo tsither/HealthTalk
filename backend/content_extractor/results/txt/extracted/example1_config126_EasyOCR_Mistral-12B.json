@@ -1,0 +1,59 @@
+{
+    "Date": "02 DEC",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.1-17.0"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.575,
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.5-6.5"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "40-50%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "101-83"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 324.51,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "344-5"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13,
+            "unit_of_measurement": "%",
+            "reference_range": "6-11.6"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 9000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-10000"
+        }
+    ]
+}

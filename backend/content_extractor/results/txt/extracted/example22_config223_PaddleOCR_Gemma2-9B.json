@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": "06 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "40%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": "4.5 - 5.5",
+            "unit_of_measurement": "million/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "4000-11000",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

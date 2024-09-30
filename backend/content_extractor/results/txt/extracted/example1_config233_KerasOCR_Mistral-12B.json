@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "Shivam Singh",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "hemoglobin": 135,
+                "rbc_count": 5.2,
+                "hct": 40,
+                "mcv": 87.5,
+                "mch": 29.6,
+                "mchc": 32.8,
+                "rdw": 12.5
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "10^6/µL",
+                "hct": "%",
+                "mcv": "fL",
+                "mch": "pg",
+                "mchc": "g/dL",
+                "rdw": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": {
+                "neutrophils": 60,
+                "lymphocytes": 31,
+                "eosinophils": 0.2,
+                "monocytes": 0,
+                "basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300000,
+            "unit_of_measurement": "10^6/µL",
+            "reference_range": null
+        }
+    ]
+}

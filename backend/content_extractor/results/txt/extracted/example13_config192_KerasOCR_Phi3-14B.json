@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test 1",
+            "result_value": "Value not available",
+            "unit_of_measurement": "Unit not available",
+            "reference_range": "Reference range not available"
+        },
+        {
+            "test_name": "Test n",
+            "result_value": "Result value not provided",
+            "unit_of_measurement": "Measurement unit not specified",
+            "reference_range": "Reference range missing"
+        }
+    ]
+}

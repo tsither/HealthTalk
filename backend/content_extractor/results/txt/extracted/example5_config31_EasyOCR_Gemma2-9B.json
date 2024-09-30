@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine",
+            "result_value": "0.9",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6 - 1.2"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": "4.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5 - 5.0"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "15.2",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5 - 17.5"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "46%",
+            "unit_of_measurement": "%",
+            "reference_range": "40% - 54%"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "8.2",
+            "unit_of_measurement": "K/uL",
+            "reference_range": "4.5 - 11.0"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": "5.3",
+            "unit_of_measurement": "M/uL",
+            "reference_range": "4.7 - 6.1"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "280",
+            "unit_of_measurement": "K/uL",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

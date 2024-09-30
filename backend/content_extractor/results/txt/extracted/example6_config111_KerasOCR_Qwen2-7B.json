@@ -1,0 +1,54 @@
+{
+    "Date": "02/Dec/20xx",
+    "patient_information": {
+        "patient_id": "01234s6789",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "drlogy www com patel yash m collected sample at 125 shivam bungalow s g road"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL] low"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 52457.55,
+            "unit_of_measurement": "millions/cumm",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "% high",
+            "reference_range": "[FILL] 40-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL] 83-101 fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Content (MCHC)",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL] 3257-345 g/dL idl"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.6,
+            "unit_of_measurement": "% 116-140",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

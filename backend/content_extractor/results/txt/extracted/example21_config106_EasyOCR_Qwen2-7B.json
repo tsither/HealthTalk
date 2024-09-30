@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "pid",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "51 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "red blood cell count",
+            "result_value": 66957,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "white blood cell count",
+            "result_value": 575,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

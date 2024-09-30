@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912645675",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC count": "5.0 x10^9/L",
+                "RBC count": "4.55 x10^12/L",
+                "HGB": "150 g/L",
+                "HCT": "45%",
+                "MCV": "81 fL",
+                "MCH": "27 pg",
+                "MCHC": "32 g/dL",
+                "RDW": "14.0 %"
+            },
+            "unit_of_measurement": {
+                "WBC count": "cells/L",
+                "RBC count": "cells/L",
+                "HGB": "g/L",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

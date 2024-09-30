@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 3270,
+                "Eosinofilos": 49,
+                "Hematies": 3753,
+                "Hemoglobina": 148,
+                "Hematocrito": 44.5,
+                "Segmentados": 11517,
+                "Linfocitos": 3270,
+                "Monocitos": 10,
+                "Plaquetas": 138000
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "mm^3",
+                "Eosinofilos": "%",
+                "Hematies": "mill/mm^3",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "Segmentados": "mm^3",
+                "Linfocitos": "mm^3",
+                "Monocitos": "%",
+                "Plaquetas": "10^3/mm^3"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Pruebas bioquímicas",
+            "result_value": {
+                "Glucosa": 87,
+                "Colesterol": 65,
+                "Trigliceridos": 50,
+                "Urea": 25.6,
+                "Urico": 160,
+                "Hierro": 12,
+                "Creatinina": 0.45
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Trigliceridos": "mg/dL",
+                "Urea": "mg/dL",
+                "Urico": "mg/dL",
+                "Hierro": "mg/dL",
+                "Creatinina": "mg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

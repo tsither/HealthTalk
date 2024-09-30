@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah Hiren",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential and Platelet Count",
+            "result_value": {
+                "WBC Total": 6.2,
+                "RBC Total": 5.0,
+                "HGB": 15.0,
+                "HCT": 47.5,
+                "MCV": 89.0,
+                "MCH": 32.8,
+                "MCHC": 16.8,
+                "RDW-CV": 14.0,
+                "PLT": 250.0
+            },
+            "unit_of_measurement": {
+                "WBC Total": "10^9/L",
+                "RBC Total": "10^12/L",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

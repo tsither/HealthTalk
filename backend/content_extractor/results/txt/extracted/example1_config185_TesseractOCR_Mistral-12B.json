@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dl"
+                },
+                "total_rbc_count": {
+                    "value": 5.2,
+                    "unit": "million/uL"
+                },
+                "packed_cell_volume": {
+                    "value": 37.8,
+                    "unit": "%"
+                },
+                "mean_corpuscular_volume": {
+                    "value": 87.75,
+                    "unit": "fl"
+                },
+                "mch": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "total_wbc_count": {
+                    "value": 11,
+                    "unit": "thousand/uL"
+                },
+                "neutrophils": {
+                    "value": 61.6,
+                    "unit": "%"
+                },
+                "lymphocytes": {
+                    "value": 35.9,
+                    "unit": "%"
+                },
+                "monocytes": {
+                    "value": 2.4,
+                    "unit": "%"
+                },
+                "basophils": {
+                    "value": 0.1,
+                    "unit": "%"
+                },
+                "platelet_count": {
+                    "value": 150000,
+                    "unit": "cumm"
+                }
+            },
+            "reference_range": {
+                "hemoglobin": "[13.0-17] g/dl",
+                "total_rbc_count": "[4.2-6.2] million/uL",
+                "packed_cell_volume": "[37-52] %",
+                "mean_corpuscular_volume": "[83-101] fl",
+                "mch": "[27-31] pg",
+                "total_wbc_count": "[4.5-10.5] thousand/uL",
+                "neutrophils": "[40-75] %",
+                "lymphocytes": "[20-40] %",
+                "monocytes": "[2-8] %",
+                "basophils": "<1 %",
+                "platelet_count": "[150,000-450,000] cumm"
+            }
+        }
+    ]
+}

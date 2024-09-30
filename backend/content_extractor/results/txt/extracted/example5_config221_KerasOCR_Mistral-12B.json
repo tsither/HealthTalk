@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "q23a56769",
+        "patient_name": "yash patel mo",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "platelet distribution width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 170,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": {
+                "adults": {
+                    "lower": 150,
+                    "upper": 450
+                },
+                "children": {
+                    "lower": 200,
+                    "upper": 700
+                }
+            }
+        }
+    ]
+}

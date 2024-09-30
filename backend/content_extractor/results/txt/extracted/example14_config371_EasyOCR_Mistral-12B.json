@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": "8.5",
+                "RBC": "5.0",
+                "HGB": "12.5",
+                "HCT": "42.3",
+                "PLT": "250"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "K/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0",
+                "RBC": "4.4-6.2",
+                "HGB": "12.0-18.0",
+                "HCT": "37.0-47.0",
+                "PLT": "150-450"
+            }
+        },
+        {
+            "test_name": "Lactic Acid (LA)",
+            "result_value": "2.0",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0.6-2.8"
+        }
+    ]
+}

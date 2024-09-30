@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "M",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "WBC count",
+            "result_value": 89689,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT count",
+            "result_value": 328,
+            "unit_of_measurement": "thousands/mm3",
+            "reference_range": "150-450"
+        }
+    ]
+}

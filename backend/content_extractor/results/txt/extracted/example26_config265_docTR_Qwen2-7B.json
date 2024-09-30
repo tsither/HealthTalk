@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 4.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.3 - 30.5 %"
+        },
+        {
+            "test_name": "Platelets volume distribution width (PDW)",
+            "result_value": 13.3,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 208,
+            "unit_of_measurement": "1E9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": 4.2,
+            "unit_of_measurement": "1000/µL",
+            "reference_range": "[3.5-10.0] x 1000/µL"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 8500,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": "4500-11000 cells/mm3"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "million/mm3",
+            "reference_range": "4.2-5.9 million/mm3"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 270000,
+            "unit_of_measurement": "cells/mm3",
+            "reference_range": "150000-450000 cells/mm3"
+        },
+        {
+            "test_name": "Sodium (Na)",
+            "result_value": 140,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "135-145 mEq/L"
+        },
+        {
+            "test_name": "Potassium (K)",
+            "result_value": 4.2,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "3.5-5.0 mEq/L"
+        }
+    ]
+}

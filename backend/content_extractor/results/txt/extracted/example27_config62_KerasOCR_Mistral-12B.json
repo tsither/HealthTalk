@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "WBC": 6.1,
+                "RBC": 5.1,
+                "Hb": 13.5
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biochemica",
+            "result_value": {
+                "Glucose": 87,
+                "Total Protein": 75
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Electrolitos",
+            "result_value": {
+                "Sodium": 141,
+                "Chloride": 98,
+                "Potassium": 3.7
+            },
+            "unit_of_measurement": {
+                "Sodium": "mmol/L",
+                "Chloride": "mmol/L",
+                "Potassium": "mmol/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

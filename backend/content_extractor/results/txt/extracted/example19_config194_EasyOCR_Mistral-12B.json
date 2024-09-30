@@ -1,0 +1,29 @@
+{
+    "Date": "20/12/2023",
+    "patient_information": {
+        "patient_id": "P213456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": "WBC: 5.2, HGB: 13.5, PLT: 250",
+            "unit_of_measurement": "cells/mm³, g/dL, thousands/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "LFTs",
+            "result_value": "AST: 28 U/L, ALT: 35 U/L, ALP: 120 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "(10-40), (10-55), (60-300)"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "Na: 138 mmol/L, K: 4.2 mmol/L, Cl: 102 mmol/L",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "(135-145), (3.6-5.2), (98-107)"
+        }
+    ]
+}

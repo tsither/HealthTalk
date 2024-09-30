@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hemoglobina": 17.2,
+                "hematocrito": 45.2,
+                "leucocitos": 10.2,
+                "neutrófilos": 68.3,
+                "linfocitos": 13.5,
+                "monocitos": 24.7,
+                "eosinófilos": 6
+            },
+            "unit_of_measurement": {
+                "hemoglobina": "g/dL",
+                "hematocrito": "%",
+                "leucocitos": "x10^3/uL",
+                "neutrófilos": "%",
+                "linfocitos": "%",
+                "monocitos": "%",
+                "eosinófilos": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Colesterol Total",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Proteinas Totales",
+            "result_value": 6.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ferritina",
+            "result_value": 45,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        }
+    ]
+}

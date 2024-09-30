@@ -1,0 +1,29 @@
+{
+    "Date": "102Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Poliecteda",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Result",
+            "result_value": 4.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 27.2,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "50-62"
+        }
+    ]
+}

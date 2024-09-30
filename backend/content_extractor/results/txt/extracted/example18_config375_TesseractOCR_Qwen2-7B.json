@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[130-165] g/dL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250,
+            "unit_of_measurement": "k/u/L",
+            "reference_range": "[150-450] k/u/L"
+        }
+    ]
+}

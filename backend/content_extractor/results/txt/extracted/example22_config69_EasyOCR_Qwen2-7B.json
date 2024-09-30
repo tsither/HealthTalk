@@ -1,0 +1,28 @@
+{
+    "Date": "12/03/2023",
+    "patient_information": {
+        "patient_id": 12345,
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "8.5",
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": [
+                "Total Cholesterol: 200",
+                "LDL-Cholesterol: 70",
+                "HDL-Cholesterol: 60",
+                "Triglycerides: 150"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

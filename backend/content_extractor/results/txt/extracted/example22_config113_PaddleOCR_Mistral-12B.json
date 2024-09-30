@@ -1,0 +1,35 @@
+{
+    "Date": "30 02 Dec",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": 125
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": "10.5",
+                "HGB": "13.0",
+                "PLT": "400",
+                "RBC": "5.5",
+                "NEU": "68",
+                "LYM": "27",
+                "MON": "2",
+                "EOS": "3"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "RBC": "10^12/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MON": "%",
+                "EOS": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": {
+                    "value": 56,
+                    "unit": "10^6/L"
+                },
+                "Hemoglobina FS": {
+                    "value": 14.7,
+                    "unit": "g/dL"
+                },
+                "Hematocrito": {
+                    "value": 44.7,
+                    "unit": "%"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Placaquetas",
+            "result_value": {
+                "Plaquetas": {
+                    "value": 235,
+                    "unit": "10^9/L"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitaria",
+            "result_value": {
+                "Leucocitos": {
+                    "value": 8.17,
+                    "unit": "10^9/L"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Formula Leucocitaria",
+            "result_value": {
+                "Neutrofilos": {
+                    "value": 42.9,
+                    "percent": "%"
+                },
+                "Linfocitos": {
+                    "value": 56.1,
+                    "percent": "%"
+                },
+                "Monocitos": {
+                    "value": 3.8,
+                    "percent": "%"
+                },
+                "Eosinofilos": {
+                    "value": 0.7,
+                    "percent": "%"
+                },
+                "Basofilos": {
+                    "value": 2.4,
+                    "percent": "%"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

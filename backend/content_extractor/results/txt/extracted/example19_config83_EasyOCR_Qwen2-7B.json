@@ -1,0 +1,33 @@
+{
+    "Date": "0311",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 17,
+        "patient_height": null,
+        "patient_weight": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "white_blood_cells": "4,000-11,000 cells/µL",
+                "hemoglobin": "13.5-17.5 g/dL",
+                "hematocrit": "38%-50%",
+                "mean_corpuscular_volume": "80-96 fL",
+                "red_blood_cells": "(4.2-5.3) x 10^12/L",
+                "mean_corpuscular_hemoglobin_concentration": "31-37%",
+                "platelets": "150,000-450,000/µL"
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

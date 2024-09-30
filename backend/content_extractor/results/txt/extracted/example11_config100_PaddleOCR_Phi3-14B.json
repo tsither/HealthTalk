@@ -1,0 +1,77 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Low",
+                8.75,
+                "M/cumm",
+                40,
+                null,
+                null
+            ],
+            "unit_of_measurement": [
+                "Percentage",
+                "",
+                "microLiters",
+                "milliliters",
+                "percentage"
+            ],
+            "reference_range": [
+                null,
+                null
+            ]
+        },
+        {
+            "test_name": "Medical Lab Technician Packed Cell Volume (PCV)",
+            "result_value": [
+                57.5
+            ],
+            "unit_of_measurement": [
+                "Percentage"
+            ],
+            "reference_vealue": null,
+            "interpretation": null
+        },
+        {
+            "test_name": "Total White Blood Count (WBC)",
+            "result_value": [
+                5.6
+            ],
+            "unit_of_measurement": [
+                "Percentage"
+            ],
+            "reference_range": null,
+            "interpretation": null
+        },
+        {
+            "test_name": "Lymphocytes (DMLT, BMLT)",
+            "result_value": [
+                32
+            ],
+            "unit_of_measurement": [
+                "Percentage"
+            ],
+            "reference_range": null,
+            "interpretation": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": [
+                40
+            ],
+            "unit_of_measurement": [
+                "Percentage"
+            ],
+            "reference_range": null,
+            "interpretation": null
+        }
+    ]
+}

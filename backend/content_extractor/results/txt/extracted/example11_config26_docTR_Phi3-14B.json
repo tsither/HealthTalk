@@ -1,0 +1,30 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 12.5 g/dL",
+                "RBC count: 5.2 mill/cumm",
+                "Blood indices: 57.5%",
+                "Packed Cell Volume: 32.8%",
+                "Mean Corpuscular Calculated (MCH): 27.2 pg",
+                "Calculated MCHC: 34.5",
+                "RDW: 13.6%",
+                "Platelet Count: 90,000"
+            ]
+        },
+        {
+            "test_name": "Further tests for Anemia",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

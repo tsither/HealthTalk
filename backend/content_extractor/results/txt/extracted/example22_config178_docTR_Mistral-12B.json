@@ -1,0 +1,100 @@
+{
+    "Date": "04 03:35 PM Dec, -",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dl"
+                },
+                "RBC COUNT": {
+                    "value": 4.5,
+                    "unit": "M/uL"
+                },
+                "BLOOD INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "value": 37.5
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "value": 87.75,
+                        "unit": "fL"
+                    },
+                    "Centruded MCH": {
+                        "value": 29
+                    },
+                    "Centrusted MCHC": {
+                        "value": 34
+                    },
+                    "RDW": {
+                        "value": 15
+                    }
+                },
+                "WBC COUNT": {
+                    "value": 6.0,
+                    "unit": "K/uL"
+                },
+                "Neutrophils": {
+                    "value": 57.5,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 32.8,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 90
+                },
+                "Basophlls": {
+                    "value": 45
+                },
+                "Platelet Count": {
+                    "value": 270,
+                    "unit": "K/uL"
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "RBC COUNT": {
+                    "low": 4.5,
+                    "high": 5.5
+                },
+                "BLOOD INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "low": 83,
+                        "high": 101
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "low": 27,
+                        "high": 32
+                    }
+                },
+                "WBC COUNT": {
+                    "low": 4.0,
+                    "high": 10.0
+                },
+                "Neutrophils": {
+                    "low": 50,
+                    "high": 60
+                },
+                "Platelet Count": {
+                    "low": 150000,
+                    "high": 400000
+                }
+            }
+        }
+    ]
+}

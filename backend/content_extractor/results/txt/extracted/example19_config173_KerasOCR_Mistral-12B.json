@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec 2x",
+    "patient_information": {
+        "patient_id": "aepongo dasjs pl 0z",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": 13.04,
+                "RBC Count": 5.2,
+                "MCV": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RDW": 13.6,
+                "WBC Count": 8000,
+                "Neutrophils": 60,
+                "Lymphocytes": 20,
+                "Eosinophils": 0,
+                "Monocytes": 4,
+                "Basophils": 0,
+                "Platelet Count": 30000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dl",
+                "RBC Count": "mil/mcm",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dl",
+                "RDW": "%",
+                "WBC Count": "per cmm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "per cmm"
+            },
+            "reference_range": {
+                "Hemoglobin": "13-18 g/dl",
+                "RBC Count": "4.5-6.0 mil/mcm",
+                "MCV": "72-96 fl",
+                "MCH": "27-31 pg",
+                "MCHC": "32-36 g/dl",
+                "RDW": "11.5-14.5%",
+                "WBC Count": "4000-10000 per cmm",
+                "Neutrophils": "40-70%",
+                "Lymphocytes": "20-40%",
+                "Eosinophils": "0-6%",
+                "Monocytes": "3-9%",
+                "Basophils": "0-1%",
+                "Platelet Count": "1.5-4 lakhs/cm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Date": "012345678",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "WBC: 4000-11000 Eosinophils: < 5% Platelet count: 7P/6 < 107,000 Lymphocytes: 328, Reference value",
+            "result_details": [
+                {
+                    "test_name": "WBC (Tial wbc count)",
+                    "result_value": "4.5",
+                    "unit_of_measurement": "",
+                    "reference_range": "4000-11000"
+                },
+                {
+                    "test_name": "Eosinophils",
+                    "result_value": null,
+                    "unit_of_measurement": "%",
+                    "reference_range": "< 10%"
+                },
+                {
+                    "test_name": "Platelet count",
+                    "result_value": "7P/6 < 107,000",
+                    "unit_of_measurement": "",
+                    "reference_range": "< 107,000"
+                },
+                {
+                    "test_name": "Lymphocytes",
+                    "result_value": "328",
+                    "unit_of_measurement": "",
+                    "reference_range": "87.75"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "20/12/2022",
+    "patient_information": {
+        "patient_id": "PT-234567",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": "5.0",
+            "unit_of_measurement": "mm3",
+            "reference_range": "4.0 - 6.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "7200",
+            "unit_of_measurement": "/uL",
+            "reference_range": "4500 - 11,000"
+        }
+    ]
+}

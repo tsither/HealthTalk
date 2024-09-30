@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": "1 Rogistered on: 07.31 P.t 02 Cec.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "SampleCollection Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 87.75,
+                    "unit": "g/dL",
+                    "reference_range": {
+                        "low": 13.0,
+                        "high": 18.0
+                    }
+                },
+                "RBC Count": {
+                    "value": 27.2,
+                    "unit": "mill/cumm"
+                },
+                "WBC Count": {
+                    "value": 5.5,
+                    "unit": "thousand/uL",
+                    "reference_range": {
+                        "low": 4.5,
+                        "high": 10
+                    }
+                },
+                "Platelet Count": {
+                    "value": 32.8,
+                    "unit": "thousand/uL"
+                },
+                "MCV": {
+                    "value": null
+                },
+                "PCV": {
+                    "value": null
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Lymphocytes": {
+                    "value": 0,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 27.2,
+                        "high": 48.6
+                    }
+                },
+                "Neutrophils": {
+                    "value": null
+                },
+                "Eosinophils": {
+                    "value": null
+                },
+                "Monocytes": {
+                    "value": null
+                },
+                "Basophils": {
+                    "value": null
+                }
+            }
+        }
+    ]
+}

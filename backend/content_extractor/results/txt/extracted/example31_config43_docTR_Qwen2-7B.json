@@ -1,0 +1,29 @@
+{
+    "Date": "02/11/2023",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Shiwam Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "4.35",
+            "unit_of_measurement": "x 10^6 cells/uL",
+            "reference_range": "[4.0-5.5] x 10^6 cells/uL"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "9000",
+            "unit_of_measurement": "/mm³",
+            "reference_range": "[3250-3450] /mm³"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "7",
+            "unit_of_measurement": "x 10^3/mm³",
+            "reference_range": "[150-620] x 10^3/mm³"
+        }
+    ]
+}

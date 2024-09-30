@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash",
+        "patient_sex": "male",
+        "patient_age": 55.5
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hbj)",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/microL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count (thrombocytes)",
+            "result_value": 130,
+            "unit_of_measurement": "platelets/microL",
+            "reference_range": [
+                null
+            ]
+        },
+        {
+            "test_name": "Platelet count (thrombocytes)",
+            "result_value": 136,
+            "unit_of_measurement": "platelets/microL",
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "21.03.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.0, RBC: 4.8, HGB: 14.0, PLT: 250",
+            "unit_of_measurement": "mm³ (WBC), M/mm² (RBC), g/dL (HGB), k/mm³ (PLT)",
+            "reference_range": "WBC: 4.5 - 10.0 mm³, RBC: 4.4 - 6.2 M/mm², HGB: 13.5 - 17.5 g/dL, PLT: 150 - 400 k/mm³"
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": "GLU: 95, BUN: 12, Creatinine: 1.0",
+            "unit_of_measurement": "mg/dL (GLU), mg/dL (BUN), mg/dL (Creatinine)",
+            "reference_range": "GLU: 70 - 99 mg/dL, BUN: 6 - 20 mg/dL, Creatinine: 0.8 - 1.2 mg/dL"
+        }
+    ]
+}

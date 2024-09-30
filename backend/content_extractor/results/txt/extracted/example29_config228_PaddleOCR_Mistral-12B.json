@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 2020",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 4.86,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 270,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0- 17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

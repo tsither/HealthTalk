@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Elevated glucose",
+            "result_value": 205,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Elevated triglycerides",
+            "result_e v u l e": 250,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "less than 150 mg/dL"
+        },
+        {
+            "test_name": "Increased LDL cholesterol (bad cholesterol)",
+            "result_value": 160,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "less than 130 mg/dL"
+        },
+        {
+            "test_name": "Decreased HDL cholesterol (good cholesterol)",
+            "result_value": 35,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "more than 40 mg/dL"
+        }
+    ]
+}

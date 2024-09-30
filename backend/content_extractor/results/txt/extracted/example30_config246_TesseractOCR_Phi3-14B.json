@@ -1,0 +1,104 @@
+{
+    "Date": "12.12.202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "TestName": "Hemoglobin",
+                    "ResultValue": "12.5",
+                    "UnitOfMeasurement": "g/dl"
+                },
+                {
+                    "TestName": "RBC Count",
+                    "ResultValue": ".2",
+                    "UnitOfMeasurement": "mill/cumm"
+                },
+                {
+                    "TestName": "PCV",
+                    "ResultValue": "7.5",
+                    "UnitOfMeasurement": "%"
+                },
+                {
+                    "TestName": "MCV",
+                    "ResultValue": "87.75",
+                    "UnitOfMeasurement": "fL"
+                },
+                {
+                    "TestName": "MCH",
+                    "ResultValue": "27.2",
+                    "UnitOfMeasurement": "pg"
+                },
+                {
+                    "TestName": "MCHC",
+                    "ResultValue": "32.e8",
+                    "UnitOfMeasurement": "g/dl"
+                },
+                {
+                    "TestName": "RDW-CV",
+                    "ResultValue": "13.6",
+                    "UnitOfMeasurement": "%"
+                },
+                {
+                    "TestName": "WBC Count",
+                    "ResultValue": ".9000",
+                    "UnitOfMeasurement": "cumm"
+                },
+                {
+                    "TestName": "Neutrophils",
+                    "ResultValue": null,
+                    "UnitOfMeasurement": "%"
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "cumm"
+        }
+    ],
+    "reference_range": [
+        {
+            "TestName": "Hemoglobin",
+            "ReferenceValue": "13.0-17.0"
+        },
+        {
+            "TestName": "RBC Count",
+            "ReferenceValue": "4.5-5.5"
+        },
+        {
+            "TestName": "PCV",
+            "ReferenceValue": "40-50%"
+        },
+        {
+            "TestName": "MCV",
+            "ReferenceValue": "83-101 fL"
+        },
+        {
+            "TestName": "MCH",
+            "ReferenceValue": "27-32 pg"
+        },
+        {
+            "TestName": "MCHC",
+            "ReferenceValue": "32.5-34.5 g/dl"
+        },
+        {
+            "TestName": "RDW-CV",
+            "ReferenceValue": "11.6-14.0%"
+        },
+        {
+            "TestName": "WBC Count",
+            "ReferenceValue": "4,000-11,000"
+        },
+        {
+            "TestName": "Neutrophils",
+            "ReferenceValue": "58-72 %"
+        }
+    ]
+}

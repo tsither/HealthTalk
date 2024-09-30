@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5.5,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.0-10.0 x10^3/uL"
+        },
+        {
+            "test_name": "Differential",
+            "result_value": 5,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Creatinine",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.6-1.2 mg/dL"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-159 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL"
+        },
+        {
+            "test_name": "Bilirubin",
+            "result_value": 5,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2 mg/dL"
+        }
+    ]
+}

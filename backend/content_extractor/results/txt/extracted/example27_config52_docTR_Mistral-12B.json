@@ -1,0 +1,122 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": "37-53",
+            "unit_of_measurement": "V.N.",
+            "reference_range": null
+        },
+        {
+            "test_name": "FORMULA LEUCOCITARIA",
+            "result_value": "4.960.000 Uds",
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "EOSINOFILOS CAYADOS SEGMENTADOS LINFOCITOS MONOCITOS BASOFILOS VELOCIDAD",
+            "result_value": "138.000 G",
+            "unit_of_measurement": "/I",
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": [
+                {
+                    "name": "GLUCOSA",
+                    "value": 87
+                },
+                {
+                    "name": "COLESTEROL",
+                    "value": 169
+                },
+                {
+                    "name": "HDL",
+                    "value": 60
+                },
+                {
+                    "name": "LDL",
+                    "value": 100
+                },
+                {
+                    "name": "TRIGLICERIDOS",
+                    "value": 45
+                },
+                {
+                    "name": "UREA",
+                    "value": 19
+                },
+                {
+                    "name": "Ac. URICO",
+                    "value": 4.5
+                },
+                {
+                    "name": "HIERRO",
+                    "value": 145
+                },
+                {
+                    "name": "CREATININA",
+                    "value": 0.6
+                },
+                {
+                    "name": "HOMOCISTEINA",
+                    "value": 7.39
+                },
+                {
+                    "name": "PROTEINAST",
+                    "value": 7,
+                    "unit": "%"
+                }
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS GOT GPT GT",
+            "result_value": [
+                {
+                    "name": "GOT",
+                    "value": 40
+                },
+                {
+                    "name": "GPT",
+                    "value": 43
+                },
+                {
+                    "name": "GT",
+                    "value": 45
+                }
+            ],
+            "unit_of_measurement": "U/I",
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA SODIO CLORO POTASIO",
+            "result_value": [
+                {
+                    "name": "SODIO",
+                    "value": 141
+                },
+                {
+                    "name": "CLORO",
+                    "value": 98
+                },
+                {
+                    "name": "Potasio",
+                    "value": 4.02
+                }
+            ],
+            "unit_of_measurement": [
+                "mEq/L",
+                "mEq/L",
+                "mEq/L"
+            ],
+            "reference_range": null
+        }
+    ]
+}

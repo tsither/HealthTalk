@@ -1,0 +1,58 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 66
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "48x10^9/L",
+                "Pemoglobina": "29.0g/dL",
+                "Leucocitos": "10.2x10^6/L",
+                "ANC": 18,
+                " Segmentados": 53,
+                " Linfocitos": 24,
+                " Monocitos": 18
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica Sangre",
+            "result_value": {
+                "Glucosa": "650mg/dL",
+                "Uric Acid": "220mg/dL",
+                "Creatinina": "4.5mg/dL",
+                "Bilirrubina Total": "1.8mg/dL",
+                "Albúmina": "3.2g/dL",
+                "Proteinas Totales": "7.6g/dL",
+                "Colesterol Total": "100mg/dL",
+                "Trigliceridos": "154mg/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Uric Acid": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Bilirrubina Total": "mg/dL",
+                "Albúmina": "g/dL",
+                "Proteinas Totales": "g/dL",
+                "Colesterol Total": "mg/dL",
+                "Trigliceridos": "mg/dL"
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 - 110)",
+                "Uric Acid": "(2.40 - 8.5)",
+                "Creatinina": "(0.6 - 1.3)",
+                "Bilirrubina Total": "(0.7 - 1.1)",
+                "Albúmina": "(3.5 - 5.5)",
+                "Proteinas Totales": "(6.0 - 8.0)",
+                "Colesterol Total": "(<240)",
+                "Trigliceridos": "(<150)"
+            }
+        }
+    ]
+}

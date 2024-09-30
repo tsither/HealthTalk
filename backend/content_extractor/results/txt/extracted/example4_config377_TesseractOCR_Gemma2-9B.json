@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 6.8,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.6%"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 7.2,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "4.5-11.0 k/uL"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "M/uL",
+            "reference_range": "4.0-5.5 M/uL"
+        },
+        {
+            "test_name": "Hemoglobin (Hgb)",
+            "result_value": 14.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-16.0 g/dL"
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 235,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "150-450 k/uL"
+        }
+    ]
+}

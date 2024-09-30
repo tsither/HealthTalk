@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Shah",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 108,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Cell Hemoglobin Concentration)",
+            "result_value": 11.6,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        },
+        {
+            "test_name": "ROE (Reticulocyte Count)",
+            "result_value": null,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "VoI COUNT (Mean Corpuscular Volume)",
+            "result_value": 74.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-96 fL"
+        },
+        {
+            "test_name": "PA1 (Platelet Count)",
+            "result_value": 0,
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

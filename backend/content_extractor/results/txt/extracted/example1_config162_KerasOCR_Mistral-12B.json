@@ -1,0 +1,65 @@
+{
+    "Date": "03.02.2023",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.7,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.5-5.5"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 38.0,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "325-365"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 6.0,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": "150-450"
+        }
+    ]
+}

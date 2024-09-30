@@ -1,0 +1,88 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 5.2,
+                "rbc_count": 57.5,
+                "pcv": 32.8,
+                "mch": 13.6,
+                "rdw": null,
+                "wbc_count": 60,
+                "neutrophils": 31,
+                "lymphocytes": 1,
+                "eosinophils": 7,
+                "monocytes": 1,
+                "basophils": null,
+                "platelet_count": null
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "fL",
+                "pcv": "%",
+                "mch": "pg",
+                "rdw": "fl",
+                "wbc_count": "cells/µL",
+                "neutrophils": "%",
+                "lymphocytes": "%",
+                "eosinophils": "%",
+                "monocytes": "cells/µL",
+                "basophils": "cells/µL",
+                "platelet_count": "cells/µL"
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "lower": 13.0,
+                    "upper": 17.0
+                },
+                "rbc_count": {
+                    "lower": 4.5,
+                    "upper": null
+                },
+                "pcv": {
+                    "lower": 27,
+                    "upper": 32.5
+                },
+                "mch": {
+                    "lower": 11.6,
+                    "upper": null
+                },
+                "rdw": {
+                    "lower": 40,
+                    "upper": null
+                },
+                "wbc_count": {
+                    "lower": 50,
+                    "upper": null
+                },
+                "neutrophils": {
+                    "lower": 1,
+                    "upper": null
+                },
+                "lymphocytes": {
+                    "lower": 0,
+                    "upper": null
+                },
+                "eosinophils": {
+                    "lower": 7,
+                    "upper": null
+                },
+                "monocytes": {
+                    "lower": 20,
+                    "upper": null
+                },
+                "basophils": {
+                    "lower": 150000,
+                    "upper": null
+                }
+            }
+        }
+    ]
+}

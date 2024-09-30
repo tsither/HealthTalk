@@ -1,0 +1,37 @@
+{
+    "Date": "02/12/2X",
+    "patient_information": {
+        "patient_id": "XX.XX.XXX",
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count CBC",
+            "result_value": "9000",
+            "unit_of_measurement": "count cumm",
+            "reference_range": {
+                "hemoglobin": "[125-130f 170 idl]",
+                "g RBC count": "52 451 55 milliy count cumm",
+                "packed cell volume PCV": "575",
+                "mean corpuscular volume MCVy": "8775 83 101 fl",
+                "MCH pg": "calculated",
+                "MCHC": "32 8 3251 345 idl g",
+                "RDW": "13 6 116 140 oo",
+                "wbc count total WBC": "9000",
+                "neutrophils": "60 50 62 0ofo",
+                "lymphocytes": "40 00",
+                "eosinophils": "00 06 0o t",
+                "monocytes": "oo 10 0 00",
+                "basophils": "1 02 fo"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "50000",
+            "unit_of_measurement": "platelet count 1 cumm",
+            "reference_range": "[410000]"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "12.05.2023",
+    "patient_information": {
+        "patient_id": "P123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 200,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "180-240"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-130"
+        }
+    ]
+}

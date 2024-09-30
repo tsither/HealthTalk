@@ -1,0 +1,82 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "ERYTHROCYTE COUNT": "4.960,000/mm³",
+                "HORMATOCRIT": "> 48%",
+                "HEMOGLOBIN": "14.8 g/dL",
+                "LEUKOCYTES": "3.270/mm³",
+                "EOSINOPHILS": "4,960,000/mm³",
+                "NEUTROPHILS (SEGMENTED)": "51%",
+                "LYMPHOCYTES": "36%",
+                "PLATELETS": "138.000/mm³",
+                "MONOCYTES": "10%",
+                "BASOPHILS": "< 2%",
+                "VELOCIDAD DE SEN 1 hora": null
+            },
+            "unit_of_measurement": {
+                "ERYTHROCYTE COUNT": "/mm³",
+                "HORMATOCRIT": "%",
+                "HEMOGLOBIN": "g/dL",
+                "LEUKOCYTES": "/mm³",
+                "EOSINOPHILS": "/mm³",
+                "NEUTROPHILS (SEGMENTED)": "%",
+                "LYMPHOCYTES": "%",
+                "PLATELETS": "/mm³",
+                "MONOCYTES": "%",
+                "BASOPHILS": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "BIOQUIMICA SERICA",
+            "result_value": {
+                "GLUCOSA": "87 mg/dL",
+                "COLESTEROL": "169 mg/dL",
+                "HDL": "60 mg/dL",
+                "LDL": "< 400 mg/dL",
+                "TRIGLICERIDOS": "45 mg/dL",
+                "UREA": "49 mg/dL",
+                "AC. URICO": "4.5 mg/dL",
+                "HIERRO": "445 µg/dL",
+                "CREATININA": "0.6 mg/dL",
+                "HOMOCISTEINA": "739 mmol/L",
+                "PROTEINAS T": "1.5 g/dL"
+            },
+            "unit_of_measurement": {
+                "GLUCOSA": "mg/dL",
+                "COLESTEROL": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL",
+                "TRIGLICERIDOS": "mg/dL",
+                "UREA": "mg/dL",
+                "AC. URICO": "mg/dL",
+                "HIERRO": "µg/dL",
+                "CREATININA": "mg/dL",
+                "HOMOCISTEINA": "mmol/L",
+                "PROTEINAS T": "g/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "JONOGRAMA",
+            "result_value": {
+                "CLORO": "> 100 meq/L",
+                "POTASIO": "< 37 meq/L"
+            },
+            "unit_of_measurement": {
+                "CLORO": "meq/L",
+                "POTASIO": "meq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-52.1 %"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 4.75,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.0-6.0 million/mcL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 89.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "80.0-100.0 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 28.3,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.0-31.0 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 31.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0-36.0 g/dL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250,
+            "unit_of_measurement": "thousand/mcL",
+            "reference_range": "150-450 thousand/mcL"
+        }
+    ]
+}

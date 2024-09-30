@@ -1,0 +1,30 @@
+{
+    "Date": "02 DEC 202X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "YASH M PATEL",
+        "patient_sex": "MALE",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET DISTRIBUTION WIDTH (PDW)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": [
+                    9,
+                    17
+                ],
+                "children": [
+                    7.54,
+                    18.5
+                ],
+                "newborns": [
+                    9,
+                    17
+                ]
+            }
+        }
+    ]
+}

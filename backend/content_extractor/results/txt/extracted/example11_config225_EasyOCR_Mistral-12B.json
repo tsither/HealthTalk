@@ -1,0 +1,100 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as6769",
+        "patient_name": "Shivam Bungalows",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": {
+                        "low": 13.0,
+                        "high": 17.0
+                    }
+                },
+                "RBC count": {
+                    "value": 5.2,
+                    "unit": "million cells/mm³"
+                },
+                "PCV": {
+                    "value": 37.5,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 36,
+                        "high": 47
+                    }
+                },
+                "MCV": {
+                    "value": 87.5,
+                    "unit": "fL",
+                    "reference_range": {
+                        "low": 80,
+                        "high": 100
+                    }
+                },
+                "MCH": {
+                    "value": 21.2,
+                    "unit": "pg",
+                    "reference_range": {
+                        "low": 27.4,
+                        "high": 32
+                    }
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dL"
+                },
+                "RDW": {
+                    "value": 13.6,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 11.0,
+                        "high": 15.0
+                    }
+                },
+                "WBC count": {
+                    "value": 7.0,
+                    "unit": "thousand cells/mm³"
+                },
+                "Neutrophils": {
+                    "value": 60,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 40,
+                        "high": 80
+                    }
+                },
+                "Lymphocytes": {
+                    "value": 30,
+                    "unit": "%",
+                    "reference_range": {
+                        "low": 20,
+                        "high": 50
+                    }
+                },
+                "Monocytes": {
+                    "value": 7,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 3,
+                    "unit": "%"
+                },
+                "Platelet count": {
+                    "value": 250,
+                    "unit": "thousand/mm³",
+                    "reference_range": {
+                        "low": 150,
+                        "high": 400
+                    }
+                }
+            }
+        }
+    ]
+}

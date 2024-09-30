@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "LEUCOCITOS": 4960,
+                "HEMATOCRITO": 40,
+                "HEMOGLOBINA": 158,
+                "VELOCIDAD": null
+            },
+            "unit_of_measurement": {
+                "LEUCOCITOS": "/L",
+                "HEMATOCRITO": "%",
+                "HEMOGLOBINA": "g/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "GLUCOSA",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": 70,
+                "max": 99
+            }
+        },
+        {
+            "test_name": "COLESTEROL",
+            "result_value": 220,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "min": "<160",
+                "max": ">240"
+            }
+        }
+    ]
+}

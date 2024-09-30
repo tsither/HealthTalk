@@ -1,0 +1,73 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "TNUJDDIL",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": {
+                "Hematies": 4.75,
+                "HEMOGLOBINA": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C,M.": 27.9
+            },
+            "unit_of_measurement": {
+                "Hematies": "10E6/uL",
+                "HEMOGLOBINA": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C,M.": "pg"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": 208,
+                "V.P.M.": 9.1,
+                "A.D.P.": 0.189
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "10E3/pL",
+                "V.P.M.": "%",
+                "A.D.P.": "%"
+            },
+            "reference_range": {
+                "PLAQUETAS": "140 - 400"
+            }
+        },
+        {
+            "test_name": "LEUCOCITOS",
+            "result_value": 4.2,
+            "unit_of_measurement": "10E3/uL",
+            "reference_range": {
+                "LEUCOCITOS": "4.00 - 10.00"
+            }
+        },
+        {
+            "test_name": "SERIE BLANCA",
+            "result_value": {
+                "Neu Lin Mon Eos Bas": {
+                    "Neutrófilos": 56,
+                    "Linfocitos": 28,
+                    "Monocitos": 4,
+                    "Eosinófilos": 1.2,
+                    "Bastoncillos": 1.3
+                }
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrófilos": "42.0 - 73.0",
+                "Linfocitos": "16.0 - 45.0",
+                "Monocitos": "2.0 - 12.0",
+                "Eosinófilos": "0.0 - 5.0",
+                "Bastoncillos": "0.0"
+            }
+        }
+    ]
+}

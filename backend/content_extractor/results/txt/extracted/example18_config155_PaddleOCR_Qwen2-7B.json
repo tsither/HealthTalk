@@ -1,0 +1,29 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[Yash M. Patel]",
+        "patient_sex": "[Male]",
+        "patient_age": "[555]"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) BLOOD INDICES",
+            "result_value": "[89689]",
+            "unit_of_measurement": "[count/μL]",
+            "reference_range": "[57.5, 140]"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": "[12.5 fL]",
+            "unit_of_measurement": "[fL]",
+            "reference_range": "[80-100 fL]"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "[5.2 %]",
+            "unit_of_measurement": "[%]",
+            "reference_range": "[11.5-14.5 %]"
+        }
+    ]
+}

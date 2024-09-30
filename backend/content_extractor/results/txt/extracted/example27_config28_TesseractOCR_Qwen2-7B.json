@@ -1,0 +1,28 @@
+{
+    "Date": "18.09.2023",
+    "patient_information": {
+        "patient_id": "B7564",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 34
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": "8.2",
+            "unit_of_measurement": "%",
+            "reference_range": "5.0-6.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": [
+                "Total Cholesterol: 193",
+                "LDL Cholesterol: 78",
+                "HDL Cholesterol: 42",
+                "Triglycerides: 150"
+            ],
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

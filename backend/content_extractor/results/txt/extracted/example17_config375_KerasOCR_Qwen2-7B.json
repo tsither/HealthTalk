@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.8 x10^3/uL; RBC: 5.2 million/uL; Hgb: 13.6 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": "WBC normal range: 4.0-11.0 x10^3/uL; RBC normal range: 4.5-5.9 million/uL; Hgb normal range: 12.0-16.0 g/dL"
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result_value": "0.8 mg/dL",
+            "unit_of_measurement": "/dL",
+            "reference_range": "Normal range: 0.6-1.2 mg/dL"
+        }
+    ]
+}

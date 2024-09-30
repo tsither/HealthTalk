@@ -1,0 +1,51 @@
+{
+    "Date": "10s",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 170,
+            "unit_of_measurement": "cumm blood",
+            "reference_range": {
+                "low": null,
+                "type": "55",
+                "sample": 457
+            }
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 1308,
+            "unit_of_measurement": "mill investigation",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "volume cell volume packed",
+            "reference_range": {
+                "high": 40,
+                "count": 86,
+                "rbc_count": 575
+            }
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "calcuated": 328
+            }
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 40,
+            "unit_of_measurement": "droul",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Sample e",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_e_name": "WBC DIF count",
+            "result_value": 40.0,
+            "unit_of_measurement": "",
+            "reference_range": "27.2 - Monoc Low VWI"
+        },
+        {
+            "test_name": "Platelet",
+            "result_value": null,
+            "unit_of_measurement": "COUNT",
+            "reference_range": "4.5 - 5.5 COUNT"
+        }
+    ]
+}

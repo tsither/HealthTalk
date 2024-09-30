@@ -1,0 +1,64 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 5.2,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": {
+                        "min": 4.5,
+                        "max": 5.5
+                    }
+                },
+                "Total RBC count": {
+                    "value": 57.5,
+                    "unit_of_measurement": "fL",
+                    "reference_range": {
+                        "min": 83,
+                        "max": 101
+                    }
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 27.2,
+                    "unit_of_measurement": "%",
+                    "reference_range": {
+                        "min": 27,
+                        "max": 32
+                    }
+                },
+                "Mean Corpuscular Hemoglobin (MCH)": {
+                    "value": 13.6,
+                    "unit_of_measurement": "pg",
+                    "reference_range": {
+                        "min": 11.6,
+                        "max": 14.0
+                    }
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": 9000,
+                    "unit_of_measurement": "fL",
+                    "reference_range": {
+                        "min": 4000,
+                        "max": 11000
+                    }
+                },
+                "Total WBC count": {
+                    "value": 60,
+                    "unit_of_measurement": "cells/µL",
+                    "reference_range": {
+                        "min": 50,
+                        "max": 62
+                    }
+                }
+            }
+        }
+    ]
+}

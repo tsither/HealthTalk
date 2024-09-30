@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "17.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "45 po 12.5-40-50"
+        },
+        {
+            "test_name": "HB (Hemoglobin)",
+            "result_value": "13.6",
+            "unit_of_measurement": "s/g",
+            "reference_range": "13.6 S0-620 20-800"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "75000",
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        }
+    ]
+}

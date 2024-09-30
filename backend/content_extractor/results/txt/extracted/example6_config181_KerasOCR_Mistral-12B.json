@@ -1,0 +1,76 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0211",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "RBC count": {
+                    "value": "5.2 - 15.5",
+                    "unit": "g/L"
+                },
+                "PCV": {
+                    "value": 57.5,
+                    "status": "high"
+                },
+                "MCV": {
+                    "value": 83.775
+                },
+                "MCH": {
+                    "value": 27.2
+                },
+                "MCHC": {
+                    "value": 328
+                },
+                "RDW": {
+                    "value": 13.6
+                },
+                "WBC count": {
+                    "value": 164,
+                    "unit": "/L"
+                },
+                "Neutrophils": {
+                    "value": 60
+                },
+                "Lymphocytes": {
+                    "value": 31
+                },
+                "Eosinophils": {
+                    "value": 2
+                },
+                "Monocytes": {
+                    "value": 6
+                },
+                "Platelet count": {
+                    "value": 150000,
+                    "unit": "/µL"
+                }
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "RBC count": "g/L",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC count": "/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Platelet count": "/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

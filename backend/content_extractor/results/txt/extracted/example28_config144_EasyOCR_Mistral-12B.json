@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "'Po Jo",
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": "14.32",
+                "Hct": "46"
+            },
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": "<106 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(70.0 - 99.0)"
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": "0.8 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(0.6 - 1.2)"
+        },
+        {
+            "test_name": "Colesterol Total",
+            "result_value": "240 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "(<240.0)"
+        },
+        {
+            "test_name": "Proteina Total",
+            "result_value": "65.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "(6.0 - 8.3)"
+        }
+    ]
+}

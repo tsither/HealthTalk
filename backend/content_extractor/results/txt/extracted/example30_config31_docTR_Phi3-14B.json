@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 87.5,
+            "unit_of_measurement": "X",
+            "reference_range": "40-50 X"
+        },
+        {
+            "test_name": "Hemoglobin (Hb) - High",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.e"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count - Low",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "40-50 mill/cumm"
+        },
+        {
+            "test_name": "Packed Cell Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "",
+            "reference_range": "27-32 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "",
+            "reference_range": "32-35 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 9000,
+            "unit_of_measurement": "",
+            "reference_range": "50-62 cumm"
+        },
+        {
+            "test_name": "Platelet Count - Borderline",
+            "result_value": 150000,
+            "unit_of_measurement": "cumm",
+            "reference_range": "410000-620000 cumm"
+        }
+    ]
+}

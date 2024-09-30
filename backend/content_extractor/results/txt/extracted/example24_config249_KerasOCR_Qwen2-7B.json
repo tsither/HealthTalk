@@ -1,0 +1,23 @@
+{
+    "Date": "15/06/2023",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": "45"
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit (CHT)",
+            "result_value": "48%",
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 51.0%"
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": "21%",
+            "unit_of_measurement": "%",
+            "reference_range": "16.0 - 29.0%"
+        }
+    ]
+}

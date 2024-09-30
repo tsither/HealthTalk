@@ -1,0 +1,75 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "689578",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "13.0 - 17.0 pg",
+            "unit_of_measurement": "pg",
+            "reference_range": null,
+            "parameters": {
+                "HGB": {
+                    "value": 12.5,
+                    "status": "High"
+                },
+                "HCT": {
+                    "value": 32.8,
+                    "status": null
+                },
+                "PLT": {
+                    "value": 150000,
+                    "status": null
+                }
+            }
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "7.0 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 4.5,
+                "high": 11
+            },
+            "differential_count": {
+                "NEU": {
+                    "value": 62
+                },
+                "LYM": {
+                    "value": 30
+                },
+                "MONO": {
+                    "value": 8
+                },
+                "EOS": {
+                    "value": 0
+                },
+                "BASO": {
+                    "value": 1
+                }
+            }
+        },
+        {
+            "test_name": "RED BLOOD CELL INDICES",
+            "result_value": {
+                "MCV": 90,
+                "MCH": 31
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "27.2 K/µL",
+            "unit_of_measurement": "K/µL",
+            "reference_range": {
+                "low": 150,
+                "high": 410
+            }
+        }
+    ]
+}

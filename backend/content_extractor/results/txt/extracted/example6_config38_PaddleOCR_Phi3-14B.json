@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "13.0 - 17.0 pg",
+            "unit_of_measurement": "LOW I",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": "40 - 101",
+            "unit_of_measurement": "g/L",
+            "reference_range": "3.8 - 5.8 g/dL"
+        },
+        {
+            "test_name": "Hematocrit (HC)",
+            "result_value": "40 - 101",
+            "unit_of_measurement": "%",
+            "reference_range": "35-47%"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "5.6 - 10.8 x 10^9/L",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4.0-11.0"
+        },
+        {
+            "test_name": "Platelet Count (PLT)",
+            "result_value": "27 - 32 x 10^9/L",
+            "unit_of_measurement": "x ean MCHC",
+            "reference_range": "25-45%"
+        }
+    ]
+}

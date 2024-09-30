@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "SampleCollection0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC count": 32.5,
+                "Hemoglobin": 14,
+                "PCV": 34.5,
+                "Platelet count": null,
+                "MCV": null,
+                "MCHC": null,
+                "RDW": null
+            },
+            "unit_of_measurement": {
+                "WBC count": "cells/µL",
+                "Hemoglobin": "g/dL",
+                "PCV": "%",
+                "Platelet count": null,
+                "MCV": "fL",
+                "MCHC": "g/dL",
+                "RDW": "%"
+            },
+            "reference_range": {
+                "WBC count": "4.5 - 11.0 cells/µL",
+                "Hemoglobin": "13.0-17.0 g/dL",
+                "PCV": "36 - 46%",
+                "Platelet count": null,
+                "MCV": "80-100 fL",
+                "MCHC": "32 - 36 g/dL",
+                "RDW": "11.5 - 14.5%"
+            }
+        }
+    ]
+}

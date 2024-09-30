@@ -1,0 +1,45 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4,8 * 10^6 /uL",
+                "VCM": "14,3 fL",
+                "MCV": null,
+                "AMC": null,
+                "Leucicitos": "10,2 * 10^9 /uL"
+            },
+            "unit_of_measurement": {
+                "Hematies": "/uL",
+                "VCM": "fL",
+                "MCV": null,
+                "AMC": null,
+                "Leucicitos": "/uL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Biqqumica",
+            "result_value": {
+                "Glucosa": "ZM) mmoL/L",
+                "Creaunina": null,
+                "Colesterol": "65.0 mg/dL",
+                "Proteina": "14.15 g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mmol/L",
+                "Creaunina": null,
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0112345678",
+        "patient_name": "com drlogypathlabadrlogy",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": {
+                "Count": {
+                    "Lower Limit": "5000",
+                    "Upper Limit": "9000"
+                },
+                "Hemoglobin": {
+                    "Lower Limit": "12.0",
+                    "Upper Limit": "16.0"
+                },
+                "MCV (Mean Corpuscular Volume)": {
+                    "Lower Limit": "75",
+                    "Upper Limit": "100"
+                },
+                "PCV (Packed Cell Volume)": {
+                    "Lower Limit": "34",
+                    "Upper Limit": "52"
+                },
+                "RDW (Red Distribution Width)": {
+                    "Lower Limit": null,
+                    "Upper Limit": null
+                },
+                "Neutrophils": {
+                    "Lower Limit": "3200",
+                    "Upper Limit": "7800"
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

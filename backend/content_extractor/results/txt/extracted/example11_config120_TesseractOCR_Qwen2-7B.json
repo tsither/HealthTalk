@@ -1,0 +1,72 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Ne Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21,
+        "registered_on": "02:31 PM 02 Dec, 2X"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": "12.5",
+                "total_rbc_count": "5.2",
+                "packed_cell_volume": "57.5",
+                "mean_corpuscular_volume": "87.75",
+                "mch": "27.2",
+                "mchc": "32.8",
+                "row": "13.6"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "total_rbc_count": "mill/cumm",
+                "packed_cell_volume": "%",
+                "mean_corpuscular_volume": "fl",
+                "mch": "pg",
+                "mchc": "g/dL",
+                "row": "%"
+            },
+            "reference_range": {
+                "hemoglobin": "13.0-17.0 g/dL",
+                "total_rbc_count": "45-55 mill/cumm",
+                "packed_cell_volume": "40-50 %",
+                "mean_corpuscular_volume": "83-101 fl",
+                "mch": "27 - 32 pg",
+                "mchc": "32.5 - 34.5 g/dL",
+                "row": "11.6-14.0 %"
+            }
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "$000 4000",
+            "unit_of_measurement": "cumm",
+            "reference_range": "4000-11000 cumm"
+        },
+        {
+            "test_name": "DIFFERENTIAL WBC COUNT",
+            "result_value": {
+                "neutrophils": "60",
+                "lymphocytes": "31",
+                "eosinophils": "1",
+                "monocytes": "7",
+                "basophils": "1"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "neutrophils": "50 - 62 %",
+                "lymphocytes": "20-40 %",
+                "eosinophils": "00 - 06 %",
+                "monocytes": "00-10 %",
+                "basophils": "00 - 02 %"
+            }
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": "' 150060",
+            "unit_of_measurement": "cumm",
+            "reference_range": "150060 - 410000 cumm"
+        }
+    ]
+}

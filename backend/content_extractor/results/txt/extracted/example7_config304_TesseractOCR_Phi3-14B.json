@@ -1,0 +1,41 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "PID123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 30
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglon A1C",
+            "result_value": 7.2,
+            "unit_of_measurement": "%",
+            "reference_range": "4% - 6%"
+        },
+        {
+            "test_name": "Fasting Blood Sugar",
+            "result_value": 130,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 210,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "less than 200 mg/dL"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "greater than or equal to 40 mg/dL"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": null,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "less than 130 mg/dL"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 30.5,
+                "hemoglobina": 14.4,
+                "vcm": 80.1,
+                "hcm": 219,
+                "pg": 21,
+                "chcm": 356
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dl",
+                "vcm": "fl",
+                "hcm": "fl",
+                "pg": "pg",
+                "chcm": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie plaquetar",
+            "result_value": {
+                "plaquetas": 208,
+                "vpm": 91,
+                "adp": 162,
+                "plaquetocrito": 0.189
+            },
+            "unit_of_measurement": {
+                "plaquetas": "loebul",
+                "vpm": "loebul/μl",
+                "adp": "loebul",
+                "plaquetocrito": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Serie blanca",
+            "result_value": {
+                "neutrofilos": 75,
+                "eosinofilos": 1000,
+                "basofilos": 120,
+                "monocitos": 80,
+                "linfocitos": 35
+            },
+            "unit_of_measurement": {
+                "neutrofilos": "%",
+                "eosinofilos": "%",
+                "basofilos": "%",
+                "monocitos": "%",
+                "linfocitos": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "21 Dec 2021",
+    "patient_information": {
+        "patient_id": "2as675",
+        "patient_name": "Jos Pa",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC Total Count": 6.0,
+                "RBC Total Count": 4.0,
+                "HGB (Hemoglobin)": 125,
+                "HCT (Hematocrit)": 37.5,
+                "MCV (Mean Corpuscular Volume)": 98,
+                "MCH (Mean Corpuscular Hemoglobin)": 32,
+                "MCHC (Mean Corpuscular Hemoglobin Concentration)": 34,
+                "Platelet Count": 300
+            },
+            "unit_of_measurement": {
+                "WBC Total Count": "10^9/L",
+                "RBC Total Count": "10^12/L",
+                "HGB (Hemoglobin)": "g/dL",
+                "HCT (Hematocrit)": "%",
+                "MCV (Mean Corpuscular Volume)": "fl",
+                "MCH (Mean Corpuscular Hemoglobin)": "pg",
+                "MCHC (Mean Corpuscular Hemoglobin Concentration)": "g/dL",
+                "Platelet Count": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

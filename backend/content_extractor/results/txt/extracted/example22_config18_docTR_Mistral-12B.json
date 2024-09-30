@@ -1,0 +1,42 @@
+{
+    "Date": "Dec.2 X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": "Yash M. Patel"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hb": {
+                    "value": 5.2,
+                    "unit": "g/dL",
+                    "reference_range": {
+                        "low": 40,
+                        "high": 50
+                    }
+                },
+                "RBC": {
+                    "value": 31,
+                    "unit": "milicumm",
+                    "reference_range": {
+                        "low": 27,
+                        "high": 32
+                    }
+                },
+                "WBC": {
+                    "value": null,
+                    "unit": "cumm",
+                    "reference_range": null
+                },
+                "PLT": {
+                    "value": null,
+                    "unit": "milicumm",
+                    "reference_range": null
+                }
+            }
+        }
+    ]
+}

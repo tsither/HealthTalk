@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "15 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.8",
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "4.5 - 5.5 x10^6/uL"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 18.0 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "40.0",
+            "unit_of_measurement": "%",
+            "reference_range": "40.0 - 54.0 %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "125",
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 96 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32.0 - 36.0 g/dL"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": "14.0",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5 - 14.5 %"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "6.8",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5 - 11.0 x10^3/uL"
+        },
+        {
+            "test_name": "PLT Count",
+            "result_value": "27",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "150.0 - 450.0 x10^3/uL"
+        }
+    ]
+}

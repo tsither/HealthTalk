@@ -1,0 +1,52 @@
+{
+    "Date": "02/12/20XX 14:00",
+    "patient_information": {
+        "patient_id": "ATS 125 SHIVAM BUNGALOW S G ROAD",
+        "patient_name": "PATEL YASH M",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count CBC",
+            "result_value": "Hemoglobin: 125g/dL, RBC count: 52451/mm3, PCV: 57.5%, MCV: 87.7fL, MCH: pg, MCHC: 32.8g/L, RDW: 13.6%",
+            "unit_of_measurement": null,
+            "reference_range": [
+                {
+                    "name": "Hemoglobin",
+                    "range": "130-170"
+                },
+                {
+                    "name": "RBC count",
+                    "range": "4000-5500"
+                },
+                {
+                    "name": "PCV",
+                    "range": "40-50%"
+                },
+                {
+                    "name": "MCV",
+                    "range": "83-101fL"
+                },
+                {
+                    "name": "MCH",
+                    "range": "27-32pg"
+                },
+                {
+                    "name": "MCHC",
+                    "range": "34.5g/L"
+                },
+                {
+                    "name": "RDW",
+                    "range": "116-140%"
+                }
+            ]
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

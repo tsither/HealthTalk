@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": 7.2,
+                "RBC": 5.0,
+                "HGB": 15.5,
+                "PLT": 230,
+                "NEU%": 65,
+                "LYM%": 30,
+                "MONO%": 5
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "HGB": "g/dL",
+                "PLT": "x10^9/L",
+                "%": null
+            },
+            "reference_range": null
+        }
+    ]
+}

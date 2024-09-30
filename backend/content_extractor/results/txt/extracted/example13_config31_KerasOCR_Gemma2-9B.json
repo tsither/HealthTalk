@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 8.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "white blood cells",
+            "result_value": 9,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "4.5-11 K/uL"
+        },
+        {
+            "test_name": "platelets",
+            "result_value": 206,
+            "unit_of_measurement": "K/uL",
+            "reference_range": "150-450 K/uL"
+        }
+    ]
+}

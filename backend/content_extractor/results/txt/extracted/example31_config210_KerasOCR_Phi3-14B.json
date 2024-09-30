@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "unspecified",
+        "patient_sex": "male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 450,
+            "unit_of_measurement": "x",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": 52,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.7-6.1 million/mcL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 4000,
+            "unit_of_measurement": "cells/mcL",
+            "reference_range": "4500-11000 cells/mcL"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 2000,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

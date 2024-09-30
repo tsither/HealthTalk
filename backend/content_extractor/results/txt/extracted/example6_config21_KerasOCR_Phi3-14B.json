@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 125,
+                "rbc count": "Low",
+                "total rbc count": 170,
+                "pcv": 48.7
+            },
+            "unit_of_measurement": {
+                "hemoglobin": null,
+                "rbc count": null,
+                "total rbc count": null,
+                "pcv": null
+            },
+            "reference_range": {
+                "hemoglobin": "120-160",
+                "rbc count": "4.5-5.9 x 10^12/L",
+                "total rbc count": "3.8-5.7 x 10^12/L",
+                "pcv": "38%-50%"
+            }
+        }
+    ]
+}

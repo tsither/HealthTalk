@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 139.0,
+                "HTC": 40.0,
+                "PCV": 68.0,
+                "MCV": 71.0,
+                "MCH": 25.0,
+                "MCHC": 35.0,
+                "PLT": 98.0
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dl",
+                "HTC": "%",
+                "PCV": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dl",
+                "PLT": "x10^3/μl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica",
+            "result_value": {
+                "Glucosa": 90.0,
+                " Creatinina": 2.6,
+                "Uric Acid": 6.5
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Creatinina": "mg/dl",
+                "Uric Acid": "mg/dl"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": {
+                "Sodio": 140.0,
+                "Potasio": 3.5
+            },
+            "unit_of_measurement": {
+                "Sodio": "mEq/l",
+                "Potasio": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

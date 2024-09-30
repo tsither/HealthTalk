@@ -1,0 +1,92 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Packed Cell Volume)",
+            "result_value": 311,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin (Hb) Count",
+            "result_value": 231,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PO2 (Partial Pressure of Oxygen in Blood)",
+            "result_value": 0.4351,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 130.8,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 408,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "count": 101,
+                    "percentage": 25
+                },
+                {
+                    "type": "Lymphocytes",
+                    "count": 328,
+                    "percentage": 81
+                },
+                {
+                    "type": "Monocytes",
+                    "count": 47,
+                    "percentage": 12
+                }
+            ],
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count (Count o sos)",
+            "result_value": [
+                {
+                    "count": 62,
+                    "size": "large"
+                },
+                {
+                    "platelets": 40
+                },
+                {
+                    "total_platelets": 135
+                }
+            ],
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

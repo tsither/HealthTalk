@@ -1,0 +1,53 @@
+{
+    "Date": "06.12.202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "02 05711",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "125-170 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.55 x 10^6",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "5350",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "20 x 10^3",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150,000-400,000 cells/µL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "41%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "34.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

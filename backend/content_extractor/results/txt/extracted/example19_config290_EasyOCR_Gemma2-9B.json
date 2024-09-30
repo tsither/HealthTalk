@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 170,
+            "unit_of_measurement": "g/L",
+            "reference_range": "110 - 160 g/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 110,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 160000,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        }
+    ]
+}

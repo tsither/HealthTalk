@@ -1,0 +1,29 @@
+{
+    "Date": "0711",
+    "patient_information": {
+        "patient_id": "101",
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 11.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 5.257,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.5-11.0 x10^9/L"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 367,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

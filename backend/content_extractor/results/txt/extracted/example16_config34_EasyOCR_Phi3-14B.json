@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 36
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hbl)",
+            "result_value": 140,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Red Blood Cell count (rbc)",
+            "result_value": 457,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (mcv)",
+            "result_value": 80,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Total White Blood Cell count (wbc total) - Differential",
+            "result_value": 575,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Neutrophils (% of wbc)",
+            "result_value": 55.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Lymphocytes (% of wbc)",
+            "result_value": 15,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

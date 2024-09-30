@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "I jO t o00d",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (Cbc)",
+            "result_value": [
+                {
+                    "Hemoglobin": null
+                },
+                {
+                    "Platelet count": null
+                },
+                {
+                    "Total RBCs count": null
+                }
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "x10^9/L",
+                "x10^12/L"
+            ],
+            "reference_range": [
+                {
+                    "Hemoglobin": "None"
+                },
+                {
+                    "Platelet count": "4.5-5.5 x10^9/L"
+                },
+                {
+                    "Total RBCs count": "3.85-5.82 x10^12/L"
+                }
+            ]
+        }
+    ]
+}

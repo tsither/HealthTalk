@@ -1,0 +1,26 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0i231s6789",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": {
+                "adults": {
+                    "low": 75,
+                    "high": 170
+                },
+                "children": {
+                    "low": 9,
+                    "high": 13
+                }
+            }
+        }
+    ]
+}

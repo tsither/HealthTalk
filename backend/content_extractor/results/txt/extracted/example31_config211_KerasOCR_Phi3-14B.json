@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count Investigation Result",
+            "result_value": "Hemoglobin: 125, RBC count (total): 5.25, Platelet count: 70",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hemoglobin": [
+                    3.4,
+                    13.1
+                ],
+                "RBC count (total)": [
+                    4.5,
+                    5.5
+                ],
+                "Platelet count": [
+                    0,
+                    "n/a"
+                ]
+            }
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "13.6",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

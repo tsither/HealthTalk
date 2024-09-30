@@ -1,0 +1,65 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "FILL",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17"
+        },
+        {
+            "test_name": "total rbc",
+            "result_value": "52 es1 55 million cells/cumm count",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv packed cell volume",
+            "result_value": "51.5",
+            "unit_of_measurement": "%",
+            "reference_range": "[60, 83] fl"
+        },
+        {
+            "test_name": "imcv corpuscular volume",
+            "result_value": "87.75",
+            "unit_of_measurement": "",
+            "reference_range": "[83, 101] fl"
+        },
+        {
+            "test_name": "mch mean hemoglobin concentration",
+            "result_value": "272",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "mchc mch coefficient of variation",
+            "result_value": "3254",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[32, 38] g/dL"
+        },
+        {
+            "test_name": "rdw red cell distribution width",
+            "result_value": "13.16",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": "60",
+            "unit_of_measurement": "%",
+            "reference_range": "[5.0, 9.8] cells/cumm"
+        },
+        {
+            "test_name": "differential wbc count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

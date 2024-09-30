@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "HGB": "13.2",
+                "PLT": "250",
+                "NEU": "48",
+                "LYM": "40",
+                "MONO": "8"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0",
+                "RBC": "4.4-6.2",
+                "HGB": "12.0-18.0",
+                "PLT": "150-400",
+                "NEU": "40-70",
+                "LYM": "30-50",
+                "MONO": "3-11"
+            }
+        },
+        {
+            "test_name": "CMP (Chemistry)",
+            "result_value": {
+                "GLU": "98",
+                "BUN": "15",
+                "CREAT": "0.9",
+                "NA": "140",
+                "K": "4.2",
+                "CO2": "26",
+                "Ca": "9.5"
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREAT": "mg/dL",
+                "NA": "mmol/L",
+                "K": "mmol/L",
+                "CO2": "mmol/L",
+                "Ca": "mmol/L"
+            },
+            "reference_range": {
+                "GLU": "70-99",
+                "BUN": "6-20",
+                "CREAT": "0.6-1.2",
+                "NA": "135-145",
+                "K": "3.6-5.2",
+                "CO2": "22-30",
+                "Ca": "8.8-10.8"
+            }
+        }
+    ]
+}

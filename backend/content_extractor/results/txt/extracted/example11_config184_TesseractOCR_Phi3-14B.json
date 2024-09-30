@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Nee Patel",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                {
+                    "Hemoglobin": 12.5,
+                    "unit_of_measurement": "g/dL",
+                    "reference_range": "13.0-17.9"
+                },
+                {
+                    "Total RBC count": 45,
+                    "unit_of_measurement": "mill/cumm",
+                    "reference_range": null
+                },
+                {
+                    "Packed Cell Volume (PCV)": 7.5,
+                    "unit_s of_measurement": "*",
+                    "reference_range": "40-50%"
+                }
+            ]
+        }
+    ]
+}

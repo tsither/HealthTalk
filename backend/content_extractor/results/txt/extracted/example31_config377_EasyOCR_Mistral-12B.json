@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1234567890",
+        "patient_name": "Yash Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 8.1,
+                "RBC": "No result",
+                "HGB": "No result",
+                "PLT": "No result",
+                "MCV": "No result"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": null,
+                "HGB": null,
+                "PLT": null,
+                "MCV": null
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10.9
+                },
+                "RBC": {
+                    "min": null,
+                    "max": null
+                },
+                "HGB": {
+                    "min": null,
+                    "max": null
+                },
+                "PLT": {
+                    "min": null,
+                    "max": null
+                },
+                "MCV": {
+                    "min": null,
+                    "max": null
+                }
+            }
+        }
+    ]
+}

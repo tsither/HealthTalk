@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 2021",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.08,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "12-18 g/dl"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "37-52%"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.16,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0-6.1 million/µL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 97.5,
+            "unit_of_measurement": "fl",
+            "reference_range": "82-98 fl"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "platelets/µL",
+            "reference_range": null
+        }
+    ]
+}

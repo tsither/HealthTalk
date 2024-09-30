@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count (CBC)",
+            "result_value": 8275,
+            "unit_of_measurement": "WBC",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 125,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte Count (RBC)",
+            "result_value": 84000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 31500,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        }
+    ]
+}

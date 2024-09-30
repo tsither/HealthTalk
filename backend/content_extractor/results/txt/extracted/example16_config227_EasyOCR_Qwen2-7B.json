@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin (Hb)",
+            "result_value": 170.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "total RBC",
+            "result_value": 5.55,
+            "unit_of_measurement": "millions/cmm",
+            "reference_range": null
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": 50.9,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": 87.175,
+            "unit_of_measurement": "fL",
+            "reference_range": [
+                834,
+                901
+            ]
+        },
+        {
+            "test_name": "red cell distribution width (RDW)",
+            "result_value": 136,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

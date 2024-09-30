@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "RBC: 4.5 million/uL",
+            "unit_of_measurement": "uL",
+            "reference_range": "4.0-5.5 million/uL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7,000 cells/uL",
+            "unit_of_measurement": "uL",
+            "reference_range": "4,500-11,000 cells/uL"
+        },
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "Platelets: 250,000/uL",
+            "unit_of_measurement": "uL",
+            "reference_range": "150,000-450,000/uL"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "Glucose: 95 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110 mg/dL"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "Sodium: 138 mmol/L",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145 mmol/L"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "Potassium: 4.0 mEq/L",
+            "unit_of_measurement": "mEq/L",
+            "reference_range": "3.5-5.0 mEq/L"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": "Bicarbonate: 24 mmol/L",
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "22-26 mmol/L"
+        }
+    ]
+}

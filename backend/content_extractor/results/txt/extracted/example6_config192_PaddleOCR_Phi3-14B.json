@@ -1,0 +1,46 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Reference Value Borderlinc"
+            ],
+            "unit_of_measurement": [
+                "Mill/Cumm",
+                "5p/6 cumm",
+                "7p/6 5n:coso xec* cc.w .r.sy J"
+            ],
+            "reference_range": [
+                "150000 - 410000"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": [
+                32.8
+            ],
+            "unit_of_measurement": [
+                "p/6 cumm"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": [
+                5,
+                700
+            ],
+            "unit_of_measurement": [
+                "x 10^9 / L"
+            ],
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.0-17.0]"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[4.5 - 5.5]"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "12.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": "57.5",
+            "unit_of_measurement": "Unit",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC",
+            "result_value": "27.2",
+            "unit_of_measurement": "1000 cells/μL",
+            "reference_range": "[4.5 - 5.5]"
+        },
+        {
+            "test_name": "WBC DIFFERENTIAL COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[32.8, Neutrophils: 40 - 50%, Lymphocytes: 13.6 - 101%, Eosinophils: 27 - 32%, Monocytes: 0.6% - 1.0%, Basophils: 0.6% - 1.0%]"
+        },
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6 - 14.0]"
+        }
+    ]
+}

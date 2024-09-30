@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglo**bin (Hb)",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV),",
+            "result_value": "40-50%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "27 - 32 *10^9/L",
+            "unit_of_measurement": "*10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "57.5 *10^9/L",
+            "unit_of_measurement": "*10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cells (RBC) count",
+            "result_value": "4.5 - 5.5 *10^6 /mm3",
+            "unit_of_measurement": "*10^6/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cells (WBC) count",
+            "result_value": "83 - 101 *10^9/L",
+            "unit_of_measurement": "*10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": [
+                {
+                    "Neutrophils": "27 - 32%"
+                },
+                {
+                    "Eosinophils": "5.0 - 6.4%"
+                },
+                {
+                    "Monocytes": "3.1 - 8.9%"
+                },
+                {
+                    "Basophils": "0.5 - 2.0%"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

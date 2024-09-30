@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shiv Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Type (Hb) count",
+            "result_value": 125,
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 12.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[37 - 50]"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 27.2,
+            "unit_of_measurement": "",
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "Basoph Mor ytes",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "[13.0 - 17.0]"
+        },
+        {
+            "test_name": "PLATELET",
+            "result_value": 328,
+            "unit_of_measurement": "",
+            "reference_range": "[14.0 - 34.5]"
+        }
+    ]
+}

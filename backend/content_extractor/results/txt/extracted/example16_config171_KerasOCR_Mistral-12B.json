@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "12-18 g/dl"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.5,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.4-6.1 million/µL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "26-32 pg"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.1,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "Not provided",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

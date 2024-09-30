@@ -1,0 +1,23 @@
+{
+    "Date": "20/11/2023",
+    "patient_information": {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Lipid Profile",
+            "result_value": "213 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "100-200 mg/dL"
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": "35 u/L",
+            "unit_of_measurement": "u/L",
+            "reference_range": "5-40 u/L"
+        }
+    ]
+}

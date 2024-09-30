@@ -1,0 +1,33 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "Not available",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": "Hemoglobin 12.5 g/dt, Total RBC count 5.2 mill/cumm, PCV 57.5 %, MCV 87.75 fl, MCH 27.2 pg, MCHC 32.8 g/dl, Hb ROW 13.6 %",
+            "unit_of_measurement": [
+                "g/dt",
+                "mill/cumm",
+                "%",
+                "fl",
+                "pg",
+                "g/dl",
+                "%"
+            ],
+            "reference_range": [
+                "13.0-17.0 g/dt",
+                "45-55 mill/cumm",
+                "40-50 %",
+                "83-101 fl",
+                "27 - 32 pg",
+                "32.5-34.5 g/dl",
+                "11.6- 14.0 %"
+            ]
+        }
+    ]
+}

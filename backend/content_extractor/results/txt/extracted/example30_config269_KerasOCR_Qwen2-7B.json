@@ -1,0 +1,53 @@
+{
+    "Date": "091214",
+    "patient_information": {
+        "patient_id": "0124sg769",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_dob": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": 125,
+            "unit_of_measurement": "hbj",
+            "reference_range": {
+                "low": "11.0",
+                "high": "17.1"
+            }
+        },
+        {
+            "test_name": "RBC count (Total Red Blood Cells)",
+            "result_value": 454,
+            "unit_of_measurement": "count/μm",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": 50,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "high": "41.5"
+            }
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 81.75,
+            "unit_of_measurement": "b3s",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 28,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW-CV (Red Cell Distribution Width - Coefficient of Variation)",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

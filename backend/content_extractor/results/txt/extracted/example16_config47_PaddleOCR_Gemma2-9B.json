@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.32",
+            "unit_of_measurement": "mill/cumm",
+            "reference_range": "4.0 - 5.5 mill/cumm"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "89",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "27.2",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "13.0 - 17.0 x10^9/L"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "11.6",
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "4.0 - 11.0 x10^9/L"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose",
+            "result_value": 80,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-105"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result_value": 200,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<240"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result_value": 45,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": ">60 (male), >55 (female)"
+        }
+    ]
+}

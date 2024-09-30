@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C 0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 15.5,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Adults": {
+                    "min": 7.5,
+                    "max": 13.5
+                },
+                "Newborns": {
+                    "min": 9.0,
+                    "max": 17.0
+                }
+            },
+            "comments": "Reactive thrombo"
+        }
+    ]
+}

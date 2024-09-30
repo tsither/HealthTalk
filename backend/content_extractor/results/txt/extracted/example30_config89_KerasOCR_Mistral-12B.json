@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "09127a5675",
+        "patient_name": "Patel Shivam",
+        "patient_sex": null,
+        "patient_age": 23
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 4000,
+                "RBC": 5.55,
+                "Hb": 12.5,
+                "Hct": 47,
+                "MCV": 87.75,
+                "MCH": 30,
+                "MCHC": 34.6,
+                "PLT": 250000
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "10^6 cells/mm³",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "cells/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

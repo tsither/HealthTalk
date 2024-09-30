@@ -1,0 +1,47 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "- a 120"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "~ 279"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 203,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "400 V.PM."
+        },
+        {
+            "test_name": "% of WBC",
+            "result_value": 18.0,
+            "unit_of_measurement": "%",
+            "reference_range": "18.0 - 18.4"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 11.2,
+            "unit_of_measurement": "%",
+            "reference_range": "20 - 12.0"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": "k/uL",
+            "reference_range": "= 00.0"
+        }
+    ]
+}

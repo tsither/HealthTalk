@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "drlogypathlab@drlogy.com t Jo L",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 87.75,
+                "RBC": 12.5,
+                "HGB": 57.5,
+                "PLT": 32.8,
+                "NEUT": 13.6
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEUT": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "3.8 - 6.2",
+                "HGB": "12.0 - 16.0",
+                "PLT": "150 - 450",
+                "NEUT": "40 - 75"
+            }
+        }
+    ]
+}

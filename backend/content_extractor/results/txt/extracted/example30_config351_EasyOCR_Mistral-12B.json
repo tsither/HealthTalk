@@ -1,0 +1,77 @@
+{
+    "Date": "2023-01-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "HGB": 13.5,
+                "PLT": 220
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4,
+                    "max": 10
+                },
+                "RBC": {
+                    "min": 3.8,
+                    "max": 5.6
+                },
+                "HGB": {
+                    "min": 12,
+                    "max": 16
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": {
+                "TC": 189,
+                "TG": 123,
+                "HDL": 45,
+                "LDL": 107
+            },
+            "unit_of_measurement": {
+                "TC": "mg/dL",
+                "TG": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL"
+            },
+            "reference_range": {
+                "TC": {
+                    "min": 130,
+                    "max": 240
+                },
+                "TG": {
+                    "min": 0,
+                    "max": 150
+                },
+                "HDL": {
+                    "min": 40,
+                    "max": 60
+                },
+                "LDL": {
+                    "min": 70,
+                    "max": 190
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Cell Count",
+            "result_value": 5.5,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "4-5.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 72.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 80,
+            "unit_of_measurement": "%",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        }
+    ]
+}

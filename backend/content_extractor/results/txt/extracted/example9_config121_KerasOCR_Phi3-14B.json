@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17.5] g/dL for males"
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": 8,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "[3.9-5.6] mmol/L"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": 0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[125-200] mg/dL"
+        },
+        {
+            "test_name": "Glycated Hemoglobin (HbA1c)",
+            "result_value": 8,
+            "unit_of_measurement": "%",
+            "reference_range": "[4-5.6]%"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Date": "02/Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "shivam s g road bungalows",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "hospital": "drlogy pathology lab"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "gldl",
+            "reference_range": {
+                "male": "135-175",
+                "female": "120-155"
+            }
+        }
+    ]
+}

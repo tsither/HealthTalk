@@ -1,0 +1,39 @@
+{
+    "Date": "03.02.2021",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC count (Mb)",
+            "result_value": 80001,
+            "unit_of_measurement": "cells/mm³"
+        },
+        {
+            "test_name": "Hemoglobin concentration",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "Mean corpuscular hemoglobin (MCH)",
+            "result_value": 16.0,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 52.0,
+            "unit_of_measurement": "%",
+            "reference_range": "45-53%"
+        },
+        {
+            "test_name": "Total WBC count (cells/mm³)",
+            "result_value": 7280,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000 cells/mm³"
+        }
+    ]
+}

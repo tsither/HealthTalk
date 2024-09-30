@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "PID : 555 g/dL, Hemoglobin (Hb) - LOW: 83-101g/dl, RBC COUNT - HIGH: 87.75",
+            "unit_of_measurement": null,
+            "reference_range": "13.0 - 17.0 g/dL"
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": "60",
+            "unit_of_measurement": null,
+            "reference_range": "4500 - 11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "31.00",
+            "unit_of_measurement": null,
+            "reference_range": "150000 - 400000"
+        }
+    ]
+}

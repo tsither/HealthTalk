@@ -1,0 +1,48 @@
+{
+    "Date": "02/01/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah",
+        "patient_sex": "male",
+        "patient_age": 55,
+        "pid": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-175"
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 6.89578,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 82,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-94"
+        },
+        {
+            "test_name": "Eosinophil Count",
+            "result_value": 136,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophil Count",
+            "result_value": 9000,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 3257,
+            "unit_of_measurement": "platelets/μL",
+            "reference_range": "150-450"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "masculino",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematocrito": 41.9,
+                "Hemoglobina": 14.5,
+                "Glóbulos Rojos": 690.3,
+                "Leucocitos": 10218,
+                "Placaeta": 24.2
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Química básica",
+            "result_value": {
+                "Sodio": 145.0,
+                "Potasio": 3.8,
+                "Creatinina": 1.15,
+                "Urea": 240
+            },
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Ferratina",
+            "result_value": 20,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": "10.0-120.0"
+        },
+        {
+            "test_name": "Hemoglobina A1C",
+            "result_value": 575.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "TGO",
+            "result_value": 35,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "TGP",
+            "result_value": 80,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Triglicéridos",
+            "result_value": 2.8,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "0.2-1.5"
+        },
+        {
+            "test_name": "HDL colesterol",
+            "result_value": 50,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-110"
+        }
+    ]
+}

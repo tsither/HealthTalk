@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "PID : 555 g/dL Result mill/cumm Low 13. cu",
+            "unit_of_measurement": "g/dL, mm^3",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "52 83 - 101 RBC count 27-",
+            "unit_of_measurement": "pg, mm^3",
+            "reference_range": "40-50 pg"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": "12.5 87.75 % RBC count 27-",
+            "unit_of_measurement": "%, x10^6/uL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "32.8 32.5 - 34.5 cumm",
+            "unit_of_measurement": "%, %",
+            "reference_range": "11.6-14.0"
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin (MCH)",
+            "result_value": "13.6 % % 9000",
+            "unit_of_measurement": "%, pg",
+            "reference_range": "27-33"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": "20 - 40 WBC count : 60 Total WBC count : 31",
+            "unit_of_measurement": "%, %",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential White Blood Cell Count (WBC)",
+            "result_value": "Neutrophils 7 Lymphocytes 1 Eosinophils Borderline 150000 Monocytes 150000 Basophils PLATELET COUNT Platelet Count : ****",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "Date": "02/12/2XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": [
+                "Hemoglobin (Hb)",
+                "5.2"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "mill/cumm"
+            ],
+            "reference_range": [
+                "13.0- 17.e g/dL",
+                "4.5-5.5 mill/cumm"
+            ]
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": [
+                "Total RBC count",
+                "9000"
+            ],
+            "unit_of_measurement": [
+                "WBC count",
+                "cumm"
+            ],
+            "reference_range": [
+                "4000-11000 cumm",
+                "null"
+            ]
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": [
+                "Platelet Count",
+                "150000"
+            ],
+            "unit_of_measurement": [
+                "cumm",
+                "null"
+            ],
+            "reference_range": [
+                "410000 cumm",
+                "null"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": 10.764,
+            "unit_of_measurement": "L/h",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematies",
+            "result_value": 4.75,
+            "unit_of_measurement": "10E6/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HEMOGLOBINA",
+            "result_value": 4.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                5.5,
+                13.3
+            ]
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 12.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                39.5
+            ]
+        },
+        {
+            "test_name": "V.C.M.",
+            "result_value": 36.0,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "H.C,M.",
+            "result_value": 80.0,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                27.9
+            ]
+        }
+    ]
+}

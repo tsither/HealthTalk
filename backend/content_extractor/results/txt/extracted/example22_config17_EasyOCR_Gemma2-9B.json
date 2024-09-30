@@ -1,0 +1,47 @@
+{
+    "Date": "2023.12.27",
+    "patient_information": {
+        "patient_id": "0123a56789",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "57 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "110-150 g/dL"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": "689575/",
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Indices",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "575 cells/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4000-11000 cells/µL"
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "9000 cells/µL",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-410000 cells/µL"
+        }
+    ]
+}

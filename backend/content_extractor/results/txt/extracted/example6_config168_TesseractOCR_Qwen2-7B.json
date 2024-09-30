@@ -1,0 +1,29 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "A123B",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 6.5,
+            "unit_of_measurement": "×10^3/μL",
+            "reference_range": "[4.5-11]"
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": 89,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[60-110]"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": 175,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[<200]"
+        }
+    ]
+}

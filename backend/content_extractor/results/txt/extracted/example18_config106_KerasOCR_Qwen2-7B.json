@@ -1,0 +1,37 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": null,
+        "patient_dob": null,
+        "patient_ssn": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": null,
+            "unit_of_measurement": "/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "575",
+            "unit_of_measurement": "/μL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "10^3/μL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

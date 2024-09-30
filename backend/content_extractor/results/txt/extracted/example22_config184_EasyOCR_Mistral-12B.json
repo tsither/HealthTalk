@@ -1,0 +1,47 @@
+{
+    "Date": "27 DEC 2021",
+    "patient_information": {
+        "patient_id": "04123as675",
+        "patient_name": "Shah Mumbat Patel Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 6.1,
+                "RBC": 4.79,
+                "Hb": 12.5,
+                "HCT": 38,
+                "MCV": 75.9,
+                "MCH": 26.1,
+                "MCHC": 34.5,
+                "RDW-CV": 15.2,
+                "PLT": 207
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": "3.5 - 10.5",
+                "RBC": "4.5 - 6.0",
+                "Hb": "12.0 - 18.0",
+                "HCT": "40 - 52",
+                "MCV": "78 - 98",
+                "MCH": "26 - 34",
+                "MCHC": "30 - 36",
+                "RDW-CV": "11.5 - 14.5",
+                "PLT": "150 - 450"
+            }
+        }
+    ]
+}

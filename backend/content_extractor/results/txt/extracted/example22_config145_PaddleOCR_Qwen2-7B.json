@@ -1,0 +1,53 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 27.2,
+            "unit_of_measurement": "fL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "RBC Count Total",
+            "result_value": 13.6,
+            "unit_of_measurement": "k/u/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean CTD (MCV)",
+            "result_value": 32.8,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "32.8"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RDW Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

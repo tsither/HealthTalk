@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hipeeticer Momenter",
+        "patient_sex": "Varon",
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Completo",
+            "result_value": {
+                "VCM": 4.8,
+                "HCM": 14.3,
+                "Leucocitos": 89,
+                "Glucosa": 29,
+                "Creatinina": 65,
+                "Colesterol": 20,
+                "Proteina": 4.5
+            },
+            "unit_of_measurement": {
+                "VCM": "x10^9/L",
+                "HCM": "g/L",
+                "Leucocitos": "%",
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteina": "g/dL"
+            },
+            "reference_range": {
+                "VCM": "[0.7-1.1] x10^9/L",
+                "HCM": "240-480 g/L",
+                "Leucocitos": "(55.0 - 135.0) %",
+                "Glucosa": "65-110 mg/dL",
+                "Creatinina": "(0.7-1.1) mg/dL",
+                "Colesterol": "<240.0 mg/dL",
+                "Proteina": "[65-80] g/dL"
+            }
+        },
+        {
+            "test_name": "Hierro y Ferritina",
+            "result_value": {
+                "Hierro": 10,
+                "Ferritina": 23
+            },
+            "unit_of_measurement": {
+                "Hierro": "mg/dL",
+                "Ferritina": "ng/mL"
+            },
+            "reference_range": {
+                "Hierro": "(5-32) mg/dL",
+                "Ferritina": "(10-300) ng/mL"
+            }
+        },
+        {
+            "test_name": "Enzimas Hepáticas",
+            "result_value": {
+                "GOT": 48,
+                "GPT": 65,
+                "GGT": 220
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L"
+            },
+            "reference_range": {
+                "GOT": "(0-41) U/L",
+                "GPT": "(5-32) U/L",
+                "GGT": "(9-48) U/L"
+            }
+        },
+        {
+            "test_name": "Pruebas de Función Renal",
+            "result_value": {
+                "Bilirrubina Total": 6.6,
+                "Bilirrubina Fósforica": 10
+            },
+            "unit_of_measurement": {
+                "Bilirrubina Total": "mg/dL",
+                "Bilirrubina Fósforica": "mg/dL"
+            },
+            "reference_range": {
+                "Bilirrubina Total": "(0.8-40) mg/dL",
+                "Bilirrubina Fósforica": "(1-2) mg/dL"
+            }
+        },
+        {
+            "test_name": "Albúmina",
+            "result_value": 23,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[3.4-4.8] g/dL"
+        }
+    ]
+}

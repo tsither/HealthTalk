@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "0123456789 P f0 I abed",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL] (Male)",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": 32,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": "50.0 - 150.0"
+        },
+        {
+            "test_name": "LYMPHOCYTE COUNT",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": "3.2 - 4.2"
+        },
+        {
+            "test_name": "RED BLOOD CELL COUNT",
+            "result_value": 105,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

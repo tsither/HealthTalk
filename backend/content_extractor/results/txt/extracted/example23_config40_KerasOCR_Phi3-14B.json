@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Glycated Hemoglobin (HbA1C)",
+            "result_value": 6.0,
+            "unit_of_measurement": "%",
+            "reference_range": "4.8-5.6%"
+        },
+        {
+            "test_name": "Fasting Blood Sugar (FBG)",
+            "result_value": 120,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Postprandial Blood Sugar (PPBS)",
+            "result_value": 150,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<140 mg/dL"
+        },
+        {
+            "test_name": "Random Blood Sugar (RBS)",
+            "result_value": 250,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<140 mg/dL"
+        }
+    ]
+}

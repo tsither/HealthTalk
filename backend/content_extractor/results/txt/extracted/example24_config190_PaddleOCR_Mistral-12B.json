@@ -1,0 +1,42 @@
+{
+    "Date": "02 Dec, 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "245",
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential Count",
+            "result_value": [
+                {
+                    "cell_type": "Neutrophils",
+                    "count": "59"
+                },
+                {
+                    "cell_type": "Monocytes",
+                    "count": "6"
+                },
+                {
+                    "cell_type": "Lymphocytes",
+                    "count": "32"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "15.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7500,
+                "RBC": 4.98,
+                "HGB": 14.2,
+                "PLT": 243000
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "million cells/mm³",
+                "HGB": "g/dL",
+                "PLT": "cells/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": 16,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "<20 mm/hr"
+        }
+    ]
+}

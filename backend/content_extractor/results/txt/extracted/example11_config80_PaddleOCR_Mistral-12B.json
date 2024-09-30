@@ -1,0 +1,55 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5",
+                "Total RBC count": "5.2",
+                "Packed Cell Volume (PCV)": "4.5",
+                "Mean Corpuscular Volume (MCV)": "57.5",
+                "MCH": "83",
+                "Calculated MCH": "27.2 fL",
+                "RDW pg": "32.8",
+                "Total WBC count": "11.6-14.0",
+                "Neutrophils cumm": "60",
+                "Lymphocytes": "50 - 62",
+                "Eosinophils": "31",
+                "Monocytes": "1",
+                "Basophils": "7",
+                "Platelet Count": "150000 - 410000"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "cells/6",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "MCH": "%",
+                "Calculated MCH": "fL",
+                "RDW pg": "",
+                "Total WBC count": "cells/cumm",
+                "Neutrophils cumm": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": "cells/cumm"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Total RBC count": "",
+                "Packed Cell Volume (PCV)": "40-50",
+                "Mean Corpuscular Volume (MCV)": "87.75",
+                "MCH": "27 - 32",
+                "Calculated MCH": "32.5 - 34.5",
+                "Total WBC count": "11.6-14.0"
+            }
+        }
+    ]
+}

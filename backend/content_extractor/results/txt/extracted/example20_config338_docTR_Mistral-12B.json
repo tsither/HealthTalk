@@ -1,0 +1,29 @@
+{
+    "Date": "18/03/2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 18.0"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 4.3,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 280,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2k/uL, RBC: 5.0M/uL, HGB: 13.5g/dL",
+            "unit_of_measurement": "cells/ul, cells/uL, g/dL",
+            "reference_range": "4-11k/uL, 4.5-5.7M/uL, 12-16g/dL"
+        },
+        {
+            "test_name": "Glucose Test",
+            "result_value": "90 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        }
+    ]
+}

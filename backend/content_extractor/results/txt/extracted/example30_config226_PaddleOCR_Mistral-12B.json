@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150000",
+            "unit_of_measurement": "μL",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "9.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "85",
+            "unit_of_measurement": "μm³",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": "27.1",
+            "unit_of_measurement": "%",
+            "reference_range": "40.5 - 49.5"
+        },
+        {
+            "test_name": "WBC Differential: Lymphocytes",
+            "result_value": "62%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

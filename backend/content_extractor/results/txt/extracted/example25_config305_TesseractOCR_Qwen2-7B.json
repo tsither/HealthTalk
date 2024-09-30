@@ -1,0 +1,29 @@
+{
+    "Date": "2023-10-25",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 34
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.8k/μL, RBC: 5.2M/μL, HGB: 14.2g/dL",
+            "unit_of_measurement": "/μL or /dL",
+            "reference_range": "[4-11]k/μL for WBC, [3.8-6]M/μL for RBC, [12.6-15.6]g/dL for HGB"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": "Total Cholesterol: 200mg/dL",
+            "unit_of_measurement": "/dL",
+            "reference_range": "[135-200]mg/dL"
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "ALT: 24U/L, AST: 29U/L",
+            "unit_of_measurement": "/U/L",
+            "reference_range": "[5-37]U/L for ALT, [10-60]U/L for AST"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemograma": "48 x 10^9/L",
+                "Hemoglobina": "14.3 g/dL",
+                "HMC": "29.9%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": {
+                "Total": "10.2 x 10^6/L",
+                "Neutrofilos": "68%",
+                "Eosinofilos": "16%",
+                "Monocitos": "24%",
+                "Linfocitos": "12%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Biocampía básica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.5 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Proteína C-reactiva": "66 mg/dL",
+                "Hierro (Fe)": "60 µg/dL",
+                "Ferritina": "20 ng/mL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Proteína C-reactiva": "mg/dL",
+                "Hierro (Fe)": "µg/dL",
+                "Ferritina": "ng/mL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemograma Albúmina",
+            "result_value": {
+                "Albúmina": "23 g/L",
+                "Globulinas": "800 g/L"
+            },
+            "unit_of_measurement": {
+                "Albúmina": "g/L",
+                "Globulinas": "g/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Transaminasas",
+            "result_value": {
+                "GOT": "80 U/L",
+                "GPT": "80 U/L",
+                "GGT": "100 U/L"
+            },
+            "unit_of_measurement": {
+                "GOT": "U/L",
+                "GPT": "U/L",
+                "GGT": "U/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubina",
+            "result_value": {
+                "Total": "28 µg/dL",
+                "Directa (Esterificada)": "16 µg/dL"
+            },
+            "unit_of_measurement": {
+                "Total": "µg/dL",
+                "Directa (Esterificada)": "µg/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

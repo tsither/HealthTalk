@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "NCO Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC_COUNT": 5.2,
+                "BLOOD_INDICES": {
+                    "Packed Cell Volume (PCV)": 7.5,
+                    "Mean Corpuscular Volume (MCV)": 87.75,
+                    "MCHC": null,
+                    "MCH": 27.2,
+                    "MCHS": null
+                },
+                "PLATELET_COUNT": 180000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dl",
+                "RBC_COUNT": "mill/cumm",
+                "BLOOD_INDICES": {
+                    "Packed Cell Volume (PCV)": null,
+                    "Mean Corpuscular Volume (MCV)": null,
+                    "MCHC": null,
+                    "MCH": "pg",
+                    "MCHS": null
+                },
+                "PLATELET_COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.e g/dl",
+                "RBC_COUNT": "45-55 mill/cumm",
+                "BLOOD_INDICES": {
+                    "Packed Cell Volume (PCV)": "40-50 ",
+                    "Mean Corpuscular Volume (MCV)": "83 - 101 i. Cakeleted",
+                    "MCHC": null,
+                    "MCH": null,
+                    "MCHS": null
+                },
+                "PLATELET_COUNT": "150000-410000 cumm"
+            }
+        }
+    ]
+}

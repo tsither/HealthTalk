@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "[FILL]",
+        "patient_name": "[FILL]",
+        "patient_sex": "[FILL]",
+        "patient_age": "[FILL]"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC/BRCEI)",
+            "result_value": 1010,
+            "unit_of_measurement": "s-s5",
+            "reference_range": "Low Value"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 83,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets Count",
+            "result_value": "27.32",
+            "unit_of_measurement": "10^3",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Lymphocytes Percentage (%)",
+            "result_value": 62,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count (Diluted)",
+            "result_value": 8275,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV) (PCy)",
+            "result_value": 125,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit volume ROIY",
+            "result_value": 75,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

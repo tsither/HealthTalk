@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Yash",
+        "patient_sex": "Male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 52,
+            "unit_of_measurement": "microL",
+            "reference_range": "4.7-6.1"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "130-170 g/L"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": 45,
+            "unit_of_measurement": "millicumm/microL",
+            "reference_range": "4.0-5.3"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "39%-46%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32,
+            "unit_of_measurement": "%",
+            "reference_range": "31%-36%"
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 13.0,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5%-14.5%"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": 9000,
+            "unit_of_measurement": "count/mm^3",
+            "reference_range": "4000-10000 count/mm^3"
+        },
+        {
+            "test_name": "Differential WBC Count (Neutrophils)",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count (Lymphocytes)",
+            "result_value": 31.25,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

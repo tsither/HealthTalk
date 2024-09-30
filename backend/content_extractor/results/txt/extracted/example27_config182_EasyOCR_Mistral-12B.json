@@ -1,0 +1,22 @@
+{
+    "Date": "08.12.2022",
+    "patient_information": {
+        "patient_id": "765341",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 37
+    },
+    "test_results": [
+        {
+            "test_name": "CRP",
+            "result_value": "<5",
+            "unit_of_measurement": "mg/dL"
+        },
+        {
+            "test_name": "HbA1c",
+            "result_value": "5.7",
+            "unit_of_measurement": "%",
+            "reference_range": "<5.7"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Date": "02.03.XXX",
+    "patient_information": {
+        "patient_id": "94$t99 -rYEnnrt x3 krO3 wYSk tY JH 1HSOkO dYON RY3hI IV JH X 1 k!rtO3 NOSIA 1RVerS",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "RBC": 87.75,
+                "Hb": 13.6,
+                "PCV": 32.8,
+                "Platelet": 27.2
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "RBC": "cells/mm³",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "Platelet": "cells/mm³"
+            },
+            "reference_range": {
+                "WBC": {
+                    "Low": 13.0,
+                    "High": 50
+                },
+                "RBC": {
+                    "Low": 11.6,
+                    "High": 32.5
+                },
+                "Hb": {
+                    "Low": 4.5,
+                    "High": 5.5
+                },
+                "PCV": {
+                    "Low": 27,
+                    "High": 32
+                },
+                "Platelet": {
+                    "Low": 90,
+                    "High": 101
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Lymphocytes": "%",
+                "Neutrophils": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

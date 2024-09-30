@@ -1,0 +1,56 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": [
+                {
+                    "cell_type": "Lymphocytes",
+                    "count": "60"
+                },
+                {
+                    "cell_type": "Neutrophils",
+                    "count": "32"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "11.6",
+            "unit_of_measurement": "/cumm",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "Hemoglobin %",
+            "result_value": "32.8",
+            "unit_of_measurement": "%",
+            "reference_range": "47 - 59"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.83",
+            "unit_of_measurement": "/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "37",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

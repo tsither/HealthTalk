@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Lee Pnt Obll Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "Hemoglobin": 12.5,
+                "Hematocrit": 37,
+                "MCV": 90,
+                "MCH": 34,
+                "MCHC": 38,
+                "RDW": 16.5,
+                "Platelet Count": 250,
+                "White Blood Cell Count": 6.5
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "Platelet Count": "cells/mm³",
+                "White Blood Cell Count": "cells/mm³"
+            },
+            "reference_range": null
+        }
+    ]
+}

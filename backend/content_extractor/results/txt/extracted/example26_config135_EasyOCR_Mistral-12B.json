@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Serie Roja",
+            "result_value": {
+                "hemoglobina": 13.3,
+                "hematocrito": 30.5,
+                "vcm": 80.0,
+                "hcm": {
+                    "#P": 270,
+                    "#": 320
+                },
+                "chcm": 134
+            },
+            "unit_of_measurement": {
+                "hemoglobina": "g/dL",
+                "hematocrito": "%",
+                "vcm": "fL",
+                "hcm": {
+                    "#P": "#",
+                    "#": "#"
+                },
+                "chcm": "#"
+            },
+            "reference_range": null
+        }
+    ]
+}

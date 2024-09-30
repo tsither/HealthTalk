@@ -1,0 +1,101 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "HGB": 13.2,
+                "PLT": 250,
+                "NEU": 45,
+                "LYM": 40,
+                "MONO": 7
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "PLT": "10^3/uL",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10.5
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.1
+                },
+                "HGB": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 400
+                },
+                "NEU": {
+                    "min": 40,
+                    "max": 70
+                },
+                "LYM": {
+                    "min": 20,
+                    "max": 45
+                },
+                "MONO": {
+                    "min": 3,
+                    "max": 11
+                }
+            }
+        },
+        {
+            "test_name": "Blood Chemistry",
+            "result_value": {
+                "GLU": 98,
+                "BUN": 12.6,
+                "CREA": 0.9,
+                "NA": 139,
+                "K": 4.2
+            },
+            "unit_of_measurement": {
+                "GLU": "mg/dL",
+                "BUN": "mg/dL",
+                "CREA": "mg/dL",
+                "NA": "mmol/L",
+                "K": "mmol/L"
+            },
+            "reference_range": {
+                "GLU": {
+                    "min": 74,
+                    "max": 99
+                },
+                "BUN": {
+                    "min": 6.0,
+                    "max": 20.0
+                },
+                "CREA": {
+                    "min": 0.6,
+                    "max": 1.2
+                },
+                "NA": {
+                    "min": 135,
+                    "max": 145
+                },
+                "K": {
+                    "min": 3.6,
+                    "max": 5.2
+                }
+            }
+        }
+    ]
+}

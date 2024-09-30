@@ -1,0 +1,23 @@
+{
+    "Date": "01.02.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Sodium (Na+)",
+            "result_value": 135,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "135-145"
+        },
+        {
+            "test_name": "Potassium (K+)",
+            "result_value": 4.2,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": null
+        }
+    ]
+}

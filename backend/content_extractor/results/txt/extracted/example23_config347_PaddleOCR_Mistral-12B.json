@@ -1,0 +1,214 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.3,
+                "HCT": 40.2,
+                "MCV": 85.4,
+                "MCH": 27.9,
+                "MCHC": 32.6,
+                "PLT": 250,
+                "NEU": 55.3,
+                "LYM": 31.2,
+                "MONO": 8.5,
+                "EOS": 4.2,
+                "BASO": 0.8
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": "cells/mm^3",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "cells/mm^3",
+                "NEU": "%",
+                "LYM": "%",
+                "MONO": "%",
+                "EOS": "%",
+                "BASO": "%"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.0,
+                    10.0
+                ],
+                "RBC": [
+                    4.5,
+                    6.5
+                ],
+                "Hb": [
+                    12.0,
+                    16.0
+                ],
+                "HCT": [
+                    37.0,
+                    47.0
+                ],
+                "MCV": [
+                    80.0,
+                    100.0
+                ],
+                "MCH": [
+                    26.0,
+                    32.0
+                ],
+                "MCHC": [
+                    32.0,
+                    36.0
+                ],
+                "PLT": [
+                    150,
+                    450
+                ],
+                "NEU": [
+                    40.0,
+                    75.0
+                ],
+                "LYM": [
+                    20.0,
+                    50.0
+                ],
+                "MONO": [
+                    3.0,
+                    15.0
+                ],
+                "EOS": [
+                    0.5,
+                    8.0
+                ],
+                "BASO": [
+                    0.0,
+                    2.0
+                ]
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Sodium": 139,
+                "Potassium": 4.2,
+                "Chloride": 105,
+                "CO2": 26,
+                "Glucose": 95,
+                "Urea Nitrogen": 18,
+                "Creatinine": 0.9,
+                "Albumin": 4.3,
+                "Total Protein": 7.5,
+                "Bilirubin Total": 1.2,
+                "AST": 28,
+                "ALT": 32,
+                "Alkaline Phosphatase": 85
+            },
+            "unit_of_measurement": {
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L",
+                "Chloride": "mmol/L",
+                "CO2": "mmol/L",
+                "Glucose": "mg/dL",
+                "Urea Nitrogen": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Albumin": "g/dL",
+                "Total Protein": "g/dL",
+                "Bilirubin Total": "mg/dL",
+                "AST": "IU/L",
+                "ALT": "IU/L",
+                "Alkaline Phosphatase": "IU/L"
+            },
+            "reference_range": {
+                "Sodium": [
+                    135,
+                    145
+                ],
+                "Potassium": [
+                    3.6,
+                    5.2
+                ],
+                "Chloride": [
+                    98,
+                    107
+                ],
+                "CO2": [
+                    23,
+                    32
+                ],
+                "Glucose": [
+                    70,
+                    110
+                ],
+                "Urea Nitrogen": [
+                    6,
+                    20
+                ],
+                "Creatinine": [
+                    0.6,
+                    1.2
+                ],
+                "Albumin": [
+                    3.5,
+                    5.5
+                ],
+                "Total Protein": [
+                    6.0,
+                    8.3
+                ],
+                "Bilirubin Total": [
+                    0.3,
+                    1.9
+                ],
+                "AST": [
+                    5,
+                    40
+                ],
+                "ALT": [
+                    7,
+                    56
+                ],
+                "Alkaline Phosphatase": [
+                    30,
+                    120
+                ]
+            }
+        },
+        {
+            "test_name": "Coagulation Profile",
+            "result_value": {
+                "PT": 12.8,
+                "PTT": 32.5,
+                "INR": 1.0,
+                "WBC": 6.5
+            },
+            "unit_of_measurement": {
+                "PT": "s",
+                "PTT": "s",
+                "INR": "",
+                "WBC": "cells/mm^3"
+            },
+            "reference_range": {
+                "PT": [
+                    12,
+                    14
+                ],
+                "PTT": [
+                    25,
+                    38
+                ],
+                "INR": [
+                    0.9,
+                    1.1
+                ]
+            }
+        }
+    ]
+}

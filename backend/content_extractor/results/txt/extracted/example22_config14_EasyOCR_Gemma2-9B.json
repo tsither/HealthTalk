@@ -1,0 +1,35 @@
+{
+    "Date": "202x-05-00",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "57 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "68157",
+            "unit_of_measurement": "g/L",
+            "reference_range": "140-400 g/L"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "575",
+            "unit_of_measurement": "x 10^9 /L",
+            "reference_range": "4.1-6.1 x 10^9/L"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "8775",
+            "unit_of_measurement": "x 10^9 /L",
+            "reference_range": "4.1-6.1 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "3257",
+            "unit_of_measurement": "x 10^9 /L",
+            "reference_range": null
+        }
+    ]
+}

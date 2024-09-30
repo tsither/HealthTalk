@@ -1,0 +1,83 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "hiren shah",
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "116-345 g/dL"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "689573",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "52",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "130",
+            "unit_of_measurement": " ",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "575",
+            "unit_of_measurement": null,
+            "reference_range": "4000-10000/µL"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "0.435",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "0.17",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": "0.0457",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "0.05",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": "0.009",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "3257",
+            "unit_of_measurement": "x10^9/µL",
+            "reference_range": "150,000-400,000/µL"
+        }
+    ]
+}

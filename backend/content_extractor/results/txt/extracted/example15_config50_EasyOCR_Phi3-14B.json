@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "AST",
+            "result_value": 65,
+            "unit_of_measurement": "U/L",
+            "reference_eange": "10-40 U/L"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 32,
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-56 U/L"
+        },
+        {
+            "test_name": "SGOT",
+            "result_value": 45,
+            "unit_of_measurement": "IU/mL",
+            "reference_range": "8-20 IU/mL"
+        }
+    ]
+}

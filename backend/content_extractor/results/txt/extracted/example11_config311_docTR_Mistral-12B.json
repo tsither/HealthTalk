@@ -1,0 +1,89 @@
+{
+    "Date": "25/03/2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.8,
+                "Hb": 13.5,
+                "Hct": 40.5,
+                "Platelets": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    11
+                ],
+                "RBC": [
+                    4.4,
+                    6.2
+                ],
+                "Hb": [
+                    13.5,
+                    17.5
+                ],
+                "Hct": [
+                    41,
+                    50
+                ],
+                "Platelets": [
+                    150,
+                    450
+                ]
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Glucose": 98,
+                "BUN": 12.3,
+                " Creatinine": 0.9,
+                "Sodium": 138,
+                "Potassium": 4.2
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L"
+            },
+            "reference_range": {
+                "Glucose": [
+                    74,
+                    106
+                ],
+                "BUN": [
+                    8,
+                    25
+                ],
+                "Creatinine": [
+                    0.6,
+                    1.2
+                ],
+                "Sodium": [
+                    135,
+                    145
+                ],
+                "Potassium": [
+                    3.6,
+                    5.2
+                ]
+            }
+        }
+    ]
+}

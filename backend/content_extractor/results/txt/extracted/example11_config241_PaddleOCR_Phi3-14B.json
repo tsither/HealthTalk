@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "Hemoglo# 12.5, RBC count Low 9/dL, WBC count 11.6",
+            "unit_of_measurement": null,
+            "reference_range": "HEMOGLOBIN: High > 13.0- < 17.0; RBC COUNT: Low < 5.7*10^9/L; WBC count : Normal - 4.0 to 11.0 * 10 ^9 / L"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": "Normal - 40 to 52%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "Normal - 80 to 100 fL"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": "32.5-34.5",
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "150,000",
+            "unit_of_measurement": "mm^3",
+            "reference_range": "Normal - 150,000 to 450,000 mm^3"
+        }
+    ]
+}

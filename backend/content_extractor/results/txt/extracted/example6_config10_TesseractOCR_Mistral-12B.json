@@ -1,0 +1,112 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "status": "Low"
+                },
+                "RBC COUNT": {
+                    "value": 5.2
+                },
+                "PCV": {
+                    "value": 57.5,
+                    "status": "High"
+                },
+                "MCV": {
+                    "value": 87.75
+                },
+                "MCH": {
+                    "value": 27.2
+                },
+                "MCHC": {
+                    "value": 32.8
+                },
+                "RDW": {
+                    "value": 13.6
+                },
+                "WBC COUNT": {
+                    "value": 9000
+                },
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": {
+                        "value": 60
+                    },
+                    "Lymphocytes": {
+                        "value": 31
+                    },
+                    "Eosinophils": {
+                        "value": 1
+                    },
+                    "Monocytes": {
+                        "value": 7
+                    },
+                    "Basophils": {
+                        "value": 1
+                    }
+                },
+                "PLATELET COUNT": {
+                    "value": 150000,
+                    "status": "Borderline"
+                }
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "PCV": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC COUNT": "cumm",
+                "PLATELET COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "RBC COUNT": {
+                    "low": 4.5,
+                    "high": 5.5
+                },
+                "PCV": {
+                    "low": 40,
+                    "high": 50
+                },
+                "MCV": {
+                    "low": 83,
+                    "high": 101
+                },
+                "MCH": {
+                    "low": 27,
+                    "high": 32
+                },
+                "MCHC": {
+                    "low": 32.5,
+                    "high": 34.5
+                },
+                "RDW": {
+                    "low": 11.6,
+                    "high": 14.0
+                },
+                "WBC COUNT": {
+                    "low": 4000,
+                    "high": 11000
+                },
+                "PLATELET COUNT": {
+                    "low": 150000,
+                    "high": 410000
+                }
+            }
+        }
+    ]
+}

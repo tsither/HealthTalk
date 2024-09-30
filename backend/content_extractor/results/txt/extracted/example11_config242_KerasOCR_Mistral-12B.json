@@ -1,0 +1,90 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "ccgizlorod 555",
+        "patient_name": "Shivam Bungaloes",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": "low"
+                },
+                "RBC count": {
+                    "value": 170,
+                    "unit": "G/L",
+                    "reference_range": null
+                },
+                "Total RBC count": {
+                    "value": 5.2,
+                    "unit": "T/L",
+                    "reference_range": null
+                },
+                "HCT": {
+                    "value": 55,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "MCV": {
+                    "value": 87.5,
+                    "unit": "fl",
+                    "reference_range": null
+                },
+                "MCH": {
+                    "value": 27.132,
+                    "unit": "pg",
+                    "reference_range": null
+                },
+                "MCHC": {
+                    "value": 32.35,
+                    "unit": "g/dL",
+                    "reference_range": null
+                },
+                "RDW": {
+                    "value": 15.6,
+                    "unit": "%",
+                    "reference_range": null
+                },
+                "WBC count": {
+                    "value": 11000,
+                    "unit": "/L",
+                    "reference_range": null
+                },
+                "Platelet count": {
+                    "value": 300000,
+                    "unit": "/L",
+                    "reference_range": "borderline"
+                }
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "RBC count": "G/L",
+                "Total RBC count": "T/L",
+                "HCT": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW": "%",
+                "WBC count": "/L",
+                "Platelet count": "/L"
+            },
+            "reference_range": {
+                "Hemoglobin": "low",
+                "RBC count": null,
+                "Total RBC count": null,
+                "HCT": null,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW": null,
+                "WBC count": null,
+                "Platelet count": "borderline"
+            }
+        }
+    ]
+}

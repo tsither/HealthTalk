@@ -1,0 +1,53 @@
+{
+    "Date": "Dec.2X",
+    "patient_information": {
+        "patient_id": "23456789",
+        "patient_name": "b@c",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 5.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "mil/mcL",
+            "reference_range": "4.2-6.0 mil/mcL"
+        },
+        {
+            "test_name": "HCT/Packed Cell Volume (PCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "%",
+            "reference_range": "42-52%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 90,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "WBC Total",
+            "result_value": 7500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500-11000 cells/mm³"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150-450 cells/mm³"
+        }
+    ]
+}

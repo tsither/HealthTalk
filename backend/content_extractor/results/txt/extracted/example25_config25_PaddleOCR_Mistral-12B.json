@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": {
+                    "value": 6.56,
+                    "unit": "10^3/IL"
+                },
+                "Hematies": {
+                    "value": 4.0
+                },
+                "Hemoglobina": {
+                    "value": 4.17,
+                    "unit": "g/dL"
+                },
+                "Hematocrito": {
+                    "value": 9.7,
+                    "unit": "%"
+                },
+                "V.C.M.": {
+                    "value": 28.8,
+                    "unit": "FL"
+                },
+                "C.H.C.M.": {
+                    "value": 23
+                },
+                "R.D.W.": {
+                    "value": 33.8,
+                    "unit": "%"
+                },
+                "Plaquetas": {
+                    "value": 17,
+                    "unit": "10^3/IL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Date": "02 TEC. 20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC_COUNT": 5.2,
+                "PCV": 57.5,
+                "MCV": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "RDW": 13.6,
+                "WBC_COUNT": 11.6,
+                "NEUTROPHILS": 31,
+                "LYMPHOCYTES": 67,
+                "EOSINOPHILS": 1,
+                "MONOCYTES": 7,
+                "BASOPHILS": 0.4,
+                "PLATELET_COUNT": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC_COUNT": "Total RBC count",
+                "PCV": "mill/cumm",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "pg",
+                "RDW": "%",
+                "WBC_COUNT": "$",
+                "NEUTROPHILS": "%",
+                "LYMPHOCYTES": "%",
+                "EOSINOPHILS": "%",
+                "MONOCYTES": "%",
+                "BASOPHILS": "%",
+                "PLATELET_COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.0",
+                "RBC_COUNT": "4.5-5.5",
+                "PCV": null,
+                "MCV": null,
+                "MCH": "27.0-31.0 mCH",
+                "MCHC": "32.5-34.5",
+                "RDW": null,
+                "WBC_COUNT": "6.0 - 8.0",
+                "NEUTROPHILS": "40-75%",
+                "LYMPHOCYTES": "25-45%",
+                "EOSINOPHILS": "<1%",
+                "MONOCYTES": "2-9%",
+                "BASOPHILS": "<0.5%",
+                "PLATELET_COUNT": "150000 - 410000"
+            }
+        }
+    ]
+}

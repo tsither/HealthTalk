@@ -1,0 +1,93 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "total": 15000,
+                    "neutrophils": 67.3,
+                    "lymphocytes": 24.9,
+                    "monocytes": 7.5,
+                    "eosinophils": 0.2,
+                    "basophils": 0.1
+                },
+                "RBC": {
+                    "count": null,
+                    "Hb": null,
+                    "Hct": null,
+                    "MCV": null,
+                    "MCH": null,
+                    "MCHC": null,
+                    "RDW": null
+                },
+                "PLT": {
+                    "count": 325000,
+                    "PDW": null
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/uL",
+                "RBC": "cells/uL",
+                "PLT": "cells/uL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "total": {
+                        "min": 4500,
+                        "max": 11000
+                    },
+                    "neutrophils": null,
+                    "lymphocytes": null,
+                    "monocytes": null,
+                    "eosinophils": null,
+                    "basophils": null
+                },
+                "RBC": {
+                    "count": {
+                        "min": 4.5,
+                        "max": 6.0
+                    },
+                    "Hb": {
+                        "min": 13.0,
+                        "max": 17.0
+                    },
+                    "Hct": {
+                        "min": 32.5,
+                        "max": 34.5
+                    },
+                    "MCV": {
+                        "min": 80.0,
+                        "max": 96.0
+                    },
+                    "MCH": {
+                        "min": 27.0,
+                        "max": 31.0
+                    },
+                    "MCHC": {
+                        "min": 32.0,
+                        "max": 35.0
+                    },
+                    "RDW": {
+                        "min": 11.6,
+                        "max": 14.0
+                    }
+                },
+                "PLT": {
+                    "count": {
+                        "min": 150000,
+                        "max": 450000
+                    },
+                    "PDW": null
+                }
+            },
+            "interpretation": "Further confirmation for Anemia"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "0123456789",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "140000",
+            "unit_of_measurement": "per mm3",
+            "reference_range": "< 107,000"
+        },
+        {
+            "test_name": "Lymphocyte Count",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

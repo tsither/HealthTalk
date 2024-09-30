@@ -1,0 +1,41 @@
+{
+    "Date": "02Dec2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": "6500",
+                "Red Blood Cells": "4.8",
+                "Hemoglobin": "135",
+                "Platelets": "255000",
+                "MCV": "90.7",
+                "MCHC": "32.8",
+                "Eosinophils": "1.6%"
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "cummil/mm^3",
+                "Red Blood Cells": "million/mm^3",
+                "Hemoglobin": "g/dL",
+                "Platelets": "thousand/mm^3",
+                "MCV": "fL",
+                "MCHC": "g/dL",
+                "Eosinophils": "%"
+            },
+            "reference_range": {
+                "White Blood Cells": "4500-11000",
+                "Red Blood Cells": "4.2-5.9",
+                "Hemoglobin": "13.0-17.0",
+                "Platelets": "150000-410000",
+                "MCV": "80-100",
+                "MCHC": "32.5-34.5",
+                "Eosinophils": "0.4-4.8"
+            }
+        }
+    ]
+}

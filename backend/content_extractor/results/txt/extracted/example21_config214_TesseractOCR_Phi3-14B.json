@@ -1,0 +1,66 @@
+{
+    "Date": "02 Dec, 20xx",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total RBC count $": 48,
+                "BLOOD INDICES . Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV) Cokussiod i MCH": 27.2,
+                "MCHC ' Camisiod ROW": 32.5,
+                "WBC COUNT; «, aan Tey ah ibs etter Total waC coumd JU Bhan | ¢ a. DIFFERENTIAL WBC COUNT Neutrophils ": {
+                    "Neutrophils %": "7s0 -62-€",
+                    "Lymphocytes %": "820-40 ",
+                    "Eosinophils %": "00-06 ",
+                    "Monocytes %": "00-1e-",
+                    "Basophils %": "00-02"
+                },
+                "Platelet Count Platelet Count ": 400,
+                "Reference range": {
+                    "HEMOGLOBIN Hemoglobin (Hb) g/dl": [
+                        13.0,
+                        17.0
+                    ],
+                    "RBC COUNT Total RBC count $ mill/cumm": [
+                        45,
+                        55
+                    ],
+                    "BLOOD INDICES . Packed Cell Volume (PCV) %": [
+                        40,
+                        50
+                    ],
+                    "Mean Corpuscular Volume (MCV) fL": [
+                        83,
+                        101
+                    ],
+                    "MCH Cokussiod i MCH ' pg": [
+                        27,
+                        32
+                    ],
+                    "WBC COUNT; « a. DIFFERENTIAL WBC COUNT Neutrophils % Lymphocytes %": [
+                        62,
+                        40
+                    ]
+                },
+                "unit_of_measurement": {
+                    "HEMOGLOBIN Hemoglobin (Hb) g/dl": null,
+                    "RBC COUNT Total RBC count $ mill/cumm": null,
+                    "BLOOD INDICES . Packed Cell Volume (PCV) %": null,
+                    "Mean Corpuscular Volume (MCV) fL": null,
+                    "MCH Cokussiod i MCH ' pg": null,
+                    "WBC COUNT; « a. DIFFERENTIAL WBC COUNT Neutrophils % Lymphocytes %": null
+                }
+            },
+            "instruments_used": [
+                "Fully automated cell counter - Mindray 300"
+            ]
+        }
+    ]
+}

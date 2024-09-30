@@ -1,0 +1,45 @@
+{
+    "Date": "0911",
+    "patient_information": {
+        "patient_id": "pid sample 328",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": "57"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "170",
+                "4000",
+                "2172"
+            ],
+            "unit_of_measurement": [
+                "cells/μL",
+                "cells/uL",
+                "cells/uL"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": [
+                "325"
+            ],
+            "unit_of_measurement": [
+                "g/dL"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": [
+                "9000"
+            ],
+            "unit_of_measurement": [
+                "fL"
+            ],
+            "reference_range": null
+        }
+    ]
+}

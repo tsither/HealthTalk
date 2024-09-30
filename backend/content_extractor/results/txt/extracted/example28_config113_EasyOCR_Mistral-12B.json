@@ -1,0 +1,105 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[Paciente varon]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "4,8 x 109 /L",
+                "Hemoglobina": "18,3 g/dL",
+                "VCM": "89 fL",
+                "MCHC": "29 pg",
+                "Euciclos": "10,2X 106 /L",
+                "Neutrofilos": "%68N",
+                "Linfocitos": "IB",
+                "SE": null,
+                "ZM": null
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquimica basica",
+            "result_value": {
+                "Glucosa": "65.0 mg/dL",
+                "Creatinina": "1.15 mg/dL",
+                "Colesterol": "220 mg/dL",
+                "Paleina": null,
+                "Hierro (II*III)": null,
+                "Ferrilina": null,
+                "Hemoglobina Alc": "4,5"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dL",
+                "Creatinina": "mg/dL",
+                "Colesterol": "mg/dL",
+                "Paleina": null,
+                "Hierro (II*III)": null,
+                "Ferrilina": null,
+                "Hemoglobina Alc": null
+            },
+            "reference_range": {
+                "Glucosa": "(70.0 _ 110.0)",
+                "Creatinina": "(0.70 _ 1.10)",
+                "Colesterol": "<240.0",
+                "Paleina": null,
+                "Hierro (II*III)": null,
+                "Ferrilina": null,
+                "Hemoglobina Alc": null
+            }
+        },
+        {
+            "test_name": "Transaminasas y Bilirrubina",
+            "result_value": {
+                "GOT": "800 U/I",
+                "GPT": "800 U/I",
+                "GGT": "100 U/I",
+                "Bilirrubina total": "2.8 mg/dL",
+                "Bilirrubina directa (esterficada)": "1.5 mg/dL"
+            },
+            "unit_of_measurement": {
+                "GOT": "U/I",
+                "GPT": "U/I",
+                "GGT": "U/I",
+                "Bilirrubina total": "mg/dL",
+                "Bilirrubina directa (esterficada)": "mg/dL"
+            },
+            "reference_range": {
+                "GOT": "(32)",
+                "GPT": "(33)",
+                "GGT": "(10 _ 41}",
+                "Bilirrubina total": null,
+                "Bilirrubina directa (esterficada)": null
+            }
+        },
+        {
+            "test_name": "Fosfatasa Alcalina",
+            "result_value": {
+                "Fosfatasa Alcalina": "50 U/I"
+            },
+            "unit_of_measurement": {
+                "Fosfatasa Alcalina": "U/I"
+            },
+            "reference_range": {
+                "Fosfatasa Alcalina": "(30 _ 110)"
+            }
+        },
+        {
+            "test_name": "Proteinas",
+            "result_value": {
+                "Albumina": "2,3 g/dL"
+            },
+            "unit_of_measurement": {
+                "Albumina": "g/dL"
+            },
+            "reference_range": {
+                "Albumina": "(3,40 _ 80)"
+            }
+        }
+    ]
+}

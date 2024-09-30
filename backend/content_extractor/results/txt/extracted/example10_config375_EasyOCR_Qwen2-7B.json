@@ -1,0 +1,29 @@
+{
+    "Date": "12.30.2023",
+    "patient_information": {
+        "patient_id": "B054-8967",
+        "patient_name": "Alice Johnson",
+        "patient_sex": "F",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.3,
+            "unit_of_measurement": "× 10^3/μL",
+            "reference_range": "[3.5-11]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "× 10^3/μL",
+            "reference_range": "[150-450]"
+        },
+        {
+            "test_name": "Fibrinogen",
+            "result_value": 297,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[180-350]"
+        }
+    ]
+}

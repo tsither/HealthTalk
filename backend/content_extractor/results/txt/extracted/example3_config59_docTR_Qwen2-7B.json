@@ -1,0 +1,22 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "RA 0123456789",
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": "13.5-17.5",
+                "normal_range_g/dL": "13.5-17.5",
+                "low_levels_description": "May indicate anemia or blood loss. Further testing may be necessary to determine the underlying cause.",
+                "high_levels_description": "Thanks for Reference of too many red blood cells."
+            }
+        }
+    ]
+}

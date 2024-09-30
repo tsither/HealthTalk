@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Iron",
+            "result_value": 9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[15-200]"
+        },
+        {
+            "test_name": "TIBC (Total Iron Binding Capacity)",
+            "result_value": 48,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": "[250-450]"
+        },
+        {
+            "test_name": "Ferritin",
+            "result_value": null,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Transferrin Saturation",
+            "result_value": 18.75,
+            "unit_of_measurement": "%",
+            "reference_range": "[20-50]"
+        }
+    ]
+}

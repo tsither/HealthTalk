@@ -1,0 +1,35 @@
+{
+    "Date": "15.03.2022",
+    "patient_information": {
+        "patient_id": "OOE N",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "INR",
+            "result_value": 1.0,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Fibrinogen",
+            "result_value": 279,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "180-450 mg/dL"
+        },
+        {
+            "test_name": "PT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "aPTT",
+            "result_value": 27.5,
+            "unit_of_measurement": "sec",
+            "reference_range": "20-40 sec"
+        }
+    ]
+}

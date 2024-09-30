@@ -1,0 +1,29 @@
+{
+    "Date": "0912345678",
+    "patient_information": {
+        "patient_id": "logy.com",
+        "patient_name": "AthoLogy",
+        "patient_sex": null,
+        "patient_age": 41
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "/µL",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 326,
+            "unit_of_measurement": "%",
+            "reference_range": "15!60"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 7500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 60,
+                "Lymphocytes": 30,
+                "Eosinophils": 5,
+                "Monocytes": 5
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Date": "02 dec 2x",
+    "patient_information": {
+        "patient_id": "0123a16789",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_location": "mumbai",
+        "registration_date": "02z 311 on pet"
+    },
+    "test_results": [
+        {
+            "test_name": "platelet distribution width (pdw)",
+            "result_value": 1700,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": [
+                    9,
+                    17
+                ],
+                "children": [
+                    75,
+                    134
+                ],
+                "newborns": [
+                    9,
+                    17
+                ]
+            }
+        }
+    ]
+}

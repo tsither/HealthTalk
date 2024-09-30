@@ -1,0 +1,65 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.0-17.e]"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm%",
+            "reference_range": "[4.5-5.5]"
+        },
+        {
+            "test_name": "Blood Indices - Packed Cell Volume (PCV)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[40-50]"
+        },
+        {
+            "test_name": "Blood Indices - Mean Corpuscular Volume (MCV)",
+            "result_value": 27.2,
+            "unit_of_measurement": "% fL",
+            "reference_range": "[83-101]"
+        },
+        {
+            "test_name": "Blood Indices - Calculated MCH",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Blood Indices - Calculated MCHC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT Total WBC count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": 60,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Platelet Count Platelet Count",
+            "result_value": 31,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[0.0-6.0]"
+        },
+        {
+            "test_name": "Platelets Platelet Count",
+            "result_value": 9000,
+            "unit_of_measurement": "g/dL mill/cumm%",
+            "reference_range": "[41000-150000]"
+        }
+    ]
+}

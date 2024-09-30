@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": [
+            "PID"
+        ],
+        "patient_name": [
+            "Shah"
+        ],
+        "patient_sex": [
+            "Male"
+        ],
+        "patient_age": [
+            null
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": [
+                "Normal female",
+                "Reference range not provided"
+            ]
+        },
+        {
+            "test_name": "Interpretation of Low Hemoglobin Value",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                120,
+                135
+            ]
+        }
+    ]
+}

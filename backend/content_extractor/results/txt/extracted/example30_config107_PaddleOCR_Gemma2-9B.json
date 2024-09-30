@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hb",
+            "result_value": 125,
+            "unit_of_measurement": "nple count",
+            "reference_range": null
+        },
+        {
+            "test_name": "DIF count",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": "107 - 34.5"
+        },
+        {
+            "test_name": "Eosinophil count",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "Monocyte count",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "13.0 - 17.0"
+        }
+    ]
+}

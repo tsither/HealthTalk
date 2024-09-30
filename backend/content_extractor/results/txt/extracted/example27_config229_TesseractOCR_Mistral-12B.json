@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "WBC": 7.0,
+                "RBC": 5.0
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitaria",
+            "result_value": 7.0,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": null
+        }
+    ]
+}

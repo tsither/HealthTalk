@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "90-130"
+        },
+        {
+            "test_name": "RBC Count (Tolal Resc Count)",
+            "result_value": 52,
+            "unit_of_measurement": "SST",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "87.0",
+            "unit_of_measurement": "fl",
+            "reference_range": "79-123"
+        },
+        {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "result_value": 270,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": "140-400"
+        }
+    ]
+}

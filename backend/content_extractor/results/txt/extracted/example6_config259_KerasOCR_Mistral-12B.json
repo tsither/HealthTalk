@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1250123a56789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "male",
+        "patient_age": 11
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 4678000,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin Concentration (MCHC)",
+            "result_value": 32.15,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 8500,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 325700,
+            "unit_of_measurement": "/mm3",
+            "reference_range": null
+        }
+    ]
+}

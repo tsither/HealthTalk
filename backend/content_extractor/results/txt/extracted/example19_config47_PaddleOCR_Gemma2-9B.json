@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": "6.91",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.00-5.50 million/cumm"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "13.30",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6-17.0 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "40.9",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "81.7",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "32.8",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "13.0",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "11.6",
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "4.00-11.00 thousand/cumm"
+        },
+        {
+            "test_name": "PLT Count",
+            "result_value": "272",
+            "unit_of_measurement": "thousand/cumm",
+            "reference_range": "150-450 thousand/cumm"
+        }
+    ]
+}

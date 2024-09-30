@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "P12345678",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 7.2, RBC: 4.8, HGB: 13.6, HCT: 0.39, MCV: 85",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose - Fasting",
+            "result_value": "124 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-100"
+        }
+    ]
+}

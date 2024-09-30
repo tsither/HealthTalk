@@ -1,0 +1,35 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Patel M.",
+        "patient_sex": "Male",
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "HGB",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 8300,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500 - 10500"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 270000,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "150000 - 450000"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 98.6,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

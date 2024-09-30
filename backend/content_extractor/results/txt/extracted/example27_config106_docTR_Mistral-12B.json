@@ -1,0 +1,48 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina (Hb)": 12.1,
+                "Hematocrito (Ht)": 36,
+                "Leucocitos (Lc)": 8.7,
+                "Placaeta (Plt)": 290
+            },
+            "unit_of_measurement": {
+                "Hemoglobina (Hb)": "g/dL",
+                "Hematocrito (Ht)": "%",
+                "Leucocitos (Lc)": "/µL",
+                "Placaeta (Plt)": "/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Bromuro de potasio",
+            "result_value": 3.7,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": {
+                "Minimo": 3.5,
+                "Maximo": 5.4
+            }
+        },
+        {
+            "test_name": "Sodio",
+            "result_value": 141,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Cloro",
+            "result_value": 98,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

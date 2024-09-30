@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "unknown",
+        "patient_sex": "male",
+        "patient_age": "170-21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "low",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin B",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": null,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "4.5-5.9"
+        },
+        {
+            "test_name": "Platelet Count (PC)",
+            "result_value": "30",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

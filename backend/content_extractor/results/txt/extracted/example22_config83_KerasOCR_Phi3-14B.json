@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": "com odrlogy",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 105,
+            "unit_of_measurement": "GigaCount/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 32.7,
+            "unit_of_measurement": "gm%",
+            "reference_range": "14-50"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 87.7,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 202,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450"
+        }
+    ]
+}

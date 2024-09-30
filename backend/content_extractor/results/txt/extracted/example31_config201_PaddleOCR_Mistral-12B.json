@@ -1,0 +1,34 @@
+{
+    "Date": "27 Dec.",
+    "patient_information": {
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 83,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": "36-46%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 272,
+            "unit_of_measurement": "/μL",
+            "reference_range": null
+        }
+    ]
+}

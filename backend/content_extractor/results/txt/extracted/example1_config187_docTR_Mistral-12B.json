@@ -1,0 +1,85 @@
+{
+    "Date": "03 11 P",
+    "patient_information": {
+        "patient_id": "555 Bungalow, S G Road",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "Low": 13,
+                "High": 18
+            }
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "mill/cumm"
+        },
+        {
+            "test_name": "BLOOD INDICES Packed Cell Volume (PCV)",
+            "result_value": 37.5
+        },
+        {
+            "test_name": "Mean Corpuscular Volume",
+            "result_value": 87,
+            "unit_of_measurement": "fL"
+        },
+        {
+            "test_name": "MCH : a",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "MCHC Ca: us'e",
+            "result_value": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6
+        },
+        {
+            "test_name": "WBC Total WBC",
+            "result_value": null,
+            "unit_of_measurement": "cumm"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 40,
+            "reference_range": {
+                "Borderline": 150000,
+                "High": 410000
+            }
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": null
+        },
+        {
+            "test_name": "Fosinophils",
+            "result_value": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 238,
+            "unit_of_measurement": "000/uL",
+            "reference_range": {
+                "Low": 150,
+                "High": 450
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "08123009",
+        "patient_name": "LAB mamartisengre aug PATHOLOGY",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC) Complete",
+            "result_value": {
+                "WBC": 13.0,
+                "HGB": 125.0,
+                "PLT": 450000
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm³",
+                "HGB": "g/dL",
+                "PLT": "#"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11.3
+                },
+                "HGB": {
+                    "min": 11.6,
+                    "max": 18.0
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "NEU": 72,
+                "LYM": 21
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "NEU": {
+                    "min": 40,
+                    "max": 65
+                },
+                "LYM": {
+                    "min": 23,
+                    "max": 50
+                }
+            }
+        }
+    ]
+}

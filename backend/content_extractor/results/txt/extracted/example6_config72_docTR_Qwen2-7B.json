@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 10912345678",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (RBC count)",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low: <13.0, High: >17.0"
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": "% cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 87.75,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal: >32, Low: <29"
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": null,
+            "unit_of_measurement": "% cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 9000,
+            "unit_of_measurement": "/L",
+            "reference_range": "Normal: >4.5, Low: <5"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "10^3 /mm³",
+            "reference_range": null
+        }
+    ]
+}

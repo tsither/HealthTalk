@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "912345678",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglon(Hb)": "5.2",
+                "RBC count": "83-101",
+                "Total WBC count": "60"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin (Hb)": "40-50",
+                "RBC Total RBC count": "27-32",
+                "WBC count": "4.0-10"
+            }
+        },
+        {
+            "test_name": "Other Tests",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

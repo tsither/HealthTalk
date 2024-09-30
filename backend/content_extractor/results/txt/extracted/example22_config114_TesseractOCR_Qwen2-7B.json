@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Jane Doe",
+        "patient_sex": "F",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.2, RBC: 4.8, HGB: 13.5, HCT: 40.0",
+            "unit_of_measurement": null,
+            "reference_range": "[4.5-11] WBC, [4.0-5.5] RBC, [12-16] HGB, [37-51] HCT"
+        },
+        {
+            "test_name": "Cholesterol",
+            "result_value": "Total: 190 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[150-200]"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "12.06.2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "ESR",
+            "result_value": 86,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "<30"
+        },
+        {
+            "test_name": "HbA1c",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.6"
+        }
+    ]
+}

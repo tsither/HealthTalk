@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglo juLn(Hb)": 12.5,
+                "Total RBC count": 5.2,
+                "Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Cakvisted MCH": 27.2,
+                "MCHC": 32.8,
+                "WBC COUNT": 19000,
+                "PLATELET Count": 410000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "mill/cumm",
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fl",
+                "Cakvisted MCH": "pg",
+                "MCHC": "g/dL",
+                "WBC COUNT": "",
+                "PLATELET Count": ""
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "Total RBC count": [
+                    4.5,
+                    5.5
+                ],
+                "Packed Cell Volume (PCV)": [
+                    40,
+                    50
+                ],
+                "Mean Corpuscular Volume (MCV)": [
+                    83,
+                    101
+                ],
+                "Cakvisted MCH": "",
+                "MCHC": [
+                    32.5,
+                    34.5
+                ],
+                "WBC COUNT": "",
+                "PLATELET Count": [
+                    "*",
+                    "*"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1245",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": "6.1 K/uL",
+                "RBC": "5.21 M/uL",
+                "HGB": "12.0 g/dL",
+                "PLT": "215 K/uL",
+                "Neutrophils": "58%",
+                "Lymphocytes": "32%",
+                "Monocytes": "6%",
+                "Eosinophils": "4%",
+                "Basophils": "<1%"
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "HGB": "g/dL",
+                "PLT": "K/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

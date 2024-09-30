@@ -1,0 +1,77 @@
+{
+    "Date": "07 Dec. 2022",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_values": [
+                {
+                    "name": "Hemoglobin (Hb)",
+                    "value": "12.5",
+                    "unit": "g/dL",
+                    "reference_range": "Low (< 13.0)"
+                },
+                {
+                    "name": "Total RBC count",
+                    "value": "5.7",
+                    "unit": "mill/cumm"
+                },
+                {
+                    "name": "Packed Cell Volume (PCV)",
+                    "value": "57.5",
+                    "unit": "%",
+                    "reference_range": "High (> 40)"
+                },
+                {
+                    "name": "Mean Corpuscular Volume (MCv)",
+                    "value": "87.75",
+                    "unit": "ft"
+                },
+                {
+                    "name": "MCH",
+                    "value": "27.2",
+                    "unit": "pg"
+                },
+                {
+                    "name": "MCHC",
+                    "value": "32.8",
+                    "unit": "g/dL"
+                },
+                {
+                    "name": "RDW",
+                    "value": "13.6",
+                    "unit": "%"
+                },
+                {
+                    "name": "Total WBC count",
+                    "value": "11",
+                    "unit": "cumm",
+                    "reference_range": "9000 - 11000"
+                },
+                {
+                    "name": "Neutrophils",
+                    "value": "60",
+                    "unit": "%",
+                    "reference_range": "50 - 67"
+                },
+                {
+                    "name": "Lymphocytes",
+                    "value": "31",
+                    "unit": "%",
+                    "reference_range": "20 - 40"
+                },
+                {
+                    "name": "Platelet count",
+                    "value": "150000",
+                    "unit": "cumm",
+                    "reference_range": "Borderline (150000 - 300000)"
+                }
+            ]
+        }
+    ]
+}

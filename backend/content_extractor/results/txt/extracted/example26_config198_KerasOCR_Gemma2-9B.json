@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobina",
+            "result_value": 120,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "14-18 g/dL"
+        },
+        {
+            "test_name": "hematocrito",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "plaquetas",
+            "result_value": 205,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos totales",
+            "result_value": 710,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4500-11000 x10^3/µL"
+        },
+        {
+            "test_name": "Neutrofilos",
+            "result_value": 820,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "02.02.XXX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hbl)",
+            "result_value": 12,
+            "unit_of_measurement": "dl",
+            "reference_range": "170"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 52,
+            "unit_of_measurement": "milli count cumm",
+            "reference_range": "5-5.5"
+        },
+        {
+            "test_name": "Packed cell volume (pcvi)",
+            "result_value": 57.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (imcvy)",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "27132"
+        },
+        {
+            "test_name": "MCH (mch)",
+            "result_value": 27.2,
+            "unit_of_measurement": null,
+            "reference_range": "calculated"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "dl",
+            "reference_range": "8251"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 18.6,
+            "unit_of_measurement": "%",
+            "reference_range": "116"
+        }
+    ]
+}

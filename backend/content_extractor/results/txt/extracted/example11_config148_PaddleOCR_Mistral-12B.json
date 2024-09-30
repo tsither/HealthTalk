@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "MCH",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "RBC COUNT",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": 27.2,
+            "unit_of_measurement": "C",
+            "reference_range": "4.5 - 5.5"
+        }
+    ]
+}

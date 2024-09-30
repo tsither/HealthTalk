@@ -1,0 +1,35 @@
+{
+    "Date": "04.12.2023",
+    "patient_information": {
+        "patient_id": "s55",
+        "patient_name": "Neal Patel",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "platelet count",
+            "result_value": "1550",
+            "unit_of_measurement": "cnidoiccn/µL",
+            "reference_range": "170 - 450 thousand/µL"
+        },
+        {
+            "test_name": "plateletcrit",
+            "result_value": "900",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "mean platelet volume (MPV)",
+            "result_value": "1701",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet distribution width (PDW)",
+            "result_value": "812",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

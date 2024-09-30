@@ -1,0 +1,77 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "60124598",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "RBC count": {
+                    "value": 4.5,
+                    "unit": "M/mm3",
+                    "reference_range": {
+                        "min": 3.8,
+                        "max": 6.2
+                    }
+                },
+                "HGB": {
+                    "value": 12.5,
+                    "unit": "g/dL",
+                    "reference_range": {
+                        "min": 11,
+                        "max": 17
+                    }
+                },
+                "HCT": {
+                    "value": 37.5,
+                    "unit": "%",
+                    "reference_range": {
+                        "min": 36,
+                        "max": 46
+                    }
+                },
+                "MCV": {
+                    "value": 87.75,
+                    "unit": "fL",
+                    "reference_range": {
+                        "min": 80,
+                        "max": 100
+                    }
+                },
+                "MCH": {
+                    "value": 29.0,
+                    "unit": "pg",
+                    "reference_range": {
+                        "min": 26,
+                        "max": 34
+                    }
+                },
+                "WBC count": {
+                    "value": 5.8,
+                    "unit": "/mm3",
+                    "reference_range": {
+                        "min": 3.5,
+                        "max": 10.5
+                    }
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": {
+                "Platelet count": {
+                    "value": 209,
+                    "unit": "/mm3",
+                    "reference_range": {
+                        "min": 140,
+                        "max": 450
+                    }
+                }
+            }
+        }
+    ]
+}

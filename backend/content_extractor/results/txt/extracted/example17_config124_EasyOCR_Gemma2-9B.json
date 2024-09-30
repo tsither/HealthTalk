@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11000-11660"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.8175",
+            "unit_of_measurement": "millions/mm3",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "50000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "410000",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

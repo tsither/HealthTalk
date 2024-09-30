@@ -1,0 +1,38 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": "87.75",
+                "Total RBC count": null,
+                "Hemoglobin (Hb)": "12.5",
+                "Packed Cell Volume (PCV)": "37.5",
+                "Platelet Count": "27.2",
+                "Mean Corpuscular Volume (MCV)": null,
+                "RBC COUNT": null,
+                "WBC COUNT": "87.75",
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "MCH": null,
+                "Calculated RDW": null
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "*10^3/uL",
+                "Hemoglobin (Hb)": "g/dL",
+                "Packed Cell Volume (PCV)": "%",
+                "Platelet Count": "*10^3/uL"
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "oizzas671",
+        "patient_name": "Patel Sample",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": {
+                    "normal_range": {
+                        "lower_limit": 13.5,
+                        "upper_limit": 17.5
+                    }
+                },
+                "female": {
+                    "normal_range": {
+                        "lower_limit": 12.0,
+                        "upper_limit": 16.0
+                    }
+                }
+            }
+        }
+    ]
+}

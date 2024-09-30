@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HGB",
+            "result_value": "10.3",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0-15.5 g/dL"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": "4.76",
+            "unit_of_measurement": "millions/mcL",
+            "reference_range": "4.5-5.5 millions/mcL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": "39.2",
+            "unit_of_measurement": "%",
+            "reference_range": "41-50 %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "82.7",
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "21.6",
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31 pg"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "26.1",
+            "unit_of_measurement": "%",
+            "reference_range": "32-36%"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "14.5",
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        }
+    ]
+}

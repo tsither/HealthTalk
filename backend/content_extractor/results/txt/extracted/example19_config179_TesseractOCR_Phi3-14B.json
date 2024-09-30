@@ -1,0 +1,48 @@
+{
+    "Date": "02.12.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": 12.5,
+                "RBC COUNT": 5.2,
+                "PCV": 57.5,
+                "MCV": 87.75,
+                "MCH": 27.2,
+                "MCHC": 32.8,
+                "ROW": 13.6,
+                "WEBC COUNT": null
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "PCV": "",
+                "MCV": "fL",
+                "MCH": "",
+                "MCHC": "g/d Calersated ROW",
+                "WEBC COUNT": ""
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.e g/dL",
+                "RBC COUNT": "45-55 mill/cumm",
+                "PCV": "",
+                "MCV": "83-101 fL",
+                "MCH": "",
+                "MCHC": "32.5 - 34.5 g/d Calersated ROW",
+                "WEBC COUNT": ""
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "cumm",
+            "reference_range": "150000 - 410000 cumm"
+        }
+    ]
+}

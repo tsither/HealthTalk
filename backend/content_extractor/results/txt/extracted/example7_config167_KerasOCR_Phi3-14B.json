@@ -1,0 +1,44 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 13.5 g/dL",
+                "Red blood cell count: 4.8 million cells/mcL"
+            ],
+            "unit_of_measurement": [
+                null,
+                null
+            ],
+            "reference_range": [
+                [
+                    "Male range: 13.8-17.2 g/dL",
+                    "Female range: 12.1-15.1 g/dL"
+                ],
+                [
+                    "Men range: 4.7-6.1 million cells/mcL",
+                    "Women range: 4.2-5.4 million cells/mcL"
+                ]
+            ]
+        },
+        {
+            "test_name": "Blood Cell Count",
+            "result_value": [
+                null
+            ],
+            "unit_of_measurement": [
+                null
+            ],
+            "reference_range": [
+                null
+            ]
+        }
+    ]
+}

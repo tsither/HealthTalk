@@ -1,0 +1,101 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 5.0,
+                "RBC": 4.8,
+                "HGB": 12.5,
+                "HCT": 37.6,
+                "MCV": 79.0,
+                "MCH": 26.0,
+                "MCHC": 32.9,
+                "PLT": 248,
+                "NEUT": 48.5,
+                "LYMPH": 35.1,
+                "MONO": 7.9,
+                "EOS": 6.2
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "10^3/µL",
+                "NEUT": "%",
+                "LYMPH": "%",
+                "MONO": "%",
+                "EOS": "%"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.0,
+                    10.0
+                ],
+                "RBC": [
+                    4.5,
+                    6.0
+                ],
+                "HGB": [
+                    13.0,
+                    18.0
+                ],
+                "HCT": [
+                    40.0,
+                    52.0
+                ],
+                "MCV": [
+                    80.0,
+                    99.0
+                ],
+                "MCH": [
+                    27.0,
+                    33.0
+                ],
+                "MCHC": [
+                    32.0,
+                    36.0
+                ],
+                "PLT": [
+                    150,
+                    450
+                ],
+                "NEUT": [
+                    38.0,
+                    72.0
+                ],
+                "LYMPH": [
+                    25.0,
+                    45.0
+                ],
+                "MONO": [
+                    2.0,
+                    11.0
+                ],
+                "EOS": [
+                    0.5,
+                    6.0
+                ]
+            }
+        },
+        {
+            "test_name": "Lactic Acid",
+            "result_value": 1.8,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": [
+                0.5,
+                2.2
+            ]
+        }
+    ]
+}

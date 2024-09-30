@@ -1,0 +1,59 @@
+{
+    "Date": "202X-DEC-01",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.7,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18"
+        },
+        {
+            "test_name": "RBC Count (Total)",
+            "result_value": 5.25,
+            "unit_of_measurement": "million/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Volume (MCV)",
+            "result_value": 91.7,
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 32.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": 14.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 7200,
+            "unit_of_measurement": "per µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": 52.5,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 345000,
+            "unit_of_measurement": "per µL",
+            "reference_range": null
+        }
+    ]
+}

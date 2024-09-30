@@ -1,0 +1,97 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                "14.8",
+                "1270"
+            ],
+            "unit_of_measurement": [
+                "g/L",
+                "/mm³"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Biometría hemática",
+            "result_value": [
+                "36",
+                "10"
+            ],
+            "unit_of_measurement": [
+                "%",
+                "%o"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Velocidad de sedimentación",
+            "result_value": [
+                "hora"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Bioquímica sérica",
+            "result_value": [
+                "87",
+                "169",
+                "60",
+                "45",
+                "19",
+                "160",
+                "0.5",
+                "7.39",
+                "7.5"
+            ],
+            "unit_of_measurement": [
+                "mg %",
+                "mg %",
+                "mg %",
+                "mg %",
+                "mg/dl",
+                "pg/mL",
+                "mg/dL",
+                "mmol/L",
+                "g/dL"
+            ],
+            "reference_range": [
+                "70-110",
+                "150-220",
+                "65-100",
+                "40-150",
+                "3-7 mg/dL",
+                "145 pg/mL",
+                "0.6 mEq/L",
+                "5.46-16.2 mmol/L",
+                "6.2-8.2 g/dL"
+            ]
+        },
+        {
+            "test_name": "Ionograma",
+            "result_value": [
+                "141",
+                "98",
+                "4.02"
+            ],
+            "unit_of_measurement": [
+                "mEq/L",
+                "mEq/L",
+                "mEq/L"
+            ],
+            "reference_range": [
+                "135-145",
+                "98-110",
+                "3.7-5.4"
+            ]
+        }
+    ]
+}

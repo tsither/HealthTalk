@@ -1,0 +1,131 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456769",
+        "patient_name": "Shivam Singh",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "status": "low"
+                },
+                "RBC count": {
+                    "value": 5.21,
+                    "unit": "million/µL",
+                    "status": null
+                },
+                "PCV": {
+                    "value": 51.5,
+                    "status": "high"
+                },
+                "MCV": {
+                    "value": 87,
+                    "unit": "fL",
+                    "status": null
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit": "pg",
+                    "status": null
+                },
+                "MCHC": {
+                    "value": 32.54,
+                    "unit": "g/dL",
+                    "status": null
+                },
+                "RDW-CV": {
+                    "value": 13.16,
+                    "unit": "%",
+                    "status": null
+                },
+                "Platelet count": {
+                    "value": 300,
+                    "unit": "thousand/µL",
+                    "status": null
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "min": 13.1,
+                    "max": 17.0,
+                    "unit": "g/dL"
+                },
+                "RBC count": {
+                    "min": 4.55,
+                    "max": 5.5,
+                    "unit": "million/µL"
+                },
+                "PCV": {
+                    "min": 60,
+                    "max": null,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "min": 75,
+                    "max": 83,
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "min": 27,
+                    "max": 32,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "min": 32.54,
+                    "max": null,
+                    "unit": "g/dL"
+                },
+                "RDW-CV": {
+                    "min": 11.6,
+                    "max": 14.0,
+                    "unit": "%"
+                },
+                "Platelet count": {
+                    "min": 50000,
+                    "max": 410000,
+                    "unit": "/µL"
+                }
+            }
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": {
+                "value": null
+            },
+            "reference_range": {
+                "value": null
+            }
+        },
+        {
+            "test_name": "Differential count",
+            "result_value": {
+                "Neutrophils": {
+                    "value": 60,
+                    "percent": true
+                },
+                "Lymphocytes": {
+                    "value": 31,
+                    "percent": true
+                },
+                "Eosinophils": {
+                    "value": 0,
+                    "percent": true
+                },
+                "Monocytes": {
+                    "value": 10,
+                    "percent": true
+                },
+                "Basophils": {
+                    "value": 0,
+                    "percent": true
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Glucose",
+            "result_value": 4.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 54,
+            "unit_of_measurement": "g/L (grams per liter)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 200,
+            "unit_of_measurement": "x10^9/L (per litre of blood)",
+            "reference_range": null
+        }
+    ]
+}

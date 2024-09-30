@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 4.2,
+            "unit_of_measurement": "10^6/uL",
+            "reference_range": "3.9-5.7"
+        },
+        {
+            "test_name": "Hemoglon A1c Levels",
+            "result_value": 7.4,
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.6"
+        },
+        {
+            "test_name": "BUN (blood urea nitrogen)",
+            "result_value": 21,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "7-20"
+        },
+        {
+            "test_name": "Creatinine Levels",
+            "result_value": 1.4,
+            "unit_of_measurement": "mg/dl",
+            "reference_range": "0.84-1.21"
+        }
+    ]
+}

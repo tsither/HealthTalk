@@ -1,0 +1,53 @@
+{
+    "Date": "012345675",
+    "patient_information": {
+        "patient_id": "091745675",
+        "patient_name": "shivam patel",
+        "patient_sex": "male",
+        "patient_age": "25"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "cumm",
+            "reference_range": "130-170"
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": "5.0",
+            "unit_of_measurement": "totar",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "mcv volume",
+            "result_value": "8175",
+            "unit_of_measurement": "pg cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "mch volume",
+            "result_value": "27",
+            "unit_of_measurement": "corpuiscular dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "mchc count",
+            "result_value": "140",
+            "unit_of_measurement": "calgulaled 116x cmchc",
+            "reference_range": "32-37"
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": "4.0",
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": "150",
+            "unit_of_measurement": "count",
+            "reference_range": null
+        }
+    ]
+}

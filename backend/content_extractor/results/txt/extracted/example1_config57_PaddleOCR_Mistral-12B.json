@@ -1,0 +1,124 @@
+{
+    "Date": "02 Dec. 2X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "reference_range": {
+                        "low": 13.0,
+                        "high": 17.0
+                    },
+                    "unit": "g/dL"
+                },
+                "RBC COUNT": {
+                    "value": 5.2,
+                    "reference_range": {
+                        "low": 4.5,
+                        "high": 5.5
+                    },
+                    "unit": "mill/cumm"
+                },
+                "BLOOD INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "value": 57.5,
+                        "reference_range": {
+                            "low": 40,
+                            "high": 50
+                        },
+                        "unit": "%"
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "value": 87.75,
+                        "reference_range": {
+                            "low": 83,
+                            "high": 101
+                        },
+                        "unit": "fL"
+                    },
+                    "MCH": {
+                        "value": 27.2,
+                        "reference_range": {
+                            "low": 27,
+                            "high": 32.5
+                        },
+                        "unit": "pg"
+                    },
+                    "RDW": {
+                        "value": 13.6,
+                        "reference_range": {
+                            "low": 11.6,
+                            "high": 14.0
+                        },
+                        "unit": "%"
+                    }
+                },
+                "WBC COUNT": {
+                    "value": 9000,
+                    "reference_range": {
+                        "low": 4000,
+                        "high": 11000
+                    },
+                    "unit": "cumm"
+                },
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": {
+                        "value": 60,
+                        "reference_range": {
+                            "low": 50,
+                            "high": 62
+                        },
+                        "unit": "%"
+                    },
+                    "Lymphocytes": {
+                        "value": 31,
+                        "reference_range": {
+                            "low": 20,
+                            "high": 40
+                        },
+                        "unit": "%"
+                    },
+                    "Eosinophils": {
+                        "value": 1,
+                        "reference_range": {
+                            "low": 0,
+                            "high": 6
+                        },
+                        "unit": "%"
+                    },
+                    "Monocytes": {
+                        "value": 7,
+                        "reference_range": {
+                            "low": 0,
+                            "high": 10
+                        },
+                        "unit": "%"
+                    },
+                    "Basophils": {
+                        "value": 1,
+                        "reference_range": {
+                            "low": 0,
+                            "high": 2
+                        },
+                        "unit": "%"
+                    }
+                },
+                "PLATeLet COUnT": {
+                    "value": 150000,
+                    "reference_range": {
+                        "low": 150000,
+                        "high": 410000
+                    },
+                    "unit": "cumm"
+                }
+            }
+        }
+    ]
+}

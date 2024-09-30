@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "masculino",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemograma",
+            "result_value": {
+                "hematocrito": 43.3,
+                "hemoglobina": 19.9,
+                "vcm": 87.4,
+                "hmc": 29.0,
+                "leucocitos": 10.2,
+                "neutrofilos": 54.6,
+                "linfocitos": 38.2,
+                "monocitos": 2.5,
+                "eosinofilos": 1.8
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "biometrias",
+            "result_value": {
+                "glucosa": 90,
+                "creatinina": 5.2,
+                "colesterol total": 210,
+                "colesterol LDL": 140,
+                "colesterol HDL": 55,
+                "trigliceridos": 170
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "creatinina": "mg/dL",
+                "colesterol total": "mg/dL",
+                "colesterol LDL": "mg/dL",
+                "colesterol HDL": "mg/dL",
+                "trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "proteinas",
+            "result_value": {
+                "albumina": 4.2,
+                "globulinas": 3.5,
+                "ferritina": 80,
+                "hierro total": 79
+            },
+            "unit_of_measurement": {
+                "albumina": "g/dL",
+                "globulinas": "g/dL",
+                "ferritina": "ng/mL",
+                "hierro total": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "funcion renal y hepatica",
+            "result_value": {
+                "bilirrubina total": 0.8,
+                "bilirrubina directa": 0.3,
+                "fosfatasa alcalina": 159,
+                "albumina": 4.2
+            },
+            "unit_of_measurement": {
+                "bilirrubina total": "mg/dL",
+                "bilirrubina directa": "mg/dL",
+                "fosfatasa alcalina": "U/L",
+                "albumina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

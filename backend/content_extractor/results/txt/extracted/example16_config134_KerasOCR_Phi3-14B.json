@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shah Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Low ILOS",
+                "85.5"
+            ],
+            "unit_of_measurement": "percentage",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin Cumm Schwartz (PCS)",
+            "result_value": [
+                214
+            ],
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": [
+                "39-50"
+            ]
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": [
+                15
+            ],
+            "unit_of_measurement": "thousands per microliter",
+            "reference_range": [
+                "4.0-11.0"
+            ]
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": [
+                307
+            ],
+            "unit_of_measurement": "thousands per microliter",
+            "reference_range": [
+                "150-450"
+            ]
+        }
+    ]
+}

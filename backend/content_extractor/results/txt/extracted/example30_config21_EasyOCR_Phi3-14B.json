@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "55",
+        "patient_name": "heali",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RBC count (total)",
+            "result_value": null,
+            "unit_of_measurement": "/ul",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC count (total)",
+            "result_value": null,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Differential Count",
+            "sub_results": [
+                {
+                    "type": "Neutrophils",
+                    "count": null,
+                    "percentage": null
+                },
+                {
+                    "type": "Lymphocytes",
+                    "count": null,
+                    "percentage": null
+                },
+                {
+                    "type": "Eosinophils",
+                    "count": null,
+                    "percentage": null
+                },
+                {
+                    "type": "Monocytes",
+                    "count": null,
+                    "percentage": null
+                },
+                {
+                    "type": "Basophils",
+                    "count": null,
+                    "percentage": null
+                }
+            ]
+        },
+        {
+            "test_name": "Platelet count (total)",
+            "result_value": null,
+            "unit_of_measurement": "/ul",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

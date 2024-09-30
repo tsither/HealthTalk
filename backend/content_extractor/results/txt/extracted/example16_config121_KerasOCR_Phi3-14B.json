@@ -1,0 +1,79 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel",
+        "patient_sex": "male",
+        "patient_age": 17
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 5.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total red blood cell count",
+            "result_value": 5750,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 4310,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential PM count",
+            "result_value": [
+                572,
+                457
+            ],
+            "unit_of_measurement": "pmol x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils count",
+            "result_value": [
+                311,
+                272
+            ],
+            "unit_of_measurement": "pmol x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes count",
+            "result_value": [
+                170,
+                57
+            ],
+            "unit_of_measurement": "pmol x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils count",
+            "result_value": [
+                457,
+                3
+            ],
+            "unit_of_measurement": "pmol x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes count",
+            "result_value": 8,
+            "unit_of_measurement": "pmol x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils count",
+            "result_value": [
+                136
+            ],
+            "unit_of_measurement": "pmol x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

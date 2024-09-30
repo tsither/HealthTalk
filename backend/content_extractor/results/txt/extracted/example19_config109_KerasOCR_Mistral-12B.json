@@ -1,0 +1,35 @@
+{
+    "Date": "27/12/2021",
+    "patient_information": {
+        "patient_id": "689575",
+        "patient_name": "Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 14000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "328 - 9700"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 37.8,
+            "unit_of_measurement": "%",
+            "reference_range": "37.0 - 47.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 272000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "150000 - 450000"
+        }
+    ]
+}

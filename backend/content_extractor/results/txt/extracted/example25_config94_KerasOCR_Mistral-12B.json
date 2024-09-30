@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": {
+                    "value": "12.5",
+                    "unit": "g/dL"
+                },
+                "HCT": {
+                    "value": "38.9",
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": "87",
+                    "unit": "fL"
+                },
+                "MCH": {
+                    "value": "28.6",
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": "32.9",
+                    "unit": "g/dL"
+                },
+                "WBC": {
+                    "value": "6.5",
+                    "unit": "10^3/µL"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Ria",
+            "result_value": {
+                "FBS": {
+                    "value": "98",
+                    "unit": "mg/dL"
+                }
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Sas",
+            "result_value": {
+                "AST": {
+                    "value": "25",
+                    "unit": "U/L"
+                },
+                "ALT": {
+                    "value": "30",
+                    "unit": "U/L"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

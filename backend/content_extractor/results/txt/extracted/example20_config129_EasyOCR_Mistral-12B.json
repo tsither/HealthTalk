@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.6,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 7.9,
+            "unit_of_measurement": "K/μL",
+            "reference_range": "4.5-10 K/μL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 326,
+            "unit_of_measurement": "K/μL",
+            "reference_range": "150-400 K/μL"
+        }
+    ]
+}

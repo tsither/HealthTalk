@@ -1,0 +1,41 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "68"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "40.5",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "107 000-400000"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": "13.6",
+            "unit_of_measurement": null,
+            "reference_range": "4.5 - 5.5 x10^9/L"
+        },
+        {
+            "test_name": "Neut",
+            "result_value": "57.5",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": "8.75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

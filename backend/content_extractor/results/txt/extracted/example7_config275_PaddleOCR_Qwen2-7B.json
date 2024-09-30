@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-20",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count (FBC)",
+            "result_value": "6.0",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "4.0-10.0"
+        },
+        {
+            "test_name": "C反应蛋白 (CRP) Test",
+            "result_value": "5 mg/L",
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

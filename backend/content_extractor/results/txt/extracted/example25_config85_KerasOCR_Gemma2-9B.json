@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 14.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-17 g/dL"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 42.0,
+            "unit_of_measurement": "%",
+            "reference_range": "38-52%"
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 250.0,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "150-450 x10^3/µL"
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 7.8,
+            "unit_of_measurement": "x10^3/µL",
+            "reference_range": "4-11 x10^3/µL"
+        },
+        {
+            "test_name": "Neutrófilos",
+            "result_value": 52.0,
+            "unit_of_measurement": "%",
+            "reference_range": "40-70%"
+        },
+        {
+            "test_name": "Linfocitos",
+            "result_value": 32.0,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Monocitos",
+            "result_value": 8.0,
+            "unit_of_measurement": "%",
+            "reference_range": "2-10%"
+        },
+        {
+            "test_name": "Eosinófilos",
+            "result_value": 4.0,
+            "unit_of_measurement": "%",
+            "reference_range": "1-5%"
+        },
+        {
+            "test_name": "Basófilos",
+            "result_value": 4.0,
+            "unit_of_measurement": "%",
+            "reference_range": "0-2%"
+        }
+    ]
+}

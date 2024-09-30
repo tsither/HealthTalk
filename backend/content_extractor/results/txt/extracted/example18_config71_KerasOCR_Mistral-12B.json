@@ -1,0 +1,57 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "857934",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "HGB": 13.5,
+                "PLT": 240
+            },
+            "unit_of_measurement": "10^9/L (WBC), g/dL (HGB), 10^9/L (PLT)",
+            "reference_range": {
+                "WBC": {
+                    "min": 3.5,
+                    "max": 10.5
+                },
+                "HGB": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "PLT": {
+                    "min": 140,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "LFT",
+            "result_value": {
+                "AST": 35,
+                "ALT": 48,
+                "ALP": 90
+            },
+            "unit_of_measurement": "U/L",
+            "reference_range": {
+                "AST": {
+                    "min": 5,
+                    "max": 35
+                },
+                "ALT": {
+                    "min": 7,
+                    "max": 52
+                },
+                "ALP": {
+                    "min": 40,
+                    "max": 120
+                }
+            }
+        }
+    ]
+}

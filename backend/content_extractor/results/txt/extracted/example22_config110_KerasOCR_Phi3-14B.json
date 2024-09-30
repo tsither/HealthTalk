@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin count",
+            "result_value": 140,
+            "unit_of_measurement": "g/L",
+            "reference_range": "135-180"
+        },
+        {
+            "test_name": "Red blood cell count",
+            "result_value": 6.9,
+            "unit_of_measurement": "/microliter",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrit percentage",
+            "result_value": 40.83,
+            "unit_of_measurement": "%",
+            "reference_range": "40-52"
+        },
+        {
+            "test_name": "MCV (mean corpuscular volume)",
+            "result_value": 89.56,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100"
+        },
+        {
+            "test_name": "MCH (mean corpuscular hemoglobin)",
+            "result_value": 32.5,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        }
+    ]
+}

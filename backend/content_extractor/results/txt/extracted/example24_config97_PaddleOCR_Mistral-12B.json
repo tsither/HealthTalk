@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "PLATELET COUNT",
+            "result_value": ".10",
+            "unit_of_measurement": "ytes",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": "5.00",
+            "unit_of_measurement": "000/uL",
+            "reference_range": "4.1 - 10.9"
+        },
+        {
+            "test_name": "NEUTROPHILS",
+            "result_value": "66%",
+            "unit_of_measurement": "%",
+            "reference_range": "45-75%"
+        },
+        {
+            "test_name": "LYMPHOCYTES",
+            "result_value": "28.8%",
+            "unit_of_measurement": "%",
+            "reference_range": "11.6 - 30.6"
+        },
+        {
+            "test_name": "MONOCYTES",
+            "result_value": "4.5%",
+            "unit_of_measurement": "%",
+            "reference_range": "2 - 8%"
+        }
+    ]
+}

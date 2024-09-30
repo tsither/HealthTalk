@@ -1,0 +1,29 @@
+{
+    "Date": "17/03/2021",
+    "patient_information": {
+        "patient_id": "sample 1301170",
+        "patient_name": "Shah Hiren",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": "4.00",
+            "unit_of_measurement": "M/mm3",
+            "reference_range": "3.8 - 10.8"
+        },
+        {
+            "test_name": "HGB (Hemoglobin)",
+            "result_value": "15",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12 - 18"
+        },
+        {
+            "test_name": "PLT (Platelet Count)",
+            "result_value": "272",
+            "unit_of_measurement": "K/mm3",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematies_unid": "56 val",
+                "hemoglobina": "10.5 g/dl",
+                "hematocrito": "32.9 %",
+                "fsi7": "89 %"
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "hematies_unid": null,
+                "hemoglobina": null,
+                "hematocrito": null,
+                "fsi7": null
+            }
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": "4.0 x10^3/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Placaquetas",
+            "result_value": "257 x10^3/uL",
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocito formula",
+            "result_value": {
+                "neutrofilos": "65 %",
+                "linfocitos": "20 %",
+                "monocitos": "7 %",
+                "eosinofilos": "3 %",
+                "basofilos": "5 %"
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

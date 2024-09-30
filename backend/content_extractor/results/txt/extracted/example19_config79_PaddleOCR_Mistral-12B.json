@@ -1,0 +1,68 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 57.5,
+                "RBC COUNT": 87.75,
+                "Total RBC count": 27.2,
+                "BLOOD INDICES": [
+                    {
+                        "MCH": 13.6
+                    },
+                    {
+                        "MCHC": 9000
+                    },
+                    {
+                        "RDW": 60
+                    }
+                ],
+                "WBC COUNT": 1,
+                "PLATELET COUNT": "...**E nd of Report****"
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT": "cumm",
+                "Total RBC count": "cumm",
+                "BLOOD INDICES": [
+                    {
+                        "MCH": "%"
+                    },
+                    {
+                        "MCHC": "cumm"
+                    },
+                    {
+                        "RDW": "%"
+                    }
+                ],
+                "WBC COUNT": "10^3/uL",
+                "PLATELET COUNT": "x10^9/L"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC COUNT": "4.5 - 5.5 cumm",
+                "Total RBC count": "27.2",
+                "BLOOD INDICES": [
+                    {
+                        "MCH": "27 - 32"
+                    },
+                    {
+                        "MCHC": "30 - 36"
+                    },
+                    {
+                        "RDW": "11.6 - 14.0"
+                    }
+                ],
+                "WBC COUNT": "4000-11000 /uL",
+                "PLATELET COUNT": "150000 - 410000 /uL"
+            }
+        }
+    ]
+}

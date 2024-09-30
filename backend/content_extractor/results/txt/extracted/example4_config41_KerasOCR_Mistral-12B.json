@@ -1,0 +1,29 @@
+{
+    "Date": "09/12/2034",
+    "patient_information": {
+        "patient_id": "5678901234",
+        "patient_name": "Shah, Shivam Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": 5.6,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": "4.0 - 6.0"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": 7.2,
+            "unit_of_measurement": "K/mm³",
+            "reference_range": "4.5 - 10.5"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 256,
+            "unit_of_measurement": "K/mm³",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

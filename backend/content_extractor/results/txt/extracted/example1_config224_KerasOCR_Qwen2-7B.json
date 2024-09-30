@@ -1,0 +1,36 @@
+{
+    "Date": "XX.XX.XXXX",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Yash",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_date": "02.11"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count investigation",
+            "result_value": {
+                "hemoglobin": "125",
+                "rbc_count": "52 as",
+                "epcv_packed_cell_volume": "75",
+                "mch_mean_corpuscular_hemoglobin_concentration": "272",
+                "mchc_mean_corpuscular_hematocrit": "328"
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "gial",
+                "rbc_count": "count",
+                "epcv_packed_cell_volume": "%",
+                "mch_mean_corpuscular_hemoglobin_concentration": "pg",
+                "mchc_mean_corpuscular_hematocrit": "-"
+            },
+            "reference_range": {
+                "hemoglobin": "125 - 130",
+                "rbc_count": "52 as - 55",
+                "epcv_packed_cell_volume": "75 - high ao s0 x",
+                "mch_mean_corpuscular_hemoglobin_concentration": "275 - 325",
+                "mchc_mean_corpuscular_hematocrit": "325 - 345"
+            }
+        }
+    ]
+}

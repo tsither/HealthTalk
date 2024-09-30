@@ -1,0 +1,65 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 13,
+                "RBC count": 52000000,
+                "PCV": 48.6,
+                "MCV": 93.7,
+                "MCHC": 33.6,
+                "Calculated RDW": 14.5,
+                "WBC count": {
+                    "Total WBC": 9000,
+                    "Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 2,
+                    "Monocytes": 4,
+                    "Basophils": 3
+                },
+                "Platelet count": 150000
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "RBC count": "cells/µL",
+                "PCV": "%",
+                "MCV": "fl",
+                "MCHC": "%",
+                "Calculated RDW": "",
+                "WBC count": {
+                    "Total WBC": "cells/µL",
+                    "Neutrophils": "%",
+                    "Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                },
+                "Platelet count": "cells/µL"
+            },
+            "reference_range": {
+                "hemoglonin": "13.8-17.2 g/dL",
+                "RBC count": "4.7-6.1 million cells/µL (men), 4.2-5.4 million cells/µL(women)",
+                "PCV": "38.8-50% (men), 34.9-44.5% (women)",
+                "MCV": "80-100 fl",
+                "MCHC": "32-36 g/dL",
+                "Calculated RDW": null,
+                "WBC count": {
+                    "Total WBC": "4500-11000 cells/µL (men), 4000-10000 cells/µL(women)",
+                    "Neutrophils": null,
+                    "Lymphocytes": null,
+                    "Eosinophils": null,
+                    "Monocytes": null,
+                    "Basophils": null
+                },
+                "Platelet count": "150000-410000 cells/µL"
+            }
+        }
+    ]
+}

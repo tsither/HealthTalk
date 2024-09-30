@@ -1,0 +1,29 @@
+{
+    "Date": "20x2-12-15",
+    "patient_information": {
+        "patient_id": "091234676",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 13.08,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 4.57,
+            "unit_of_measurement": "million/mm³",
+            "reference_range": "4.4-6.2"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 38.0,
+            "unit_of_measurement": "%",
+            "reference_range": "41.0-53.0"
+        }
+    ]
+}

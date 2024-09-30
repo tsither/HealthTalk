@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "NEMOGLODINA",
+            "result_value": 3.41,
+            "unit_of_measurement": "%",
+            "reference_range": "156 - 184"
+        },
+        {
+            "test_name": "PLAQUETAS (Platelet count)",
+            "result_value": 208,
+            "unit_of_measurement": "CEL",
+            "reference_range": "156 - 498"
+        },
+        {
+            "test_name": "LEUCOCITOS (White blood cells count)",
+            "result_value": 420,
+            "unit_of_measurement": "{CEM = ",
+            "reference_range": "1.8 - 10"
+        }
+    ]
+}

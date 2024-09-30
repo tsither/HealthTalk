@@ -1,0 +1,48 @@
+{
+    "Date": "02 Dec, 2x",
+    "patient_information": {
+        "patient_id": "PID: 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) Investigation",
+            "result_value": {
+                "HEMOGLOBIN": "Hb 12.5",
+                "RBC COUNT": "Total RBC Count 5.2",
+                "BLOOD INDICES": {
+                    "PCV": "57.5",
+                    "MCV": "87.75 fL",
+                    "MCH": "27.2 Pg",
+                    "MCHC": "32.8 g/dL",
+                    "RDW": "13.6 %"
+                },
+                "WBC COUNT": "Total WBC Count 9000",
+                "DIFFERENTIAL WBC COUNT": {
+                    "Neutrophils": "60%",
+                    "Lymphocytes": "31%",
+                    "Eosinophils": "1%",
+                    "Monocytes": "7%",
+                    "Basophils": "1%"
+                },
+                "PLATELET COUNT": "Platelet Count 150000"
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "BLOOD INDICES": "%",
+                "WBC COUNT": "cumm",
+                "PLATELET COUNT": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "[13.9- 17.0 g/dL]",
+                "RBC COUNT": "[4.5-5.5 mill/cumm]",
+                "BLOOD INDICES": "[PCV: 40-50 %, MCV: 83-101 fL, MCH: 27 - 32 Pg, MCHC: 32.5-34.5 g/dL, RDW: 11.6-14.0 %]",
+                "WBC COUNT": "[4000-11000 cumm]",
+                "PLATELET COUNT": "[41 50000 - 41 0000 cumm]"
+            }
+        }
+    ]
+}

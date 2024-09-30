@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "125. Shivam Bungalow, S G Road.",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 98,
+                "Platelet": 105,
+                "RBC": 4.5,
+                "Hb": 13.6,
+                "HCT": 32.8
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "Platelet": "10^3/uL",
+                "RBC": "cells/fL",
+                "Hb": "g/dL",
+                "HCT": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0",
+                "Platelet": "150,000-410,000",
+                "RBC": "4.4-6.1",
+                "Hb": "13.0- 17.0",
+                "HCT": "27 - 32"
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 98,
+            "unit_of_measurement": "fL",
+            "reference_range": "76-100"
+        }
+    ]
+}

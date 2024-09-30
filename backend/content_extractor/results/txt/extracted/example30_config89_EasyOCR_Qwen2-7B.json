@@ -1,0 +1,63 @@
+{
+    "Date": "09127a5675",
+    "patient_information": {
+        "patient_id": "013456759",
+        "patient_name": "patel shivam",
+        "patient_sex": "m",
+        "patient_age": 28
+    },
+    "test_results": [
+        {
+            "test_name": "cbc",
+            "result_value": [
+                {
+                    "field": "wbc",
+                    "value": "5.55",
+                    "unit_of_measurement": "count/pids blood"
+                },
+                {
+                    "field": "hemoglobin",
+                    "value": "45.5",
+                    "unit_of_measurement": "%"
+                },
+                {
+                    "field": "hct",
+                    "value": "170",
+                    "unit_of_measurement": "primaty"
+                },
+                {
+                    "field": "mchc",
+                    "value": "140",
+                    "unit_of_measurement": "t1bn cmchc"
+                },
+                {
+                    "field": "platelets",
+                    "value": "27",
+                    "unit_of_measurement": "% of corpuscular volume"
+                }
+            ],
+            "reference_range": [
+                {
+                    "field": "wbc",
+                    "range": "4-11"
+                },
+                {
+                    "field": "hemoglobin",
+                    "range": "130-165"
+                },
+                {
+                    "field": "hct",
+                    "range": "37-50"
+                },
+                {
+                    "field": "mchc",
+                    "range": "269-338"
+                },
+                {
+                    "field": "platelets",
+                    "range": "149-400"
+                }
+            ]
+        }
+    ]
+}

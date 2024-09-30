@@ -1,0 +1,52 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456389",
+        "patient_name": "Shah",
+        "patient_sex": "male",
+        "patient_age": 7
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (hemo) total",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) count",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4.5-5.5 x 10^6 /uL"
+        },
+        {
+            "test_name": "Hematocrit (hct) total",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "38-47%"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-95 fL"
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count with differential",
+            "result_value": null,
+            "unit_of_measurement": "/uL",
+            "reference_range": {
+                "Total WBC": "4.5-10 x 10^3 /uL",
+                "Neutrophils (%NLR)": "40-60%",
+                "Lymphocytes (%LLR)": "20-40%",
+                "Monocytes (MRC%)": "5-10%"
+            }
+        },
+        {
+            "test_name": "Platelet count (plt)",
+            "result_value": null,
+            "unit_of_measurement": "/L",
+            "reference_range": "140-400 x 10^3 /uL"
+        }
+    ]
+}

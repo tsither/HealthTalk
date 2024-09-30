@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_address": "shivam sungalow s g rood mumbai",
+        "patient_reception_date": null
+    },
+    "test_results": [
+        {
+            "test_name": "pow whole blood",
+            "result_value": 170,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "adults": [
+                    90,
+                    170
+                ],
+                "children": [
+                    75,
+                    155
+                ]
+            }
+        }
+    ]
+}

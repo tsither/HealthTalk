@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 0.28,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Cell Count (WBC)",
+            "result_value": 5400,
+            "unit_of_measurement": "/mcL",
+            "reference_range": "[1700-4900]"
+        },
+        {
+            "test_name": "Red Blood Cell Count (RBC)",
+            "result_value": 5.1,
+            "unit_of_measurement": "/microL",
+            "reference_range": "[380-520]"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": 14.9,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[8-15]"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "/microL",
+            "reference_range": "[140000-450000]"
+        }
+    ]
+}

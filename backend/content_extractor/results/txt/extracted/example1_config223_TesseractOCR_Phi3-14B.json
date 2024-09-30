@@ -1,0 +1,39 @@
+{
+    "Date": "03.11.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total RBC count": 5.2,
+                "BLOOD INDICES Q Packed Cell Volume (PCV)": 57.5,
+                "Mea lar Vol MCV Mean Corpuscu ar Volume (MCV)": 83.75,
+                "Rathiologunl.<’oora ary OIFFERENTIAL WBC COUNT Neutrophils": null,
+                "Lymphocyies": null,
+                "Del LG 20° Cal UY %": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "PLATELET COUNT Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT Total RBC count": "mill/cumm",
+                "BLOOD INDICES Q Packed Cell Volume (PCV)": "%",
+                "Mea lar Vol MCV Mean Corpuscu ar Volume (MCV)": "fL"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "13.0-17.e g/dL",
+                "RBC COUNT Total RBC count": "45-55 mill/cumm",
+                "BLOOD INDICES Q Packed Cell Volume (PCV)": "40-50%",
+                "Mea lar Vol MCV Mean Corpuscu ar Volume (MCV)": "80-100 fL"
+            }
+        }
+    ]
+}

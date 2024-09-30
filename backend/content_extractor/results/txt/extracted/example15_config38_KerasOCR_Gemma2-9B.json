@@ -1,0 +1,23 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "55 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet count",
+            "result_value": "555",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "108 - 1350"
+        },
+        {
+            "test_name": "Platelet distribution width (PDW)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "drlogy pathology lab",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 60,
+            "unit_of_measurement": null,
+            "reference_range": "Neutrophils: (45-70)%"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 31,
+            "unit_of_measurement": null,
+            "reference_range": "Lymphocytes: (20-45)%"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": 0.6,
+            "unit_of_measurement": null,
+            "reference_range": "Eosinophils: (1-4)%"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": 1.0,
+            "unit_of_measurement": null,
+            "reference_range": "Monocytes: (2-8)%"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0.2,
+            "unit_of_measurement": null,
+            "reference_range": "Basophils: (<1)%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 15000,
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "Platelets: (150-450)x10^9/L"
+        }
+    ]
+}

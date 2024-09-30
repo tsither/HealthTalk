@@ -1,0 +1,107 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a6769",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dl",
+                    "reference_range": [
+                        130,
+                        170
+                    ]
+                },
+                "rbc_count": {
+                    "value": 5.2,
+                    "unit": "million/cumm"
+                },
+                "pcv": {
+                    "value": 41.5,
+                    "unit": "%"
+                },
+                "mcv": {
+                    "value": 87.75,
+                    "unit": "fl",
+                    "reference_range": [
+                        83,
+                        101
+                    ]
+                },
+                "mch": {
+                    "value": 27.2,
+                    "unit": "pg",
+                    "reference_range": [
+                        27,
+                        32
+                    ]
+                },
+                "mchc": {
+                    "value": 32.8,
+                    "unit": "g/dl"
+                },
+                "rdw": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "wbc_count": {
+                    "value": 9000,
+                    "unit": "cumm"
+                }
+            },
+            "result_value_unit": {
+                "neutrophils": {
+                    "value": 60,
+                    "percent_range": [
+                        40,
+                        72
+                    ]
+                },
+                "lymphocytes": {
+                    "value": 31,
+                    "percent_range": [
+                        20,
+                        50
+                    ]
+                },
+                "eosinophils": {
+                    "value": 0,
+                    "percent_range": [
+                        0,
+                        8
+                    ]
+                },
+                "monocytes": {
+                    "value": 10,
+                    "percent_range": [
+                        3,
+                        14
+                    ]
+                },
+                "basophils": {
+                    "value": 0,
+                    "percent_range": [
+                        0,
+                        2
+                    ]
+                }
+            },
+            "platelet_count": {
+                "value": 350000,
+                "unit": "cumm",
+                "reference_range": [
+                    150000,
+                    400000
+                ]
+            },
+            "instrument_used": "Sysmex XN-3000",
+            "interpretation": "Interpretation for anemia"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "05.12.23",
+    "patient_information": {
+        "patient_id": "S234567890",
+        "patient_name": "Jane Doe",
+        "patient_sex": "Female",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c",
+            "result_value": 6.7,
+            "unit_of_measurement": "%",
+            "reference_range": "<5.7%"
+        },
+        {
+            "test_name": "BUN",
+            "result_value": 18,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "6-20 mg/dL"
+        }
+    ]
+}

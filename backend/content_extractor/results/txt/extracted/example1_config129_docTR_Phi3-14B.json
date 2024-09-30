@@ -1,0 +1,65 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": 123456,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 87.75,
+                "RBC COUNT": null,
+                "BLOOD INDICES": null,
+                "Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular Volume (MCV)": null,
+                "Calculated MCH": null,
+                "Calculated MCHC": null,
+                "Jlated RDW": null,
+                "Total WBC count": 13.6,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": 9000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT": null,
+                "BLOOD INDICES": null,
+                "Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Calculated MCH": null,
+                "Calculated MCHC": "%",
+                "Jlated RDW": null,
+                "Total WBC count": "g/dL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "Platelet Count": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0 g/dL",
+                "RBC COUNT": null,
+                "BLOOD INDICES": null,
+                "Packed Cell Volume (PCV)": null,
+                "Mean Corpuscular Volume (MCV)": "83-101 fL",
+                "Calculated MCH": null,
+                "Calculated MCHC": null,
+                "Jlated RDW": null,
+                "Total WBC count": "4.5-11.6 g/dL",
+                "Neutrophils": "40-70%",
+                "Lymphocytes": "20-45%",
+                "Eosinophils": "1-3%",
+                "Monocytes": null,
+                "Basophils": null,
+                "Platelet Count": "150000-410000"
+            }
+        }
+    ]
+}

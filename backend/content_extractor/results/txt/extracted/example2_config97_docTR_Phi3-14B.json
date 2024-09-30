@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "a5678",
+        "patient_name": "O ",
+        "patient_sex": "Male",
+        "patient_age": 20
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c (HbA1c)",
+            "result_value": 5.3,
+            "unit_of_measurement": "%",
+            "reference_range": "[4.0-6.0%]"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) - Red Blood Cell (RBC) count",
+            "result_value": 5.3,
+            "unit_of_measurement": "million cells/mcL",
+            "reference_range": "[4.7-6.1 million cells/mcL]"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) - White Blood Cell (WBC) count",
+            "result_value": 25,
+            "unit_of_measurement": "thousands of cells per microliter",
+            "reference_range": "[4.0-11.0 thousand/mcL]"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) - Platelets count",
+            "result_value": 35,
+            "unit_of_measurement": "thousands of cells per microliter",
+            "reference_range": "[150-400 thousand/mcL]"
+        },
+        {
+            "test_name": "Complete Blood Count (CBC) - Hemoglobin level",
+            "result_value": 13.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17.5 g/dL]"
+        }
+    ]
+}

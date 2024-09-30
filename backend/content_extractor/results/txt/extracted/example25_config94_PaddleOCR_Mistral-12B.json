@@ -1,0 +1,35 @@
+{
+    "Date": "23/09/2022",
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 12.5,
+                "HTC": 40.6,
+                "VGM": 89.7,
+                "PLT": 220000,
+                "WBC": 6500
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "HTC": "%",
+                "VGM": "fl",
+                "PLT": "10^3/µL",
+                "WBC": "10^3/µL"
+            },
+            "reference_range": {
+                "Hb": "12-16 g/dL",
+                "HTC": "40-50%",
+                "VGM": "80-97 fl",
+                "PLT": "150-400 10^3/µL",
+                "WBC": "4.5-11 10^3/µL"
+            }
+        }
+    ]
+}

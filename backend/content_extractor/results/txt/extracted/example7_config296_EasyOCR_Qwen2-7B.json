@@ -1,0 +1,29 @@
+{
+    "Date": "XX/XX/XXXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[Patient's Name]",
+        "patient_sex": "[Male/Female]",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "BLOOD SUGAR",
+            "result_value": "80 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[60-100 mg/dL]"
+        },
+        {
+            "test_name": "HEMOGLOBIN",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.0-17.0 g/dL] (for men)"
+        },
+        {
+            "test_name": "C-Reactive Protein",
+            "result_value": "0.5 mg/L",
+            "unit_of_measurement": "mg/L",
+            "reference_range": "[<0.8 mg/L]"
+        }
+    ]
+}

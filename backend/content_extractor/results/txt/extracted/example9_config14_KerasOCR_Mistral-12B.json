@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": "8.0",
+                "RBC": "5.0",
+                "HGB": "12.0",
+                "HCT": "40.0",
+                "PLT": "250",
+                "MCV": "90",
+                "MCH": "30",
+                "MCHC": "33"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/uL",
+                "RBC": "10^6/uL",
+                "HGB": "g/dL",
+                "HCT": "%",
+                "PLT": "10^3/uL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": "4.5-11.0",
+                "RBC": "4.5-6.2",
+                "HGB": "13.0-17.0",
+                "HCT": "40.0-54.0",
+                "PLT": "150-400",
+                "MCV": "80-100",
+                "MCH": "26-32",
+                "MCHC": "32-36"
+            }
+        },
+        {
+            "test_name": "Blood Glucose",
+            "result_value": "100",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99"
+        }
+    ]
+}

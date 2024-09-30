@@ -1,0 +1,84 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "800012345678",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": {
+                    "value": 7.0,
+                    "unit": "10^9/L"
+                },
+                "RBC": {
+                    "value": 4.5,
+                    "unit": "10^12/L"
+                },
+                "Hb": {
+                    "value": 13.5,
+                    "unit": "g/dL"
+                },
+                "Hct": {
+                    "value": 42,
+                    "unit": "%"
+                },
+                "Plt": {
+                    "value": 250,
+                    "unit": "10^9/L"
+                }
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 11.0
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 6.1
+                },
+                "Hb": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "Hct": {
+                    "min": 37,
+                    "max": 52
+                },
+                "Plt": {
+                    "min": 150,
+                    "max": 450
+                }
+            }
+        },
+        {
+            "test_name": "CBC Differential",
+            "result_value": {
+                "Neutrophils": {
+                    "value": 65,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 28,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 5,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 1.5,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 0.5,
+                    "unit": "%"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

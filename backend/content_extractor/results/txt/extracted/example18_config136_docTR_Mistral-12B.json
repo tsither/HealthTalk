@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 1.0,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.3 - 1.9"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 20,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "AST",
+            "result_value": 38,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        }
+    ]
+}

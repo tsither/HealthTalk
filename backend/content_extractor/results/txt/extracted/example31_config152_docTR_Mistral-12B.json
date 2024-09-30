@@ -1,0 +1,71 @@
+{
+    "Date": "21 Dec, 2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": "1"
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "Low": 13,
+                "High": 17
+            }
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "4.5",
+            "unit_of_measurement": "milcumm %",
+            "reference_range": {
+                "Low": 45,
+                "High": 55
+            }
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "87.75",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCH",
+            "result_value": "27",
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": "31",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "7",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 20,
+                "High": 40
+            }
+        },
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": "32.8",
+            "unit_of_measurement": "Cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "73.6",
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Low": 14,
+                "High": 80
+            }
+        }
+    ]
+}

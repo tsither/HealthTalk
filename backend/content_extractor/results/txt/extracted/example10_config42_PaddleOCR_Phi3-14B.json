@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "X MUMBAI",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Distribution Width (PDW)",
+            "result_value": 9.0,
+            "unit_of_measurement": "%",
+            "reference_range": "17.0-27.0%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-400 x 10^9/L"
+        },
+        {
+            "test_name": "Platelet Mean Volume (MPV)",
+            "result_value": null,
+            "unit_of_measurement": "fl",
+            "reference_range": "7.5-11.0 fl"
+        }
+    ]
+}

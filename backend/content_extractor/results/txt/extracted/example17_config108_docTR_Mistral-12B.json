@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CEA",
+            "result_value": 40,
+            "unit_of_measurement": "ng/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "CA 19-9",
+            "result_value": "<2.0",
+            "unit_of_measurement": "kU/L",
+            "reference_range": "<37"
+        }
+    ]
+}

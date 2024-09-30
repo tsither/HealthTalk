@@ -1,0 +1,107 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Completo",
+            "result_value": {
+                "Hemoglobin": 13.3,
+                "Hematocrit": 40.5,
+                "Erythrocytes": 4.75,
+                "Mean Corpuscular Volume": 83.1,
+                "Mean Corpuscular Hemoglobin": 27.9,
+                "Mean Corpuscular Hemoglobin Concentration": 33.6,
+                "Platelets": 270,
+                "White Blood Cells": 6500
+            },
+            "unit_of_measurement": {
+                "Hemoglobin": "g/dL",
+                "Hematocrit": "%",
+                "Erythrocytes": "M/cm",
+                "Mean Corpuscular Volume": "fL",
+                "Mean Corpuscular Hemoglobin": "pg",
+                "Mean Corpuscular Hemoglobin Concentration": "%",
+                "Platelets": "10^3/uL",
+                "White Blood Cells": "10^3/uL"
+            },
+            "reference_range": {
+                "Hemoglobin": "-",
+                "Hematocrit": "-",
+                "Erythrocytes": "-",
+                "Mean Corpuscular Volume": "-",
+                "Mean Corpuscular Hemoglobin": "-",
+                "Mean Corpuscular Hemoglobin Concentration": "-",
+                "Platelets": "-",
+                "White Blood Cells": "-"
+            }
+        },
+        {
+            "test_name": "Coagulation Profile",
+            "result_value": {
+                "PT": 10.2,
+                "PTT": 30.0,
+                "INR": 1.0
+            },
+            "unit_of_measurement": {
+                "PT": "s",
+                "PTT": "s",
+                "INR": "-"
+            },
+            "reference_range": {
+                "PT": "-",
+                "PTT": "-",
+                "INR": "-"
+            }
+        },
+        {
+            "test_name": "Biochemistry Profile",
+            "result_value": {
+                "Glucose": 100,
+                "Total Protein": 7.5,
+                "Albumin": 4.2,
+                "Bilirubin Total": 0.8,
+                "Bilirubin Direct": 0.3,
+                "Uric Acid": 6.1,
+                "Creatinine": 0.9,
+                "Urea": 32,
+                "Sodium": 140,
+                "Potassium": 4.5,
+                "Chloride": 102,
+                "Carbon Dioxide": 27
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "Bilirubin Total": "mg/dL",
+                "Bilirubin Direct": "mg/dL",
+                "Uric Acid": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Urea": "mg/dL",
+                "Sodium": "mEq/L",
+                "Potassium": "mEq/L",
+                "Chloride": "mEq/L",
+                "Carbon Dioxide": "mmol/L"
+            },
+            "reference_range": {
+                "Glucose": "-",
+                "Total Protein": "-",
+                "Albumin": "-",
+                "Bilirubin Total": "-",
+                "Bilirubin Direct": "-",
+                "Uric Acid": "-",
+                "Creatinine": "-",
+                "Urea": "-",
+                "Sodium": "-",
+                "Potassium": "-",
+                "Chloride": "-",
+                "Carbon Dioxide": "-"
+            }
+        }
+    ]
+}

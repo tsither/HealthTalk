@@ -1,0 +1,131 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "SSN123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 4.8,
+                "Hb": 12.0,
+                "Hct": 39.5,
+                "MCV": 82,
+                "MCH": 27,
+                "MCHC": 34
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10
+                },
+                "RBC": {
+                    "min": 4.2,
+                    "max": 6.1
+                },
+                "Hb": {
+                    "min": 12.0,
+                    "max": 16.0
+                },
+                "Hct": {
+                    "min": 37,
+                    "max": 47
+                },
+                "MCV": {
+                    "min": 80,
+                    "max": 95
+                },
+                "MCH": {
+                    "min": 26,
+                    "max": 32
+                },
+                "MCHC": {
+                    "min": 31,
+                    "max": 35
+                }
+            }
+        },
+        {
+            "test_name": "Differential Count",
+            "result_value": {
+                "Neutrophils": 58,
+                "Lymphocytes": 34,
+                "Monocytes": 6,
+                "Eosinophils": 2,
+                "Basophils": 0
+            },
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "Neutrophils": {
+                    "min": 50,
+                    "max": 70
+                },
+                "Lymphocytes": {
+                    "min": 28,
+                    "max": 45
+                },
+                "Monocytes": {
+                    "min": 3,
+                    "max": 10
+                },
+                "Eosinophils": {
+                    "min": 0,
+                    "max": 3
+                },
+                "Basophils": {
+                    "min": 0,
+                    "max": 2
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "10^9/L",
+            "reference_range": {
+                "min": 150,
+                "max": 400
+            }
+        },
+        {
+            "test_name": "Coagulation Profile",
+            "result_value": {
+                "PT": 13.2,
+                "PTT": 34.5,
+                "INR": 1.1
+            },
+            "unit_of_measurement": {
+                "PT": "s",
+                "PTT": "s",
+                "INR": null
+            },
+            "reference_range": {
+                "PT": {
+                    "min": 12,
+                    "max": 14
+                },
+                "PTT": {
+                    "min": 30,
+                    "max": 45
+                },
+                "INR": {
+                    "min": 0.8,
+                    "max": 1.2
+                }
+            }
+        }
+    ]
+}

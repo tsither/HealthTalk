@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec 2022",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Mumbai LAB",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Morphology",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 32800,
+            "unit_of_measurement": "/uL",
+            "reference_range": "4500-11,000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 160,
+            "unit_of_measurement": "/uL",
+            "reference_range": null
+        }
+    ]
+}

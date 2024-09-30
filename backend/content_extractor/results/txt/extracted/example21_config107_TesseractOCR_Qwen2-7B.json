@@ -1,0 +1,29 @@
+{
+    "Date": "12/03/2023",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Full Blood Count",
+            "result_value": "WBC: 8.5, RBC: 4.2, HGB: 13.6, HCT: 0.409",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": "TC: 180 mg/dL, HDL: 50 mg/dL, LDL: 120 mg/dL, TGLs: 140 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucose",
+            "result_value": "Fasting glucose: 85 mg/dL",
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "[70-100]"
+        }
+    ]
+}

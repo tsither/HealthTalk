@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Patel oned",
+        "patient_sex": "M",
+        "patient_age": "06"
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": "14.0",
+            "unit_of_measurement": "thousands per microliter (euuhr)",
+            "reference_range": "500-1100"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": null,
+            "unit_of_measurement": "(qH)",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

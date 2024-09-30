@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL"
+        },
+        {
+            "test_name": "White Blood Cells",
+            "result_value": 12000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "4500-11000 cells/µL"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 350000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "150000-450000 cells/µL"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 4.8,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.0-5.5 million/µL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 32.6,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-51.9 %"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 67.9,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 33.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        }
+    ]
+}

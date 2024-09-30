@@ -1,0 +1,64 @@
+{
+    "Date": "02 DEC",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Low < 13, Normal 13-17"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.745,
+            "unit_of_measurement": "Million/cumm Blood"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": 71.5,
+            "unit_of_measurement": "%",
+            "reference_range": "Low < 27, Normal 27-46"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 67.75,
+            "unit_of_measurement": "fl"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "Low < 27, Normal 27-32"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 52.1,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Total White Blood Cell Count (WBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "no/mm³"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 82,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 10,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150000,
+            "unit_of_measurement": "borderlinc/µL"
+        }
+    ]
+}

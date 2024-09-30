@@ -1,0 +1,67 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematíes": "10.9 fl",
+                "hemoglobina": "14 g/l",
+                "vcm": "84 fl",
+                "hct": "29%",
+                "leucocitos": "10.6 x 10^9/l",
+                "neutrófilos": "185",
+                "linfocitos": "20%",
+                "monocitos": "3%",
+                "eosinófilos": "2%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Quimica sanguinea",
+            "result_value": {
+                "glucosa": "1 mg/dl",
+                "colesterol": "205 mg/dl",
+                "hdl": "55 mg/dl",
+                "trigliceridos": "165 mg/dl",
+                "proteina": "8 g/dl",
+                "ferritina": "170 ng/ml"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina A1c",
+            "result_value": "5.2%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Bilirrubinas",
+            "result_value": {
+                "total": "34 mg/dl",
+                "directa": "< 1 mg/dl"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Fosfatasa alcalina",
+            "result_value": "50 U/L",
+            "unit_of_measurement": "U/L",
+            "reference_range": "< 110"
+        },
+        {
+            "test_name": "Albumina",
+            "result_value": "4.9 g/dl",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

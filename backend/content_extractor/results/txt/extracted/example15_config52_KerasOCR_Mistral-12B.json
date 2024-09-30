@@ -1,0 +1,23 @@
+{
+    "Date": "21.03.2022",
+    "patient_information": {
+        "patient_id": "PT001",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Total Protein",
+            "result_value": 78,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "60-83"
+        },
+        {
+            "test_name": "Albumin",
+            "result_value": 4.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "3.5-5.2"
+        }
+    ]
+}

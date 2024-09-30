@@ -1,0 +1,55 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shah Shaan",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Low",
+                "Borderline"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": [
+                "13-17 g/dL",
+                "150-450 x 10^9/L - 250-400 x 10^9/L"
+            ]
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "13-17 g/dL"
+            ]
+        },
+        {
+            "test_name": "RBC (Total)",
+            "result_value": 5.2,
+            "unit_of_measurement": "x 10^6/uL",
+            "reference_range": [
+                "4.7-6.1 x 10^6/uL"
+            ]
+        },
+        {
+            "test_name": "Hematocrit (Hct)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": [
+                "38.3-48.6%"
+            ]
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 75,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                90
+            ]
+        }
+    ]
+}

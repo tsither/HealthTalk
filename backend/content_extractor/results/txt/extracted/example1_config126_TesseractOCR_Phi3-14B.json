@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total RBC count": 5.2,
+                "BLOOD INDICES Packed Cell Volume (PCV)": 57.5,
+                "Mean Corpuscular Volume (MCV)": 87.75,
+                "Calculated MCH": 27.2,
+                "Calculated RDW": 13.6,
+                "WBC COUNT Total WBC count": 9000,
+                "DIFFERENTIAL WBC COUNT Neutrophils": 60,
+                "Lymphocytes": 31,
+                "Eosinophils": 1,
+                "Monocytes": 7,
+                "Basophils": 1,
+                "PLATELET COUNT Platelet Count": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT Total RBC count": "mill/cumm",
+                "BLOOD INDICES Packed Cell Volume (PCV)": "%",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Calculated MCH": "pg",
+                "Calculated RDW": "",
+                "WBC COUNT Total WBC count": "cumm",
+                "DIFFERENTIAL WBC COUNT Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%",
+                "PLATELET COUNT Platelet Count": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": [
+                    13.0,
+                    17.0
+                ],
+                "RBC COUNT Total RBC count": [
+                    4.5,
+                    5.5
+                ],
+                "BLOOD INDICES Packed Cell Volume (PCV)": [
+                    40,
+                    50
+                ],
+                "Mean Corpuscular Volume (MCV)": [
+                    83,
+                    101
+                ],
+                "Calculated MCH": [
+                    27,
+                    32
+                ],
+                "Calculated RDW": "",
+                "WBC COUNT Total WBC count": [
+                    4000,
+                    11000
+                ],
+                "DIFFERENTIAL WBC COUNT Neutrophils": "[50, 62]",
+                "Lymphocytes": "[20, 40]",
+                "Eosinophils": "[00, 06]",
+                "Monocytes": "[00, 10]",
+                "Basophils": "[00, 02]",
+                "PLATELET COUNT Platelet Count": [
+                    150000,
+                    410000
+                ]
+            }
+        }
+    ]
+}

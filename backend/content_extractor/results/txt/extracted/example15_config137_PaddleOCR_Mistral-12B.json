@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Iron",
+            "result_value": "<70",
+            "unit_of_measurement": "µg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Vitamin B12",
+            "result_value": "<200",
+            "unit_of_measurement": "pg/mL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PDW",
+            "result_value": 15.5,
+            "unit_of_measurement": "%",
+            "reference_range": "9.0 - 17.0%"
+        }
+    ]
+}

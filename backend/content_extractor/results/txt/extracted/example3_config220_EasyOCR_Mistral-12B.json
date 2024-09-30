@@ -1,0 +1,21 @@
+{
+    "Date": "10/07/2023",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yashon Coalr",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "low": 120,
+                "high_male": 175,
+                "high_female": 160
+            }
+        }
+    ]
+}

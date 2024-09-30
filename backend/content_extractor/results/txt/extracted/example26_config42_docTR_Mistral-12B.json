@@ -1,0 +1,89 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma Serie Roja",
+            "result_value": {
+                "Hematies": 4.75,
+                "Hemoglobina": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C,M.": 27.9,
+                "C.H.C.M.": 33.6,
+                "A.D.E": 4.0
+            },
+            "unit_of_measurement": {
+                "Hematies": "10E6/uL",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "IL",
+                "H.C,M.": "pg",
+                "C.H.C.M.": "gldL",
+                "A.D.E": null
+            },
+            "reference_range": {
+                "Hematies": "12.0 - 16.0",
+                "Hemoglobina": null,
+                "Hematocrito": "36.0 - 47.0",
+                "V.C.M.": "80.0 - 98.0",
+                "H.C,M.": "27.0 - 32.0",
+                "C.H.C.M.": "32.0 : 36.0",
+                "A.D.E": null
+            }
+        },
+        {
+            "test_name": "Serie Plaquetar",
+            "result_value": {
+                "Plaquetas": 208,
+                "V.P.M.": 9.1,
+                "A.D.P.": 0.189,
+                "Plaquetocrito": null
+            },
+            "unit_of_measurement": {
+                "Plaquetas": "10E3/pL",
+                "V.P.M.": "%",
+                "A.D.P.": "%",
+                "Plaquetocrito": null
+            },
+            "reference_range": {
+                "Plaquetas": "140 - 400",
+                "V.P.M.": "7.5 - 11.0",
+                "A.D.P.": "15,6 - 18.4",
+                "Plaquetocrito": null
+            }
+        },
+        {
+            "test_name": "Serie Blanca",
+            "result_value": {
+                "Leucocitos": 4.2,
+                "Neu": 2.1,
+                "Lin": 0.5,
+                "Mon": 0.1,
+                "Eos": 0.0,
+                "Bas": 0.0
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10E3/uL",
+                "Neu": "10E3/pL",
+                "Lin": "10E3/pL",
+                "Mon": "10E3/pL",
+                "Eos": "10E3/pL",
+                "Bas": "10E3/pL"
+            },
+            "reference_range": {
+                "Leucocitos": "4.00 - 10.00",
+                "Neu": null,
+                "Lin": null,
+                "Mon": null,
+                "Eos": null,
+                "Bas": null
+            }
+        }
+    ]
+}

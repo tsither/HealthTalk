@@ -1,0 +1,29 @@
+{
+    "Date": "03. Athology Lab IPLEX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel",
+        "patient_sex": null,
+        "patient_age": 27
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 45,
+            "unit_of_measurement": "%",
+            "reference_range": "40 - 52%"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

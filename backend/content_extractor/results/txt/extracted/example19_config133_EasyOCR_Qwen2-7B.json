@@ -1,0 +1,24 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "",
+        "patient_sex": "",
+        "patient_age": ""
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": null,
+            "unit_of_measurement": "milliliter",
+            "reference_range": {
+                "hemoglobin": "[32-110]",
+                "count": "[4.5-6.0] x 10^9/L",
+                "mcv (Mean Corpuscular Volume)": "[80-100] fl",
+                "rdw (Red Cell Distribution Width)": null,
+                "hematocrit": "[32-47]%",
+                "platelet count": "[150-450] x 10^9/L"
+            }
+        }
+    ]
+}

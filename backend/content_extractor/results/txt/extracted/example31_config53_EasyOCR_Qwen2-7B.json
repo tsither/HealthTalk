@@ -1,0 +1,36 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "drlogy",
+        "patient_name": "yash patel",
+        "patient_sex": "male",
+        "patient_age": 55,
+        "patient_care_level": "primary thcare"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 108,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[120-160]"
+        },
+        {
+            "test_name": "rbc",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc",
+            "result_value": 689578,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 130,
+            "unit_of_measurement": "uL",
+            "reference_range": "[140-400]"
+        }
+    ]
+}

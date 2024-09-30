@@ -1,0 +1,23 @@
+{
+    "Date": "09.12.2022",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Total White Blood Cell Count",
+            "result_value": 10,
+            "unit_of_measurement": "o/oL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 254,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": "150,000 - 410,000"
+        }
+    ]
+}

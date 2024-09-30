@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 8.1,
+            "unit_of_measurement": "10^3/mm³",
+            "reference_range": "6.0 - 17.5"
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 11.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12.0 - 16.0"
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 25.8,
+            "unit_of_measurement": "%",
+            "reference_range": "40.0 - 52.0"
+        },
+        {
+            "test_name": "Plaquetas",
+            "result_value": 160,
+            "unit_of_measurement": "10^3/mm³",
+            "reference_range": "150 - 450"
+        }
+    ]
+}

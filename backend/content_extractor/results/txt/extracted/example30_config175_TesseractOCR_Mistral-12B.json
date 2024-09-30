@@ -1,0 +1,78 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "555 QV",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": {
+                    "value": 12.5,
+                    "range": "Low"
+                },
+                "RBC COUNT": {
+                    "value": 5.2,
+                    "range": "4.5-5.5 mill/cumm"
+                },
+                "BLOOD INDICES": {
+                    "Packed Cell Volume (PCV)": {
+                        "value": 57.5,
+                        "range": "High"
+                    },
+                    "Mean Corpuscular Volume (MCV)": {
+                        "value": 87.75
+                    },
+                    "MCH": {
+                        "value": 27.2
+                    },
+                    "MCHC": {
+                        "value": 32.8
+                    }
+                },
+                "WBC COUNT": {
+                    "Total WBC count": {
+                        "value": 23,
+                        "range": "4 fi"
+                    },
+                    "Neutrophils": {
+                        "value": 60
+                    },
+                    "E Lymphocytes": {
+                        "value": 31
+                    },
+                    "Eosinophils": {
+                        "value": 1
+                    },
+                    "Monocytes": {
+                        "value": 7
+                    },
+                    "Basophils": {
+                        "value": 1
+                    }
+                },
+                "PLATELET COUNT": {
+                    "value": 150000,
+                    "range": "Borderline"
+                }
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "mill/cumm",
+                "BLOOD INDICES": "%",
+                "WBC COUNT": {
+                    "Total WBC count": "/uL",
+                    "Neutrophils": "%",
+                    "E Lymphocytes": "%",
+                    "Eosinophils": "%",
+                    "Monocytes": "%",
+                    "Basophils": "%"
+                },
+                "PLATELET COUNT": "cumm"
+            }
+        }
+    ]
+}

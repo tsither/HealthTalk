@@ -1,0 +1,66 @@
+{
+    "Date": "unknown",
+    "patient_information": {
+        "patient_id": "0123419769",
+        "patient_name": "patel yash",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "collection_time": "125 shivom sungalaw s g rond"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[125, 130]"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "57",
+            "unit_of_measurement": "millions/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed cell volume (PCV)",
+            "result_value": "0.75",
+            "unit_of_measurement": "",
+            "reference_range": "[83, 101] fl"
+        },
+        {
+            "test_name": "Mean corpuscular size (MCV)",
+            "result_value": "272",
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW coefficient",
+            "result_value": "136",
+            "unit_of_measurement": "%",
+            "reference_range": "[11, 14] %"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "9000",
+            "unit_of_measurement": "cells/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC differential count (Neutrophils)",
+            "result_value": "62%",
+            "unit_of_measurement": "%",
+            "reference_range": "[50, 70] %"
+        },
+        {
+            "test_name": "WBC differential count (Lymphocytes)",
+            "result_value": "31%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "50000",
+            "unit_of_measurement": "billion/µL",
+            "reference_range": "[140, 400] x 10^3 /mm³"
+        }
+    ]
+}

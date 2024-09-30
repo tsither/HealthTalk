@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec 2x",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam S G",
+        "patient_sex": "Male",
+        "patient_age": "21"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "hemoglobin": 13.04,
+                "rbc_count": 5.2,
+                "mcv": 87.75
+            },
+            "unit_of_measurement": {
+                "hemoglobin": "g/dL",
+                "rbc_count": "million/µL",
+                "mcv": "fL"
+            },
+            "reference_range": {
+                "hemoglobin": {
+                    "lower": 13.0,
+                    "upper": 18.5
+                },
+                "rbc_count": {
+                    "lower": 4.5,
+                    "upper": 6.0
+                },
+                "mcv": {
+                    "lower": 82,
+                    "upper": 101
+                }
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 272000,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": {
+                "lower": 150000,
+                "upper": 450000
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "Dec.2",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": 57.5,
+                "Hb": 5.2,
+                "Hct": 87.75,
+                "MCH": 13.6,
+                "MCV": 90
+            },
+            "unit_of_measurement": {
+                "RBC count": "g/dL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCH": "pg",
+                "MCV": "fL"
+            },
+            "reference_range": {
+                "RBC count": "4.5-5.5",
+                "Hb": "13-18 g/dL",
+                "Hct": "40-50%",
+                "MCH": "27-32 pg",
+                "MCV": "80-100 fL"
+            }
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": {
+                "Total WBC count": 60,
+                "Neutrophils": 74,
+                "Eosinophils": 0,
+                "Basophilis": 15
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "cells/µL",
+                "Neutrophils": "%",
+                "Eosinophils": "%",
+                "Basophilis": "%"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 300,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": {
+                "Platelet count": "150-450 x10^3 cells/µL"
+            }
+        }
+    ]
+}

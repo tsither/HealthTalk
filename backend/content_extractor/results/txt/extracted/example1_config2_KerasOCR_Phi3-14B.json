@@ -1,0 +1,62 @@
+{
+    "Date": "02.12.XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "ONI MUMBAI",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin low: 12 gbj/dl",
+                "RBC total count low: RBC 5 millicumm/l",
+                "Packed Cell Volume (PCV) high: Pcv 57.5%",
+                "Mean Corpuscular Volume (MCV): MCV 87 fl"
+            ],
+            "unit_of_measurement": [
+                "Gbj / dl",
+                "millicumm / l",
+                "%",
+                "fl"
+            ],
+            "reference_range": [
+                [
+                    "Hemoglobin: 13.0 gbj/dl - 17.0 gbj/dl",
+                    "RBC total count: RBC > 5*10^6/mcl",
+                    "Packed Cell Volume (PCV): Pcv 42%-54%",
+                    "Mean Corpuscular Volume (MCV): MCV 80fL - 96 fL"
+                ]
+            ]
+        },
+        {
+            "test_name": "Glycated Hemoglobin (HbA1c)",
+            "result_value": [
+                "Reference value investigation result: Hba1c > 17.0 gldl"
+            ],
+            "unit_of_measurement": [
+                "gldl"
+            ],
+            "reference_range": [
+                [
+                    "Glycated Hemoglobin (HbA1c):"
+                ]
+            ]
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": [
+                "Total WBC count: 4000-11000 differentilal/mcmm"
+            ],
+            "unit_of_measurement": [
+                "differentilal/mcmm"
+            ],
+            "reference_range": [
+                [
+                    "White Blood Cell (WBC) Count:"
+                ]
+            ]
+        }
+    ]
+}

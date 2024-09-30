@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": 4.5,
+            "unit_of_measurement": "millions per microliter",
+            "reference_range": "4.0 - 5.5 millions per microliter"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 14,
+            "unit_of_measurement": "grams per deciliter",
+            "reference_range": "12.0 - 16.0 grams per deciliter"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": "38.0 - 52.0 %"
+        }
+    ]
+}

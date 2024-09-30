@@ -1,0 +1,51 @@
+{
+    "Date": "Dec 09",
+    "patient_information": {
+        "patient_id": "105 108 SMART V",
+        "patient_name": "Shivam",
+        "patient_sex": "M",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": {
+                "WBC": {
+                    "value": 13.0,
+                    "unit": "×10^9/L",
+                    "reference_range": "4.0 - 10.0"
+                },
+                "LYMPH": {
+                    "value": 52.0,
+                    "unit": "%",
+                    "reference_range": "28 - 55"
+                },
+                "MONO": {
+                    "value": 37.0,
+                    "unit": "%",
+                    "reference_range": "4 - 11"
+                },
+                "NEUT": {
+                    "value": 7.6,
+                    "unit": "%",
+                    "reference_range": "45 - 78"
+                },
+                "EOS": {
+                    "value": 2.0,
+                    "unit": "%",
+                    "reference_range": "0 - 5"
+                },
+                "BASO": {
+                    "value": 0.9,
+                    "unit": "%",
+                    "reference_range": "0 - 1"
+                },
+                "PLT": {
+                    "value": 234567,
+                    "unit": "/L",
+                    "reference_range": "150000 - 400000"
+                }
+            }
+        }
+    ]
+}

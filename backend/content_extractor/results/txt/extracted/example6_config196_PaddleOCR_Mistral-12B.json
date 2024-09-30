@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Total RBC count": 5.75,
+                "Hemoglobin (Hb)": 13.6,
+                "RBC COUNT": null,
+                "WBC COUNT": 8.775,
+                "*ymphocytes": 49,
+                "Monocytes": 4,
+                "Mins Basophils": 0
+            },
+            "unit_of_measurement": {
+                "Total RBC count": "mill/cumm",
+                "Hemoglobin (Hb)": null,
+                "RBC COUNT": null,
+                "WBC COUNT": null,
+                "*ymphocytes": "%",
+                "Monocytes": "%",
+                "Mins Basophils": "%"
+            },
+            "reference_range": {
+                "Total RBC count": "4.5 - 5.5",
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "RBC COUNT": null,
+                "WBC COUNT": "32.5-34.5",
+                "*ymphocytes": null,
+                "Monocytes": null,
+                "Mins Basophils": null
+            }
+        }
+    ]
+}

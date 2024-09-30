@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "leucocitos": 66,
+                "hematies": 56,
+                "hemoglobina": 127,
+                "hematocrito": null
+            },
+            "unit_of_measurement": {
+                "leucocitos": "v",
+                "hematies": "v"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Placaquetas",
+            "result_value": 28,
+            "unit_of_measurement": "fl",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Date": "02Dec.2022",
+    "patient_information": {
+        "patient_id": "PID : 555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7800,
+                "RBC": 4670000000.0,
+                "Hb": 13.6,
+                "PCV": null,
+                "MCV": null,
+                "MCH": null,
+                "Platelet": 215
+            },
+            "unit_of_measurement": {
+                "WBC": "per mm³",
+                "RBC": "cells per mm³",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "Platelet": "per mm³"
+            },
+            "reference_range": {
+                "WBC": {
+                    "Borderline": 15000.0,
+                    "Low": null,
+                    "High": 41000.0
+                },
+                "RBC": {
+                    "Low": 3250000000.0,
+                    "High": 3450000000.0
+                },
+                "Hb": {
+                    "Low": 11.6,
+                    "High": null
+                },
+                "PCV": null,
+                "MCV": null,
+                "MCH": null,
+                "Platelet": {
+                    "Low": 450000.0,
+                    "High": 550000.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "27/12/2023",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "drlogyathabadlogcom",
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": 8775,
+                "RBC": 50000,
+                "Hb": 12.5,
+                "Hct": 40,
+                "Plt": 272000
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm3",
+                "RBC": "cells/mm3",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Plt": "cells/mm3"
+            },
+            "reference_range": {
+                "WBC": "4500-11000 cells/mm3",
+                "RBC": "4.5-6.5 million cells/mm3",
+                "Hb": "12-18 g/dL",
+                "Hct": "40-52%",
+                "Plt": "150-450 thousand cells/mm3"
+            }
+        },
+        {
+            "test_name": "ESR (Westergren)",
+            "result_value": 16,
+            "unit_of_measurement": "mm/hr",
+            "reference_range": "0-20 mm/hr"
+        }
+    ]
+}

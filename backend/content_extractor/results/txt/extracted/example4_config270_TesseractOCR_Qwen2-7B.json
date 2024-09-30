@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "A123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 4.8,
+            "unit_of_measurement": "mmol/L",
+            "reference_range": "3.7-5.2"
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": 160,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "130-189"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "01/23/xxxx",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Hemoglobin (HGB)",
+            "result_value": 12.5,
+            "unit_of_measurement": "s",
+            "reference_range": "[10.6-17]"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 170,
+            "unit_of_measurement": "total",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.75,
+            "unit_of_measurement": "fl",
+            "reference_range": "[83-94]"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 271.32,
+            "unit_of_measurement": "",
+            "reference_range": "[320-360]"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": 19.5,
+            "unit_of_measurement": "%",
+            "reference_range": "[<14] "
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 15600,
+            "unit_of_measurement": "",
+            "reference_range": "[4500-11000]"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 4000,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

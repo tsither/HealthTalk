@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec. 20XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Accurate PID Male",
+        "patient_sex": "P",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.6 - 17.0"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": "6895",
+            "unit_of_measurement": "/µL",
+            "reference_range": "4500 - 11000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "27.2",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

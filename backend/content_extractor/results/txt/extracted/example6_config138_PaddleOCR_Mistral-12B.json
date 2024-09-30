@@ -1,0 +1,59 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 4700,
+                "Packed Cell Volume (PCV)": 32.8,
+                "Total WBC count": 6200,
+                "Platelet Count": 190000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dl",
+                "Total RBC count": "10^6 /cum",
+                "Packed Cell Volume (PCV)": "%",
+                "Total WBC count": "10^3 /cum",
+                "Platelet Count": "10^3 /cum"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": {
+                    "Low": 13.0,
+                    "High": 17.0
+                },
+                "Total RBC count": {
+                    "Low": 4000,
+                    "High": 6100
+                },
+                "Packed Cell Volume (PCV)": {
+                    "Low": 37.0,
+                    "High": 52.0
+                },
+                "Total WBC count": {
+                    "Low": 4500,
+                    "High": 11000
+                },
+                "Platelet Count": {
+                    "Low": 150000,
+                    "High": 450000
+                }
+            }
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 97.2,
+            "unit_of_measurement": "fl",
+            "reference_range": {
+                "Low": 80,
+                "High": 100
+            }
+        }
+    ]
+}

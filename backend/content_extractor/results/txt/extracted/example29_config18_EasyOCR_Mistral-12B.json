@@ -1,0 +1,46 @@
+{
+    "Date": "02/11/21",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.35,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.2 - 6.1"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 0.37,
+            "unit_of_measurement": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 94.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "80 - 100"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 150,
+            "unit_of_measurement": "thousand/µL",
+            "reference_range": null
+        }
+    ]
+}

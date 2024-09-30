@@ -1,0 +1,29 @@
+{
+    "Date": "05.00.20",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam",
+        "patient_sex": "male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": null,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 62,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

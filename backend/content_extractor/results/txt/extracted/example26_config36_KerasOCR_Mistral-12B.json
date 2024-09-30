@@ -1,0 +1,53 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 30.5,
+                "hemoglobina": 14.4,
+                "vcm": 91,
+                "fl": 80.1,
+                "mch": 27,
+                "pg": 16,
+                "placaetes": {
+                    "total": 208,
+                    "loeblul": 140,
+                    "plaquetocrito": 0.189
+                },
+                "leucocitos": {
+                    "total": 7500,
+                    "neutrofilos": {
+                        "neu oo": 420,
+                        "neu o": 498,
+                        "neu ioesipl": 113
+                    },
+                    "linfocitos": {
+                        "lin": 160,
+                        "lin ioebiul": 0.5
+                    },
+                    "monocitos": {
+                        "mon": 120,
+                        "mon ioesipl": 0.5
+                    },
+                    "eosinofilos": {
+                        "eos": 50,
+                        "eos ioesipl": 0.2
+                    },
+                    "basofilos": {
+                        "bas": 20,
+                        "bas ioebiul": 1.2
+                    }
+                }
+            },
+            "unit_of_measurement": {},
+            "reference_range": null
+        }
+    ]
+}

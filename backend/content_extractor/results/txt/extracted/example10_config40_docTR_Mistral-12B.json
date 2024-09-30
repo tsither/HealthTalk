@@ -1,0 +1,56 @@
+{
+    "Date": "28/10/23",
+    "patient_information": {
+        "patient_id": "68957",
+        "patient_name": "Shah, Mr. A",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Creatinine, Serum",
+            "result_value": 1.02,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "lower": 0.6,
+                "upper": 1.2
+            }
+        },
+        {
+            "test_name": "GFR (Cockcroft-Gault)",
+            "result_value": 75,
+            "unit_of_measurement": "mL/min",
+            "reference_range": {
+                "lower": 90,
+                "upper": 120
+            }
+        },
+        {
+            "test_name": "BUN (Urea Nitrogen)",
+            "result_value": 15,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "lower": 7,
+                "upper": 20
+            }
+        },
+        {
+            "test_name": "WBC (White Blood Cells)",
+            "result_value": 6.8,
+            "unit_of_measurement": "10^3/uL",
+            "reference_range": {
+                "lower": 4.5,
+                "upper": 10
+            }
+        },
+        {
+            "test_name": "HCT (Hematocrit)",
+            "result_value": 42,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "lower": 36,
+                "upper": 46
+            }
+        }
+    ]
+}

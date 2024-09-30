@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "TNUJDDIL",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA SERIE ROJA",
+            "result_value": {
+                "Hematies": 4.75,
+                "HEMOGLOBINA": 13.3,
+                "Hematocrito": 39.5,
+                "V.C.M.": 83.1,
+                "H.C,M": 27.9,
+                "C.H.C.M": 33.6,
+                "A.D.E": 4.0
+            },
+            "unit_of_measurement": {
+                "Hematies": "10E6/uL",
+                "HEMOGLOBINA": "g/dL",
+                "Hematocrito": "%",
+                "V.C.M.": "fL",
+                "H.C,M": "pg",
+                "C.H.C.M": "gldL",
+                "A.D.E": ""
+            },
+            "reference_range": {
+                "Hematies": "4.00 - 12.0",
+                "HEMOGLOBINA": "12.0 - 16.0",
+                "Hematocrito": "36.0 - 47.0",
+                "V.C.M.": "80.0 - 98.0",
+                "H.C,M": "27.0 - 32.0",
+                "C.H.C.M": "32.0 - 36.0",
+                "A.D.E": null
+            }
+        },
+        {
+            "test_name": "SERIE PLAQUETAR",
+            "result_value": {
+                "PLAQUETAS": 208,
+                "V.P.M.": 9.1,
+                "A.D.P": 16.2,
+                "Plaquetocrito": 0.189
+            },
+            "unit_of_measurement": {
+                "PLAQUETAS": "10E3/pL",
+                "V.P.M.": "fL",
+                "A.D.P": "%",
+                "Plaquetocrito": ""
+            },
+            "reference_range": {
+                "PLAQUETAS": "140 - 400",
+                "V.P.M.": "7.5 - 11.0",
+                "A.D.P": "15,6 - 18.4",
+                "Plaquetocrito": "0.145 - 0.406"
+            }
+        },
+        {
+            "test_name": "LEUCOCITOS SERIE BLANCA",
+            "result_value": {
+                "Total": 4.2,
+                "Neu Lin Mon Eos Bas": {
+                    "Neu": 35.0,
+                    "Lin": 11.2,
+                    "Mon": 2.8,
+                    "Eos": 1.2,
+                    "Bas": 42.0
+                }
+            },
+            "unit_of_measurement": {
+                "Total": "10E3/uL",
+                "Neu Lin Mon Eos Bas": "%"
+            },
+            "reference_range": {
+                "Total": "4.00 - 10.00",
+                "Neu Lin Mon Eos Bas": null
+            }
+        }
+    ]
+}

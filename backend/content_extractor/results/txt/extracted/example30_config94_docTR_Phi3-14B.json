@@ -1,0 +1,50 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M.",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total RBC Count (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Indices",
+            "result_value": [
+                null,
+                52,
+                40.1,
+                87.75
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC RDW (Coefficient of variation)",
+            "result_value": 27.2,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Anatenawr imeenies COUNT",
+            "result_value": null,
+            "unit_of_measurement": "count/mm^3",
+            "reference_range": [
+                null,
+                9000,
+                12000
+            ]
+        },
+        {
+            "test_name": "Basophise Count",
+            "result_value": 7,
+            "unit_of_measurement": "count/mm^3",
+            "reference_range": null
+        }
+    ]
+}

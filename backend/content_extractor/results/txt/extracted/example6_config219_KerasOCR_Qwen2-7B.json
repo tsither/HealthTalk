@@ -1,0 +1,38 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a76789",
+        "patient_name": "rogizlerod oz91",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "complete blood count cbcy investigation",
+            "result_value": 125,
+            "unit_of_measurement": "gdl",
+            "reference_range": {
+                "low": null,
+                "high": {
+                    "rbc_count": "51-55 millt count",
+                    "pcv": "50 s",
+                    "mcv": "83-101 fl",
+                    "mch": "27-32 pg",
+                    "mchc": "325-315 gidl"
+                }
+            }
+        },
+        {
+            "test_name": null,
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "rbc_count": null,
+                "pcv": null,
+                "mcv": null,
+                "mch": null,
+                "mchc": null
+            }
+        }
+    ]
+}

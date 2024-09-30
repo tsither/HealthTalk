@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": 5.2,
+                "RBC": 4.8,
+                "Hb": 12.3,
+                "Hct": 40.2,
+                "MCV": 85.6,
+                "MCH": 27.2,
+                "MCHC": 31.8,
+                "PLT": 234,
+                " Neutrophils": 55.2,
+                "Lymphocytes": 30.2,
+                "Monocytes": 8.6,
+                "Eosinophils": 3.9,
+                "Basophils": 1.1
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "M/uL",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "PLT": "K/uL",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "WBC": "4.5-10.5",
+                "RBC": "4.2-6.0",
+                "Hb": "13.5-17.5",
+                "Hct": "41-53",
+                "MCV": "80-96",
+                "MCH": "27-31",
+                "MCHC": "32-36",
+                "PLT": "150-350",
+                "Neutrophils": "40-75",
+                "Lymphocytes": "25-50",
+                "Monocytes": "5-15",
+                "Eosinophils": "1-4",
+                "Basophils": "0.5-1"
+            }
+        }
+    ]
+}

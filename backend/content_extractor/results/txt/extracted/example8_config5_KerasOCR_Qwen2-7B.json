@@ -1,0 +1,21 @@
+{
+    "Date": "02/12/xx",
+    "patient_information": {
+        "patient_id": "0123456189",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "sample_collection_location": "ATS Bungalow 125 Shivam S G Road"
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 128.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "male": "138-5 to 117.5 g/dL",
+                "female": "120-5 to 155 g/dL"
+            }
+        }
+    ]
+}

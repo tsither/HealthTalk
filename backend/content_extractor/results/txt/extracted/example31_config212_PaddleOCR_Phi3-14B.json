@@ -1,0 +1,39 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Pate",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": "72.5",
+                "RBc count": "4.5",
+                "PCV": "57.e9",
+                "MCHI": "27.2",
+                "MCHC": "32.8",
+                "WBC Count": "13600",
+                "Platelet count": {
+                    "Value": "150000",
+                    "Unit": "cumm"
+                }
+            },
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Hemoglobin": "13.0- 17.0 ow",
+                "RBc count": "4.5 - 5.5 mill/cumm",
+                "PCV": "40-50 %",
+                "MCHI": null,
+                "MCHC": null,
+                "WBC Count": "11600- 14000 ",
+                "Platelet count": {
+                    "Lower Limit": "150000",
+                    "Upper Limit": "410000 cumm"
+                }
+            }
+        }
+    ]
+}

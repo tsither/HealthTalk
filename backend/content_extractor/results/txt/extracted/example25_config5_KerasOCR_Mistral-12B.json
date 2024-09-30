@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Leucocitos",
+            "result_value": 5.6,
+            "unit_of_measurement": "K/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematies",
+            "result_value": 3150,
+            "unit_of_measurement": "s",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobina",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hematocrito",
+            "result_value": 0.288,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Vcam",
+            "result_value": 69,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Placaquetas",
+            "result_value": 253,
+            "unit_of_measurement": "K/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Formula leucocitaria",
+            "result_value": {
+                "Neutrofilos": 60.8,
+                "Linfocitos": 12.8,
+                "Monocitos": 3.9,
+                "Eosinofilos": 15.4,
+                "Basofilos": 7.1
+            },
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

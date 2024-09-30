@@ -1,0 +1,33 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Vimal Shah",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "RBC_count": 5.75,
+                "WBC_count": 60,
+                "Platelet_count": null
+            },
+            "unit_of_measurement": {
+                "RBC_count": "million cells/uL",
+                "WBC_count": "thousand cells/uL"
+            },
+            "reference_range": {
+                "RBC_count": {
+                    "low": 4.5,
+                    "high": 5.5
+                },
+                "WBC_count": {
+                    "low": 0,
+                    "high": 10
+                }
+            }
+        }
+    ]
+}

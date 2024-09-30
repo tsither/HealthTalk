@@ -1,0 +1,59 @@
+{
+    "Date": "02:31",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Dr. Vimal Shah (MD, Pathologist)",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "RBC": null,
+                "Hb": null,
+                "PLT": null,
+                "PCV": null
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/mm^3",
+                "RBC": null,
+                "Hb": null,
+                "PLT": null,
+                "PCV": "%"
+            },
+            "reference_range": {
+                "WBC": {
+                    "Low": 13.0,
+                    "High": 40.5
+                },
+                "RBC": null,
+                "Hb": null,
+                "PLT": null,
+                "PCV": {
+                    "Low": 27.2,
+                    "High": 32.8
+                }
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": {
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes": null,
+                "Basophils": null
+            },
+            "unit_of_measurement": {
+                "Lymphocytes": "%",
+                "Neutrophils": "%",
+                "Eosinophils": "%",
+                "Monocytes": "%",
+                "Basophils": "%"
+            },
+            "reference_range": null
+        }
+    ]
+}

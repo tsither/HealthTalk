@@ -1,0 +1,41 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 34
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin A1c",
+            "result_value": 6.2,
+            "unit_of_measurement": "%",
+            "reference_range": "5.0 - 6.0"
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": [
+                170,
+                4.3,
+                120,
+                28,
+                100
+            ],
+            "unit_of_measurement": [
+                "mg/dL",
+                "mmol/L",
+                "mg/dL",
+                "%",
+                "mg/dL"
+            ],
+            "reference_range": [
+                "Normal",
+                "Normal",
+                "Normal",
+                "<5%",
+                "Normal"
+            ]
+        }
+    ]
+}

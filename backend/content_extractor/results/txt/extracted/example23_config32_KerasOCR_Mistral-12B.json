@@ -1,0 +1,71 @@
+{
+    "Date": "2023-03-14",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "White Blood Cells": 6500,
+                "Red Blood Cells": 5.2,
+                "Hemoglobin": 15.3,
+                "Platelets": 220000
+            },
+            "unit_of_measurement": {
+                "White Blood Cells": "/mm³",
+                "Red Blood Cells": "trillion cells/L",
+                "Hemoglobin": "g/dL",
+                "Platelets": "/mm³"
+            },
+            "reference_range": {
+                "White Blood Cells": {
+                    "min": 4500,
+                    "max": 11000
+                },
+                "Red Blood Cells": {
+                    "min": 4.5,
+                    "max": 6.2
+                },
+                "Hemoglobin": {
+                    "min": 13.5,
+                    "max": 18
+                },
+                "Platelets": {
+                    "min": 150000,
+                    "max": 450000
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Test",
+            "result_value": {
+                "AST": 25,
+                "ALT": 32,
+                "Albumin": 4.1
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "Albumin": "g/dL"
+            },
+            "reference_range": {
+                "AST": {
+                    "min": 5,
+                    "max": 32
+                },
+                "ALT": {
+                    "min": 7,
+                    "max": 49
+                },
+                "Albumin": {
+                    "min": 3.4,
+                    "max": 5
+                }
+            }
+        }
+    ]
+}

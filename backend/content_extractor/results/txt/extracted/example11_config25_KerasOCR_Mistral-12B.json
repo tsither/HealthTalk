@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec 202X",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count (Low)",
+            "result_value": 3.04,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count (High)",
+            "result_value": 5.2,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (Low)",
+            "result_value": 11.61,
+            "unit_of_measurement": "K/mm³",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count (Borderline)",
+            "result_value": 205000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": null
+        }
+    ]
+}

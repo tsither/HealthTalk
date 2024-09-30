@@ -1,0 +1,71 @@
+{
+    "Date": "02.XX.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "20"
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cell (WBC) Count",
+            "result_value": "7.58 x 10^3",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "4.5-5.5 x 10^3 /mm^3"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "12.5 x 10^6",
+            "unit_of_measurement": "/mm^3",
+            "reference_range": "13.0-17.0 x 10^6 /mm^3"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "40-50 fL"
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "null",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "00: 02 shlydos eg",
+            "unit_of_measurement": null,
+            "reference_range": "150,000 - 400,000 /mm^3"
+        },
+        {
+            "test_name": "Neutrophils (%)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Lymphocytes (%)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Monocytes (%)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Eosinophils (%)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

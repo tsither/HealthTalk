@@ -1,0 +1,59 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "32",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "PCV",
+            "result_value": 45.0,
+            "unit_of_measurement": "%",
+            "reference_range": "31 - 36"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 82.0,
+            "unit_of_measurement": "fl (microL)",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 1160,
+            "unit_of_measurement": "g/L",
+            "reference_range": "95 - 135"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "28-34 pg"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 5000.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "4 - 12 x 10^9/L"
+        },
+        {
+            "test_name": "RDW-CV",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLATELETS",
+            "result_value": 250.0,
+            "unit_of_measurement": "/microL",
+            "reference_range": "150 - 400 x 10^9/L"
+        },
+        {
+            "test_name": "PLT % Variance",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

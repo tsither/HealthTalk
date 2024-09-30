@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123as6769",
+        "patient_name": "Patel",
+        "patient_sex": "male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 125,
+            "unit_of_measurement": "x10^6/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "packed RBC",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 89.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

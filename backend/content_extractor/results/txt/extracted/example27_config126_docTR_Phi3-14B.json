@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMATOCRITO",
+            "result_value": 51,
+            "unit_of_measurement": "%",
+            "reference_range": "33-40%"
+        },
+        {
+            "test_namename": "HEMOGLOBINA",
+            "result_value": 36,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "LEUCOCITOS /mm3",
+            "result_value": 10.0,
+            "unit_of_measurement": "/mm3",
+            "reference_range": "4,5-11 x 10^9/L"
+        },
+        {
+            "test_name": "PLAQUETAS /nims",
+            "result_value": null,
+            "unit_of_measurement": "/nims",
+            "reference_range": null
+        }
+    ]
+}

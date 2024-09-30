@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 2X",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": "12.5",
+                "HEMOGLOBIN": "87.75",
+                "Total RBC count": "32.8",
+                "Total WBC count": "13.6",
+                "PLATELET COUNT": null,
+                "Lymphocytes": null,
+                "Neutrophils": null,
+                "Eosinophils": null,
+                "Monocytes (DmLt, Bmlt)": null,
+                "Basophils MCH": null,
+                "MCCS": null,
+                "RDW": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "HEMOGLOBIN": "mg/dL",
+                "Total RBC count": "/mm3",
+                "Total WBC count": "/mm3"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

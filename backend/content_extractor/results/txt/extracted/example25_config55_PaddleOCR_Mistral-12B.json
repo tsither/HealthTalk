@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "ID123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "HCT": 40,
+                "HTC": null,
+                "RBC": 5.2,
+                "WBC": 6.8,
+                "PLT": 270
+            },
+            "unit_of_measurement": {
+                "HCT": "%",
+                "HTC": "%",
+                "RBC": "10^6/µL",
+                "WBC": "10^3/µL",
+                "PLT": "10^3/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

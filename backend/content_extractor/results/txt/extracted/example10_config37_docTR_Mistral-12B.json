@@ -1,0 +1,50 @@
+{
+    "Date": "02.12.20XX",
+    "patient_information": {
+        "patient_id": "23456",
+        "patient_name": "MPINI",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 10.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": {
+                "lower_range": 11.9,
+                "upper_range": 17.1
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": {
+                "lower_range": 150,
+                "upper_range": 450
+            }
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": {
+                "lower_range": 0.2,
+                "upper_range": 1.9
+            }
+        },
+        {
+            "test_name": "Alanine Aminotransferase (ALT)",
+            "result_value": 17,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Aspartate Aminotransferase (AST)",
+            "result_value": 24,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": "07 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Mel Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-18 g/dL"
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.24,
+            "unit_of_measurement": "M/mm³",
+            "reference_range": "4.5-5.5 M/mm³"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%",
+            "reference_range": "40-70%"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": 35,
+            "unit_of_measurement": "%",
+            "reference_range": "20-40%"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 150000,
+            "unit_of_measurement": "/mm³",
+            "reference_range": "150000-400000/mm³"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Date": "02Dec.2X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "RBC": {
+                    "Count": "57.5",
+                    "Volume": "87.75%"
+                },
+                "Hb": {
+                    "Value": "12.5"
+                },
+                "WBC": {
+                    "Total": "60"
+                },
+                "Platelet": {
+                    "Count": null
+                }
+            },
+            "unit_of_measurement": {
+                "RBC": {
+                    "Count": "g/dL",
+                    "Volume": "% Packed Cell Volume"
+                },
+                "Hb": "g/dL",
+                "WBC": "cells/mm³"
+            },
+            "reference_range": {
+                "RBC": {
+                    "Count": "27-32 g/dL"
+                },
+                "Hb": {
+                    "Value": "130-170"
+                },
+                "WBC": {
+                    "Total": "4.5-10"
+                }
+            }
+        }
+    ]
+}

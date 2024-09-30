@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Sean Doe",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HbA1c (Glycated Hemoglobin)",
+            "result_value": 6.8,
+            "unit_of_measurement": "%",
+            "reference_eange": null
+        },
+        {
+            "test_name": "Fasting Blood Sugar",
+            "result_value": 100,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "70-99 mg/dL"
+        },
+        {
+            "test_name": "Postprandial Blood Sugar (2 hours after meal)",
+            "result_value": 140,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "less than 180 mg/dL"
+        }
+    ]
+}

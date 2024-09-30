@@ -1,0 +1,32 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hemoglobina (Hb)": 12.8,
+                "Hematocrito (HTC)": 40.5,
+                "Leucocitos (LEU)": 6500,
+                "Placaets (PLA)": 250000
+            },
+            "unit_of_measurement": {
+                "Hemoglobina (Hb)": "g/dL",
+                "Hematocrito (HTC)": "%",
+                "Leucocitos (LEU)": " cells/mm³",
+                "Placaets (PLA)": "cells/mm³"
+            },
+            "reference_range": {
+                "Hemoglobina (Hb)": "[12-16] g/dL",
+                "Hematocrito (HTC)": "[37-47] %",
+                "Leucocitos (LEU)": "[4500-11000] cells/mm³",
+                "Placaets (PLA)": "[150,000-400,000] cells/mm³"
+            }
+        }
+    ]
+}

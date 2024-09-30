@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7.8, RBC: 5.2, HGB: 13.6, HCT: 39.5",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Serum Electrolytes",
+            "result_value": "Na+ : 140 mEq/L, K+ : 4.2 mEq/L, Cl- : 101 mEq/L",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

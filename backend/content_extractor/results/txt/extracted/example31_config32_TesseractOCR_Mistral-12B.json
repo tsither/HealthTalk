@@ -1,0 +1,86 @@
+{
+    "Date": "02 Dec, 2x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (cBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "range": "Low",
+                    "unit": "g/dl"
+                },
+                "Total RBC count": {
+                    "value": 5.2,
+                    "range": null,
+                    "unit": "million/cumm"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": 57.5,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": 87.75,
+                    "range": null,
+                    "unit": "fL"
+                },
+                "Calculated MCH": {
+                    "value": 27.2,
+                    "range": null,
+                    "unit": "pg"
+                },
+                "Calculated MCV": {
+                    "value": 32.8,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Calculated RDW": {
+                    "value": 13.6,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Total WBC count": {
+                    "value": 9000,
+                    "range": null,
+                    "unit": "cumm"
+                },
+                "Neutrophils": {
+                    "value": 60,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 31,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 4,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 7,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 4,
+                    "range": null,
+                    "unit": "%"
+                },
+                "Platelet count": {
+                    "value": "s00C",
+                    "range": null,
+                    "unit": "cumm"
+                }
+            }
+        }
+    ]
+}

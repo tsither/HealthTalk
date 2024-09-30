@@ -1,0 +1,31 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345675",
+        "patient_name": "Shivam Hiren Patel",
+        "patient_sex": "Male",
+        "patient_age": "3 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC count": "5.55 million/mm³",
+                "WBC count": "7,800 cells/mm³",
+                "Platelet count": "250,000/mm³"
+            },
+            "unit_of_measurement": {
+                "RBC count": "mm³",
+                "WBC count": "cells/mm³",
+                "Platelet count": "cells/mm³"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Peripheral Smear Morphology",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

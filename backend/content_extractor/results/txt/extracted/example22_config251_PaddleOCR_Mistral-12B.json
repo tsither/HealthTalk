@@ -1,0 +1,40 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "684957EZ20",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC_count": "41000",
+                "RBC_count": "456789",
+                "Hb": "12345678",
+                "PCV": "32.5",
+                "Platelet_count": "273"
+            },
+            "unit_of_measurement": {
+                "WBC_count": "cells/mm^3",
+                "RBC_count": "cells/mm^3",
+                "Hb": "g/dL",
+                "PCV": "%",
+                "Platelet_count": "10^3/mm^3"
+            },
+            "reference_range": {
+                "WBC_count": "4.5 - 10.8",
+                "RBC_count": "3.6 - 5.7",
+                "Hb": "12.0 - 16.0",
+                "PCV": "36.0 - 46.0",
+                "Platelet_count": "150,000 - 450,000"
+            }
+        },
+        {
+            "test_name": "Packed Cell Volume (PCV)",
+            "result_value": "27.2",
+            "unit_of_measurement": "%"
+        }
+    ]
+}

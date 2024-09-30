@@ -1,0 +1,40 @@
+{
+    "Date": "2023-10-05",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 35
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "WBC: 6.0, RBC: 4.5, HGB: 13.2, HCT: 38.6",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "4.0-11.0",
+                "RBC": "4.0-5.5",
+                "HGB": "11.5-17.0",
+                "HCT": "36.0-49.0"
+            }
+        },
+        {
+            "test_name": "Liver Function Tests (LFT)",
+            "result_value": "ALT: 20, AST: 25",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "ALT": "7-63",
+                "AST": "7-45"
+            }
+        },
+        {
+            "test_name": "Kidney Function Tests (KFT)",
+            "result_value": "Cr: 1.2, BUN: 9",
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Cr": "0.6-1.2",
+                "BUN": "7-23"
+            }
+        }
+    ]
+}

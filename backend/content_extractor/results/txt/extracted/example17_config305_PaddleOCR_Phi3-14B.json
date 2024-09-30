@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "C123456789",
+        "patient_name": "Leonard A. O'Malley (OMLT)",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "90000",
+            "unit_of_measurement": "Xec LY - ceos",
+            "reference_range": null
+        },
+        {
+            "test_name": "Lymphocytes %",
+            "result_value": "32.5",
+            "unit_of_measurement": "%",
+            "reference_eange": "27.2-34.5"
+        },
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": "11.6",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.0"
+        },
+        {
+            "test_name": "Hematocrit (%)",
+            "result_value": "34.5",
+            "unit_of_measurement": "%",
+            "reference_eange": null
+        }
+    ]
+}

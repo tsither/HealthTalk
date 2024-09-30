@@ -1,0 +1,62 @@
+{
+    "Date": "Dec. 2, 2X",
+    "patient_information": {
+        "patient_id": "3 34567",
+        "patient_name": "Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "RBC COUNT": "5.75 milicumm^3",
+                "Hb": "12.5 g/dL",
+                "HCT": "40%",
+                "MCV": "87.75 fl",
+                "MCH": "32.8 pg",
+                "MCHC": "9000 g/L",
+                "RDW COUNT": null,
+                "Total WBC count": "60 cumm",
+                "Neutrophils": "74%",
+                "Lymphocytes": "15%",
+                "Monocytes": "10%",
+                "Eosinophils": "2%",
+                "Basophilis": "<1%",
+                "Platelet COUNT": null
+            },
+            "unit_of_measurement": {
+                "RBC COUNT": "milicumm^3",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fl",
+                "MCH": "pg",
+                "MCHC": "g/L",
+                "RDW COUNT": null,
+                "Total WBC count": "cumm",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophilis": "<1%",
+                "Platelet COUNT": null
+            },
+            "reference_range": {
+                "RBC COUNT": "4.5-5.5 milicumm^3",
+                "Hb": "120-170 g/dL",
+                "HCT": "40-50 %",
+                "MCV": "80-100 fl",
+                "MCH": "26-34 pg",
+                "MCHC": "32-36 g/dL",
+                "RDW COUNT": null,
+                "Total WBC count": "4000-10000 cumm",
+                "Neutrophils": "40-75 %",
+                "Lymphocytes": "20-45 %",
+                "Monocytes": "3-8 %",
+                "Eosinophils": "<2 %",
+                "Basophilis": "<1%",
+                "Platelet COUNT": null
+            }
+        }
+    ]
+}

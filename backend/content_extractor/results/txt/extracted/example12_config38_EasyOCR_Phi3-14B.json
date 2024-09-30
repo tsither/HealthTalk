@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "RBC Count",
+            "result_value": 4.23,
+            "unit_of_measurement": null,
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Oxygen Levels (PN)",
+            "result_value": 0.97,
+            "unit_of_measurement": "FiO2",
+            "reference_range": null
+        }
+    ]
+}

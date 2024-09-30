@@ -1,0 +1,41 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Hiren Shah",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "MCV (fL)",
+            "result_value": "36.02",
+            "unit_of_measurement": "fL",
+            "reference_range": "11.6 - 125"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "4.5",
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB (g/dL)",
+            "result_value": "34.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT (%)",
+            "result_value": "101",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "83",
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 70,
+            "unit_of_measurement": "%",
+            "reference_range": "11-15%"
+        },
+        {
+            "test_name": "red blood cells",
+            "result_value": 4.6,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4.0-5.5 x10^12/L"
+        },
+        {
+            "test_name": "white blood cells",
+            "result_value": 7,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.0-11 x10^9/L"
+        },
+        {
+            "test_name": "platelets",
+            "result_value": 228,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-450 x10^9/L"
+        }
+    ]
+}

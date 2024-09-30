@@ -1,0 +1,47 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "PID -101",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 105,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": 83,
+            "unit_of_measurement": "fL",
+            "reference_range": "50-6.40"
+        },
+        {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "result_value": 32.8,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "result_value": 150000,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": 0.123456789,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Plat Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

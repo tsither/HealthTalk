@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "pid",
+        "patient_name": "patel visioncomplex",
+        "patient_sex": "male",
+        "patient_age": "years"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17] for males"
+        },
+        {
+            "test_name": "total count",
+            "result_value": null,
+            "unit_of_measurement": "cells/µL",
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "mean corpuscular volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "fL",
+            "reference_range": "[80-100] for normal"
+        },
+        {
+            "test_name": "hemoglobin concentration (HGB)",
+            "result_value": 9.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[13.5-17] for males"
+        },
+        {
+            "test_name": "mean corpuscular hemoglobin concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "[320-360]"
+        }
+    ]
+}

@@ -9,6 +9,12 @@ def load_json_file(file_path):
         return json.load(file)
     
 def find_matching_key(target_key, dictionary, threshold=80):
+    if isinstance(dictionary, int):
+        return None
+
+    if isinstance(dictionary, list):
+        return None
+    
     for key in dictionary.keys():
         if fuzz.ratio(target_key.lower(), key.lower()) >= threshold:
             return key
@@ -80,17 +86,19 @@ def preprocess_data(gold_data, eval_data):
                     # TODO: add an amonestacion
                     continue
 
-                if eval_test[test_name_key] == None:
-                    eval_test[test_name_key] = "NA"
-
                 if isinstance(eval_test[test_name_key], int):
                     eval_test[test_name_key] = str(eval_test[test_name_key])
+                elif isinstance(eval_test[test_name_key], float):
+                    eval_test[test_name_key] = str(int(eval_test[test_name_key]))
 
                 if isinstance(eval_test[test_name_key], list):
                     if len(eval_test[test_name_key]) == 1:
                         eval_test[test_name_key] = list(eval_test[test_name_key])[0]
                     else:
                         eval_test[test_name_key] = "NA"
+
+                if eval_test[test_name_key] == None:
+                    eval_test[test_name_key] = "NA"
 
                 if fuzz.ratio(gold_test['test_name'].lower(), eval_test[test_name_key].lower()) >= 80:
                     matching_test = eval_test

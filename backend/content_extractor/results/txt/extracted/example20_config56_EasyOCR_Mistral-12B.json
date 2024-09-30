@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": "6.1/8.4/0/0/69/23",
+            "unit_of_measurement": "/L/L/WBC/mm^3/G%/MM%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC",
+            "result_value": "0",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "6.1",
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "PLT",
+            "result_value": "23",
+            "unit_of_measurement": "/L",
+            "reference_range": null
+        }
+    ]
+}

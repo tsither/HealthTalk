@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HCT",
+            "result_value": 45.6,
+            "unit_of_measurement": "%",
+            "reference_range": "37-52"
+        },
+        {
+            "test_name": "PLT",
+            "result_value": 180,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "140-450"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6.69,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "3.8-10.6"
+        }
+    ]
+}

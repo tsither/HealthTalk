@@ -1,0 +1,23 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "12345",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": 8.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "7.0 - 10.5"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 6500,
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": "4500 - 11000"
+        }
+    ]
+}

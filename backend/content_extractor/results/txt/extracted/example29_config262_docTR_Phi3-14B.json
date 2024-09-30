@@ -1,0 +1,53 @@
+{
+    "Date": "02/Dec",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGLOBIN Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "RBC COUNT Total RBC count",
+            "result_value": null,
+            "unit_of_measurement": "million/mcL",
+            "reference_range": "4.5-5.5 million"
+        },
+        {
+            "test_name": "BL OOD INDICES Packed Cell Volume (PCV)",
+            "result_value": null,
+            "unit_of_measurement": "percent",
+            "reference_range": "38-50%"
+        },
+        {
+            "test_name": "Cakuate MCH",
+            "result_value": null,
+            "unit_of_measurement": "pg",
+            "reference_range": "27.6 - 31.6"
+        },
+        {
+            "test_name": "Mindray eck WBC COUNT ( CC Total WBC'count DIFFERENTIAL WBC COUNT Neutrophils Lymphocytes Eosinophils Monocytes Basophils",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "Neutrophils": "[FILL]-[FILL]",
+                "Lymphocytes": "[FILL]-[FILL]",
+                "Eosinophils": "[FILL]-[FILL]",
+                "Monocytes": "[FILL]-[FILL]",
+                "Basophils": "[FILL]-[FILL]"
+            }
+        },
+        {
+            "test_name": "PLATELET COUNT Platelet Count sti ents: Fully outom ned cell counter Mindray 300 Interpretation",
+            "result_value": null,
+            "unit_of_measurement": "mcL",
+            "reference_range": "150000 - 410000"
+        }
+    ]
+}

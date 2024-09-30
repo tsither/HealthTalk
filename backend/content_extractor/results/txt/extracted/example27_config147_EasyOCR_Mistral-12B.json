@@ -1,0 +1,85 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hb": 140,
+                "Hct": 42.7,
+                "Vcm": 90,
+                "Mch": 32.7,
+                "Mchc": 298,
+                "Plat": 256000
+            },
+            "unit_of_measurement": {
+                "Hb": "g/dL",
+                "Hct": "%",
+                "Vcm": "fl",
+                "Mch": "pg",
+                "Mchc": "g/dL",
+                "Plat": "/µL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "Leucocitos",
+            "result_value": 3.36,
+            "unit_of_measurement": "/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Glucosa",
+            "result_value": 98,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hdl",
+            "result_value": 41,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sedimentacion",
+            "result_value": 60,
+            "unit_of_measurement": "mm/h",
+            "reference_range": null
+        },
+        {
+            "test_name": "Urea",
+            "result_value": 16.9,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": 0.8,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Homocisteina",
+            "result_value": 145,
+            "unit_of_measurement": "µmol/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "GPT",
+            "result_value": 7.39,
+            "unit_of_measurement": "U/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Sodio",
+            "result_value": 142,
+            "unit_of_measurement": "mEq/L",
+            "reference_range": null
+        }
+    ]
+}

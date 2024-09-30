@@ -1,0 +1,26 @@
+{
+    "Date": "20XX Dec",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL"
+        },
+        {
+            "test_name": "Total Leukocyte Count (WBC)",
+            "result_value": 6895,
+            "unit_of_measurement": "cells/mm³"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 202,
+            "unit_of_measurement": "cells/mm³"
+        }
+    ]
+}

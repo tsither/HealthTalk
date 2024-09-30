@@ -1,0 +1,29 @@
+{
+    "Date": "31-03-2023",
+    "patient_information": {
+        "patient_id": "Yash M. Patel",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 555
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 7,
+            "unit_of_measurement": "(Hb)",
+            "reference_range": "[7-14]"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": 12.5,
+            "unit_of_measurement": "fL",
+            "reference_range": "[300-340] fL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 5.2,
+            "unit_of_measurement": "%",
+            "reference_range": "[11.6-34.5]"
+        }
+    ]
+}

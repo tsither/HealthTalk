@@ -1,0 +1,47 @@
+{
+    "Date": "02/12/20XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash Patel",
+        "patient_sex": "male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count CBC",
+            "result_value": "12.5 g/dL",
+            "unit_of_measurement": "130-170",
+            "reference_range": "low"
+        },
+        {
+            "test_name": "Hemoglobin (g/dL)",
+            "result_value": "52.45 mL/cumm",
+            "unit_of_measurement": "55 mL/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": "87.75 fL",
+            "unit_of_measurement": "83-101 fL",
+            "reference_range": "high"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (fL)",
+            "result_value": "27.2 pg",
+            "unit_of_measurement": null,
+            "reference_range": "27.1-32 pg"
+        },
+        {
+            "test_name": "MCV (g/dL)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "32.5-345 g/dL"
+        },
+        {
+            "test_name": "RDW (%)",
+            "result_value": "13.6%",
+            "unit_of_measurement": "116-140",
+            "reference_range": null
+        }
+    ]
+}

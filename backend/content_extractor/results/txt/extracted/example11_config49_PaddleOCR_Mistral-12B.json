@@ -1,0 +1,62 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Sample Collection Complete Blood Count (CBC)",
+            "result_value": {
+                "Total WBC count": 87.75,
+                "Neutrophils": 63,
+                "Lymphocytes": 24,
+                "Monocytes": 10,
+                "Eosinophils": 2,
+                "Basophils": 0,
+                "Hemoglobin (Hb)": 12.5,
+                "Total RBC count": 57.5,
+                "Platelet Count": 328,
+                "Mean Corpuscular Volume (MCV)": 27.2,
+                "Packed Cell Volume (PCV)": 0.3,
+                "MCH": 13.6,
+                "MCee": null,
+                "RDW": null
+            },
+            "unit_of_measurement": {
+                "Total WBC count": "10^9/L",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%",
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "10^12/L",
+                "Platelet Count": "10^9/L",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Packed Cell Volume (PCV)": "%",
+                "MCH": "pg",
+                "MCee": null,
+                "RDW": null
+            },
+            "reference_range": {
+                "Total WBC count": "4.5 - 10.0 10^9/L",
+                "Neutrophils": "40-70%",
+                "Lymphocytes": "20-45%",
+                "Monocytes": "2-8%",
+                "Eosinophils": "1-3%",
+                "Basophils": "<1%",
+                "Hemoglobin (Hb)": "13.0 - 17.0 g/dL",
+                "Total RBC count": "4.5 - 6.0 10^12/L",
+                "Platelet Count": "150-450 10^9/L",
+                "Mean Corpuscular Volume (MCV)": "80-95 fL",
+                "Packed Cell Volume (PCV)": "37 - 47%",
+                "MCH": "26 - 33 pg",
+                "MCee": null,
+                "RDW": null
+            }
+        }
+    ]
+}

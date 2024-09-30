@@ -1,0 +1,29 @@
+{
+    "Date": "dec 0231",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": "80"
+    },
+    "test_results": [
+        {
+            "test_name": "cbcy",
+            "result_value": "125",
+            "unit_of_measurement": "millicounts/liter",
+            "reference_range": null
+        },
+        {
+            "test_name": "hemoglobin",
+            "result_value": "87.75",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "105-170"
+        },
+        {
+            "test_name": "mcv",
+            "result_value": "27.2",
+            "unit_of_measurement": "fL",
+            "reference_range": null
+        }
+    ]
+}

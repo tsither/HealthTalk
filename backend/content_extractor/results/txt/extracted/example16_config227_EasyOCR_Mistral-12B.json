@@ -1,0 +1,65 @@
+{
+    "Date": "02 Dec",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 17.05,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 5.55,
+            "unit_of_measurement": "million/µL",
+            "reference_range": "4.4-6.0"
+        },
+        {
+            "test_name": "PCV",
+            "result_value": 50.715,
+            "unit_of_measurement": "%",
+            "reference_range": "37-47"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 87.175,
+            "unit_of_measurement": "fL",
+            "reference_range": "78-96"
+        },
+        {
+            "test_name": "MCH",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg",
+            "reference_range": "27-31"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 32.8,
+            "unit_of_measurement": "%",
+            "reference_range": "32-36"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 13.6,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": 6000,
+            "unit_of_measurement": "per µL",
+            "reference_range": "4,500 - 11,000"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 250000,
+            "unit_of_measurement": "per µL",
+            "reference_range": "150,000 - 400,000"
+        }
+    ]
+}

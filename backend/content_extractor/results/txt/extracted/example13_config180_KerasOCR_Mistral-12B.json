@@ -1,0 +1,27 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0123459769",
+        "patient_name": "Me Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dl",
+            "reference_range": {
+                "male": {
+                    "low": 13.5,
+                    "high": 17.5
+                },
+                "female": {
+                    "low": 12,
+                    "high": 15.5
+                }
+            },
+            "interpretation": "Hemoglobin levels may indicate anemia or blood loss. Further testing may be necessary to determine the underlying cause. Levels may also indicate conditions such as polycythemia vera."
+        }
+    ]
+}

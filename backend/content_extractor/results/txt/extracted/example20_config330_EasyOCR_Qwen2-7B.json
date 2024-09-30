@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 50
+    },
+    "test_results": [
+        {
+            "test_name": "LDL Cholesterol",
+            "result_value": 170,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "Normal: <130 mg/dL"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 15.2,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "Normal range for men: 13.8-17.4 g/dL"
+        }
+    ]
+}

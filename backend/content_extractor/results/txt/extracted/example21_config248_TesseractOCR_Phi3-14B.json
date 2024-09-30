@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.0,
+            "unit_of_measurement": "g/dl",
+            "reference_range": "Low 13.0-17.#"
+        },
+        {
+            "test_name": "# Erythrocyte Sedimentation Rate (ESR)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "45 - 100 mm/hr"
+        },
+        {
+            "test_name": "# Mean Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "63-101 fL"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Date": "09.12.2022",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "Shah Vimal",
+        "patient_sex": "M",
+        "patient_age": 52
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.8,
+                "RBC": 4.07,
+                "Hb": 13.5,
+                "Hct": 40,
+                "MCV": 92,
+                "MCH": 28,
+                "Platelets": 300
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "RBC": "x10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "Platelets": "x10^9/L"
+            },
+            "reference_range": {
+                "WBC": [
+                    4.5,
+                    10.8
+                ],
+                "RBC": [
+                    3.6,
+                    6.2
+                ],
+                "Hb": [
+                    12.0,
+                    17.0
+                ],
+                "Hct": [
+                    36,
+                    46
+                ],
+                "MCV": [
+                    80,
+                    100
+                ],
+                "MCH": [
+                    25,
+                    32
+                ],
+                "Platelets": [
+                    140,
+                    400
+                ]
+            }
+        },
+        {
+            "test_name": "Hemoglobin (PCV)",
+            "result_value": 40.5,
+            "unit_of_measurement": "%",
+            "reference_range": [
+                36,
+                46
+            ]
+        }
+    ]
+}

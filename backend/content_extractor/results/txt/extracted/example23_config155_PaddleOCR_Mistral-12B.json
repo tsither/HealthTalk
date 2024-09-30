@@ -1,0 +1,26 @@
+{
+    "Date": "20XX-05-XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Patel M07",
+        "patient_sex": null,
+        "patient_age": 14
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": 10,
+            "unit_of_measurement": "10^3/µL"
+        },
+        {
+            "test_name": "RBC (Red Blood Cell) Count",
+            "result_value": 500,
+            "unit_of_measurement": "/µL"
+        },
+        {
+            "test_name": "HCT (Hemoglobin Concentration)",
+            "result_value": 32.8,
+            "unit_of_measurement": "%"
+        }
+    ]
+}

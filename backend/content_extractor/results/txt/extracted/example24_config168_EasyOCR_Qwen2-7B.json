@@ -1,0 +1,23 @@
+{
+    "Date": "2023-04-15",
+    "patient_information": {
+        "patient_id": "123456",
+        "patient_name": "John Doe",
+        "patient_sex": "M",
+        "patient_age": 56
+    },
+    "test_results": [
+        {
+            "test_name": "Hematocrit, RBC count (microscopy)",
+            "result_value": "32.0%",
+            "unit_of_measurement": "%",
+            "reference_range": "41.0%-59.0%"
+        },
+        {
+            "test_name": "Red blood cells, volume (mildly decreased in anemia)",
+            "result_value": "87.0 fL",
+            "unit_of_measurement": "fL",
+            "reference_range": "82-100"
+        }
+    ]
+}

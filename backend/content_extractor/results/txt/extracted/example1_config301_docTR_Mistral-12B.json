@@ -1,0 +1,110 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC) with Differential",
+            "result_value": {
+                "WBC": 6.2,
+                "RBC": 4.9,
+                "HGB": 13.8,
+                "PLT": 250
+            },
+            "unit_of_measurement": {
+                "WBC": "10^3/µL",
+                "RBC": "10^6/µL",
+                "HGB": "g/dL",
+                "PLT": "10^3/µL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10.9
+                },
+                "RBC": {
+                    "min": 4.4,
+                    "max": 5.8
+                },
+                "HGB": {
+                    "min": 12.3,
+                    "max": 16.3
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 379
+                }
+            }
+        },
+        {
+            "test_name": "Lipid Panel",
+            "result_value": {
+                "TC": 185,
+                "TG": 142,
+                "HDL": 45,
+                "LDL": 106
+            },
+            "unit_of_measurement": {
+                "TC": "mg/dL",
+                "TG": "mg/dL",
+                "HDL": "mg/dL",
+                "LDL": "mg/dL"
+            },
+            "reference_range": {
+                "TC": {
+                    "min": 130,
+                    "max": 240
+                },
+                "TG": {
+                    "min": 75,
+                    "max": 169
+                },
+                "HDL": {
+                    "min": 40,
+                    "max": 60
+                },
+                "LDL": {
+                    "min": 89,
+                    "max": 129
+                }
+            }
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": {
+                "AST": 28,
+                "ALT": 35,
+                "ALP": 74,
+                "TBIL": 1.2
+            },
+            "unit_of_measurement": {
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "TBIL": "mg/dL"
+            },
+            "reference_range": {
+                "AST": {
+                    "min": 5,
+                    "max": 36
+                },
+                "ALT": {
+                    "min": 7,
+                    "max": 41
+                },
+                "ALP": {
+                    "min": 40,
+                    "max": 128
+                },
+                "TBIL": {
+                    "min": 0.3,
+                    "max": 1
+                }
+            }
+        }
+    ]
+}

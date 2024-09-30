@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345673",
+        "patient_name": null,
+        "patient_sex": "male",
+        "patient_age": 3
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "13.08",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-18 g/dL"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": "45.7%",
+            "unit_of_measurement": "%",
+            "reference_range": "36-46% (for infants)"
+        },
+        {
+            "test_name": "Total WBC Count",
+            "result_value": "14,000",
+            "unit_of_measurement": "cells/mm³",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Pate",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN": "12.5",
+                "RBC COUNT": "7p/6",
+                "BLOOD INOICES mill/cumm": "83 : 101 McH 1L",
+                "PACKED CELL VOLUME (PCV)": "57.5 % Ca",
+                "MCV": "87.75 ",
+                "Wec count*": "11. < 4 $,",
+                "DIFFEREnTIAL wBC COUNTER NEUTROPHILS LYMPHOPHOBYS FOSINO PHILIAS MONOCYTES BASETHI HOSINPS Basophils Platelet count": "150000"
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN": "g/dL",
+                "RBC COUNT": "million per microliter (µl)",
+                "BLOOD INOICES mill/cumm": null,
+                "PACKED CELL VOLUME (PCV)": "Percentage (%) ",
+                "MCV": "femtoliters (fL)",
+                "Wec count*": "thousand per microliter (µl)",
+                "DIFFEREnTIAL wBC COUNTER NEUTROPHILS LYMPHOPHOBYS FOSINO PHILIAS MONOCYTES BASETHI HOSINPS Basophils Platelet count": "thousand per microliter (µl)"
+            },
+            "reference_range": {
+                "HEMOGLOBIN": "13.0-17.0 g/dL",
+                "RBC COUNT": "4.5- 5.5 million per microliter (µl)",
+                "BLOOD INOICES mill/cumm": null,
+                "PACKED CELL VOLUME (PCV)": "38% - 50%",
+                "MCV": "79-106 fL",
+                "Wec count*": "4.0- 11.0 thousand per microliter (µl)",
+                "DIFFEREnTIAL wBC COUNTER NEUTROPHILS LYMPHOPHOBYS FOSINO PHILIAS MONOCYTES BASETHI HOSINPS Basophils Platelet count": "150,000 - 450,000 thousand per microliter (µl)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "Date": "12/5/202X 05:00 PM",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 11.6,
+            "unit_of_measurement": "-",
+            "reference_range": "[13.0 - 4.5 - 5.5]"
+        },
+        {
+            "test_name": "Red Blood Cells (RBC)",
+            "result_value": 101,
+            "unit_of_measurement": "x/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 40,
+            "unit_of_measurement": "%",
+            "reference_range": "[50]"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 14.0,
+            "unit_of_measurement": "x/µL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets (PLT)",
+            "result_value": 34.5,
+            "unit_of_measurement": "x/µL",
+            "reference_range": "[4000-11000]"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 328,
+            "unit_of_measurement": "-",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin (MCH)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[0]"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": "[36 MOGLOBIN]"
+        }
+    ]
+}

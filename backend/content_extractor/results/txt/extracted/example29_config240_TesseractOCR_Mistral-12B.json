@@ -1,0 +1,23 @@
+{
+    "Date": "05/16/23",
+    "patient_information": {
+        "patient_id": "456789",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 5.2,
+            "unit_of_measurement": "M/ml",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 6700,
+            "unit_of_measurement": "/uL",
+            "reference_range": "3500-10500"
+        }
+    ]
+}

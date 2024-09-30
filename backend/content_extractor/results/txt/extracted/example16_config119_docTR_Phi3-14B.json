@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Tativer",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 1032,
+            "unit_of_measurement": "mm^3",
+            "reference_range": "4500-11000 mm^3"
+        },
+        {
+            "test_name": "White Blood Cells (WBC)",
+            "result_value": 6.8,
+            "unit_of_measurement": "",
+            "reference_range": "4.5-11 x 10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 13.8,
+            "unit_of_measurement": "",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 250,
+            "unit_of_measurement": "",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Date": "19/02/23",
+    "patient_information": {
+        "patient_id": "B45678",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "WBC Count",
+            "result_value": 6.2,
+            "unit_of_measurement": "x10^3/μL",
+            "reference_range": "4-11 x10^3/μL"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.3,
+            "unit_of_measurement": "x10^6/μL",
+            "reference_range": "4.2-5.8 x10^6/μL"
+        }
+    ]
+}

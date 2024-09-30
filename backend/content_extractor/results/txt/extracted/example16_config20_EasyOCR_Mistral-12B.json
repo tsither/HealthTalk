@@ -1,0 +1,35 @@
+{
+    "Date": "Dec 02",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Shah Shivam",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.0-17.5"
+        },
+        {
+            "test_name": "Hematocrit (HCT)",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "42.0-52.0"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 5.75,
+            "unit_of_measurement": "mil/mm³",
+            "reference_range": "4.5-6.0"
+        },
+        {
+            "test_name": "WBC Count",
+            "result_value": 10.0,
+            "unit_of_measurement": "thousand/mm³",
+            "reference_range": "4.0-10.0"
+        }
+    ]
+}

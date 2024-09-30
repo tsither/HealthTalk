@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "150,000",
+            "unit_of_measurement": "/cumm",
+            "reference_range": "150,000 - 410,000"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": "20%",
+            "unit_of_measurement": "%",
+            "reference_range": "20 - 30%"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "31%",
+            "unit_of_measurement": "%",
+            "reference_range": "31% - 69%"
+        },
+        {
+            "test_name": "Total WBC count",
+            "result_value": "8.2",
+            "unit_of_measurement": "/mL",
+            "reference_range": "4.5 - 10.5"
+        },
+        {
+            "test_name": "RBC COUNT",
+            "result_value": "6.93",
+            "unit_of_measurement": "/mL",
+            "reference_range": "4.0-5.2"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13 - 17"
+        }
+    ]
+}

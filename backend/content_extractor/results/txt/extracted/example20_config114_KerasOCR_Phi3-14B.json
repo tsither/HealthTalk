@@ -1,0 +1,29 @@
+{
+    "Date": "15.04.2023",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 67
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": 4.5,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "3.5-10.5 x10^9/L"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.8-17.2 g/dL (male), 12.1-15.1 g/dL (female)"
+        },
+        {
+            "test_name": "White Blood Cell Count",
+            "result_value": 6,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4.5-11 x10^9/L"
+        }
+    ]
+}

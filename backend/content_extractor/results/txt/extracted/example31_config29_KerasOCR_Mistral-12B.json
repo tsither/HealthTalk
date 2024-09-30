@@ -1,0 +1,50 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "0912345676",
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC (Complete Blood Count)",
+            "result_value": {
+                "WBC": {
+                    "total": 62,
+                    "differential": {
+                        "Neutrophils": 70,
+                        "Lymphocytes": 20,
+                        "Eosinophils": 5,
+                        "Monocytes": 3,
+                        "Basophils": 2
+                    }
+                },
+                "RBC": {
+                    "Total": 50,
+                    "HGB": 12.5,
+                    "HCT": 40,
+                    "MCV": 81.75,
+                    "MCH": 32.8,
+                    "MCHC": 15.0,
+                    "RDW-CV": 14.1,
+                    "PLT": 300
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": {
+                    "Total": "10^12/L",
+                    "HGB": "g/dL",
+                    "HCT": "%",
+                    "MCV": "fL",
+                    "MCH": "pg",
+                    "MCHC": "g/dL",
+                    "RDW-CV": "%",
+                    "PLT": "10^9/L"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

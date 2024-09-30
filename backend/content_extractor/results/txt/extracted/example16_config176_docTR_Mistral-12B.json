@@ -1,0 +1,102 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": 555,
+        "patient_name": "Yash Mo Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": 12.5,
+                    "unit": "g/dl"
+                },
+                "RBC Count": {
+                    "value": 4.8,
+                    "unit": "million/cumm"
+                },
+                "PCV": {
+                    "value": 37.5,
+                    "unit": "%"
+                },
+                "MCV": {
+                    "value": 87.75,
+                    "unit": "fl"
+                },
+                "MCH": {
+                    "value": 27.2,
+                    "unit": "pg"
+                },
+                "MCHC": {
+                    "value": 32.8,
+                    "unit": "g/dl"
+                },
+                "RDW": {
+                    "value": 13.6,
+                    "unit": "%"
+                },
+                "WBC Count": {
+                    "value": 60,
+                    "unit": "thousand/cumm"
+                },
+                "Neutrophils": {
+                    "value": 31,
+                    "unit": "%"
+                },
+                "Lymphocytes": {
+                    "value": 52,
+                    "unit": "%"
+                },
+                "Eosinophils": {
+                    "value": 9,
+                    "unit": "%"
+                },
+                "Monocytes": {
+                    "value": 7,
+                    "unit": "%"
+                },
+                "Basophils": {
+                    "value": 1,
+                    "unit": "%"
+                },
+                "Platelet Count": {
+                    "value": 245000,
+                    "unit": "cumm"
+                }
+            },
+            "reference_range": {
+                "Hemoglobin": {
+                    "low": 13.0,
+                    "high": 17.0
+                },
+                "RBC Count": {
+                    "low": 8.5,
+                    "high": 5.5
+                },
+                "PCV": {
+                    "low": 40,
+                    "high": 50
+                },
+                "MCV": {
+                    "low": 83,
+                    "high": 101
+                },
+                "MCH": {
+                    "low": 27.32,
+                    "high": 34.5
+                },
+                "MCHC": {
+                    "low": 32.5,
+                    "high": 36.5
+                },
+                "RDW": {
+                    "low": 11.6,
+                    "high": 14.0
+                }
+            }
+        }
+    ]
+}

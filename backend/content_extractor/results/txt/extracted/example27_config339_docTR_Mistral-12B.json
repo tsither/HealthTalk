@@ -1,0 +1,22 @@
+{
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Serum Iron",
+            "result_value": 80,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": "<15-37"
+        },
+        {
+            "test_name": "Total Iron Binding Capacity",
+            "result_value": 269,
+            "unit_of_measurement": "mcg/dL",
+            "reference_range": "250-450"
+        }
+    ]
+}

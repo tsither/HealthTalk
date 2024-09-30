@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "88888",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": 12.0,
+            "unit_of_measurement": "t (CBC)",
+            "reference_range": "4.5 - 5.5"
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 27.0,
+            "unit_of_measurement": "x2",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hb",
+            "result_value": 13.6,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

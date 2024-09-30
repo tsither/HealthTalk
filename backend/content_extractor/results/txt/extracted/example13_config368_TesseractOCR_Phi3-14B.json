@@ -1,0 +1,23 @@
+{
+    "Date": "2023-01-15",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "12.8",
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5-11.0"
+        },
+        {
+            "test_name": "Hemoglon A1c (HbA1C)",
+            "result_value": "7.2%",
+            "unit_of_measurement": "%",
+            "reference_range": "4.0-5.6%"
+        }
+    ]
+}

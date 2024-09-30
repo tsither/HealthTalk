@@ -1,0 +1,53 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "count",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV",
+            "result_value": "689578",
+            "unit_of_measurement": "52 count",
+            "reference_range": "13.0 - 17.0"
+        },
+        {
+            "test_name": "Basophilcytes",
+            "result_value": "328",
+            "unit_of_measurement": null,
+            "reference_range": "4.5- 5.5"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "101",
+            "unit_of_measurement": "27.2",
+            "reference_range": null
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": "32.5",
+            "unit_of_measurement": "%",
+            "reference_range": "40- 7P/6 - 34.5"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "-14.0"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "4000-11000 %"
+        }
+    ]
+}

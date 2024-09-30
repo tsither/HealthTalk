@@ -1,0 +1,84 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "HEMOGRAMA",
+            "result_value": {
+                "hematocrito": 36,
+                "hemoglobina": 10,
+                "leucocitos": 4.96,
+                "plaquetas": 298,
+                "eosinofilos": 138,
+                "basofilos": null,
+                "velocidad_globular_corpuscular_media": null
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dL",
+                "leucocitos": "/mm³",
+                "plaquetas": "/mm³",
+                "eosinofilos": "Uds",
+                "velocidad_globular_corpuscular_media": null
+            },
+            "reference_range": {
+                "hematocrito": null,
+                "hemoglobina": null,
+                "leucocitos": "140000-440000 pa",
+                "plaquetas": null,
+                "eosinofilos": null
+            }
+        },
+        {
+            "test_name": "BIOQUIMICA SÉRICA",
+            "result_value": {
+                "glucosa": 87,
+                "colesterol": 169,
+                "hdl": 60,
+                "LDL": 100,
+                "trigliceridos": 45
+            },
+            "unit_of_measurement": {
+                "glucosa": "mg/dL",
+                "colesterol": "mg/dL",
+                "hdl": "mg/dL",
+                "LDL": "mg/dL",
+                "trigliceridos": "mg/dL"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "PRUEBAS ENZIMATICAS",
+            "result_value": {
+                "got": 40,
+                "gpt": 43,
+                "gt": 45
+            },
+            "unit_of_measurement": {
+                "got": "U/I",
+                "gpt": "U/1",
+                "gt": "U/I"
+            },
+            "reference_range": null
+        },
+        {
+            "test_name": "IONOGRAMA",
+            "result_value": {
+                "sodio": 141,
+                "cloro": 98,
+                "potasio": 4.02
+            },
+            "unit_of_measurement": {
+                "sodio": "mEq/L",
+                "cloro": "mEq/L",
+                "potasio": "mEq/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

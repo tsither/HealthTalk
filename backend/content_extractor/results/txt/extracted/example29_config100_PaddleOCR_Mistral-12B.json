@@ -1,0 +1,35 @@
+{
+    "Date": "20XX-XX-XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "12.5",
+            "unit_of_measurement": "M/mm³",
+            "reference_range": "3.28 - 4.9"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": "689578",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "11.6 - 17.0"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": "32.5",
+            "unit_of_measurement": "fl",
+            "reference_range": "78 - 98"
+        },
+        {
+            "test_name": "PLT count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "Date": "17 May 20XX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel Shivam",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "CBC with Differential",
+            "result_value": {
+                "WBC": {
+                    "total": 5.0,
+                    "differential": {
+                        "Neutrophils": 60,
+                        "Lymphocytes": 30,
+                        "Eosinophils": 10,
+                        "Monocytes": 0,
+                        "Basophils": 0
+                    }
+                },
+                "RBC": {
+                    "total": 5.55,
+                    "Hb": 15.0,
+                    "Hct": 45.5,
+                    "MCHC": 32.0,
+                    "MCV": 81.75,
+                    "MCH": 27.2,
+                    "RDW-CV": 14.0
+                },
+                "Platelets": {
+                    "total": 270000,
+                    "MPV": null
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "Hct": "%",
+                "MCHC": "g/dL",
+                "MCV": "fL",
+                "MCH": "pg",
+                "RDW-CV": "%",
+                "Platelets": "10^9/L"
+            },
+            "reference_range": null
+        }
+    ]
+}

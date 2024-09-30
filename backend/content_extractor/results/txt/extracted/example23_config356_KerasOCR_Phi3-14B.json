@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 5.0,
+            "unit_of_measurement": "Million cells/mcL",
+            "reference_eange": "4.7-6.1 million cells/mcL (male), 4.2-5.4 million cells/mcL (female)"
+        },
+        {
+            "test_name": "Hematocrit",
+            "result_value": 38,
+            "unit_of_measurement": "%",
+            "reference_range": "38.3-48.6% (male), 35.5-44.9% (female)"
+        },
+        {
+            "test_name": "Hemoglon",
+            "result_value": 12,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13.5-17.5 g/dL (male), 12.0-15.5 g/dL (female)"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 200,
+            "unit_of_measurement": "Thousand cells/mcL",
+            "reference_range": "150-450 Thousand cells/mcL"
+        }
+    ]
+}

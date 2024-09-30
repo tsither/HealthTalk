@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Dr. Hiren Shah",
+        "patient_sex": "Male",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 12.5,
+            "unit_of_measurement": "",
+            "reference_range": "6.0 - 8.0"
+        },
+        {
+            "test_eame": "RBC",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "WBC",
+            "result_value": 87.75,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "4.5 - 11.0"
+        }
+    ]
+}

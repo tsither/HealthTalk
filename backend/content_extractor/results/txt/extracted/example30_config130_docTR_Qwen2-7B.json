@@ -1,0 +1,29 @@
+{
+    "Date": "not available",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Total WBC COUNT",
+            "result_value": 100170,
+            "unit_of_measurement": "WBC count",
+            "reference_range": "[45-33] - High"
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 81000,
+            "unit_of_measurement": "/microliter / Fully",
+            "reference_range": null
+        },
+        {
+            "test_name": "MCHC (Cell Volume)",
+            "result_value": null,
+            "unit_of_measurement": "% d%",
+            "reference_range": "[27-32]"
+        }
+    ]
+}

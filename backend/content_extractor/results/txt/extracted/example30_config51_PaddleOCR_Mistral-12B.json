@@ -1,0 +1,41 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "Patel CO",
+        "patient_sex": "Male",
+        "patient_age": "55"
+    },
+    "test_results": [
+        {
+            "test_name": "RBC count",
+            "result_value": "5.5",
+            "unit_of_measurement": "M/mcL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "PCV (Packed Cell Volume)",
+            "result_value": "40",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (Total White Blood Cell Count)",
+            "result_value": "6.89578",
+            "unit_of_measurement": "K/uL",
+            "reference_range": "40 - 110"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "328",
+            "unit_of_measurement": "K/uL",
+            "reference_range": null
+        }
+    ]
+}

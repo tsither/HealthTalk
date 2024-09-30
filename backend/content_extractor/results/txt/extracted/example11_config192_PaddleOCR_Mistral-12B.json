@@ -1,0 +1,41 @@
+{
+    "Date": "03.11",
+    "patient_information": {
+        "patient_id": "0i73456789",
+        "patient_name": "Rogistered on: 02:31 Phs 02 Cec.",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin": {
+                    "value": "150000",
+                    "unit": "pooig"
+                },
+                "Packed Cell Volume (PCV)": {
+                    "value": "87.75",
+                    "unit": "%"
+                },
+                "Mean Corpuscular Volume (MCV)": {
+                    "value": "12.5",
+                    "unit": "fL"
+                },
+                "Total RBC count": {
+                    "value": "57.5",
+                    "unit": "M/μL"
+                },
+                "WBC Count": {
+                    "value": "32.8",
+                    "unit": "K/μL"
+                },
+                "Platelet count": {
+                    "value": "13.6",
+                    "unit": "K/μL"
+                }
+            },
+            "reference_range": null
+        }
+    ]
+}

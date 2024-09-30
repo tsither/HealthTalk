@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "White Blood Cells",
+            "result_value": "11.0",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "4-11 x 10^9/L"
+        },
+        {
+            "test_name": "Red Blood Cells",
+            "result_value": "4.2",
+            "unit_of_measurement": "x 10^12/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "9",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL for females, 14-18 g/dL for males"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "50",
+            "unit_of_measurement": "x 10^9/L",
+            "reference_range": "150-450 x 10^9/L"
+        },
+        {
+            "test_name": "Total Protein",
+            "result_value": "7.4",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Date": "28.07.2023",
+    "patient_information": {
+        "patient_id": "P2109",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Leucocitos": 6.7,
+                "Eritrocitos": 4.92,
+                "Hemoglobina": 13.8,
+                "Hematocrito": 40.5,
+                "VGM": 85,
+                "CHCM": 32
+            },
+            "unit_of_measurement": {
+                "Leucocitos": "10^9/L",
+                "Eritrocitos": "10^12/L",
+                "Hemoglobina": "g/dL",
+                "Hematocrito": "%",
+                "VGM": "fl",
+                "CHCM": "%"
+            },
+            "reference_range": {
+                "Leucocitos": "4.5 - 11.0",
+                "Eritrocitos": "3.8 - 6.2",
+                "Hemoglobina": "12.0 - 16.0",
+                "Hematocrito": "37 - 47",
+                "VGM": "75 - 95",
+                "CHCM": "30 - 40"
+            }
+        }
+    ]
+}

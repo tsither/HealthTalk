@@ -1,0 +1,95 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC",
+            "result_value": 10.1,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "4-11 x10^9/L"
+        },
+        {
+            "test_name": "RBC",
+            "result_value": 4.2,
+            "unit_of_measurement": "x10^12/L",
+            "reference_range": "4-5.5 x10^12/L"
+        },
+        {
+            "test_name": "HGB",
+            "result_value": 13.3,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "12-16 g/dL"
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 40.0,
+            "unit_of_measurement": "%",
+            "reference_range": "37-50%"
+        },
+        {
+            "test_name": "MCV",
+            "result_value": 94.0,
+            "unit_of_measurement": "fL",
+            "reference_range": "80-100 fL"
+        },
+        {
+            "test_name": "MCHC",
+            "result_value": 33.0,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "32-36 g/dL"
+        },
+        {
+            "test_name": "RDW",
+            "result_value": 14.8,
+            "unit_of_measurement": "%",
+            "reference_range": "11.5-14.5%"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": 269,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": "150-450 x10^3/uL"
+        },
+        {
+            "test_name": "AST",
+            "result_value": 21,
+            "unit_of_measurement": "U/L",
+            "reference_range": "8-39 U/L"
+        },
+        {
+            "test_name": "ALT",
+            "result_value": 17,
+            "unit_of_measurement": "U/L",
+            "reference_range": "7-56 U/L"
+        },
+        {
+            "test_name": "GGT",
+            "result_value": 29,
+            "unit_of_measurement": "U/L",
+            "reference_range": "9-48 U/L"
+        },
+        {
+            "test_name": "Total Bilirubin",
+            "result_value": 0.7,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0.1-1.2 mg/dL"
+        },
+        {
+            "test_name": "Direct Bilirubin",
+            "result_value": 0.2,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "0-0.3 mg/dL"
+        },
+        {
+            "test_name": "Alk Phos",
+            "result_value": 108,
+            "unit_of_measurement": "U/L",
+            "reference_range": "40-129 U/L"
+        }
+    ]
+}

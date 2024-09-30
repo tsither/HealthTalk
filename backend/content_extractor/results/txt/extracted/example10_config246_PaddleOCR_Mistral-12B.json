@@ -1,0 +1,24 @@
+{
+    "Date": "04.03",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "I'X, NEAL",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "SWARL VISION COMPLETE COAGULATION TIME (CT)",
+            "result_value": 105,
+            "unit_of_measurement": "secs",
+            "reference_range": null,
+            "interpretation": "Higher than normal range: may indicate liver disease, bone marrow disorders or immune system disorder."
+        },
+        {
+            "test_name": "PLATELET DISTRIBUTION WIDTH (PDW)",
+            "result_value": 17.0,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

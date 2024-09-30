@@ -1,0 +1,116 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": {
+                "WBC": "6.5",
+                "RBC": "4.8",
+                "Hb": "12.7",
+                "HCT": "39.2",
+                "MCV": "77.0",
+                "MCH": "26.5",
+                "MCHC": "34.5",
+                "RDW-CV": "14.8",
+                "PLT": "234",
+                " Neutrophils%": "65",
+                "Lymphocytes%": "30",
+                "Monocytes%": "5",
+                "Eosinophils%": "0",
+                "Basophils%": "0"
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "PLT": "10^9/L",
+                "Neutrophils%": "%",
+                "Lymphocytes%": "%",
+                "Monocytes%": "%",
+                "Eosinophils%": "%",
+                "Basophils%": "%"
+            },
+            "reference_range": {
+                "WBC": "4.0-10.0",
+                "RBC": "4.5-6.2",
+                "Hb": "13.5-17.5",
+                "HCT": "41.0-53.0",
+                "MCV": "80-100",
+                "MCH": "27.0-33.0",
+                "MCHC": "32.0-36.0",
+                "RDW-CV": "11.5-14.5",
+                "PLT": "150-450",
+                "Neutrophils%": "40-75",
+                "Lymphocytes%": "20-50",
+                "Monocytes%": "2-8",
+                "Eosinophils%": "0.5-5",
+                "Basophils%": "0-1"
+            }
+        },
+        {
+            "test_name": "Chemistry Panel",
+            "result_value": {
+                "Glucose": "98",
+                "BUN": "12",
+                "Creatinine": "0.9",
+                "Sodium": "136",
+                "Potassium": "4.0",
+                "Chloride": "102",
+                "CO2": "27",
+                "Total Protein": "7.5",
+                "Albumin": "4.2",
+                "Globulin": "3.3",
+                "A/G Ratio": "1.3",
+                "AST": "25",
+                "ALT": "30",
+                "ALP": "80",
+                "Total Bilirubin": "1.2"
+            },
+            "unit_of_measurement": {
+                "Glucose": "mg/dL",
+                "BUN": "mg/dL",
+                "Creatinine": "mg/dL",
+                "Sodium": "mmol/L",
+                "Potassium": "mmol/L",
+                "Chloride": "mmol/L",
+                "CO2": "mmol/L",
+                "Total Protein": "g/dL",
+                "Albumin": "g/dL",
+                "Globulin": "g/dL",
+                "A/G Ratio": "",
+                "AST": "U/L",
+                "ALT": "U/L",
+                "ALP": "U/L",
+                "Total Bilirubin": "mg/dL"
+            },
+            "reference_range": {
+                "Glucose": "70-99",
+                "BUN": "6-20",
+                "Creatinine": "0.6-1.2",
+                "Sodium": "135-145",
+                "Potassium": "3.6-5.2",
+                "Chloride": "98-107",
+                "CO2": "23-32",
+                "Total Protein": "6.0-8.3",
+                "Albumin": "3.5-5.2",
+                "Globulin": "2.0-4.0",
+                "A/G Ratio": ">1.7",
+                "AST": "5-35",
+                "ALT": "7-56",
+                "ALP": "30-120",
+                "Total Bilirubin": "<1.2"
+            }
+        }
+    ]
+}

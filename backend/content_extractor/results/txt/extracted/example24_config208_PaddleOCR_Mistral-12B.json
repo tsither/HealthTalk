@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, 202x",
+    "patient_information": {
+        "patient_id": "90123456789",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 8500,
+                "HGB": 13.6,
+                "PLT": 274000,
+                "NEU": 65.9,
+                "LYM": 27.8,
+                "MON": 3.7,
+                "EOS": 2.6,
+                "BASO": 0,
+                "MCV": 90.1
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "HGB": "g/dL",
+                "PLT": "10^9/L",
+                "NEU": "%",
+                "LYM": "%",
+                "MON": "%",
+                "EOS": "%",
+                "BASO": "%",
+                "MCV": "fL"
+            },
+            "reference_range": {
+                "WBC": "4500-11000",
+                "HGB": "13.0- 17.0",
+                "PLT": "150000-410000",
+                "NEU": "40-68",
+                "LYM": "20-45",
+                "MON": "4-9",
+                "EOS": "1-4",
+                "BASO": "0-1",
+                "MCV": "80-100"
+            }
+        }
+    ]
+}

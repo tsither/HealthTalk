@@ -1,0 +1,35 @@
+{
+    "Date": "11/02/202x",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash MS",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": 125,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "13-170 g/dL"
+        },
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 51.2,
+            "unit_of_measurement": "millions/cmm",
+            "reference_range": "5.5-5.55 millions/cmm"
+        },
+        {
+            "test_name": "Corpuscular Volume (MCV)",
+            "result_value": null,
+            "unit_of_measurement": "",
+            "reference_range": ""
+        }
+    ]
+}

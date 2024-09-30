@@ -1,0 +1,76 @@
+{
+    "Date": "02 Oct, 202x 05:00 PM",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 7.0,
+                "RBC": 5.1,
+                "Hb": 12.6,
+                "HCT": 38.9,
+                "MCV": 76.4,
+                "MCH": 24.7,
+                "MCHC": 32.5,
+                "RDW-CV": 14.0,
+                "RDW-SD": 45.5,
+                "PLT": 272,
+                "MPV": 8.9,
+                "PDW": 16.2,
+                "PCT": 0.3,
+                "WBC Differential": {
+                    "Neutrophils": 64,
+                    "Lymphocytes": 31,
+                    "Monocytes": 5,
+                    "Eosinophils": 0,
+                    "Basophils": 0
+                }
+            },
+            "unit_of_measurement": {
+                "WBC": "10^9/L",
+                "RBC": "10^12/L",
+                "Hb": "g/dL",
+                "HCT": "%",
+                "MCV": "fL",
+                "MCH": "pg",
+                "MCHC": "g/dL",
+                "RDW-CV": "%",
+                "RDW-SD": "fL",
+                "PLT": "10^9/L",
+                "MPV": "fL",
+                "PDW": "fL",
+                "PCT": "%",
+                "Neutrophils": "%",
+                "Lymphocytes": "%",
+                "Monocytes": "%",
+                "Eosinophils": "%",
+                "Basophils": "%"
+            },
+            "reference_range": {
+                "WBC": null,
+                "RBC": null,
+                "Hb": null,
+                "HCT": null,
+                "MCV": null,
+                "MCH": null,
+                "MCHC": null,
+                "RDW-CV": null,
+                "RDW-SD": null,
+                "PLT": null,
+                "MPV": null,
+                "PDW": null,
+                "PCT": null,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Date": "O0E",
+    "patient_information": {
+        "patient_id": "123456789",
+        "patient_name": "COUNT S G Road",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "CBC",
+            "result_value": {
+                "WBC": 34.5,
+                "HGB": 11.6,
+                "PLT": 270,
+                "MCV": 90,
+                "MCH": 3,
+                "MCHC": 34.5
+            },
+            "unit_of_measurement": {
+                "WBC": "x10^9/L",
+                "HGB": "g/dL",
+                "PLT": "x10^9/L",
+                "MCV": "FL",
+                "MCH": "pg",
+                "MCHC": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

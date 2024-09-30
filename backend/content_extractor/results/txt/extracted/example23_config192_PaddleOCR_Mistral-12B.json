@@ -1,0 +1,33 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "84922E2160",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 150000,
+                "HGB": 13.6,
+                "PLT": "Normal"
+            },
+            "unit_of_measurement": {
+                "WBC": "cells/uL",
+                "HGB": "g/dL"
+            },
+            "reference_range": {
+                "WBC": "4500-10,000 cells/uL",
+                "HGB": "13.0-17.0 g/dL"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "Normal",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "[FILL]",
+        "patient_sex": "male",
+        "patient_age": 17,
+        "patient_gender": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": "69575",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "result_value": "83",
+            "unit_of_measurement": "fl",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "RDW-CV (Red Cell Distribution Width - Coefficient of Variation)",
+            "result_value": "15",
+            "unit_of_measurement": "%",
+            "reference_range": "[FILL]"
+        },
+        {
+            "test_name": "Platelets",
+            "result_value": "20x10^3/uL",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": "[FILL]"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123a56769",
+        "patient_name": "yash m patel",
+        "patient_sex": "male",
+        "patient_age": 21,
+        "patient_location": "mumbai"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "low",
+            "reference_range": {
+                "min": 1310,
+                "max": 170
+            }
+        },
+        {
+            "test_name": "rbc count",
+            "result_value": 52954.54,
+            "unit_of_measurement": "millicumm"
+        },
+        {
+            "test_name": "pcv",
+            "result_value": 57.5
+        },
+        {
+            "test_name": "mcv",
+            "result_value": 87.75
+        },
+        {
+            "test_name": "mch",
+            "result_value": 27.2,
+            "unit_of_measurement": "pg"
+        },
+        {
+            "test_name": "mchc",
+            "result_value": 328,
+            "unit_of_measurement": "ceous"
+        },
+        {
+            "test_name": "rdw",
+            "result_value": 13.16
+        },
+        {
+            "test_name": "wbc count",
+            "result_value": 1000,
+            "unit_of_measurement": "borderline"
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": 60,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "lymphocyies",
+            "result_value": 31
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": 6,
+            "unit_of_measurement": "%"
+        },
+        {
+            "test_name": "monocyies",
+            "result_value": null
+        },
+        {
+            "test_name": "basophils",
+            "result_value": 2
+        },
+        {
+            "test_name": "platelet count",
+            "result_value": 1000,
+            "unit_of_measurement": "borderline"
+        }
+    ]
+}

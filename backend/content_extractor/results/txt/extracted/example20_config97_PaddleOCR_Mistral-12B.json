@@ -1,0 +1,28 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": {
+                "WBC": "4.0 - 11.0",
+                "PLT": "150,000 - 350,000",
+                "HGB": "12.0 - 16.0",
+                "HCT": "36.0 - 46.0"
+            }
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": null,
+            "unit_of_measurement": "×10^9/L",
+            "reference_range": "150,000 - 350,000"
+        }
+    ]
+}

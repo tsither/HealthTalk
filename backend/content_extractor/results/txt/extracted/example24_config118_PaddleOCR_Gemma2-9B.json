@@ -1,0 +1,29 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": "55 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Platelet Count",
+            "result_value": "34.5",
+            "unit_of_measurement": "mill/uL",
+            "reference_range": "29 - 4000-11000"
+        },
+        {
+            "test_name": "WBC COUNT",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC DIFF",
+            "result_value": "Neutrophils 68.9%, Lymphocytes 27.2%, Monocytes 3.5%, Eosinophils 0.4%",
+            "unit_of_measurement": null,
+            "reference_range": "null"
+        }
+    ]
+}

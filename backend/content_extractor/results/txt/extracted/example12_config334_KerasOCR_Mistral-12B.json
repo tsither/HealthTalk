@@ -1,0 +1,23 @@
+{
+    "Date": "21.03.2022",
+    "patient_information": {
+        "patient_id": "95473",
+        "patient_name": "Jane Doe",
+        "patient_sex": "Female",
+        "patient_age": 65
+    },
+    "test_results": [
+        {
+            "test_name": "Glucose, Serum",
+            "result_value": 125,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "74-99"
+        },
+        {
+            "test_name": "Cholesterol, Total",
+            "result_value": 240,
+            "unit_of_measurement": "mg/dL",
+            "reference_range": "<200"
+        }
+    ]
+}

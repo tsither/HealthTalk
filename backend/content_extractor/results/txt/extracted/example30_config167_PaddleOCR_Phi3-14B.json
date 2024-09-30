@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Patel",
+        "patient_sex": "Male",
+        "patient_age": "100"
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count (CBC)",
+            "result_value": 72.5,
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 328,
+            "unit_of_measurement": "g/dL",
+            "reference_range": "30-175"
+        },
+        {
+            "test_n ame": "Hematocrit (Hct)",
+            "result_value": 83,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean corpuscular volume (MCV)",
+            "result_value": 101,
+            "unit_of_measurement": "fl",
+            "reference_range": "80-96"
+        }
+    ]
+}

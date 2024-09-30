@@ -1,0 +1,25 @@
+{
+    "Date": "03/01",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "paiolsdboy",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Ferritin",
+            "result_value": "<10",
+            "unit_of_measurement": "µg/L",
+            "reference_range": null,
+            "interpretation": "Lower than normal range, may indicate iron or B12 deficiency, bone marrow disorders"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "15.50",
+            "unit_of_measurement": "%",
+            "reference_range": "7.5 - 13.5%",
+            "interpretation": "Reactive thrombocytosis (Pow normal), thrombocytopenia"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "Date": "2023-01-05",
+    "patient_information": {
+        "patient_id": "ABC123",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.5,
+                "RBC": 5.2,
+                "HGB": 15.3,
+                "PLT": 240
+            },
+            "unit_of_measurement": {
+                "WBC": "K/µL",
+                "RBC": "M/mm³",
+                "HGB": "g/dL",
+                "PLT": "K/µL"
+            },
+            "reference_range": {
+                "WBC": {
+                    "min": 4.5,
+                    "max": 10
+                },
+                "RBC": {
+                    "min": 4.7,
+                    "max": 6.2
+                },
+                "HGB": {
+                    "min": 13.5,
+                    "max": 18
+                },
+                "PLT": {
+                    "min": 150,
+                    "max": 400
+                }
+            }
+        },
+        {
+            "test_name": "Lipid Profile",
+            "result_value": {
+                "Total Cholesterol": 210,
+                "LDL": 135,
+                "HDL": 45,
+                "Triglycerides": 120
+            },
+            "unit_of_measurement": {
+                "Total Cholesterol": "mg/dL",
+                "LDL": "mg/dL",
+                "HDL": "mg/dL",
+                "Triglycerides": "mg/dL"
+            },
+            "reference_range": {
+                "Total Cholesterol": {
+                    "max": 200
+                },
+                "LDL": {
+                    "max": 130
+                },
+                "HDL": {
+                    "min": 40,
+                    "optimal": ">60"
+                },
+                "Triglycerides": {
+                    "max": 150
+                }
+            }
+        }
+    ]
+}

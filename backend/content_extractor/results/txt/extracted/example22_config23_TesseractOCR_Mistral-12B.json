@@ -1,0 +1,29 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "WBC count",
+            "result_value": 6000,
+            "unit_of_measurement": "cells/mm^3",
+            "reference_range": "4500-11000"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": 4.8348,
+            "unit_of_measurement": "millions/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "HCT",
+            "result_value": 43.6,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        }
+    ]
+}

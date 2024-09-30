@@ -1,0 +1,35 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "drlogy pathology lab",
+        "patient_name": "p r logi o y ca tc ",
+        "patient_sex": "m a l e",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": null,
+            "reference_range": "130-110"
+        },
+        {
+            "test_name": "RBC count total",
+            "result_value": 5,
+            "unit_of_measurement": "asses/mm^3",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 212,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 310000,
+            "unit_of_measurement": "x^10^9/L",
+            "reference_range": null
+        }
+    ]
+}

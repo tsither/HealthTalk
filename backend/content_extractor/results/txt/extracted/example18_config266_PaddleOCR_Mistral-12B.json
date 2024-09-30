@@ -1,0 +1,29 @@
+{
+    "Date": "03 Oct., 202x",
+    "patient_information": {
+        "patient_id": "555",
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": "21 Years"
+    },
+    "test_results": [
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "94.0",
+            "unit_of_measurement": "fl",
+            "reference_range": "78.0-102.0"
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "326000",
+            "unit_of_measurement": "/mm³",
+            "reference_range": "150000 - 410000"
+        },
+        {
+            "test_name": "Red Blood Cell (RBC) Count",
+            "result_value": "5.3",
+            "unit_of_measurement": "million/cumm",
+            "reference_range": "4.5 - 6.1"
+        }
+    ]
+}

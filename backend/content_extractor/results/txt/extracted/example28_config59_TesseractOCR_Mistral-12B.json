@@ -1,0 +1,62 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": 60
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "Hematies": "48x109/l",
+                "Hemogtohina": "14.3g/dl",
+                "HMC": "29pg",
+                "Leucicitos": "10.2x106/ul",
+                "Neutrófilos": "68%",
+                "Eosinófilos": "18%",
+                "Leucocitos": "24%",
+                "Monocitos": "2%"
+            },
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Biquírica básica",
+            "result_value": {
+                "Glucosa": "65.0mg/dl",
+                "Creatinina": "<1mg/dl",
+                "Colesterol": "220mg/dl",
+                "Proteína": "6.6g/dL",
+                "Hierro": "+11",
+                "Ferritina": "20ng/ml",
+                "Hemoglobina Alc": "45%",
+                "Got": "<0.00u/l",
+                "Gpt": "80u/l",
+                "Cet": "100u/l",
+                "Bilirrubina total": "28mg/dl",
+                "Bilirrubina directa (esterificada)": "15mg/dL",
+                "Fosfatasa Alcalina": "50UAL",
+                "Albúmina": "23g/dL"
+            },
+            "unit_of_measurement": {
+                "Glucosa": "mg/dl",
+                "Creatinina": "<1mg/dl",
+                "Colesterol": "mg/dl",
+                "Proteína": "g/dL",
+                "Hierro": null,
+                "Ferritina": "ng/ml",
+                "Hemoglobina Alc": "%",
+                "Got": "u/l",
+                "Gpt": "u/l",
+                "Cet": "u/l",
+                "Bilirrubina total": "mg/dl",
+                "Bilirrubina directa (esterificada)": "mg/dL",
+                "Fosfatasa Alcalina": "UAL",
+                "Albúmina": "g/dL"
+            },
+            "reference_range": null
+        }
+    ]
+}

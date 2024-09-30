@@ -1,0 +1,71 @@
+{
+    "Date": "202x.12.05",
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "shah",
+        "patient_sex": "male",
+        "patient_age": "27"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "108",
+            "unit_of_measurement": "g/dL",
+            "reference_range": "140-130"
+        },
+        {
+            "test_name": "packed cell volume (PCV)",
+            "result_value": "325",
+            "unit_of_measurement": "%",
+            "reference_range": "4000-11000"
+        },
+        {
+            "test_name": "RBC count",
+            "result_value": "5.55",
+            "unit_of_measurement": "million/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "WBC count",
+            "result_value": "8775",
+            "unit_of_measurement": "/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": "410000",
+            "unit_of_measurement": "/µL",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Neutrophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Monocytes",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        },
+        {
+            "test_name": "Basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": "null"
+        }
+    ]
+}

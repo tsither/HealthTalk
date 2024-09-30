@@ -1,0 +1,31 @@
+{
+    "Date": "02 Dec, 20xx",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "wo3:A9o|ip@qe|q1ed^8op",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Platelet Count": 150000,
+                "MCV": 96.2,
+                "HGB": 13.6,
+                "WBC": null,
+                "RBC": null
+            },
+            "unit_of_measurement": {
+                "Platelet Count": "cells/µL",
+                "MCV": "fL",
+                "HGB": "g/dL"
+            },
+            "reference_range": {
+                "Platelet Count": "150,000 - 410,000 cells/µL",
+                "MCV": "80-100 fL",
+                "HGB": "13.6 g/dL"
+            }
+        }
+    ]
+}

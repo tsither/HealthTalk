@@ -1,0 +1,83 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": "Yash M Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 125,
+            "unit_of_measurement": "g/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Count",
+            "result_value": 131,
+            "unit_of_measurement": "x10^6/L",
+            "reference_range": "45-52"
+        },
+        {
+            "test_name": "Total RBC Count",
+            "result_value": 170,
+            "unit_of_measurement": "x1.38%Hb/g Hb",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": 57,
+            "unit_of_measurement": "%Hct/%Hb",
+            "reference_range": "80-96"
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin (MCH)",
+            "result_value": 83,
+            "unit_of_measurement": "pg/cell",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin Concentration (MCHC)",
+            "result_value": 271,
+            "unit_of_measurement": "%Hb/Hct",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Blood Cell Distribution Width (RDW)",
+            "result_value": 345.26,
+            "unit_of_measurement": "pg",
+            "reference_range": null
+        },
+        {
+            "test_name": "White Blood Count Total",
+            "result_value": 1160.72,
+            "unit_of_measurement": "x10^3/L",
+            "reference_range": "4.5-11"
+        },
+        {
+            "test_name": "WBC Differential Count (%) - Neutrophils",
+            "result_value": 68,
+            "unit_of_measurement": "% WBCs",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential Count (%) - Lymphocytes",
+            "result_value": 20,
+            "unit_of_measurement": "% WBCs",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential Count (%) - Monocytes",
+            "result_value": 6,
+            "unit_of_measurement": "% WBCs",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": 0.87,
+            "unit_of_measurement": "x10^9/L",
+            "reference_range": "150-400"
+        }
+    ]
+}

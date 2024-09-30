@@ -1,0 +1,37 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "1250123A56789",
+        "patient_name": "Shivam Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 12.5,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "4.7 x 10^6/uL",
+            "unit_of_measurement": "uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Mean Cell Hemoglobin Conc. (MCHC)",
+            "result_value": 32.8,
+            "unit_of_measurement": "g/dL",
+            "reference_range": [
+                "30-36"
+            ]
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 250,
+            "unit_of_measurement": "x10^3/uL",
+            "reference_range": null
+        }
+    ]
+}

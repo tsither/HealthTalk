@@ -1,0 +1,26 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Test Type 1",
+            "result_value": 304900000.0,
+            "unit_of_measurement": "Count / Mcl",
+            "reference_range": null
+        },
+        {
+            "test_name": "Wopaog Test",
+            "result_value": 9.415e-07,
+            "unit_of_measurement": "Count / L",
+            "reference_range": [
+                null,
+                346.8
+            ]
+        }
+    ]
+}

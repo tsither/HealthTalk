@@ -1,0 +1,52 @@
+{
+    "Date": "02.12.202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "HEMOGLOBIN Hemoglobin (Hb)": 12.5,
+                "RBC COUNT Total RBC count": 5.2,
+                "BLOOD INDICES Packed Cell Volume (PCV)": 7.5,
+                "MEAN CORPUSCULAR VOLUME (MCV)": 87.75,
+                "Mean Corpuscular Hemoglobin (MCH)": 27.2,
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": 32.8,
+                "RETICULOCYTE COUNT (ROW)": 13.6,
+                "WBC COUNT Total WBC count": {
+                    "OIFFERENTIAL WBC COUNT Neutrophils": 60,
+                    "Lymphocytes": 31,
+                    "Eosinophils": 1,
+                    "Monocytes": 7,
+                    "Basophils": 1
+                },
+                "PLATELET COUNT Platelet count": 150000
+            },
+            "unit_of_measurement": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "g/dL",
+                "RBC COUNT Total RBC count": "mill/cumm",
+                "BLOOD INDICES Packed Cell Volume (PCV)": "%",
+                "MEAN CORPUSCULAR VOLUME (MCV)": "fl",
+                "Mean Corpuscular Hemoglobin (MCH)": "pg",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "g/dL",
+                "RETICULOCYTE COUNT (ROW)": "%",
+                "WBC COUNT Total WBC count": "{ \"OIFFERENTIAL WBC COUNT Neutrophils\": 60, \"Lymphocytes\": 31, \"Eosinophils\": 1, \"Monocytes\": 7, \"Basophils\": 1}",
+                "PLATELET COUNT Platelet count": "cumm"
+            },
+            "reference_range": {
+                "HEMOGLOBIN Hemoglobin (Hb)": "Low: [null] - High: [13.0-17.0 g/dL]",
+                "RBC COUNT Total RBC count": "[null]",
+                "BLOOD INDICES Packed Cell Volume (PCV)": "[null]",
+                "MEAN CORPUSCULAR VOLUME (MCV)": "[null]",
+                "Mean Corpuscular Hemoglobin (MCH)": "[null]",
+                "Mean Corpuscular Hemoglobin Concentration (MCHC)": "[null]",
+                "RETICULOCYTE COUNT (ROW)": "[null] - [11.6-14.0 %]",
+                "WBC COUNT Total WBC count": "[null] 3: [9000-4000] | cumm"
+            }
+        }
+    ]
+}

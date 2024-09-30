@@ -1,0 +1,80 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912645678",
+        "patient_name": "patel shivam",
+        "patient_sex": "male",
+        "patient_age": "21 years"
+    },
+    "test_results": [
+        {
+            "test_name": "CBCY 555 count PIDs blood complete",
+            "result_value": null,
+            "unit_of_measurement": "per microliter",
+            "reference_range": "5.5-6.5 for WBC, 3.8-5.1 for RBC"
+        },
+        {
+            "test_name": "Hemoglobin (HGB)",
+            "result_value": "457 mg/dL",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": "50 million/L",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Indices (MCV, MCHC)",
+            "result_value": [
+                "32 fL for MCV",
+                "14% for MCHC"
+            ],
+            "unit_of_measurement": [
+                "fL",
+                "%"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC count (White Blood Cells)",
+            "result_value": [
+                "5.0 x 10^3/μL",
+                "2,500/μL"
+            ],
+            "unit_of_measurement": [
+                "per microliter",
+                null
+            ],
+            "reference_range": [
+                "4.0-11.0 for WBC"
+            ]
+        },
+        {
+            "test_name": "Differential count (Neutrophils, Lymphocytes, Eosinophils, Monocytes)",
+            "result_value": [
+                "20% neutrophils",
+                "5% lymphocytes",
+                "7% eosinophils",
+                "10% monocytes"
+            ],
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": [
+                "20 x 10^3/μL",
+                "50,000/μL"
+            ],
+            "unit_of_measurement": [
+                "per microliter",
+                null
+            ],
+            "reference_range": [
+                "150-400 for Platelets"
+            ]
+        }
+    ]
+}

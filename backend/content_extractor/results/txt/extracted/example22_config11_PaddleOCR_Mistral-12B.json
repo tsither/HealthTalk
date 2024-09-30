@@ -1,0 +1,48 @@
+{
+    "Date": "02 Dec, 202X",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Yash M. Patel",
+        "patient_sex": "Male",
+        "patient_age": 55
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin",
+            "result_value": 68,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "RBC Count",
+            "result_value": 57.5,
+            "unit_of_measurement": "trillion cells/L",
+            "reference_range": null
+        },
+        {
+            "test_name": "WBC Differential",
+            "result_value": [
+                {
+                    "type": "Neutrophils",
+                    "count": "27.2"
+                },
+                {
+                    "type": "Lymphocytes",
+                    "count": "32.8"
+                },
+                {
+                    "type": "Eosinophils",
+                    "count": "40 - 50"
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet Count",
+            "result_value": "00.683",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        }
+    ]
+}

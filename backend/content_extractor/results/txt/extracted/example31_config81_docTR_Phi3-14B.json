@@ -1,0 +1,43 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0912345678",
+        "patient_name": "102 Dec 2 X",
+        "patient_sex": "Male",
+        "patient_age": [
+            null
+        ]
+    },
+    "test_results": [
+        {
+            "test_name": "Blood Count (CBC)",
+            "result_value": [
+                "Hemoglobin: 12.5 mill/cumm",
+                "Total RBC count: 5.2%",
+                "Packed Cell Volume (MCV): 87.75 pg",
+                "Mean Corpuscular hemoglobin concentration (MCHC): 13.6 cumm"
+            ],
+            "unit_of_measurement": [
+                "g/dL",
+                "%",
+                "pg",
+                "cumm"
+            ],
+            "reference_range": [
+                "Low: 13.0-17.0 g/dL, High: 40-50 fL"
+            ]
+        },
+        {
+            "test_name": "Blood Indices Volume (PCV)",
+            "result_value": "57.5%",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "RDW",
+            "result_value": "4000-11000 WBC Count",
+            "unit_of_measurement": "WBC count",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Date": "04/35 PHT",
+    "patient_information": {
+        "patient_id": "0i23456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 13.0,
+                "Total RBC count": 450000,
+                "Mean Corpuscular Volume (MCV)": 90.0,
+                "Packed Cell Volume (PCV)": null,
+                "WBC count": 87.75,
+                "Neutrophils": 57.5,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null,
+                "Platelet count": 270000
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total RBC count": "/µL",
+                "Mean Corpuscular Volume (MCV)": "fL",
+                "Packed Cell Volume (PCV)": "%",
+                "WBC count": "/µL",
+                "Neutrophils": "/µL",
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null,
+                "Platelet count": "/µL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0-17.0",
+                "Total RBC count": null,
+                "Mean Corpuscular Volume (MCV)": null,
+                "Packed Cell Volume (PCV)": null,
+                "WBC count": null,
+                "Neutrophils": null,
+                "Lymphocytes": null,
+                "Monocytes": null,
+                "Eosinophils": null,
+                "Basophils": null,
+                "Platelet count": null
+            }
+        }
+    ]
+}

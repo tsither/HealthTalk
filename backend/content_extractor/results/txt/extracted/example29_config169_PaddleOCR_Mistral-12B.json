@@ -1,0 +1,41 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "160",
+        "patient_name": "Patel LEX",
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 13.6,
+                "Red Blood Cell (RBC) count": 4.5,
+                "Mean Corpuscular Volume (MCV)": 83
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Red Blood Cell (RBC) count": "10^6/µL",
+                "Mean Corpuscular Volume (MCV)": "fL"
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0 - 17.0 g/dL",
+                "Red Blood Cell (RBC) count": "4.5 - 6.0 million cells/µL",
+                "Mean Corpuscular Volume (MCV)": "80-95 fL"
+            }
+        },
+        {
+            "test_name": "White Blood Cell (WBC) count",
+            "result_value": 7.2,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "4.5 - 10.8 10^3/µL"
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": 327,
+            "unit_of_measurement": "10^3/µL",
+            "reference_range": "150000 - 410000 platelets/µL"
+        }
+    ]
+}

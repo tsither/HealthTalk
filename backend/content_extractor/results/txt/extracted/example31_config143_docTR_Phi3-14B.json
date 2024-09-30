@@ -1,0 +1,71 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": 12.5,
+            "unit_of_measurement": "milligrams/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Total RBC count",
+            "result_value": 5.2,
+            "unit_of_measurement": "% of Hematocrit",
+            "reference_range": null
+        },
+        {
+            "test_name": "Packed Cell Volume (MCV)",
+            "result_value": 87.75,
+            "unit_of_measurement": "picograms (pg)",
+            "reference_range": "27-32 pg"
+        },
+        {
+            "test_name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "result_value": 13.6,
+            "unit_of_measurement": "cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Red Cell Distribution Width (RDW)",
+            "result_value": null,
+            "unit_of_measurement": "units width",
+            "reference_range": "4000-1100"
+        },
+        {
+            "test_name": "White Blood Cell count (WBC)",
+            "result_value": 9000,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": "50-62"
+        },
+        {
+            "test_name": "Differential WBC Count - Neutrophils",
+            "result_value": 31,
+            "unit_of_measurement": "% of total leukocytes",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential WBC Count - Lymphocytes",
+            "result_value": 60,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": "20-40"
+        },
+        {
+            "test_name": "Differential WBC Count - Eosinophils",
+            "result_value": 7,
+            "unit_of_measurement": "cells/cumm",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "cells counter",
+            "reference_range": null
+        }
+    ]
+}

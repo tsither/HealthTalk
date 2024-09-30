@@ -1,0 +1,46 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "Paciente varon",
+        "patient_sex": "varon",
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": [
+                "60 Hemograma: anos Hematies obeso Hemoglobina con VCM 4,8109 / articulares y H.M.C. 14,3 g/l Leucicitos 68 dne 29 pg ha viajado Bioquimica basica"
+            ],
+            "unit_of_measurement": [
+                "g/L",
+                "mol/L"
+            ],
+            "reference_range": null
+        },
+        {
+            "test_name": "Creatinina",
+            "result_value": [
+                10.2
+            ],
+            "unit_of_measurement": [
+                "x 10^6 / L"
+            ],
+            "reference_range": [
+                "70-110"
+            ]
+        },
+        {
+            "test_name": "Colesterol",
+            "result_value": [
+                3.4
+            ],
+            "unit_of_measurement": [
+                "g/dL"
+            ],
+            "reference_range": [
+                "<240.0"
+            ]
+        }
+    ]
+}

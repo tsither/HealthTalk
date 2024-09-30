@@ -1,0 +1,38 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "WBC": 6.0,
+                "RBC": 57.5,
+                "HGB": 18.6,
+                "MCH": 82.8,
+                "RDW": 14.0,
+                "Platelet Count": 190000
+            },
+            "unit_of_measurement": {
+                "WBC": "K/uL",
+                "RBC": "x10^6/uL",
+                "HGB": "g/dL",
+                "MCH": "fl",
+                "RDW": "%",
+                "Platelet Count": "K/uL"
+            },
+            "reference_range": {
+                "WBC": "4.5 - 11.0",
+                "RBC": "4.3 - 10.1",
+                "HGB": "13.0 - 17.9",
+                "MCH": "27.0 - 33.0",
+                "RDW": "11.6 - 14.0",
+                "Platelet Count": "150000 - 410000"
+            }
+        }
+    ]
+}

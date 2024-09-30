@@ -1,0 +1,23 @@
+{
+    "Date": "2023-10-04",
+    "patient_information": {
+        "patient_id": "P123456",
+        "patient_name": "John Doe",
+        "patient_sex": "Male",
+        "patient_age": 45
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count",
+            "result_value": "WBC: 7.0, RBC: 5.2, HGB: 13.5, HCT: 39%",
+            "unit_of_measurement": null,
+            "reference_range": null
+        },
+        {
+            "test_name": "Liver Function Tests",
+            "result_value": "ALT: 30, AST: 40, ALB: 4.2 g/dL",
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

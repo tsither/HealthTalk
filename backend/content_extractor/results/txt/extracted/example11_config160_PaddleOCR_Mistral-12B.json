@@ -1,0 +1,47 @@
+{
+    "Date": "02 Dec, XX",
+    "patient_information": {
+        "patient_id": "0123456789",
+        "patient_name": null,
+        "patient_sex": "Male",
+        "patient_age": 21
+    },
+    "test_results": [
+        {
+            "test_name": "Complete Blood Count (CBC)",
+            "result_value": {
+                "Hemoglobin (Hb)": 12.5,
+                "Total WBC count": 87.75,
+                "Platelet Count": 57.5,
+                "MCV": 27.2,
+                "PCV": 32.8,
+                "RBC COUNT": 13.6,
+                "WBC COUNT": null
+            },
+            "unit_of_measurement": {
+                "Hemoglobin (Hb)": "g/dL",
+                "Total WBC count": "10^9/L",
+                "Platelet Count": "10^9/L",
+                "MCV": "fL",
+                "PCV": "%",
+                "RBC COUNT": null,
+                "WBC COUNT": null
+            },
+            "reference_range": {
+                "Hemoglobin (Hb)": "13.0- 17.0 g/dL",
+                "Total WBC count": "4.5 - 10.1 10^9/L",
+                "Platelet Count": "150000 - 410000 10^9/L",
+                "MCV": "83 - 101 fL",
+                "PCV": "37 - 47 %",
+                "RBC COUNT": null,
+                "WBC COUNT": null
+            }
+        },
+        {
+            "test_name": "Differential WBC Count",
+            "result_value": null,
+            "unit_of_measurement": null,
+            "reference_range": null
+        }
+    ]
+}

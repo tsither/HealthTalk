@@ -1,0 +1,50 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Complete blood count",
+            "result_value": 54,
+            "unit_of_measurement": "TIA (Tissue Immune Activator)",
+            "reference_range": null
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result_value": null,
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "White blood cell count",
+            "result_value": 52.8,
+            "unit_of_measurement": "cells/μL",
+            "reference_range": null
+        },
+        {
+            "test_name": "Differential white blood cell count",
+            "result_value": [
+                {
+                    "name": "lymphocytes",
+                    "percentage": 80
+                },
+                {
+                    "name": "monocytes",
+                    "percentage": 20
+                }
+            ],
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "Platelet count",
+            "result_value": null,
+            "unit_of_measurement": "platelets/μL",
+            "reference_range": null
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "Date": null,
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": null,
+        "patient_sex": null,
+        "patient_age": null
+    },
+    "test_results": [
+        {
+            "test_name": "Hemograma",
+            "result_value": {
+                "hematocrito": 30.5,
+                "hemoglobina": 14.4,
+                "leucocitos": 7500,
+                "plaquetas": 208000
+            },
+            "unit_of_measurement": {
+                "hematocrito": "%",
+                "hemoglobina": "g/dL",
+                "leucocitos": "mm³",
+                "plaquetas": "/µL"
+            },
+            "reference_range": null
+        }
+    ]
+}

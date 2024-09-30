@@ -1,0 +1,81 @@
+{
+    "Date": "XX.XX.XXX",
+    "patient_information": {
+        "patient_id": null,
+        "patient_name": "drlogy",
+        "patient_sex": "male",
+        "patient_age": 55,
+        "patient_address": "mumbai shivam count collected"
+    },
+    "test_results": [
+        {
+            "test_name": "hemoglobin",
+            "result_value": "125",
+            "unit_of_measurement": "g/dL",
+            "reference_range": null
+        },
+        {
+            "test_name": "rbc",
+            "result_value": "555",
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "pcv",
+            "result_value": "125",
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "wbc",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": {
+                "min": 4000,
+                "max": 11000
+            }
+        },
+        {
+            "test_name": "neutrophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": {
+                "min": null,
+                "max": null
+            }
+        },
+        {
+            "test_name": "lymphocytes",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "eosinophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "monocytes",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": null
+        },
+        {
+            "test_name": "basophils",
+            "result_value": null,
+            "unit_of_measurement": "%",
+            "reference_range": null
+        },
+        {
+            "test_name": "platelet",
+            "result_value": null,
+            "unit_of_measurement": "cells/uL",
+            "reference_range": {
+                "min": 150000,
+                "max": 450000
+            }
+        }
+    ]
+}
