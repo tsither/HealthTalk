@@ -16,13 +16,13 @@ harmonic_mean <- function(x) {
 }
 
 # Group by Filename and calculate harmonic mean for numeric columns
-result <- data %>%
+result <- data %>% 
+  #filter(Filename=="example1") %>%
   group_by(Config, OCR_module, LLM_model) %>%
   summarise(across(c(Accuracy, Precision, Recall, F1_Score), ~harmonic_mean(.[. != 0])), .groups = "drop")
 
 top10 <- result %>% arrange(desc(F1_Score))
 result %>% arrange(desc(Accuracy))
-
 
 # View the result
 print(result)
