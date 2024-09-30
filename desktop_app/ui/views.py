@@ -23,6 +23,7 @@ from guardrails.hub import NSFWText
 from octoai.client import OctoAI
 from octoai.text_gen import ChatMessage
 import json2html
+import sqlite3
 
 #######################################
 ########### Set up logging ############
@@ -181,14 +182,80 @@ def process_reports(request):
 
 def convert_to_sql(request):
     json_data = request.POST.get('json_data')
-    if json_data:
+    print(f"json_data: {json_data}")
+
+    if not json_data:
+        return render(request, 'ui/page2_3.html', {'error': "No JSON data provided"})
+
+    try:
+        # Decode unicode escape sequences if necessary
+        json_data = json_data.encode('utf-8').decode('unicode_escape')
+        data = json.loads(json_data)
+        print(f"Try data: {data}")
+        data_2 = json.dumps(data, indent=4)
+        print(f"Try data_2: {data_2}")
+
+        sql_query = json_to_sql(data)
+        print(f"SQL: {sql_query}")
+
+        # Execute the generated SQL query
+        conn = sqlite3.connect(db_path)
+        print(f"Connection established: {conn}")
+        cursor = conn.cursor()
+        print(f"Cursor established: {cursor}")
+
         try:
-            data = json.loads(json_data)
-            sql_query = json_to_sql(data)
-            return render(request, 'ui/page2_1.html', {'output': data, 'sql_query': sql_query})
-        except json.JSONDecodeError:
-            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON data"})
-    return render(request, 'ui/page2_1.html', {'error': "No JSON data provided"})
+            # Test connection
+            cursor.execute("SELECT 1")
+            result = cursor.fetchone()
+            print(f"Connection test successful, result: {result}", flush=True)
+
+            # Split the SQL query if it contains multiple statements and count them
+            sql_statements = sql_query.strip().split(';')
+            num_statements = len([stmt for stmt in sql_statements if stmt.strip()])  
+            print(f"Number of SQL statements to be inserted: {num_statements}")
+
+            for statement in sql_statements:
+                if statement.strip():  # Check if the statement is not empty
+                    try:
+                        cursor.execute(statement)
+                    except sqlite3.Error as e:
+                        print(f"Error executing statement: {statement}")
+                        print(f"SQLite error: {e}")
+                        raise  # Re-raise the exception to be caught by the outer except block
+
+            conn.commit()
+
+            # Fetch the latest data from the database based on the number of statements
+            cursor.execute(f"SELECT * FROM reports ORDER BY report_id DESC LIMIT {num_statements}")
+            inserted_rows = cursor.fetchall()
+            print(f"Inserted Rows: {inserted_rows}")
+
+            # Fetch the column names
+            column_names = [description[0] for description in cursor.description]
+            print(f"Column Names: {column_names}")
+
+        except sqlite3.Error as e:
+            print(f"SQLite error during connection or SQL execution: {e}")
+        finally:
+            cursor.close()
+            conn.close()
+
+        # Render the template with column names and rows
+        return render(request, 'ui/page2_3.html', {
+            'output': data_2,
+            'sql_query': sql_query,
+            'success': 'Database updated successfully!',
+            'inserted_rows': inserted_rows,
+            'column_names': column_names
+        })
+
+    except json.JSONDecodeError:
+        return render(request, 'ui/page2_3.html', {'error': "Invalid JSON data"})
+    except sqlite3.Error as e:
+        return render(request, 'ui/page2_3.html', {'error': f"Database error occurred: {str(e)}"})
+    except Exception as e:
+        return render(request, 'ui/page2_3.html', {'error': f"An error occurred: {str(e)}"})
 
 def json_to_sql(data):
     json_output = json.dumps(data, indent=4)
@@ -196,7 +263,8 @@ def json_to_sql(data):
     # Prepare the prompt for the LLM
     prompt = f"""
     CONTEXT: You are an expert interpreter of json files to sql queries that will update a database. Your work is extremely important and will be used in a life or death situation.
-    TASK: Given the information of a json file, generate a SQL query to update the database based on the information given in the json file.
+    TASK: Given the information of a json file, generate a SQL query to update the database based on the information given in the json file.If no value in any json file field insert NA into string column
+    and 9999 into numerical column.
     EXAMPLE OF THE JSON YOU WILL RECEIVE:
     {{
     "Date": "21.05.1995",
