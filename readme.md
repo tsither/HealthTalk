@@ -13,7 +13,7 @@ HealthTalk/desktop_app/manage.py
 
 Then, 
 
-- In the process_reports function (Healthtalk/desktop_app/ui/views/py) and in X you’ll need to set your python version:
+- In the process_reports function (Healthtalk/desktop_app/ui/views/py) and in page3_view you’ll need to set your python version:
     - either python3 or python
 
 Finally, 
