@@ -11,8 +11,14 @@ Navigate to the following directory:
 HealthTalk/desktop_app/manage.py
 ```
 
-Run the following Django file along with the appropriate arguments to start the application.
+Then, 
 
+- In the process_reports function (Healthtalk/desktop_app/ui/views/py) and in X you’ll need to set your python version:
+    - either python3 or python
+
+Finally, 
+
+run the following Django file along with the appropriate arguments to start the application.
 
 ```bash
 python manage.py runserver
@@ -34,20 +40,34 @@ The logic of the application is contain in 'views.py' located here:
 Personal-Medical-Assistant/desktop_app/ui/views.py
 ```
 
+## Dependencies
+
+1. Install Python Requirements:
+Install required packages by running:
+    
+    ```bash
+    pip install -r requirements.txt
+    
+    ```
+    
+2. Install External Libraries:
+    - [Poppler](https://pdf2image.readthedocs.io/en/latest/installation.html#installing-poppler) - Required for PDF processing.
+    - [Tesseract](https://tesseract-ocr.github.io/tessdoc/Installation.html) - Needed for Optical Character Recognition (OCR).
+   
 ## Testing and Evaluation
 
 
 ### Content Extractor
 
 Contains the logic (and testing) of the content extractor feature. 
+Sample reports are available at:
+- ~/HealthTalk/backend_testing/content_extractor/data/images
 
 ### Fine-tuning
 Contains files related to the formatting of the [Spider](https://yale-lily.github.io/spider) dataset.
 
 ### LLM Agent
 Contains the files in which responses to the test datasets are generated and evaluated. 
-
-
 
 ## License
 
