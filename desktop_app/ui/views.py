@@ -8,6 +8,7 @@ import sqlalchemy
 from .DB_query.helper import generate_query, generate_response, generate_RAG_query, read_json_file, SUBCHAIN_PROMPT, FULLCHAIN_PROMPT, RAG_CONTEXT, HELPFUL_PROMPT
 from .DB_query.LLMs import PREM_LLM_Chatbot
 import logging
+import sqlite3
 from django.shortcuts import render, redirect
 from django.core.files.storage import FileSystemStorage
 from django.db import connection
@@ -52,22 +53,14 @@ USER_DATA = read_json_file(user_data_json_path)
 ##########################################
 
 #models, keys
-PREMAI_API_KEY = os.getenv("PREMAI_API_KEY")
-
-# langdock_api_key = os.getenv("langdock_api_key")
-# langdock_base_url = os.getenv("langdock_base_url")
-
-# model_gpt = "gpt-4o"
-# model_llama = "meta-llama-3-8b-instruct"
+PREMAI_API_KEY = "gee2EQKnNzZARpoEuuO2DOteK9fJMnblXi"
 
 
 #######################################################################
 ########### #CHANGE HERE FOR DIFFERENT KEYS + query method ############
 
 API_KEY = PREMAI_API_KEY 
-API_KEY = "NuiFrtAZwP8Kc7qlRJl07St0YKebTKyR4L"
-# MODEL = "gpt-4o"
-MODEL = "claude-3-haiku"
+MODEL = "claude-3.5-sonnet"
 sql_query_gen_method = False            #False: converts database to json file, queries database as dictionary (JSON METHOD - NO SQL QUERY GENERATION)
                                         #True: generate SQL queries to access database info (sqlite3)
 #############################################################
@@ -126,7 +119,6 @@ def page1_view(request):
                 "full_name": f"{user.first_name} {user.last_name}",
                 "gender": user.gender,
                 "birth_date": user.birth_date,
-                # "email": user.email,
                 "phone_number": user.phone_number,
             }
             logger.info(f"Fetched user information: {user_info}")
@@ -145,7 +137,7 @@ def process_reports(request):
     This part takes the file and runs it through the script. It also gets the result as a string (but it's JSON).
     '''
     PMA_path = Path.cwd()
-    extraction_path = PMA_path / "backend" / "content_extractor" / "extraction.py"
+    extraction_path = PMA_path / "backend_testing" / "content_extractor" / "extraction.py"
 
     if request.FILES.get('file'):
         uploaded_file = request.FILES['file']
@@ -163,13 +155,16 @@ def process_reports(request):
             check=True
         )
 
-        # Get the output of the script
         output = result.stdout
+
+        llm = PREM_LLM_Chatbot(model_name=MODEL, api_key=API_KEY, project_id=5834)
+
+        output = llm.chat_completion(EXTRACTION_PROMPT, output)        
 
         print(output)
 
         try:
-            json_output = json.loads(result.stdout)
+            json_output = json.loads(output)
             os.unlink(temp_file.name)  # Delete the temporary file
             # Pass JSON data to the template for rendering
             return render(request, 'ui/page2_2.html', {'json_output': json.dumps(json_output)})
@@ -181,14 +176,92 @@ def process_reports(request):
 
 def convert_to_sql(request):
     json_data = request.POST.get('json_data')
-    if json_data:
+    print(f"json_data: {json_data}")
+
+    if not json_data:
+        return render(request, 'ui/page2_3.html', {'error': "No JSON data provided"})
+
+    try:
+        # Decode unicode escape sequences if necessary
+        json_data = json_data.encode('utf-8').decode('unicode_escape')
+        data = json.loads(json_data)
+        print(f"Try data: {data}")
+        data_2 = json.dumps(data, indent=4)
+        print(f"Try data_2: {data_2}")
+
+        sql_query = json_to_sql(data)
+        print(f"SQL: {sql_query}")
+
+        # Execute the generated SQL query
+        conn = sqlite3.connect(db_path)
+        print(f"Connection established: {conn}")
+        cursor = conn.cursor()
+        print(f"Cursor established: {cursor}")
+
         try:
-            data = json.loads(json_data)
-            sql_query = json_to_sql(data)
-            return render(request, 'ui/page2_1.html', {'output': data, 'sql_query': sql_query})
-        except json.JSONDecodeError:
-            return render(request, 'ui/page2_1.html', {'error': "Invalid JSON data"})
-    return render(request, 'ui/page2_1.html', {'error': "No JSON data provided"})
+            # Test connection
+            cursor.execute("SELECT 1")
+            result = cursor.fetchone()
+            print(f"Connection test successful, result: {result}", flush=True)
+
+            # Split the SQL query if it contains multiple statements and count them
+            sql_statements = sql_query.strip().split(';')
+            num_statements = len([stmt for stmt in sql_statements if stmt.strip()])  # Count non-empty statements
+            print(f"Number of SQL statements to be inserted: {num_statements}")
+
+            for statement in sql_statements:
+                if statement.strip():  # Check if the statement is not empty
+                    try:
+                        cursor.execute(statement)
+                    except sqlite3.Error as e:
+                        print(f"Error executing statement: {statement}")
+                        print(f"SQLite error: {e}")
+                        raise  # Re-raise the exception to be caught by the outer except block
+
+            conn.commit()
+
+            # Fetch the latest data from the database based on the number of statements
+            cursor.execute(f"SELECT * FROM reports ORDER BY report_id DESC LIMIT {num_statements}")
+            inserted_rows = cursor.fetchall()
+            print(f"Inserted Rows: {inserted_rows}")
+
+            # Dynamically fetch the column names
+            column_names = [description[0] for description in cursor.description]
+            print(f"Column Names: {column_names}")
+
+        except sqlite3.Error as e:
+            print(f"SQLite error during connection or SQL execution: {e}")
+        finally:
+            cursor.close()
+            conn.close()
+
+        # return render(request, 'ui/page2_3.html', {'output': data_2, 'sql_query': sql_query, 'success': 'Database updated successfully!', 'inserted_rows': inserted_rows})
+
+        # Render the template with dynamic column names and rows
+        return render(request, 'ui/page2_3.html', {
+            'output': data_2,
+            'sql_query': sql_query,
+            'success': 'Database updated successfully!',
+            'inserted_rows': inserted_rows,
+            'column_names': column_names
+        })
+
+    except json.JSONDecodeError:
+        return render(request, 'ui/page2_3.html', {'error': "Invalid JSON data"})
+    except sqlite3.Error as e:
+        return render(request, 'ui/page2_3.html', {'error': f"Database error occurred: {str(e)}"})
+    except Exception as e:
+        return render(request, 'ui/page2_3.html', {'error': f"An error occurred: {str(e)}"})
+# def convert_to_sql(request):
+#     json_data = request.POST.get('json_data')
+#     if json_data:
+#         try:
+#             data = json.loads(json_data)
+#             sql_query = json_to_sql(data)
+#             return render(request, 'ui/page2_1.html', {'output': data, 'sql_query': sql_query})
+#         except json.JSONDecodeError:
+#             return render(request, 'ui/page2_1.html', {'error': "Invalid JSON data"})
+#     return render(request, 'ui/page2_1.html', {'error': "No JSON data provided"})
 
 def json_to_sql(data):
     json_output = json.dumps(data, indent=4)
@@ -196,7 +269,8 @@ def json_to_sql(data):
     # Prepare the prompt for the LLM
     prompt = f"""
     CONTEXT: You are an expert interpreter of json files to sql queries that will update a database. Your work is extremely important and will be used in a life or death situation.
-    TASK: Given the information of a json file, generate a SQL query to update the database based on the information given in the json file.
+    TASK: Given the information of a json file, generate a SQL query to update the database based on the information given in the json file. If no value in any json file field insert NA into string column
+    and 9999 into numerical column.
     EXAMPLE OF THE JSON YOU WILL RECEIVE:
     {{
     "Date": "21.05.1995",
@@ -263,24 +337,10 @@ def json_to_sql(data):
     IMPORTANT: Just return the SQL query. Do not make any further comment. Otherwise, the patient will die.
     """
 
+    llm = PREM_LLM_Chatbot(model_name=MODEL, api_key=API_KEY, project_id=5834)
 
-    # TODO: Create new OctoAI class as line 231
-    client = OctoAI()
-    completion = client.text_gen.create_chat_completion(
-        model="meta-llama-3-8b-instruct",
-        messages=[
-            ChatMessage(
-                role="system",
-                content=prompt,
-            ),
-            ChatMessage(role="user", content=str(json_output)),
-        ],
-        temperature=0.1,
-        max_tokens=8192-len(prompt),
-    )
+    response = llm.chat_completion(prompt=prompt, question=json_output)
 
-    response = completion.choices[0].message.content
-    print(response)
 
     return str(response)
 
@@ -291,53 +351,25 @@ def upload_success(request):
     return render(request, 'ui/page2_1.html')
 
 def page2_1view(request):
-    '''
-    Hana, before you start, consider the following:
-
-    0. I changed three files of yours: views.py, urls.py and ui/page2_1.html. In views I added functions
-    to get the file and then process it. In urls, I just added to more urls, so the functions have a place.
-    In the html I added some file suffixes.
-
-    Now, for it to work, you'll need the following as well:
-
-    1. Install all module requirements under:
-    Personal-Medical-Assistant/backend/content_extractor/requirements/extraction_venv_requirements.txt
-    
-    2. Check your DB filepath and environment path to get the API (lines 36 to 40 of this script)
-
-    3. Check process_reports() in this script. It takes the file and then process it through my script. 
-    As a result, we receive a json as string.
-
-    4. Check upload_success() in this script. That function should do the prompting and printing.
-
-    TODOS:
-    a) In upload_success() call an LLM so that it creates a SQL query
-    b) In general, it'd be nice to print the json and the sql query, so that people can see it.
-    Again, do not focus on updating the database. Let's just show the results of the json and the SQL.
-    That's the impressive part of this part of the project.
-
-    COMMENT: I talked with Ted and there is no real reason to focus on updating the database just now.
-    Its just enough if we show the json and the possible query. The updating is gonna be messy, so do
-    not try it.
-    
-    For the prompting, you can consider this:
-    
-    a) Prompt the LLM with my gold standard (json) and Teds gold standard (SQL query) as an example.
-    He said it should be enough like that. I sent you his gold standard on telegram. Mine is under:
-    Personal-Medical-Assistant/backend/content_extractor/data/json/example3_goldstandard.json 
-    According to him, it should be able to do a correct guess.
-
-    b) Do a properly parsing of the json to the SQL query. This seems like a lot of work.
-
-    See ya!
-    '''
-
     return render(request, 'ui/page2_1.html')
 
 def page2_2view(request):
     return render(request, 'ui/page2_2.html')
 
+def page2_3view(request):
+    sql_query = request.session.get('sql_query', 'No SQL query found.')
+    return render(request, 'ui/page2_3.html', {'sql_query': sql_query})
+
 def page3_view(request):
+    PMA_path = Path.cwd()
+    extraction_path = PMA_path / "desktop_app" / "ui" / "DB_query" / "sqlite2json.py"
+
+    result = subprocess.run(
+            ['python', extraction_path],
+            capture_output=False,
+            text=False,
+            check=True
+        )
     if request.method == "POST":
         try:
             data = json.loads(request.body)
@@ -404,6 +436,48 @@ def page3_view(request):
 def page3_3(request):
     return render(request, 'ui/page3_3.html')  
 
+
+EXTRACTION_PROMPT = """
+    CONTEXT: You are an expert in analyzing blood test results in a laboratory. Your work is extremely important and will be used in a life or death situation.  
+
+    TASK: Given the following text extracted using an OCR from a blood test report, please extract and structure the following information:
+    - Date of the test
+    - Patient information (if available)
+    - Test results, including:
+        - Test name
+        - Result value
+        - Unit of measurement (if available)
+        - Reference range (if available)
+
+    Format the output as a JSON object. If a piece of information is not available, use null for its value.
+
+    EXAMPLE OF YOUR EXPECTED OUTPUT:
+    {
+    "Date": "21.05.1995",
+    "patient_information": {
+        "patient_id": "12",
+        "patient_name": "Max Mustermann",
+        "patient_sex": "Female",
+        "patient_age": "21"
+        },
+    "test_results": [
+        {
+            "test_name": "Hemoglobin (Hb)",
+            "result_value": "12.5",
+            "unit_of_measurement": "g/dl",
+            "reference_range": "13.0-17.0 g/dL"
+        },
+        {
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "result_value": "87.75",
+            "unit_of_measurement": "fL",
+            "reference_range": "83-101 fL"
+        }
+        ]
+    }
+    
+    IMPORTANT: Just return the JSON object. Do not make any further comment. Otherwise, the patient will die. Make sure that the JSON is efficiently formatted.
+    """
 # def page3_view(request):
 #     if request.method == "POST":
 #         try:

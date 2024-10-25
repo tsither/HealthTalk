@@ -1,13 +1,15 @@
 import sqlite3
 import json
-
+from pathlib import Path
 ###################################################
 # Run file to convert sql database into json file
 #
 ###################################################
+PMA_path = Path.cwd()
 
-db_path = '/Users/mymac/LLM/Personal-Medical-Assistant/desktop_app/ui/DB_query/drew_database.db'
-json_path = '/Users/mymac/LLM/Personal-Medical-Assistant/desktop_app/ui/DB_query/drew_database.json'
+db_path = PMA_path / "desktop_app" / "ui" / "DB_query" / "med_assist.db"
+json_path = PMA_path / "desktop_app" / "ui" / "DB_query" / "med_assist.json"
+
 
     
 

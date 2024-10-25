@@ -1,0 +1,44 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Django Template</title>
+    <link rel="stylesheet" href="{% static 'ui/css/general.css' %}">
+</head>
+<body>
+
+<h1>Database Update Status</h1>
+<p>{{ success }}</p>
+
+{% if inserted_rows %}
+    <h1>Inserted Rows</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                {% for column in column_names %}
+                    <th>{{ column }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in inserted_rows %}
+            <tr>
+                {% for cell in row %}
+                    <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="button-container">
+        <a href="{% url 'home' %}" class="home-button">Home</a>
+        <a href="{% url 'page3' %}" class="green-button">Go to Chat</a>
+    </div>
+{% endif %}
+
+</body>
+</html>

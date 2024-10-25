@@ -14,7 +14,7 @@
         },
         {
             "name": "reports",
-            "seq": 8
+            "seq": 22
         },
         {
             "name": "doctors",
@@ -188,6 +188,174 @@
             "user_id": 1,
             "hospital_id": 4,
             "interpretation": "Normal"
+        },
+        {
+            "report_id": 9,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Hemoglobin (Hb)",
+            "test_result": 12.5,
+            "test_units": "g/dL",
+            "test_reference_range": "13.0-17.0 g/dL",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Low"
+        },
+        {
+            "report_id": 10,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Total RBC count",
+            "test_result": 5.2,
+            "test_units": "mill/cumm",
+            "test_reference_range": "4.5-5.5 mill/cumm",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 11,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Packed Cell Volume (PCV)",
+            "test_result": 57.5,
+            "test_units": "%",
+            "test_reference_range": "40-50 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "High"
+        },
+        {
+            "report_id": 12,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Mean Corpuscular Volume (MCV)",
+            "test_result": 87.75,
+            "test_units": "fL",
+            "test_reference_range": "83 - 101 fL",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 13,
+            "report_date": "02 Dec, 2X",
+            "test_name": "MCH",
+            "test_result": 27.2,
+            "test_units": "pg",
+            "test_reference_range": "27 - 32 pg",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 14,
+            "report_date": "02 Dec, 2X",
+            "test_name": "MCHC",
+            "test_result": 32.8,
+            "test_units": "g/dL",
+            "test_reference_range": "32.5 - 34.5 g/dL",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 15,
+            "report_date": "02 Dec, 2X",
+            "test_name": "RDW",
+            "test_result": 13.6,
+            "test_units": "%",
+            "test_reference_range": "11.6- 14.0 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 16,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Total WBC count",
+            "test_result": 9000.0,
+            "test_units": "cumm",
+            "test_reference_range": "4000-11000 cumm",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 17,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Neutrophils",
+            "test_result": 60.0,
+            "test_units": "%",
+            "test_reference_range": "50 - 62 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 18,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Lymphocytes",
+            "test_result": 31.0,
+            "test_units": "%",
+            "test_reference_range": "20 - 40 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 19,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Eosinophils",
+            "test_result": 1.0,
+            "test_units": "%",
+            "test_reference_range": "00 - 06 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 20,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Monocytes",
+            "test_result": 7.0,
+            "test_units": "%",
+            "test_reference_range": "00-10 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 21,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Basophils",
+            "test_result": 1.0,
+            "test_units": "%",
+            "test_reference_range": "00 - 02 %",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Normal"
+        },
+        {
+            "report_id": 22,
+            "report_date": "02 Dec, 2X",
+            "test_name": "Platelet Count",
+            "test_result": 9999.0,
+            "test_units": "cumm",
+            "test_reference_range": "150000 - 410000 cumm",
+            "report_type_id": 1,
+            "user_id": 1,
+            "hospital_id": 1,
+            "interpretation": "Low"
         }
     ],
     "appointments": [
@@ -318,14 +486,6 @@
             "gender": "F",
             "birth_date": "1990-12-01",
             "phone_number": "56892487"
-        },
-        {
-            "user_id": 2,
-            "first_name": "John",
-            "last_name": "Doe",
-            "gender": "M",
-            "birth_date": "1985-05-15",
-            "phone_number": "12345678"
         }
     ],
     "doctor_specialization": [
